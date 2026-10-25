@@ -1,0 +1,519 @@
+{
+ "updated": "2026-10-25T12:00:00Z",
+ "note": "Feeds read by scripts/fetch-news.mjs 4 times a day. kind sets the evidence badge. filter=true keeps only items that mention biotech terms (for broad feeds). status 'trial' = added by Claude, reviewed when trialEnds passes. See NEWS-UPDATING.md.",
+ "sources": [
+  {
+   "id": "fiercebiotech",
+   "name": "Fierce Biotech",
+   "home": "https://www.fiercebiotech.com",
+   "feeds": [
+    "https://www.fiercebiotech.com/rss/xml"
+   ],
+   "kind": "news",
+   "status": "core"
+  },
+  {
+   "id": "fiercepharma",
+   "name": "Fierce Pharma",
+   "home": "https://www.fiercepharma.com",
+   "feeds": [
+    "https://www.fiercepharma.com/rss/xml"
+   ],
+   "kind": "news",
+   "status": "core"
+  },
+  {
+   "id": "endpoints",
+   "name": "Endpoints News",
+   "home": "https://endpts.com",
+   "feeds": [
+    "https://endpts.com/feed/"
+   ],
+   "kind": "news",
+   "status": "core",
+   "paywall": true
+  },
+  {
+   "id": "stat",
+   "name": "STAT",
+   "home": "https://www.statnews.com",
+   "feeds": [
+    "https://www.statnews.com/feed/"
+   ],
+   "kind": "news",
+   "status": "core",
+   "filter": true,
+   "paywall": true
+  },
+  {
+   "id": "biopharmadive",
+   "name": "BioPharma Dive",
+   "home": "https://www.biopharmadive.com",
+   "feeds": [
+    "https://www.biopharmadive.com/feeds/news/"
+   ],
+   "kind": "news",
+   "status": "core"
+  },
+  {
+   "id": "biospace",
+   "name": "BioSpace",
+   "home": "https://www.biospace.com",
+   "feeds": [],
+   "kind": "news",
+   "status": "core",
+   "note": "No public feed; covered by Google News and Claude's daily search."
+  },
+  {
+   "id": "gen",
+   "name": "GEN – Genetic Engineering & Biotechnology News",
+   "home": "https://www.genengnews.com",
+   "feeds": [
+    "https://www.genengnews.com/feed/"
+   ],
+   "kind": "news",
+   "status": "core"
+  },
+  {
+   "id": "labiotech",
+   "name": "Labiotech.eu",
+   "home": "https://www.labiotech.eu",
+   "feeds": [
+    "https://www.labiotech.eu/feed/"
+   ],
+   "kind": "news",
+   "status": "core"
+  },
+  {
+   "id": "medtechdive",
+   "name": "MedTech Dive",
+   "home": "https://www.medtechdive.com",
+   "feeds": [
+    "https://www.medtechdive.com/feeds/news/"
+   ],
+   "kind": "news",
+   "status": "core"
+  },
+  {
+   "id": "genomeweb",
+   "name": "GenomeWeb",
+   "home": "https://www.genomeweb.com",
+   "feeds": [],
+   "kind": "news",
+   "status": "core",
+   "paywall": true,
+   "note": "Feed blocks automated readers; covered by Google News and Claude's daily search."
+  },
+  {
+   "id": "bioprocessintl",
+   "name": "BioProcess International",
+   "home": "https://www.bioprocessintl.com",
+   "feeds": [
+    "https://www.bioprocessintl.com/rss.xml"
+   ],
+   "kind": "news",
+   "status": "core"
+  },
+  {
+   "id": "synbiobeta",
+   "name": "SynBioBeta",
+   "home": "https://www.synbiobeta.com",
+   "feeds": [],
+   "kind": "news",
+   "status": "core",
+   "note": "No public feed; covered by Google News and Claude's daily search."
+  },
+  {
+   "id": "contractpharma",
+   "name": "Contract Pharma",
+   "home": "https://www.contractpharma.com",
+   "feeds": [],
+   "kind": "news",
+   "status": "core",
+   "note": "Feed blocks automated readers; covered by Claude's daily search."
+  },
+  {
+   "id": "greenqueen",
+   "name": "Green Queen",
+   "home": "https://www.greenqueen.com.hk",
+   "feeds": [
+    "https://www.greenqueen.com.hk/feed/"
+   ],
+   "kind": "news",
+   "status": "core",
+   "filter": true
+  },
+  {
+   "id": "agfunder",
+   "name": "AgFunderNews",
+   "home": "https://agfundernews.com",
+   "feeds": [
+    "https://agfundernews.com/feed"
+   ],
+   "kind": "news",
+   "status": "core",
+   "filter": true
+  },
+  {
+   "id": "cidrap",
+   "name": "CIDRAP (University of Minnesota)",
+   "home": "https://www.cidrap.umn.edu",
+   "feeds": [
+    "https://www.cidrap.umn.edu/rss.xml"
+   ],
+   "kind": "news",
+   "status": "core"
+  },
+  {
+   "id": "defenseone",
+   "name": "Defense One",
+   "home": "https://www.defenseone.com",
+   "feeds": [
+    "https://www.defenseone.com/rss/all/"
+   ],
+   "kind": "news",
+   "status": "core",
+   "filter": true
+  },
+  {
+   "id": "bulletin",
+   "name": "Bulletin of the Atomic Scientists",
+   "home": "https://thebulletin.org",
+   "feeds": [],
+   "kind": "news",
+   "status": "core",
+   "filter": true,
+   "note": "Feed blocks automated readers; covered by Google News and Claude's daily search."
+  },
+  {
+   "id": "fda",
+   "name": "US FDA press releases",
+   "home": "https://www.fda.gov",
+   "feeds": [
+    "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml"
+   ],
+   "kind": "official",
+   "status": "core"
+  },
+  {
+   "id": "ema",
+   "name": "European Medicines Agency",
+   "home": "https://www.ema.europa.eu",
+   "feeds": [
+    "https://www.ema.europa.eu/en/news.xml"
+   ],
+   "kind": "official",
+   "status": "core"
+  },
+  {
+   "id": "mhra",
+   "name": "UK MHRA",
+   "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
+   "feeds": [
+    "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency.atom"
+   ],
+   "kind": "official",
+   "status": "core"
+  },
+  {
+   "id": "ukhsa",
+   "name": "UK Health Security Agency",
+   "home": "https://www.gov.uk/government/organisations/uk-health-security-agency",
+   "feeds": [
+    "https://www.gov.uk/government/organisations/uk-health-security-agency.atom"
+   ],
+   "kind": "official",
+   "status": "core",
+   "filter": true
+  },
+  {
+   "id": "who",
+   "name": "World Health Organization",
+   "home": "https://www.who.int",
+   "feeds": [],
+   "kind": "official",
+   "status": "core",
+   "filter": true,
+   "note": "Public feed is out of date; covered by Google News and Claude's daily search."
+  },
+  {
+   "id": "globenewswire",
+   "name": "GlobeNewswire (biotech)",
+   "home": "https://www.globenewswire.com",
+   "feeds": [
+    "https://www.globenewswire.com/RssFeed/industry/4573-Biotechnology/feedTitle/GlobeNewswire%20-%20Industry%20News%20on%20Biotechnology",
+    "https://www.globenewswire.com/RssFeed/subjectcode/36-Clinical%20Study/feedTitle/GlobeNewswire%20-%20Clinical%20Study"
+   ],
+   "kind": "pr",
+   "status": "core",
+   "cap": 40
+  },
+  {
+   "id": "prnewswire",
+   "name": "PR Newswire (health)",
+   "home": "https://www.prnewswire.com",
+   "feeds": [
+    "https://www.prnewswire.com/rss/health-latest-news/health-latest-news-list.rss"
+   ],
+   "kind": "pr",
+   "status": "core",
+   "filter": true,
+   "cap": 40
+  },
+  {
+   "id": "businesswire",
+   "name": "Business Wire (health)",
+   "home": "https://www.businesswire.com",
+   "feeds": [],
+   "kind": "pr",
+   "status": "core",
+   "filter": true,
+   "cap": 40,
+   "note": "No biotech-specific public feed; covered by Claude's daily search."
+  },
+  {
+   "id": "nbt",
+   "name": "Nature Biotechnology",
+   "home": "https://www.nature.com/nbt",
+   "feeds": [
+    "https://www.nature.com/nbt.rss"
+   ],
+   "kind": "journal",
+   "status": "core"
+  },
+  {
+   "id": "natmed",
+   "name": "Nature Medicine",
+   "home": "https://www.nature.com/nm",
+   "feeds": [
+    "https://www.nature.com/nm.rss"
+   ],
+   "kind": "journal",
+   "status": "core"
+  },
+  {
+   "id": "nature",
+   "name": "Nature",
+   "home": "https://www.nature.com",
+   "feeds": [
+    "https://www.nature.com/nature.rss"
+   ],
+   "kind": "journal",
+   "status": "core",
+   "filter": true
+  },
+  {
+   "id": "science",
+   "name": "Science",
+   "home": "https://www.science.org",
+   "feeds": [
+    "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science"
+   ],
+   "kind": "journal",
+   "status": "core",
+   "filter": true
+  },
+  {
+   "id": "cell",
+   "name": "Cell",
+   "home": "https://www.cell.com/cell",
+   "feeds": [
+    "https://www.cell.com/cell/current.rss"
+   ],
+   "kind": "journal",
+   "status": "core"
+  },
+  {
+   "id": "nejm",
+   "name": "New England Journal of Medicine",
+   "home": "https://www.nejm.org",
+   "feeds": [
+    "https://www.nejm.org/action/showFeed?jc=nejm&type=etoc&feed=rss"
+   ],
+   "kind": "journal",
+   "status": "core"
+  },
+  {
+   "id": "lancet",
+   "name": "The Lancet",
+   "home": "https://www.thelancet.com",
+   "feeds": [
+    "https://www.thelancet.com/rssfeed/lancet_current.xml"
+   ],
+   "kind": "journal",
+   "status": "core"
+  },
+  {
+   "id": "biorxiv",
+   "name": "bioRxiv preprints",
+   "home": "https://www.biorxiv.org",
+   "feeds": [],
+   "kind": "preprint",
+   "status": "core",
+   "cap": 30,
+   "api": "biorxiv",
+   "categories": [
+    "synthetic biology",
+    "bioengineering",
+    "microbiology",
+    "biotechnology"
+   ]
+  },
+  {
+   "id": "naturenews",
+   "name": "Nature (biotechnology news & research)",
+   "home": "https://www.nature.com/news",
+   "feeds": [
+    "https://www.nature.com/subjects/biotechnology/nature.rss"
+   ],
+   "kind": "science",
+   "status": "core",
+   "filter": true
+  },
+  {
+   "id": "sciencenews",
+   "name": "Science news",
+   "home": "https://www.science.org/news",
+   "feeds": [
+    "https://www.science.org/rss/news_current.xml"
+   ],
+   "kind": "science",
+   "status": "core",
+   "filter": true
+  },
+  {
+   "id": "newscientist",
+   "name": "New Scientist",
+   "home": "https://www.newscientist.com",
+   "feeds": [],
+   "kind": "science",
+   "status": "core",
+   "filter": true,
+   "note": "Feed blocks automated readers; covered by Google News and Claude's daily search."
+  },
+  {
+   "id": "sciam",
+   "name": "Scientific American",
+   "home": "https://www.scientificamerican.com",
+   "feeds": [
+    "https://www.scientificamerican.com/platform/syndication/rss/"
+   ],
+   "kind": "science",
+   "status": "core",
+   "filter": true
+  },
+  {
+   "id": "thescientist",
+   "name": "The Scientist",
+   "home": "https://www.the-scientist.com",
+   "feeds": [
+    "https://www.the-scientist.com/atom/latest"
+   ],
+   "kind": "science",
+   "status": "core"
+  },
+  {
+   "id": "eurekalert",
+   "name": "EurekAlert! (AAAS)",
+   "home": "https://www.eurekalert.org",
+   "feeds": [],
+   "kind": "science",
+   "status": "core",
+   "filter": true,
+   "cap": 30,
+   "note": "No working public feed; covered by Claude's daily search."
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "home": "https://www.sciencedaily.com",
+   "feeds": [
+    "https://www.sciencedaily.com/rss/plants_animals/biotechnology.xml",
+    "https://www.sciencedaily.com/rss/health_medicine/genes.xml",
+    "https://www.sciencedaily.com/rss/plants_animals/microbiology.xml"
+   ],
+   "kind": "science",
+   "status": "core",
+   "filter": true
+  }
+ ],
+ "google": {
+  "note": "Google News searches. Only stories from the trustedOutlets below or from a listed source's site are kept.",
+  "queries": [
+   "biodefense OR biodefence OR \"biological weapons\" OR \"chemical and biological defence\"",
+   "biosecurity OR \"pandemic preparedness\" OR \"biological threat\" OR \"gain of function\"",
+   "biotech FDA approval OR \"phase 3\" OR \"clinical trial results\"",
+   "\"medical device\" approval OR clearance OR recall",
+   "diagnostics test approval OR \"diagnostic test\" launch",
+   "\"AI drug discovery\" OR \"AI protein design\" OR \"AI biology\"",
+   "\"precision fermentation\" OR \"cultivated meat\" OR \"gene-edited crops\" OR \"biofertiliser\"",
+   "\"synthetic biology\" OR biomanufacturing OR \"bio-based chemicals\"",
+   "CDMO OR bioprocessing OR \"biologics manufacturing\" OR \"cell and gene therapy manufacturing\"",
+   "biotech funding round OR \"series A\" biotech OR \"series B\" biotech OR biotech IPO",
+   "biotech acquisition OR biotech merger OR \"licensing deal\" biotech",
+   "biotech policy OR \"national biotechnology strategy\" OR \"bioeconomy\""
+  ],
+  "trustedOutlets": [
+   "reuters.com",
+   "apnews.com",
+   "ft.com",
+   "bloomberg.com",
+   "wsj.com",
+   "nytimes.com",
+   "washingtonpost.com",
+   "theguardian.com",
+   "bbc.co.uk",
+   "bbc.com",
+   "economist.com",
+   "cnbc.com",
+   "axios.com",
+   "politico.com",
+   "politico.eu",
+   "statnews.com",
+   "nature.com",
+   "science.org",
+   "newscientist.com",
+   "scientificamerican.com",
+   "the-scientist.com",
+   "technologyreview.com",
+   "fiercebiotech.com",
+   "fiercepharma.com",
+   "endpts.com",
+   "biopharmadive.com",
+   "biospace.com",
+   "genengnews.com",
+   "labiotech.eu",
+   "medtechdive.com",
+   "genomeweb.com",
+   "bioprocessintl.com",
+   "synbiobeta.com",
+   "agfundernews.com",
+   "greenqueen.com.hk",
+   "cidrap.umn.edu",
+   "defenseone.com",
+   "breakingdefense.com",
+   "defensenews.com",
+   "thebulletin.org",
+   "fda.gov",
+   "ema.europa.eu",
+   "gov.uk",
+   "who.int",
+   "cdc.gov",
+   "nih.gov",
+   "europa.eu",
+   "nikkei.com",
+   "asia.nikkei.com",
+   "scmp.com",
+   "straitstimes.com",
+   "endpts.com",
+   "evaluate.com",
+   "bioworld.com",
+   "pharmaceutical-technology.com",
+   "foodnavigator.com",
+   "fooddive.com",
+   "chemistryworld.com",
+   "cen.acs.org"
+  ]
+ },
+ "log": []
+}
