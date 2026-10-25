@@ -18,13 +18,13 @@
 <style>
 /* Layout: phone-first (search, sector chips, results; filters in a bottom sheet); filters become a sidebar from 900px */
 :root{
-  --bg:#EEF2F1; --surface:#FFFFFF; --ink:#0F1A1C; --muted:#56656A; --line:#D2DBDA; --accent:#0B8A6F; --accent-ink:#FFFFFF; --soft:#F5F8F7; --warn:#B4441C; --bg-news:#EEF1F7;
+  --bg:#EEF2F1; --surface:#FFFFFF; --ink:#0F1A1C; --muted:#56656A; --line:#D2DBDA; --accent:#0B8A6F; --accent-ink:#FFFFFF; --soft:#F5F8F7; --warn:#B4441C; --bg-news:#E7EDF8;
   --f-display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
   --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0C1314;--surface:#152022;--ink:#E4ECEB;--muted:#93A4A6;--line:#26363A;--accent:#35C9A5;--accent-ink:#06211B;--soft:#111B1D;--warn:#FF8A5C;--bg-news:#0D121A;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#0C1314;--surface:#152022;--ink:#E4ECEB;--muted:#93A4A6;--line:#26363A;--accent:#35C9A5;--accent-ink:#06211B;--soft:#111B1D;--warn:#FF8A5C;--bg-news:#0D121A;color-scheme:dark}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0C1314;--surface:#152022;--ink:#E4ECEB;--muted:#93A4A6;--line:#26363A;--accent:#35C9A5;--accent-ink:#06211B;--soft:#111B1D;--warn:#FF8A5C;--bg-news:#0B1221;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0C1314;--surface:#152022;--ink:#E4ECEB;--muted:#93A4A6;--line:#26363A;--accent:#35C9A5;--accent-ink:#06211B;--soft:#111B1D;--warn:#FF8A5C;--bg-news:#0B1221;color-scheme:dark}
 /* The News tab gets a faint blue-grey page tint so it reads as a different place from Events. */
 :root[data-tab="news"]{--bg:var(--bg-news)}
 html,body{transition:background-color .2s}
