@@ -151,6 +151,28 @@ h1 span{color:var(--accent)}
 .daylist{display:grid;gap:10px}
 .daylist h3{font-family:var(--f-display);margin:6px 2px 0;font-size:18px}
 .foot{color:var(--muted);font-size:12px;line-height:1.5}
+/* tabs + news */
+.tabs{display:flex;gap:2px;border-bottom:1.5px solid var(--line);margin-top:-2px}
+.tabs button{border:0;background:none;padding:6px 14px 7px;font-family:var(--f-display);font-weight:700;font-size:18px;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-1.5px}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.ncard h4 a{color:inherit;text-decoration:none}
+.ncard h4 a:hover{text-decoration:underline}
+.tag.ev-journal,.tag.ev-official{color:var(--accent);border-color:color-mix(in srgb,var(--accent) 40%,transparent)}
+.tag.ev-pr,.tag.ev-preprint,.tag.trial{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 40%,transparent)}
+.tag.wait{border-style:dashed}
+.ailbl{font-family:var(--f-mono);font-size:10.5px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:6px}
+.also{font-size:13px;color:var(--muted)}
+.brief{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:12px;padding:12px 14px;display:grid;gap:6px}
+.brief h3{margin:0;font-family:var(--f-display);font-size:19px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.brief h3 small{font-family:var(--f-mono);font-size:11px;font-weight:500;color:var(--muted)}
+.brief ul{margin:0;padding-left:18px;display:grid;gap:6px;font-size:14px}
+.brief .go{border:0;background:none;color:var(--accent);font-weight:600;padding:0 2px;font-size:13px}
+.srcs{display:grid;gap:14px}
+.srcs h3{font-family:var(--f-display);margin:0 0 6px;font-size:18px}
+.srow{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;padding:7px 0;border-top:1px solid var(--line);font-size:14px}
+.srow a{font-weight:600}
+.srow .st{font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.srow .st.bad{color:var(--warn)}
 .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:999px;font-size:14px;z-index:30}
 </style>
 </head>
@@ -160,6 +182,10 @@ h1 span{color:var(--accent)}
     <h1>Bio <span>Radar</span></h1>
     <div class="upd" id="upd"></div>
   </header>
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button type="button" role="tab" data-tab="events">Events</button>
+    <button type="button" role="tab" data-tab="news">News</button>
+  </nav>
   <div class="stale" id="stale" hidden></div>
 
   <div class="searchrow">
@@ -179,18 +205,15 @@ h1 span{color:var(--accent)}
     <section class="results">
       <div class="bar">
         <div class="count" id="count"></div>
-        <select class="sel" id="sort" aria-label="Sort by">
-          <option value="rel">Most relevant</option>
-          <option value="date">Soonest first</option>
-          <option value="new">Newest added</option>
-        </select>
-        <div class="seg" role="group" aria-label="View">
+        <select class="sel" id="sort" aria-label="Sort by"></select>
+        <button class="btn" type="button" id="srcbtn" hidden>Sources</button>
+        <div class="seg" role="group" aria-label="View" id="viewseg">
           <button type="button" data-view="list">List</button>
           <button type="button" data-view="month">Month</button>
         </div>
       </div>
       <div id="out"></div>
-      <p class="foot">Summaries and relevance scores are written by AI from each event's website and checked weekly. Dates and details can change: always confirm on the official site before booking.</p>
+      <p class="foot" id="foot"></p>
     </section>
   </div>
 </div>
@@ -220,6 +243,12 @@ const REGIONS = { europe: "Europe", uk: "UK & Ireland", namerica: "North America
 const WHEN = { all: "Any time", d30: "Next 30 days", d90: "Next 3 months", d180: "Next 6 months", d365: "Next 12 months", d548: "Next 18 months", custom: "Pick dates" };
 const MIN_REL = 5;     // a sector chip shows events scoring at least this for that sector
 const STALE_DAYS = 8;  // data is refreshed weekly
+const NCATS = { funding: "Funding", deals: "Deals & M&A", regulatory: "Regulatory", clinical: "Clinical", science: "Science", policy: "Policy", contracts: "Contracts", other: "Other" };
+// Evidence badge per source kind (set in news-sources.json).
+const KINDS = { journal: "Peer-reviewed", official: "Official source", news: "News outlet", science: "Science news", pr: "Company claim", preprint: "Preprint · not peer-reviewed" };
+const NWHEN = { d1: "Last 24 hours", d3: "Last 3 days", d7: "Last week", d30: "Last 30 days", d90: "Last 90 days" };
+const NEWS_STALE_DAYS = 2;  // headlines refresh 4x a day, the AI review daily
+const PREPRINT_MIN = 7;     // preprints show only once Claude scores them this high somewhere
 
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -246,17 +275,23 @@ const S = {
   favOnly: !!saved.favOnly, freeOnly: !!saved.freeOnly, past: !!saved.past,
   sort: saved.sort || "rel",
   view: saved.view || "list",
+  tab: location.hash === "#news" ? "news" : saved.tab || "events",
   month: null, day: null,
   open: new Set(),
 };
+const nsaved = store.get("br-news", {});
+const N = { cats: new Set(nsaved.cats || []), kinds: new Set(nsaved.kinds || []), when: nsaved.when || "d7", favOnly: !!nsaved.favOnly, sort: nsaved.sort || "top", sources: false };
 let FAV = new Set(store.get("br-favs", []));
-let DATA = { events: [] };
+let NFAV = store.get("br-newsfav", {});  // id -> saved copy, so favourite stories outlive the 90-day window
+let DATA = { events: [] }, LOAD_ERR = false;
+let NEWS = { items: [], feeds: {} }, NAI = { items: {}, extra: [] }, NSRC = { sources: [] }, STORIES = [];
 
 function persist() {
   store.set("br-state", {
     sectors: [...S.sectors], types: [...S.types], formats: [...S.formats], regions: [...S.regions],
-    when: S.when, from: S.from, to: S.to, favOnly: S.favOnly, freeOnly: S.freeOnly, past: S.past, sort: S.sort, view: S.view,
+    when: S.when, from: S.from, to: S.to, favOnly: S.favOnly, freeOnly: S.freeOnly, past: S.past, sort: S.sort, view: S.view, tab: S.tab,
   });
+  store.set("br-news", { cats: [...N.cats], kinds: [...N.kinds], when: N.when, favOnly: N.favOnly, sort: N.sort });
 }
 
 /* ---------- matching ---------- */
@@ -274,8 +309,9 @@ function textOf(e) {
 }
 // 0 when any search word is missing; otherwise higher for matches in the name.
 function textScore(e, terms) {
-  if (!terms.length) return 1;
-  const t = textOf(e);
+  return terms.length ? matchScore(textOf(e), terms) : 1;
+}
+function matchScore(t, terms) {
   let s = 0;
   for (const w of terms) {
     const k = t.name.includes(w) ? 3 : t.mid.includes(w) ? 2 : t.body.includes(w) ? 1 : 0;
@@ -322,6 +358,136 @@ function filtered({ ignoreDates = false } = {}) {
   else if (S.sort === "new") out.sort((a, b) => (b.e.added || "").localeCompare(a.e.added || "") || byDate(a, b));
   else out.sort((a, b) => (b.ss - a.ss) || (b.ts - a.ts) || byDate(a, b));
   return out;
+}
+
+/* ---------- news ---------- */
+// Feed stories (news.json) + Claude's review (news-ai.json: summaries, scores, drops, duplicates, scouted extras).
+function buildStories() {
+  const src = Object.fromEntries((NSRC.sources || []).map((s) => [s.id, s]));
+  const byId = new Map();
+  for (const it of NEWS.items || []) {
+    const a = NAI.items?.[it.id];
+    byId.set(it.id, { ...it, ...(a || {}), reviewed: !!a, trial: src[it.sourceId]?.status === "trial", paywall: !!src[it.sourceId]?.paywall });
+  }
+  for (const x of NAI.extra || []) if (!byId.has(x.id)) byId.set(x.id, { ...x, reviewed: true, scouted: true });
+  for (const it of byId.values()) {
+    const p = it.dup && byId.get(it.dup);
+    if (p && !p.dup) (p.also ||= []).push({ source: it.source, url: it.url });
+  }
+  STORIES = [...byId.values()].filter((it) => !it.drop && !(it.dup && byId.has(it.dup)) &&
+    (it.kind !== "preprint" || (it.reviewed && Math.max(it.imp || 0, ...Object.values(it.rel || {}).map((v) => v.score)) >= PREPRINT_MIN)));
+  for (const [id, copy] of Object.entries(NFAV)) if (!byId.has(id)) STORIES.push({ ...copy, archived: true });
+}
+// Until Claude reviews a story, its keyword-guessed sectors count as a middling score.
+const nrel = (it) => it.reviewed ? (it.rel || {}) : Object.fromEntries((it.guess?.sectors || []).map((k) => [k, { score: MIN_REL, guess: true }]));
+const ncat = (it) => it.cat || it.guess?.cat || "other";
+const nimp = (it) => it.reviewed ? (it.imp ?? 5) : 4;
+function ntextOf(it) {
+  if (!it._t) {
+    const why = Object.entries(it.rel || {}).map(([k, v]) => `${SEC[k]?.name || k} ${v.why || ""}`).join(" ");
+    it._t = { name: norm(it.title), mid: norm(`${it.source} ${NCATS[ncat(it)]} ${KINDS[it.kind] || ""}`), body: norm(`${it.summary || ""} ${it.snippet || ""} ${why}`) };
+  }
+  return it._t;
+}
+function filteredNews() {
+  const terms = norm(S.q).split(/\s+/).filter(Boolean);
+  const cutoff = Date.now() - +N.when.slice(1) * 864e5;
+  const out = [];
+  for (const it of STORIES) {
+    const t = new Date(it.published);
+    if (N.favOnly ? !NFAV[it.id] : t < cutoff) continue;
+    if (N.cats.size && !N.cats.has(ncat(it))) continue;
+    if (N.kinds.size && !N.kinds.has(it.kind)) continue;
+    const rel = nrel(it);
+    let ss = 0;
+    for (const s of S.sectors) ss = Math.max(ss, rel[s]?.score || 0);
+    if (S.sectors.size && ss < MIN_REL) continue;
+    const ts = terms.length ? matchScore(ntextOf(it), terms) : 1;
+    if (!ts) continue;
+    out.push({ it, t, ss, ts });
+  }
+  if (N.sort === "latest") out.sort((a, b) => b.t - a.t);
+  else out.sort((a, b) => (S.sectors.size ? b.ss - a.ss : nimp(b.it) - nimp(a.it)) || (b.ts - a.ts) || (b.t - a.t));
+  return out;
+}
+function ago(t) {
+  const m = Math.round((Date.now() - t) / 6e4);
+  if (m < 60) return `${Math.max(m, 1)} min ago`;
+  const h = Math.round(m / 60);
+  if (h < 24) return `${h} h ago`;
+  const d = Math.round(h / 24);
+  return d < 7 ? `${d} day${d > 1 ? "s" : ""} ago` : `${t.getDate()} ${MON[t.getMonth()]} ${t.getFullYear()}`;
+}
+function ncard({ it, t }) {
+  const open = S.open.has(it.id);
+  const rel = Object.entries(nrel(it)).filter(([k]) => SEC[k]).sort((a, b) => b[1].score - a[1].score);
+  const top = [...rel.filter(([k]) => S.sectors.has(k)), ...rel.filter(([k]) => !S.sectors.has(k))].slice(0, 3);
+  const badge = (k, v) => v.guess ? `<span class="sc" style="--c:${SEC[k].c}">${esc(SEC[k].name)}?</span>` : scoreBadge(k, v);
+  const fav = !!NFAV[it.id];
+  return `<article class="card ncard${open ? " open" : ""}" id="nw-${esc(it.id)}">
+    <div class="ctop">
+      <div class="ttl"><h4><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a></h4><div class="meta">${esc(it.source)}${it.via ? ` · via ${esc(it.via)}` : ""} · ${ago(t)}</div></div>
+      <button class="star" type="button" data-nfav="${esc(it.id)}" aria-pressed="${fav}" aria-label="${fav ? "Remove from" : "Add to"} favourites">${STAR}</button>
+    </div>
+    <div class="tags"><span class="tag ev-${esc(it.kind)}">${esc(KINDS[it.kind] || "News outlet")}</span><span class="tag">${esc(NCATS[ncat(it)] || "Other")}</span>${it.trial ? `<span class="tag trial">Trial source</span>` : ""}${it.scouted ? `<span class="tag">Found by Claude</span>` : ""}${it.paywall ? `<span class="tag">May need subscription</span>` : ""}${it.reviewed ? "" : `<span class="tag wait">Awaiting AI review</span>`}${open ? "" : top.map(([k, v]) => badge(k, v)).join("")}</div>
+    ${it.summary ? `<p class="sum"><span class="ailbl">AI summary</span>${esc(it.summary)}</p>` : it.snippet ? `<p class="sum"><span class="ailbl">From the source</span>${esc(it.snippet)}</p>` : ""}
+    ${open ? `${rel.length ? `<ul class="why">${rel.map(([k, v]) => `<li>${badge(k, v)}<span>${esc(v.why || "Keyword match; not yet scored by AI.")}</span></li>`).join("")}</ul>` : ""}
+    ${it.also?.length ? `<div class="also">Also reported by ${it.also.map((a) => `<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.source)}</a>`).join(", ")}</div>` : ""}
+    <div class="acts"><a class="btn pri" href="${esc(it.url)}" target="_blank" rel="noopener">Read original ↗</a><button class="btn" type="button" data-nshare="${esc(it.id)}">Share</button>${it.archived ? `<span class="chk">Saved copy: no longer in the feed</span>` : ""}</div>` : ""}
+    <button class="more" type="button" data-toggle="${esc(it.id)}">${open ? "Show less" : "Why it matters & links"}</button>
+  </article>`;
+}
+function briefHtml() {
+  const b = NAI.brief, d = b && new Date(b.date);
+  if (!b?.points?.length || S.q || N.favOnly || isNaN(d) || Date.now() - d > 3 * 864e5) return "";
+  const ids = new Set(STORIES.map((s) => s.id));
+  return `<section class="brief"><h3>Today's brief <small>AI · ${d.getDate()} ${MON[d.getMonth()]}</small></h3><ul>${b.points.map((p) => {
+    const id = (p.ids || []).find((x) => ids.has(x));
+    return `<li>${esc(p.text)}${id ? ` <button class="go" type="button" data-go="${esc(id)}">Read →</button>` : ""}</li>`;
+  }).join("")}</ul></section>`;
+}
+function sourcesHtml() {
+  const f = NEWS.feeds || {};
+  const row = (s) => {
+    const st = f[s.id], bad = st && !st.lastOk || (st?.error && Date.now() - new Date(st.lastOk) > 864e5);
+    return `<div class="srow"><a href="${esc(s.home)}" target="_blank" rel="noopener">${esc(s.name)}</a>${s.status === "trial" ? `<span class="tag trial">Trial until ${esc(s.trialEnds || "?")}</span>` : ""}${s.paywall ? `<span class="tag">Paywall</span>` : ""}<span class="st${bad ? " bad" : ""}">${!st ? "not fetched yet" : bad ? "feed not working" : `ok · ${ago(new Date(st.lastOk))}`}</span>${s.why ? `<span class="also">${esc(s.why)}</span>` : ""}</div>`;
+  };
+  return `<div class="panel srcs" style="padding:14px">
+    <div><button class="btn" type="button" data-srcclose>← Back to news</button></div>
+    <p class="also" style="margin:0">Headlines are pulled from these sources 4 times a day, plus Google News searches limited to ${(NSRC.google?.trustedOutlets || []).length} established outlets. Claude reviews them daily, adds important stories it finds itself from established outlets, and can add new sources on a 2-week trial.</p>
+    ${Object.entries(KINDS).map(([k, label]) => { const list = (NSRC.sources || []).filter((s) => s.kind === k); return list.length ? `<div><h3>${label} · ${list.length}</h3>${list.map(row).join("")}</div>` : ""; }).join("")}
+    ${NSRC.log?.length ? `<div><h3>Recent changes</h3>${NSRC.log.slice(-12).reverse().map((l) => `<div class="srow"><span class="st">${esc(l.date)}</span>${esc(l.text)}</div>`).join("")}</div>` : ""}
+  </div>`;
+}
+const newsFilterCount = () => N.cats.size + N.kinds.size + (N.when !== "d7") + N.favOnly;
+function renderNewsFilters() {
+  const group = (title, key, map) => `<div class="fgroup"><b>${title}</b><div class="opts">${Object.entries(map).map(([k, v]) => `<button type="button" class="opt" data-nset="${key}" data-v="${k}" aria-pressed="${N[key].has(k)}">${esc(v)}</button>`).join("")}</div></div>`;
+  $("#filters").innerHTML = `<h3>Filters</h3>
+    <div class="fgroup"><b>Published</b><div class="opts">${Object.entries(NWHEN).map(([k, v]) => `<button type="button" class="opt" data-nwhen="${k}" aria-pressed="${N.when === k}">${v}</button>`).join("")}</div></div>
+    ${group("News type", "cats", NCATS)}
+    ${group("Evidence", "kinds", KINDS)}
+    <div class="fgroup"><button type="button" class="tog" data-ntog="favOnly" aria-pressed="${N.favOnly}"><span>Favourites only</span><span class="sw"></span></button></div>
+    <div class="factions"><button type="button" class="reset" data-reset>Clear all</button><button type="button" class="done" data-close>Show results</button></div>`;
+}
+function renderNews() {
+  if (N.sources) { $("#count").innerHTML = ""; $("#out").innerHTML = sourcesHtml(); return; }
+  const rows = filteredNews();
+  $("#count").innerHTML = `<b>${rows.length}</b> stor${rows.length === 1 ? "y" : "ies"}`;
+  const empty = STORIES.length
+    ? `<div class="empty"><b>No stories match</b>Try a longer time range, fewer filters or a different search.${newsFilterCount() || S.sectors.size ? `<br><button class="reset" type="button" data-reset>Clear all filters</button>` : ""}</div>`
+    : `<div class="empty"><b>No news yet</b>Stories appear after the next feed update.</div>`;
+  $("#out").innerHTML = briefHtml() + (rows.length ? rows.map(ncard).join("") : empty);
+}
+function openStory(id) {
+  if (!STORIES.some((s) => s.id === id)) return;
+  S.tab = "news"; N.sources = false;
+  if (!document.getElementById("nw-" + id)) {
+    S.q = ""; $("#q").value = ""; S.sectors.clear(); N.cats.clear(); N.kinds.clear(); N.favOnly = false; N.when = "d90";
+  }
+  S.open.add(id);
+  renderFilters(); render();
+  const el = document.getElementById("nw-" + id);
+  if (el) { el.scrollIntoView({ block: "start" }); el.classList.add("flash"); }
 }
 
 /* ---------- rendering ---------- */
@@ -400,6 +566,7 @@ function activeFilterCount() {
 }
 
 function renderFilters() {
+  if (S.tab === "news") return renderNewsFilters();
   const group = (title, key, map) => `<div class="fgroup"><b>${title}</b><div class="opts">${Object.entries(map).map(([k, v]) => `<button type="button" class="opt" data-set="${key}" data-v="${k}" aria-pressed="${S[key].has(k)}">${esc(v)}</button>`).join("")}</div></div>`;
   const tog = (key, label) => `<button type="button" class="tog" data-tog="${key}" aria-pressed="${S[key]}"><span>${label}</span><span class="sw"></span></button>`;
   $("#filters").innerHTML = `<h3>Filters</h3>
@@ -414,17 +581,39 @@ function renderFilters() {
 
 function renderChips() {
   $("#chips").innerHTML = SECTORS.map(([id, name, c]) => `<button type="button" class="chip" style="--c:${c}" data-sector="${id}" aria-pressed="${S.sectors.has(id)}"><i></i>${esc(name)}</button>`).join("");
-  $("#hint").textContent = S.sectors.size ? `Showing events scoring ${MIN_REL}+ out of 10 for ${[...S.sectors].map((s) => SEC[s].name).join(" or ")}.` : "Tap a sector to rank events by how relevant they are to it.";
+  const what = S.tab === "news" ? "stories" : "events";
+  $("#hint").textContent = S.sectors.size ? `Showing ${what} scoring ${MIN_REL}+ out of 10 for ${[...S.sectors].map((s) => SEC[s].name).join(" or ")}.` : `Tap a sector to rank ${what} by how relevant they are to it.`;
 }
 
+const SORTS = {
+  events: { rel: "Most relevant", date: "Soonest first", new: "Newest added" },
+  news: { top: "Top stories", latest: "Latest first" },
+};
+const FOOT = {
+  events: "Summaries and relevance scores are written by AI from each event's website and checked weekly. Dates and details can change: always confirm on the official site before booking.",
+  news: "Headlines come from the listed sources 4 times a day. Summaries, scores and the brief are written by AI once a day from the source articles and can contain mistakes: read the original before relying on a story. \"Company claim\" means a company's own press release; preprints have not been peer-reviewed.",
+};
 function render() {
+  const news = S.tab === "news";
+  document.querySelectorAll("[data-tab]").forEach((b) => b.setAttribute("aria-selected", b.dataset.tab === S.tab));
+  $("#q").placeholder = news ? "Search news, companies, topics…" : "Search events, topics, places…";
+  $("#foot").textContent = FOOT[S.tab];
   renderChips();
-  const n = activeFilterCount();
+  showUpdated();
+  const n = news ? newsFilterCount() : activeFilterCount();
   $("#fcount").hidden = !n; $("#fcount").textContent = n;
-  $("#sort").value = S.sort;
-  $("#sort").hidden = S.view === "month";
+  $("#sort").innerHTML = Object.entries(SORTS[S.tab]).map(([k, v]) => `<option value="${k}">${v}</option>`).join("");
+  $("#sort").value = news ? N.sort : S.sort;
+  $("#sort").hidden = news ? N.sources : S.view === "month";
+  $("#srcbtn").hidden = !news || N.sources;
+  $("#viewseg").hidden = news;
+  persist();
+  if (news) return renderNews();
   document.querySelectorAll("[data-view]").forEach((b) => b.setAttribute("aria-pressed", b.dataset.view === S.view));
-  if (S.view === "month") {
+  if (LOAD_ERR) {
+    $("#count").innerHTML = "";
+    $("#out").innerHTML = `<div class="empty"><b>Couldn't load events</b>Check your connection and reload.</div>`;
+  } else if (S.view === "month") {
     $("#out").innerHTML = renderMonth();
     $("#count").innerHTML = "";
   } else {
@@ -457,16 +646,46 @@ async function share(id) {
   try { await navigator.clipboard.writeText(`${text}\n\nMore: ${link}`); toast("Event details copied"); }
   catch { prompt("Copy this link:", link); }
 }
+async function shareNews(id) {
+  const it = STORIES.find((x) => x.id === id);
+  if (!it) return;
+  const link = `${location.origin}${location.pathname}#n=${encodeURIComponent(id)}`;
+  const text = `${it.title}\n${it.source}\n${it.url}`;
+  if (navigator.share) {
+    try { await navigator.share({ title: it.title, text, url: link }); } catch {}
+    return;
+  }
+  try { await navigator.clipboard.writeText(`${text}\n\nMore: ${link}`); toast("Story link copied"); }
+  catch { prompt("Copy this link:", link); }
+}
 
 document.addEventListener("click", (ev) => {
   const t = ev.target.closest("button");
   if (!t) return;
   const d = t.dataset;
-  if (d.sector) { S.sectors.has(d.sector) ? S.sectors.delete(d.sector) : S.sectors.add(d.sector); if (S.sectors.size) S.sort = "rel"; }
+  if (d.tab) { if (S.tab === d.tab && !N.sources) return; S.tab = d.tab; N.sources = false; renderFilters(); window.scrollTo(0, 0); }
+  else if (d.sector) { S.sectors.has(d.sector) ? S.sectors.delete(d.sector) : S.sectors.add(d.sector); if (S.sectors.size) { S.sort = "rel"; N.sort = "top"; } }
   else if (d.set) { const s = S[d.set]; s.has(d.v) ? s.delete(d.v) : s.add(d.v); }
+  else if (d.nset) { const s = N[d.nset]; s.has(d.v) ? s.delete(d.v) : s.add(d.v); }
   else if (d.when) { S.when = d.when; renderFilters(); }
+  else if (d.nwhen) N.when = d.nwhen;
   else if (d.tog) S[d.tog] = !S[d.tog];
-  else if (d.reset !== undefined) { S.types.clear(); S.formats.clear(); S.regions.clear(); S.sectors.clear(); S.when = "all"; S.from = S.to = ""; S.favOnly = S.freeOnly = S.past = false; S.q = ""; $("#q").value = ""; $("#qx").hidden = true; renderFilters(); }
+  else if (d.ntog) N[d.ntog] = !N[d.ntog];
+  else if (d.reset !== undefined) {
+    if (S.tab === "news") { N.cats.clear(); N.kinds.clear(); N.when = "d7"; N.favOnly = false; }
+    else { S.types.clear(); S.formats.clear(); S.regions.clear(); S.when = "all"; S.from = S.to = ""; S.favOnly = S.freeOnly = S.past = false; }
+    S.sectors.clear(); S.q = ""; $("#q").value = ""; $("#qx").hidden = true; renderFilters();
+  }
+  else if (t.id === "srcbtn") { N.sources = true; window.scrollTo(0, 0); }
+  else if (d.srcclose !== undefined) N.sources = false;
+  else if (d.go) { openStory(d.go); return; }
+  else if (d.nfav) {
+    if (NFAV[d.nfav]) delete NFAV[d.nfav];
+    else { const it = STORIES.find((x) => x.id === d.nfav); if (it) { const { _t, also, archived, ...copy } = it; NFAV[d.nfav] = copy; } }
+    store.set("br-newsfav", NFAV);
+    toast(NFAV[d.nfav] ? "Added to favourites" : "Removed from favourites");
+  }
+  else if (d.nshare) { shareNews(d.nshare); return; }
   else if (d.close !== undefined) { openFilters(false); return; }
   else if (d.fav) {
     FAV.has(d.fav) ? FAV.delete(d.fav) : FAV.add(d.fav);
@@ -484,13 +703,16 @@ document.addEventListener("click", (ev) => {
     $("#filters").querySelectorAll("[data-set]").forEach((b) => b.setAttribute("aria-pressed", S[b.dataset.set].has(b.dataset.v)));
     $("#filters").querySelectorAll("[data-tog]").forEach((b) => b.setAttribute("aria-pressed", S[b.dataset.tog]));
     $("#filters").querySelectorAll("[data-when]").forEach((b) => b.setAttribute("aria-pressed", S.when === b.dataset.when));
+    $("#filters").querySelectorAll("[data-nset]").forEach((b) => b.setAttribute("aria-pressed", N[b.dataset.nset].has(b.dataset.v)));
+    $("#filters").querySelectorAll("[data-ntog]").forEach((b) => b.setAttribute("aria-pressed", N[b.dataset.ntog]));
+    $("#filters").querySelectorAll("[data-nwhen]").forEach((b) => b.setAttribute("aria-pressed", N.when === b.dataset.nwhen));
   }
   render();
 });
 document.addEventListener("change", (ev) => {
   if (ev.target.id === "from") S.from = ev.target.value;
   else if (ev.target.id === "to") S.to = ev.target.value;
-  else if (ev.target.id === "sort") S.sort = ev.target.value;
+  else if (ev.target.id === "sort") S.tab === "news" ? (N.sort = ev.target.value) : (S.sort = ev.target.value);
   else return;
   render();
 });
@@ -504,13 +726,16 @@ $("#fopen").addEventListener("click", () => openFilters(true));
 $("#scrim").addEventListener("click", () => openFilters(false));
 document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") openFilters(false); });
 
-// A shared link (#e=<id>) opens that event, even if filters would hide it.
+// A shared link (#e=<id> or #n=<id>) opens that event or story, even if filters would hide it.
 function openShared() {
+  const n = location.hash.match(/^#n=(.+)$/);
+  if (n) { openStory(decodeURIComponent(n[1])); history.replaceState(null, "", location.pathname); return; }
   const m = location.hash.match(/^#e=(.+)$/);
   if (!m) return;
   const id = decodeURIComponent(m[1]);
   const e = DATA.events.find((x) => x.id === id);
   if (!e) return;
+  S.tab = "events";
   S.view = "list"; S.q = ""; $("#q").value = "";
   S.sectors.clear(); S.types.clear(); S.formats.clear(); S.regions.clear(); S.when = "all"; S.favOnly = S.freeOnly = false; S.past = true;
   S.open.add(id);
@@ -521,27 +746,39 @@ function openShared() {
 }
 
 function showUpdated() {
+  const st = $("#stale");
+  st.hidden = true; $("#upd").textContent = "";
+  if (S.tab === "news") {
+    const u = NEWS.updated && new Date(NEWS.updated), r = NAI.updated && new Date(NAI.updated);
+    if (u) $("#upd").textContent = `${STORIES.length} stories · headlines ${ago(u)}`;
+    const late = [];
+    if (u && Date.now() - u > NEWS_STALE_DAYS * 864e5) late.push(`headlines were last fetched ${ago(u)}`);
+    if (r && Date.now() - r > NEWS_STALE_DAYS * 864e5) late.push(`the AI review last ran ${ago(r)}, so recent stories have no summaries or scores yet`);
+    if (late.length) { st.hidden = false; st.innerHTML = `<b>May be out of date.</b> ${esc(late.join("; "))}.`; }
+    return;
+  }
   const u = DATA.updated ? new Date(DATA.updated) : null;
   if (!u || isNaN(u)) return;
   const age = Math.floor((Date.now() - u) / 864e5);
   $("#upd").textContent = `${DATA.events.length} events · updated ${u.getDate()} ${MON[u.getMonth()]} ${u.getFullYear()}`;
   if (age > STALE_DAYS) {
-    $("#stale").hidden = false;
-    $("#stale").innerHTML = `<b>May be out of date.</b> The event list was last refreshed ${age} days ago, so new events may be missing.`;
+    st.hidden = false;
+    st.innerHTML = `<b>May be out of date.</b> The event list was last refreshed ${age} days ago, so new events may be missing.`;
   }
 }
 
+async function loadNews() {
+  const get = (f) => fetch("data/" + f, { cache: "no-cache" }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  const [n, a, s] = await Promise.all([get("news.json"), get("news-ai.json"), get("news-sources.json")]);
+  NEWS = n || NEWS; NAI = a || NAI; NSRC = s || NSRC;
+  buildStories();
+}
+
 async function load() {
-  $("#out").innerHTML = `<div class="empty">Loading events…</div>`;
-  try {
-    const r = await fetch("data/events.json", { cache: "no-cache" });
-    if (!r.ok) throw new Error(r.status);
-    DATA = await r.json();
-  } catch {
-    $("#out").innerHTML = `<div class="empty"><b>Couldn't load events</b>Check your connection and reload.</div>`;
-    return;
-  }
-  showUpdated();
+  $("#out").innerHTML = `<div class="empty">Loading…</div>`;
+  const events = fetch("data/events.json", { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); });
+  const [e] = await Promise.allSettled([events, loadNews()]);
+  if (e.status === "fulfilled") DATA = e.value; else LOAD_ERR = true;
   renderFilters();
   render();
   openShared();
