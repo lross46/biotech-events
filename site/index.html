@@ -8,7 +8,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Bio Radar">
-<meta name="description" content="Biotech conferences, symposia and webinars worldwide, with AI summaries and relevance by sector.">
+<meta name="description" content="Biotech events and news worldwide, with AI summaries and relevance by sector.">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
@@ -248,7 +248,6 @@ const NCATS = { funding: "Funding", deals: "Deals & M&A", regulatory: "Regulator
 const KINDS = { journal: "Peer-reviewed", official: "Official source", news: "News outlet", science: "Science news", pr: "Company claim", preprint: "Preprint · not peer-reviewed" };
 const NWHEN = { d1: "Last 24 hours", d3: "Last 3 days", d7: "Last week", d30: "Last 30 days", d90: "Last 90 days" };
 const NEWS_STALE_DAYS = 2;  // headlines refresh 4x a day, the AI review daily
-const PREPRINT_MIN = 7;     // preprints show only once Claude scores them this high somewhere
 
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -284,7 +283,7 @@ const N = { cats: new Set(nsaved.cats || []), kinds: new Set(nsaved.kinds || [])
 let FAV = new Set(store.get("br-favs", []));
 let NFAV = store.get("br-newsfav", {});  // id -> saved copy, so favourite stories outlive the 90-day window
 let DATA = { events: [] }, LOAD_ERR = false;
-let NEWS = { items: [], feeds: {} }, NAI = { items: {}, extra: [] }, NSRC = { sources: [] }, STORIES = [];
+let NEWS = { items: [], feeds: {} }, ARCHIVE = null, NSRC = { sources: [] }, STORIES = [];
 
 function persist() {
   store.set("br-state", {
@@ -361,22 +360,28 @@ function filtered({ ignoreDates = false } = {}) {
 }
 
 /* ---------- news ---------- */
-// Feed stories (news.json) + Claude's review (news-ai.json: summaries, scores, drops, duplicates, scouted extras).
+// news-feed.json (built by scripts/build-news.mjs) holds the last 2 weeks with Claude's review merged in;
+// older stories are in news-feed-archive.json, loaded only when a longer time range is picked.
 function buildStories() {
   const src = Object.fromEntries((NSRC.sources || []).map((s) => [s.id, s]));
-  const byId = new Map();
-  for (const it of NEWS.items || []) {
-    const a = NAI.items?.[it.id];
-    byId.set(it.id, { ...it, ...(a || {}), reviewed: !!a, trial: src[it.sourceId]?.status === "trial", paywall: !!src[it.sourceId]?.paywall });
-  }
-  for (const x of NAI.extra || []) if (!byId.has(x.id)) byId.set(x.id, { ...x, reviewed: true, scouted: true });
-  for (const it of byId.values()) {
-    const p = it.dup && byId.get(it.dup);
-    if (p && !p.dup) (p.also ||= []).push({ source: it.source, url: it.url });
-  }
-  STORIES = [...byId.values()].filter((it) => !it.drop && !(it.dup && byId.has(it.dup)) &&
-    (it.kind !== "preprint" || (it.reviewed && Math.max(it.imp || 0, ...Object.values(it.rel || {}).map((v) => v.score)) >= PREPRINT_MIN)));
-  for (const [id, copy] of Object.entries(NFAV)) if (!byId.has(id)) STORIES.push({ ...copy, archived: true });
+  const ids = new Set();
+  STORIES = [...(NEWS.items || []), ...(ARCHIVE || [])].map((it) => {
+    ids.add(it.id);
+    return { ...it, trial: src[it.sourceId]?.status === "trial", paywall: !!src[it.sourceId]?.paywall };
+  });
+  for (const [id, copy] of Object.entries(NFAV)) if (!ids.has(id)) STORIES.push({ ...copy, archived: true });
+}
+let archiveLoading = false;
+async function loadArchive() {
+  if (ARCHIVE || archiveLoading) return;
+  archiveLoading = true;
+  try {
+    const r = await fetch("data/news-feed-archive.json", { cache: "no-cache" });
+    ARCHIVE = r.ok ? (await r.json()).items || [] : [];
+  } catch { ARCHIVE = []; }
+  archiveLoading = false;
+  buildStories();
+  if (S.tab === "news") render();
 }
 // Until Claude reviews a story, its keyword-guessed sectors count as a middling score.
 const nrel = (it) => it.reviewed ? (it.rel || {}) : Object.fromEntries((it.guess?.sectors || []).map((k) => [k, { score: MIN_REL, guess: true }]));
@@ -438,7 +443,7 @@ function ncard({ it, t }) {
   </article>`;
 }
 function briefHtml() {
-  const b = NAI.brief, d = b && new Date(b.date);
+  const b = NEWS.brief, d = b && new Date(b.date);
   if (!b?.points?.length || S.q || N.favOnly || isNaN(d) || Date.now() - d > 3 * 864e5) return "";
   const ids = new Set(STORIES.map((s) => s.id));
   return `<section class="brief"><h3>Today's brief <small>AI · ${d.getDate()} ${MON[d.getMonth()]}</small></h3><ul>${b.points.map((p) => {
@@ -471,12 +476,14 @@ function renderNewsFilters() {
 }
 function renderNews() {
   if (N.sources) { $("#count").innerHTML = ""; $("#out").innerHTML = sourcesHtml(); return; }
+  const needArchive = (N.when === "d30" || N.when === "d90" || N.favOnly) && !ARCHIVE && NEWS.archived > 0;
+  if (needArchive) loadArchive();
   const rows = filteredNews();
   $("#count").innerHTML = `<b>${rows.length}</b> stor${rows.length === 1 ? "y" : "ies"}`;
   const empty = STORIES.length
     ? `<div class="empty"><b>No stories match</b>Try a longer time range, fewer filters or a different search.${newsFilterCount() || S.sectors.size ? `<br><button class="reset" type="button" data-reset>Clear all filters</button>` : ""}</div>`
     : `<div class="empty"><b>No news yet</b>Stories appear after the next feed update.</div>`;
-  $("#out").innerHTML = briefHtml() + (rows.length ? rows.map(ncard).join("") : empty);
+  $("#out").innerHTML = briefHtml() + (rows.length ? rows.map(ncard).join("") : empty) + (needArchive ? `<div class="empty">Loading older stories…</div>` : "");
 }
 function openStory(id) {
   if (!STORIES.some((s) => s.id === id)) return;
@@ -749,7 +756,7 @@ function showUpdated() {
   const st = $("#stale");
   st.hidden = true; $("#upd").textContent = "";
   if (S.tab === "news") {
-    const u = NEWS.updated && new Date(NEWS.updated), r = NAI.updated && new Date(NAI.updated);
+    const u = NEWS.updated && new Date(NEWS.updated), r = NEWS.reviewed && new Date(NEWS.reviewed);
     if (u) $("#upd").textContent = `${STORIES.length} stories · headlines ${ago(u)}`;
     const late = [];
     if (u && Date.now() - u > NEWS_STALE_DAYS * 864e5) late.push(`headlines were last fetched ${ago(u)}`);
@@ -769,8 +776,8 @@ function showUpdated() {
 
 async function loadNews() {
   const get = (f) => fetch("data/" + f, { cache: "no-cache" }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
-  const [n, a, s] = await Promise.all([get("news.json"), get("news-ai.json"), get("news-sources.json")]);
-  NEWS = n || NEWS; NAI = a || NAI; NSRC = s || NSRC;
+  const [n, s] = await Promise.all([get("news-feed.json"), get("news-sources.json")]);
+  NEWS = n || NEWS; NSRC = s || NSRC;
   buildStories();
 }
 

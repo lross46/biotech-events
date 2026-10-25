@@ -91,7 +91,8 @@ async function get(url, { feed = true } = {}) {
     if (r.status === 403 || r.status === 406) { last = new Error(`HTTP ${r.status}`); continue; }
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     const text = await r.text();
-    if (feed && !/<(rss|feed|rdf:RDF)[\s>]/i.test(text)) throw new Error("not a feed");
+    // Some sites answer bots with an HTML login or challenge page instead of the feed.
+    if (feed && !/<(rss|feed|rdf:RDF)[\s>]/i.test(text)) { last = new Error("not a feed"); continue; }
     return text;
   }
   throw last;
@@ -140,6 +141,7 @@ let added = 0;
 
 function addItem(raw, src, extra = {}) {
   if (!raw.title || !/^https?:\/\//.test(raw.link)) return false;
+  if (/\/(fr|de|es|it|nl|pt|ja|zh|ko|sv|da|fi|no)\//i.test(new URL(raw.link).pathname)) return false;  // translated press releases
   const url = raw.link.replace(/^http:/, "https:");
   const id = idOf(url);
   const nt = normTitle(raw.title);

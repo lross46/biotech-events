@@ -1,7 +1,7 @@
 {
   "name": "Bio Radar",
   "short_name": "Bio Radar",
-  "description": "Biotech conferences, symposia and webinars, ranked by relevance to your sectors.",
+  "description": "Biotech events and news, ranked by relevance to your sectors.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

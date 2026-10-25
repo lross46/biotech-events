@@ -47,6 +47,8 @@ jobs:
       - name: Check news files
         id: news
         run: node scripts/check-news.mjs
+      - name: Build the News tab data
+        run: node scripts/build-news.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

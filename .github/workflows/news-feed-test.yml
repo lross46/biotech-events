@@ -16,6 +16,7 @@ jobs:
       - run: node scripts/fetch-news.mjs
       - run: node scripts/check-news.mjs
       - run: node scripts/check-data.mjs
+      - run: node scripts/build-news.mjs && ls -la site/data
       - run: |
           node -e '
           const n = require("./site/data/news.json");
