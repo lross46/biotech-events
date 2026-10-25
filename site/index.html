@@ -18,13 +18,16 @@
 <style>
 /* Layout: phone-first (search, sector chips, results; filters in a bottom sheet); filters become a sidebar from 900px */
 :root{
-  --bg:#EEF2F1; --surface:#FFFFFF; --ink:#0F1A1C; --muted:#56656A; --line:#D2DBDA; --accent:#0B8A6F; --accent-ink:#FFFFFF; --soft:#F5F8F7; --warn:#B4441C;
+  --bg:#EEF2F1; --surface:#FFFFFF; --ink:#0F1A1C; --muted:#56656A; --line:#D2DBDA; --accent:#0B8A6F; --accent-ink:#FFFFFF; --soft:#F5F8F7; --warn:#B4441C; --bg-news:#EEF1F7;
   --f-display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
   --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0C1314;--surface:#152022;--ink:#E4ECEB;--muted:#93A4A6;--line:#26363A;--accent:#35C9A5;--accent-ink:#06211B;--soft:#111B1D;--warn:#FF8A5C;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#0C1314;--surface:#152022;--ink:#E4ECEB;--muted:#93A4A6;--line:#26363A;--accent:#35C9A5;--accent-ink:#06211B;--soft:#111B1D;--warn:#FF8A5C;color-scheme:dark}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0C1314;--surface:#152022;--ink:#E4ECEB;--muted:#93A4A6;--line:#26363A;--accent:#35C9A5;--accent-ink:#06211B;--soft:#111B1D;--warn:#FF8A5C;--bg-news:#0D121A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0C1314;--surface:#152022;--ink:#E4ECEB;--muted:#93A4A6;--line:#26363A;--accent:#35C9A5;--accent-ink:#06211B;--soft:#111B1D;--warn:#FF8A5C;--bg-news:#0D121A;color-scheme:dark}
+/* The News tab gets a faint blue-grey page tint so it reads as a different place from Events. */
+:root[data-tab="news"]{--bg:var(--bg-news)}
+html,body{transition:background-color .2s}
 *{box-sizing:border-box}
 html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);background:var(--bg);-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.45}
@@ -153,8 +156,9 @@ h1 span{color:var(--accent)}
 .foot{color:var(--muted);font-size:12px;line-height:1.5}
 /* tabs + news */
 .tabs{display:flex;gap:2px;border-bottom:1.5px solid var(--line);margin-top:-2px}
-.tabs button{border:0;background:none;padding:6px 14px 7px;font-family:var(--f-display);font-weight:700;font-size:18px;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-1.5px}
+.tabs button{display:inline-flex;align-items:center;gap:7px;border:0;background:none;padding:6px 14px 7px;font-family:var(--f-display);font-weight:700;font-size:18px;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-1.5px}
 .tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.tabs svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
 .ncard h4 a{color:inherit;text-decoration:none}
 .ncard h4 a:hover{text-decoration:underline}
 .tag.ev-journal,.tag.ev-official{color:var(--accent);border-color:color-mix(in srgb,var(--accent) 40%,transparent)}
@@ -183,8 +187,8 @@ h1 span{color:var(--accent)}
     <div class="upd" id="upd"></div>
   </header>
   <nav class="tabs" role="tablist" aria-label="Sections">
-    <button type="button" role="tab" data-tab="events">Events</button>
-    <button type="button" role="tab" data-tab="news">News</button>
+    <button type="button" role="tab" data-tab="events"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>Events</button>
+    <button type="button" role="tab" data-tab="news"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5h11.5v14a2 2 0 0 0 2 2H6a2 2 0 0 1-2-2V5.5"/><path d="M16.5 9H20v9.5a2 2 0 0 1-4 0M8 8.5h5M8 12h5M8 15.5h5"/></svg>News</button>
   </nav>
   <div class="stale" id="stale" hidden></div>
 
@@ -602,6 +606,7 @@ const FOOT = {
 };
 function render() {
   const news = S.tab === "news";
+  document.documentElement.dataset.tab = S.tab;
   document.querySelectorAll("[data-tab]").forEach((b) => b.setAttribute("aria-selected", b.dataset.tab === S.tab));
   $("#q").placeholder = news ? "Search news, companies, topics…" : "Search events, topics, places…";
   $("#foot").textContent = FOOT[S.tab];
