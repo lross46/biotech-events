@@ -10,7 +10,7 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
   which reads their feeds plus Google News searches and writes the headlines to `site/data/news.json`.
   **Never edit `news.json`**: the fetcher owns it and rewrites it every 6 hours.
 - You own `site/data/news-ai.json` (your review) and maintain `site/data/news-sources.json` (the source list).
-- The reader is the owner and his colleagues: biotech professionals who want to know what changed and why it matters for
+- The readers are the owner and their colleagues: biotech professionals who want to know what changed and why it matters for
   the 12 sectors below. They asked for **well-evidenced sources only**. Accuracy beats coverage.
 
 ## Steps
@@ -71,7 +71,10 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
      established outlet.
 7. Set `updated` in `news-ai.json` (and in `news-sources.json` if you changed it) to the current UTC time.
 8. Run `node scripts/check-news.mjs` and fix every error.
-9. Commit with a message like `Daily news review: 212 reviewed (61 dropped, 18 duplicates), 7 scouted` and push
+9. Before committing, set the commit identity so no personal email ends up in the public history:
+   `git config user.name "lross46"` and
+   `git config user.email "347590180+lross46@users.noreply.github.com"`.
+   Commit with a message like `Daily news review: 212 reviewed (61 dropped, 18 duplicates), 7 scouted` and push
    to `main`. If the push is rejected because the headline job pushed meanwhile, `git pull --rebase` and push
    again (you never touch the same file, so there is nothing to merge).
 10. **On Mondays only**, post one short message to the owner in your thread: sources added, kept, or removed in the
