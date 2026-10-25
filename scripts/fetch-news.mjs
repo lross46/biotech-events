@@ -192,6 +192,7 @@ async function runGoogle() {
         // Google titles end in " - Outlet"; a listed source keeps its own evidence label.
         const own = bySite.find(([d]) => d && onDomain(h, [d]))?.[1];
         const name = it.outlet.name || h;
+        it.body = "";  // Google's description just repeats the headline
         it.title = it.title.replace(new RegExp(`\\s+-\\s+${name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}$`), "");
         const src = { id: "google", name, kind: own?.kind || (onDomain(h, ["fda.gov", "ema.europa.eu", "gov.uk", "who.int", "cdc.gov", "nih.gov", "europa.eu"]) ? "official" : "news"), filter: true };
         if (addItem(it, src, { via: "Google News" })) kept++;
