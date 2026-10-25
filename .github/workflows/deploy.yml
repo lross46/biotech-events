@@ -1,0 +1,55 @@
+name: Check events and publish
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "23 6 * * *"   # daily, 06:23 UTC: re-checks freshness (the event list itself is updated weekly by Claude)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      stale_days: ${{ steps.check.outputs.stale_days }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/configure-pages@v5
+      - name: Check events.json
+        id: check
+        run: node scripts/check-data.mjs
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  # A red run makes GitHub email the repo owner, so a stalled weekly update gets noticed.
+  freshness:
+    needs: [build, deploy]
+    if: fromJSON(needs.build.outputs.stale_days) > 8
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "::error::The event list was last updated ${{ needs.build.outputs.stale_days }} days ago. The weekly Claude update has probably stopped; see UPDATING.md."
+          exit 1
