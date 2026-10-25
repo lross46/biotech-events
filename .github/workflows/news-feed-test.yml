@@ -1,0 +1,16 @@
+# Temporary: dry-runs the news fetcher on the feature branch to see which feeds work. Removed before merge.
+name: News feed test
+on:
+  push:
+    branches: ["claude/**"]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/fetch-news.mjs --dry
