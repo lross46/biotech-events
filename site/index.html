@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0F1A1C">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Bio Radar">
+<meta name="description" content="Biotech conferences, symposia and webinars worldwide, with AI summaries and relevance by sector.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<title>Bio Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Layout: phone-first (search, sector chips, results; filters in a bottom sheet); filters become a sidebar from 900px */
+:root{
+  --bg:#EEF2F1; --surface:#FFFFFF; --ink:#0F1A1C; --muted:#56656A; --line:#D2DBDA; --accent:#0B8A6F; --accent-ink:#FFFFFF; --soft:#F5F8F7; --warn:#B4441C;
+  --f-display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0C1314;--surface:#152022;--ink:#E4ECEB;--muted:#93A4A6;--line:#26363A;--accent:#35C9A5;--accent-ink:#06211B;--soft:#111B1D;--warn:#FF8A5C;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0C1314;--surface:#152022;--ink:#E4ECEB;--muted:#93A4A6;--line:#26363A;--accent:#35C9A5;--accent-ink:#06211B;--soft:#111B1D;--warn:#FF8A5C;color-scheme:dark}
+*{box-sizing:border-box}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);background:var(--bg);-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.45}
+[hidden]{display:none!important}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+a{color:var(--accent)}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:14px 48px;display:grid;gap:12px}
+
+header{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap}
+h1{font-family:var(--f-display);font-weight:700;font-size:30px;letter-spacing:.01em;margin:0;line-height:1}
+h1 span{color:var(--accent)}
+.upd{font-family:var(--f-mono);font-size:11.5px;color:var(--muted)}
+.stale{background:color-mix(in srgb,var(--warn) 14%,var(--surface));border:1px solid color-mix(in srgb,var(--warn) 45%,transparent);color:var(--ink);border-radius:10px;padding:9px 12px;font-size:13.5px}
+.stale b{color:var(--warn)}
+
+.searchrow{display:flex;gap:8px}
+.search{flex:1;display:flex;align-items:center;gap:8px;background:var(--surface);border:1.5px solid var(--line);border-radius:10px;padding:0 12px;min-width:0}
+.search:focus-within{border-color:var(--accent)}
+.search svg{width:18px;height:18px;flex:none;stroke:var(--muted);fill:none;stroke-width:2}
+.search input{border:0;background:none;outline:none;padding:11px 0;width:100%;min-width:0}
+.search .x{border:0;background:none;color:var(--muted);padding:4px;font-size:18px;line-height:1}
+.fbtn{border:1.5px solid var(--line);background:var(--surface);border-radius:10px;padding:0 14px;font-weight:600;display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.fbtn .n{background:var(--accent);color:var(--accent-ink);border-radius:999px;font-size:12px;min-width:20px;height:20px;display:inline-grid;place-items:center;padding:0 6px}
+
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none;margin-inline:-4px;padding-inline:4px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;display:inline-flex;align-items:center;gap:7px;border:1.5px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px 6px 9px;font-weight:600;font-size:14px;color:var(--muted)}
+.chip i{width:10px;height:10px;border-radius:50%;flex:none;box-shadow:inset 0 0 0 1.5px var(--c)}
+.chip[aria-pressed="true"]{border-color:var(--c);background:color-mix(in srgb,var(--c) 14%,var(--surface));color:var(--ink)}
+.chip[aria-pressed="true"] i{background:var(--c)}
+.hint{font-size:12.5px;color:var(--muted);margin-top:-4px}
+
+.main{display:grid;gap:14px;grid-template-columns:1fr;align-items:start}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;min-width:0}
+
+/* filters: bottom sheet on phones, sticky sidebar on wide screens */
+.filters{display:grid;gap:16px;padding:16px}
+.filters h3{margin:0;font-family:var(--f-display);font-size:20px}
+.fgroup{display:grid;gap:7px}
+.fgroup > b{font-family:var(--f-display);font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.opts{display:flex;flex-wrap:wrap;gap:6px}
+.opt{border:1.5px solid var(--line);background:var(--soft);border-radius:8px;padding:5px 10px;font-size:13.5px;font-weight:500}
+.opt[aria-pressed="true"]{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 14%,var(--surface));font-weight:600}
+.dates{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--muted)}
+.dates input{border:1.5px solid var(--line);background:var(--soft);border-radius:8px;padding:5px 8px}
+.tog{display:flex;align-items:center;justify-content:space-between;gap:10px;border:0;background:none;padding:4px 0;width:100%;text-align:left;font-weight:500}
+.tog .sw{width:40px;height:24px;border-radius:999px;background:var(--line);position:relative;flex:none;transition:background .15s}
+.tog .sw::after{content:"";position:absolute;top:3px;left:3px;width:18px;height:18px;border-radius:50%;background:var(--surface);transition:transform .15s}
+.tog[aria-pressed="true"] .sw{background:var(--accent)}
+.tog[aria-pressed="true"] .sw::after{transform:translateX(16px)}
+.factions{display:flex;justify-content:space-between;gap:8px}
+.reset{border:0;background:none;color:var(--accent);font-weight:600;padding:6px 0}
+.done{border:0;background:var(--ink);color:var(--bg);border-radius:8px;padding:8px 18px;font-weight:600}
+.scrim{position:fixed;inset:0;background:color-mix(in srgb,#000 45%,transparent);z-index:20}
+@media (max-width:899px){
+  .filters{position:fixed;z-index:21;left:0;right:0;bottom:0;max-height:86vh;overflow:auto;border-radius:16px 16px 0 0;padding-bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateY(105%);transition:transform .2s;visibility:hidden}
+  .filters.open{transform:none;visibility:visible}
+}
+@media (min-width:900px){
+  .main{grid-template-columns:280px minmax(0,1fr)}
+  .filters{position:sticky;top:14px;max-height:calc(100vh - 28px);overflow:auto}
+  .filters .done,.fbtn{display:none}
+  .chips{flex-wrap:wrap;overflow:visible}
+}
+
+/* results */
+.results{display:grid;gap:10px;min-width:0}
+#out{display:grid;gap:10px}
+.bar{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.count{flex:1;font-size:13.5px;color:var(--muted);min-width:8em}
+.count b{color:var(--ink)}
+.sel{border:1.5px solid var(--line);background:var(--surface);border-radius:8px;padding:5px 8px;font-size:13.5px}
+.seg{display:inline-flex;border:1.5px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
+.seg button{border:0;background:none;padding:5px 10px;font-size:13.5px;font-weight:500}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:grid;gap:6px;scroll-margin-top:12px}
+.card.flash{box-shadow:0 0 0 2px var(--accent)}
+.ctop{display:flex;gap:10px;align-items:flex-start}
+.date{flex:none;width:52px;text-align:center;border-radius:8px;background:var(--soft);border:1px solid var(--line);padding:4px 0 5px;line-height:1.05}
+.date b{display:block;font-family:var(--f-display);font-size:22px}
+.date small{font-family:var(--f-mono);font-size:11px;text-transform:uppercase;color:var(--muted)}
+.ttl{flex:1;min-width:0}
+.ttl h4{margin:0;font-size:16.5px;line-height:1.25;font-weight:700;overflow-wrap:anywhere}
+.meta{color:var(--muted);font-size:13px;margin-top:2px}
+.star{flex:none;border:0;background:none;padding:2px;width:34px;height:34px;display:grid;place-items:center;border-radius:8px}
+.star svg{width:22px;height:22px;stroke:var(--muted);stroke-width:1.8;fill:none}
+.star[aria-pressed="true"] svg{fill:#E8B21C;stroke:#C99410}
+.tags{display:flex;flex-wrap:wrap;gap:5px}
+.tag{font-size:11.5px;font-weight:600;border-radius:5px;padding:1px 7px;background:var(--soft);border:1px solid var(--line);color:var(--muted)}
+.tag.free{color:var(--accent);border-color:color-mix(in srgb,var(--accent) 40%,transparent)}
+.sc{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;font-weight:600;border-radius:5px;padding:1px 7px 1px 5px;background:color-mix(in srgb,var(--c) 13%,var(--surface));color:var(--ink)}
+.sc em{font-style:normal;font-family:var(--f-mono);background:var(--c);color:#fff;border-radius:4px;padding:0 4px;font-size:11px}
+.sum{margin:0;font-size:14px}
+.card:not(.open) .sum{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.why{display:grid;gap:6px;margin:4px 0 0;padding:0;list-style:none}
+.why li{display:grid;grid-template-columns:auto 1fr;gap:8px;align-items:baseline;font-size:13.5px}
+.why li .sc{white-space:nowrap}
+.acts{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.btn{border:1.5px solid var(--line);background:var(--soft);border-radius:8px;padding:6px 12px;font-size:13.5px;font-weight:600;text-decoration:none;color:var(--ink);display:inline-flex;align-items:center;gap:6px}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.more{border:0;background:none;color:var(--accent);font-weight:600;padding:2px 0;font-size:13.5px;justify-self:start}
+.chk{font-size:11.5px;color:var(--muted)}
+.empty{color:var(--muted);padding:24px 6px;text-align:center}
+.empty b{display:block;color:var(--ink);font-family:var(--f-display);font-size:19px;margin-bottom:4px}
+.monthsep{font-family:var(--f-display);font-weight:700;font-size:15px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding:6px 2px 0}
+
+/* month view */
+.cal{padding:12px 10px 10px}
+.calhead{display:flex;align-items:center;gap:6px;padding:0 4px 10px}
+.calhead h2{font-family:var(--f-display);font-weight:700;font-size:22px;margin:0;flex:1}
+.nav{border:1px solid var(--line);background:var(--soft);border-radius:8px;height:34px;min-width:34px;padding:0 10px;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:3px}
+.dow{font-family:var(--f-display);font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);text-align:center;padding-bottom:4px}
+.day{border:0;border-radius:8px;background:var(--soft);min-height:52px;padding:5px 4px 4px;display:flex;flex-direction:column;gap:3px;text-align:left;min-width:0}
+.day .num{font-family:var(--f-display);font-weight:600;font-size:16px;line-height:1;padding-left:2px}
+.day.out{background:transparent;opacity:.4}
+.day.today{box-shadow:inset 0 0 0 2px var(--accent)}
+.day[aria-selected="true"]{background:var(--ink);color:var(--bg)}
+.day .cnt{margin-top:auto;align-self:flex-start;font-family:var(--f-mono);font-size:11px;font-weight:600;background:var(--accent);color:var(--accent-ink);border-radius:5px;padding:0 5px}
+@media (min-width:600px){.day{min-height:68px}}
+.daylist{display:grid;gap:10px}
+.daylist h3{font-family:var(--f-display);margin:6px 2px 0;font-size:18px}
+.foot{color:var(--muted);font-size:12px;line-height:1.5}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:999px;font-size:14px;z-index:30}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Bio <span>Radar</span></h1>
+    <div class="upd" id="upd"></div>
+  </header>
+  <div class="stale" id="stale" hidden></div>
+
+  <div class="searchrow">
+    <label class="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Search events, topics, places…" autocomplete="off" aria-label="Search events">
+      <button class="x" id="qx" type="button" aria-label="Clear search" hidden>×</button>
+    </label>
+    <button class="fbtn" id="fopen" type="button">Filters <span class="n" id="fcount" hidden></span></button>
+  </div>
+
+  <div class="chips" id="chips" role="group" aria-label="Sectors"></div>
+  <div class="hint" id="hint"></div>
+
+  <div class="main">
+    <aside class="filters panel" id="filters" aria-label="Filters"></aside>
+    <section class="results">
+      <div class="bar">
+        <div class="count" id="count"></div>
+        <select class="sel" id="sort" aria-label="Sort by">
+          <option value="rel">Most relevant</option>
+          <option value="date">Soonest first</option>
+          <option value="new">Newest added</option>
+        </select>
+        <div class="seg" role="group" aria-label="View">
+          <button type="button" data-view="list">List</button>
+          <button type="button" data-view="month">Month</button>
+        </div>
+      </div>
+      <div id="out"></div>
+      <p class="foot">Summaries and relevance scores are written by AI from each event's website and checked weekly. Dates and details can change: always confirm on the official site before booking.</p>
+    </section>
+  </div>
+</div>
+<div class="scrim" id="scrim" hidden></div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+"use strict";
+const SECTORS = [
+  ["defence", "Defence", "#5E7139"],
+  ["biosecurity", "Biosecurity", "#B4441C"],
+  ["healthcare", "Healthcare", "#2F7FC1"],
+  ["meddevices", "Medical devices", "#7A55B8"],
+  ["pharma", "Pharma & therapeutics", "#C2387A"],
+  ["diagnostics", "Diagnostics", "#1C9AA8"],
+  ["ai", "AI & data", "#4A5BD4"],
+  ["agrifood", "Agri & food", "#5C9A2E"],
+  ["industrial", "Industrial biotech", "#A86E12"],
+  ["bioprocessing", "Bioprocessing", "#8A5A3C"],
+  ["fermentation", "Fermentation", "#C98A10"],
+  ["investment", "Investment & business", "#3D6B6B"],
+];
+const SEC = Object.fromEntries(SECTORS.map(([id, name, c]) => [id, { name, c }]));
+const TYPES = { conference: "Conference", symposium: "Symposium", webinar: "Webinar", tradeshow: "Trade show", partnering: "Investor / partnering", workshop: "Workshop" };
+const FORMATS = { inperson: "In person", online: "Online", hybrid: "Hybrid" };
+const REGIONS = { europe: "Europe", uk: "UK & Ireland", namerica: "North America", apac: "Asia-Pacific", mena: "Middle East & Africa", latam: "Latin America", global: "Online / global" };
+const WHEN = { all: "Any time", d30: "Next 30 days", d90: "Next 3 months", d180: "Next 6 months", d365: "Next 12 months", d548: "Next 18 months", custom: "Pick dates" };
+const MIN_REL = 5;     // a sector chip shows events scoring at least this for that sector
+const STALE_DAYS = 8;  // data is refreshed weekly
+
+const $ = (s, r = document) => r.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+};
+
+const today = (() => { const d = new Date(); return new Date(d.getFullYear(), d.getMonth(), d.getDate()); })();
+const parseDay = (s) => { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); };
+const iso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+const saved = store.get("br-state", {});
+const S = {
+  q: "",
+  sectors: new Set(saved.sectors || []),
+  types: new Set(saved.types || []),
+  formats: new Set(saved.formats || []),
+  regions: new Set(saved.regions || []),
+  when: saved.when || "all",
+  from: saved.from || "", to: saved.to || "",
+  favOnly: !!saved.favOnly, freeOnly: !!saved.freeOnly, past: !!saved.past,
+  sort: saved.sort || "rel",
+  view: saved.view || "list",
+  month: null, day: null,
+  open: new Set(),
+};
+let FAV = new Set(store.get("br-favs", []));
+let DATA = { events: [] };
+
+function persist() {
+  store.set("br-state", {
+    sectors: [...S.sectors], types: [...S.types], formats: [...S.formats], regions: [...S.regions],
+    when: S.when, from: S.from, to: S.to, favOnly: S.favOnly, freeOnly: S.freeOnly, past: S.past, sort: S.sort, view: S.view,
+  });
+}
+
+/* ---------- matching ---------- */
+const norm = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+function textOf(e) {
+  if (!e._t) {
+    const why = Object.entries(e.rel || {}).map(([k, v]) => `${SEC[k]?.name || k} ${v.why}`).join(" ");
+    e._t = {
+      name: norm(e.name + " " + (e.short || "")),
+      mid: norm([e.organiser, e.city, e.country, TYPES[e.type], FORMATS[e.format], REGIONS[e.region], (e.keywords || []).join(" ")].join(" ")),
+      body: norm(e.summary + " " + why),
+    };
+  }
+  return e._t;
+}
+// 0 when any search word is missing; otherwise higher for matches in the name.
+function textScore(e, terms) {
+  if (!terms.length) return 1;
+  const t = textOf(e);
+  let s = 0;
+  for (const w of terms) {
+    const k = t.name.includes(w) ? 3 : t.mid.includes(w) ? 2 : t.body.includes(w) ? 1 : 0;
+    if (!k) return 0;
+    s += k;
+  }
+  return s;
+}
+const sectorScore = (e) => {
+  let m = 0;
+  for (const s of S.sectors) m = Math.max(m, e.rel?.[s]?.score || 0);
+  return m;
+};
+function windowRange() {
+  if (S.when === "custom") return [S.from ? parseDay(S.from) : null, S.to ? parseDay(S.to) : null];
+  if (S.when === "all") return [null, null];
+  const days = +S.when.slice(1);
+  const end = new Date(today); end.setDate(end.getDate() + days);
+  return [null, end];
+}
+
+function filtered({ ignoreDates = false } = {}) {
+  const terms = norm(S.q).split(/\s+/).filter(Boolean);
+  const [from, to] = ignoreDates ? [null, null] : windowRange();
+  const out = [];
+  for (const e of DATA.events) {
+    const st = parseDay(e.start), en = parseDay(e.end || e.start);
+    if (!ignoreDates && !S.past && en < today) continue;
+    if (from && en < from) continue;
+    if (to && st > to) continue;
+    if (S.types.size && !S.types.has(e.type)) continue;
+    if (S.formats.size && !S.formats.has(e.format)) continue;
+    if (S.regions.size && !S.regions.has(e.region)) continue;
+    if (S.favOnly && !FAV.has(e.id)) continue;
+    if (S.freeOnly && e.free !== true) continue;
+    const ss = S.sectors.size ? sectorScore(e) : 0;
+    if (S.sectors.size && ss < MIN_REL) continue;
+    const ts = textScore(e, terms);
+    if (!ts) continue;
+    out.push({ e, st, en, ss, ts });
+  }
+  const byDate = (a, b) => a.st - b.st || a.en - b.en;
+  if (S.sort === "date") out.sort(byDate);
+  else if (S.sort === "new") out.sort((a, b) => (b.e.added || "").localeCompare(a.e.added || "") || byDate(a, b));
+  else out.sort((a, b) => (b.ss - a.ss) || (b.ts - a.ts) || byDate(a, b));
+  return out;
+}
+
+/* ---------- rendering ---------- */
+function fmtRange(st, en) {
+  if (+st === +en) return `${st.getDate()} ${MON[st.getMonth()]} ${st.getFullYear()}`;
+  if (st.getFullYear() !== en.getFullYear()) return `${st.getDate()} ${MON[st.getMonth()]} ${st.getFullYear()} – ${en.getDate()} ${MON[en.getMonth()]} ${en.getFullYear()}`;
+  if (st.getMonth() !== en.getMonth()) return `${st.getDate()} ${MON[st.getMonth()]} – ${en.getDate()} ${MON[en.getMonth()]} ${en.getFullYear()}`;
+  return `${st.getDate()}–${en.getDate()} ${MON[st.getMonth()]} ${st.getFullYear()}`;
+}
+const place = (e) => e.format === "online" ? "Online" : [e.city, e.country].filter(Boolean).join(", ") + (e.format === "hybrid" ? " + online" : "");
+const scoreBadge = (k, v) => `<span class="sc" style="--c:${SEC[k].c}"><em>${v.score}</em>${esc(SEC[k].name)}</span>`;
+const STAR = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z" stroke-linejoin="round"/></svg>`;
+
+function card({ e, st, en }) {
+  const open = S.open.has(e.id);
+  const rel = Object.entries(e.rel || {}).filter(([k]) => SEC[k]).sort((a, b) => b[1].score - a[1].score);
+  // Collapsed: selected sectors first, then the strongest others; three at most.
+  const top = [...rel.filter(([k]) => S.sectors.has(k)), ...rel.filter(([k]) => !S.sectors.has(k))].slice(0, 3);
+  const days = Math.round((en - st) / 864e5) + 1;
+  return `<article class="card${open ? " open" : ""}" id="ev-${esc(e.id)}" data-id="${esc(e.id)}">
+    <div class="ctop">
+      <div class="date"><b>${st.getDate()}</b><small>${MON[st.getMonth()]} ${String(st.getFullYear()).slice(2)}</small></div>
+      <div class="ttl"><h4>${esc(e.name)}</h4><div class="meta">${fmtRange(st, en)}${days > 1 ? ` · ${days} days` : ""}${e.time ? ` · ${esc(e.time)}` : ""}<br>${esc(place(e))}${e.organiser ? ` · ${esc(e.organiser)}` : ""}</div></div>
+      <button class="star" type="button" data-fav="${esc(e.id)}" aria-pressed="${FAV.has(e.id)}" aria-label="${FAV.has(e.id) ? "Remove from" : "Add to"} favourites">${STAR}</button>
+    </div>
+    <div class="tags"><span class="tag">${esc(TYPES[e.type] || e.type)}</span><span class="tag">${esc(FORMATS[e.format] || e.format)}</span>${e.free === true ? `<span class="tag free">Free</span>` : ""}${open ? "" : top.map(([k, v]) => scoreBadge(k, v)).join("")}</div>
+    <p class="sum">${esc(e.summary)}</p>
+    ${open ? `<ul class="why">${rel.map(([k, v]) => `<li>${scoreBadge(k, v)}<span>${esc(v.why)}</span></li>`).join("")}</ul>
+    <div class="acts"><a class="btn pri" href="${esc(e.url)}" target="_blank" rel="noopener">Official site ↗</a><button class="btn" type="button" data-share="${esc(e.id)}">Share</button>${e.checked ? `<span class="chk">Checked ${esc(e.checked)}</span>` : ""}</div>` : ""}
+    <button class="more" type="button" data-toggle="${esc(e.id)}">${open ? "Show less" : "Why it's relevant & links"}</button>
+  </article>`;
+}
+
+function renderList(rows) {
+  if (!rows.length) return emptyMsg();
+  if (S.sort !== "date") return rows.map(card).join("");
+  let last = "", html = "";
+  for (const r of rows) {
+    const m = `${MONTHS[r.st.getMonth()]} ${r.st.getFullYear()}`;
+    if (m !== last) { html += `<div class="monthsep">${m}</div>`; last = m; }
+    html += card(r);
+  }
+  return html;
+}
+function emptyMsg() {
+  return `<div class="empty"><b>No events match</b>Try fewer filters or a different search.${activeFilterCount() || S.sectors.size ? `<br><button class="reset" type="button" data-reset>Clear all filters</button>` : ""}</div>`;
+}
+
+function renderMonth() {
+  const rows = filtered({ ignoreDates: true });
+  if (!S.month) S.month = new Date(today.getFullYear(), today.getMonth(), 1);
+  const y = S.month.getFullYear(), m = S.month.getMonth();
+  const first = new Date(y, m, 1), lead = (first.getDay() + 6) % 7;
+  const start = new Date(y, m, 1 - lead);
+  const counts = new Map();
+  for (const r of rows) {
+    for (let d = new Date(Math.max(r.st, start)); d <= r.en && d < new Date(y, m + 1, 7); d.setDate(d.getDate() + 1)) {
+      const k = iso(d); counts.set(k, (counts.get(k) || 0) + 1);
+    }
+  }
+  let cells = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((d) => `<div class="dow">${d}</div>`).join("");
+  const weeks = Math.ceil((lead + new Date(y, m + 1, 0).getDate()) / 7);
+  for (let i = 0; i < weeks * 7; i++) {
+    const d = new Date(y, m, 1 - lead + i), k = iso(d), n = counts.get(k) || 0;
+    cells += `<button type="button" class="day${d.getMonth() !== m ? " out" : ""}${+d === +today ? " today" : ""}" data-day="${k}" aria-selected="${S.day === k}" aria-label="${d.getDate()} ${MONTHS[d.getMonth()]}, ${n} event${n === 1 ? "" : "s"}"><span class="num">${d.getDate()}</span>${n ? `<span class="cnt">${n}</span>` : ""}</button>`;
+  }
+  const inMonth = rows.filter((r) => r.st <= new Date(y, m + 1, 0) && r.en >= first);
+  const sel = S.day ? rows.filter((r) => r.st <= parseDay(S.day) && r.en >= parseDay(S.day)) : inMonth;
+  const label = S.day ? `${parseDay(S.day).getDate()} ${MONTHS[parseDay(S.day).getMonth()]}` : `All in ${MONTHS[m]}`;
+  return `<div class="panel cal"><div class="calhead"><button class="nav" type="button" data-mnav="-1" aria-label="Previous month">‹</button><h2>${MONTHS[m]} ${y}</h2><button class="nav" type="button" data-mnav="0">Today</button><button class="nav" type="button" data-mnav="1" aria-label="Next month">›</button></div><div class="grid">${cells}</div></div>
+    <div class="daylist"><h3>${label} · ${sel.length}</h3>${sel.length ? sel.sort((a, b) => a.st - b.st).map(card).join("") : `<div class="empty">Nothing on these dates with your filters.</div>`}</div>`;
+}
+
+function activeFilterCount() {
+  return S.types.size + S.formats.size + S.regions.size + (S.when !== "all") + S.favOnly + S.freeOnly + S.past;
+}
+
+function renderFilters() {
+  const group = (title, key, map) => `<div class="fgroup"><b>${title}</b><div class="opts">${Object.entries(map).map(([k, v]) => `<button type="button" class="opt" data-set="${key}" data-v="${k}" aria-pressed="${S[key].has(k)}">${esc(v)}</button>`).join("")}</div></div>`;
+  const tog = (key, label) => `<button type="button" class="tog" data-tog="${key}" aria-pressed="${S[key]}"><span>${label}</span><span class="sw"></span></button>`;
+  $("#filters").innerHTML = `<h3>Filters</h3>
+    <div class="fgroup"><b>When</b><div class="opts">${Object.entries(WHEN).map(([k, v]) => `<button type="button" class="opt" data-when="${k}" aria-pressed="${S.when === k}">${v}</button>`).join("")}</div>
+      ${S.when === "custom" ? `<div class="dates"><input type="date" id="from" value="${S.from}" aria-label="From"> to <input type="date" id="to" value="${S.to}" aria-label="To"></div>` : ""}</div>
+    ${group("Event type", "types", TYPES)}
+    ${group("Format", "formats", FORMATS)}
+    ${group("Region", "regions", REGIONS)}
+    <div class="fgroup">${tog("favOnly", "Favourites only")}${tog("freeOnly", "Free only")}${tog("past", "Include past events")}</div>
+    <div class="factions"><button type="button" class="reset" data-reset>Clear all</button><button type="button" class="done" data-close>Show results</button></div>`;
+}
+
+function renderChips() {
+  $("#chips").innerHTML = SECTORS.map(([id, name, c]) => `<button type="button" class="chip" style="--c:${c}" data-sector="${id}" aria-pressed="${S.sectors.has(id)}"><i></i>${esc(name)}</button>`).join("");
+  $("#hint").textContent = S.sectors.size ? `Showing events scoring ${MIN_REL}+ out of 10 for ${[...S.sectors].map((s) => SEC[s].name).join(" or ")}.` : "Tap a sector to rank events by how relevant they are to it.";
+}
+
+function render() {
+  renderChips();
+  const n = activeFilterCount();
+  $("#fcount").hidden = !n; $("#fcount").textContent = n;
+  $("#sort").value = S.sort;
+  $("#sort").hidden = S.view === "month";
+  document.querySelectorAll("[data-view]").forEach((b) => b.setAttribute("aria-pressed", b.dataset.view === S.view));
+  if (S.view === "month") {
+    $("#out").innerHTML = renderMonth();
+    $("#count").innerHTML = "";
+  } else {
+    const rows = filtered();
+    $("#count").innerHTML = `<b>${rows.length}</b> event${rows.length === 1 ? "" : "s"}`;
+    $("#out").innerHTML = renderList(rows);
+  }
+  persist();
+}
+
+/* ---------- events ---------- */
+function openFilters(on) {
+  $("#filters").classList.toggle("open", on);
+  $("#scrim").hidden = !on;
+}
+let toastT;
+function toast(msg) {
+  const t = $("#toast"); t.textContent = msg; t.hidden = false;
+  clearTimeout(toastT); toastT = setTimeout(() => (t.hidden = true), 2200);
+}
+async function share(id) {
+  const e = DATA.events.find((x) => x.id === id);
+  if (!e) return;
+  const link = `${location.origin}${location.pathname}#e=${encodeURIComponent(id)}`;
+  const text = `${e.name}\n${fmtRange(parseDay(e.start), parseDay(e.end || e.start))} · ${place(e)}\n${e.url}`;
+  if (navigator.share) {
+    try { await navigator.share({ title: e.name, text, url: link }); } catch {}
+    return;
+  }
+  try { await navigator.clipboard.writeText(`${text}\n\nMore: ${link}`); toast("Event details copied"); }
+  catch { prompt("Copy this link:", link); }
+}
+
+document.addEventListener("click", (ev) => {
+  const t = ev.target.closest("button");
+  if (!t) return;
+  const d = t.dataset;
+  if (d.sector) { S.sectors.has(d.sector) ? S.sectors.delete(d.sector) : S.sectors.add(d.sector); if (S.sectors.size) S.sort = "rel"; }
+  else if (d.set) { const s = S[d.set]; s.has(d.v) ? s.delete(d.v) : s.add(d.v); }
+  else if (d.when) { S.when = d.when; renderFilters(); }
+  else if (d.tog) S[d.tog] = !S[d.tog];
+  else if (d.reset !== undefined) { S.types.clear(); S.formats.clear(); S.regions.clear(); S.sectors.clear(); S.when = "all"; S.from = S.to = ""; S.favOnly = S.freeOnly = S.past = false; S.q = ""; $("#q").value = ""; $("#qx").hidden = true; renderFilters(); }
+  else if (d.close !== undefined) { openFilters(false); return; }
+  else if (d.fav) {
+    FAV.has(d.fav) ? FAV.delete(d.fav) : FAV.add(d.fav);
+    store.set("br-favs", [...FAV]);
+    toast(FAV.has(d.fav) ? "Added to favourites" : "Removed from favourites");
+  }
+  else if (d.toggle) { S.open.has(d.toggle) ? S.open.delete(d.toggle) : S.open.add(d.toggle); }
+  else if (d.share) { share(d.share); return; }
+  else if (d.view) { S.view = d.view; S.day = null; }
+  else if (d.mnav) { S.month = d.mnav === "0" ? new Date(today.getFullYear(), today.getMonth(), 1) : new Date(S.month.getFullYear(), S.month.getMonth() + +d.mnav, 1); S.day = null; }
+  else if (d.day) S.day = S.day === d.day ? null : d.day;
+  else return;
+  if (t.closest("#filters")) {
+    // Keep the filter sheet in place; only refresh its button states.
+    $("#filters").querySelectorAll("[data-set]").forEach((b) => b.setAttribute("aria-pressed", S[b.dataset.set].has(b.dataset.v)));
+    $("#filters").querySelectorAll("[data-tog]").forEach((b) => b.setAttribute("aria-pressed", S[b.dataset.tog]));
+    $("#filters").querySelectorAll("[data-when]").forEach((b) => b.setAttribute("aria-pressed", S.when === b.dataset.when));
+  }
+  render();
+});
+document.addEventListener("change", (ev) => {
+  if (ev.target.id === "from") S.from = ev.target.value;
+  else if (ev.target.id === "to") S.to = ev.target.value;
+  else if (ev.target.id === "sort") S.sort = ev.target.value;
+  else return;
+  render();
+});
+let qT;
+$("#q").addEventListener("input", (ev) => {
+  $("#qx").hidden = !ev.target.value;
+  clearTimeout(qT); qT = setTimeout(() => { S.q = ev.target.value; render(); }, 120);
+});
+$("#qx").addEventListener("click", () => { $("#q").value = ""; S.q = ""; $("#qx").hidden = true; render(); $("#q").focus(); });
+$("#fopen").addEventListener("click", () => openFilters(true));
+$("#scrim").addEventListener("click", () => openFilters(false));
+document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") openFilters(false); });
+
+// A shared link (#e=<id>) opens that event, even if filters would hide it.
+function openShared() {
+  const m = location.hash.match(/^#e=(.+)$/);
+  if (!m) return;
+  const id = decodeURIComponent(m[1]);
+  const e = DATA.events.find((x) => x.id === id);
+  if (!e) return;
+  S.view = "list"; S.q = ""; $("#q").value = "";
+  S.sectors.clear(); S.types.clear(); S.formats.clear(); S.regions.clear(); S.when = "all"; S.favOnly = S.freeOnly = false; S.past = true;
+  S.open.add(id);
+  renderFilters(); render();
+  const el = document.getElementById("ev-" + id);
+  if (el) { el.scrollIntoView({ block: "start" }); el.classList.add("flash"); }
+  history.replaceState(null, "", location.pathname);
+}
+
+function showUpdated() {
+  const u = DATA.updated ? new Date(DATA.updated) : null;
+  if (!u || isNaN(u)) return;
+  const age = Math.floor((Date.now() - u) / 864e5);
+  $("#upd").textContent = `${DATA.events.length} events · updated ${u.getDate()} ${MON[u.getMonth()]} ${u.getFullYear()}`;
+  if (age > STALE_DAYS) {
+    $("#stale").hidden = false;
+    $("#stale").innerHTML = `<b>May be out of date.</b> The event list was last refreshed ${age} days ago, so new events may be missing.`;
+  }
+}
+
+async function load() {
+  $("#out").innerHTML = `<div class="empty">Loading events…</div>`;
+  try {
+    const r = await fetch("data/events.json", { cache: "no-cache" });
+    if (!r.ok) throw new Error(r.status);
+    DATA = await r.json();
+  } catch {
+    $("#out").innerHTML = `<div class="empty"><b>Couldn't load events</b>Check your connection and reload.</div>`;
+    return;
+  }
+  showUpdated();
+  renderFilters();
+  render();
+  openShared();
+}
+window.addEventListener("hashchange", openShared);
+load();
+
+if ("serviceWorker" in navigator) {
+  let had = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.register("sw.js").catch(() => {});
+  navigator.serviceWorker.addEventListener("controllerchange", () => { if (had) location.reload(); had = true; });
+}
+</script>
+</body>
+</html>
