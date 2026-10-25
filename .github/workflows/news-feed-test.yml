@@ -1,4 +1,4 @@
-# Temporary: tries feed URLs on the feature branch to see which work. Removed before merge.
+# Temporary: runs the news fetcher on the feature branch to check the feeds. Removed before merge.
 name: News feed test
 on:
   push:
@@ -13,42 +13,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: >
-          node scripts/probe-feeds.mjs
-          https://connect.biorxiv.org/biorxiv_xml/synthetic_biology
-          https://connect.biorxiv.org/biorxiv_xml/bioengineering
-          https://connect.biorxiv.org/biorxiv_xml/subject/synthetic_biology
-          https://www.biorxiv.org/rss/subject/synthetic-biology
-          https://www.biospace.com/rss/news/
-          https://www.biospace.com/feed
-          https://www.biospace.com/news/rss
-          https://www.cidrap.umn.edu/rss.xml
-          https://www.cidrap.umn.edu/news/feed
-          https://www.cidrap.umn.edu/rss/news
-          https://www.contractpharma.com/rss
-          https://thebulletin.org/feed/
-          https://www.eurekalert.org/rss/biology.xml
-          https://www.eurekalert.org/rss.xml
-          https://www.eurekalert.org/rss/technology_engineering.xml
-          https://www.genomeweb.com/breaking-news/rss
-          https://www.genomeweb.com/feed
-          https://www.genomeweb.com/rss
-          https://www.globenewswire.com/RssFeed/industry/4573-Biotechnology/feedTitle/GlobeNewswire%20-%20Industry%20News%20on%20Biotechnology
-          https://www.globenewswire.com/RssFeed/subjectcode/36-Clinical%20Study/feedTitle/GlobeNewswire%20-%20Clinical%20Study
-          https://www.nature.com/nature.rss
-          https://www.nature.com/subjects/biotechnology/nature.rss
-          https://www.nature.com/subjects/biotechnology.rss
-          https://www.nature.com/news.rss
-          https://www.nature.com/nature/research-articles.rss
-          https://www.newscientist.com/subject/health/feed/
-          https://www.newscientist.com/subject/life/feed/
-          https://www.newscientist.com/feed/home/
-          https://synbiobeta.com/feed/
-          https://www.synbiobeta.com/read/rss.xml
-          https://www.synbiobeta.com/rss.xml
-          https://www.sciencedaily.com/rss/health_medicine/genes.xml
-          https://www.sciencedaily.com/rss/plants_animals/microbiology.xml
-          https://www.sciencedaily.com/rss/top/health.xml
-          https://www.who.int/rss-feeds/news-english.xml
-          https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeGVtRWA==
-          https://www.fiercebiotech.com/rss/xml
+      - run: node scripts/fetch-news.mjs
+      - run: node scripts/check-news.mjs
+      - run: node scripts/check-data.mjs
+      - run: |
+          node -e '
+          const n = require("./site/data/news.json");
+          const by = {}; for (const i of n.items) by[i.kind] = (by[i.kind] || 0) + 1;
+          console.log("by kind", by);
+          const c = {}; for (const i of n.items) c[i.guess.cat] = (c[i.guess.cat] || 0) + 1;
+          console.log("by guessed category", c);
+          console.log("bytes", JSON.stringify(n).length);
+          for (const i of n.items.filter((x, k) => k % 25 === 0)) console.log(JSON.stringify(i));
+          '

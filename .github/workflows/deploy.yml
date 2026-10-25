@@ -1,14 +1,15 @@
-name: Check events and publish
+name: Fetch news, check data and publish
 
 on:
   push:
     branches: [main]
   schedule:
-    - cron: "23 6 * * *"   # daily, 06:23 UTC: re-checks freshness (the event list itself is updated weekly by Claude)
+    - cron: "7 0,6,12,18 * * *"   # 4x a day: pull news headlines (summaries and scores come from the daily Claude review)
+    - cron: "23 6 * * *"          # daily, 06:23 UTC: freshness check (events are updated weekly, the news review daily)
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -21,15 +22,31 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       stale_days: ${{ steps.check.outputs.stale_days }}
+      news_stale_days: ${{ steps.news.outputs.news_stale_days }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
       - uses: actions/configure-pages@v5
+      - name: Fetch news headlines
+        if: github.event_name != 'push'
+        run: |
+          node scripts/fetch-news.mjs
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/news.json
+          if ! git diff --cached --quiet; then
+            git commit -q -m "News headlines $(date -u +%Y-%m-%dT%H:%MZ)"
+            # The daily Claude review may push at the same time; it only touches other files, so rebase and retry.
+            for i in 1 2 3 4; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep $((i * 5)); done
+          fi
       - name: Check events.json
         id: check
         run: node scripts/check-data.mjs
+      - name: Check news files
+        id: news
+        run: node scripts/check-news.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
@@ -44,12 +61,12 @@ jobs:
       - id: deployment
         uses: actions/deploy-pages@v4
 
-  # A red run makes GitHub email the repo owner, so a stalled weekly update gets noticed.
+  # A red run makes GitHub email the repo owner, so a stalled Claude update gets noticed (once a day).
   freshness:
     needs: [build, deploy]
-    if: fromJSON(needs.build.outputs.stale_days) > 8
+    if: github.event.schedule == '23 6 * * *' && (fromJSON(needs.build.outputs.stale_days) > 8 || fromJSON(needs.build.outputs.news_stale_days) > 2)
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "::error::The event list was last updated ${{ needs.build.outputs.stale_days }} days ago. The weekly Claude update has probably stopped; see UPDATING.md."
+          echo "::error::Events last updated ${{ needs.build.outputs.stale_days }} days ago (weekly update, see UPDATING.md); news last reviewed by Claude ${{ needs.build.outputs.news_stale_days }} days ago (daily review, see NEWS-UPDATING.md). A Claude routine has probably stopped."
           exit 1

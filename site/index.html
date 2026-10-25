@@ -450,7 +450,7 @@ function sourcesHtml() {
   const f = NEWS.feeds || {};
   const row = (s) => {
     const st = f[s.id], bad = st && !st.lastOk || (st?.error && Date.now() - new Date(st.lastOk) > 864e5);
-    return `<div class="srow"><a href="${esc(s.home)}" target="_blank" rel="noopener">${esc(s.name)}</a>${s.status === "trial" ? `<span class="tag trial">Trial until ${esc(s.trialEnds || "?")}</span>` : ""}${s.paywall ? `<span class="tag">Paywall</span>` : ""}<span class="st${bad ? " bad" : ""}">${!st ? "not fetched yet" : bad ? "feed not working" : `ok · ${ago(new Date(st.lastOk))}`}</span>${s.why ? `<span class="also">${esc(s.why)}</span>` : ""}</div>`;
+    return `<div class="srow"><a href="${esc(s.home)}" target="_blank" rel="noopener">${esc(s.name)}</a>${s.status === "trial" ? `<span class="tag trial">Trial until ${esc(s.trialEnds || "?")}</span>` : ""}${s.paywall ? `<span class="tag">Paywall</span>` : ""}<span class="st${bad ? " bad" : ""}">${!s.feeds?.length && !s.api ? "searched by Claude daily" : !st ? "not fetched yet" : bad ? "feed not working" : `ok · ${ago(new Date(st.lastOk))}`}</span>${s.why ? `<span class="also">${esc(s.why)}</span>` : ""}</div>`;
   };
   return `<div class="panel srcs" style="padding:14px">
     <div><button class="btn" type="button" data-srcclose>← Back to news</button></div>

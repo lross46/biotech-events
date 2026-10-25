@@ -82,16 +82,34 @@ function parseFeed(xml) {
   });
 }
 
-async function get(url) {
-  const ctl = new AbortController();
-  const t = setTimeout(() => ctl.abort(), 25000);
-  try {
-    const r = await fetch(url, { signal: ctl.signal, redirect: "follow", headers: { "user-agent": "Mozilla/5.0 (compatible; BioRadar/1.0; +https://lrossoni86.github.io/biotech-events/)", accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, */*" } });
+// Some publishers refuse unknown bots, so a refused request is retried once with a browser user agent.
+const UAS = ["Mozilla/5.0 (compatible; BioRadar/1.0; +https://lrossoni86.github.io/biotech-events/)", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"];
+async function get(url, { feed = true } = {}) {
+  let last;
+  for (const ua of UAS) {
+    const r = await fetch(url, { signal: AbortSignal.timeout(25000), redirect: "follow", headers: { "user-agent": ua, accept: "*/*" } });
+    if (r.status === 403 || r.status === 406) { last = new Error(`HTTP ${r.status}`); continue; }
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     const text = await r.text();
-    if (!/<(rss|feed|rdf:RDF)[\s>]/i.test(text)) throw new Error("not a feed");
+    if (feed && !/<(rss|feed|rdf:RDF)[\s>]/i.test(text)) throw new Error("not a feed");
     return text;
-  } finally { clearTimeout(t); }
+  }
+  throw last;
+}
+
+// bioRxiv has no working RSS, so read its public API: preprints posted in the last 2 days, kept by category.
+async function biorxiv(src) {
+  const day = (n) => new Date(Date.now() - n * 864e5).toISOString().slice(0, 10);
+  const cats = new Set((src.categories || []).map((c) => c.toLowerCase()));
+  const out = [];
+  for (let cursor = 0, total = 1; cursor < total && cursor < 1500; cursor += 100) {
+    const j = JSON.parse(await get(`https://api.biorxiv.org/details/biorxiv/${day(2)}/${day(0)}/${cursor}`, { feed: false }));
+    total = +(j.messages?.[0]?.total || 0);
+    for (const p of j.collection || []) {
+      if (cats.has(String(p.category).toLowerCase())) out.push({ title: p.title, link: `https://www.biorxiv.org/content/${p.doi}v${p.version}`, date: p.date, body: p.abstract || "" });
+    }
+  }
+  return out;
 }
 
 /* ---------- helpers ---------- */
@@ -144,13 +162,13 @@ function addItem(raw, src, extra = {}) {
 
 async function runSource(src) {
   const st = { ok: 0, fail: 0, items: 0, added: 0, error: null };
-  for (const feed of src.feeds || []) {
+  for (const feed of src.api ? [src.api] : src.feeds) {
     try {
-      const items = parseFeed(await get(feed));
+      const items = src.api === "biorxiv" ? await biorxiv(src) : parseFeed(await get(feed));
       st.ok++; st.items += items.length;
       const recent = items.sort((a, b) => when(b.date) - when(a.date)).slice(0, src.cap || 60);
       for (const it of recent) if (addItem(it, src)) st.added++;
-    } catch (e) { st.fail++; st.error = `${e.name === "AbortError" ? "timeout" : e.message} (${feed})`; }
+    } catch (e) { st.fail++; st.error = `${e.name === "TimeoutError" ? "timeout" : e.message} (${feed})`; }
   }
   const prev = news.feeds?.[src.id] || {};
   status[src.id] = { lastOk: st.ok ? new Date(now).toISOString() : prev.lastOk || null, error: st.fail ? st.error : null, lastAdded: st.added };
@@ -182,7 +200,7 @@ async function runGoogle() {
   report.push(`${fails ? "PART" : "ok  "} ${"google".padEnd(16)} items=${String(items).padStart(3)} new=${String(kept).padStart(3)}${error ? "  " + error : ""}`);
 }
 
-const queue = [...cfg.sources];
+const queue = cfg.sources.filter((s) => s.api || s.feeds?.length);  // feedless sources are covered by Claude's search
 await Promise.all([runGoogle(), ...Array.from({ length: 6 }, async () => { while (queue.length) await runSource(queue.shift()); })]);
 
 // Prune: keep 90 days; delete stories Claude marked as noise or duplicates once they're a couple of days old.
