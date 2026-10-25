@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T12:00:00Z",
+ "updated": "2026-10-25T11:54:51Z",
  "note": "Feeds read by scripts/fetch-news.mjs 4 times a day. kind sets the evidence badge. filter=true keeps only items that mention biotech terms (for broad feeds). status 'trial' = added by Claude, reviewed when trialEnds passes. See NEWS-UPDATING.md.",
  "sources": [
   {
@@ -360,17 +360,6 @@
    ]
   },
   {
-   "id": "naturenews",
-   "name": "Nature (biotechnology news & research)",
-   "home": "https://www.nature.com/news",
-   "feeds": [
-    "https://www.nature.com/subjects/biotechnology/nature.rss"
-   ],
-   "kind": "science",
-   "status": "core",
-   "filter": true
-  },
-  {
    "id": "sciencenews",
    "name": "Science news",
    "home": "https://www.science.org/news",
@@ -515,5 +504,10 @@
    "cen.acs.org"
   ]
  },
- "log": []
+ "log": [
+  {
+   "date": "2026-10-25",
+   "text": "Removed naturenews: its feed URL was never valid ('not a feed') and Nature news articles already arrive through the nature feed."
+  }
+ ]
 }
