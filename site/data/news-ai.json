@@ -1,0 +1,7 @@
+{
+ "updated": null,
+ "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
+ "brief": null,
+ "items": {},
+ "extra": []
+}
