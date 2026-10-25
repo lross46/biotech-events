@@ -44,7 +44,9 @@ short summary and per-sector relevance scores. Aim for 100–250 upcoming events
    synthetic biology for chemicals, materials and biomanufacturing.
 9. Set the top-level `updated` to the current UTC time (ISO 8601).
 10. Run `node scripts/check-data.mjs` and fix every error it reports.
-11. Commit to `main` with a message like `Weekly event update: +12 new, -4 past, 9 re-checked` and push.
+11. Before committing, set the commit identity so no personal email ends up in the public history:
+   `git config user.name "lross46"` and `git config user.email "347590180+lross46@users.noreply.github.com"`.
+   Commit to `main` with a message like `Weekly event update: +12 new, -4 past, 9 re-checked` and push.
     GitHub Actions then publishes the site.
 
 Do not change the website code during the weekly update unless it is clearly broken.
