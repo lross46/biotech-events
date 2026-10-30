@@ -217,7 +217,8 @@ for (const [id, it] of byId) {
 const out = {
   updated: new Date(now).toISOString(),
   note: "Written by scripts/fetch-news.mjs. Do not edit by hand; Claude's review goes in news-ai.json.",
-  feeds: { ...news.feeds, ...status },
+  // Keep status only for sources that still exist, so removed ones stop showing as failing.
+  feeds: Object.fromEntries(Object.entries({ ...news.feeds, ...status }).filter(([id]) => id === "google" || cfg.sources.some((s) => s.id === id))),
   items: [...byId.values()].sort((a, b) => b.published.localeCompare(a.published)),
 };
 console.log(report.sort().join("\n"));

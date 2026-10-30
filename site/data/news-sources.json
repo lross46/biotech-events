@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T11:54:51Z",
+ "updated": "2026-10-30T06:49:44Z",
  "note": "Feeds read by scripts/fetch-news.mjs 4 times a day. kind sets the evidence badge. filter=true keeps only items that mention biotech terms (for broad feeds). status 'trial' = added by Claude, reviewed when trialEnds passes. See NEWS-UPDATING.md.",
  "sources": [
   {
@@ -424,6 +424,20 @@
    "kind": "science",
    "status": "core",
    "filter": true
+  },
+  {
+   "id": "koreabiomed",
+   "name": "Korea Biomedical Review",
+   "home": "https://www.koreabiomed.com",
+   "feeds": [
+    "https://www.koreabiomed.com/rss/allArticle.xml"
+   ],
+   "kind": "news",
+   "status": "trial",
+   "added": "2026-10-30",
+   "trialEnds": "2026-11-13",
+   "why": "English-language Korean pharma, biotech and medtech trade press: approvals, reimbursement and licensing deals the current sources miss.",
+   "filter": true
   }
  ],
  "google": {
@@ -508,6 +522,10 @@
   {
    "date": "2026-10-25",
    "text": "Removed naturenews: its feed URL was never valid ('not a feed') and Nature news articles already arrive through the nature feed."
+  },
+  {
+   "date": "2026-10-30",
+   "text": "Added koreabiomed (Korea Biomedical Review) on trial: Korean approvals and out-licensing deals keep turning up only through scouting."
   }
  ]
 }
