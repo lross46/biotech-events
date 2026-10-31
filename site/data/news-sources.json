@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T06:49:44Z",
+ "updated": "2026-10-31T06:50:45Z",
  "note": "Feeds read by scripts/fetch-news.mjs 4 times a day. kind sets the evidence badge. filter=true keeps only items that mention biotech terms (for broad feeds). status 'trial' = added by Claude, reviewed when trialEnds passes. See NEWS-UPDATING.md.",
  "sources": [
   {
@@ -515,7 +515,8 @@
    "foodnavigator.com",
    "fooddive.com",
    "chemistryworld.com",
-   "cen.acs.org"
+   "cen.acs.org",
+   "biospectrumasia.com"
   ]
  },
  "log": [
@@ -526,6 +527,10 @@
   {
    "date": "2026-10-30",
    "text": "Added koreabiomed (Korea Biomedical Review) on trial: Korean approvals and out-licensing deals keep turning up only through scouting."
+  },
+  {
+   "date": "2026-10-31",
+   "text": "Added biospectrumasia.com to the Google News trusted outlets: established Asia-Pacific life sciences trade press (two scouted stories today) but no usable RSS feed, so it comes in through search only."
   }
  ]
 }
