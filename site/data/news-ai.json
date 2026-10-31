@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T06:50:39Z",
+ "updated": "2026-10-31T06:51:35Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
   "date": "2026-10-31T06:45:00Z",
@@ -12038,6 +12038,117 @@
   },
   "5babf2962d26": {
    "drop": true
+  },
+  "6f6bd1013cba": {
+   "drop": true
+  },
+  "aea27018c90e": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "GSK's chief executive told analysts the company will communicate trial and business results plainly rather than burying bad news deep in press releases.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Disclosure practice at a top-ten drugmaker."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Bears on how investors receive material results."
+    }
+   }
+  },
+  "36194d58a62a": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Biogen's chief executive said he is focused on early-stage R&D, where the company had been weak, pointing to five drugs taken into clinical trials so far this year.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Strategy shift in early pipeline at a large neuroscience developer."
+    }
+   }
+  },
+  "c44a0ba3cf7c": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Shanghai Zhimeng Biopharma said it completed patient enrolment for CB03-154, its next-generation potassium channel opener. Company announcement.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Chinese CNS candidate completes trial enrolment."
+    }
+   }
+  },
+  "4c3793895d61": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "A survey of more than 140,000 people across 140 countries found trust in science has fallen worldwide since its 2020 pandemic peak.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "Public trust shapes vaccination and treatment uptake."
+    },
+    "biosecurity": {
+     "score": 5,
+     "why": "Trust affects compliance in future outbreak responses."
+    }
+   }
+  },
+  "313f266f9282": {
+   "cat": "science",
+   "imp": 1,
+   "summary": "Preprint: ecotourism pressure is associated with changes in bacterial, archaeal and fungal diversity in a freshwater stream. Not yet peer-reviewed.",
+   "rel": {
+    "agrifood": {
+     "score": 3,
+     "why": "Freshwater microbial ecology under human pressure."
+    }
+   }
+  },
+  "fa5f21d0521e": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Preprint: ARG-PASS v2.0 expands global resistome surveillance and reports previously unrecognised antibiotic resistance genes and their movement between bacteria. Not yet peer-reviewed.",
+   "rel": {
+    "biosecurity": {
+     "score": 7,
+     "why": "Global surveillance tool for antimicrobial resistance genes."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Resistance gene spread underlies treatment failure."
+    },
+    "ai": {
+     "score": 4,
+     "why": "Computational resistome screening at scale."
+    }
+   }
+  },
+  "3205f8c2c86b": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Preprint: CyranoPS, a compact temperate phage infecting the industrial workhorse Corynebacterium glutamicum, was isolated and characterised. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 5,
+     "why": "Phage contamination risk and genetic tools for a key industrial fermentation host."
+    },
+    "fermentation": {
+     "score": 5,
+     "why": "C. glutamicum is used widely in amino acid fermentation."
+    }
+   }
+  },
+  "427dfd069ae1": {
+   "cat": "science",
+   "imp": 1,
+   "summary": "Preprint: position within connected stream and lake networks structures freshwater microbial communities across catchments. Not yet peer-reviewed.",
+   "rel": {
+    "agrifood": {
+     "score": 3,
+     "why": "Freshwater microbial ecology."
+    }
+   }
   }
  },
  "extra": [
