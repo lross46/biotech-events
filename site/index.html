@@ -472,18 +472,21 @@ function nsectionOf(it) {
 }
 // The digest only shows reviewed stories: an unscored one cannot be ranked against the others.
 const digestOn = () => N.view === "top" && !S.q && !S.sectors.size && !N.cats.size && !N.kinds.size && !N.favOnly;
-function digestHtml(rows) {
-  const by = {};
-  for (const r of rows) if (r.it.reviewed) (by[nsectionOf(r.it)] ||= []).push(r);
+function groupedHtml(rows, { capped }) {
+  const by = {}, waiting = [];
+  for (const r of rows) (r.it.reviewed ? (by[nsectionOf(r.it)] ||= []) : waiting).push(r);
   const secs = NSECTIONS.map(([id, name, slots]) => {
     const list = by[id] || [];
-    return { id, name, picks: list.slice(0, slots), left: Math.max(0, list.length - slots) };
+    return { id, name, picks: capped ? list.slice(0, slots) : list, left: capped ? Math.max(0, list.length - slots) : 0 };
   });
-  const shown = secs.reduce((n, s) => n + s.picks.length, 0);
-  const html = secs.map((s) => `<section class="nsec"><h3><button type="button" class="nsec-open" data-nsec="${esc(s.id)}">${esc(s.name)}${
-      s.left ? `<small>+${s.left} more</small>` : ""}<span class="nsec-arrow" aria-hidden="true">›</span></button></h3>${
-    s.picks.length ? s.picks.map(ncard).join("") : `<p class="nsec-empty">Nothing scored here in ${NWHEN[N.when].toLowerCase()}.</p>`}</section>`).join("");
-  return { shown, html: html + `<div class="nsec-acts"><button class="btn pri" type="button" data-nall>All ${rows.length} stories →</button><button class="btn" type="button" data-nabout>What's in each section?</button></div>` };
+  if (!capped && waiting.length) secs.push({ id: "waiting", name: "Awaiting AI review", picks: waiting, left: 0 });
+  const shown = secs.reduce((n, sec) => n + sec.picks.length, 0);
+  const head = (sec) => capped
+    ? `<button type="button" class="nsec-open" data-nsec="${esc(sec.id)}">${esc(sec.name)}${sec.left ? `<small>+${sec.left} more</small>` : ""}<span class="nsec-arrow" aria-hidden="true">›</span></button>`
+    : `${esc(sec.name)}<small>${sec.picks.length}</small>`;
+  const html = secs.map((sec) => `<section class="nsec"><h3>${head(sec)}</h3>${
+    sec.picks.length ? sec.picks.map(ncard).join("") : `<p class="nsec-empty">Nothing scored here in ${NWHEN[N.when].toLowerCase()}.</p>`}</section>`).join("");
+  return { shown, html: html + (capped ? `<div class="nsec-acts"><button class="btn pri" type="button" data-nall>All ${rows.length} stories →</button><button class="btn" type="button" data-nabout>What's in each section?</button></div>` : "") };
 }
 function sectionViewHtml(rows) {
   const [, name, , blurb] = NSECTIONS.find(([id]) => id === N.section) || [];
@@ -596,9 +599,15 @@ function renderNews() {
     return;
   }
   if (digestOn() && rows.length) {
-    const d = digestHtml(rows);
+    const d = groupedHtml(rows, { capped: true });
     $("#count").innerHTML = `<b>${d.shown}</b> top of ${rows.length}`;
     $("#out").innerHTML = briefHtml() + d.html;
+    return;
+  }
+  if (N.view === "all" && N.sort !== "latest" && !S.q && !S.sectors.size && rows.length) {
+    const g = groupedHtml(rows, { capped: false });
+    $("#count").innerHTML = `<b>${rows.length}</b> stor${rows.length === 1 ? "y" : "ies"}`;
+    $("#out").innerHTML = g.html;
     return;
   }
   $("#count").innerHTML = `<b>${rows.length}</b> stor${rows.length === 1 ? "y" : "ies"}`;
