@@ -485,14 +485,16 @@ function nsectionOf(it) {
 // The digest only shows reviewed stories: an unscored one cannot be ranked against the others.
 const digestOn = () => N.view === "top" && !S.q && !N.kinds.size && !N.favOnly;
 function groupedHtml(rows, { capped }) {
-  const by = {}, waiting = [];
-  for (const r of rows) (r.it.reviewed ? (by[nsectionOf(r.it)] ||= []) : waiting).push(r);
+  // Unreviewed stories have no category and no score, so they are left out of both views
+  // and appear once the next review has run.
+  const by = {};
+  for (const r of rows) if (r.it.reviewed) (by[nsectionOf(r.it)] ||= []).push(r);
   const secs = NSECTIONS.map(([id, name, slots]) => {
     const list = by[id] || [];
     return { id, name, picks: capped ? list.slice(0, slots) : list, left: capped ? Math.max(0, list.length - slots) : 0 };
   });
-  if (!capped && waiting.length) secs.push({ id: "waiting", name: "Awaiting AI review", picks: waiting, left: 0 });
   const shown = secs.reduce((n, sec) => n + sec.picks.length, 0);
+  const total = Object.values(by).reduce((n, l) => n + l.length, 0);
   const head = (sec) => capped
     ? `<button type="button" class="nsec-open" data-nsec="${esc(sec.id)}">${esc(sec.name)}${sec.left ? `<small>+${sec.left} more</small>` : ""}<span class="nsec-arrow" aria-hidden="true">›</span></button>`
     : `${esc(sec.name)}<small>${sec.picks.length}</small>`;
@@ -501,11 +503,10 @@ function groupedHtml(rows, { capped }) {
   const shownSecs = S.sectors.size ? secs.filter((sec) => sec.picks.length) : secs;
   const html = shownSecs.map((sec) => `<section class="nsec" id="sec-${esc(sec.id)}"><h3>${head(sec)}</h3>${
     sec.picks.length ? sec.picks.map(ncard).join("") : `<p class="nsec-empty">Nothing scored here in ${NWHEN[N.when].toLowerCase()}.</p>`}</section>`).join("");
-  // A long list needs somewhere to jump to; the 14-story digest does not.
-  const jump = capped ? "" : `<nav class="njump" aria-label="Jump to a category">${shownSecs.filter((sec) => sec.picks.length)
+  const jump = `<nav class="njump" aria-label="Jump to a category">${shownSecs.filter((sec) => sec.picks.length)
     .map((sec) => `<button type="button" data-njump="${esc(sec.id)}">${esc(sec.name)}<span>${sec.picks.length}</span></button>`).join("")}</nav>`;
   const lab = `<div class="chiplab seclab">Categories</div>`;
-  return { shown, html: lab + jump + html + (capped ? `<div class="nsec-acts"><button class="btn pri" type="button" data-nall>All ${rows.length} stories →</button><button class="btn" type="button" data-nabout>What's in each category?</button></div>` : "") };
+  return { shown, total, head: lab + jump, html: lab + jump + html + (capped ? `<div class="nsec-acts"><button class="btn pri" type="button" data-nall>All stories →</button><button class="btn" type="button" data-nabout>What's in each category?</button></div>` : "") };
 }
 function sectionViewHtml(rows) {
   const [, name, , blurb] = NSECTIONS.find(([id]) => id === N.section) || [];
@@ -519,7 +520,7 @@ function aboutHtml() {
   return `<div class="panel srcs" style="padding:14px">
     <div><button class="btn" type="button" data-aboutclose>← Back to news</button></div>
     <div><h3>Top stories</h3>
-      <p class="also" style="margin:0 0 8px">Every story is scored by AI for importance to the industry and relevance to each industry. Ranking by importance alone gives you mostly drug news, because that is what most of the feed is about. So "Top stories" gives each category a fixed number of places and fills them with its most important stories of the period. Tap any category heading to see everything it is holding back. Categories can come up short on a quiet day, which is itself worth knowing. "All stories" gives you the whole list, ordered by importance or, if you change the order under Filters, newest first, including stories not yet reviewed.</p>
+      <p class="also" style="margin:0 0 8px">Every story is scored by AI for importance to the field and relevance to each industry. Ranking by importance alone gives you mostly drug news, because that is what most of the feed is about. So "Top stories" gives each category a fixed number of places and fills them with its most important stories of the period. Tap any category heading to see everything it is holding back. Categories can come up short on a quiet day, which is itself worth knowing. "All stories" gives you every story in the same categories, ordered by importance or, if you change the order under Filters, newest first. Stories the AI has not reviewed yet are left out of both views and appear once the next review has run.</p>
       <p class="also" style="margin:0 0 8px">Categories are kinds of news, and a story sits in exactly one. Industries, the chips at the top, are who the news matters to, and a story carries as many as apply. They overlap on purpose: a fermentation funding round sits in the "Deals &amp; money" category and still scores for the fermentation industry.</p>
       ${NSECTIONS.map(([, name, slots, blurb]) => `<div class="srow"><b>${esc(name)}</b><span class="st">${slots} slot${slots > 1 ? "s" : ""}</span><span class="also">${esc(blurb)}</span></div>`).join("")}
       <div class="srow"><span class="also">A story goes in the first category it fits, in the order above, so a Lancet paper on an outbreak counts as biosecurity rather than as a journal piece.</span></div></div>
@@ -630,15 +631,19 @@ function renderNews() {
   }
   if (digestOn() && rows.length) {
     const d = groupedHtml(rows, { capped: true });
-    $("#count").innerHTML = `<b>${d.shown}</b> top of ${rows.length}`;
-    $("#out").innerHTML = briefHtml() + d.html;
-    return;
+    if (d.total) {
+      $("#count").innerHTML = `<b>${d.shown}</b> top of ${d.total}`;
+      $("#out").innerHTML = d.head + briefHtml() + d.html.slice(d.head.length);
+      return;
+    }
   }
   if (N.view === "all" && !S.q && rows.length) {
     const g = groupedHtml(rows, { capped: false });
-    $("#count").innerHTML = `<b>${rows.length}</b> stor${rows.length === 1 ? "y" : "ies"}`;
-    $("#out").innerHTML = g.html;
-    return;
+    if (g.total) {
+      $("#count").innerHTML = `<b>${g.total}</b> stor${g.total === 1 ? "y" : "ies"}`;
+      $("#out").innerHTML = g.html;
+      return;
+    }
   }
   $("#count").innerHTML = `<b>${rows.length}</b> stor${rows.length === 1 ? "y" : "ies"}`;
   const empty = STORIES.length
