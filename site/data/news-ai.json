@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T10:05:12Z",
+ "updated": "2026-11-01T13:41:02Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
   "date": "2026-11-01T10:05:12Z",
@@ -12014,6 +12014,372 @@
     "pharma": {
      "score": 3,
      "why": "Follicle growth signals could inform hair-loss treatments."
+    }
+   }
+  },
+  "99c1993be921": {
+   "drop": true
+  },
+  "d000c5032b2a": {
+   "drop": true
+  },
+  "14bc36ab7885": {
+   "drop": true
+  },
+  "e24e33183477": {
+   "drop": true
+  },
+  "d2613d55111c": {
+   "drop": true
+  },
+  "27ece5a35a78": {
+   "drop": true
+  },
+  "eb5b6c404023": {
+   "dup": "461acedffe78"
+  },
+  "b27838171599": {
+   "dup": "5e0f3777aea2"
+  },
+  "b474dc8610b2": {
+   "drop": true
+  },
+  "64345550e8c0": {
+   "drop": true
+  },
+  "e4f714ba9b72": {
+   "dup": "3d55cd1f6330"
+  },
+  "102169c76c7d": {
+   "dup": "efd4e3e482f4"
+  },
+  "724fa82ba951": {
+   "dup": "40c176f99965"
+  },
+  "f59efc10b90d": {
+   "drop": true
+  },
+  "d69977a4d4fd": {
+   "dup": "5a3495574796"
+  },
+  "952417de4bbb": {
+   "dup": "5a3495574796"
+  },
+  "12d47ebb2f56": {
+   "dup": "68d06e5a1880"
+  },
+  "893bf695e38f": {
+   "drop": true
+  },
+  "46d8be7e4e88": {
+   "drop": true
+  },
+  "6370eba30eba": {
+   "drop": true
+  },
+  "2e4d2604c247": {
+   "dup": "68d06e5a1880"
+  },
+  "fc05684a9de9": {
+   "dup": "68d06e5a1880"
+  },
+  "2728f2b1b598": {
+   "drop": true
+  },
+  "84934324676b": {
+   "drop": true
+  },
+  "69724cc3cbbc": {
+   "drop": true
+  },
+  "bf7d6b36d54a": {
+   "dup": "21d272940445"
+  },
+  "109291e1b8d7": {
+   "dup": "21d272940445"
+  },
+  "65faf13d45c6": {
+   "drop": true
+  },
+  "0d8ad6439ccc": {
+   "drop": true
+  },
+  "6bdb991e819d": {
+   "drop": true
+  },
+  "e3b77d178a2e": {
+   "drop": true
+  },
+  "3986a34860d2": {
+   "drop": true
+  },
+  "0a2d2e4e4b12": {
+   "drop": true
+  },
+  "f7c9746123ff": {
+   "drop": true
+  },
+  "ad57f0697397": {
+   "drop": true
+  },
+  "9547baf19232": {
+   "drop": true
+  },
+  "949573b73ef7": {
+   "drop": true
+  },
+  "c0c7f95101eb": {
+   "dup": "b910df45d987"
+  },
+  "a418a746c4ec": {
+   "drop": true
+  },
+  "d9cfb1a5ae2f": {
+   "drop": true
+  },
+  "03bf17746476": {
+   "drop": true
+  },
+  "4042ff57f9b0": {
+   "drop": true
+  },
+  "90ae09a68dbe": {
+   "drop": true
+  },
+  "caa88a34c27d": {
+   "drop": true
+  },
+  "568559b0bbf9": {
+   "dup": "d76c5250b63f"
+  },
+  "2330167c4bc4": {
+   "drop": true
+  },
+  "bfe09f254a31": {
+   "drop": true
+  },
+  "0142974eb2ad": {
+   "drop": true
+  },
+  "c6e3a807cde5": {
+   "drop": true
+  },
+  "fe226254889a": {
+   "drop": true
+  },
+  "1b4fcac558ca": {
+   "drop": true
+  },
+  "5ce56eac88c3": {
+   "dup": "7c813c078984"
+  },
+  "4fd2cd0b533c": {
+   "drop": true
+  },
+  "8922e5e772fd": {
+   "drop": true
+  },
+  "8f528b8f13c2": {
+   "drop": true
+  },
+  "f5e20a68825f": {
+   "drop": true
+  },
+  "108a2359675b": {
+   "drop": true
+  },
+  "ae179258fb70": {
+   "drop": true
+  },
+  "27297f68bf53": {
+   "dup": "479ecd2af517"
+  },
+  "e9563b94ef04": {
+   "drop": true
+  },
+  "cd10dbf6af32": {
+   "drop": true
+  },
+  "9f7ee28adfb7": {
+   "drop": true
+  },
+  "329068c61c65": {
+   "drop": true
+  },
+  "12605db9d56f": {
+   "drop": true
+  },
+  "c4cc666ebc70": {
+   "drop": true
+  },
+  "8700e4435e7b": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "EditorCheck, a tool that flags past collaborations between handling editors and authors, found more than 10,000 papers whose handling broke journals' own conflict-of-interest rules.",
+   "rel": {
+    "tools": {
+     "score": 4,
+     "why": "A new research-integrity tool that publishers can apply to peer review."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Drug developers rely on the published literature whose review integrity this questions."
+    }
+   }
+  },
+  "7d46c5bef225": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "An NEJM Perspective titled \"The Learning Health System, Made Computable\" discusses turning health-system data into continuously updated, machine-usable evidence.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Concerns how health systems learn from their own clinical data."
+    },
+    "ai": {
+     "score": 4,
+     "why": "Computable learning health systems depend on data and AI infrastructure."
+    }
+   }
+  },
+  "4d64a86224c9": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "An NEJM Perspective, \"Private Health Insurance and Profit — Lessons for the United States\", examines the role of profit in private health insurance and what the US could learn.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Bears on how US health insurance and coverage are structured."
+    }
+   }
+  },
+  "90824b168baa": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "NEJM published extended follow-up results from the ADAPT AF-DES trial, which studied antithrombotic therapy in patients with atrial fibrillation who received drug-eluting stents.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Informs drug therapy around drug-eluting coronary stents."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Guides treatment for a common group of cardiology patients."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Concerns use of anticoagulant and antiplatelet drugs."
+    }
+   }
+  },
+  "b8c11187268c": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Gemelli Biotech says the technology behind its Trio-Smart breath test was used in a new study linking intestinal sulfide overproduction to a distinct small-bowel gene-expression signature.",
+   "rel": {
+    "diagnostics": {
+     "score": 5,
+     "why": "Supports a breath-test diagnostic for gut gas disorders."
+    }
+   }
+  },
+  "164c1380ac8d": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Eli Lilly is leaning on cash-pay, direct-to-patient sales of its obesity drugs in the US and increasingly abroad, building on Americans' willingness to pay hundreds of dollars a month.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Direct-to-patient cash sales are reshaping how the biggest drug class is sold."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Changes how patients access obesity treatment outside insurance."
+    }
+   }
+  },
+  "2522289ab3b6": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "Biostatistician Martin Kulldorff criticised scientific gatekeepers in an NIH lecture and blamed the rise in measles cases on Covid lockdowns, a widely disputed claim.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Signals the views being aired inside NIH on vaccines and public health."
+    }
+   }
+  },
+  "8fee2fda170e": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Korean device startup Ardens Lifescience won the $175,000 grand prize at the 2026 MedTech Innovator Asia Pacific finals in Singapore, KHIDI said.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "A regional medtech accelerator prize for a device startup."
+    }
+   }
+  },
+  "652abc9dacb3": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A Science study reports genomic erosion across bird species in a biodiversity hotspot, which the authors say is a conservation warning.",
+   "rel": {
+    "tools": {
+     "score": 3,
+     "why": "Shows population genomics being used to measure conservation risk."
+    }
+   }
+  },
+  "a90ec71ef6ad": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "The Korea Health Industry Development Institute will absorb two agencies that support the cosmetics and regenerative medicine sectors as Korea's health ministry cuts the number of public agencies.",
+   "rel": {
+    "cellgene": {
+     "score": 3,
+     "why": "Changes who supports regenerative medicine in Korea."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Restructures Korean health-industry agencies."
+    }
+   }
+  },
+  "1e9e45595266": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "More than 140 vaccine and biopharma professionals from 30 countries are in Korea for a three-week International Vaccine Institute training programme on manufacturing quality standards.",
+   "rel": {
+    "bioprocessing": {
+     "score": 4,
+     "why": "Trains vaccine manufacturing staff in quality standards."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Builds vaccine production capacity in more countries."
+    }
+   }
+  },
+  "c8727c0d91e2": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Researchers cultured Heimdallarchaeia, the archaea most closely related to eukaryotes, and report in Nature that they are internally simple, live anaerobically on peptides and form physical partnerships with other microbes.",
+   "rel": {
+    "industrial": {
+     "score": 3,
+     "why": "Adds cultured anaerobic archaea to the microbes available for study."
+    }
+   }
+  },
+  "142354f92c0d": {
+   "cat": "deals",
+   "imp": 3,
+   "summary": "GC Cell says it discussed bringing its immune cell therapy Immuncell-LC to Türkiye, and wider cooperation in advanced biopharmaceuticals, with a delegation led by the Turkish health minister.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "Possible export market for a Korean cell therapy."
     }
    }
   }
