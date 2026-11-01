@@ -61,10 +61,15 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
    page and confirm the facts are there before adding. Skip anything already in `news.json` or `extra`.
 4. **Brief:** set `brief` to `{"date": "<now ISO>", "points": [{"sec": "<section>", "text": "…", "ids": ["<story id>"]}]}`.
    Write **one point per section**, in the app's order, and leave a section out when nothing in it is worth a
-   line rather than padding it: `drugs` (drugs & trials), `journals` (from the journals), `money` (deals &
+   paragraph rather than padding it: `drugs` (drugs & trials), `journals` (from the journals), `money` (deals &
    money), `policy` (policy & regulation), `tools` (tools, diagnostics & AI), `bioind` (bio-industry),
-   `biodef` (biosecurity & defence). One sentence each, with the key number, pointing to its best story.
-   A point may cover two related stories in that section; never spend two points on the same development.
+   `biodef` (biosecurity & defence).
+   Each point is a **summary of that section's day**, not a pointer to its top story: two to four sentences
+   that say what actually happened across the section's stories, led by the most important ones and naming
+   the companies, drugs, regulators and numbers, then folding the rest in as a theme ("a heavy run of deals
+   and financings", "earnings set the tone") instead of listing every headline. Say when a section was quiet.
+   Put in `ids` the two to four stories the paragraph leans on most, best first; the app turns them into
+   links, so do not add more than four and do not repeat a development in another section's point.
 5. **Prune:** delete `items` entries whose id is no longer in `news.json`, and `extra` entries older than 90 days.
 6. **Sources** (`news-sources.json`):
    - Feeds failing: `news.json` → `feeds` shows `error` and `lastOk` per source. For a source failing for 2+ days,

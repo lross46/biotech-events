@@ -170,9 +170,12 @@ h1 span{color:var(--accent)}
 .brief{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:12px;padding:12px 14px;display:grid;gap:6px}
 .brief h3{margin:0;font-family:var(--f-display);font-size:19px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
 .brief h3 small{font-family:var(--f-mono);font-size:11px;font-weight:500;color:var(--muted)}
-.brief ul{margin:0;padding-left:18px;display:grid;gap:6px;font-size:14px}
-.brief .go{border:0;background:none;color:var(--accent);font-weight:600;padding:0 2px;font-size:13px}
-.brief .bsec{display:block;font-family:var(--f-mono);font-size:10.5px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.brief .bpoint{display:grid;gap:4px;padding-top:8px;border-top:1px solid var(--line)}
+.brief .bpoint:first-of-type{padding-top:2px;border-top:0}
+.brief .bpoint p{margin:0;font-size:14px;line-height:1.45}
+.brief .blinks{display:flex;flex-wrap:wrap;gap:6px}
+.brief .go{border:1px solid var(--line);background:var(--bg);border-radius:999px;color:var(--accent);font-weight:600;padding:3px 9px;font-size:12px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.brief .bsec{font-family:var(--f-mono);font-size:10.5px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
 .srcs{display:grid;gap:14px}
 .nsec{display:grid;gap:10px}
 .nsec h3{font-family:var(--f-display);font-size:18px;margin:8px 2px 0;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;border-bottom:1.5px solid var(--line);padding-bottom:5px;position:sticky;top:0;z-index:4;background:var(--bg);scroll-margin-top:0}
@@ -562,18 +565,23 @@ function ncard({ it, t }) {
 function briefHtml() {
   const b = NEWS.brief, d = b && new Date(b.date);
   if (!b?.points?.length || S.q || N.favOnly || isNaN(d) || Date.now() - d > 3 * 864e5) return "";
-  const ids = new Set(STORIES.map((s) => s.id));
-  const order = NSECTIONS.map(([id]) => id);
   const byId = new Map(STORIES.map((it) => [it.id, it]));
-  const points = b.points.map((p) => {
-    const id = (p.ids || []).find((x) => ids.has(x));
-    const story = id && byId.get(id);
-    const sec = (p.sec && order.includes(p.sec)) ? p.sec : (story?.reviewed ? nsectionOf(story) : null);
-    return { ...p, id, sec, at: sec ? order.indexOf(sec) : order.length };
-  }).sort((x, y) => x.at - y.at);
+  const order = NSECTIONS.map(([id]) => id);
   const label = (sec) => NSECTIONS.find(([id]) => id === sec)?.[1] || "";
-  return `<section class="brief"><h3>Today's brief <small>AI · ${d.getDate()} ${MON[d.getMonth()]}</small></h3><ul>${points.map((p) =>
-    `<li>${p.sec ? `<b class="bsec">${esc(label(p.sec))}</b>` : ""}${esc(p.text)}${p.id ? ` <button class="go" type="button" data-go="${esc(p.id)}">Read →</button>` : ""}</li>`).join("")}</ul></section>`;
+  const points = b.points.map((p) => {
+    const links = (p.ids || []).map((x) => byId.get(x)).filter(Boolean);
+    const sec = (p.sec && order.includes(p.sec)) ? p.sec : (links[0]?.reviewed ? nsectionOf(links[0]) : null);
+    return { text: p.text, links, sec, at: sec ? order.indexOf(sec) : order.length };
+  }).filter((p) => p.text).sort((x, y) => x.at - y.at);
+  if (!points.length) return "";
+  return `<section class="brief"><h3>Today's brief <small>AI \u00b7 ${d.getDate()} ${MON[d.getMonth()]}</small></h3>${points.map((p) =>
+    `<div class="bpoint">${p.sec ? `<b class="bsec">${esc(label(p.sec))}</b>` : ""}<p>${esc(p.text)}</p>${p.links.length
+      ? `<div class="blinks">${p.links.map((it) => {
+          const dup = p.links.filter((o) => o.source === it.source).length > 1;
+          const hint = dup ? " \u00b7 " + it.title.replace(/^\[[^\]]*\]\s*/, "").split(/\s+/).slice(0, 3).join(" ") : "";
+          return `<button class="go" type="button" data-go="${esc(it.id)}" title="${esc(it.title)}">${esc((it.source || "Read") + hint)} \u2192</button>`;
+        }).join("")}</div>`
+      : ""}</div>`).join("")}</section>`;
 }
 function sourcesHtml() {
   const f = NEWS.feeds || {};
@@ -865,6 +873,7 @@ document.addEventListener("click", (ev) => {
     $("#filters").querySelectorAll("[data-nset]").forEach((b) => b.setAttribute("aria-pressed", N[b.dataset.nset].has(b.dataset.v)));
     $("#filters").querySelectorAll("[data-ntog]").forEach((b) => b.setAttribute("aria-pressed", N[b.dataset.ntog]));
     $("#filters").querySelectorAll("[data-nwhen]").forEach((b) => b.setAttribute("aria-pressed", N.when === b.dataset.nwhen));
+    $("#filters").querySelectorAll("[data-nsort]").forEach((b) => b.setAttribute("aria-pressed", N.sort === b.dataset.nsort));
   }
   render();
 });

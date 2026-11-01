@@ -1,39 +1,74 @@
 {
- "updated": "2026-11-01T06:42:44Z",
+ "updated": "2026-11-01T09:29:01Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-01T06:42:44Z",
+  "date": "2026-11-01T09:29:01Z",
   "points": [
    {
-    "text": "The Bundibugyo Ebola outbreak in the DRC passed 10,000 confirmed cases, with 4,992 related deaths reported by ECDC as of 29 October, about 700 more cases than four days earlier.",
+    "sec": "drugs",
+    "text": "Third-quarter earnings set the tone. Eli Lilly beat estimates by about $2 billion at $24.4 billion on its tirzepatide franchise and raised guidance again, AbbVie leaned on Skyrizi and Rinvoq with analysts pressing on what comes next, and Sanofi rode continued Dupixent growth while reworking R&D ahead of its patent cliff. AstraZeneca was the outlier: a $1.5 billion annual savings plan it says will not cut jobs on a net basis, with executives conceding R&D cuts and trials shifting to emerging markets, and two early prostate cancer programmes dropped. On the clinical side Gilead disclosed a partial hold on two KITE-753 CAR-T lymphoma trials after cases of ICANS, Aer Therapeutics reported phase 2a results for fexlamose in COPD, and ESMO readouts kept coming.",
     "ids": [
-     "2026-10-30-ecdc-ebola-bundibugyo-update"
+     "461acedffe78",
+     "32820b40fa09",
+     "172c5a44341a",
+     "dd665161297f"
     ]
    },
    {
-    "text": "Boston Scientific cut its 2026 guidance for the third time, to 4.25% sales growth, on slowing Watchman and electrophysiology sales and a cyberattack, while Stryker also lowered its outlook on weaker hip and knee volumes.",
+    "sec": "journals",
+    "text": "A quiet few days, with two clinical results worth knowing. The LITMUS diagnostic accuracy study found single non-invasive markers fall short of biopsy in at-risk MASH while multimarker panels, led by a proteomic one, held up, and the PROSpect trial found neither prone positioning nor high-frequency oscillatory ventilation improved ventilator-free days in children with early ARDS, so routine use is not recommended. A Nature Medicine comment set out how climate change threatens malaria elimination across the Asia Pacific.",
     "ids": [
-     "ac08c446b5f5",
-     "1404ce6cc68f"
+     "68812dd7dda9",
+     "672050e6f7bc",
+     "234dd17583b4"
     ]
    },
    {
-    "text": "Viatris started its roughly $1.65 billion cash tender offer for Pacira BioSciences and its non-opioid pain products Exparel and Zilretta.",
+    "sec": "money",
+    "text": "A heavy run of deals and financings. Viatris opened its $1.65 billion tender for Pacira's non-opioid pain portfolio, BioMarin licensed GC Biopharma and Hanmi's long-acting Fabry enzyme therapy for $70 million upfront and up to $475 million, Pelthos agreed to combine with Castle Creek's late-stage gene therapy franchise, and DKSH bought Dubai-based NewBridge for $390 million to open a MENA platform. On the funding side Dren Bio raised $350 million to launch its rare blood cancer drug by the end of 2027, Bambusa upsized its IPO to $168.9 million, Setara emerged from Jazz's $820 million Actio buyout with a $90 million series A, and Flagship folded three companies into AI discovery outfit Etcelera. Capacity money too: Bracco is spending $230 million on its first US contrast media plant.",
     "ids": [
-     "4e68f332e2bd"
+     "4e68f332e2bd",
+     "28c1dd42e2b4",
+     "0991f0e8cacc",
+     "2026-10-30-dksh-newbridge-pharma-mena"
     ]
    },
    {
-    "text": "Bayer's factor XIa inhibitor won its first approval anywhere, in China, and Sun Pharma's Ilumya gained a US approval in psoriatic arthritis.",
+    "sec": "policy",
+    "text": "Two firsts from regulators: the FDA gave accelerated approval to Voceryq, the first plasmid DNA-based immunotherapy, for recurrent respiratory papillomatosis, and the MHRA extended Casgevy gene editing to children aged five and over with sickle-cell disease or beta-thalassaemia. On pricing, the US Labor Department finalised a rule forcing pharmacy benefit managers to disclose fees to self-funded employers from 2027, and Sanofi broke ranks by saying it would push for higher European prices rather than delay launches. Elsewhere India's CDSCO ordered Sun Pharma to halt eye-drug production at its Assam plant over quality failures, FDA and CMS officials are trying to head off a state-by-state patchwork for clinical AI, and Bloomberg laid out how cheap, fast Chinese trials are reshaping where drugs get developed.",
     "ids": [
-     "31ea1caa5157",
-     "e92b50ea4649"
+     "2edbbfd9093f",
+     "81569d2ec145",
+     "40c176f99965",
+     "a388d767f6ae"
     ]
    },
    {
-    "text": "Johns Hopkins researchers showed in Nature that the Bacteroides fragilis toxin linked to colorectal cancer needs the receptor claudin-4 to break the colon barrier, and a claudin-4 decoy protected mice.",
+    "sec": "tools",
+    "text": "Medtech demand wobbled: Stryker cut its 2026 guidance after a slowdown in hip and knee procedures, which its chief executive put down to the wider economy, while EY's Pulse of the Industry found medtech M&A rising in the first half of 2026 even as valuations fell. Anthropic, a day after filing for its IPO, published its fullest account yet of its biopharma work, naming projects with Bristol Myers Squibb, BigHat, Enveda and Generate Biomedicines. Smaller but concrete: Waters built AI peak integration into Empower for regulated labs, and Oura started its first clinical trial with UC San Diego on whether smart-ring data track GLP-1 outcomes.",
     "ids": [
-     "d3aa2a16dc71"
+     "1404ce6cc68f",
+     "7b1665e46b19",
+     "e6191b6880a9",
+     "2026-10-30-waters-empower-ai-peak-integration"
+    ]
+   },
+   {
+    "sec": "bioind",
+    "text": "The climate case for fermentation firmed up: a review of dozens of life-cycle assessments found fermentation-derived proteins and ingredients far below meat, dairy and seafood on environmental impact, while FoodNavigator reported that Bezos-backed protein companies are now competing on cost and scale rather than novelty. In pharma manufacturing Lonza filled in the scope of its Swiss antibody-drug conjugate expansion with mid-scale capacity.",
+    "ids": [
+     "6a0394954c07",
+     "e7b28ef7bb43",
+     "5ab89f151cb1"
+    ]
+   },
+   {
+    "sec": "biodef",
+    "text": "The DRC's Bundibugyo Ebola outbreak passed 10,000 confirmed cases, with ECDC reporting 10,274 cases and 4,992 deaths as of 29 October, up roughly 700 cases in four days, and exported cases in Kenya and Nigeria. On countermeasures, SK bioscience and IDT Biologika joined a BARDA-supported Bundibugyo vaccine effort with IAVI and Hilleman, with SK leading manufacturing scale-up. The UK Biobank is also reopening to researchers after most of a year closed by a large data leak.",
+    "ids": [
+     "2026-10-30-ecdc-ebola-bundibugyo-update",
+     "30190c78d882",
+     "908b81087a4c"
     ]
    }
   ]
