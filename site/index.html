@@ -512,13 +512,13 @@ function groupedHtml(rows, { capped }) {
     sec.picks.length ? sec.picks.map(ncard).join("") : `<p class="nsec-empty">Nothing scored here in ${NWHEN[N.when].toLowerCase()}.</p>`}</section>`).join("");
   const jump = `<nav class="njump" aria-label="Jump to a category">${shownSecs.filter((sec) => sec.picks.length)
     .map((sec) => `<button type="button" data-njump="${esc(sec.id)}">${esc(sec.name)}<span>${sec.picks.length}</span></button>`).join("")}</nav>`;
-  const lab = `<div class="chiplab seclab">Categories</div>`;
+  const lab = `<div class="chiplab seclab">News categories</div>`;
   return { shown, total, head: lab + jump, html: lab + jump + html + (capped ? `<div class="nsec-acts"><button class="btn" type="button" data-nabout>What's in each category?</button></div>` : "") };
 }
 function sectionViewHtml(rows) {
   const [, name, , blurb] = NSECTIONS.find(([id]) => id === N.section) || [];
   const list = rows.filter((r) => r.it.reviewed && nsectionOf(r.it) === N.section);
-  return { n: list.length, html: `<div class="nsec-head"><button class="btn" type="button" data-secclose>← All categories</button></div>
+  return { n: list.length, html: `<div class="nsec-head"><button class="btn" type="button" data-secclose>← All news categories</button></div>
     <section class="nsec"><h3>${esc(name || "Section")}<small>${list.length} in ${NWHEN[N.when].toLowerCase()}</small></h3>
     <p class="nsec-empty">${esc(blurb || "")}</p>
     ${list.length ? list.map(ncard).join("") : `<p class="nsec-empty">Nothing scored here yet.</p>`}</section>` };
