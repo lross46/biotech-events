@@ -62,6 +62,7 @@ h1 span{color:var(--accent)}
 .chip[aria-pressed="true"]{border-color:var(--c);background:color-mix(in srgb,var(--c) 14%,var(--surface));color:var(--ink)}
 .chip[aria-pressed="true"] i{background:var(--c)}
 .hint{font-size:12.5px;color:var(--muted);margin-top:-4px}
+.chiplab{font-family:var(--f-mono);font-size:10.5px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:-2px}
 
 .main{display:grid;gap:14px;grid-template-columns:1fr;align-items:start}
 .panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;min-width:0}
@@ -202,6 +203,7 @@ html{overscroll-behavior-y:contain}
 .ptr.ready{color:var(--accent)}
 .ptr.spin svg{animation:ptrspin .8s linear infinite}
 @keyframes ptrspin{to{transform:rotate(360deg)}}
+.totop{position:fixed;right:14px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:25;border:1px solid var(--line);background:var(--surface);color:var(--ink);font-family:var(--f-mono);font-size:12px;font-weight:600;padding:9px 13px;border-radius:999px;box-shadow:0 2px 10px rgba(0,0,0,.14)}
 .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:999px;font-size:14px;z-index:30}
 </style>
 </head>
@@ -226,7 +228,8 @@ html{overscroll-behavior-y:contain}
     <button class="fbtn" id="fopen" type="button">Filters <span class="n" id="fcount" hidden></span></button>
   </div>
 
-  <div class="chips" id="chips" role="group" aria-label="Sectors"></div>
+  <div class="chiplab">Industries</div>
+  <div class="chips" id="chips" role="group" aria-label="Industries"></div>
   <div class="hint" id="hint"></div>
 
   <div class="main">
@@ -251,6 +254,7 @@ html{overscroll-behavior-y:contain}
   </div>
 </div>
 <div class="scrim" id="scrim" hidden></div>
+<button class="totop" id="totop" type="button" hidden aria-label="Back to the top">↑ Top</button>
 <div class="toast" id="toast" hidden></div>
 <div class="ptr" id="ptr" hidden aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.3-5.6M20 4v4.5h-4.5"/></svg></div>
 
@@ -478,7 +482,7 @@ function nsectionOf(it) {
   return "drugs";
 }
 // The digest only shows reviewed stories: an unscored one cannot be ranked against the others.
-const digestOn = () => N.view === "top" && !S.q && !S.sectors.size && !N.kinds.size && !N.favOnly;
+const digestOn = () => N.view === "top" && !S.q && !N.kinds.size && !N.favOnly;
 function groupedHtml(rows, { capped }) {
   const by = {}, waiting = [];
   for (const r of rows) (r.it.reviewed ? (by[nsectionOf(r.it)] ||= []) : waiting).push(r);
@@ -491,12 +495,15 @@ function groupedHtml(rows, { capped }) {
   const head = (sec) => capped
     ? `<button type="button" class="nsec-open" data-nsec="${esc(sec.id)}">${esc(sec.name)}${sec.left ? `<small>+${sec.left} more</small>` : ""}<span class="nsec-arrow" aria-hidden="true">›</span></button>`
     : `${esc(sec.name)}<small>${sec.picks.length}</small>`;
-  const html = secs.map((sec) => `<section class="nsec" id="sec-${esc(sec.id)}"><h3>${head(sec)}</h3>${
+  // An industry chip narrows the feed hard, so empty categories are just noise then; in the
+  // unfiltered digest an empty category is worth seeing, because it says the day was quiet there.
+  const shownSecs = S.sectors.size ? secs.filter((sec) => sec.picks.length) : secs;
+  const html = shownSecs.map((sec) => `<section class="nsec" id="sec-${esc(sec.id)}"><h3>${head(sec)}</h3>${
     sec.picks.length ? sec.picks.map(ncard).join("") : `<p class="nsec-empty">Nothing scored here in ${NWHEN[N.when].toLowerCase()}.</p>`}</section>`).join("");
   // A long list needs somewhere to jump to; the 14-story digest does not.
-  const jump = capped ? "" : `<nav class="njump" aria-label="Jump to a section">${secs.filter((sec) => sec.picks.length)
+  const jump = capped ? "" : `<nav class="njump" aria-label="Jump to a category">${shownSecs.filter((sec) => sec.picks.length)
     .map((sec) => `<button type="button" data-njump="${esc(sec.id)}">${esc(sec.name)}<span>${sec.picks.length}</span></button>`).join("")}</nav>`;
-  return { shown, html: jump + html + (capped ? `<div class="nsec-acts"><button class="btn pri" type="button" data-nall>All ${rows.length} stories →</button><button class="btn" type="button" data-nabout>What's in each section?</button></div>` : "") };
+  return { shown, html: jump + html + (capped ? `<div class="nsec-acts"><button class="btn pri" type="button" data-nall>All ${rows.length} stories →</button><button class="btn" type="button" data-nabout>What's in each category?</button></div>` : "") };
 }
 function sectionViewHtml(rows) {
   const [, name, , blurb] = NSECTIONS.find(([id]) => id === N.section) || [];
@@ -510,12 +517,12 @@ function aboutHtml() {
   return `<div class="panel srcs" style="padding:14px">
     <div><button class="btn" type="button" data-aboutclose>← Back to news</button></div>
     <div><h3>Top stories</h3>
-      <p class="also" style="margin:0 0 8px">Every story is scored by AI for importance to the industry and relevance to each sector. Ranking by importance alone gives you mostly drug news, because that is what most of the feed is about. So "Top stories" gives each part of the field a fixed number of places and fills them with its most important stories of the period. Tap any section heading to see everything it is holding back. Sections can come up short on a quiet day, which is itself worth knowing. "All stories" gives you the whole list, ordered by importance or, if you change the order under Filters, newest first, including stories not yet reviewed.</p>
-      <p class="also" style="margin:0 0 8px">Sections are kinds of news. Sectors, the chips at the top, are who the news matters to, and a story carries as many as apply. They overlap on purpose: a fermentation funding round sits in "Deals &amp; money" and still scores for fermentation.</p>
+      <p class="also" style="margin:0 0 8px">Every story is scored by AI for importance to the industry and relevance to each industry. Ranking by importance alone gives you mostly drug news, because that is what most of the feed is about. So "Top stories" gives each category a fixed number of places and fills them with its most important stories of the period. Tap any category heading to see everything it is holding back. Categories can come up short on a quiet day, which is itself worth knowing. "All stories" gives you the whole list, ordered by importance or, if you change the order under Filters, newest first, including stories not yet reviewed.</p>
+      <p class="also" style="margin:0 0 8px">Categories are kinds of news, and a story sits in exactly one. Industries, the chips at the top, are who the news matters to, and a story carries as many as apply. They overlap on purpose: a fermentation funding round sits in the "Deals &amp; money" category and still scores for the fermentation industry.</p>
       ${NSECTIONS.map(([, name, slots, blurb]) => `<div class="srow"><b>${esc(name)}</b><span class="st">${slots} slot${slots > 1 ? "s" : ""}</span><span class="also">${esc(blurb)}</span></div>`).join("")}
-      <div class="srow"><span class="also">A story goes in the first section it fits, in the order above, so a Lancet paper on an outbreak counts as biosecurity rather than as a journal piece.</span></div></div>
-    <div><h3>Sectors</h3>
-      <p class="also" style="margin:0 0 8px">Each story is scored 0-10 for every sector that applies, with a one-line reason you can read under "Why it matters". Tap a chip at the top to rank by that sector instead.</p>
+      <div class="srow"><span class="also">A story goes in the first category it fits, in the order above, so a Lancet paper on an outbreak counts as biosecurity rather than as a journal piece.</span></div></div>
+    <div><h3>Industries</h3>
+      <p class="also" style="margin:0 0 8px">Each story is scored 0-10 for every industry that applies, with a one-line reason you can read under "Why it matters". Tap a chip at the top to rank by that industry instead; the categories stay in place.</p>
       ${SECTORS.map(([id, name, c]) => `<div class="srow"><span class="sc" style="--c:${c}">${esc(name)}</span><span class="also">${esc(SECTOR_ABOUT[id] || "")}</span></div>`).join("")}</div>
   </div>`;
 }
@@ -564,7 +571,7 @@ function ncard({ it, t }) {
 }
 function briefHtml() {
   const b = NEWS.brief, d = b && new Date(b.date);
-  if (!b?.points?.length || S.q || N.favOnly || isNaN(d) || Date.now() - d > 3 * 864e5) return "";
+  if (!b?.points?.length || S.q || S.sectors.size || N.favOnly || isNaN(d) || Date.now() - d > 3 * 864e5) return "";
   const byId = new Map(STORIES.map((it) => [it.id, it]));
   const order = NSECTIONS.map(([id]) => id);
   const label = (sec) => NSECTIONS.find(([id]) => id === sec)?.[1] || "";
@@ -625,7 +632,7 @@ function renderNews() {
     $("#out").innerHTML = briefHtml() + d.html;
     return;
   }
-  if (N.view === "all" && N.sort !== "latest" && !S.q && !S.sectors.size && rows.length) {
+  if (N.view === "all" && N.sort !== "latest" && !S.q && rows.length) {
     const g = groupedHtml(rows, { capped: false });
     $("#count").innerHTML = `<b>${rows.length}</b> stor${rows.length === 1 ? "y" : "ies"}`;
     $("#out").innerHTML = g.html;
@@ -741,7 +748,7 @@ function renderFilters() {
 function renderChips() {
   $("#chips").innerHTML = SECTORS.map(([id, name, c]) => `<button type="button" class="chip" style="--c:${c}" data-sector="${id}" aria-pressed="${S.sectors.has(id)}"><i></i>${esc(name)}</button>`).join("");
   const what = S.tab === "news" ? "stories" : "events";
-  $("#hint").textContent = S.sectors.size ? `Showing ${what} scoring ${MIN_REL}+ out of 10 for ${[...S.sectors].map((s) => SEC[s].name).join(" or ")}.` : `Tap a sector to rank ${what} by how relevant they are to it.`;
+  $("#hint").textContent = S.sectors.size ? `Showing ${what} scoring ${MIN_REL}+ out of 10 for ${[...S.sectors].map((s) => SEC[s].name).join(" or ")}.` : `Tap an industry to rank ${what} by how relevant they are to it.`;
 }
 
 const SORTS = { events: { rel: "Most relevant", date: "Soonest first", new: "Newest added" } };
@@ -893,6 +900,15 @@ $("#qx").addEventListener("click", () => { $("#q").value = ""; S.q = ""; $("#qx"
 $("#fopen").addEventListener("click", () => openFilters(true));
 $("#scrim").addEventListener("click", () => openFilters(false));
 document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") openFilters(false); });
+
+// Lists run long, so offer a way back without scrolling all of it.
+const totop = $("#totop");
+let totopT;
+addEventListener("scroll", () => {
+  clearTimeout(totopT);
+  totopT = setTimeout(() => { totop.hidden = scrollY < 700; }, 80);
+}, { passive: true });
+totop.addEventListener("click", () => { scrollTo({ top: 0, behavior: "smooth" }); totop.hidden = true; });
 
 // A shared link (#e=<id> or #n=<id>) opens that event or story, even if filters would hide it.
 function openShared() {
