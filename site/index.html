@@ -251,10 +251,6 @@ html{overscroll-behavior-y:contain}
           <button type="button" data-view="list">List</button>
           <button type="button" data-view="month">Month</button>
         </div>
-        <div class="seg" role="group" aria-label="View" id="nviewseg" hidden>
-          <button type="button" data-nview="top">Top stories</button>
-          <button type="button" data-nview="all">All stories</button>
-        </div>
       </div>
       <div id="out"></div>
       <p class="foot" id="foot"></p>
@@ -329,7 +325,6 @@ const S = {
 const nsaved = store.get("br-news", {});
 const N = {
   kinds: new Set(nsaved.kinds || []), when: nsaved.when || "d3", favOnly: !!nsaved.favOnly,
-  view: nsaved.view || (nsaved.sort && nsaved.sort !== "top" ? "all" : "top"),   // older saved settings used sort for this
   sort: nsaved.sort === "latest" ? "latest" : "imp",
   briefOpen: !!nsaved.briefOpen,
   sources: false, about: false, section: null,
@@ -344,7 +339,7 @@ function persist() {
     sectors: [...S.sectors], types: [...S.types], formats: [...S.formats], regions: [...S.regions],
     when: S.when, from: S.from, to: S.to, favOnly: S.favOnly, freeOnly: S.freeOnly, past: S.past, sort: S.sort, view: S.view, tab: S.tab,
   });
-  store.set("br-news", { kinds: [...N.kinds], when: N.when, favOnly: N.favOnly, view: N.view, sort: N.sort, briefOpen: N.briefOpen });
+  store.set("br-news", { kinds: [...N.kinds], when: N.when, favOnly: N.favOnly, sort: N.sort, briefOpen: N.briefOpen });
 }
 
 /* ---------- matching ---------- */
@@ -491,7 +486,10 @@ function nsectionOf(it) {
   return "drugs";
 }
 // The digest only shows reviewed stories: an unscored one cannot be ranked against the others.
-const digestOn = () => N.view === "top" && !S.q && !N.kinds.size && !N.favOnly;
+// One news view: the category digest. A narrow filter (favourites, evidence type) lifts the
+// per-category cap instead of switching to a flat list; everything else is one tap into a category.
+const digestOn = () => !S.q;
+const digestCapped = () => !N.favOnly && !N.kinds.size;
 function groupedHtml(rows, { capped }) {
   // Unreviewed stories have no category and no score, so they are left out of both views
   // and appear once the next review has run.
@@ -506,20 +504,21 @@ function groupedHtml(rows, { capped }) {
   const head = (sec) => capped
     ? `<button type="button" class="nsec-open" data-nsec="${esc(sec.id)}">${esc(sec.name)}${sec.left ? `<small>+${sec.left} more</small>` : ""}<span class="nsec-arrow" aria-hidden="true">›</span></button>`
     : `${esc(sec.name)}<small>${sec.picks.length}</small>`;
-  // A sector chip narrows the feed hard, so empty categories are just noise then; in the
-  // unfiltered digest an empty category is worth seeing, because it says the day was quiet there.
-  const shownSecs = S.sectors.size ? secs.filter((sec) => sec.picks.length) : secs;
+  // A filter narrows the feed hard, so empty categories are just noise then; in the unfiltered
+  // digest an empty category is worth seeing, because it says the day was quiet there.
+  const narrowed = S.sectors.size || N.kinds.size || N.favOnly;
+  const shownSecs = narrowed ? secs.filter((sec) => sec.picks.length) : secs;
   const html = shownSecs.map((sec) => `<section class="nsec" id="sec-${esc(sec.id)}"><h3>${head(sec)}</h3>${
     sec.picks.length ? sec.picks.map(ncard).join("") : `<p class="nsec-empty">Nothing scored here in ${NWHEN[N.when].toLowerCase()}.</p>`}</section>`).join("");
   const jump = `<nav class="njump" aria-label="Jump to a category">${shownSecs.filter((sec) => sec.picks.length)
     .map((sec) => `<button type="button" data-njump="${esc(sec.id)}">${esc(sec.name)}<span>${sec.picks.length}</span></button>`).join("")}</nav>`;
   const lab = `<div class="chiplab seclab">Categories</div>`;
-  return { shown, total, head: lab + jump, html: lab + jump + html + (capped ? `<div class="nsec-acts"><button class="btn pri" type="button" data-nall>All stories →</button><button class="btn" type="button" data-nabout>What's in each category?</button></div>` : "") };
+  return { shown, total, head: lab + jump, html: lab + jump + html + (capped ? `<div class="nsec-acts"><button class="btn" type="button" data-nabout>What's in each category?</button></div>` : "") };
 }
 function sectionViewHtml(rows) {
   const [, name, , blurb] = NSECTIONS.find(([id]) => id === N.section) || [];
   const list = rows.filter((r) => r.it.reviewed && nsectionOf(r.it) === N.section);
-  return { n: list.length, html: `<div class="nsec-head"><button class="btn" type="button" data-secclose>← Top stories</button></div>
+  return { n: list.length, html: `<div class="nsec-head"><button class="btn" type="button" data-secclose>← All categories</button></div>
     <section class="nsec"><h3>${esc(name || "Section")}<small>${list.length} in ${NWHEN[N.when].toLowerCase()}</small></h3>
     <p class="nsec-empty">${esc(blurb || "")}</p>
     ${list.length ? list.map(ncard).join("") : `<p class="nsec-empty">Nothing scored here yet.</p>`}</section>` };
@@ -527,8 +526,8 @@ function sectionViewHtml(rows) {
 function aboutHtml() {
   return `<div class="panel srcs" style="padding:14px">
     <div><button class="btn" type="button" data-aboutclose>← Back to news</button></div>
-    <div><h3>Top stories</h3>
-      <p class="also" style="margin:0 0 8px">Every story is scored by AI for importance to the field and relevance to each sector. Ranking by importance alone gives you mostly drug news, because that is what most of the feed is about. So "Top stories" gives each category a fixed number of places and fills them with its most important stories of the period. Tap any category heading to see everything it is holding back. Categories can come up short on a quiet day, which is itself worth knowing. "All stories" gives you every story in the same categories, ordered by importance or, if you change the order under Filters, newest first. Stories the AI has not reviewed yet are left out of both views and appear once the next review has run.</p>
+    <div><h3>The news screen</h3>
+      <p class="also" style="margin:0 0 8px">Every story is scored by AI for importance to the field and relevance to each sector. Ranking by importance alone gives you mostly drug news, because that is what most of the feed is about. So the news screen gives each category a fixed number of places and fills them with its most important stories of the period. Tap a category heading, or its chip in the row above the list, to see every story in that category, ordered by importance or, if you change the order under Filters, newest first. Categories can come up short on a quiet day, which is itself worth knowing, and stories the AI has not reviewed yet are left out until the next review has run.</p>
       <p class="also" style="margin:0 0 8px">Categories are kinds of news, and a story sits in exactly one. Sectors, the chips at the top, are who the news matters to, and a story carries as many as apply. They overlap on purpose: a fermentation funding round sits in the "Deals &amp; money" category and still scores for the fermentation sector.</p>
       ${NSECTIONS.map(([, name, slots, blurb]) => `<div class="srow"><b>${esc(name)}</b><span class="st">${slots} slot${slots > 1 ? "s" : ""}</span><span class="also">${esc(blurb)}</span></div>`).join("")}
       <div class="srow"><span class="also">A story goes in the first category it fits, in the order above, so a Lancet paper on an outbreak counts as biosecurity rather than as a journal piece.</span></div></div>
@@ -643,18 +642,11 @@ function renderNews() {
     return;
   }
   if (digestOn() && rows.length) {
-    const d = groupedHtml(rows, { capped: true });
+    const capped = digestCapped();
+    const d = groupedHtml(rows, { capped });
     if (d.total) {
-      $("#count").innerHTML = `<b>${d.shown}</b> top of ${d.total}`;
+      $("#count").innerHTML = capped ? `<b>${d.shown}</b> top of ${d.total}` : `<b>${d.total}</b> stor${d.total === 1 ? "y" : "ies"}`;
       $("#out").innerHTML = briefHtml() + d.head + d.html.slice(d.head.length);
-      return;
-    }
-  }
-  if (N.view === "all" && !S.q && rows.length) {
-    const g = groupedHtml(rows, { capped: false });
-    if (g.total) {
-      $("#count").innerHTML = `<b>${g.total}</b> stor${g.total === 1 ? "y" : "ies"}`;
-      $("#out").innerHTML = briefHtml() + g.html;
       return;
     }
   }
@@ -668,7 +660,7 @@ function openStory(id) {
   if (!STORIES.some((s) => s.id === id)) return;
   S.tab = "news"; N.sources = N.about = false; N.section = null;
   if (!document.getElementById("nw-" + id)) {
-    S.q = ""; $("#q").value = ""; S.sectors.clear(); N.kinds.clear(); N.favOnly = false; N.when = "d90"; N.view = "all";
+    S.q = ""; $("#q").value = ""; S.sectors.clear(); N.kinds.clear(); N.favOnly = false; N.when = "d90";
   }
   S.open.add(id);
   renderFilters(); render();
@@ -791,8 +783,6 @@ function render() {
   $("#sort").hidden = news || S.view === "month";
   $("#srcbtn").hidden = !news || N.sources || N.about;
   $("#viewseg").hidden = news;
-  $("#nviewseg").hidden = !news || N.sources || N.about;
-  document.querySelectorAll("[data-nview]").forEach((b) => b.setAttribute("aria-pressed", b.dataset.nview === N.view));
   persist();
   if (news) return renderNews();
   document.querySelectorAll("[data-view]").forEach((b) => b.setAttribute("aria-pressed", b.dataset.view === S.view));
@@ -863,8 +853,6 @@ document.addEventListener("click", (ev) => {
     S.sectors.clear(); S.q = ""; $("#q").value = ""; $("#qx").hidden = true; renderFilters();
   }
   else if (t.id === "srcbtn") { N.sources = true; N.section = null; window.scrollTo(0, 0); }
-  else if (d.nall !== undefined || d.nview === "all") { N.view = "all"; N.section = null; window.scrollTo(0, 0); }
-  else if (d.nview === "top") { N.view = "top"; N.section = null; window.scrollTo(0, 0); }
   else if (d.brieftog !== undefined) N.briefOpen = !N.briefOpen;
   else if (d.nsort) N.sort = d.nsort;
   else if (d.nsec) { N.section = d.nsec; window.scrollTo(0, 0); }
