@@ -178,6 +178,10 @@ h1 span{color:var(--accent)}
 .nsec h3 small{font-family:var(--f-mono);font-size:11px;font-weight:500;color:var(--muted)}
 .nsec-empty{margin:0 2px;color:var(--muted);font-size:13.5px}
 .nsec-acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.nsec-head{margin-top:4px}
+.nsec-open{border:0;background:none;padding:0;font:inherit;color:inherit;display:inline-flex;align-items:baseline;gap:8px;text-align:left}
+.nsec-open small{font-family:var(--f-mono);font-size:11px;font-weight:500;color:var(--muted)}
+.nsec-arrow{color:var(--muted);font-size:17px;line-height:1}
 .srcs h3{font-family:var(--f-display);margin:0 0 6px;font-size:18px}
 .srow{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;padding:7px 0;border-top:1px solid var(--line);font-size:14px}
 .srow a{font-weight:600}
@@ -299,7 +303,7 @@ const S = {
   open: new Set(),
 };
 const nsaved = store.get("br-news", {});
-const N = { cats: new Set(nsaved.cats || []), kinds: new Set(nsaved.kinds || []), when: nsaved.when || "d3", favOnly: !!nsaved.favOnly, sort: nsaved.sort || "top", sources: false, about: false };
+const N = { cats: new Set(nsaved.cats || []), kinds: new Set(nsaved.kinds || []), when: nsaved.when || "d3", favOnly: !!nsaved.favOnly, sort: nsaved.sort || "top", sources: false, about: false, section: null };
 let FAV = new Set(store.get("br-favs", []));
 let NFAV = store.get("br-newsfav", {});  // id -> saved copy, so favourite stories outlive the 90-day window
 let DATA = { events: [] }, LOAD_ERR = false;
@@ -465,12 +469,21 @@ function digestHtml(rows) {
   for (const r of rows) if (r.it.reviewed) (by[nsectionOf(r.it)] ||= []).push(r);
   const secs = NSECTIONS.map(([id, name, slots]) => {
     const list = by[id] || [];
-    return { name, picks: list.slice(0, slots), left: Math.max(0, list.length - slots) };
+    return { id, name, picks: list.slice(0, slots), left: Math.max(0, list.length - slots) };
   });
   const shown = secs.reduce((n, s) => n + s.picks.length, 0);
-  const html = secs.map((s) => `<section class="nsec"><h3>${esc(s.name)}${s.left ? `<small>+${s.left} more in ${NWHEN[N.when].toLowerCase()}</small>` : ""}</h3>${
+  const html = secs.map((s) => `<section class="nsec"><h3><button type="button" class="nsec-open" data-nsec="${esc(s.id)}">${esc(s.name)}${
+      s.left ? `<small>+${s.left} more</small>` : ""}<span class="nsec-arrow" aria-hidden="true">›</span></button></h3>${
     s.picks.length ? s.picks.map(ncard).join("") : `<p class="nsec-empty">Nothing scored here in ${NWHEN[N.when].toLowerCase()}.</p>`}</section>`).join("");
   return { shown, html: html + `<div class="nsec-acts"><button class="btn pri" type="button" data-nall>Show everything (${rows.length}) →</button><button class="btn" type="button" data-nabout>What's in each section?</button></div>` };
+}
+function sectionViewHtml(rows) {
+  const [, name, , blurb] = NSECTIONS.find(([id]) => id === N.section) || [];
+  const list = rows.filter((r) => r.it.reviewed && nsectionOf(r.it) === N.section);
+  return { n: list.length, html: `<div class="nsec-head"><button class="btn" type="button" data-secclose>← Top stories</button></div>
+    <section class="nsec"><h3>${esc(name || "Section")}<small>${list.length} in ${NWHEN[N.when].toLowerCase()}</small></h3>
+    <p class="nsec-empty">${esc(blurb || "")}</p>
+    ${list.length ? list.map(ncard).join("") : `<p class="nsec-empty">Nothing scored here yet.</p>`}</section>` };
 }
 function aboutHtml() {
   return `<div class="panel srcs" style="padding:14px">
@@ -565,6 +578,12 @@ function renderNews() {
   const needArchive = (N.when === "d30" || N.when === "d90" || N.favOnly) && !ARCHIVE && NEWS.archived > 0;
   if (needArchive) loadArchive();
   const rows = filteredNews();
+  if (N.section && digestOn()) {
+    const v = sectionViewHtml(rows);
+    $("#count").innerHTML = `<b>${v.n}</b> stor${v.n === 1 ? "y" : "ies"}`;
+    $("#out").innerHTML = v.html;
+    return;
+  }
   if (digestOn() && rows.length) {
     const d = digestHtml(rows);
     $("#count").innerHTML = `<b>${d.shown}</b> top of ${rows.length}`;
@@ -579,7 +598,7 @@ function renderNews() {
 }
 function openStory(id) {
   if (!STORIES.some((s) => s.id === id)) return;
-  S.tab = "news"; N.sources = N.about = false;
+  S.tab = "news"; N.sources = N.about = false; N.section = null;
   if (!document.getElementById("nw-" + id)) {
     S.q = ""; $("#q").value = ""; S.sectors.clear(); N.cats.clear(); N.kinds.clear(); N.favOnly = false; N.when = "d90";
   }
@@ -776,8 +795,10 @@ document.addEventListener("click", (ev) => {
     else { S.types.clear(); S.formats.clear(); S.regions.clear(); S.when = "all"; S.from = S.to = ""; S.favOnly = S.freeOnly = S.past = false; }
     S.sectors.clear(); S.q = ""; $("#q").value = ""; $("#qx").hidden = true; renderFilters();
   }
-  else if (t.id === "srcbtn") { N.sources = true; window.scrollTo(0, 0); }
-  else if (d.nall !== undefined) { N.sort = "all"; window.scrollTo(0, 0); }
+  else if (t.id === "srcbtn") { N.sources = true; N.section = null; window.scrollTo(0, 0); }
+  else if (d.nall !== undefined) { N.sort = "all"; N.section = null; window.scrollTo(0, 0); }
+  else if (d.nsec) { N.section = d.nsec; window.scrollTo(0, 0); }
+  else if (d.secclose !== undefined) { N.section = null; window.scrollTo(0, 0); }
   else if (d.nabout !== undefined) { N.about = true; window.scrollTo(0, 0); }
   else if (d.aboutclose !== undefined) N.about = false;
   else if (d.srcclose !== undefined) N.sources = false;
@@ -815,7 +836,7 @@ document.addEventListener("click", (ev) => {
 document.addEventListener("change", (ev) => {
   if (ev.target.id === "from") S.from = ev.target.value;
   else if (ev.target.id === "to") S.to = ev.target.value;
-  else if (ev.target.id === "sort") S.tab === "news" ? (N.sort = ev.target.value) : (S.sort = ev.target.value);
+  else if (ev.target.id === "sort") S.tab === "news" ? (N.sort = ev.target.value, N.section = null) : (S.sort = ev.target.value);
   else return;
   render();
 });
