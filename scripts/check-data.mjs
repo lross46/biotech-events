@@ -2,7 +2,7 @@
 // Exits 1 on invalid data so a bad update never goes live. Writes stale_days to GITHUB_OUTPUT.
 import { readFileSync, appendFileSync } from "node:fs";
 
-const SECTORS = ["defence", "biosecurity", "healthcare", "meddevices", "pharma", "diagnostics", "ai", "agrifood", "industrial", "bioprocessing", "fermentation", "investment"];
+const SECTORS = ["defence", "biosecurity", "healthcare", "meddevices", "pharma", "cellgene", "diagnostics", "tools", "ai", "agrifood", "industrial", "bioprocessing", "fermentation", "investment"];
 const TYPES = ["conference", "symposium", "webinar", "tradeshow", "partnering", "workshop"];
 const FORMATS = ["inperson", "online", "hybrid"];
 const REGIONS = ["europe", "uk", "namerica", "apac", "mena", "latam", "global"];

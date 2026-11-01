@@ -2,7 +2,7 @@
 // Exits 1 on invalid data so a bad update never goes live. Writes news_stale_days to GITHUB_OUTPUT.
 import { readFileSync, appendFileSync } from "node:fs";
 
-const SECTORS = ["defence", "biosecurity", "healthcare", "meddevices", "pharma", "diagnostics", "ai", "agrifood", "industrial", "bioprocessing", "fermentation", "investment"];
+const SECTORS = ["defence", "biosecurity", "healthcare", "meddevices", "pharma", "cellgene", "diagnostics", "tools", "ai", "agrifood", "industrial", "bioprocessing", "fermentation", "investment"];
 const CATS = ["funding", "deals", "regulatory", "clinical", "science", "policy", "contracts", "other"];
 const KINDS = ["journal", "official", "news", "science", "pr", "preprint"];
 const read = (f) => JSON.parse(readFileSync(new URL(`../site/data/${f}`, import.meta.url), "utf8"));

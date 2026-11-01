@@ -173,6 +173,11 @@ h1 span{color:var(--accent)}
 .brief ul{margin:0;padding-left:18px;display:grid;gap:6px;font-size:14px}
 .brief .go{border:0;background:none;color:var(--accent);font-weight:600;padding:0 2px;font-size:13px}
 .srcs{display:grid;gap:14px}
+.nsec{display:grid;gap:10px}
+.nsec h3{font-family:var(--f-display);font-size:18px;margin:8px 2px 0;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;border-bottom:1.5px solid var(--line);padding-bottom:5px}
+.nsec h3 small{font-family:var(--f-mono);font-size:11px;font-weight:500;color:var(--muted)}
+.nsec-empty{margin:0 2px;color:var(--muted);font-size:13.5px}
+.nsec-acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
 .srcs h3{font-family:var(--f-display);margin:0 0 6px;font-size:18px}
 .srow{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;padding:7px 0;border-top:1px solid var(--line);font-size:14px}
 .srow a{font-weight:600}
@@ -241,7 +246,9 @@ const SECTORS = [
   ["healthcare", "Healthcare", "#2F7FC1"],
   ["meddevices", "Medical devices", "#7A55B8"],
   ["pharma", "Pharma & therapeutics", "#C2387A"],
+  ["cellgene", "Cell & gene therapy", "#7B2D8E"],
   ["diagnostics", "Diagnostics", "#1C9AA8"],
+  ["tools", "Research tools & platforms", "#1F3A8A"],
   ["ai", "AI & data", "#4A5BD4"],
   ["agrifood", "Agri & food", "#5C9A2E"],
   ["industrial", "Industrial biotech", "#A86E12"],
@@ -292,7 +299,7 @@ const S = {
   open: new Set(),
 };
 const nsaved = store.get("br-news", {});
-const N = { cats: new Set(nsaved.cats || []), kinds: new Set(nsaved.kinds || []), when: nsaved.when || "d7", favOnly: !!nsaved.favOnly, sort: nsaved.sort || "top", sources: false };
+const N = { cats: new Set(nsaved.cats || []), kinds: new Set(nsaved.kinds || []), when: nsaved.when || "d3", favOnly: !!nsaved.favOnly, sort: nsaved.sort || "top", sources: false, about: false };
 let FAV = new Set(store.get("br-favs", []));
 let NFAV = store.get("br-newsfav", {});  // id -> saved copy, so favourite stories outlive the 90-day window
 let DATA = { events: [] }, LOAD_ERR = false;
@@ -428,6 +435,71 @@ function filteredNews() {
   else out.sort((a, b) => (S.sectors.size ? b.ss - a.ss : nimp(b.it) - nimp(a.it)) || (b.ts - a.ts) || (b.t - a.t));
   return out;
 }
+/* Top stories: fixed slots per section, so the busiest part of the field (drug news, by a long way)
+   cannot crowd out the rest. A story lands in the first section whose rule it meets. */
+const NSECTIONS = [
+  ["drugs", "Drugs & trials", 3, "Candidate drugs, trial results, launches and the companies behind them."],
+  ["journals", "From the journals", 2, "Papers, and editorials or comment pieces of consequence, from Nature, Science, Cell, NEJM, The Lancet, Nature Medicine and Nature Biotechnology."],
+  ["money", "Deals & money", 2, "Licensing, acquisitions, funding rounds, IPOs and contract awards."],
+  ["policy", "Policy & regulation", 2, "Regulators, approvals and recalls, legislation, pricing and government strategy."],
+  ["tools", "Tools, diagnostics & AI", 2, "Diagnostics, medical devices, research platforms and AI applied to biology."],
+  ["bioind", "Bio-industry", 2, "Bioprocessing, fermentation, industrial biotech, agriculture and food."],
+  ["biodef", "Biosecurity & defence", 1, "Outbreaks, preparedness, biosafety and defence programmes."],
+];
+const TOP_JOURNALS = new Set(["nature", "science", "cell", "nejm", "lancet", "natmed", "nbt"]);
+const relMax = (rel, keys) => Math.max(0, ...keys.map((k) => rel[k]?.score || 0));
+function nsectionOf(it) {
+  const rel = nrel(it), cat = ncat(it);
+  if (relMax(rel, ["biosecurity", "defence"]) >= 6) return "biodef";
+  if (it.kind === "journal" && TOP_JOURNALS.has(it.sourceId)) return "journals";
+  if (cat === "policy" || cat === "regulatory") return "policy";
+  if (cat === "deals" || cat === "funding" || cat === "contracts" || relMax(rel, ["investment"]) >= 7) return "money";
+  if (relMax(rel, ["diagnostics", "meddevices", "ai", "tools"]) >= 5) return "tools";
+  if (relMax(rel, ["bioprocessing", "fermentation", "industrial", "agrifood"]) >= 5) return "bioind";
+  return "drugs";
+}
+// The digest only shows reviewed stories: an unscored one cannot be ranked against the others.
+const digestOn = () => N.sort === "top" && !S.q && !S.sectors.size && !N.cats.size && !N.kinds.size && !N.favOnly;
+function digestHtml(rows) {
+  const by = {};
+  for (const r of rows) if (r.it.reviewed) (by[nsectionOf(r.it)] ||= []).push(r);
+  const secs = NSECTIONS.map(([id, name, slots]) => {
+    const list = by[id] || [];
+    return { name, picks: list.slice(0, slots), left: Math.max(0, list.length - slots) };
+  });
+  const shown = secs.reduce((n, s) => n + s.picks.length, 0);
+  const html = secs.map((s) => `<section class="nsec"><h3>${esc(s.name)}${s.left ? `<small>+${s.left} more in ${NWHEN[N.when].toLowerCase()}</small>` : ""}</h3>${
+    s.picks.length ? s.picks.map(ncard).join("") : `<p class="nsec-empty">Nothing scored here in ${NWHEN[N.when].toLowerCase()}.</p>`}</section>`).join("");
+  return { shown, html: html + `<div class="nsec-acts"><button class="btn pri" type="button" data-nall>Show everything (${rows.length}) →</button><button class="btn" type="button" data-nabout>What's in each section?</button></div>` };
+}
+function aboutHtml() {
+  return `<div class="panel srcs" style="padding:14px">
+    <div><button class="btn" type="button" data-aboutclose>← Back to news</button></div>
+    <div><h3>Top stories</h3>
+      <p class="also" style="margin:0 0 8px">Every story is scored by AI for importance to the industry and relevance to each sector. Ranking by importance alone gives you mostly drug news, because that is what most of the feed is about. So "Top stories" gives each part of the field a fixed number of places and fills them with its most important stories of the period. Sections can come up short on a quiet day, which is itself worth knowing. "Show everything" gives you the full ranked list, and "Latest first" the raw stream including stories not yet reviewed.</p>
+      ${NSECTIONS.map(([, name, slots, blurb]) => `<div class="srow"><b>${esc(name)}</b><span class="st">${slots} slot${slots > 1 ? "s" : ""}</span><span class="also">${esc(blurb)}</span></div>`).join("")}
+      <div class="srow"><span class="also">A story goes in the first section it fits, in the order above, so a Lancet paper on an outbreak counts as biosecurity rather than as a journal piece.</span></div></div>
+    <div><h3>Sectors</h3>
+      <p class="also" style="margin:0 0 8px">Each story is scored 0-10 for every sector that applies, with a one-line reason you can read under "Why it matters". Tap a chip at the top to rank by that sector instead.</p>
+      ${SECTORS.map(([id, name, c]) => `<div class="srow"><span class="sc" style="--c:${c}">${esc(name)}</span><span class="also">${esc(SECTOR_ABOUT[id] || "")}</span></div>`).join("")}</div>
+  </div>`;
+}
+const SECTOR_ABOUT = {
+  defence: "Military and defence-funded biotech, CBRN, DARPA and ministry programmes.",
+  biosecurity: "Outbreaks, pandemic preparedness, biosafety, pathogen surveillance and bioweapons policy.",
+  healthcare: "Care delivery, hospitals, patients, insurance and public health.",
+  meddevices: "Medical devices, implants, surgical and wearable hardware.",
+  pharma: "Drugs and biologics: discovery, trials, approvals, launches and the companies that run them.",
+  cellgene: "Cell and gene therapy specifically: gene editing, CAR-T, AAV and mRNA medicines.",
+  diagnostics: "Tests, assays, biomarkers and screening.",
+  tools: "Research tools and platforms: instruments, sequencing, omics, reagents and lab automation.",
+  ai: "AI, machine learning and computation applied to biology and medicine.",
+  agrifood: "Crops, livestock, food and alternative proteins.",
+  industrial: "Industrial biotech, synthetic biology, biomaterials and biofuels.",
+  bioprocessing: "Manufacturing: CDMOs, bioreactors, fill-finish, scale-up and GMP capacity.",
+  fermentation: "Precision, biomass and traditional fermentation.",
+  investment: "Funding, valuations, markets and the business of the industry.",
+};
 function ago(t) {
   const m = Math.round((Date.now() - t) / 6e4);
   if (m < 60) return `${Math.max(m, 1)} min ago`;
@@ -477,7 +549,7 @@ function sourcesHtml() {
     ${NSRC.log?.length ? `<div><h3>Recent changes</h3>${NSRC.log.slice(-12).reverse().map((l) => `<div class="srow"><span class="st">${esc(l.date)}</span>${esc(l.text)}</div>`).join("")}</div>` : ""}
   </div>`;
 }
-const newsFilterCount = () => N.cats.size + N.kinds.size + (N.when !== "d7") + N.favOnly;
+const newsFilterCount = () => N.cats.size + N.kinds.size + (N.when !== "d3") + N.favOnly;
 function renderNewsFilters() {
   const group = (title, key, map) => `<div class="fgroup"><b>${title}</b><div class="opts">${Object.entries(map).map(([k, v]) => `<button type="button" class="opt" data-nset="${key}" data-v="${k}" aria-pressed="${N[key].has(k)}">${esc(v)}</button>`).join("")}</div></div>`;
   $("#filters").innerHTML = `<h3>Filters</h3>
@@ -489,9 +561,16 @@ function renderNewsFilters() {
 }
 function renderNews() {
   if (N.sources) { $("#count").innerHTML = ""; $("#out").innerHTML = sourcesHtml(); return; }
+  if (N.about) { $("#count").innerHTML = ""; $("#out").innerHTML = aboutHtml(); return; }
   const needArchive = (N.when === "d30" || N.when === "d90" || N.favOnly) && !ARCHIVE && NEWS.archived > 0;
   if (needArchive) loadArchive();
   const rows = filteredNews();
+  if (digestOn() && rows.length) {
+    const d = digestHtml(rows);
+    $("#count").innerHTML = `<b>${d.shown}</b> top of ${rows.length}`;
+    $("#out").innerHTML = briefHtml() + d.html;
+    return;
+  }
   $("#count").innerHTML = `<b>${rows.length}</b> stor${rows.length === 1 ? "y" : "ies"}`;
   const empty = STORIES.length
     ? `<div class="empty"><b>No stories match</b>Try a longer time range, fewer filters or a different search.${newsFilterCount() || S.sectors.size ? `<br><button class="reset" type="button" data-reset>Clear all filters</button>` : ""}</div>`
@@ -500,7 +579,7 @@ function renderNews() {
 }
 function openStory(id) {
   if (!STORIES.some((s) => s.id === id)) return;
-  S.tab = "news"; N.sources = false;
+  S.tab = "news"; N.sources = N.about = false;
   if (!document.getElementById("nw-" + id)) {
     S.q = ""; $("#q").value = ""; S.sectors.clear(); N.cats.clear(); N.kinds.clear(); N.favOnly = false; N.when = "d90";
   }
@@ -607,7 +686,7 @@ function renderChips() {
 
 const SORTS = {
   events: { rel: "Most relevant", date: "Soonest first", new: "Newest added" },
-  news: { top: "Top stories", latest: "Latest first" },
+  news: { top: "Top stories", all: "Everything, by importance", latest: "Latest first" },
 };
 const FOOT = {
   events: "Summaries and relevance scores are written by AI from each event's website and checked weekly. Dates and details can change: always confirm on the official site before booking.",
@@ -626,7 +705,7 @@ function render() {
   $("#sort").innerHTML = Object.entries(SORTS[S.tab]).map(([k, v]) => `<option value="${k}">${v}</option>`).join("");
   $("#sort").value = news ? N.sort : S.sort;
   $("#sort").hidden = news ? N.sources : S.view === "month";
-  $("#srcbtn").hidden = !news || N.sources;
+  $("#srcbtn").hidden = !news || N.sources || N.about;
   $("#viewseg").hidden = news;
   persist();
   if (news) return renderNews();
@@ -684,7 +763,7 @@ document.addEventListener("click", (ev) => {
   const t = ev.target.closest("button");
   if (!t) return;
   const d = t.dataset;
-  if (d.tab) { if (S.tab === d.tab && !N.sources) return; S.tab = d.tab; N.sources = false; renderFilters(); window.scrollTo(0, 0); }
+  if (d.tab) { if (S.tab === d.tab && !N.sources && !N.about) return; S.tab = d.tab; N.sources = N.about = false; renderFilters(); window.scrollTo(0, 0); }
   else if (d.sector) { S.sectors.has(d.sector) ? S.sectors.delete(d.sector) : S.sectors.add(d.sector); if (S.sectors.size) { S.sort = "rel"; N.sort = "top"; } }
   else if (d.set) { const s = S[d.set]; s.has(d.v) ? s.delete(d.v) : s.add(d.v); }
   else if (d.nset) { const s = N[d.nset]; s.has(d.v) ? s.delete(d.v) : s.add(d.v); }
@@ -698,6 +777,9 @@ document.addEventListener("click", (ev) => {
     S.sectors.clear(); S.q = ""; $("#q").value = ""; $("#qx").hidden = true; renderFilters();
   }
   else if (t.id === "srcbtn") { N.sources = true; window.scrollTo(0, 0); }
+  else if (d.nall !== undefined) { N.sort = "all"; window.scrollTo(0, 0); }
+  else if (d.nabout !== undefined) { N.about = true; window.scrollTo(0, 0); }
+  else if (d.aboutclose !== undefined) N.about = false;
   else if (d.srcclose !== undefined) N.sources = false;
   else if (d.go) { openStory(d.go); return; }
   else if (d.nfav) {
