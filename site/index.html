@@ -175,7 +175,11 @@ h1 span{color:var(--accent)}
 .brief .bsec{display:block;font-family:var(--f-mono);font-size:10.5px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
 .srcs{display:grid;gap:14px}
 .nsec{display:grid;gap:10px}
-.nsec h3{font-family:var(--f-display);font-size:18px;margin:8px 2px 0;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;border-bottom:1.5px solid var(--line);padding-bottom:5px}
+.nsec h3{font-family:var(--f-display);font-size:18px;margin:8px 2px 0;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;border-bottom:1.5px solid var(--line);padding-bottom:5px;position:sticky;top:0;z-index:4;background:var(--bg);scroll-margin-top:0}
+.njump{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.njump::-webkit-scrollbar{display:none}
+.njump button{flex:0 0 auto;border:1.5px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 11px;font-size:12.5px;font-weight:600;color:var(--muted);display:inline-flex;gap:6px;align-items:center}
+.njump button span{font-family:var(--f-mono);font-size:11px;color:var(--ink)}
 .nsec h3 small{font-family:var(--f-mono);font-size:11px;font-weight:500;color:var(--muted)}
 .nsec-empty{margin:0 2px;color:var(--muted);font-size:13.5px}
 .nsec-acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
@@ -484,9 +488,12 @@ function groupedHtml(rows, { capped }) {
   const head = (sec) => capped
     ? `<button type="button" class="nsec-open" data-nsec="${esc(sec.id)}">${esc(sec.name)}${sec.left ? `<small>+${sec.left} more</small>` : ""}<span class="nsec-arrow" aria-hidden="true">›</span></button>`
     : `${esc(sec.name)}<small>${sec.picks.length}</small>`;
-  const html = secs.map((sec) => `<section class="nsec"><h3>${head(sec)}</h3>${
+  const html = secs.map((sec) => `<section class="nsec" id="sec-${esc(sec.id)}"><h3>${head(sec)}</h3>${
     sec.picks.length ? sec.picks.map(ncard).join("") : `<p class="nsec-empty">Nothing scored here in ${NWHEN[N.when].toLowerCase()}.</p>`}</section>`).join("");
-  return { shown, html: html + (capped ? `<div class="nsec-acts"><button class="btn pri" type="button" data-nall>All ${rows.length} stories →</button><button class="btn" type="button" data-nabout>What's in each section?</button></div>` : "") };
+  // A long list needs somewhere to jump to; the 14-story digest does not.
+  const jump = capped ? "" : `<nav class="njump" aria-label="Jump to a section">${secs.filter((sec) => sec.picks.length)
+    .map((sec) => `<button type="button" data-njump="${esc(sec.id)}">${esc(sec.name)}<span>${sec.picks.length}</span></button>`).join("")}</nav>`;
+  return { shown, html: jump + html + (capped ? `<div class="nsec-acts"><button class="btn pri" type="button" data-nall>All ${rows.length} stories →</button><button class="btn" type="button" data-nabout>What's in each section?</button></div>` : "") };
 }
 function sectionViewHtml(rows) {
   const [, name, , blurb] = NSECTIONS.find(([id]) => id === N.section) || [];
@@ -825,6 +832,7 @@ document.addEventListener("click", (ev) => {
   else if (d.nview === "top") { N.view = "top"; N.section = null; window.scrollTo(0, 0); }
   else if (d.nsort) N.sort = d.nsort;
   else if (d.nsec) { N.section = d.nsec; window.scrollTo(0, 0); }
+  else if (d.njump) { document.getElementById("sec-" + d.njump)?.scrollIntoView({ block: "start" }); return; }
   else if (d.secclose !== undefined) { N.section = null; window.scrollTo(0, 0); }
   else if (d.nabout !== undefined) { N.about = true; window.scrollTo(0, 0); }
   else if (d.aboutclose !== undefined) N.about = false;
