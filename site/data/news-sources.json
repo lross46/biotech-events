@@ -66,7 +66,7 @@
   },
   {
    "id": "gen",
-   "name": "GEN – Genetic Engineering & Biotechnology News",
+   "name": "GEN \u2013 Genetic Engineering & Biotechnology News",
    "home": "https://www.genengnews.com",
    "feeds": [
     "https://www.genengnews.com/feed/"
@@ -454,7 +454,8 @@
    "CDMO OR bioprocessing OR \"biologics manufacturing\" OR \"cell and gene therapy manufacturing\"",
    "biotech funding round OR \"series A\" biotech OR \"series B\" biotech OR biotech IPO",
    "biotech acquisition OR biotech merger OR \"licensing deal\" biotech",
-   "biotech policy OR \"national biotechnology strategy\" OR \"bioeconomy\""
+   "biotech policy OR \"national biotechnology strategy\" OR \"bioeconomy\"",
+   "\"protein engineering\" OR \"enzyme engineering\" OR \"directed evolution\" OR \"de novo protein design\""
   ],
   "trustedOutlets": [
    "reuters.com",
@@ -531,6 +532,10 @@
   {
    "date": "2026-10-31",
    "text": "Added biospectrumasia.com to the Google News trusted outlets: established Asia-Pacific life sciences trade press (two scouted stories today) but no usable RSS feed, so it comes in through search only."
+  },
+  {
+   "date": "2026-11-01",
+   "text": "Added a Google News query for protein and enzyme engineering: the topic was only arriving by chance through The Scientist, GEN and bioRxiv."
   }
  ]
 }
