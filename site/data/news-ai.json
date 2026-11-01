@@ -1,47 +1,39 @@
 {
- "updated": "2026-10-31T06:51:35Z",
+ "updated": "2026-11-01T06:42:44Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-10-31T06:45:00Z",
+  "date": "2026-11-01T06:42:44Z",
   "points": [
    {
-    "text": "The FDA granted accelerated approval to Voceryq for recurrent respiratory papillomatosis, the first plasmid DNA-based immunotherapy approved in the US and a non-surgical option for a disease usually managed by repeated operations.",
+    "text": "The Bundibugyo Ebola outbreak in the DRC passed 10,000 confirmed cases, with 4,992 related deaths reported by ECDC as of 29 October, about 700 more cases than four days earlier.",
     "ids": [
-     "2edbbfd9093f"
+     "2026-10-30-ecdc-ebola-bundibugyo-update"
     ]
    },
    {
-    "text": "The MHRA extended Casgevy's UK authorisation to children aged five and over with severe sickle-cell disease or transfusion-dependent beta-thalassaemia, widening access to gene editing in a younger age group.",
+    "text": "Boston Scientific cut its 2026 guidance for the third time, to 4.25% sales growth, on slowing Watchman and electrophysiology sales and a cyberattack, while Stryker also lowered its outlook on weaker hip and knee volumes.",
     "ids": [
-     "81569d2ec145"
+     "ac08c446b5f5",
+     "1404ce6cc68f"
     ]
    },
    {
-    "text": "AstraZeneca launched a $1.5 billion annual savings programme and said it could mean R&D cuts and shifting trials to emerging markets, while Sanofi said it will seek higher European prices rather than delay launches there.",
+    "text": "Viatris started its roughly $1.65 billion cash tender offer for Pacira BioSciences and its non-opioid pain products Exparel and Zilretta.",
     "ids": [
-     "32820b40fa09",
-     "5ec543c2ef22",
-     "2a43fdeb861c"
+     "4e68f332e2bd"
     ]
    },
    {
-    "text": "The US barred imports from three Chinese genomics companies, including BGI Genomics and MGI Tech, under the forced labour import law, cutting off a major source of sequencing supply.",
+    "text": "Bayer's factor XIa inhibitor won its first approval anywhere, in China, and Sun Pharma's Ilumya gained a US approval in psoriatic arthritis.",
     "ids": [
-     "62e74cf9e8b8"
+     "31ea1caa5157",
+     "e92b50ea4649"
     ]
    },
    {
-    "text": "India's CDSCO ordered Sun Pharma to stop making and selling ophthalmic products from an Assam plant after quality system failures, while Gilead placed a partial clinical hold on two CAR-T trials after cases of ICANS.",
+    "text": "Johns Hopkins researchers showed in Nature that the Bacteroides fragilis toxin linked to colorectal cancer needs the receptor claudin-4 to break the colon barrier, and a claudin-4 decoy protected mice.",
     "ids": [
-     "2026-10-30-cdsco-sun-pharma-assam-eye-drugs",
-     "172c5a44341a"
-    ]
-   },
-   {
-    "text": "Merck KGaA opened its new bioprocessing production centre in Korea, a site representing more than €300 million of investment, as SK bioscience joined a BARDA-funded Bundibugyo vaccine manufacturing effort during the DRC outbreak.",
-    "ids": [
-     "bf3fb39befd2",
-     "30190c78d882"
+     "d3aa2a16dc71"
     ]
    }
   ]
@@ -6243,9 +6235,6 @@
     }
    }
   },
-  "7610dd7091bf": {
-   "dup": "b83dfffd0813"
-  },
   "32d8202fc888": {
    "cat": "other",
    "imp": 5,
@@ -6272,12 +6261,6 @@
     }
    }
   },
-  "e92a97f36b69": {
-   "dup": "bc401fa04a33"
-  },
-  "c55850dd983e": {
-   "dup": "bc401fa04a33"
-  },
   "bc401fa04a33": {
    "cat": "deals",
    "imp": 6,
@@ -6292,9 +6275,6 @@
      "why": "Shows the cost of late-stage failure in large acquisitions."
     }
    }
-  },
-  "4b62d13204d6": {
-   "drop": true
   },
   "a78fcfd1d4be": {
    "cat": "regulatory",
@@ -6552,12 +6532,6 @@
      "why": "First phase 3 evidence that B7-H3 ADCs work."
     }
    }
-  },
-  "a5b3e008657f": {
-   "dup": "17d186220c17"
-  },
-  "69699b0b3006": {
-   "dup": "3cbda882f217"
   },
   "5e97b6660099": {
    "cat": "science",
@@ -7076,9 +7050,6 @@
      "why": "Drug testing services."
     }
    }
-  },
-  "09880ea5627a": {
-   "dup": "c9b45c8b978a"
   },
   "066efd824123": {
    "cat": "science",
@@ -8245,138 +8216,6 @@
   "ddc17a5482c7": {
    "drop": true
   },
-  "fd0c730bd4ac": {
-   "drop": true
-  },
-  "6caf9f10ebbc": {
-   "drop": true
-  },
-  "d6b495e9f71b": {
-   "drop": true
-  },
-  "075c47a112e6": {
-   "drop": true
-  },
-  "51811c962f5b": {
-   "drop": true
-  },
-  "5afd3bf795f2": {
-   "drop": true
-  },
-  "792c9a5f4859": {
-   "drop": true
-  },
-  "9dbeec753554": {
-   "drop": true
-  },
-  "c6bc475cbbe7": {
-   "drop": true
-  },
-  "e419c69b5348": {
-   "drop": true
-  },
-  "67ac110c256b": {
-   "drop": true
-  },
-  "69e54521fc81": {
-   "drop": true
-  },
-  "d801aa2bd17d": {
-   "drop": true
-  },
-  "ce840d7b63df": {
-   "drop": true
-  },
-  "9283381a5f5c": {
-   "drop": true
-  },
-  "d2613d55111c": {
-   "drop": true
-  },
-  "27ece5a35a78": {
-   "drop": true
-  },
-  "48482935b465": {
-   "drop": true
-  },
-  "ee6eafa2e532": {
-   "drop": true
-  },
-  "bb0db1927090": {
-   "drop": true
-  },
-  "18d9162edc4e": {
-   "drop": true
-  },
-  "c51efb5cf3e9": {
-   "drop": true
-  },
-  "66e1239fec03": {
-   "drop": true
-  },
-  "fc4519204e06": {
-   "drop": true
-  },
-  "341354a23b82": {
-   "drop": true
-  },
-  "deab50abd27d": {
-   "drop": true
-  },
-  "8e5b38e535fc": {
-   "drop": true
-  },
-  "f24793d3d708": {
-   "drop": true
-  },
-  "df27522a461a": {
-   "drop": true
-  },
-  "0037f69c461b": {
-   "drop": true
-  },
-  "d1c265a0b6fb": {
-   "drop": true
-  },
-  "93e795fda153": {
-   "drop": true
-  },
-  "d7e226bd1b18": {
-   "drop": true
-  },
-  "7b903892a8dd": {
-   "drop": true
-  },
-  "a0a14a176e60": {
-   "drop": true
-  },
-  "9e9be5f5c450": {
-   "drop": true
-  },
-  "b78d509000bf": {
-   "drop": true
-  },
-  "5f192c9ca28e": {
-   "drop": true
-  },
-  "7365667955bb": {
-   "drop": true
-  },
-  "0154635c11c7": {
-   "drop": true
-  },
-  "efb3c04915b7": {
-   "drop": true
-  },
-  "ff0d5fed2677": {
-   "drop": true
-  },
-  "d48ee786cc98": {
-   "drop": true
-  },
-  "893bf695e38f": {
-   "drop": true
-  },
   "4e81e74ecef6": {
    "dup": "672050e6f7bc"
   },
@@ -8391,39 +8230,6 @@
   },
   "d26dc668a48d": {
    "dup": "fce4785ffc2c"
-  },
-  "eb5b6c404023": {
-   "dup": "461acedffe78"
-  },
-  "aacd14e106f8": {
-   "dup": "612c983956e1"
-  },
-  "164c1380ac8d": {
-   "dup": "461acedffe78"
-  },
-  "e4f714ba9b72": {
-   "dup": "3d55cd1f6330"
-  },
-  "102169c76c7d": {
-   "dup": "efd4e3e482f4"
-  },
-  "fabd9fc318ff": {
-   "dup": "0991f0e8cacc"
-  },
-  "505a66f25bd9": {
-   "dup": "efd4e3e482f4"
-  },
-  "724fa82ba951": {
-   "dup": "40c176f99965"
-  },
-  "d69977a4d4fd": {
-   "dup": "5a3495574796"
-  },
-  "952417de4bbb": {
-   "dup": "5a3495574796"
-  },
-  "12d47ebb2f56": {
-   "dup": "68d06e5a1880"
   },
   "072e73e48d7d": {
    "cat": "policy",
@@ -8806,210 +8612,6 @@
     }
    }
   },
-  "46d8be7e4e88": {
-   "drop": true
-  },
-  "f473c5683b9c": {
-   "drop": true
-  },
-  "15755146dc74": {
-   "drop": true
-  },
-  "2522289ab3b6": {
-   "drop": true
-  },
-  "2622a234a968": {
-   "drop": true
-  },
-  "c1afa87172b3": {
-   "drop": true
-  },
-  "4242ce3e03d2": {
-   "drop": true
-  },
-  "67fcc43b1f2f": {
-   "drop": true
-  },
-  "c8a599397268": {
-   "drop": true
-  },
-  "5a8ad01fa4ae": {
-   "drop": true
-  },
-  "2a64d23ca234": {
-   "drop": true
-  },
-  "6f524be00050": {
-   "drop": true
-  },
-  "c55aea11bb17": {
-   "drop": true
-  },
-  "f26cd4872836": {
-   "drop": true
-  },
-  "a5dc500f8563": {
-   "drop": true
-  },
-  "d4719a72bd09": {
-   "drop": true
-  },
-  "28efd2adf607": {
-   "drop": true
-  },
-  "84934324676b": {
-   "drop": true
-  },
-  "cf61d2b7ce9a": {
-   "drop": true
-  },
-  "f9a080998aff": {
-   "drop": true
-  },
-  "a406fae31dd1": {
-   "drop": true
-  },
-  "bea124cf331a": {
-   "drop": true
-  },
-  "d7f7ef218dc7": {
-   "drop": true
-  },
-  "f822becbdf7a": {
-   "drop": true
-  },
-  "edefe36b0196": {
-   "drop": true
-  },
-  "0141a321dca8": {
-   "drop": true
-  },
-  "3cd97a6ba846": {
-   "drop": true
-  },
-  "b06ea2df1d68": {
-   "drop": true
-  },
-  "b96c3d79fc2e": {
-   "drop": true
-  },
-  "bc954bde760f": {
-   "drop": true
-  },
-  "f57fc111f99f": {
-   "drop": true
-  },
-  "afb7459f9eb5": {
-   "drop": true
-  },
-  "f3efff045702": {
-   "drop": true
-  },
-  "d652874ef760": {
-   "drop": true
-  },
-  "69724cc3cbbc": {
-   "drop": true
-  },
-  "06d16238d2e0": {
-   "drop": true
-  },
-  "7aa2c798af09": {
-   "drop": true
-  },
-  "8420dd89aed8": {
-   "drop": true
-  },
-  "201abd49c4e3": {
-   "drop": true
-  },
-  "cf35160f1cad": {
-   "drop": true
-  },
-  "98549147545a": {
-   "drop": true
-  },
-  "bed09e6c89bf": {
-   "drop": true
-  },
-  "74e16c0b8cc2": {
-   "drop": true
-  },
-  "a5a32906c7ea": {
-   "drop": true
-  },
-  "e907aa6d4dba": {
-   "drop": true
-  },
-  "b4c98bfb2773": {
-   "drop": true
-  },
-  "a7622de8692b": {
-   "drop": true
-  },
-  "c77b46c43514": {
-   "drop": true
-  },
-  "fd8a982798d9": {
-   "drop": true
-  },
-  "d0800455c1a2": {
-   "drop": true
-  },
-  "438269b30874": {
-   "drop": true
-  },
-  "debe59c23587": {
-   "drop": true
-  },
-  "b477af8fec3c": {
-   "drop": true
-  },
-  "58384d2ee708": {
-   "drop": true
-  },
-  "7dcd4ce65eb9": {
-   "drop": true
-  },
-  "652abc9dacb3": {
-   "drop": true
-  },
-  "65faf13d45c6": {
-   "drop": true
-  },
-  "f70125a2200f": {
-   "drop": true
-  },
-  "6bdb991e819d": {
-   "drop": true
-  },
-  "e3b77d178a2e": {
-   "drop": true
-  },
-  "0d8ad6439ccc": {
-   "drop": true
-  },
-  "682efa78185f": {
-   "drop": true
-  },
-  "3a12e1516e30": {
-   "dup": "68d06e5a1880"
-  },
-  "2e4d2604c247": {
-   "dup": "68d06e5a1880"
-  },
-  "8a530733711c": {
-   "dup": "68d06e5a1880"
-  },
-  "fc05684a9de9": {
-   "dup": "68d06e5a1880"
-  },
-  "cda65bf5a31c": {
-   "dup": "e378f0807db6"
-  },
-  "2728f2b1b598": {
-   "dup": "68d06e5a1880"
-  },
   "163c0fe9709f": {
    "dup": "e5171998e98d"
   },
@@ -9018,21 +8620,6 @@
   },
   "54aa8735355e": {
    "dup": "7b1b9de47181"
-  },
-  "463f5f2b8911": {
-   "dup": "28c1dd42e2b4"
-  },
-  "bf7d6b36d54a": {
-   "dup": "21d272940445"
-  },
-  "109291e1b8d7": {
-   "dup": "21d272940445"
-  },
-  "de4dd578afa0": {
-   "dup": "0b48ffdf5b97"
-  },
-  "e096eae2b64b": {
-   "dup": "612c983956e1"
   },
   "23a5df178dfc": {
    "dup": "8d94f307f7c6"
@@ -9787,9 +9374,6 @@
     }
    }
   },
-  "27297f68bf53": {
-   "dup": "479ecd2af517"
-  },
   "a43e6bf7f4e0": {
    "cat": "clinical",
    "imp": 4,
@@ -9826,9 +9410,6 @@
   "c0d13355cef8": {
    "dup": "157003cfd908"
   },
-  "8ffb2a93d5e4": {
-   "dup": "61421d90a3c9"
-  },
   "0c82f782803c": {
    "cat": "deals",
    "imp": 4,
@@ -9854,12 +9435,6 @@
      "why": "Debate on intensified and continuous bioprocessing."
     }
    }
-  },
-  "568559b0bbf9": {
-   "dup": "d76c5250b63f"
-  },
-  "9f7ee28adfb7": {
-   "drop": true
   },
   "347e690cee75": {
    "cat": "science",
@@ -11008,9 +10583,6 @@
   "96f0b006d5d9": {
    "drop": true
   },
-  "7e39a35dff48": {
-   "drop": true
-  },
   "fc78493a39fa": {
    "cat": "other",
    "imp": 3,
@@ -11053,9 +10625,6 @@
    }
   },
   "2be7a7039c76": {
-   "dup": "157003cfd908"
-  },
-  "499b7e4afb9e": {
    "dup": "157003cfd908"
   },
   "822a70bd26c8": {
@@ -11319,9 +10888,6 @@
   "f65e7d269d38": {
    "drop": true
   },
-  "f59efc10b90d": {
-   "drop": true
-  },
   "e96ecaf4ce3c": {
    "cat": "policy",
    "imp": 5,
@@ -11366,12 +10932,6 @@
      "why": "Prognosis in throat cancer."
     }
    }
-  },
-  "8fee2fda170e": {
-   "drop": true
-  },
-  "6370eba30eba": {
-   "drop": true
   },
   "5de2a1d08ee6": {
    "cat": "science",
@@ -11433,18 +10993,6 @@
     }
    }
   },
-  "a90ec71ef6ad": {
-   "drop": true
-  },
-  "0a2d2e4e4b12": {
-   "drop": true
-  },
-  "f7c9746123ff": {
-   "drop": true
-  },
-  "ad57f0697397": {
-   "drop": true
-  },
   "1217e5f24041": {
    "cat": "science",
    "imp": 3,
@@ -11455,9 +11003,6 @@
      "why": "Cohort aimed at hidden cardiovascular risk in diabetic kidney disease."
     }
    }
-  },
-  "9547baf19232": {
-   "drop": true
   },
   "f1589ee60574": {
    "cat": "science",
@@ -11478,9 +11023,6 @@
     }
    }
   },
-  "1e9e45595266": {
-   "drop": true
-  },
   "d54d1e80fe35": {
    "cat": "contracts",
    "imp": 3,
@@ -11496,9 +11038,6 @@
     }
    }
   },
-  "949573b73ef7": {
-   "drop": true
-  },
   "54f64bebcf8c": {
    "cat": "policy",
    "imp": 3,
@@ -11513,9 +11052,6 @@
      "why": "Reimbursement for a precision oncology drug."
     }
    }
-  },
-  "142354f92c0d": {
-   "drop": true
   },
   "4dd14c264466": {
    "cat": "policy",
@@ -11542,12 +11078,6 @@
      "why": "Gene therapy repositioning into a large indication."
     }
    }
-  },
-  "4042ff57f9b0": {
-   "drop": true
-  },
-  "2330167c4bc4": {
-   "drop": true
   },
   "6a0394954c07": {
    "cat": "science",
@@ -11711,9 +11241,6 @@
     }
    }
   },
-  "03bf17746476": {
-   "drop": true
-  },
   "70e4274fefca": {
    "cat": "regulatory",
    "imp": 4,
@@ -11728,24 +11255,6 @@
      "why": "Includes device safety advice."
     }
    }
-  },
-  "90ae09a68dbe": {
-   "drop": true
-  },
-  "caa88a34c27d": {
-   "drop": true
-  },
-  "4fd2cd0b533c": {
-   "drop": true
-  },
-  "8922e5e772fd": {
-   "drop": true
-  },
-  "cd10dbf6af32": {
-   "drop": true
-  },
-  "e13a8a540909": {
-   "drop": true
   },
   "263a3f3caf04": {
    "drop": true
@@ -11764,9 +11273,6 @@
      "why": "Climate-driven shifts in vector-borne disease."
     }
    }
-  },
-  "d9cfb1a5ae2f": {
-   "drop": true
   },
   "e78b3ae77650": {
    "cat": "science",
@@ -11793,9 +11299,6 @@
      "why": "Trust shapes response to future outbreaks."
     }
    }
-  },
-  "c0c7f95101eb": {
-   "dup": "cac5ad695d7e"
   },
   "cac5ad695d7e": {
    "cat": "science",
@@ -11846,12 +11349,6 @@
     }
    }
   },
-  "c8727c0d91e2": {
-   "dup": "e78b3ae77650"
-  },
-  "a418a746c4ec": {
-   "drop": true
-  },
   "f49d7d704cab": {
    "cat": "science",
    "imp": 3,
@@ -11876,12 +11373,6 @@
   },
   "e30ea1ad7972": {
    "drop": true
-  },
-  "c6e3a807cde5": {
-   "drop": true
-  },
-  "5ce56eac88c3": {
-   "dup": "7c813c078984"
   },
   "9515d6ca449f": {
    "cat": "science",
@@ -11972,48 +11463,6 @@
      "why": "Rare disease representation in medical media."
     }
    }
-  },
-  "3986a34860d2": {
-   "drop": true
-  },
-  "bfe09f254a31": {
-   "drop": true
-  },
-  "0142974eb2ad": {
-   "drop": true
-  },
-  "1b4fcac558ca": {
-   "drop": true
-  },
-  "fe226254889a": {
-   "drop": true
-  },
-  "8f528b8f13c2": {
-   "drop": true
-  },
-  "f5e20a68825f": {
-   "drop": true
-  },
-  "108a2359675b": {
-   "drop": true
-  },
-  "ae179258fb70": {
-   "drop": true
-  },
-  "e9563b94ef04": {
-   "drop": true
-  },
-  "329068c61c65": {
-   "drop": true
-  },
-  "12605db9d56f": {
-   "drop": true
-  },
-  "c4cc666ebc70": {
-   "drop": true
-  },
-  "7f4c42428180": {
-   "drop": true
   },
   "6c243766dc48": {
    "cat": "policy",
@@ -12147,6 +11596,386 @@
     "agrifood": {
      "score": 3,
      "why": "Freshwater microbial ecology."
+    }
+   }
+  },
+  "9c2af61745ac": {
+   "drop": true
+  },
+  "fbe089cbb1ae": {
+   "drop": true
+  },
+  "99873d036220": {
+   "drop": true
+  },
+  "05a4665c8eb3": {
+   "drop": true
+  },
+  "029d41f723a6": {
+   "drop": true
+  },
+  "5cec3ede4a61": {
+   "drop": true
+  },
+  "7fa08cc73137": {
+   "drop": true
+  },
+  "a54c483ccdcf": {
+   "drop": true
+  },
+  "833bbb6e66a6": {
+   "drop": true
+  },
+  "503b9cbe3271": {
+   "drop": true
+  },
+  "260e5d47fbc8": {
+   "drop": true
+  },
+  "bee145658115": {
+   "drop": true
+  },
+  "e3672f1550df": {
+   "drop": true
+  },
+  "559e6d5e418d": {
+   "drop": true
+  },
+  "dd2c98e4c894": {
+   "drop": true
+  },
+  "a7d625909f35": {
+   "drop": true
+  },
+  "034ec4345cd5": {
+   "drop": true
+  },
+  "bd18034d0017": {
+   "drop": true
+  },
+  "3d906ae61b68": {
+   "drop": true
+  },
+  "a67691798496": {
+   "drop": true
+  },
+  "35c53b47cfa6": {
+   "drop": true
+  },
+  "b0d9598fd2ba": {
+   "drop": true
+  },
+  "04ab67b848ec": {
+   "drop": true
+  },
+  "47ca1f10c6b6": {
+   "drop": true
+  },
+  "a1c582058388": {
+   "drop": true
+  },
+  "415e222efabe": {
+   "drop": true
+  },
+  "d11c7fcd08c1": {
+   "drop": true
+  },
+  "67e139d57680": {
+   "drop": true
+  },
+  "3ffbffff5c2c": {
+   "drop": true
+  },
+  "0ffcf1f2d96e": {
+   "drop": true
+  },
+  "4db06ed25f9c": {
+   "drop": true
+  },
+  "11f3cb257b6b": {
+   "drop": true
+  },
+  "64bee9a3d2b3": {
+   "drop": true
+  },
+  "4495b25d6558": {
+   "drop": true
+  },
+  "c70d86361bec": {
+   "drop": true
+  },
+  "23217ec8cfd1": {
+   "dup": "ac45c19bd60a"
+  },
+  "9e09c0acde86": {
+   "dup": "0808a785f65b"
+  },
+  "6ba861e8c792": {
+   "dup": "68d06e5a1880"
+  },
+  "74f2728fce92": {
+   "dup": "98f430df60ac"
+  },
+  "06e27e10adae": {
+   "dup": "7c813c078984"
+  },
+  "7ee4d140cfc9": {
+   "dup": "d8710dfcb45c"
+  },
+  "d3aa2a16dc71": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "Johns Hopkins researchers report in Nature that the Bacteroides fragilis toxin must first bind the colon-cell receptor claudin-4 before it can cleave E-cadherin and break the gut barrier. A claudin-4 decoy blocked the toxin and protected mice from tissue damage, though it has not been shown to prevent colorectal cancer.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Identifies claudin-4 as a druggable entry point for a toxin linked to colorectal cancer, with a decoy approach already tested in mice."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Explains how a common gut bacterium may drive colon inflammation and cancer risk."
+    },
+    "diagnostics": {
+     "score": 3,
+     "why": "Toxin-producing B. fragilis could become a screening marker for colorectal cancer risk."
+    }
+   }
+  },
+  "372240137276": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Gladstone Institutes scientists describe in Molecular Cell type VI retrons, bacterial immune systems that only start producing their toxin after a phage infects the cell, killing it to stop the virus spreading. This reverses the usual retron logic of holding a toxin in check until infection.",
+   "rel": {
+    "industrial": {
+     "score": 4,
+     "why": "Retrons are already used as genome-editing and recording tools, and a new class widens that toolkit."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Adds to understanding of bacterial antiphage defences relevant to phage therapy."
+    }
+   }
+  },
+  "e6453b045d98": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint links Achromobacter-Pseudomonas coinfection in cystic fibrosis airways to worse lung function and reports that siderophore-based iron competition between the two raises virulence factor production. Not yet peer-reviewed.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Suggests coinfection patterns may matter for managing cystic fibrosis lung disease."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Points to iron competition as a possible target for anti-virulence approaches."
+    }
+   }
+  },
+  "8a9855cda086": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint reports that the interferon-stimulated gene Shiftless, normally thought antiviral, can instead help some human coronaviruses replicate. Not yet peer-reviewed.",
+   "rel": {
+    "biosecurity": {
+     "score": 4,
+     "why": "Clarifies host factors that shape infection by emerging zoonotic coronaviruses."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Host proviral factors are candidate targets for antiviral drugs."
+    }
+   }
+  },
+  "2645b213176a": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint shows that natural bZIP protein dimerisation networks can be repurposed to perform programmable biochemical logic without engineering new protein interactions. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 4,
+     "why": "Offers a simpler route to building logic circuits for synthetic biology."
+    }
+   }
+  },
+  "de863b10014c": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint profiles the mouse gut microbiome at high time resolution and finds microbial activity is synchronised within daily oscillations linked to feeding and circadian rhythm. Not yet peer-reviewed.",
+   "rel": {
+    "healthcare": {
+     "score": 3,
+     "why": "Timing of microbiome activity could inform metabolic disease research and dosing of microbiome therapies."
+    }
+   }
+  },
+  "a0d35c6e571a": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A preprint proposes classifying light-chain cardiac amyloidosis in multiple myeloma patients from the pattern of routine laboratory results, as a computational alternative to cardiac biopsy. Not yet peer-reviewed.",
+   "rel": {
+    "diagnostics": {
+     "score": 5,
+     "why": "Could reduce the need for invasive biopsy to diagnose AL cardiac amyloidosis."
+    },
+    "ai": {
+     "score": 4,
+     "why": "Applies computational shape analysis of routine lab data to clinical classification."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Earlier, less invasive diagnosis for a high-risk myeloma subgroup."
+    }
+   }
+  },
+  "cadd70644213": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint uses machine learning on early accelerated-ageing data to predict how long implanted neural microelectrodes will last, aiming to shorten lifetime validation for long-lived devices. Not yet peer-reviewed.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Could cut the time needed to validate decades-long lifetimes for implantable devices."
+    },
+    "ai": {
+     "score": 3,
+     "why": "Machine learning used to forecast device failure from early test data."
+    }
+   }
+  },
+  "f559808e49df": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint describes click-ligated nanoparticle vaccines that bridge B-cell inhibitory receptors to steer which antibodies are produced, aiming at higher-quality responses. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "A nanoparticle design approach for shaping vaccine antibody quality."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Better antibody targeting could aid vaccines against hard pathogens."
+    }
+   }
+  },
+  "0f866926d01a": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint maps gene regulation across the Toxoplasma gondii division cycle by acutely perturbing 21 transcriptional and epigenetic factors and tracking multiomic changes over time. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Identifies regulators of parasite invasion that could be antiparasitic targets."
+    }
+   }
+  },
+  "2146e74e0a3d": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Labiotech.eu rounds up the main trial readouts presented at ESMO 2026 across cancer types and drug candidates.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Summarises the oncology readouts shaping pipelines after the year's main European cancer congress."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Useful overview of which oncology programmes gained or lost momentum at ESMO."
+    }
+   }
+  },
+  "2b2ae6054c42": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A Cell preview discusses a study finding that calorie restriction lowers DNA mutation accumulation, but that the reduction does not scale with how much lifespan is extended.",
+   "rel": {
+    "healthcare": {
+     "score": 3,
+     "why": "Challenges the idea that slower mutation build-up explains calorie restriction's longevity effect."
+    }
+   }
+  },
+  "adb133671f7d": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A Cell preview highlights work showing that cMAF drives brain perivascular macrophages to make IGF1 that supports cerebrovascular function, a programme enhanced in Alzheimer's disease.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Points to a macrophage pathway of possible relevance to Alzheimer's treatment."
+    }
+   }
+  },
+  "13fc7b0835e9": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Rockefeller University researchers built a three-photon microscopy platform that records single-cell neural activity deep in the brains of living mice without removing the overlying cortex.",
+   "rel": {
+    "meddevices": {
+     "score": 3,
+     "why": "Advances in deep-tissue optical imaging instrumentation for neuroscience research."
+    }
+   }
+  },
+  "31153bf6e644": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preclinical study suggests the heart stays fuelled under stress by burning glucose in the cytosol while importing lactate into mitochondria via MCT1.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Identifies a metabolic pathway of possible interest for heart failure therapies."
+    }
+   }
+  },
+  "ac08c446b5f5": {
+   "cat": "other",
+   "imp": 6,
+   "summary": "Boston Scientific cut its 2026 guidance for the third time, to 4.25% sales growth and adjusted EPS of $3.16–3.18, citing slowing Watchman and electrophysiology sales and a cyberattack that cost about $150 million of third-quarter revenue. Shares fell nearly 7% at the open.",
+   "rel": {
+    "meddevices": {
+     "score": 8,
+     "why": "One of the largest device makers is losing momentum in cardiac devices and pulsed field ablation."
+    },
+    "investment": {
+     "score": 6,
+     "why": "A third guidance cut signals pressure on large-cap medtech valuations."
+    }
+   }
+  },
+  "e626ea08fc48": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Green Queen's weekly roundup of sustainable food news covers Burger King's Vegan Royale offer, The Undairy Co.'s dairy-free chocolates and the cost of ultra-processed food labelling.",
+   "rel": {
+    "agrifood": {
+     "score": 4,
+     "why": "Tracks plant-based product launches and labelling costs in alternative foods."
+    }
+   }
+  },
+  "8892f17bdb2c": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "NEJM publishes a review article on Gram-negative bacterial resistance.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Reference overview of a leading antimicrobial resistance threat for clinicians."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Context for antibiotic development against Gram-negative pathogens."
+    }
+   }
+  },
+  "fe65c7d685fc": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "By studying hypertrichosis, a rare condition causing excessive hair growth, researchers identified signals that tell hair follicles when to grow.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Follicle growth signals could inform hair-loss treatments."
     }
    }
   }
@@ -12575,6 +12404,35 @@
     "pharma": {
      "score": 5,
      "why": "Late-stage development and release testing."
+    }
+   }
+  },
+  {
+   "id": "2026-10-30-ecdc-ebola-bundibugyo-update",
+   "title": "ECDC update: Ebola (Bundibugyo virus) outbreak passes 10,000 confirmed cases in DRC",
+   "url": "https://www.ecdc.europa.eu/en/public-health-events/2026-EIP-00026",
+   "source": "ECDC",
+   "kind": "official",
+   "published": "2026-10-30T12:00:00Z",
+   "cat": "other",
+   "imp": 8,
+   "summary": "ECDC's 30 October update reports 10,274 confirmed cases and 4,992 related deaths in the Democratic Republic of the Congo as of 29 October, up from 9,552 cases and 4,602 deaths in its 26 October update, with community transmission ongoing. Imported cases have been reported in Kenya and Nigeria.",
+   "rel": {
+    "biosecurity": {
+     "score": 9,
+     "why": "The Bundibugyo outbreak is still growing by hundreds of confirmed cases a week, with exported cases in two other African countries."
+    },
+    "healthcare": {
+     "score": 7,
+     "why": "A large public health emergency with medical evacuations to Europe."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "There is still no licensed Bundibugyo vaccine or treatment, and trials are under way."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Sustained need for confirmatory testing in DRC and for screening travellers."
     }
    }
   }
