@@ -32,6 +32,8 @@ const SECTOR_KW = {
   bioprocessing: /\b(bioprocess\w*|cdmo\w*|cmo|manufactur\w*|bioreactor\w*|upstream|downstream|fill[- ]finish|scale[- ]up|gmp)\b/i,
   fermentation: /\b(ferment\w*|yeast|precision fermentation|biomass)\b/i,
   investment: /\b(funding|raises?|raised|series [a-e]|seed round|ipo|financing|investors?|acqui\w*|merger|deal|valuation|venture|spac)\b/i,
+  tools: /\b(instrument\w*|platform\w*|sequencer\w*|sequencing|mass spec\w*|spectromet\w*|proteomic\w*|single[- ]cell|lab automation|reagent\w*|microscop\w*|cryo-?em|organoid\w*|assay development|research tools?)\b/i,
+  cellgene: /\b(gene therap\w*|cell therap\w*|car-?t|crispr|base editing|gene editing|aav|lentivir\w*|mrna|stem cells?|tcr|til|allogeneic|autologous)\b/i,
 };
 const CATS = [
   ["regulatory", /\b(fda|ema|mhra|approv\w*|clearance|cleared|authori[sz]\w*|label|crl|complete response|recall\w*|warning letter|chmp|breakthrough designation|fast track)\b/i],
@@ -113,6 +115,18 @@ async function biorxiv(src) {
   return out;
 }
 
+/* ---------- language ---------- */
+// The PR wires publish the same release in several languages. Keep the English one only.
+const NON_LATIN = /[Ѐ-ӿ֐-׿؀-ۿ぀-ヿ㐀-鿿가-힯]/;
+const EN_WORDS = /\b(the|and|of|to|for|with|in|on|at|its|has|have|said|says|after|from|by|will|new|that|as|is|are|be|first)\b/gi;
+const OTHER_WORDS = /\b(de|la|le|les|des|du|et|une|dans|pour|avec|sur|aux|ses|leurs|und|für|mit|der|die|das|den|dem|auf|bei|seine|el|los|las|una|unos|para|con|por|su|sus|em|da|do|dos|das|uma|della|dei|delle|che|il|al|ai|nel|van|het|voor|aan|zijn|och|att|som|för|med|ikke|til|av|dan|yang|untuk|dengan|adalah)\b/gi;
+function nonEnglish(text) {
+  if (NON_LATIN.test(text)) return true;
+  const en = (text.match(EN_WORDS) || []).length;
+  const other = (text.match(OTHER_WORDS) || []).length;
+  return other >= 3 && other > en;
+}
+
 /* ---------- helpers ---------- */
 const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return ""; } };
 const onDomain = (h, list) => list.some((d) => h === d || h.endsWith("." + d));
@@ -149,6 +163,7 @@ function addItem(raw, src, extra = {}) {
   const pub = when(raw.date);
   if (now - pub > MAX_AGE_NEW * 864e5) return false;
   const text = `${raw.title} ${raw.body}`;
+  if (nonEnglish(text)) return false;
   if (src.filter && !BIO.test(text)) return false;
   const g = guess(text, src.kind);
   const item = {

@@ -38,9 +38,10 @@ short summary and per-sector relevance scores. Aim for 100–250 upcoming events
    - 7–8: a major track or audience
    - 5–6: meaningful sessions, exhibitors or attendees
    - 3–4: some relevance
-   Sectors: defence, biosecurity, healthcare, meddevices, pharma, diagnostics, ai, agrifood, industrial,
-   bioprocessing, fermentation, investment. Fermentation covers precision, biomass and traditional
-   fermentation; bioprocessing covers upstream/downstream manufacturing and CDMOs; industrial covers
+   Sectors: defence, biosecurity, healthcare, meddevices, pharma, cellgene, diagnostics, tools, ai, agrifood,
+   industrial, bioprocessing, fermentation, investment. Cellgene covers cell and gene therapy specifically;
+   tools covers research tools and platforms (instruments, sequencing, omics, reagents, lab automation);
+   fermentation covers precision, biomass and traditional fermentation; bioprocessing covers upstream/downstream manufacturing and CDMOs; industrial covers
    synthetic biology for chemicals, materials and biomanufacturing.
 9. Set the top-level `updated` to the current UTC time (ISO 8601).
 10. Run `node scripts/check-data.mjs` and fix every error it reports.

@@ -21,8 +21,12 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
    the story's `id`, choosing one of:
    - `{"drop": true}` for noise: not about biotech or life sciences, ads, sponsored posts, event promotions,
      obituaries, routine personnel moves at small firms, job listings, investor-relations housekeeping (e.g. "to
-     present at conference"), quarterly-results notices with no news, and journal items that are corrections,
-     editorials of no consequence or table-of-contents entries.
+     present at conference"), quarterly-results notices with no news, journal corrections and table-of-contents
+     entries, and anything not written in English (the wires publish the same release in several languages;
+     keep the English one).
+     **Keep** editorials, comment and viewpoint pieces from Nature, Science, Cell, NEJM, The Lancet, Nature
+     Medicine and Nature Biotechnology when they argue something consequential for the field: they feed the
+     app's "From the journals" section. Give them `cat: "science"` (or `policy` when that is the subject).
    - `{"dup": "<id of the best version>"}` when another story covers the same news. Keep as primary the most
      authoritative source in this order: journal / official source → established news outlet → science news →
      press release → preprint; between equals, the more detailed one.
@@ -40,8 +44,10 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
        sector. 5–6: notable. 3–4: minor. Below 3: consider dropping.
      - `rel`: score each sector that applies 0–10 with one specific `why` sentence, exactly as for events
        (9–10 core focus, 7–8 major, 5–6 meaningful, 3–4 some). Omit sectors below 3. Sectors: defence,
-       biosecurity, healthcare, meddevices, pharma, diagnostics, ai, agrifood, industrial, bioprocessing,
-       fermentation, investment.
+       biosecurity, healthcare, meddevices, pharma, cellgene, diagnostics, tools, ai, agrifood, industrial,
+       bioprocessing, fermentation, investment. `cellgene` is cell and gene therapy specifically (gene
+       editing, CAR-T, AAV, mRNA medicines) and `tools` is research tools and platforms (instruments,
+       sequencing, omics, reagents, lab automation); score them alongside `pharma`, not instead of it.
    Work in batches; there are usually 100–300 new stories a day. Be brief but never vague.
 3. **Scout** for important stories from the last 48 hours that the feeds missed. Search the web for each
    sector, and specifically for: Asia-Pacific (China, Japan, Korea, Singapore, India), EU and UK government and
@@ -80,5 +86,10 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
 10. **On Mondays only**, post one short message to the owner in your thread: sources added, kept, or removed in the
     last 7 days (from `log`), one line each with the reason, and "Reply 'remove X' to drop one." If nothing
     changed, say so in one line. Other days, no message is needed unless something is broken.
+
+The app's "Top stories" view groups the day's stories into seven sections with a fixed number of places each
+(drugs & trials, from the journals, deals & money, policy & regulation, tools/diagnostics & AI, bio-industry,
+biosecurity & defence), so a story only reaches the owner if its category and sector scores are right. It also
+shows reviewed stories only, which is why every story needs a decision.
 
 Do not change the website code during the daily review unless it is clearly broken.
