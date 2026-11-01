@@ -236,8 +236,8 @@ html{overscroll-behavior-y:contain}
     <button class="fbtn" id="fopen" type="button">Filters <span class="n" id="fcount" hidden></span></button>
   </div>
 
-  <div class="chiplab">Industries</div>
-  <div class="chips" id="chips" role="group" aria-label="Industries"></div>
+  <div class="chiplab">Sectors</div>
+  <div class="chips" id="chips" role="group" aria-label="Sectors"></div>
   <div class="hint" id="hint"></div>
 
   <div class="main">
@@ -506,7 +506,7 @@ function groupedHtml(rows, { capped }) {
   const head = (sec) => capped
     ? `<button type="button" class="nsec-open" data-nsec="${esc(sec.id)}">${esc(sec.name)}${sec.left ? `<small>+${sec.left} more</small>` : ""}<span class="nsec-arrow" aria-hidden="true">›</span></button>`
     : `${esc(sec.name)}<small>${sec.picks.length}</small>`;
-  // An industry chip narrows the feed hard, so empty categories are just noise then; in the
+  // A sector chip narrows the feed hard, so empty categories are just noise then; in the
   // unfiltered digest an empty category is worth seeing, because it says the day was quiet there.
   const shownSecs = S.sectors.size ? secs.filter((sec) => sec.picks.length) : secs;
   const html = shownSecs.map((sec) => `<section class="nsec" id="sec-${esc(sec.id)}"><h3>${head(sec)}</h3>${
@@ -528,12 +528,12 @@ function aboutHtml() {
   return `<div class="panel srcs" style="padding:14px">
     <div><button class="btn" type="button" data-aboutclose>← Back to news</button></div>
     <div><h3>Top stories</h3>
-      <p class="also" style="margin:0 0 8px">Every story is scored by AI for importance to the field and relevance to each industry. Ranking by importance alone gives you mostly drug news, because that is what most of the feed is about. So "Top stories" gives each category a fixed number of places and fills them with its most important stories of the period. Tap any category heading to see everything it is holding back. Categories can come up short on a quiet day, which is itself worth knowing. "All stories" gives you every story in the same categories, ordered by importance or, if you change the order under Filters, newest first. Stories the AI has not reviewed yet are left out of both views and appear once the next review has run.</p>
-      <p class="also" style="margin:0 0 8px">Categories are kinds of news, and a story sits in exactly one. Industries, the chips at the top, are who the news matters to, and a story carries as many as apply. They overlap on purpose: a fermentation funding round sits in the "Deals &amp; money" category and still scores for the fermentation industry.</p>
+      <p class="also" style="margin:0 0 8px">Every story is scored by AI for importance to the field and relevance to each sector. Ranking by importance alone gives you mostly drug news, because that is what most of the feed is about. So "Top stories" gives each category a fixed number of places and fills them with its most important stories of the period. Tap any category heading to see everything it is holding back. Categories can come up short on a quiet day, which is itself worth knowing. "All stories" gives you every story in the same categories, ordered by importance or, if you change the order under Filters, newest first. Stories the AI has not reviewed yet are left out of both views and appear once the next review has run.</p>
+      <p class="also" style="margin:0 0 8px">Categories are kinds of news, and a story sits in exactly one. Sectors, the chips at the top, are who the news matters to, and a story carries as many as apply. They overlap on purpose: a fermentation funding round sits in the "Deals &amp; money" category and still scores for the fermentation sector.</p>
       ${NSECTIONS.map(([, name, slots, blurb]) => `<div class="srow"><b>${esc(name)}</b><span class="st">${slots} slot${slots > 1 ? "s" : ""}</span><span class="also">${esc(blurb)}</span></div>`).join("")}
       <div class="srow"><span class="also">A story goes in the first category it fits, in the order above, so a Lancet paper on an outbreak counts as biosecurity rather than as a journal piece.</span></div></div>
-    <div><h3>Industries</h3>
-      <p class="also" style="margin:0 0 8px">Each story is scored 0-10 for every industry that applies, with a one-line reason you can read under "Why it matters". Tap a chip at the top to rank by that industry instead; the categories stay in place.</p>
+    <div><h3>Sectors</h3>
+      <p class="also" style="margin:0 0 8px">Each story is scored 0-10 for every sector that applies, with a one-line reason you can read under "Why it matters". Tap a chip at the top to rank by that sector instead; the categories stay in place.</p>
       ${SECTORS.map(([id, name, c]) => `<div class="srow"><span class="sc" style="--c:${c}">${esc(name)}</span><span class="also">${esc(SECTOR_ABOUT[id] || "")}</span></div>`).join("")}</div>
   </div>`;
 }
@@ -768,7 +768,7 @@ function renderFilters() {
 function renderChips() {
   $("#chips").innerHTML = SECTORS.map(([id, name, c]) => `<button type="button" class="chip" style="--c:${c}" data-sector="${id}" aria-pressed="${S.sectors.has(id)}"><i></i>${esc(name)}</button>`).join("");
   const what = S.tab === "news" ? "stories" : "events";
-  $("#hint").textContent = S.sectors.size ? `Showing ${what} scoring ${MIN_REL}+ out of 10 for ${[...S.sectors].map((s) => SEC[s].name).join(" or ")}.` : `Tap an industry to rank ${what} by how relevant they are to it.`;
+  $("#hint").textContent = S.sectors.size ? `Showing ${what} scoring ${MIN_REL}+ out of 10 for ${[...S.sectors].map((s) => SEC[s].name).join(" or ")}.` : `Tap a sector to rank ${what} by how relevant they are to it.`;
 }
 
 const SORTS = { events: { rel: "Most relevant", date: "Soonest first", new: "Newest added" } };
