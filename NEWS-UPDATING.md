@@ -25,8 +25,9 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
      entries, and anything not written in English (the wires publish the same release in several languages;
      keep the English one).
      **Keep** editorials, comment and viewpoint pieces from any peer-reviewed journal in the source list when
-     they argue something consequential for the field: they feed the app's "From the journals" section, which
-     takes anything with `kind: "journal"`. Give them `cat: "science"` (or `policy` when that is the subject).
+     they argue something consequential for the field: they feed the app's "Science & discovery" category, which
+     takes anything with `kind: "journal"` or `kind: "preprint"`. Give them `cat: "science"` (or `policy` when
+     that is the subject).
    - `{"dup": "<id of the best version>"}` when another story covers the same news. Keep as primary the most
      authoritative source in this order: journal / official source → established news outlet → science news →
      press release → preprint; between equals, the more detailed one.
@@ -61,9 +62,9 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
    page and confirm the facts are there before adding. Skip anything already in `news.json` or `extra`.
 4. **Brief:** set `brief` to `{"date": "<now ISO>", "points": [{"sec": "<section>", "text": "…", "ids": ["<story id>"]}]}`.
    Write **one point per section**, in the app's order, and leave a section out when nothing in it is worth a
-   paragraph rather than padding it: `drugs` (drugs & trials), `journals` (from the journals), `money` (deals &
-   money), `policy` (policy & regulation), `tools` (tools, diagnostics & AI), `bioind` (bio-industry),
-   `biodef` (biosecurity & defence).
+   paragraph rather than padding it: `results` (trial results), `science` (science & discovery), `approvals`
+   (approvals & regulators), `policy` (policy & pricing), `money` (deals & money), `companies` (companies),
+   `biodef` (outbreaks & biosecurity).
    Each point is a **summary of that section's day**, not a pointer to its top story: two to four sentences
    that say what actually happened across the section's stories, led by the most important ones and naming
    the companies, drugs, regulators and numbers, then folding the rest in as a theme ("a heavy run of deals
@@ -95,11 +96,13 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
     last 7 days (from `log`), one line each with the reason, and "Reply 'remove X' to drop one." If nothing
     changed, say so in one line. Other days, no message is needed unless something is broken.
 
-The app's "Top stories" view groups the day's stories into seven sections with a fixed number of places each
-(drugs & trials, from the journals, deals & money, policy & regulation, tools/diagnostics & AI, bio-industry,
-biosecurity & defence), so a story only reaches the owner if its category and sector scores are right. Anything
-with `kind: "journal"` goes to the journals section, so judge those on importance rather than dropping them
-because they are not research articles. The view shows reviewed stories only, which is why every story needs a
-decision.
+The app's news screen groups the day's stories into seven news categories with two places each: trial results,
+science & discovery, approvals & regulators, policy & pricing, deals & money, companies, and outbreaks &
+biosecurity. A story lands in the first category whose rule it meets, and the rules read `cat` first, so the
+`cat` you choose decides where it appears: `clinical` → trial results, `science` (or `kind` journal/preprint) →
+science & discovery, `regulatory` → approvals, `policy` → policy & pricing, `deals`/`funding`/`contracts` →
+deals & money, everything else (earnings, restructuring, layoffs, manufacturing, strategy) → companies.
+A biosecurity or defence score of 6 or more overrides all of them. Tapping a category opens its full list, and
+only reviewed stories appear, which is why every story needs a decision.
 
 Do not change the website code during the daily review unless it is clearly broken.

@@ -463,30 +463,31 @@ function filteredNews() {
   else out.sort((a, b) => (S.sectors.size ? b.ss - a.ss : nimp(b.it) - nimp(a.it)) || (b.ts - a.ts) || (b.t - a.t));
   return out;
 }
-/* Top stories: fixed slots per section, so the busiest part of the field (drug news, by a long way)
-   cannot crowd out the rest. A story lands in the first section whose rule it meets. */
+/* News categories: what happened to the story, not who it is about, with the same number of
+   places each so that no one corner of the field can crowd the rest out. A story lands in the
+   first category whose rule it meets. */
 const NSECTIONS = [
-  ["drugs", "Drugs & trials", 3, "Candidate drugs, trial results, launches and the companies behind them."],
-  ["journals", "From the journals", 2, "Peer-reviewed papers, and editorials or comment pieces of consequence, from any journal in the source list."],
-  ["money", "Deals & money", 2, "Licensing, acquisitions, funding rounds, IPOs and contract awards."],
-  ["policy", "Policy & regulation", 2, "Regulators, approvals and recalls, legislation, pricing and government strategy."],
-  ["tools", "Tools, diagnostics & AI", 2, "Diagnostics, medical devices, research platforms and AI applied to biology."],
-  ["bioind", "Bio-industry", 2, "Bioprocessing, fermentation, industrial biotech, agriculture and food."],
-  ["biodef", "Biosecurity & defence", 1, "Outbreaks, preparedness, biosafety and defence programmes."],
+  ["results", "Trial results", 2, "Phase 1 to 3 readouts, clinical holds, safety signals and data presented at conferences."],
+  ["science", "Science & discovery", 2, "Journal papers, preprints, lab findings, new mechanisms and research platforms."],
+  ["approvals", "Approvals & regulators", 2, "Regulatory decisions, label expansions, recalls, inspections and safety reviews."],
+  ["policy", "Policy & pricing", 2, "Legislation, reimbursement and pricing rules, government strategy and trade."],
+  ["money", "Deals & money", 2, "Acquisitions, licensing, funding rounds, IPOs and contract awards."],
+  ["companies", "Companies", 2, "Earnings, restructuring, layoffs, pipeline clear-outs, manufacturing and strategy."],
+  ["biodef", "Outbreaks & biosecurity", 2, "Outbreaks, preparedness, biosafety, surveillance and defence programmes."],
 ];
 const relMax = (rel, keys) => Math.max(0, ...keys.map((k) => rel[k]?.score || 0));
 function nsectionOf(it) {
   const rel = nrel(it), cat = ncat(it);
   if (relMax(rel, ["biosecurity", "defence"]) >= 6) return "biodef";
-  if (it.kind === "journal") return "journals";
-  if (cat === "policy" || cat === "regulatory") return "policy";
+  if (cat === "regulatory") return "approvals";
+  if (cat === "policy") return "policy";
   if (cat === "deals" || cat === "funding" || cat === "contracts" || relMax(rel, ["investment"]) >= 7) return "money";
-  if (relMax(rel, ["diagnostics", "meddevices", "ai", "tools"]) >= 5) return "tools";
-  if (relMax(rel, ["bioprocessing", "fermentation", "industrial", "agrifood"]) >= 5) return "bioind";
-  return "drugs";
+  if (cat === "clinical") return "results";
+  if (cat === "science" || it.kind === "journal" || it.kind === "preprint") return "science";
+  return "companies";
 }
 // The digest only shows reviewed stories: an unscored one cannot be ranked against the others.
-// One news view: the category digest. A narrow filter (favourites, evidence type) lifts the
+// One news view: the news-category digest. A narrow filter (favourites, evidence type) lifts the
 // per-category cap instead of switching to a flat list; everything else is one tap into a category.
 const digestOn = () => !S.q;
 const digestCapped = () => !N.favOnly && !N.kinds.size;
@@ -527,10 +528,10 @@ function aboutHtml() {
   return `<div class="panel srcs" style="padding:14px">
     <div><button class="btn" type="button" data-aboutclose>← Back to news</button></div>
     <div><h3>The news screen</h3>
-      <p class="also" style="margin:0 0 8px">Every story is scored by AI for importance to the field and relevance to each sector. Ranking by importance alone gives you mostly drug news, because that is what most of the feed is about. So the news screen gives each category a fixed number of places and fills them with its most important stories of the period. Tap a category heading, or its chip in the row above the list, to see every story in that category, ordered by importance or, if you change the order under Filters, newest first. Categories can come up short on a quiet day, which is itself worth knowing, and stories the AI has not reviewed yet are left out until the next review has run.</p>
-      <p class="also" style="margin:0 0 8px">Categories are kinds of news, and a story sits in exactly one. Sectors, the chips at the top, are who the news matters to, and a story carries as many as apply. They overlap on purpose: a fermentation funding round sits in the "Deals &amp; money" category and still scores for the fermentation sector.</p>
+      <p class="also" style="margin:0 0 8px">Every story is scored by AI for importance to the field and relevance to each sector. Ranking by importance alone gives you mostly drug news, because that is what most of the feed is about. So the news screen sorts stories by what happened to them and gives each category the same two places, filled with its most important stories of the period. Tap a category heading, or its chip in the row above the list, to see every story in that category, ordered by importance or, if you change the order under Filters, newest first. Categories can come up short on a quiet day, which is itself worth knowing, and stories the AI has not reviewed yet are left out until the next review has run.</p>
+      <p class="also" style="margin:0 0 8px">News categories are what happened, and a story sits in exactly one. Sectors, the chips at the top, are who it matters to, and a story carries as many as apply. A fermentation funding round is in "Deals &amp; money" because that is what happened, and still scores for the fermentation sector because that is who it is about.</p>
       ${NSECTIONS.map(([, name, slots, blurb]) => `<div class="srow"><b>${esc(name)}</b><span class="st">${slots} slot${slots > 1 ? "s" : ""}</span><span class="also">${esc(blurb)}</span></div>`).join("")}
-      <div class="srow"><span class="also">A story goes in the first category it fits, in the order above, so a Lancet paper on an outbreak counts as biosecurity rather than as a journal piece.</span></div></div>
+      <div class="srow"><span class="also">A story goes in the first category it fits, with outbreaks and biosecurity taking precedence, so a Lancet paper on an outbreak counts as biosecurity rather than as science.</span></div></div>
     <div><h3>Sectors</h3>
       <p class="also" style="margin:0 0 8px">Each story is scored 0-10 for every sector that applies, with a one-line reason you can read under "Why it matters". Tap a chip at the top to rank by that sector instead; the categories stay in place.</p>
       ${SECTORS.map(([id, name, c]) => `<div class="srow"><span class="sc" style="--c:${c}">${esc(name)}</span><span class="also">${esc(SECTOR_ABOUT[id] || "")}</span></div>`).join("")}</div>
