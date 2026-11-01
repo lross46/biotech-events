@@ -24,9 +24,9 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
      present at conference"), quarterly-results notices with no news, journal corrections and table-of-contents
      entries, and anything not written in English (the wires publish the same release in several languages;
      keep the English one).
-     **Keep** editorials, comment and viewpoint pieces from Nature, Science, Cell, NEJM, The Lancet, Nature
-     Medicine and Nature Biotechnology when they argue something consequential for the field: they feed the
-     app's "From the journals" section. Give them `cat: "science"` (or `policy` when that is the subject).
+     **Keep** editorials, comment and viewpoint pieces from any peer-reviewed journal in the source list when
+     they argue something consequential for the field: they feed the app's "From the journals" section, which
+     takes anything with `kind: "journal"`. Give them `cat: "science"` (or `policy` when that is the subject).
    - `{"dup": "<id of the best version>"}` when another story covers the same news. Keep as primary the most
      authoritative source in this order: journal / official source → established news outlet → science news →
      press release → preprint; between equals, the more detailed one.
@@ -89,7 +89,9 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
 
 The app's "Top stories" view groups the day's stories into seven sections with a fixed number of places each
 (drugs & trials, from the journals, deals & money, policy & regulation, tools/diagnostics & AI, bio-industry,
-biosecurity & defence), so a story only reaches the owner if its category and sector scores are right. It also
-shows reviewed stories only, which is why every story needs a decision.
+biosecurity & defence), so a story only reaches the owner if its category and sector scores are right. Anything
+with `kind: "journal"` goes to the journals section, so judge those on importance rather than dropping them
+because they are not research articles. The view shows reviewed stories only, which is why every story needs a
+decision.
 
 Do not change the website code during the daily review unless it is clearly broken.

@@ -232,6 +232,10 @@ html{overscroll-behavior-y:contain}
           <button type="button" data-view="list">List</button>
           <button type="button" data-view="month">Month</button>
         </div>
+        <div class="seg" role="group" aria-label="View" id="nviewseg" hidden>
+          <button type="button" data-nview="top">Top stories</button>
+          <button type="button" data-nview="all">All stories</button>
+        </div>
       </div>
       <div id="out"></div>
       <p class="foot" id="foot"></p>
@@ -303,7 +307,12 @@ const S = {
   open: new Set(),
 };
 const nsaved = store.get("br-news", {});
-const N = { cats: new Set(nsaved.cats || []), kinds: new Set(nsaved.kinds || []), when: nsaved.when || "d3", favOnly: !!nsaved.favOnly, sort: nsaved.sort || "top", sources: false, about: false, section: null };
+const N = {
+  cats: new Set(nsaved.cats || []), kinds: new Set(nsaved.kinds || []), when: nsaved.when || "d3", favOnly: !!nsaved.favOnly,
+  view: nsaved.view || (nsaved.sort && nsaved.sort !== "top" ? "all" : "top"),   // older saved settings used sort for this
+  sort: nsaved.sort === "latest" ? "latest" : "imp",
+  sources: false, about: false, section: null,
+};
 let FAV = new Set(store.get("br-favs", []));
 let NFAV = store.get("br-newsfav", {});  // id -> saved copy, so favourite stories outlive the 90-day window
 let DATA = { events: [] }, LOAD_ERR = false;
@@ -314,7 +323,7 @@ function persist() {
     sectors: [...S.sectors], types: [...S.types], formats: [...S.formats], regions: [...S.regions],
     when: S.when, from: S.from, to: S.to, favOnly: S.favOnly, freeOnly: S.freeOnly, past: S.past, sort: S.sort, view: S.view, tab: S.tab,
   });
-  store.set("br-news", { cats: [...N.cats], kinds: [...N.kinds], when: N.when, favOnly: N.favOnly, sort: N.sort });
+  store.set("br-news", { cats: [...N.cats], kinds: [...N.kinds], when: N.when, favOnly: N.favOnly, view: N.view, sort: N.sort });
 }
 
 /* ---------- matching ---------- */
@@ -443,19 +452,18 @@ function filteredNews() {
    cannot crowd out the rest. A story lands in the first section whose rule it meets. */
 const NSECTIONS = [
   ["drugs", "Drugs & trials", 3, "Candidate drugs, trial results, launches and the companies behind them."],
-  ["journals", "From the journals", 2, "Papers, and editorials or comment pieces of consequence, from Nature, Science, Cell, NEJM, The Lancet, Nature Medicine and Nature Biotechnology."],
+  ["journals", "From the journals", 2, "Peer-reviewed papers, and editorials or comment pieces of consequence, from any journal in the source list."],
   ["money", "Deals & money", 2, "Licensing, acquisitions, funding rounds, IPOs and contract awards."],
   ["policy", "Policy & regulation", 2, "Regulators, approvals and recalls, legislation, pricing and government strategy."],
   ["tools", "Tools, diagnostics & AI", 2, "Diagnostics, medical devices, research platforms and AI applied to biology."],
   ["bioind", "Bio-industry", 2, "Bioprocessing, fermentation, industrial biotech, agriculture and food."],
   ["biodef", "Biosecurity & defence", 1, "Outbreaks, preparedness, biosafety and defence programmes."],
 ];
-const TOP_JOURNALS = new Set(["nature", "science", "cell", "nejm", "lancet", "natmed", "nbt"]);
 const relMax = (rel, keys) => Math.max(0, ...keys.map((k) => rel[k]?.score || 0));
 function nsectionOf(it) {
   const rel = nrel(it), cat = ncat(it);
   if (relMax(rel, ["biosecurity", "defence"]) >= 6) return "biodef";
-  if (it.kind === "journal" && TOP_JOURNALS.has(it.sourceId)) return "journals";
+  if (it.kind === "journal") return "journals";
   if (cat === "policy" || cat === "regulatory") return "policy";
   if (cat === "deals" || cat === "funding" || cat === "contracts" || relMax(rel, ["investment"]) >= 7) return "money";
   if (relMax(rel, ["diagnostics", "meddevices", "ai", "tools"]) >= 5) return "tools";
@@ -463,7 +471,7 @@ function nsectionOf(it) {
   return "drugs";
 }
 // The digest only shows reviewed stories: an unscored one cannot be ranked against the others.
-const digestOn = () => N.sort === "top" && !S.q && !S.sectors.size && !N.cats.size && !N.kinds.size && !N.favOnly;
+const digestOn = () => N.view === "top" && !S.q && !S.sectors.size && !N.cats.size && !N.kinds.size && !N.favOnly;
 function digestHtml(rows) {
   const by = {};
   for (const r of rows) if (r.it.reviewed) (by[nsectionOf(r.it)] ||= []).push(r);
@@ -475,7 +483,7 @@ function digestHtml(rows) {
   const html = secs.map((s) => `<section class="nsec"><h3><button type="button" class="nsec-open" data-nsec="${esc(s.id)}">${esc(s.name)}${
       s.left ? `<small>+${s.left} more</small>` : ""}<span class="nsec-arrow" aria-hidden="true">›</span></button></h3>${
     s.picks.length ? s.picks.map(ncard).join("") : `<p class="nsec-empty">Nothing scored here in ${NWHEN[N.when].toLowerCase()}.</p>`}</section>`).join("");
-  return { shown, html: html + `<div class="nsec-acts"><button class="btn pri" type="button" data-nall>Show everything (${rows.length}) →</button><button class="btn" type="button" data-nabout>What's in each section?</button></div>` };
+  return { shown, html: html + `<div class="nsec-acts"><button class="btn pri" type="button" data-nall>All ${rows.length} stories →</button><button class="btn" type="button" data-nabout>What's in each section?</button></div>` };
 }
 function sectionViewHtml(rows) {
   const [, name, , blurb] = NSECTIONS.find(([id]) => id === N.section) || [];
@@ -489,7 +497,8 @@ function aboutHtml() {
   return `<div class="panel srcs" style="padding:14px">
     <div><button class="btn" type="button" data-aboutclose>← Back to news</button></div>
     <div><h3>Top stories</h3>
-      <p class="also" style="margin:0 0 8px">Every story is scored by AI for importance to the industry and relevance to each sector. Ranking by importance alone gives you mostly drug news, because that is what most of the feed is about. So "Top stories" gives each part of the field a fixed number of places and fills them with its most important stories of the period. Sections can come up short on a quiet day, which is itself worth knowing. "Show everything" gives you the full ranked list, and "Latest first" the raw stream including stories not yet reviewed.</p>
+      <p class="also" style="margin:0 0 8px">Every story is scored by AI for importance to the industry and relevance to each sector. Ranking by importance alone gives you mostly drug news, because that is what most of the feed is about. So "Top stories" gives each part of the field a fixed number of places and fills them with its most important stories of the period. Tap any section heading to see everything it is holding back. Sections can come up short on a quiet day, which is itself worth knowing. "All stories" gives you the whole list, ordered by importance or, if you change the order under Filters, newest first, including stories not yet reviewed.</p>
+      <p class="also" style="margin:0 0 8px">Sections are kinds of news. Sectors, the chips at the top, are who the news matters to, and a story carries as many as apply. They overlap on purpose: a fermentation funding round sits in "Deals &amp; money" and still scores for fermentation.</p>
       ${NSECTIONS.map(([, name, slots, blurb]) => `<div class="srow"><b>${esc(name)}</b><span class="st">${slots} slot${slots > 1 ? "s" : ""}</span><span class="also">${esc(blurb)}</span></div>`).join("")}
       <div class="srow"><span class="also">A story goes in the first section it fits, in the order above, so a Lancet paper on an outbreak counts as biosecurity rather than as a journal piece.</span></div></div>
     <div><h3>Sectors</h3>
@@ -562,11 +571,13 @@ function sourcesHtml() {
     ${NSRC.log?.length ? `<div><h3>Recent changes</h3>${NSRC.log.slice(-12).reverse().map((l) => `<div class="srow"><span class="st">${esc(l.date)}</span>${esc(l.text)}</div>`).join("")}</div>` : ""}
   </div>`;
 }
-const newsFilterCount = () => N.cats.size + N.kinds.size + (N.when !== "d3") + N.favOnly;
+const NSORTS = { imp: "Most important", latest: "Latest first" };
+const newsFilterCount = () => N.cats.size + N.kinds.size + (N.when !== "d3") + N.favOnly + (N.sort !== "imp");
 function renderNewsFilters() {
   const group = (title, key, map) => `<div class="fgroup"><b>${title}</b><div class="opts">${Object.entries(map).map(([k, v]) => `<button type="button" class="opt" data-nset="${key}" data-v="${k}" aria-pressed="${N[key].has(k)}">${esc(v)}</button>`).join("")}</div></div>`;
   $("#filters").innerHTML = `<h3>Filters</h3>
     <div class="fgroup"><b>Published</b><div class="opts">${Object.entries(NWHEN).map(([k, v]) => `<button type="button" class="opt" data-nwhen="${k}" aria-pressed="${N.when === k}">${v}</button>`).join("")}</div></div>
+    <div class="fgroup"><b>Order</b><div class="opts">${Object.entries(NSORTS).map(([k, v]) => `<button type="button" class="opt" data-nsort="${k}" aria-pressed="${N.sort === k}">${v}</button>`).join("")}</div></div>
     ${group("News type", "cats", NCATS)}
     ${group("Evidence", "kinds", KINDS)}
     <div class="fgroup"><button type="button" class="tog" data-ntog="favOnly" aria-pressed="${N.favOnly}"><span>Favourites only</span><span class="sw"></span></button></div>
@@ -600,7 +611,7 @@ function openStory(id) {
   if (!STORIES.some((s) => s.id === id)) return;
   S.tab = "news"; N.sources = N.about = false; N.section = null;
   if (!document.getElementById("nw-" + id)) {
-    S.q = ""; $("#q").value = ""; S.sectors.clear(); N.cats.clear(); N.kinds.clear(); N.favOnly = false; N.when = "d90";
+    S.q = ""; $("#q").value = ""; S.sectors.clear(); N.cats.clear(); N.kinds.clear(); N.favOnly = false; N.when = "d90"; N.view = "all";
   }
   S.open.add(id);
   renderFilters(); render();
@@ -703,10 +714,7 @@ function renderChips() {
   $("#hint").textContent = S.sectors.size ? `Showing ${what} scoring ${MIN_REL}+ out of 10 for ${[...S.sectors].map((s) => SEC[s].name).join(" or ")}.` : `Tap a sector to rank ${what} by how relevant they are to it.`;
 }
 
-const SORTS = {
-  events: { rel: "Most relevant", date: "Soonest first", new: "Newest added" },
-  news: { top: "Top stories", all: "Everything, by importance", latest: "Latest first" },
-};
+const SORTS = { events: { rel: "Most relevant", date: "Soonest first", new: "Newest added" } };
 const FOOT = {
   events: "Summaries and relevance scores are written by AI from each event's website and checked weekly. Dates and details can change: always confirm on the official site before booking.",
   news: "Headlines come from the listed sources 4 times a day. Summaries, scores and the brief are written by AI once a day from the source articles and can contain mistakes: read the original before relying on a story. \"Company claim\" means a company's own press release; preprints have not been peer-reviewed.",
@@ -721,11 +729,13 @@ function render() {
   showUpdated();
   const n = news ? newsFilterCount() : activeFilterCount();
   $("#fcount").hidden = !n; $("#fcount").textContent = n;
-  $("#sort").innerHTML = Object.entries(SORTS[S.tab]).map(([k, v]) => `<option value="${k}">${v}</option>`).join("");
-  $("#sort").value = news ? N.sort : S.sort;
-  $("#sort").hidden = news ? N.sources : S.view === "month";
+  $("#sort").innerHTML = Object.entries(SORTS.events).map(([k, v]) => `<option value="${k}">${v}</option>`).join("");
+  $("#sort").value = S.sort;
+  $("#sort").hidden = news || S.view === "month";
   $("#srcbtn").hidden = !news || N.sources || N.about;
   $("#viewseg").hidden = news;
+  $("#nviewseg").hidden = !news || N.sources || N.about;
+  document.querySelectorAll("[data-nview]").forEach((b) => b.setAttribute("aria-pressed", b.dataset.nview === N.view));
   persist();
   if (news) return renderNews();
   document.querySelectorAll("[data-view]").forEach((b) => b.setAttribute("aria-pressed", b.dataset.view === S.view));
@@ -783,7 +793,7 @@ document.addEventListener("click", (ev) => {
   if (!t) return;
   const d = t.dataset;
   if (d.tab) { if (S.tab === d.tab && !N.sources && !N.about) return; S.tab = d.tab; N.sources = N.about = false; renderFilters(); window.scrollTo(0, 0); }
-  else if (d.sector) { S.sectors.has(d.sector) ? S.sectors.delete(d.sector) : S.sectors.add(d.sector); if (S.sectors.size) { S.sort = "rel"; N.sort = "top"; } }
+  else if (d.sector) { S.sectors.has(d.sector) ? S.sectors.delete(d.sector) : S.sectors.add(d.sector); if (S.sectors.size) { S.sort = "rel"; N.sort = "imp"; N.section = null; } }
   else if (d.set) { const s = S[d.set]; s.has(d.v) ? s.delete(d.v) : s.add(d.v); }
   else if (d.nset) { const s = N[d.nset]; s.has(d.v) ? s.delete(d.v) : s.add(d.v); }
   else if (d.when) { S.when = d.when; renderFilters(); }
@@ -791,12 +801,14 @@ document.addEventListener("click", (ev) => {
   else if (d.tog) S[d.tog] = !S[d.tog];
   else if (d.ntog) N[d.ntog] = !N[d.ntog];
   else if (d.reset !== undefined) {
-    if (S.tab === "news") { N.cats.clear(); N.kinds.clear(); N.when = "d7"; N.favOnly = false; }
+    if (S.tab === "news") { N.cats.clear(); N.kinds.clear(); N.when = "d3"; N.favOnly = false; N.sort = "imp"; }
     else { S.types.clear(); S.formats.clear(); S.regions.clear(); S.when = "all"; S.from = S.to = ""; S.favOnly = S.freeOnly = S.past = false; }
     S.sectors.clear(); S.q = ""; $("#q").value = ""; $("#qx").hidden = true; renderFilters();
   }
   else if (t.id === "srcbtn") { N.sources = true; N.section = null; window.scrollTo(0, 0); }
-  else if (d.nall !== undefined) { N.sort = "all"; N.section = null; window.scrollTo(0, 0); }
+  else if (d.nall !== undefined || d.nview === "all") { N.view = "all"; N.section = null; window.scrollTo(0, 0); }
+  else if (d.nview === "top") { N.view = "top"; N.section = null; window.scrollTo(0, 0); }
+  else if (d.nsort) N.sort = d.nsort;
   else if (d.nsec) { N.section = d.nsec; window.scrollTo(0, 0); }
   else if (d.secclose !== undefined) { N.section = null; window.scrollTo(0, 0); }
   else if (d.nabout !== undefined) { N.about = true; window.scrollTo(0, 0); }
@@ -836,7 +848,7 @@ document.addEventListener("click", (ev) => {
 document.addEventListener("change", (ev) => {
   if (ev.target.id === "from") S.from = ev.target.value;
   else if (ev.target.id === "to") S.to = ev.target.value;
-  else if (ev.target.id === "sort") S.tab === "news" ? (N.sort = ev.target.value, N.section = null) : (S.sort = ev.target.value);
+  else if (ev.target.id === "sort") S.sort = ev.target.value;
   else return;
   render();
 });
