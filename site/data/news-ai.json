@@ -1,77 +1,34 @@
 {
- "updated": "2026-11-01T13:41:02Z",
+ "updated": "2026-11-02T06:43:31Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-01T10:05:12Z",
+  "date": "2026-11-02T06:43:31Z",
   "points": [
    {
     "sec": "results",
-    "text": "Gilead disclosed a partial clinical hold on two trials of its CAR-T therapy KITE-753 in diffuse large B-cell lymphoma after cases of the neurological condition ICANS, and Eli Lilly dropped mevidalen from phase 2 in Alzheimer's for falling short of expectations. The positives were smaller and mostly early: Aer Therapeutics reported phase 2a proof-of-concept data for fexlamose in COPD, Phrontline said TJ101 shrank tumours in six of eight evaluable urothelial cancer patients at ESMO, and two Korean phase 3 readouts met their endpoints. ESMO 2026 continued to produce readouts across cancer types, with investors picking winners and losers from three of them.",
+    "text": "TCT 2026 in San Diego dominated a quiet weekend, and the device data mostly held up. Abbott said its TECTONIC study of the investigational SonicForce coronary lithotripsy system met both primary endpoints in 335 patients, with 0.3% target lesion failure at 30 days and 97% procedural success, setting it up to challenge J&J's Shockwave in calcified arteries. In TRANSFORM II, Concept Medical's sirolimus-coated balloon was noninferior to a drug-eluting stent at one year in 1,842 patients (2.1% vs 2.4% target lesion failure), and the NEJM-published P4 trial found CT angiography as good as intravascular ultrasound for planning PCI. The one miss was the Shockwave Reducer, which did not improve perfusion over sham in a small trial in angina without blocked arteries.",
     "ids": [
-     "172c5a44341a",
-     "ef17373869c7",
-     "dd665161297f",
-     "2146e74e0a3d"
+     "d16d91730530",
+     "2026-11-01-transform-ii-sirolimus-balloon-noninferior",
+     "2026-11-01-p4-ccta-noninferior-ivus-pci",
+     "2026-11-01-remedy-pilot-coronary-sinus-reducer-anoca"
     ]
    },
    {
     "sec": "science",
-    "text": "The standout was mechanistic: Johns Hopkins researchers reported in Nature that the Bacteroides fragilis toxin has to bind the receptor claudin-4 before it can break the gut barrier, and a claudin-4 decoy protected mice, which gives colorectal cancer prevention a concrete target. The LITMUS study found single non-invasive markers fall short of biopsy in at-risk MASH while multimarker panels held up, and Gladstone described type VI retrons, a bacterial defence that only makes its toxin once a phage has infected the cell. Elsewhere a review of dozens of life-cycle assessments put fermentation-derived proteins far below meat and dairy on environmental impact, and David Liu argued at ESGCT that gene editing is becoming disease-agnostic.",
+    "text": "Two university studies stood out. University of Virginia researchers used focused ultrasound and microbubbles to open the blood-brain barrier and deliver nanoparticle microRNAs that slowed glioblastoma and extended survival in mice (Journal of Clinical Investigation), and a UCLA study of about 1,650 people linked long-term chlorpyrifos exposure to 2.5 times the risk of Parkinson's, with animal work pointing to impaired autophagy. The rest was a light run of bioRxiv preprints, mostly on bacterial envelopes and antimicrobial-resistant pathogens such as Klebsiella and Acinetobacter.",
     "ids": [
-     "d3aa2a16dc71",
-     "68812dd7dda9",
-     "372240137276",
-     "6a0394954c07"
-    ]
-   },
-   {
-    "sec": "approvals",
-    "text": "Two firsts: the FDA granted accelerated approval to Voceryq, the first plasmid DNA-based immunotherapy, for recurrent respiratory papillomatosis, and the MHRA extended Casgevy gene editing to children aged five and over with sickle-cell disease or beta-thalassaemia. Sun Pharma had both kinds of day, winning a US approval for Ilumya in psoriatic arthritis while India's CDSCO ordered it to halt eye-drug production at its Assam plant over quality failures. Also through: Abbott's Amplatzer device for paravalvular leak, triheptanoin in the UK, and preservative-free ketamine from NRx; the EMA's safety committee opened a review of the antidepressant combination Deanxit.",
-    "ids": [
-     "2edbbfd9093f",
-     "81569d2ec145",
-     "2026-10-30-cdsco-sun-pharma-assam-eye-drugs",
-     "fa7da0d5fcb4"
-    ]
-   },
-   {
-    "sec": "policy",
-    "text": "Pricing moved on two fronts: the US Labor Department finalised a rule making pharmacy benefit managers disclose fees to self-funded employers from 2027, and Sanofi broke ranks by saying it would push for higher European prices rather than delay launches there. Bloomberg laid out how cheap, fast Chinese trials are pulling early development east, while FDA and CMS officials worked to head off a state-by-state patchwork for clinical AI. Around the edges: the UK Budget was thin on life sciences but drew about £500 million of biopharma pledges, Korea committed to backing 200 companies through 2030, and a 140-country survey found trust in science still below its 2020 peak.",
-    "ids": [
-     "40c176f99965",
-     "2a43fdeb861c",
-     "a388d767f6ae",
-     "3acc6c635f54"
-    ]
-   },
-   {
-    "sec": "money",
-    "text": "A heavy run of deals and financings. Viatris opened its $1.65 billion tender for Pacira's non-opioid pain portfolio, BioMarin licensed GC Biopharma and Hanmi's long-acting Fabry enzyme therapy for $70 million upfront and up to $475 million, Pelthos agreed to combine with Castle Creek's late-stage gene therapy franchise, and DKSH bought Dubai-based NewBridge for $390 million to open a MENA platform. On the funding side Dren Bio raised $350 million to launch its rare blood cancer drug by the end of 2027, Bambusa upsized its IPO to $168.9 million, and Setara emerged from Jazz's $820 million Actio buyout with a $90 million series A. Capacity and tooling money too: Bracco is spending $230 million on its first US contrast media plant, Azenta bought into Elegen and SynPlexity for gene synthesis, and Opentrons raised $40 million.",
-    "ids": [
-     "4e68f332e2bd",
-     "28c1dd42e2b4",
-     "0991f0e8cacc",
-     "2026-10-30-dksh-newbridge-pharma-mena"
+     "82aef178822d",
+     "858d08893264",
+     "b79cbeeac6e0"
     ]
    },
    {
     "sec": "companies",
-    "text": "Third-quarter earnings set the tone. Eli Lilly beat estimates by about $2 billion at $24.4 billion on its tirzepatide franchise and raised guidance again, AbbVie leaned on Skyrizi and Rinvoq with analysts pressing on what comes next, and Sanofi rode Dupixent growth while reworking R&D ahead of its patent cliff. AstraZeneca was the outlier, launching a $1.5 billion annual savings plan it says will not cut jobs on a net basis while executives conceded R&D cuts and trials shifting to emerging markets. Outside pharma, Stryker cut its 2026 guidance after a slowdown in hip and knee procedures, and Anthropic set out its biopharma work a day after filing for its IPO.",
+    "text": "Gene editing stocks had a strong week on ESGCT readouts and the FDA's 27 October draft guidance letting individualised editing therapies share a single BLA: Prime Medicine rose 29%, Beam 13%, and Editas and Intellia 11% each, while Caribou fell another 21% during its strategic review. Smaller news was thin over the weekend, with Orthocell reporting record US sales of its Remplir nerve wrap.",
     "ids": [
-     "461acedffe78",
-     "32820b40fa09",
-     "1404ce6cc68f",
-     "439554b7b164"
-    ]
-   },
-   {
-    "sec": "biodef",
-    "text": "The DRC's Bundibugyo Ebola outbreak passed 10,000 confirmed cases, with ECDC reporting 10,274 cases and 4,992 deaths as of 29 October, up about 700 cases in four days, and exported cases in Kenya and Nigeria. On countermeasures, SK bioscience and IDT Biologika joined a BARDA-supported Bundibugyo vaccine effort with IAVI and Hilleman, with SK leading manufacturing scale-up. Elsewhere the UK Biobank is reopening to researchers after most of a year closed by a large data leak, and The Lancet reported wild polio cases in Afghanistan at twice last year's level.",
-    "ids": [
-     "2026-10-30-ecdc-ebola-bundibugyo-update",
-     "30190c78d882",
-     "908b81087a4c",
-     "072e73e48d7d"
+     "4672d319f5e2",
+     "98af2cc9b6f2"
     ]
    }
   ]
@@ -7660,12 +7617,6 @@
     }
    }
   },
-  "75d1dd143229": {
-   "drop": true
-  },
-  "1bfd8fbfdee8": {
-   "drop": true
-  },
   "a4277478ae72": {
    "cat": "deals",
    "imp": 5,
@@ -8211,63 +8162,6 @@
      "why": "Human-derived RNA editor may lower immunogenicity."
     }
    }
-  },
-  "7cf5d08c5cb8": {
-   "drop": true
-  },
-  "088ea64bea6f": {
-   "drop": true
-  },
-  "25ee30db8ec3": {
-   "drop": true
-  },
-  "bbfee811aa2a": {
-   "drop": true
-  },
-  "ec0bb7290235": {
-   "drop": true
-  },
-  "674476ff9dbe": {
-   "drop": true
-  },
-  "1fcd57a312ac": {
-   "drop": true
-  },
-  "77e8c00cb60c": {
-   "drop": true
-  },
-  "0f27c8467d9c": {
-   "drop": true
-  },
-  "774aa576506e": {
-   "drop": true
-  },
-  "8adb38f82a7b": {
-   "drop": true
-  },
-  "27cd6a8a231d": {
-   "drop": true
-  },
-  "c562014b6373": {
-   "drop": true
-  },
-  "ddc17a5482c7": {
-   "drop": true
-  },
-  "4e81e74ecef6": {
-   "dup": "672050e6f7bc"
-  },
-  "5fb74a5cac35": {
-   "dup": "68812dd7dda9"
-  },
-  "8b87cc6ba91d": {
-   "dup": "98f430df60ac"
-  },
-  "a28d7f2c9d5d": {
-   "dup": "fce4785ffc2c"
-  },
-  "d26dc668a48d": {
-   "dup": "fce4785ffc2c"
   },
   "072e73e48d7d": {
    "cat": "policy",
@@ -9442,12 +9336,6 @@
     }
    }
   },
-  "e864311adca2": {
-   "dup": "ea6110414e4d"
-  },
-  "c0d13355cef8": {
-   "dup": "157003cfd908"
-  },
   "0c82f782803c": {
    "cat": "deals",
    "imp": 4,
@@ -9978,9 +9866,6 @@
     }
    }
   },
-  "63ff56390f8d": {
-   "dup": "172c5a44341a"
-  },
   "5ec543c2ef22": {
    "cat": "other",
    "imp": 7,
@@ -10010,24 +9895,6 @@
      "why": "Signals how AI firms intend to partner with biopharma."
     }
    }
-  },
-  "edf068c0842d": {
-   "dup": "f743ef531124"
-  },
-  "9b892e89ae08": {
-   "drop": true
-  },
-  "ba01e7c4b4e7": {
-   "dup": "ea6110414e4d"
-  },
-  "e0fcf3a1fd60": {
-   "drop": true
-  },
-  "2cef114cf345": {
-   "dup": "32820b40fa09"
-  },
-  "75025333793e": {
-   "dup": "157003cfd908"
   },
   "2edbbfd9093f": {
    "cat": "regulatory",
@@ -10062,9 +9929,6 @@
      "why": "Affects lymphoma patients in those trials."
     }
    }
-  },
-  "5085989fa43e": {
-   "drop": true
   },
   "24999878189b": {
    "cat": "contracts",
@@ -10176,9 +10040,6 @@
     }
    }
   },
-  "dae348d48773": {
-   "dup": "9bfa75ccd25f"
-  },
   "32820b40fa09": {
    "cat": "other",
    "imp": 7,
@@ -10280,120 +10141,6 @@
     }
    }
   },
-  "ea5e12c71c52": {
-   "drop": true
-  },
-  "faa619e4c829": {
-   "drop": true
-  },
-  "b25566a6a8ca": {
-   "drop": true
-  },
-  "a6d9cd4988b4": {
-   "drop": true
-  },
-  "f6583ce19a7f": {
-   "drop": true
-  },
-  "4fa38675d781": {
-   "drop": true
-  },
-  "d6a52590ef6d": {
-   "drop": true
-  },
-  "593c909a353c": {
-   "drop": true
-  },
-  "1785a56e3d17": {
-   "drop": true
-  },
-  "ff85217f62eb": {
-   "drop": true
-  },
-  "9cdbbc1dfee4": {
-   "drop": true
-  },
-  "8b67be9641da": {
-   "drop": true
-  },
-  "37d5ee11ff41": {
-   "drop": true
-  },
-  "f898c22e3dc8": {
-   "drop": true
-  },
-  "1c65722dbb47": {
-   "drop": true
-  },
-  "0e5414023b63": {
-   "drop": true
-  },
-  "aca58c01f998": {
-   "drop": true
-  },
-  "df4ff706e7e8": {
-   "drop": true
-  },
-  "319ce0c34caf": {
-   "drop": true
-  },
-  "41f1f2fab82d": {
-   "drop": true
-  },
-  "a5b5c9486469": {
-   "drop": true
-  },
-  "4992f883efda": {
-   "drop": true
-  },
-  "3fe9966b0229": {
-   "drop": true
-  },
-  "843cfae557ea": {
-   "drop": true
-  },
-  "8c73fc8e5df8": {
-   "drop": true
-  },
-  "563af7ea38fb": {
-   "drop": true
-  },
-  "558c8f788b99": {
-   "drop": true
-  },
-  "73492f058760": {
-   "drop": true
-  },
-  "029ff2f4abba": {
-   "drop": true
-  },
-  "4e973b95e1c1": {
-   "drop": true
-  },
-  "872aa70fb293": {
-   "drop": true
-  },
-  "549309bcd566": {
-   "drop": true
-  },
-  "6323a8afc204": {
-   "drop": true
-  },
-  "f8364aaafd62": {
-   "drop": true
-  },
-  "15e2f6709174": {
-   "drop": true
-  },
-  "f72f64048191": {
-   "drop": true
-  },
-  "002cb97522dd": {
-   "drop": true
-  },
-  "bd5c5ede270b": {
-   "drop": true
-  },
   "8e893f17947a": {
    "cat": "deals",
    "imp": 6,
@@ -10480,9 +10227,6 @@
     }
    }
   },
-  "5eb67924462e": {
-   "dup": "2edbbfd9093f"
-  },
   "e92b50ea4649": {
    "cat": "regulatory",
    "imp": 6,
@@ -10497,9 +10241,6 @@
      "why": "Another option in psoriatic arthritis."
     }
    }
-  },
-  "e360ec0ad100": {
-   "drop": true
   },
   "0855ed51ec58": {
    "cat": "clinical",
@@ -10530,96 +10271,6 @@
      "why": "Upstream input to drug discovery."
     }
    }
-  },
-  "77098538ff90": {
-   "drop": true
-  },
-  "e8fd0a0147eb": {
-   "drop": true
-  },
-  "a6daafd733eb": {
-   "drop": true
-  },
-  "9487474a8828": {
-   "drop": true
-  },
-  "ac58305a29ca": {
-   "drop": true
-  },
-  "970db0bd3dc2": {
-   "drop": true
-  },
-  "063c5b81d8a4": {
-   "drop": true
-  },
-  "60431f356697": {
-   "drop": true
-  },
-  "40960e0c0a7d": {
-   "drop": true
-  },
-  "47ceb7bd7398": {
-   "drop": true
-  },
-  "82393ad009bd": {
-   "drop": true
-  },
-  "817636e2769a": {
-   "drop": true
-  },
-  "62c2aa238cd1": {
-   "drop": true
-  },
-  "980f1dfb8cae": {
-   "drop": true
-  },
-  "e55eff88a9eb": {
-   "drop": true
-  },
-  "f6187bf0a021": {
-   "drop": true
-  },
-  "f457e7007300": {
-   "drop": true
-  },
-  "22363f2149eb": {
-   "drop": true
-  },
-  "b4b78c5b0e0e": {
-   "drop": true
-  },
-  "78900d9051d4": {
-   "drop": true
-  },
-  "66d489835650": {
-   "drop": true
-  },
-  "e1dd5b51f7bb": {
-   "drop": true
-  },
-  "14dec3a8891e": {
-   "drop": true
-  },
-  "84d9fbd689ea": {
-   "drop": true
-  },
-  "f121b3e4a011": {
-   "drop": true
-  },
-  "757b0d11d7d9": {
-   "drop": true
-  },
-  "dd6af633e159": {
-   "drop": true
-  },
-  "684a308c3f32": {
-   "drop": true
-  },
-  "01299ed9b37b": {
-   "drop": true
-  },
-  "96f0b006d5d9": {
-   "drop": true
   },
   "fc78493a39fa": {
    "cat": "other",
@@ -10661,15 +10312,6 @@
      "why": "Covers plant and animal health threats."
     }
    }
-  },
-  "2be7a7039c76": {
-   "dup": "157003cfd908"
-  },
-  "822a70bd26c8": {
-   "dup": "8e893f17947a"
-  },
-  "6bf369e955b7": {
-   "dup": "ea6110414e4d"
   },
   "e7b28ef7bb43": {
    "cat": "other",
@@ -10841,9 +10483,6 @@
     }
    }
   },
-  "9da88a81f1f8": {
-   "drop": true
-  },
   "d1f7ccb26f5f": {
    "cat": "clinical",
    "imp": 4,
@@ -10896,15 +10535,6 @@
     }
    }
   },
-  "45a53f002164": {
-   "dup": "2026-10-30-gc-biopharma-hunterase-icv"
-  },
-  "8e6f49534875": {
-   "drop": true
-  },
-  "94f861a5bc1f": {
-   "drop": true
-  },
   "b7f54e783463": {
    "cat": "other",
    "imp": 3,
@@ -10919,12 +10549,6 @@
      "why": "IPO plans tied to out-licensing strategy."
     }
    }
-  },
-  "8bdd156cdfc4": {
-   "dup": "28c1dd42e2b4"
-  },
-  "f65e7d269d38": {
-   "drop": true
   },
   "e96ecaf4ce3c": {
    "cat": "policy",
@@ -11294,9 +10918,6 @@
     }
    }
   },
-  "263a3f3caf04": {
-   "drop": true
-  },
   "234dd17583b4": {
    "cat": "policy",
    "imp": 5,
@@ -11409,9 +11030,6 @@
     }
    }
   },
-  "e30ea1ad7972": {
-   "drop": true
-  },
   "9515d6ca449f": {
    "cat": "science",
    "imp": 5,
@@ -11426,18 +11044,6 @@
      "why": "Mechanism linking exercise to healthy ageing."
     }
    }
-  },
-  "08fd005800b6": {
-   "drop": true
-  },
-  "208e7dc1e287": {
-   "dup": "7c813c078984"
-  },
-  "e8e2450dbffe": {
-   "dup": "32820b40fa09"
-  },
-  "4e1d0f4d8a3d": {
-   "drop": true
   },
   "3acc6c635f54": {
    "cat": "policy",
@@ -11457,9 +11063,6 @@
      "why": "Covers AI-based diagnostic tools."
     }
    }
-  },
-  "e3272ab7ca7c": {
-   "drop": true
   },
   "908b81087a4c": {
    "cat": "policy",
@@ -11483,9 +11086,6 @@
      "why": "Underpins biomarker and risk-score research."
     }
    }
-  },
-  "68ff61d3daa0": {
-   "drop": true
   },
   "9f483758494d": {
    "cat": "policy",
@@ -11516,15 +11116,6 @@
      "why": "Vaccine-preventable disease surveillance."
     }
    }
-  },
-  "62039be4986e": {
-   "drop": true
-  },
-  "5c2f269f58d1": {
-   "drop": true
-  },
-  "5babf2962d26": {
-   "drop": true
   },
   "6f6bd1013cba": {
    "drop": true
@@ -11657,108 +11248,6 @@
   },
   "7fa08cc73137": {
    "drop": true
-  },
-  "a54c483ccdcf": {
-   "drop": true
-  },
-  "833bbb6e66a6": {
-   "drop": true
-  },
-  "503b9cbe3271": {
-   "drop": true
-  },
-  "260e5d47fbc8": {
-   "drop": true
-  },
-  "bee145658115": {
-   "drop": true
-  },
-  "e3672f1550df": {
-   "drop": true
-  },
-  "559e6d5e418d": {
-   "drop": true
-  },
-  "dd2c98e4c894": {
-   "drop": true
-  },
-  "a7d625909f35": {
-   "drop": true
-  },
-  "034ec4345cd5": {
-   "drop": true
-  },
-  "bd18034d0017": {
-   "drop": true
-  },
-  "3d906ae61b68": {
-   "drop": true
-  },
-  "a67691798496": {
-   "drop": true
-  },
-  "35c53b47cfa6": {
-   "drop": true
-  },
-  "b0d9598fd2ba": {
-   "drop": true
-  },
-  "04ab67b848ec": {
-   "drop": true
-  },
-  "47ca1f10c6b6": {
-   "drop": true
-  },
-  "a1c582058388": {
-   "drop": true
-  },
-  "415e222efabe": {
-   "drop": true
-  },
-  "d11c7fcd08c1": {
-   "drop": true
-  },
-  "67e139d57680": {
-   "drop": true
-  },
-  "3ffbffff5c2c": {
-   "drop": true
-  },
-  "0ffcf1f2d96e": {
-   "drop": true
-  },
-  "4db06ed25f9c": {
-   "drop": true
-  },
-  "11f3cb257b6b": {
-   "drop": true
-  },
-  "64bee9a3d2b3": {
-   "drop": true
-  },
-  "4495b25d6558": {
-   "drop": true
-  },
-  "c70d86361bec": {
-   "drop": true
-  },
-  "23217ec8cfd1": {
-   "dup": "ac45c19bd60a"
-  },
-  "9e09c0acde86": {
-   "dup": "0808a785f65b"
-  },
-  "6ba861e8c792": {
-   "dup": "68d06e5a1880"
-  },
-  "74f2728fce92": {
-   "dup": "98f430df60ac"
-  },
-  "06e27e10adae": {
-   "dup": "7c813c078984"
-  },
-  "7ee4d140cfc9": {
-   "dup": "d8710dfcb45c"
   },
   "d3aa2a16dc71": {
    "cat": "science",
@@ -12047,171 +11536,6 @@
   "64345550e8c0": {
    "drop": true
   },
-  "e4f714ba9b72": {
-   "dup": "3d55cd1f6330"
-  },
-  "102169c76c7d": {
-   "dup": "efd4e3e482f4"
-  },
-  "724fa82ba951": {
-   "dup": "40c176f99965"
-  },
-  "f59efc10b90d": {
-   "drop": true
-  },
-  "d69977a4d4fd": {
-   "dup": "5a3495574796"
-  },
-  "952417de4bbb": {
-   "dup": "5a3495574796"
-  },
-  "12d47ebb2f56": {
-   "dup": "68d06e5a1880"
-  },
-  "893bf695e38f": {
-   "drop": true
-  },
-  "46d8be7e4e88": {
-   "drop": true
-  },
-  "6370eba30eba": {
-   "drop": true
-  },
-  "2e4d2604c247": {
-   "dup": "68d06e5a1880"
-  },
-  "fc05684a9de9": {
-   "dup": "68d06e5a1880"
-  },
-  "2728f2b1b598": {
-   "drop": true
-  },
-  "84934324676b": {
-   "drop": true
-  },
-  "69724cc3cbbc": {
-   "drop": true
-  },
-  "bf7d6b36d54a": {
-   "dup": "21d272940445"
-  },
-  "109291e1b8d7": {
-   "dup": "21d272940445"
-  },
-  "65faf13d45c6": {
-   "drop": true
-  },
-  "0d8ad6439ccc": {
-   "drop": true
-  },
-  "6bdb991e819d": {
-   "drop": true
-  },
-  "e3b77d178a2e": {
-   "drop": true
-  },
-  "3986a34860d2": {
-   "drop": true
-  },
-  "0a2d2e4e4b12": {
-   "drop": true
-  },
-  "f7c9746123ff": {
-   "drop": true
-  },
-  "ad57f0697397": {
-   "drop": true
-  },
-  "9547baf19232": {
-   "drop": true
-  },
-  "949573b73ef7": {
-   "drop": true
-  },
-  "c0c7f95101eb": {
-   "dup": "b910df45d987"
-  },
-  "a418a746c4ec": {
-   "drop": true
-  },
-  "d9cfb1a5ae2f": {
-   "drop": true
-  },
-  "03bf17746476": {
-   "drop": true
-  },
-  "4042ff57f9b0": {
-   "drop": true
-  },
-  "90ae09a68dbe": {
-   "drop": true
-  },
-  "caa88a34c27d": {
-   "drop": true
-  },
-  "568559b0bbf9": {
-   "dup": "d76c5250b63f"
-  },
-  "2330167c4bc4": {
-   "drop": true
-  },
-  "bfe09f254a31": {
-   "drop": true
-  },
-  "0142974eb2ad": {
-   "drop": true
-  },
-  "c6e3a807cde5": {
-   "drop": true
-  },
-  "fe226254889a": {
-   "drop": true
-  },
-  "1b4fcac558ca": {
-   "drop": true
-  },
-  "5ce56eac88c3": {
-   "dup": "7c813c078984"
-  },
-  "4fd2cd0b533c": {
-   "drop": true
-  },
-  "8922e5e772fd": {
-   "drop": true
-  },
-  "8f528b8f13c2": {
-   "drop": true
-  },
-  "f5e20a68825f": {
-   "drop": true
-  },
-  "108a2359675b": {
-   "drop": true
-  },
-  "ae179258fb70": {
-   "drop": true
-  },
-  "27297f68bf53": {
-   "dup": "479ecd2af517"
-  },
-  "e9563b94ef04": {
-   "drop": true
-  },
-  "cd10dbf6af32": {
-   "drop": true
-  },
-  "9f7ee28adfb7": {
-   "drop": true
-  },
-  "329068c61c65": {
-   "drop": true
-  },
-  "12605db9d56f": {
-   "drop": true
-  },
-  "c4cc666ebc70": {
-   "drop": true
-  },
   "8700e4435e7b": {
    "cat": "science",
    "imp": 5,
@@ -12380,6 +11704,185 @@
     "cellgene": {
      "score": 5,
      "why": "Possible export market for a Korean cell therapy."
+    }
+   }
+  },
+  "65a3d15207c3": {
+   "drop": true
+  },
+  "1e1d7c71001a": {
+   "drop": true
+  },
+  "98af2cc9b6f2": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Orthocell says October 2026 was its strongest month of US sales for the Remplir collagen nerve wrap since launch, with 92 units sold.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Early US sales traction for an FDA-cleared peripheral nerve repair device."
+    }
+   }
+  },
+  "d16d91730530": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "Abbott says its TECTONIC study of the investigational SonicForce coronary intravascular lithotripsy system in 335 patients met both primary endpoints, with 0.3% target lesion failure at 30 days and 97% procedural success. The data were presented at TCT and published in JACC: Cardiovascular Interventions; the device is not yet FDA-approved.",
+   "rel": {
+    "meddevices": {
+     "score": 9,
+     "why": "Pivotal data positioning Abbott to challenge the leader in coronary lithotripsy for calcified arteries."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Adds a potential option for treating severely calcified coronary disease before stenting."
+    }
+   }
+  },
+  "4672d319f5e2": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Gene editing stocks mostly rose in the week to 30 October on ESGCT readouts and the FDA's 27 October draft guidance on individualised genome editing products, with Prime Medicine up 29%, Beam 13% and Editas and Intellia 11%. Caribou fell 21% amid its strategic review, and Acumen lost 91% after a phase 2 Alzheimer's failure.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "Shows how investors priced the FDA's new BLA framework for personalised gene editing therapies."
+    },
+    "investment": {
+     "score": 7,
+     "why": "Weekly share moves across listed gene editing companies and notable trial-driven swings."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Captures market reaction to several late-stage readouts, including Genmab's phase 3 head and neck data."
+    }
+   }
+  },
+  "858d08893264": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A UCLA study of 829 people with Parkinson's and 824 controls linked long-term residential exposure to the pesticide chlorpyrifos with more than 2.5 times the risk of the disease; mouse and zebrafish work suggested it damages neurons via impaired autophagy and alpha-synuclein. The findings were published in Molecular Neurodegeneration.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "Adds epidemiological and mechanistic evidence on an environmental cause of Parkinson's."
+    },
+    "agrifood": {
+     "score": 5,
+     "why": "Bears on regulation of an organophosphate still used in agriculture in some countries."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Points to autophagy enhancement as a possible neuroprotective approach."
+    }
+   }
+  },
+  "a869731ca904": {
+   "cat": "science",
+   "imp": 2,
+   "summary": "Researchers studying the Great Barrier Reef report that crown-of-thorns starfish at controlled densities may help reefs by feeding mostly on fast-growing coral, suggesting outbreak control rather than eradication.",
+   "rel": {}
+  },
+  "82aef178822d": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "University of Virginia researchers combined MRI-guided focused ultrasound and microbubbles to open the blood-brain barrier and deliver nanoparticle-packaged microRNAs that slowed glioblastoma growth and extended survival in mice. The work is published in the Journal of Clinical Investigation; it has not been tested in patients.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "A preclinical delivery route for RNA drugs into brain tumours across the blood-brain barrier."
+    },
+    "meddevices": {
+     "score": 4,
+     "why": "Uses focused ultrasound as a drug delivery device for the brain."
+    },
+    "cellgene": {
+     "score": 3,
+     "why": "Nanoparticle delivery of nucleic acid therapeutics to the brain."
+    }
+   }
+  },
+  "b79cbeeac6e0": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint reports that lipopolysaccharide and the protein Wzi anchor the capsule to the surface of Klebsiella pneumoniae and help the bacterium survive in the bloodstream. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Identifies capsule retention as a possible anti-virulence target in a priority drug-resistant pathogen."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Concerns a leading cause of hospital bloodstream infections."
+    }
+   }
+  },
+  "d0a3e487e732": {
+   "cat": "science",
+   "imp": 2,
+   "summary": "A preprint shows the large conjugative plasmid pAB3 can integrate into the chromosome of the widely used Acinetobacter baumannii lab strain ATCC 17978, explaining conflicting reports of its resistance and secretion phenotypes. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 3,
+     "why": "Matters for labs relying on this reference strain for antimicrobial research."
+    }
+   }
+  },
+  "63f0e71c47a7": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint reports that the protein YhdP forms a bridge spanning the Gram-negative envelope with DedD, binding phospholipids, supporting it as a route for moving lipids to the outer membrane. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Outer membrane biogenesis is a target area for new Gram-negative antibiotics."
+    }
+   }
+  },
+  "d029a4a9c10e": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint describes a defined gut bacterial consortium with spatial mucin structures that links stepwise fibre fermentation to effects in the host, as a model for how fibre deficiency drives mucus degradation. Not yet peer-reviewed.",
+   "rel": {
+    "agrifood": {
+     "score": 4,
+     "why": "Relevant to designing prebiotic fibres and microbiome-targeted foods."
+    },
+    "fermentation": {
+     "score": 3,
+     "why": "Models metabolic cascades in mixed-culture fibre fermentation."
+    }
+   }
+  },
+  "d567e5a929e5": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint finds that defective viral genomes shape how type I interferon responses rise and then reset during infection, depending on prior exposure. Not yet peer-reviewed.",
+   "rel": {
+    "biosecurity": {
+     "score": 3,
+     "why": "Informs understanding of immune dysregulation in infections with pandemic RNA viruses such as H5N1."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Relevant to antiviral and immunomodulatory strategies."
+    }
+   }
+  },
+  "6e3f84682e8f": {
+   "cat": "science",
+   "imp": 2,
+   "summary": "A preprint finds that host species, more than location, determines the bacterial and microeukaryote communities of four cold-water corals in a Mediterranean reef in the Alboran Sea. Not yet peer-reviewed.",
+   "rel": {}
+  },
+  "7eab8edb2aac": {
+   "cat": "science",
+   "imp": 2,
+   "summary": "A preprint in neonatal mice shows that loss of mechanical loading after denervation changes the growth of bone, tendon and other musculoskeletal tissues in different ways over time. Not yet peer-reviewed.",
+   "rel": {
+    "healthcare": {
+     "score": 3,
+     "why": "Relevant to understanding musculoskeletal development after neonatal nerve injury."
     }
    }
   }
@@ -12837,6 +12340,73 @@
     "diagnostics": {
      "score": 4,
      "why": "Sustained need for confirmatory testing in DRC and for screening travellers."
+    }
+   }
+  },
+  {
+   "id": "2026-11-01-transform-ii-sirolimus-balloon-noninferior",
+   "title": "TRANSFORM II: sirolimus-coated balloon noninferior to drug-eluting stent at 1 year",
+   "url": "https://www.tctmd.com/news/sirolimus-dcb-holds-well-1-year-vs-standard-des-transform-ii",
+   "source": "TCTMD",
+   "kind": "news",
+   "published": "2026-11-01T18:00:00Z",
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "In TRANSFORM II, presented at TCT 2026, 1,842 patients with coronary disease were randomised to Concept Medical's MagicTouch sirolimus-coated balloon or an everolimus-eluting stent; 12-month target lesion failure was 2.1% versus 2.4%, meeting noninferiority. It is one of the largest randomised tests of a leave-nothing-behind approach in native coronary vessels.",
+   "rel": {
+    "meddevices": {
+     "score": 9,
+     "why": "Large randomised evidence that a drug-coated balloon can match a stent, a potential shift in the coronary device market."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Could let more patients be treated without a permanent metal implant."
+    }
+   }
+  },
+  {
+   "id": "2026-11-01-p4-ccta-noninferior-ivus-pci",
+   "title": "P4 trial: CT angiography noninferior to IVUS for guiding PCI",
+   "url": "https://www.tctmd.com/news/ccta-noninferior-ivus-pci-guidance-p4-trial",
+   "source": "TCTMD",
+   "kind": "news",
+   "published": "2026-11-01T18:00:00Z",
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "The P4 trial randomised 1,105 patients to PCI planned with coronary CT angiography or guided by intravascular ultrasound; 12-month target-vessel failure was 4.1% versus 4.6%, meeting noninferiority. Results were presented at TCT 2026 and published in the New England Journal of Medicine.",
+   "rel": {
+    "meddevices": {
+     "score": 7,
+     "why": "Supports CT-based planning as an alternative to intravascular imaging catheters in PCI."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Could change how cardiology teams plan stenting procedures."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "Expands the role of cardiac CT imaging from diagnosis into procedure planning."
+    }
+   }
+  },
+  {
+   "id": "2026-11-01-remedy-pilot-coronary-sinus-reducer-anoca",
+   "title": "Coronary sinus Reducer shows no perfusion benefit in sham-controlled ANOCA trial",
+   "url": "https://www.tctmd.com/news/coronary-sinus-reducer-has-little-impact-anoca-sham-controlled-trial",
+   "source": "TCTMD",
+   "kind": "news",
+   "published": "2026-11-01T18:00:00Z",
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "In the single-centre REMEDY-PILOT study of 54 patients with angina and non-obstructed coronary arteries, J&J MedTech's Shockwave Reducer did not change myocardial perfusion reserve at 6 months versus a sham procedure (P = 0.72). The results were presented at TCT 2026.",
+   "rel": {
+    "meddevices": {
+     "score": 7,
+     "why": "A sham-controlled setback for expanding the Reducer into microvascular angina."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Bears on treatment options for angina without obstructive coronary disease."
     }
    }
   }
