@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T05:51:40Z",
+ "updated": "2026-11-02T05:48:49Z",
  "horizon": "Events from now to about 18 months ahead",
  "events": [
   {
@@ -135,6 +135,14 @@
     "biosecurity": {
      "score": 3,
      "why": "Discusses regulation and risks of human gene editing."
+    },
+    "cellgene": {
+     "score": 6,
+     "why": "Gene-editing therapeutics are a major topic."
+    },
+    "tools": {
+     "score": 6,
+     "why": "CRISPR screening and editing tools."
     }
    },
    "keywords": [
@@ -216,7 +224,87 @@
     }
    },
    "added": "2026-10-25",
-   "checked": "2026-10-26"
+   "checked": "2026-11-02"
+  },
+  {
+   "id": "advanced-therapies-usa-2026",
+   "name": "Advanced Therapies USA 2026",
+   "start": "2026-11-04",
+   "end": "2026-11-05",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Boston",
+   "country": "USA",
+   "organiser": "Terrapinn",
+   "url": "https://www.terrapinn.com/congress/advanced-therapies-usa",
+   "free": false,
+   "summary": "Conference and exhibition on cell and gene therapy development, manufacturing and commercialisation for developers, CDMOs and investors.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Cell and gene therapy pipelines and commercial strategy are the core topic."
+    },
+    "bioprocessing": {
+     "score": 7,
+     "why": "Major track on viral vector and cell therapy manufacturing."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Investors and partnering activity around ATMP developers."
+    },
+    "cellgene": {
+     "score": 9,
+     "why": "Cell and gene therapy development, manufacturing and commercialisation are the core programme."
+    }
+   },
+   "keywords": [
+    "cell and gene therapy",
+    "CGT",
+    "ATMP"
+   ],
+   "added": "2026-10-26",
+   "checked": "2026-11-02"
+  },
+  {
+   "id": "fpp-cms-amsterdam-2026",
+   "name": "Future of Protein Production x Cultured Meat Symposium Amsterdam 2026",
+   "start": "2026-11-04",
+   "end": "2026-11-05",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Amsterdam",
+   "country": "Netherlands",
+   "organiser": "Future-Proof Group Media",
+   "url": "https://futureofproteinproduction.com",
+   "free": false,
+   "summary": "Two-day alternative-protein conference at RAI Amsterdam covering plant-based, fermentation-derived and cultivated meat, with a co-located Cultured Meat Symposium.",
+   "rel": {
+    "agrifood": {
+     "score": 9,
+     "why": "Alternative proteins and novel foods are the core theme."
+    },
+    "fermentation": {
+     "score": 8,
+     "why": "Precision and biomass fermentation proteins are a major strand."
+    },
+    "bioprocessing": {
+     "score": 6,
+     "why": "Cultivated-meat bioprocess design, media and scale-up sessions."
+    },
+    "cellgene": {
+     "score": 3,
+     "why": "Cell line development for cultivated meat."
+    }
+   },
+   "keywords": [
+    "FPP",
+    "alternative protein",
+    "cultivated meat"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
   },
   {
    "id": "lab-innovations-2026",
@@ -248,46 +336,14 @@
     "pharma": {
      "score": 3,
      "why": "R&D lab suppliers serving drug discovery."
+    },
+    "tools": {
+     "score": 8,
+     "why": "Trade show for lab equipment, automation and analytical instruments."
     }
    },
    "added": "2026-10-25",
-   "checked": "2026-10-26"
-  },
-  {
-   "id": "advanced-therapies-usa-2026",
-   "name": "Advanced Therapies USA 2026",
-   "start": "2026-11-04",
-   "end": "2026-11-05",
-   "type": "conference",
-   "format": "inperson",
-   "region": "namerica",
-   "city": "Boston",
-   "country": "USA",
-   "organiser": "Terrapinn",
-   "url": "https://www.terrapinn.com/congress/advanced-therapies-usa",
-   "free": false,
-   "summary": "Conference and exhibition on cell and gene therapy development, manufacturing and commercialisation for developers, CDMOs and investors.",
-   "rel": {
-    "pharma": {
-     "score": 8,
-     "why": "Cell and gene therapy pipelines and commercial strategy are the core topic."
-    },
-    "bioprocessing": {
-     "score": 7,
-     "why": "Major track on viral vector and cell therapy manufacturing."
-    },
-    "investment": {
-     "score": 4,
-     "why": "Investors and partnering activity around ATMP developers."
-    }
-   },
-   "keywords": [
-    "cell and gene therapy",
-    "CGT",
-    "ATMP"
-   ],
-   "added": "2026-10-26",
-   "checked": "2026-10-26"
+   "checked": "2026-11-02"
   },
   {
    "id": "labroots-cell-sorting-2026",
@@ -310,13 +366,21 @@
     "industrial": {
      "score": 4,
      "why": "Droplet and bead-based screening workflows used in strain and enzyme engineering."
+    },
+    "tools": {
+     "score": 8,
+     "why": "Focused on new cell-sorting instruments and methods."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Cell sorting underpins cell therapy workflows."
     }
    },
    "keywords": [
     "flow cytometry"
    ],
    "added": "2026-10-26",
-   "checked": "2026-10-26"
+   "checked": "2026-11-02"
   },
   {
    "id": "bio-europe-2026",
@@ -355,7 +419,7 @@
     }
    },
    "added": "2026-10-25",
-   "checked": "2026-10-26",
+   "checked": "2026-11-02",
    "keywords": [
     "partnering",
     "licensing",
@@ -384,6 +448,10 @@
     "pharma": {
      "score": 6,
      "why": "Pharma and biotech manufacturing heads attend."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Advanced therapy manufacturing sessions."
     }
    },
    "keywords": [
@@ -391,37 +459,7 @@
     "CMC"
    ],
    "added": "2026-10-26",
-   "checked": "2026-10-26"
-  },
-  {
-   "id": "labroots-clin-dx-2026",
-   "name": "Clinical Diagnostics & Research Virtual Event Series 2026",
-   "start": "2026-11-10",
-   "end": "2026-11-10",
-   "type": "webinar",
-   "format": "online",
-   "region": "global",
-   "organiser": "Labroots",
-   "url": "https://www.labroots.com/virtual-event/clinical-diagnostics-research-virtual-event-series-2026",
-   "free": true,
-   "summary": "Online talks on clinical laboratory diagnostics, molecular testing and translational research.",
-   "rel": {
-    "diagnostics": {
-     "score": 9,
-     "why": "Dedicated to clinical diagnostics and lab testing."
-    },
-    "healthcare": {
-     "score": 6,
-     "why": "Lab medicine that informs patient care."
-    },
-    "meddevices": {
-     "score": 3,
-     "why": "In-vitro diagnostic devices and assays."
-    }
-   },
-   "added": "2026-10-25",
-   "checked": "2026-10-26",
-   "time": "05:30 PT"
+   "checked": "2026-11-02"
   },
   {
    "id": "amp-2026",
@@ -453,6 +491,10 @@
     "pharma": {
      "score": 3,
      "why": "Companion diagnostics and biomarker testing for therapies."
+    },
+    "tools": {
+     "score": 5,
+     "why": "Sequencing and molecular testing platforms in the exhibition."
     }
    },
    "keywords": [
@@ -460,7 +502,67 @@
     "NGS"
    ],
    "added": "2026-10-26",
-   "checked": "2026-10-26"
+   "checked": "2026-11-02"
+  },
+  {
+   "id": "labroots-clin-dx-2026",
+   "name": "Clinical Diagnostics & Research Virtual Event Series 2026",
+   "start": "2026-11-10",
+   "end": "2026-11-10",
+   "type": "webinar",
+   "format": "online",
+   "region": "global",
+   "organiser": "Labroots",
+   "url": "https://www.labroots.com/virtual-event/clinical-diagnostics-research-virtual-event-series-2026",
+   "free": true,
+   "summary": "Online talks on clinical laboratory diagnostics, molecular testing and translational research.",
+   "rel": {
+    "diagnostics": {
+     "score": 9,
+     "why": "Dedicated to clinical diagnostics and lab testing."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Lab medicine that informs patient care."
+    },
+    "meddevices": {
+     "score": 3,
+     "why": "In-vitro diagnostic devices and assays."
+    }
+   },
+   "added": "2026-10-25",
+   "checked": "2026-11-02",
+   "time": "05:30 PT"
+  },
+  {
+   "id": "compamed-2026",
+   "name": "COMPAMED 2026",
+   "start": "2026-11-16",
+   "end": "2026-11-19",
+   "type": "tradeshow",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Düsseldorf",
+   "country": "Germany",
+   "organiser": "Messe Düsseldorf",
+   "url": "https://www.compamed-tradefair.com/",
+   "free": false,
+   "summary": "Trade fair for suppliers to the medical technology industry, held alongside MEDICA, covering components, microsystems, materials and contract manufacturing.",
+   "rel": {
+    "meddevices": {
+     "score": 9,
+     "why": "Core supplier event for medical device components and manufacturing."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Microfluidics and sensor suppliers for diagnostic devices."
+    }
+   },
+   "keywords": [
+    "medtech supply chain"
+   ],
+   "added": "2026-10-26",
+   "checked": "2026-11-02"
   },
   {
    "id": "medica-2026",
@@ -499,37 +601,7 @@
     }
    },
    "added": "2026-10-25",
-   "checked": "2026-10-26"
-  },
-  {
-   "id": "compamed-2026",
-   "name": "COMPAMED 2026",
-   "start": "2026-11-16",
-   "end": "2026-11-19",
-   "type": "tradeshow",
-   "format": "inperson",
-   "region": "europe",
-   "city": "Düsseldorf",
-   "country": "Germany",
-   "organiser": "Messe Düsseldorf",
-   "url": "https://www.compamed-tradefair.com/",
-   "free": false,
-   "summary": "Trade fair for suppliers to the medical technology industry, held alongside MEDICA, covering components, microsystems, materials and contract manufacturing.",
-   "rel": {
-    "meddevices": {
-     "score": 9,
-     "why": "Core supplier event for medical device components and manufacturing."
-    },
-    "diagnostics": {
-     "score": 4,
-     "why": "Microfluidics and sensor suppliers for diagnostic devices."
-    }
-   },
-   "keywords": [
-    "medtech supply chain"
-   ],
-   "added": "2026-10-26",
-   "checked": "2026-10-26"
+   "checked": "2026-11-02"
   },
   {
    "id": "bioprocessuk-2026",
@@ -564,7 +636,7 @@
     }
    },
    "added": "2026-10-25",
-   "checked": "2026-10-26"
+   "checked": "2026-11-02"
   },
   {
    "id": "fi-europe-2026",
@@ -599,7 +671,41 @@
     "food ingredients"
    ],
    "added": "2026-10-26",
-   "checked": "2026-10-26"
+   "checked": "2026-11-02"
+  },
+  {
+   "id": "labroots-proteomics-nov-2026",
+   "name": "Measure Proteins with Confidence: Using Proteomics to Understand Drug Mechanism and Risk",
+   "start": "2026-11-17",
+   "end": "2026-11-17",
+   "time": "08:00 PST",
+   "type": "webinar",
+   "format": "online",
+   "region": "global",
+   "organiser": "Labroots (sponsored by SomaLogic, an Illumina company)",
+   "url": "https://www.labroots.com/virtual-event/measure-proteins-with-confidence-a-proteomics-webinar-series",
+   "free": null,
+   "summary": "Online session in a proteomics webinar series on using high-plex protein measurement to study drug mechanisms and safety risks.",
+   "rel": {
+    "tools": {
+     "score": 8,
+     "why": "High-plex affinity proteomics platforms are the subject."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Applies proteomics to drug mechanism and safety assessment."
+    },
+    "diagnostics": {
+     "score": 3,
+     "why": "Protein biomarkers with diagnostic potential."
+    }
+   },
+   "keywords": [
+    "SomaScan",
+    "proteomics"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
   },
   {
    "id": "cphi-india-2026",
@@ -634,7 +740,42 @@
     "API"
    ],
    "added": "2026-10-26",
-   "checked": "2026-10-26"
+   "checked": "2026-11-02"
+  },
+  {
+   "id": "cbrne-summit-asia-2026",
+   "name": "CBRNe Summit Asia 2026",
+   "start": "2026-12-01",
+   "end": "2026-12-03",
+   "type": "conference",
+   "format": "inperson",
+   "region": "apac",
+   "city": "Bangkok",
+   "country": "Thailand",
+   "organiser": "Intelligence-Sec",
+   "url": "https://intelligence-sec.com/events/cbrne-summit-asia-2026/",
+   "free": false,
+   "summary": "Regional meeting for military, civil protection and government CBRN specialists on chemical, biological, radiological and nuclear preparedness and response in Asia.",
+   "rel": {
+    "defence": {
+     "score": 9,
+     "why": "Military and government CBRN defence is the core audience."
+    },
+    "biosecurity": {
+     "score": 8,
+     "why": "Biological threat preparedness and response are central."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Detection and identification technologies for hazardous agents."
+    }
+   },
+   "keywords": [
+    "CBRN",
+    "CBRNE"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
   },
   {
    "id": "synbitech-2026",
@@ -673,7 +814,46 @@
     }
    },
    "added": "2026-10-25",
-   "checked": "2026-10-25"
+   "checked": "2026-11-02"
+  },
+  {
+   "id": "labroots-precision-oncology-dec-2026",
+   "name": "Beyond the NGS Panel: Advancing Precision Oncology through WGS, Methylomics and MRD Integration",
+   "start": "2026-12-08",
+   "end": "2026-12-08",
+   "time": "09:00 PST",
+   "type": "webinar",
+   "format": "online",
+   "region": "global",
+   "organiser": "Labroots",
+   "url": "https://www.labroots.com/virtual-event/beyond-ngs-panel-advancing-precision-oncology-through-wgs-methylomics-mrd-integration",
+   "free": null,
+   "summary": "Online session on moving from targeted NGS panels to whole-genome, methylation and minimal residual disease profiling in cancer care, and the barriers to clinical use.",
+   "rel": {
+    "diagnostics": {
+     "score": 8,
+     "why": "Molecular cancer testing and MRD are the focus."
+    },
+    "tools": {
+     "score": 7,
+     "why": "Whole-genome sequencing and methylomics technologies."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Implications for clinical oncology decisions."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Biomarker profiling for oncology drug development."
+    }
+   },
+   "keywords": [
+    "NGS",
+    "MRD",
+    "liquid biopsy"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
   },
   {
    "id": "biofit-2026",
@@ -743,10 +923,52 @@
     "bioprocessing": {
      "score": 3,
      "why": "Cell therapy manufacturing talks."
+    },
+    "cellgene": {
+     "score": 8,
+     "why": "CAR-T and gene therapy data for blood cancers and disorders are a highlight."
     }
    },
    "added": "2026-10-25",
    "checked": "2026-10-25"
+  },
+  {
+   "id": "biotech-showcase-2027",
+   "name": "Biotech Showcase 2027",
+   "start": "2027-01-11",
+   "end": "2027-01-13",
+   "type": "partnering",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "San Francisco",
+   "country": "USA",
+   "organiser": "Demy-Colton / Informa",
+   "url": "https://informaconnect.com/biotech-showcase/",
+   "free": null,
+   "summary": "Investor and partnering conference held during JPM week, where emerging biotechs present to investors and hold one-to-one meetings.",
+   "rel": {
+    "investment": {
+     "score": 9,
+     "why": "Built for start-ups meeting investors during JPM week."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Mostly therapeutics companies presenting."
+    },
+    "meddevices": {
+     "score": 3,
+     "why": "Some medtech and diagnostics presenters."
+    },
+    "diagnostics": {
+     "score": 3,
+     "why": "Some diagnostics presenters."
+    }
+   },
+   "added": "2026-10-25",
+   "checked": "2026-10-25",
+   "keywords": [
+    "JPM week"
+   ]
   },
   {
    "id": "jpm-2027",
@@ -792,42 +1014,75 @@
    ]
   },
   {
-   "id": "biotech-showcase-2027",
-   "name": "Biotech Showcase 2027",
-   "start": "2027-01-11",
-   "end": "2027-01-13",
-   "type": "partnering",
+   "id": "advanced-therapies-week-2027",
+   "name": "Advanced Therapies Week 2027",
+   "start": "2027-01-18",
+   "end": "2027-01-21",
+   "type": "conference",
    "format": "inperson",
    "region": "namerica",
-   "city": "San Francisco",
+   "city": "San Diego",
    "country": "USA",
-   "organiser": "Demy-Colton / Informa",
-   "url": "https://informaconnect.com/biotech-showcase/",
-   "free": null,
-   "summary": "Investor and partnering conference held during JPM week, where emerging biotechs present to investors and hold one-to-one meetings.",
+   "organiser": "Phacilitate",
+   "url": "https://www.phacilitate.com/advanced-therapies-week",
+   "free": false,
+   "summary": "Large industry meeting for the cell and gene therapy sector at the San Diego Convention Center, covering development, manufacturing, commercialisation and investment.",
    "rel": {
+    "cellgene": {
+     "score": 10,
+     "why": "Built around the cell and gene therapy industry."
+    },
+    "bioprocessing": {
+     "score": 7,
+     "why": "Advanced therapy manufacturing and supply chain are major tracks."
+    },
     "investment": {
-     "score": 9,
-     "why": "Built for start-ups meeting investors during JPM week."
+     "score": 5,
+     "why": "Investors and partnering activity alongside the programme."
     },
     "pharma": {
-     "score": 7,
-     "why": "Mostly therapeutics companies presenting."
-    },
-    "meddevices": {
-     "score": 3,
-     "why": "Some medtech and diagnostics presenters."
-    },
-    "diagnostics": {
-     "score": 3,
-     "why": "Some diagnostics presenters."
+     "score": 5,
+     "why": "Developers of advanced therapy pipelines attend."
     }
    },
-   "added": "2026-10-25",
-   "checked": "2026-10-25",
    "keywords": [
-    "JPM week"
-   ]
+    "ATW",
+    "Phacilitate",
+    "CGT"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
+  },
+  {
+   "id": "idex-2027",
+   "name": "IDEX 2027",
+   "start": "2027-01-25",
+   "end": "2027-01-29",
+   "type": "tradeshow",
+   "format": "inperson",
+   "region": "mena",
+   "city": "Abu Dhabi",
+   "country": "United Arab Emirates",
+   "organiser": "ADNEC Group",
+   "url": "https://www.idexuae.ae/",
+   "free": false,
+   "summary": "Major Middle East defence exhibition, with a dedicated CBRNE hub showing detection, protection and response technology.",
+   "rel": {
+    "defence": {
+     "score": 9,
+     "why": "One of the largest defence trade shows globally."
+    },
+    "biosecurity": {
+     "score": 5,
+     "why": "CBRNE hub covers biological detection and protection."
+    }
+   },
+   "keywords": [
+    "CBRNE",
+    "International Defence Exhibition"
+   ],
+   "added": "2026-10-26",
+   "checked": "2026-10-26"
   },
   {
    "id": "whx-dubai-2027",
@@ -910,35 +1165,86 @@
    ]
   },
   {
-   "id": "idex-2027",
-   "name": "IDEX 2027",
-   "start": "2027-01-25",
-   "end": "2027-01-29",
-   "type": "tradeshow",
+   "id": "festival-of-genomics-london-2027",
+   "name": "Festival of Genomics & Biodata London 2027",
+   "start": "2027-01-27",
+   "end": "2027-01-28",
+   "type": "conference",
    "format": "inperson",
-   "region": "mena",
-   "city": "Abu Dhabi",
-   "country": "United Arab Emirates",
-   "organiser": "ADNEC Group",
-   "url": "https://www.idexuae.ae/",
-   "free": false,
-   "summary": "Major Middle East defence exhibition, with a dedicated CBRNE hub showing detection, protection and response technology.",
+   "region": "uk",
+   "city": "London",
+   "country": "UK",
+   "organiser": "Front Line Genomics",
+   "url": "https://www.genomics.com/events/2027-festival-of-genomics-biodata-london",
+   "free": null,
+   "summary": "Large genomics and biodata event at ExCeL London bringing together researchers, clinicians, NHS and industry on sequencing, multi-omics and genomic medicine.",
    "rel": {
-    "defence": {
-     "score": 9,
-     "why": "One of the largest defence trade shows globally."
+    "tools": {
+     "score": 8,
+     "why": "Sequencing, multi-omics and data platforms dominate the exhibition."
     },
-    "biosecurity": {
+    "diagnostics": {
+     "score": 7,
+     "why": "Genomic medicine and clinical testing tracks."
+    },
+    "ai": {
+     "score": 6,
+     "why": "Biodata, AI and analytics sessions."
+    },
+    "healthcare": {
      "score": 5,
-     "why": "CBRNE hub covers biological detection and protection."
+     "why": "NHS genomic medicine implementation."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Genomics in drug discovery."
     }
    },
    "keywords": [
-    "CBRNE",
-    "International Defence Exhibition"
+    "genomics",
+    "multi-omics"
    ],
-   "added": "2026-10-26",
-   "checked": "2026-10-26"
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
+  },
+  {
+   "id": "fog-london-2027",
+   "name": "Festival of Genomics & Biodata 2027",
+   "start": "2027-01-27",
+   "end": "2027-01-28",
+   "type": "conference",
+   "format": "inperson",
+   "region": "uk",
+   "city": "London",
+   "country": "UK",
+   "organiser": "Front Line Genomics",
+   "url": "https://www.thefestivalofgenomics.com/london",
+   "free": null,
+   "summary": "Large genomics and biodata event at ExCeL London, covering sequencing, genomic medicine, multi-omics and data science, with a big exhibition.",
+   "rel": {
+    "diagnostics": {
+     "score": 7,
+     "why": "Genomic testing and precision medicine."
+    },
+    "ai": {
+     "score": 7,
+     "why": "Biodata, AI and bioinformatics tracks."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Genomic medicine in the NHS and beyond."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Genomics in drug discovery."
+    },
+    "tools": {
+     "score": 7,
+     "why": "Sequencing, multi-omics and genomics platforms."
+    }
+   },
+   "added": "2026-10-25",
+   "checked": "2026-10-25"
   },
   {
    "id": "fst-precision-fermentation-2027",
@@ -976,41 +1282,6 @@
    "checked": "2026-10-25"
   },
   {
-   "id": "fog-london-2027",
-   "name": "Festival of Genomics & Biodata 2027",
-   "start": "2027-01-27",
-   "end": "2027-01-28",
-   "type": "conference",
-   "format": "inperson",
-   "region": "uk",
-   "city": "London",
-   "country": "UK",
-   "organiser": "Front Line Genomics",
-   "url": "https://www.thefestivalofgenomics.com/london",
-   "free": null,
-   "summary": "Large genomics and biodata event at ExCeL London, covering sequencing, genomic medicine, multi-omics and data science, with a big exhibition.",
-   "rel": {
-    "diagnostics": {
-     "score": 7,
-     "why": "Genomic testing and precision medicine."
-    },
-    "ai": {
-     "score": 7,
-     "why": "Biodata, AI and bioinformatics tracks."
-    },
-    "healthcare": {
-     "score": 6,
-     "why": "Genomic medicine in the NHS and beyond."
-    },
-    "pharma": {
-     "score": 5,
-     "why": "Genomics in drug discovery."
-    }
-   },
-   "added": "2026-10-25",
-   "checked": "2026-10-25"
-  },
-  {
    "id": "slas-2027",
    "name": "SLAS2027 International Conference & Exhibition",
    "start": "2027-01-30",
@@ -1040,6 +1311,10 @@
     "bioprocessing": {
      "score": 4,
      "why": "Automated cell culture and analytics."
+    },
+    "tools": {
+     "score": 9,
+     "why": "Lab automation, screening and analytics platforms are the core focus."
     }
    },
    "added": "2026-10-25",
@@ -1076,6 +1351,42 @@
    "time": "05:30 PT"
   },
   {
+   "id": "eha-ebmt-car-t-2027",
+   "name": "EHA-EBMT 9th European CAR T-cell Meeting",
+   "start": "2027-02-04",
+   "end": "2027-02-06",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Lisbon",
+   "country": "Portugal",
+   "organiser": "European Hematology Association and EBMT",
+   "url": "https://ehaweb.org/connect-network/meetings/eha-ebmt-9th-european-car-t-cell-meeting",
+   "free": false,
+   "summary": "European clinical and scientific meeting on CAR T-cell therapy, from new constructs and trial results to delivery in hospitals.",
+   "rel": {
+    "cellgene": {
+     "score": 10,
+     "why": "Entirely about CAR T-cell therapy."
+    },
+    "healthcare": {
+     "score": 7,
+     "why": "Clinical delivery of CAR-T in European centres."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "New CAR-T products and trial data."
+    }
+   },
+   "keywords": [
+    "CAR-T",
+    "EHA",
+    "EBMT"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
+  },
+  {
    "id": "mdm-west-2027",
    "name": "MD&M West 2027",
    "start": "2027-02-09",
@@ -1106,6 +1417,49 @@
    "checked": "2026-10-26"
   },
   {
+   "id": "bioasia-2027",
+   "name": "BioAsia 2027",
+   "start": "2027-02-15",
+   "end": "2027-02-17",
+   "type": "conference",
+   "format": "inperson",
+   "region": "apac",
+   "city": "Hyderabad",
+   "country": "India",
+   "organiser": "Government of Telangana",
+   "url": "https://bioasia.co.in/",
+   "free": false,
+   "summary": "India's flagship life sciences forum at HITEX Hyderabad, bringing together pharma, biotech, medtech, government and investors, with partnering and a startup showcase.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "India's pharma and biologics industry attends in force."
+    },
+    "investment": {
+     "score": 6,
+     "why": "Partnering, deal-making and startup showcase."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Public health and policy sessions."
+    },
+    "meddevices": {
+     "score": 4,
+     "why": "Medtech track and exhibitors."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "Indian manufacturing and CDMO capacity."
+    }
+   },
+   "keywords": [
+    "Genome Valley",
+    "India"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
+  },
+  {
    "id": "labroots-drug-discovery-2027",
    "name": "Drug Discovery & Development Virtual Event Series 2027",
    "start": "2027-02-17",
@@ -1129,6 +1483,10 @@
     "bioprocessing": {
      "score": 2,
      "why": "Some development and CMC topics."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Screening and assay technologies."
     }
    },
    "added": "2026-10-25",
@@ -1215,6 +1573,80 @@
    "checked": "2026-10-26"
   },
   {
+   "id": "advanced-therapies-uk-2027",
+   "name": "Advanced Therapies UK 2027",
+   "start": "2027-03-09",
+   "end": "2027-03-10",
+   "type": "conference",
+   "format": "inperson",
+   "region": "uk",
+   "city": "London",
+   "country": "United Kingdom",
+   "organiser": "Terrapinn",
+   "url": "https://www.terrapinn.com/congress/advanced-therapies",
+   "free": false,
+   "summary": "Congress and expo on cell and gene therapies at ExCeL London, covering development, manufacturing, regulation and commercialisation.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Europe-focused cell and gene therapy developers and pharma."
+    },
+    "bioprocessing": {
+     "score": 7,
+     "why": "Large track on viral vector and cell therapy manufacturing."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Investor and partnering activity."
+    },
+    "cellgene": {
+     "score": 9,
+     "why": "Dedicated to cell and gene therapy development and commercialisation."
+    }
+   },
+   "keywords": [
+    "cell and gene therapy",
+    "ATMP"
+   ],
+   "added": "2026-10-26",
+   "checked": "2026-10-26"
+  },
+  {
+   "id": "world-agritech-sf-2027",
+   "name": "World Agri-Tech Innovation Summit 2027",
+   "start": "2027-03-09",
+   "end": "2027-03-10",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "San Francisco",
+   "country": "USA",
+   "organiser": "Rethink Events",
+   "url": "https://worldagritechusa.com/",
+   "free": null,
+   "summary": "Global agtech investment and innovation summit connecting growers, agribusiness, start-ups and investors on biologicals, crop genetics and farm technology.",
+   "rel": {
+    "agrifood": {
+     "score": 10,
+     "why": "The main US agtech business summit."
+    },
+    "investment": {
+     "score": 7,
+     "why": "Agtech investors and corporate venture arms."
+    },
+    "industrial": {
+     "score": 4,
+     "why": "Ag biologicals and bio-based inputs."
+    },
+    "ai": {
+     "score": 4,
+     "why": "Data and AI on the farm."
+    }
+   },
+   "added": "2026-10-25",
+   "checked": "2026-10-25"
+  },
+  {
    "id": "world-biosecurity-usa-2027",
    "name": "World BioSecurity Congress & Expo USA 2027",
    "start": "2027-03-09",
@@ -1255,76 +1687,6 @@
    ]
   },
   {
-   "id": "world-agritech-sf-2027",
-   "name": "World Agri-Tech Innovation Summit 2027",
-   "start": "2027-03-09",
-   "end": "2027-03-10",
-   "type": "conference",
-   "format": "inperson",
-   "region": "namerica",
-   "city": "San Francisco",
-   "country": "USA",
-   "organiser": "Rethink Events",
-   "url": "https://worldagritechusa.com/",
-   "free": null,
-   "summary": "Global agtech investment and innovation summit connecting growers, agribusiness, start-ups and investors on biologicals, crop genetics and farm technology.",
-   "rel": {
-    "agrifood": {
-     "score": 10,
-     "why": "The main US agtech business summit."
-    },
-    "investment": {
-     "score": 7,
-     "why": "Agtech investors and corporate venture arms."
-    },
-    "industrial": {
-     "score": 4,
-     "why": "Ag biologicals and bio-based inputs."
-    },
-    "ai": {
-     "score": 4,
-     "why": "Data and AI on the farm."
-    }
-   },
-   "added": "2026-10-25",
-   "checked": "2026-10-25"
-  },
-  {
-   "id": "advanced-therapies-uk-2027",
-   "name": "Advanced Therapies UK 2027",
-   "start": "2027-03-09",
-   "end": "2027-03-10",
-   "type": "conference",
-   "format": "inperson",
-   "region": "uk",
-   "city": "London",
-   "country": "United Kingdom",
-   "organiser": "Terrapinn",
-   "url": "https://www.terrapinn.com/congress/advanced-therapies",
-   "free": false,
-   "summary": "Congress and expo on cell and gene therapies at ExCeL London, covering development, manufacturing, regulation and commercialisation.",
-   "rel": {
-    "pharma": {
-     "score": 8,
-     "why": "Europe-focused cell and gene therapy developers and pharma."
-    },
-    "bioprocessing": {
-     "score": 7,
-     "why": "Large track on viral vector and cell therapy manufacturing."
-    },
-    "investment": {
-     "score": 4,
-     "why": "Investor and partnering activity."
-    }
-   },
-   "keywords": [
-    "cell and gene therapy",
-    "ATMP"
-   ],
-   "added": "2026-10-26",
-   "checked": "2026-10-26"
-  },
-  {
    "id": "future-food-tech-sf-2027",
    "name": "Future Food-Tech San Francisco 2027",
    "start": "2027-03-11",
@@ -1358,6 +1720,37 @@
    },
    "added": "2026-10-25",
    "checked": "2026-10-25"
+  },
+  {
+   "id": "bpi-us-west-2027",
+   "name": "BioProcess International US West 2027",
+   "start": "2027-03-16",
+   "end": "2027-03-17",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "San Diego",
+   "country": "USA",
+   "organiser": "Informa Connect",
+   "url": "https://informaconnect.com/bpi-west/",
+   "free": false,
+   "summary": "West Coast bioprocessing conference on upstream, downstream and analytical development for biologics and new modalities.",
+   "rel": {
+    "bioprocessing": {
+     "score": 9,
+     "why": "Core focus on bioprocess development and manufacturing."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Biologics developers' CMC teams attend."
+    }
+   },
+   "keywords": [
+    "BPI West",
+    "CMC"
+   ],
+   "added": "2026-10-26",
+   "checked": "2026-10-26"
   },
   {
    "id": "security-policing-2027",
@@ -1395,37 +1788,6 @@
    ]
   },
   {
-   "id": "bpi-us-west-2027",
-   "name": "BioProcess International US West 2027",
-   "start": "2027-03-16",
-   "end": "2027-03-17",
-   "type": "conference",
-   "format": "inperson",
-   "region": "namerica",
-   "city": "San Diego",
-   "country": "USA",
-   "organiser": "Informa Connect",
-   "url": "https://informaconnect.com/bpi-west/",
-   "free": false,
-   "summary": "West Coast bioprocessing conference on upstream, downstream and analytical development for biologics and new modalities.",
-   "rel": {
-    "bioprocessing": {
-     "score": 9,
-     "why": "Core focus on bioprocess development and manufacturing."
-    },
-    "pharma": {
-     "score": 5,
-     "why": "Biologics developers' CMC teams attend."
-    }
-   },
-   "keywords": [
-    "BPI West",
-    "CMC"
-   ],
-   "added": "2026-10-26",
-   "checked": "2026-10-26"
-  },
-  {
    "id": "labroots-lab-automation-2027",
    "name": "Laboratory Automation Virtual Event Series 2027",
    "start": "2027-03-17",
@@ -1449,6 +1811,10 @@
     "bioprocessing": {
      "score": 3,
      "why": "Automated process development."
+    },
+    "tools": {
+     "score": 8,
+     "why": "Lab automation systems and workflows."
     }
    },
    "added": "2026-10-25",
@@ -1677,6 +2043,45 @@
    ]
   },
   {
+   "id": "festival-of-biologics-usa-2027",
+   "name": "Festival of Biologics USA 2027",
+   "start": "2027-04-13",
+   "end": "2027-04-14",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Boston",
+   "country": "USA",
+   "organiser": "Terrapinn",
+   "url": "https://www.terrapinn.com/conference/festival-of-biologics-usa",
+   "free": false,
+   "summary": "Conference on biologics discovery, development and manufacturing, including antibodies, biosimilars and immunotherapies.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Biologics R&D and biosimilar strategy are core themes."
+    },
+    "bioprocessing": {
+     "score": 6,
+     "why": "Sessions on biologics manufacturing and CMC."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Partnering between developers and service providers."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Some cell and gene therapy tracks."
+    }
+   },
+   "keywords": [
+    "antibodies",
+    "biosimilars"
+   ],
+   "added": "2026-10-26",
+   "checked": "2026-10-26"
+  },
+  {
    "id": "interphex-2027",
    "name": "INTERPHEX 2027",
    "start": "2027-04-13",
@@ -1707,41 +2112,6 @@
    "checked": "2026-10-26"
   },
   {
-   "id": "festival-of-biologics-usa-2027",
-   "name": "Festival of Biologics USA 2027",
-   "start": "2027-04-13",
-   "end": "2027-04-14",
-   "type": "conference",
-   "format": "inperson",
-   "region": "namerica",
-   "city": "Boston",
-   "country": "USA",
-   "organiser": "Terrapinn",
-   "url": "https://www.terrapinn.com/conference/festival-of-biologics-usa",
-   "free": false,
-   "summary": "Conference on biologics discovery, development and manufacturing, including antibodies, biosimilars and immunotherapies.",
-   "rel": {
-    "pharma": {
-     "score": 8,
-     "why": "Biologics R&D and biosimilar strategy are core themes."
-    },
-    "bioprocessing": {
-     "score": 6,
-     "why": "Sessions on biologics manufacturing and CMC."
-    },
-    "investment": {
-     "score": 3,
-     "why": "Partnering between developers and service providers."
-    }
-   },
-   "keywords": [
-    "antibodies",
-    "biosimilars"
-   ],
-   "added": "2026-10-26",
-   "checked": "2026-10-26"
-  },
-  {
    "id": "drug-discovery-chemistry-2027",
    "name": "Drug Discovery Chemistry 2027",
    "start": "2027-04-19",
@@ -1763,6 +2133,10 @@
     "ai": {
      "score": 5,
      "why": "Tracks on AI and machine learning for molecular design."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Screening and chemistry platform sessions."
     }
    },
    "keywords": [
@@ -1771,6 +2145,46 @@
    ],
    "added": "2026-10-26",
    "checked": "2026-10-26"
+  },
+  {
+   "id": "pittcon-2027",
+   "name": "Pittcon 2027",
+   "start": "2027-04-24",
+   "end": "2027-04-28",
+   "type": "tradeshow",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Pittsburgh",
+   "country": "USA",
+   "organiser": "The Pittsburgh Conference",
+   "url": "https://pittcon.org/",
+   "free": false,
+   "summary": "Major conference and exhibition for analytical chemistry and laboratory science, with instrument makers, technical sessions and short courses.",
+   "rel": {
+    "tools": {
+     "score": 9,
+     "why": "Analytical instruments and lab technologies are the core of the show."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Analytical methods used in clinical and biomarker testing."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Pharmaceutical analysis and QC sessions."
+    },
+    "bioprocessing": {
+     "score": 3,
+     "why": "Process analytics for manufacturing."
+    }
+   },
+   "keywords": [
+    "analytical chemistry",
+    "spectroscopy",
+    "chromatography"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
   },
   {
    "id": "swiss-biotech-day-2027",
@@ -1846,36 +2260,6 @@
    ]
   },
   {
-   "id": "labroots-io-2027",
-   "name": "Immuno-Oncology Virtual Event Series 2027",
-   "start": "2027-04-28",
-   "end": "2027-04-28",
-   "type": "webinar",
-   "format": "online",
-   "region": "global",
-   "organiser": "Labroots",
-   "url": "https://www.labroots.com/virtual-event/immuno-oncology-2027",
-   "free": null,
-   "summary": "Online talks on cancer immunotherapy research, from checkpoint biology to cell therapies.",
-   "rel": {
-    "pharma": {
-     "score": 8,
-     "why": "Immunotherapy drug development."
-    },
-    "healthcare": {
-     "score": 4,
-     "why": "Clinical immuno-oncology."
-    },
-    "diagnostics": {
-     "score": 3,
-     "why": "Biomarkers for immunotherapy."
-    }
-   },
-   "added": "2026-10-25",
-   "checked": "2026-10-25",
-   "time": "05:30 PDT"
-  },
-  {
    "id": "bio-korea-2027",
    "name": "BIO KOREA 2027",
    "start": "2027-04-28",
@@ -1912,6 +2296,40 @@
    ],
    "added": "2026-10-26",
    "checked": "2026-10-26"
+  },
+  {
+   "id": "labroots-io-2027",
+   "name": "Immuno-Oncology Virtual Event Series 2027",
+   "start": "2027-04-28",
+   "end": "2027-04-28",
+   "type": "webinar",
+   "format": "online",
+   "region": "global",
+   "organiser": "Labroots",
+   "url": "https://www.labroots.com/virtual-event/immuno-oncology-2027",
+   "free": null,
+   "summary": "Online talks on cancer immunotherapy research, from checkpoint biology to cell therapies.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Immunotherapy drug development."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Clinical immuno-oncology."
+    },
+    "diagnostics": {
+     "score": 3,
+     "why": "Biomarkers for immunotherapy."
+    },
+    "cellgene": {
+     "score": 5,
+     "why": "Cell-based immunotherapies feature."
+    }
+   },
+   "added": "2026-10-25",
+   "checked": "2026-10-25",
+   "time": "05:30 PDT"
   },
   {
    "id": "synbiobeta-2027",
@@ -1990,6 +2408,14 @@
     "healthcare": {
      "score": 4,
      "why": "Clinical translation of advanced therapies."
+    },
+    "cellgene": {
+     "score": 10,
+     "why": "The flagship scientific meeting for gene editing, viral vectors and cell therapy."
+    },
+    "tools": {
+     "score": 5,
+     "why": "Large exhibition of vector, editing and analytics platforms."
     }
    },
    "added": "2026-10-25",
@@ -2056,6 +2482,14 @@
     "ai": {
      "score": 5,
      "why": "Sessions on machine learning for protein design."
+    },
+    "cellgene": {
+     "score": 5,
+     "why": "Engineered cell therapy and gene therapy tracks."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Protein analytics and display technologies."
     }
    },
    "keywords": [
@@ -2093,6 +2527,10 @@
     "pharma": {
      "score": 4,
      "why": "Biomarker-led drug development."
+    },
+    "tools": {
+     "score": 6,
+     "why": "Genomic and proteomic profiling technologies."
     }
    },
    "added": "2026-10-25",
@@ -2125,6 +2563,10 @@
     "diagnostics": {
      "score": 3,
      "why": "Genomic data pipelines."
+    },
+    "tools": {
+     "score": 6,
+     "why": "Data platforms, sequencing informatics and lab software."
     }
    },
    "added": "2026-10-25",
@@ -2163,6 +2605,70 @@
    ],
    "added": "2026-10-26",
    "checked": "2026-10-26"
+  },
+  {
+   "id": "slas-europe-2027",
+   "name": "SLAS Europe 2027 Conference and Exhibition",
+   "start": "2027-05-25",
+   "end": "2027-05-27",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Hamburg",
+   "country": "Germany",
+   "organiser": "Society for Laboratory Automation and Screening",
+   "url": "https://slas.org/events",
+   "free": null,
+   "summary": "European edition of the SLAS meeting on laboratory automation, screening, data science and lab technology, with a large exhibition.",
+   "rel": {
+    "tools": {
+     "score": 9,
+     "why": "Lab automation and screening platforms are the focus."
+    },
+    "ai": {
+     "score": 6,
+     "why": "Lab data, machine learning and digital lab sessions."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Drug discovery screening technologies."
+    }
+   },
+   "keywords": [
+    "SLAS",
+    "lab automation"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
+  },
+  {
+   "id": "labroots-microscopy-2027",
+   "name": "Microscopy Virtual Event Series 2027",
+   "start": "2027-05-26",
+   "end": "2027-05-26",
+   "time": "05:30 PDT",
+   "type": "webinar",
+   "format": "online",
+   "region": "global",
+   "organiser": "Labroots",
+   "url": "https://www.labroots.com/virtual-event/microscopy-2027",
+   "free": null,
+   "summary": "Online event series on microscopy and imaging methods in life science research.",
+   "rel": {
+    "tools": {
+     "score": 8,
+     "why": "Imaging instruments and methods are the subject."
+    },
+    "ai": {
+     "score": 3,
+     "why": "Image analysis and AI tools."
+    }
+   },
+   "keywords": [
+    "imaging"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
   },
   {
    "id": "whx-lagos-2027",
@@ -2281,6 +2787,41 @@
    ]
   },
   {
+   "id": "casss-cgtp-2027",
+   "name": "CASSS Cell and Gene Therapy Products Symposium 2027",
+   "start": "2027-06-08",
+   "end": "2027-06-10",
+   "type": "symposium",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Rockville",
+   "country": "USA",
+   "organiser": "CASSS",
+   "url": "https://www.casss.org/meetings-and-events/event/2027/06/08/default-calendar/cell-and-gene-therapy-products",
+   "free": false,
+   "summary": "Symposium on the analytics, quality and regulatory (CMC) side of cell and gene therapy products, attended by industry and FDA scientists.",
+   "rel": {
+    "cellgene": {
+     "score": 9,
+     "why": "CMC and regulation of cell and gene therapy products."
+    },
+    "bioprocessing": {
+     "score": 7,
+     "why": "Manufacturing, analytics and quality control."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Regulatory science for advanced therapy developers."
+    }
+   },
+   "keywords": [
+    "CGTP",
+    "CMC"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
+  },
+  {
    "id": "fce-pharma-2027",
    "name": "FCE Pharma 2027",
    "start": "2027-06-08",
@@ -2309,6 +2850,76 @@
    ],
    "added": "2026-10-26",
    "checked": "2026-10-26"
+  },
+  {
+   "id": "bio-innovations-europe-2027",
+   "name": "Bio Innovations Europe 2027",
+   "start": "2027-06-09",
+   "end": "2027-06-10",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "The Hague",
+   "country": "Netherlands",
+   "organiser": "World Bio Markets",
+   "url": "https://www.bioinnovationseurope.com/",
+   "free": false,
+   "summary": "Business conference on industrial biomanufacturing and bio-based chemicals, materials and ingredients in Europe, covering scale-up, feedstocks, buyers, finance and policy.",
+   "rel": {
+    "industrial": {
+     "score": 9,
+     "why": "Bio-based chemicals, materials and biomanufacturing are the focus."
+    },
+    "fermentation": {
+     "score": 6,
+     "why": "Fermentation-based production and scale-up."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Financing biorefineries and plants."
+    },
+    "ai": {
+     "score": 3,
+     "why": "AI for strain design and process optimisation."
+    }
+   },
+   "keywords": [
+    "World Bio Markets",
+    "bioeconomy",
+    "bio-based"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
+  },
+  {
+   "id": "labroots-analytical-chem-2027",
+   "name": "Analytical Chemistry & Separation Sciences Virtual Event Series 2027",
+   "start": "2027-06-09",
+   "end": "2027-06-09",
+   "time": "05:30 PDT",
+   "type": "webinar",
+   "format": "online",
+   "region": "global",
+   "organiser": "Labroots",
+   "url": "https://www.labroots.com/virtual-event/analytical-chemistry-separation-sciences-2027",
+   "free": null,
+   "summary": "Online event series on analytical chemistry, chromatography, mass spectrometry and separation methods.",
+   "rel": {
+    "tools": {
+     "score": 8,
+     "why": "Analytical and separation technologies."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Pharmaceutical analysis applications."
+    }
+   },
+   "keywords": [
+    "chromatography",
+    "mass spectrometry"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
   },
   {
    "id": "achema-2027",
@@ -2389,42 +3000,6 @@
    "checked": "2026-10-26"
   },
   {
-   "id": "isscr-2027",
-   "name": "ISSCR 2027 Annual Meeting",
-   "start": "2027-06-15",
-   "end": "2027-06-18",
-   "type": "conference",
-   "format": "inperson",
-   "region": "namerica",
-   "city": "San Francisco",
-   "country": "USA",
-   "organiser": "International Society for Stem Cell Research",
-   "url": "https://isscr.org/upcoming-programs/isscr-2027",
-   "free": false,
-   "summary": "The main international stem cell research meeting, covering regenerative medicine, organoids, and cell therapy science and translation.",
-   "rel": {
-    "pharma": {
-     "score": 6,
-     "why": "Cell therapy and regenerative medicine translation."
-    },
-    "healthcare": {
-     "score": 4,
-     "why": "Clinical regenerative medicine applications."
-    },
-    "bioprocessing": {
-     "score": 4,
-     "why": "Stem cell manufacturing and scale-up sessions."
-    }
-   },
-   "keywords": [
-    "stem cells",
-    "organoids",
-    "regenerative medicine"
-   ],
-   "added": "2026-10-26",
-   "checked": "2026-10-26"
-  },
-  {
    "id": "dcat-global-summit-2027",
    "name": "DCAT Global Summit 2027",
    "start": "2027-06-15",
@@ -2455,6 +3030,50 @@
    "keywords": [
     "DCAT",
     "CDMO"
+   ],
+   "added": "2026-10-26",
+   "checked": "2026-10-26"
+  },
+  {
+   "id": "isscr-2027",
+   "name": "ISSCR 2027 Annual Meeting",
+   "start": "2027-06-15",
+   "end": "2027-06-18",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "San Francisco",
+   "country": "USA",
+   "organiser": "International Society for Stem Cell Research",
+   "url": "https://isscr.org/upcoming-programs/isscr-2027",
+   "free": false,
+   "summary": "The main international stem cell research meeting, covering regenerative medicine, organoids, and cell therapy science and translation.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Cell therapy and regenerative medicine translation."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Clinical regenerative medicine applications."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "Stem cell manufacturing and scale-up sessions."
+    },
+    "cellgene": {
+     "score": 8,
+     "why": "Stem-cell-derived and regenerative cell therapies are a central theme."
+    },
+    "tools": {
+     "score": 5,
+     "why": "Organoid, iPSC and single-cell methods feature heavily."
+    }
+   },
+   "keywords": [
+    "stem cells",
+    "organoids",
+    "regenerative medicine"
    ],
    "added": "2026-10-26",
    "checked": "2026-10-26"
@@ -2493,6 +3112,37 @@
    ],
    "added": "2026-10-26",
    "checked": "2026-10-26"
+  },
+  {
+   "id": "nvgct-2027",
+   "name": "NVGCT Annual Conference 2027",
+   "start": "2027-06-16",
+   "end": "2027-06-17",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Lunteren",
+   "country": "Netherlands",
+   "organiser": "Netherlands Society of Gene and Cell Therapy",
+   "url": "https://www.nvgct.nl/save-the-date-nvgct-conference-2027/",
+   "free": null,
+   "summary": "Annual meeting of the Dutch gene and cell therapy community, covering research, translation and clinical development.",
+   "rel": {
+    "cellgene": {
+     "score": 9,
+     "why": "Gene and cell therapy research is the focus."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Translational and clinical development work."
+    }
+   },
+   "keywords": [
+    "gene therapy",
+    "Netherlands"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
   },
   {
    "id": "whx-miami-2027",
@@ -2753,36 +3403,6 @@
    "checked": "2026-10-26"
   },
   {
-   "id": "labroots-microbiology-2027",
-   "name": "Microbiology Virtual Event Series 2027",
-   "start": "2027-09-01",
-   "end": "2027-09-01",
-   "type": "webinar",
-   "format": "online",
-   "region": "global",
-   "organiser": "Labroots",
-   "url": "https://www.labroots.com/virtual-event/microbiology-virtual-event-series-2027",
-   "free": null,
-   "summary": "Online event series on microbiology research, infectious disease and microbial methods.",
-   "rel": {
-    "biosecurity": {
-     "score": 5,
-     "why": "Pathogen biology and infectious disease."
-    },
-    "diagnostics": {
-     "score": 5,
-     "why": "Microbial detection methods."
-    },
-    "fermentation": {
-     "score": 3,
-     "why": "Some industrial microbiology topics."
-    }
-   },
-   "added": "2026-10-25",
-   "checked": "2026-10-25",
-   "time": "05:30 PDT"
-  },
-  {
    "id": "biocontrol-latam-2027",
    "name": "Biocontrol & Biostimulants LATAM 2027",
    "start": "2027-09-01",
@@ -2817,6 +3437,36 @@
    ],
    "added": "2026-10-26",
    "checked": "2026-10-26"
+  },
+  {
+   "id": "labroots-microbiology-2027",
+   "name": "Microbiology Virtual Event Series 2027",
+   "start": "2027-09-01",
+   "end": "2027-09-01",
+   "type": "webinar",
+   "format": "online",
+   "region": "global",
+   "organiser": "Labroots",
+   "url": "https://www.labroots.com/virtual-event/microbiology-virtual-event-series-2027",
+   "free": null,
+   "summary": "Online event series on microbiology research, infectious disease and microbial methods.",
+   "rel": {
+    "biosecurity": {
+     "score": 5,
+     "why": "Pathogen biology and infectious disease."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "Microbial detection methods."
+    },
+    "fermentation": {
+     "score": 3,
+     "why": "Some industrial microbiology topics."
+    }
+   },
+   "added": "2026-10-25",
+   "checked": "2026-10-25",
+   "time": "05:30 PDT"
   },
   {
    "id": "asia-bio-partnering-forum-2027",
@@ -2915,6 +3565,35 @@
    ]
   },
   {
+   "id": "labroots-cell-biology-2027",
+   "name": "Cell Biology Virtual Event Series 2027",
+   "start": "2027-09-15",
+   "end": "2027-09-15",
+   "time": "05:30 PDT",
+   "type": "webinar",
+   "format": "online",
+   "region": "global",
+   "organiser": "Labroots",
+   "url": "https://www.labroots.com/virtual-event/cell-biology-virtual-event-series-2027",
+   "free": true,
+   "summary": "Free online conference on cell biology discoveries and methods, including advanced microscopy, signalling and cell culture innovations.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "Techniques and tools for cell research, imaging and culture."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Basic cell biology relevant to drug targets."
+    }
+   },
+   "keywords": [
+    "cell culture"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
+  },
+  {
    "id": "whx-nairobi-2027",
    "name": "WHX Nairobi 2027",
    "start": "2027-09-15",
@@ -2982,6 +3661,42 @@
    ],
    "added": "2026-10-26",
    "checked": "2026-10-26"
+  },
+  {
+   "id": "analitica-latam-2027",
+   "name": "Analitica Latin America 2027",
+   "start": "2027-09-28",
+   "end": "2027-09-30",
+   "type": "tradeshow",
+   "format": "inperson",
+   "region": "latam",
+   "city": "São Paulo",
+   "country": "Brazil",
+   "organiser": "NürnbergMesse Brasil",
+   "url": "https://home.analiticanet.com.br/",
+   "free": null,
+   "summary": "Latin America's trade fair for laboratory technology, instrumental analysis and quality control, held at São Paulo Expo.",
+   "rel": {
+    "tools": {
+     "score": 8,
+     "why": "Lab instruments and analytical technologies are the core of the fair."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Pharmaceutical QC and analysis."
+    },
+    "agrifood": {
+     "score": 3,
+     "why": "Food testing and quality control."
+    }
+   },
+   "keywords": [
+    "Analitica",
+    "Brazil",
+    "laboratory"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
   },
   {
    "id": "nlsdays-2027",
@@ -3111,6 +3826,10 @@
     "bioprocessing": {
      "score": 6,
      "why": "Vector and cell manufacturing topics."
+    },
+    "cellgene": {
+     "score": 9,
+     "why": "The whole programme is cell and gene therapy."
     }
    },
    "added": "2026-10-25",
@@ -3192,6 +3911,45 @@
    "checked": "2026-10-25"
   },
   {
+   "id": "elrig-drug-discovery-2027",
+   "name": "ELRIG Drug Discovery 2027",
+   "start": "2027-10-19",
+   "end": "2027-10-20",
+   "type": "conference",
+   "format": "inperson",
+   "region": "uk",
+   "city": "Liverpool",
+   "country": "UK",
+   "organiser": "ELRIG",
+   "url": "https://elrig.org/events",
+   "free": true,
+   "summary": "Free-to-attend European drug discovery conference and exhibition on screening, lab automation, assay technologies and new modalities.",
+   "rel": {
+    "tools": {
+     "score": 8,
+     "why": "Screening, automation and assay technology exhibitors dominate."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Drug discovery scientists are the main audience."
+    },
+    "ai": {
+     "score": 5,
+     "why": "AI and data in discovery sessions."
+    },
+    "cellgene": {
+     "score": 3,
+     "why": "Some cell-based and new-modality sessions."
+    }
+   },
+   "keywords": [
+    "ELRIG",
+    "DD2027"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
+  },
+  {
    "id": "world-biosecurity-europe-2027",
    "name": "World BioSecurity Congress & Expo Europe 2027",
    "start": "2027-10-25",
@@ -3270,6 +4028,49 @@
    "checked": "2026-10-26"
   },
   {
+   "id": "ashg-2027",
+   "name": "ASHG 2027 Annual Meeting",
+   "start": "2027-10-26",
+   "end": "2027-10-30",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Nashville",
+   "country": "USA",
+   "organiser": "American Society of Human Genetics",
+   "url": "https://www.ashg.org/",
+   "free": false,
+   "summary": "The largest human genetics and genomics meeting, covering research, clinical genetics and sequencing technology, with a large exhibition.",
+   "rel": {
+    "tools": {
+     "score": 8,
+     "why": "Sequencing and genomics platform launches and exhibitors."
+    },
+    "diagnostics": {
+     "score": 7,
+     "why": "Clinical genetic testing and genomic medicine."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Genetic medicine and gene-editing research."
+    },
+    "ai": {
+     "score": 5,
+     "why": "Genomic data science and AI."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Clinical genetics practice."
+    }
+   },
+   "keywords": [
+    "human genetics",
+    "genomics"
+   ],
+   "added": "2026-11-02",
+   "checked": "2026-11-02"
+  },
+  {
    "id": "labroots-crispr-2027",
    "name": "CRISPR Virtual Event Series 2027",
    "start": "2027-10-27",
@@ -3297,6 +4098,14 @@
     "biosecurity": {
      "score": 3,
      "why": "Dual-use and governance of gene editing."
+    },
+    "cellgene": {
+     "score": 6,
+     "why": "Gene-editing therapeutics are a major topic."
+    },
+    "tools": {
+     "score": 6,
+     "why": "CRISPR screening and editing tools."
     }
    },
    "added": "2026-10-25",
