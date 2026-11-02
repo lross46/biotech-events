@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-02T06:43:31Z",
+ "updated": "2026-11-02T14:38:28Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-02T06:43:31Z",
+  "date": "2026-11-02T14:38:28Z",
   "points": [
    {
     "sec": "results",
@@ -24,11 +24,28 @@
     ]
    },
    {
+    "sec": "approvals",
+    "text": "The FDA accepted uniQure's BLA for AMT-130 (ifezuntirgene inilparvovec), its Huntington's disease gene therapy, under accelerated approval with priority review and a 1 May 2027 decision date; the filing leans on 36-month phase 1/2 data against an external registry control, and an advisory committee is tentatively planned. Smaller news included a partial clinical hold on Bright Minds' pediatric epilepsy study over mouse toxicity and missing juvenile data.",
+    "ids": [
+     "86d50a22ca0f",
+     "889a7d67b847"
+    ]
+   },
+   {
+    "sec": "money",
+    "text": "Fresenius Kabi signed an exclusive deal with WuXi Biologics for option rights on up to 37 first-to-market biosimilars, which it says would more than double its biosimilar portfolio to as many as 66 molecules over a decade. Bavarian Nordic won a four-year UK contract to supply its MVA-BN mpox and smallpox vaccine, value undisclosed.",
+    "ids": [
+     "16d237cb6bed",
+     "57d9f44b9ea4"
+    ]
+   },
+   {
     "sec": "companies",
-    "text": "Gene editing stocks had a strong week on ESGCT readouts and the FDA's 27 October draft guidance letting individualised editing therapies share a single BLA: Prime Medicine rose 29%, Beam 13%, and Editas and Intellia 11% each, while Caribou fell another 21% during its strategic review. Smaller news was thin over the weekend, with Orthocell reporting record US sales of its Remplir nerve wrap.",
+    "text": "Gene editing stocks had a strong week on ESGCT readouts and the FDA's 27 October draft guidance letting individualised editing therapies share a single BLA: Prime Medicine rose 29%, Beam 13%, and Editas and Intellia 11% each, while Caribou fell another 21% during its strategic review. Smaller news was thin over the weekend, with Orthocell reporting record US sales of its Remplir nerve wrap. On Monday Karyopharm filed for Chapter 11, with lenders backing a merger with Ayrmid through a court-supervised sale and up to $55 million in bankruptcy financing.",
     "ids": [
      "4672d319f5e2",
-     "98af2cc9b6f2"
+     "98af2cc9b6f2",
+     "e2c084c6f930"
     ]
    }
   ]
@@ -11883,6 +11900,940 @@
     "healthcare": {
      "score": 3,
      "why": "Relevant to understanding musculoskeletal development after neonatal nerve injury."
+    }
+   }
+  },
+  "81218e82cb20": {
+   "drop": true
+  },
+  "ba2105c7905d": {
+   "drop": true
+  },
+  "ba2f44b07c6c": {
+   "drop": true
+  },
+  "d38ab7d84703": {
+   "drop": true
+  },
+  "f39792f996e0": {
+   "drop": true
+  },
+  "9c51bcd6be8d": {
+   "drop": true
+  },
+  "b76f8b3fa934": {
+   "drop": true
+  },
+  "c4823a5d2e60": {
+   "drop": true
+  },
+  "c9192792e603": {
+   "drop": true
+  },
+  "c5158d0728a3": {
+   "drop": true
+  },
+  "2dfc79907465": {
+   "drop": true
+  },
+  "8a5b01efd78b": {
+   "dup": "bf3fb39befd2"
+  },
+  "035c6237b810": {
+   "drop": true
+  },
+  "bb958441da34": {
+   "drop": true
+  },
+  "21b18340e1d9": {
+   "drop": true
+  },
+  "d0572a39be70": {
+   "drop": true
+  },
+  "0fd52159cfe9": {
+   "drop": true
+  },
+  "e08da9c6c354": {
+   "drop": true
+  },
+  "2260d98526cb": {
+   "drop": true
+  },
+  "62b4b429d164": {
+   "drop": true
+  },
+  "a8997a75fa46": {
+   "drop": true
+  },
+  "dd1af091155f": {
+   "drop": true
+  },
+  "412fbd623d12": {
+   "drop": true
+  },
+  "e137df26f347": {
+   "drop": true
+  },
+  "746ffd0fc289": {
+   "drop": true
+  },
+  "57c5130b1463": {
+   "drop": true
+  },
+  "a0286444becc": {
+   "drop": true
+  },
+  "337181b0cbff": {
+   "dup": "2026-11-01-transform-ii-sirolimus-balloon-noninferior"
+  },
+  "4d090dc68d99": {
+   "drop": true
+  },
+  "a4c253b00f9b": {
+   "drop": true
+  },
+  "0cf38a1adbd6": {
+   "drop": true
+  },
+  "663eb438af1a": {
+   "drop": true
+  },
+  "559ff3b6ff56": {
+   "drop": true
+  },
+  "290c14e0006d": {
+   "drop": true
+  },
+  "8156977ce882": {
+   "drop": true
+  },
+  "b4b5c5a2f915": {
+   "drop": true
+  },
+  "0d137280b19c": {
+   "drop": true
+  },
+  "87671dca638f": {
+   "drop": true
+  },
+  "52a1a41692d3": {
+   "drop": true
+  },
+  "ebf6afaf24c6": {
+   "drop": true
+  },
+  "891a326e32b5": {
+   "drop": true
+  },
+  "a22f7002dbed": {
+   "dup": "43e3765040dd"
+  },
+  "86b0728470a8": {
+   "drop": true
+  },
+  "21fb8dc84ead": {
+   "drop": true
+  },
+  "4f7725a5d351": {
+   "drop": true
+  },
+  "9cae35dda3ed": {
+   "drop": true
+  },
+  "bf7c6a9577c2": {
+   "drop": true
+  },
+  "27d8e87cb968": {
+   "drop": true
+  },
+  "1bfd8fbfdee8": {
+   "drop": true
+  },
+  "dae348d48773": {
+   "dup": "9bfa75ccd25f"
+  },
+  "5085989fa43e": {
+   "drop": true
+  },
+  "fbc0260228de": {
+   "dup": "cf3c350cfb69"
+  },
+  "fc2592095797": {
+   "drop": true
+  },
+  "58158dba3dd3": {
+   "drop": true
+  },
+  "021794762a95": {
+   "drop": true
+  },
+  "a5e934cb6e05": {
+   "drop": true
+  },
+  "323af45ce0aa": {
+   "dup": "2edbbfd9093f"
+  },
+  "bad72475d8c2": {
+   "drop": true
+  },
+  "1f5a8618fadd": {
+   "drop": true
+  },
+  "2007990be77f": {
+   "drop": true
+  },
+  "ce56a1baac95": {
+   "drop": true
+  },
+  "58d4eaa99eee": {
+   "drop": true
+  },
+  "687033b68bdc": {
+   "dup": "82bb42b75563"
+  },
+  "740265a54cb4": {
+   "dup": "2026-11-01-p4-ccta-noninferior-ivus-pci"
+  },
+  "7cf5d08c5cb8": {
+   "dup": "fce4785ffc2c"
+  },
+  "4e81e74ecef6": {
+   "drop": true
+  },
+  "5fb74a5cac35": {
+   "dup": "68812dd7dda9"
+  },
+  "088ea64bea6f": {
+   "dup": "fce4785ffc2c"
+  },
+  "25ee30db8ec3": {
+   "drop": true
+  },
+  "bbfee811aa2a": {
+   "drop": true
+  },
+  "8b87cc6ba91d": {
+   "dup": "98f430df60ac"
+  },
+  "ec0bb7290235": {
+   "drop": true
+  },
+  "674476ff9dbe": {
+   "drop": true
+  },
+  "1fcd57a312ac": {
+   "drop": true
+  },
+  "77e8c00cb60c": {
+   "drop": true
+  },
+  "0f27c8467d9c": {
+   "drop": true
+  },
+  "774aa576506e": {
+   "drop": true
+  },
+  "8adb38f82a7b": {
+   "drop": true
+  },
+  "27cd6a8a231d": {
+   "drop": true
+  },
+  "c562014b6373": {
+   "drop": true
+  },
+  "a28d7f2c9d5d": {
+   "dup": "fce4785ffc2c"
+  },
+  "d26dc668a48d": {
+   "dup": "fce4785ffc2c"
+  },
+  "ddc17a5482c7": {
+   "drop": true
+  },
+  "ea5e12c71c52": {
+   "drop": true
+  },
+  "faa619e4c829": {
+   "drop": true
+  },
+  "e3272ab7ca7c": {
+   "drop": true
+  },
+  "b25566a6a8ca": {
+   "drop": true
+  },
+  "a6d9cd4988b4": {
+   "drop": true
+  },
+  "f6583ce19a7f": {
+   "drop": true
+  },
+  "4fa38675d781": {
+   "drop": true
+  },
+  "d6a52590ef6d": {
+   "drop": true
+  },
+  "593c909a353c": {
+   "drop": true
+  },
+  "1785a56e3d17": {
+   "drop": true
+  },
+  "ff85217f62eb": {
+   "drop": true
+  },
+  "9cdbbc1dfee4": {
+   "drop": true
+  },
+  "843cfae557ea": {
+   "drop": true
+  },
+  "63ff56390f8d": {
+   "dup": "172c5a44341a"
+  },
+  "08fd005800b6": {
+   "drop": true
+  },
+  "9da88a81f1f8": {
+   "drop": true
+  },
+  "208e7dc1e287": {
+   "drop": true
+  },
+  "002cb97522dd": {
+   "drop": true
+  },
+  "e8e2450dbffe": {
+   "drop": true
+  },
+  "45a53f002164": {
+   "dup": "2026-10-30-gc-biopharma-hunterase-icv"
+  },
+  "8c73fc8e5df8": {
+   "drop": true
+  },
+  "8e6f49534875": {
+   "drop": true
+  },
+  "563af7ea38fb": {
+   "drop": true
+  },
+  "558c8f788b99": {
+   "drop": true
+  },
+  "73492f058760": {
+   "drop": true
+  },
+  "029ff2f4abba": {
+   "drop": true
+  },
+  "94f861a5bc1f": {
+   "drop": true
+  },
+  "549309bcd566": {
+   "drop": true
+  },
+  "6323a8afc204": {
+   "drop": true
+  },
+  "e30ea1ad7972": {
+   "drop": true
+  },
+  "edf068c0842d": {
+   "dup": "f743ef531124"
+  },
+  "9b892e89ae08": {
+   "drop": true
+  },
+  "ba01e7c4b4e7": {
+   "dup": "ea6110414e4d"
+  },
+  "e864311adca2": {
+   "dup": "ea6110414e4d"
+  },
+  "8bdd156cdfc4": {
+   "dup": "28c1dd42e2b4"
+  },
+  "263a3f3caf04": {
+   "drop": true
+  },
+  "e0fcf3a1fd60": {
+   "drop": true
+  },
+  "62039be4986e": {
+   "drop": true
+  },
+  "f65e7d269d38": {
+   "drop": true
+  },
+  "2cef114cf345": {
+   "dup": "32820b40fa09"
+  },
+  "5c2f269f58d1": {
+   "drop": true
+  },
+  "5babf2962d26": {
+   "drop": true
+  },
+  "4e1d0f4d8a3d": {
+   "drop": true
+  },
+  "75025333793e": {
+   "dup": "157003cfd908"
+  },
+  "68ff61d3daa0": {
+   "drop": true
+  },
+  "c0d13355cef8": {
+   "dup": "157003cfd908"
+  },
+  "e4f714ba9b72": {
+   "dup": "3d55cd1f6330"
+  },
+  "102169c76c7d": {
+   "dup": "efd4e3e482f4"
+  },
+  "724fa82ba951": {
+   "dup": "40c176f99965"
+  },
+  "f59efc10b90d": {
+   "drop": true
+  },
+  "d69977a4d4fd": {
+   "dup": "5a3495574796"
+  },
+  "952417de4bbb": {
+   "dup": "5a3495574796"
+  },
+  "12d47ebb2f56": {
+   "dup": "68d06e5a1880"
+  },
+  "893bf695e38f": {
+   "drop": true
+  },
+  "46d8be7e4e88": {
+   "drop": true
+  },
+  "6370eba30eba": {
+   "drop": true
+  },
+  "2e4d2604c247": {
+   "drop": true
+  },
+  "fc05684a9de9": {
+   "dup": "68d06e5a1880"
+  },
+  "2728f2b1b598": {
+   "drop": true
+  },
+  "84934324676b": {
+   "drop": true
+  },
+  "69724cc3cbbc": {
+   "drop": true
+  },
+  "bf7d6b36d54a": {
+   "dup": "21d272940445"
+  },
+  "109291e1b8d7": {
+   "dup": "21d272940445"
+  },
+  "65faf13d45c6": {
+   "drop": true
+  },
+  "0d8ad6439ccc": {
+   "drop": true
+  },
+  "6bdb991e819d": {
+   "drop": true
+  },
+  "e3b77d178a2e": {
+   "drop": true
+  },
+  "260e5d47fbc8": {
+   "drop": true
+  },
+  "3986a34860d2": {
+   "drop": true
+  },
+  "6ba861e8c792": {
+   "dup": "68d06e5a1880"
+  },
+  "bee145658115": {
+   "drop": true
+  },
+  "23217ec8cfd1": {
+   "dup": "ac45c19bd60a"
+  },
+  "0a2d2e4e4b12": {
+   "drop": true
+  },
+  "9e09c0acde86": {
+   "dup": "cf3c350cfb69"
+  },
+  "e3672f1550df": {
+   "drop": true
+  },
+  "74f2728fce92": {
+   "dup": "98f430df60ac"
+  },
+  "559e6d5e418d": {
+   "drop": true
+  },
+  "dd2c98e4c894": {
+   "drop": true
+  },
+  "a7d625909f35": {
+   "drop": true
+  },
+  "034ec4345cd5": {
+   "drop": true
+  },
+  "bd18034d0017": {
+   "drop": true
+  },
+  "3d906ae61b68": {
+   "drop": true
+  },
+  "a67691798496": {
+   "drop": true
+  },
+  "06e27e10adae": {
+   "dup": "7c813c078984"
+  },
+  "35c53b47cfa6": {
+   "drop": true
+  },
+  "d9cfb1a5ae2f": {
+   "drop": true
+  },
+  "c0c7f95101eb": {
+   "dup": "0fb08c76b70e"
+  },
+  "a418a746c4ec": {
+   "drop": true
+  },
+  "03bf17746476": {
+   "drop": true
+  },
+  "4042ff57f9b0": {
+   "drop": true
+  },
+  "90ae09a68dbe": {
+   "drop": true
+  },
+  "caa88a34c27d": {
+   "drop": true
+  },
+  "568559b0bbf9": {
+   "dup": "d76c5250b63f"
+  },
+  "2330167c4bc4": {
+   "drop": true
+  },
+  "bfe09f254a31": {
+   "drop": true
+  },
+  "0142974eb2ad": {
+   "drop": true
+  },
+  "b0d9598fd2ba": {
+   "drop": true
+  },
+  "04ab67b848ec": {
+   "drop": true
+  },
+  "47ca1f10c6b6": {
+   "drop": true
+  },
+  "a1c582058388": {
+   "drop": true
+  },
+  "415e222efabe": {
+   "drop": true
+  },
+  "d11c7fcd08c1": {
+   "drop": true
+  },
+  "67e139d57680": {
+   "drop": true
+  },
+  "3ffbffff5c2c": {
+   "drop": true
+  },
+  "0ffcf1f2d96e": {
+   "drop": true
+  },
+  "4db06ed25f9c": {
+   "drop": true
+  },
+  "11f3cb257b6b": {
+   "drop": true
+  },
+  "c6e3a807cde5": {
+   "drop": true
+  },
+  "1b4fcac558ca": {
+   "drop": true
+  },
+  "fe226254889a": {
+   "drop": true
+  },
+  "5ce56eac88c3": {
+   "dup": "7c813c078984"
+  },
+  "4fd2cd0b533c": {
+   "drop": true
+  },
+  "8922e5e772fd": {
+   "drop": true
+  },
+  "8f528b8f13c2": {
+   "drop": true
+  },
+  "f5e20a68825f": {
+   "drop": true
+  },
+  "7ee4d140cfc9": {
+   "dup": "d8710dfcb45c"
+  },
+  "64bee9a3d2b3": {
+   "drop": true
+  },
+  "108a2359675b": {
+   "drop": true
+  },
+  "ae179258fb70": {
+   "drop": true
+  },
+  "27297f68bf53": {
+   "dup": "479ecd2af517"
+  },
+  "4495b25d6558": {
+   "drop": true
+  },
+  "e9563b94ef04": {
+   "drop": true
+  },
+  "cd10dbf6af32": {
+   "drop": true
+  },
+  "9f7ee28adfb7": {
+   "drop": true
+  },
+  "329068c61c65": {
+   "drop": true
+  },
+  "12605db9d56f": {
+   "drop": true
+  },
+  "c70d86361bec": {
+   "drop": true
+  },
+  "86d50a22ca0f": {
+   "cat": "regulatory",
+   "imp": 8,
+   "summary": "uniQure says the FDA accepted its BLA for the Huntington's disease gene therapy ifezuntirgene inilparvovec (AMT-130) under accelerated approval with priority review, setting a PDUFA date of 1 May 2027. The filing rests on 36-month phase 1/2 data compared with a matched external control from the Enroll-HD registry, and the FDA tentatively plans an advisory committee.",
+   "rel": {
+    "cellgene": {
+     "score": 9,
+     "why": "Could become the first approved gene therapy for Huntington's disease."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Tests FDA acceptance of external-control data for an accelerated neurology approval."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Sets a binary regulatory date for uniQure in May 2027."
+    }
+   }
+  },
+  "e2c084c6f930": {
+   "cat": "other",
+   "imp": 6,
+   "summary": "Karyopharm filed for Chapter 11 in Texas under a restructuring deal with its lenders that plans a merger with Ayrmid, which will act as lead bidder in a court-supervised sale open to competing bids; no price was disclosed. Existing secured lenders committed up to $55 million in debtor-in-possession financing, and closing is expected in Q1 2027.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Bankruptcy of a commercial-stage cancer drugmaker (Xpovio)."
+    },
+    "investment": {
+     "score": 7,
+     "why": "Restructuring hands control to lenders and a lead bidder, a warning for indebted small-cap biotechs."
+    }
+   }
+  },
+  "16d237cb6bed": {
+   "cat": "deals",
+   "imp": 6,
+   "summary": "Fresenius Kabi and WuXi Biologics signed an exclusive development agreement giving Fresenius option rights to up to 37 potential first-to-market biosimilars, which Fresenius says would expand its portfolio from 29 to up to 66 molecules over the next decade, targeting originators with more than €370 billion in sales.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "One of the largest biosimilar pipeline deals, aimed at the coming biologics patent cliff."
+    },
+    "bioprocessing": {
+     "score": 6,
+     "why": "Large development and manufacturing commitment for a Chinese CDMO."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Signals WuXi keeps winning Western partners despite US scrutiny."
+    }
+   }
+  },
+  "57d9f44b9ea4": {
+   "cat": "contracts",
+   "imp": 5,
+   "summary": "Bavarian Nordic won a four-year UK Health Security Agency contract to supply its MVA-BN mpox and smallpox vaccine, with deliveries spread across the term; value and dose numbers were not disclosed.",
+   "rel": {
+    "biosecurity": {
+     "score": 7,
+     "why": "Secures UK smallpox and mpox preparedness stocks."
+    },
+    "defence": {
+     "score": 4,
+     "why": "Smallpox countermeasure stockpiling."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Recurring government revenue for a vaccine maker."
+    }
+   }
+  },
+  "889a7d67b847": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Bright Minds says the FDA placed a partial clinical hold on its planned study of BMB-101 in developmental and epileptic encephalopathies, citing toxicity seen in mice and insufficient pharmacokinetic and juvenile toxicity data to support enrolling children.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Setback for a pediatric epilepsy programme at a small biotech."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Delays a key study for a Nasdaq-listed company."
+    }
+   }
+  },
+  "df448c0ba0c5": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Fierce Biotech reports that China's InventisBio's TYK2 inhibitor nomelcitinib met the primary endpoint of a phase 3 psoriasis trial, with data it says are competitive with rival psoriasis drugs.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Another oral TYK2 inhibitor reaching late-stage success, from China."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Adds to China-originated assets attractive for licensing."
+    }
+   }
+  },
+  "efcc7efd3444": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "LigaChem Biosciences says its HER2-targeting antibody-drug conjugate IKS014 produced a 50% objective response rate in breast cancer patients previously treated with Enhertu.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Activity after Enhertu would address a growing resistant population."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Supports Korea's ADC licensing story."
+    }
+   }
+  },
+  "12ac0df36806": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Tiziana says intranasal foralumab met its safety endpoint in the 48-patient, placebo-controlled phase 2a INFORM-MS trial in non-active secondary progressive MS and reduced microglial activation on PET at 50 µg (p=0.0168) but not at 100 µg; the trial was not powered for clinical endpoints.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Small early signal for a nasal anti-CD3 antibody in progressive MS."
+    }
+   }
+  },
+  "9c79ed74f947": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "Endpoints reports that CinRx is partnering with Sam Waksal's Graviton Bioscience to develop ROCK2 inhibitors for pulmonary arterial hypertension and other cardiovascular conditions, building on the target behind GVHD drug Rezurock.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Extends a validated target into cardiopulmonary disease."
+    }
+   }
+  },
+  "9e35fc60d4e9": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Listings on Korean telemedicine platform Doctornow show the first month of Hanmi's obesity drug eppe (efpeglenatide) costs 26–30% less than Wegovy and 41–44% less than Mounjaro at clinics around Seoul.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Local GLP-1 entrant undercuts imported obesity drugs on price."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Cheaper obesity treatment for Korean patients."
+    }
+   }
+  },
+  "e902b9913c18": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Krystal Biotech reported $127.3 million in Q3 global revenue from its topical gene therapy Vyjuvek, bringing sales since launch to $1.1 billion.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Commercial proof point for a redosable gene therapy."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Steady growth for a profitable gene therapy company."
+    }
+   }
+  },
+  "b638b07c6879": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Beeline Medicines started the global phase 2/3 DISCOVERY trial of afimetoran, an oral TLR7/8 inhibitor, in cutaneous lupus erythematosus, the first trial of its lupus pivotal programme.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Oral TLR7/8 inhibitor enters pivotal lupus development."
+    }
+   }
+  },
+  "bbea51e292ce": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "GC Biopharma signed a 59.2 billion won ($44 million) agreement to supply bulk influenza vaccine drug substance to Colombia's VaxThera and provide technical support for local production.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Korean vaccine export and tech-transfer deal."
+    },
+    "biosecurity": {
+     "score": 4,
+     "why": "Builds regional flu vaccine manufacturing in Latin America."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "Bulk drug substance supply and production tech transfer."
+    }
+   }
+  },
+  "43e3765040dd": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "STAT previews upcoming mid-stage eczema results for Kymera's oral STAT6 degrader, seen by investors and doctors as a test of whether a pill can rival Dupixent.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Key readout for oral alternatives to injectable eczema biologics."
+    },
+    "investment": {
+     "score": 5,
+     "why": "High-stakes catalyst for Kymera and the protein degrader field."
+    }
+   }
+  },
+  "d47ab700936e": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "A STAT investigation reports that mitochondrial replacement IVF, developed to prevent inherited mitochondrial disease, is being marketed abroad as a fertility treatment for older women despite little evidence it works.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Unproven use of an experimental IVF technique on paying patients."
+    },
+    "cellgene": {
+     "score": 3,
+     "why": "Germline mitochondrial replacement is a gene-level intervention."
+    }
+   }
+  },
+  "388dc1ff897a": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "The Scientist reports that fabricated references are appearing more often in science papers, with AI tools a likely driver, raising concerns about the integrity of the literature.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "Generative AI is undermining citation integrity."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Pressure on publishers and research tooling to verify references."
+    }
+   }
+  },
+  "30f9080f452e": {
+   "cat": "deals",
+   "imp": 3,
+   "summary": "Cremer Group's FermBase platform extended its collaboration with Differential Bio to offer AI-led process and material solutions to precision and biomass fermentation start-ups.",
+   "rel": {
+    "fermentation": {
+     "score": 6,
+     "why": "Shared scale-up services for fermentation start-ups."
+    },
+    "ai": {
+     "score": 4,
+     "why": "AI-guided fermentation process design."
+    },
+    "agrifood": {
+     "score": 4,
+     "why": "Supports alternative protein producers."
+    }
+   }
+  },
+  "db921da8992a": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Nature reports that measles has quietly resurged as vaccination rates fell after the COVID-19 pandemic disrupted public-health programmes and their funding.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "Falling vaccine coverage is driving measles back."
+    },
+    "biosecurity": {
+     "score": 5,
+     "why": "Resurgent vaccine-preventable outbreaks."
+    }
+   }
+  },
+  "99979b740cc1": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "In the phase 2 UNICORN trial published in Nature Medicine, a short neoadjuvant course of Agenus's botensilimab with or without balstilimab met its primary endpoint of major pathological response in both mismatch-repair-proficient and -deficient colon cancer.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Rare immunotherapy activity in pMMR colon cancer, which usually resists checkpoint drugs."
+    }
+   }
+  },
+  "fc687980ba2b": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "Two phase 3 STOP-V trials in Nature Medicine found Incyte's oral JAK1 inhibitor povorcitinib superior to placebo on facial repigmentation (F-VASI75) in nonsegmental vitiligo.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Pivotal data supporting the first oral vitiligo treatment filing."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Oral option for a common skin disease."
     }
    }
   }
