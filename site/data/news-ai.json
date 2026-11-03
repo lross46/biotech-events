@@ -1,16 +1,17 @@
 {
- "updated": "2026-11-03T06:43:30Z",
+ "updated": "2026-11-03T13:42:53Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-03T06:43:30Z",
+  "date": "2026-11-03T13:42:53Z",
   "points": [
    {
     "sec": "results",
-    "text": "A quiet day for trial readouts. Tiziana's intranasal anti-CD3 antibody foralumab met its phase 2a endpoints in non-active secondary progressive MS, though only the lower 50 µg dose cut neuroinflammation on PET, and Teva stopped a key trial of one of its first innovative medicines for futility, another knock to its pivot away from generics. Abbott started a pivotal trial of its Cephea transcatheter mitral valve, aiming for up to 585 patients.",
+    "text": "Geron discontinued its phase 3 IMpactMF trial of Rytelo in JAK inhibitor-pretreated myelofibrosis after the data monitoring committee judged it unlikely to succeed, just as Novartis readies a bid for pelabresib. In Nature Medicine, Seres reported that its oral live biotherapeutic SER-155 cut bloodstream infections in stem cell transplant recipients by 77% versus placebo in a phase 1b trial, and NEJM published a TAVR trial in moderate aortic stenosis. Elsewhere Tiziana's intranasal foralumab met phase 2a endpoints in secondary progressive MS and Teva stopped a key innovative-drug trial for futility.",
     "ids": [
-     "5f3bb4880fc1",
-     "c58ed3114910",
-     "e4fbc922c939"
+     "b8a427439ebd",
+     "ce05186d03a4",
+     "26b61cbcc1ff",
+     "5f3bb4880fc1"
     ]
    },
    {
@@ -34,19 +35,21 @@
    },
    {
     "sec": "policy",
-    "text": "Little policy news. A STAT investigation found a US fertility facilitator sending older women abroad, mainly to Albania, for mitochondrial replacement therapy on unsubstantiated success claims; it paused enrolment after STAT's questions.",
+    "text": "Bayer said it is working on a most-favoured-nation pricing deal with the Trump administration, adding to the drugmakers negotiating US prices. A STAT investigation found a US fertility facilitator sending older women abroad for mitochondrial replacement therapy on unsubstantiated claims, and a follow-up piece reported growing scientific doubts about the technique itself.",
     "ids": [
-     "2026-11-02-stat-mitochondrial-replacement-fertility-tourism"
+     "c5255579af83",
+     "2026-11-02-stat-mitochondrial-replacement-fertility-tourism",
+     "81e8f39b40e6"
     ]
    },
    {
     "sec": "money",
-    "text": "Fresenius and WuXi Biologics signed one of the biggest biosimilar pacts yet, covering up to 37 molecules aimed at originator drugs with €370 billion in sales. AbbVie disclosed a deal worth up to $757 million with Beijing's Brise for two preclinical migraine drugs, extending the run of China-sourced licensing, and OpenAI-backed Biossil bought Theriva's antibiotic-degrading enzyme portfolio for up to $91 million. Novartis handed back BioArctic's BrainTransporter collaboration, leaving BioArctic its $30 million upfront.",
+    "text": "Merck KGaA is leaving contract manufacturing, selling its CDMO business, with five US sites and about 1,100 staff, to Lonza, while Samsung Biologics and AGC Biologics booked large new commercial manufacturing orders. Fresenius and WuXi Biologics signed one of the biggest biosimilar pacts yet, covering up to 37 molecules, and Samsung Bioepis handed Teva US rights to its Remicade and Enbrel biosimilars in a deal worth up to $420 million. LG Chem's obesity licence with Rhythm grew to $855 million, AbbVie licensed two Chinese migraine drugs for up to $757 million, and Novartis walked away from its BioArctic brain-shuttle collaboration.",
     "ids": [
+     "968fa55817bc",
      "b65860dcd2f8",
-     "5c2b22a83623",
-     "df8c95c0dbeb",
-     "6153d15e75b6"
+     "8cfe2d49e5b2",
+     "f77a93cf0155"
     ]
    },
    {
@@ -7750,19 +7753,7 @@
    }
   },
   "7b1b9de47181": {
-   "cat": "clinical",
-   "imp": 5,
-   "summary": "Geron is discontinuing its phase 3 IMpactMF trial of imetelstat in relapsed or refractory myelofibrosis.",
-   "rel": {
-    "pharma": {
-     "score": 6,
-     "why": "Ends a key label-expansion hope for Geron's only drug."
-    },
-    "investment": {
-     "score": 5,
-     "why": "Material setback for a commercial-stage biotech."
-    }
-   }
+   "dup": "b8a427439ebd"
   },
   "dcd9344ca6d8": {
    "cat": "other",
@@ -12655,19 +12646,7 @@
    }
   },
   "6153d15e75b6": {
-   "cat": "deals",
-   "imp": 4,
-   "summary": "BioArctic says Novartis ended their August 2025 option and license deal combining BioArctic's BrainTransporter brain-delivery technology with a Novartis antibody because Novartis is discontinuing the programme; BioArctic keeps the full $30 million upfront and has five other BrainTransporter collaborations.",
-   "rel": {
-    "pharma": {
-     "score": 5,
-     "why": "Big-pharma exit from a brain-shuttle partnership in neurology."
-    },
-    "investment": {
-     "score": 4,
-     "why": "Loss of a partner for a Nasdaq Stockholm-listed biotech."
-    }
-   }
+   "dup": "37ab08fbddfe"
   },
   "e929a1ad67b1": {
    "cat": "other",
@@ -13156,6 +13135,1087 @@
      "why": "New single-cell assay for editing quality control."
     }
    }
+  },
+  "8cfe2d49e5b2": {
+   "cat": "deals",
+   "imp": 6,
+   "summary": "Samsung Bioepis signed a deal worth up to $420 million with Teva to commercialise SB2 (infliximab, Remicade biosimilar) and SB4 (etanercept, Enbrel biosimilar) in the US.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Adds two established anti-TNF biosimilars to the US market through a major generics distributor."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Sizeable commercial deal for a leading Korean biosimilar maker."
+    }
+   }
+  },
+  "8cb2b74b1d67": {
+   "cat": "funding",
+   "imp": 4,
+   "summary": "Korea's National Growth Fund has approved 825 billion won ($615 million) in loans and equity for five pharma and biotech companies this year, with GC Biopharma the latest; projects span biosimilar manufacturing, vaccines, ADCs and blood products.",
+   "rel": {
+    "investment": {
+     "score": 6,
+     "why": "State-backed capital directed at Korean biopharma."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Funds Korean biosimilar, vaccine and ADC projects."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "Part of the money goes to biosimilar manufacturing capacity."
+    }
+   }
+  },
+  "40f91ce423e2": {
+   "drop": true
+  },
+  "0145b50737c8": {
+   "cat": "contracts",
+   "imp": 4,
+   "summary": "Samsung Biologics signed a $324.8 million contract manufacturing deal with an unnamed global pharmaceutical company; its shares rose 1.69%.",
+   "rel": {
+    "bioprocessing": {
+     "score": 7,
+     "why": "Another large CMO order for the biggest Asian biologics manufacturer."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Outsourced biologics supply for a big drugmaker."
+    }
+   }
+  },
+  "f77a93cf0155": {
+   "cat": "deals",
+   "imp": 6,
+   "summary": "LG Chem's licensing deal with Rhythm Pharmaceuticals for the oral MC4R agonist bivamelagon grew from $305 million to $855 million, adding $350 million in scheduled payments through 2029 in exchange for lower royalties to LG Chem.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Restructured obesity-drug licence that frontloads value for the Korean originator."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Shows Rhythm's commitment to bivamelagon as it trades royalties for fixed payments."
+    }
+   }
+  },
+  "6d2da974edf0": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "CGBio says Korea approved its portable, disposable negative pressure wound therapy system CuraSYS ME on 22 September, allowing home use.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Domestic approval of a home-use wound therapy device."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Moves wound therapy from hospital to home."
+    }
+   }
+  },
+  "37ab08fbddfe": {
+   "cat": "deals",
+   "imp": 5,
+   "summary": "Novartis has walked away from its BioArctic neuroscience partnership, worth up to $800 million in milestones, 14 months after signing; BioArctic keeps the $30 million upfront.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Big-pharma exit from a brain-shuttle antibody collaboration."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Loss of a marquee partner for a listed biotech."
+    }
+   }
+  },
+  "aeac46a954a2": {
+   "drop": true
+  },
+  "390dfec21db4": {
+   "drop": true
+  },
+  "5d0dadcb0206": {
+   "drop": true
+  },
+  "e5560b1f38d4": {
+   "drop": true
+  },
+  "15b5f2914455": {
+   "drop": true
+  },
+  "073398b94703": {
+   "drop": true
+  },
+  "c5255579af83": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "Bayer CEO Bill Anderson said the company is 'working on' a most-favoured-nation pricing agreement with the Trump administration, signalling talks after Bayer was left out of earlier deals.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Another big drugmaker moving toward an MFN pricing deal in the US."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "MFN deals shape US drug prices."
+    }
+   }
+  },
+  "7c805a8259ec": {
+   "drop": true
+  },
+  "8fac83e69cfb": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "Bridge to Life says Health Canada licensed its VitaSmart organ perfusion system and the FDA granted Breakthrough Device Designation for hypothermic oxygenated perfusion of donor intestines.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Regulatory milestones for an organ preservation device."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Could widen the supply of usable donor intestines."
+    }
+   }
+  },
+  "75e308649398": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "PTC Therapeutics' board authorised a share repurchase programme of up to $500 million.",
+   "rel": {
+    "investment": {
+     "score": 5,
+     "why": "A large buyback for a rare disease biotech signals confidence in cash flow."
+    }
+   }
+  },
+  "53a8e8c14e68": {
+   "drop": true
+  },
+  "1e5a84445d37": {
+   "drop": true
+  },
+  "8e34558a0b57": {
+   "drop": true
+  },
+  "383c0a0c176b": {
+   "drop": true
+  },
+  "c3e163472d54": {
+   "drop": true
+  },
+  "9edc3c4023bb": {
+   "drop": true
+  },
+  "d511d383df57": {
+   "drop": true
+  },
+  "84e49f43f3d9": {
+   "drop": true
+  },
+  "8a250e4f0f71": {
+   "drop": true
+  },
+  "0baf45c16f53": {
+   "drop": true
+  },
+  "62d60f88afbe": {
+   "cat": "funding",
+   "imp": 3,
+   "summary": "QUANTRO Therapeutics says Austria's research promotion agency FFG awarded it a grant to build ASCEND, an AI platform for transcription-factor drug discovery.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "Public money for an AI drug discovery platform."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Early discovery targeting transcriptional regulation."
+    }
+   }
+  },
+  "02afc35dcd1f": {
+   "dup": "ce05186d03a4"
+  },
+  "6518fae2a2d8": {
+   "drop": true
+  },
+  "593c8bffeb63": {
+   "drop": true
+  },
+  "e3be14de29c9": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "SOPHiA GENETICS reported third-quarter 2026 revenue of $24.3 million.",
+   "rel": {
+    "diagnostics": {
+     "score": 5,
+     "why": "Quarterly results of an AI-driven genomic analysis company."
+    },
+    "ai": {
+     "score": 3,
+     "why": "AI precision medicine software business."
+    }
+   }
+  },
+  "8ff14bae5a0c": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "BioNTech reported Q3 revenue of €1.29 billion (down from €1.52 billion on lower COVID-19 vaccine demand) and net profit of €184.5 million, raised its 2026 revenue guidance to €1.7–1.9 billion, and said it has started early termination of its ctDNA-positive colorectal cancer trial of autogene cevumeran.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Earnings and pipeline pruning at a major oncology and vaccine company."
+    },
+    "cellgene": {
+     "score": 5,
+     "why": "Cuts a trial of its personalised mRNA cancer vaccine."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Guidance raise and €16.2 billion in cash."
+    }
+   }
+  },
+  "b6368f07a75b": {
+   "drop": true
+  },
+  "d74fa46394d0": {
+   "drop": true
+  },
+  "8d140d7c6669": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "AriBio secured a Japanese patent and a European notice of allowance for its Alzheimer's candidate AR1001, with pivotal phase 3 results due in about two weeks.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "A phase 3 Alzheimer's readout is imminent."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Binary readout for a Korean biotech."
+    }
+   }
+  },
+  "15241dac54c3": {
+   "drop": true
+  },
+  "8d35b5125e30": {
+   "drop": true
+  },
+  "4324342047b1": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "UKHSA launched a human biomonitoring study measuring PFAS and other chemicals in blood and urine samples to establish UK exposure levels.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "First national baseline of chemical exposure to inform health research."
+    }
+   }
+  },
+  "f7e151247891": {
+   "drop": true
+  },
+  "5e83eebebd89": {
+   "drop": true
+  },
+  "968fa55817bc": {
+   "cat": "deals",
+   "imp": 7,
+   "summary": "Merck KGaA is exiting contract manufacturing by selling its CDMO business to Lonza for what Endpoints reports as a mid-triple-digit million euro sum; the deal covers five US manufacturing sites and about 1,100 staff.",
+   "rel": {
+    "bioprocessing": {
+     "score": 8,
+     "why": "Consolidates CDMO capacity at the market leader as a major player exits."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Changes the supplier landscape for outsourced manufacturing."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Portfolio reshaping at Merck KGaA and expansion at Lonza."
+    }
+   }
+  },
+  "3edd7996da54": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "The UK Health Research Authority published findings from its pilot requiring trial sponsors to submit Inclusion and Diversity Plans for clinical trials and investigations.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Previews UK trial diversity requirements for sponsors."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Aims for trial populations that match patients."
+    }
+   }
+  },
+  "81e8f39b40e6": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "STAT reports that new studies are raising doubts about mitochondrial replacement ('three-parent IVF'), with scientists and ethicists rethinking its risks and benefits for preventing inherited mitochondrial disease.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "Questions the safety case for a germline-adjacent reproductive technology."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Affects families at risk of mitochondrial disease and fertility clinics."
+    }
+   }
+  },
+  "f983efb1f2d0": {
+   "drop": true
+  },
+  "5a0f7d86c3ce": {
+   "drop": true
+  },
+  "49ca876ad912": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "FoodNavigator examines whether the safety evidence for cultivated meat is strong enough.",
+   "rel": {
+    "agrifood": {
+     "score": 5,
+     "why": "Safety evidence is central to cultivated meat approvals."
+    }
+   }
+  },
+  "8fb9ea9fd48c": {
+   "cat": "contracts",
+   "imp": 5,
+   "summary": "AGC Biologics says an unnamed global pharmaceutical company committed to a dual-site commercial biologics manufacturing deal worth more than €0.5 billion across its Copenhagen and Yokohama plants.",
+   "rel": {
+    "bioprocessing": {
+     "score": 7,
+     "why": "Large multi-site commercial CDMO commitment."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Secures redundant supply for a commercial biologic."
+    }
+   }
+  },
+  "6cc60172f50f": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Cambrex broke ground on a $120 million US expansion of its pharmaceutical CDMO capabilities.",
+   "rel": {
+    "bioprocessing": {
+     "score": 6,
+     "why": "Adds US small-molecule CDMO capacity amid onshoring."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "More domestic manufacturing options."
+    }
+   }
+  },
+  "3290ad6b9377": {
+   "drop": true
+  },
+  "b8a427439ebd": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "Geron discontinued its phase 3 IMpactMF trial of Rytelo (imetelstat) in JAK inhibitor-pretreated myelofibrosis after an independent data monitoring committee judged it unlikely to succeed, as Novartis prepares a delayed FDA bid for pelabresib.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Ends a key label-expansion hope for Geron's only drug and reshapes the post-JAK myelofibrosis field."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Material setback for a commercial-stage biotech."
+    }
+   }
+  },
+  "b2e39d7d6b26": {
+   "drop": true
+  },
+  "c642c4029045": {
+   "drop": true
+  },
+  "f3658524c55e": {
+   "cat": "deals",
+   "imp": 3,
+   "summary": "Basilea says strong European sales of the antifungal Cresemba (isavuconazole) triggered a $37.5 million milestone payment to the company.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Milestone income from an established anti-infective."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Boosts a small anti-infective company's revenue."
+    }
+   }
+  },
+  "e5bfc3ce2dbf": {
+   "drop": true
+  },
+  "7c4c17589a33": {
+   "drop": true
+  },
+  "380bdc148580": {
+   "drop": true
+  },
+  "cc669e0c2887": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "The Scientist reports that mechanically squeezing mouse skin cells loosened their DNA and, combined with CRISPR activation, improved reprogramming into neurons.",
+   "rel": {
+    "cellgene": {
+     "score": 4,
+     "why": "A physical way to boost CRISPR-based cell reprogramming."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Mechanical stimulation as a lab method."
+    }
+   }
+  },
+  "d96c3d72332f": {
+   "dup": "68d06e5a1880"
+  },
+  "c2d562a91019": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Researchers report that a drug originally developed for spinal cord injury reduced DNA damage and brain inflammation in Alzheimer's models; it has already had initial human safety testing.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Possible repurposing route for an Alzheimer's candidate."
+    }
+   }
+  },
+  "1deb7bf57d97": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "Variational AI entered a collaboration with Merck to apply its generative AI platform to drug discovery.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "Big pharma adopting a generative chemistry platform."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Adds AI discovery capacity at Merck."
+    }
+   }
+  },
+  "a19c4d73651a": {
+   "drop": true
+  },
+  "6ac4cf8e391a": {
+   "cat": "funding",
+   "imp": 4,
+   "summary": "Venture firm NSV raised nearly $55 million in the first close of its inaugural biotech fund, the WSJ reports.",
+   "rel": {
+    "investment": {
+     "score": 6,
+     "why": "New early-stage biotech capital in a tight fundraising market."
+    }
+   }
+  },
+  "46ba649fd9ce": {
+   "drop": true
+  },
+  "64ae4683b800": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A government-funded South Korean university project developed a whole-muscle hybrid cut of cultivated meat combined with plant proteins that it says can cut production costs by up to 80%.",
+   "rel": {
+    "agrifood": {
+     "score": 6,
+     "why": "Tackles texture and cost, the two main barriers for cultivated meat."
+    },
+    "bioprocessing": {
+     "score": 3,
+     "why": "Lower cell culture input per product."
+    }
+   }
+  },
+  "b77c56a31890": {
+   "cat": "contracts",
+   "imp": 5,
+   "summary": "Illumina was selected for Singapore's SG-INSIGHT study, which will extend whole-genome sequencing to nearly one in ten Singapore residents to test how precision medicine could work in the health system.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "Large national sequencing contract for the market leader."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "Population genomics moving into routine care."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Tests genomic medicine at national scale."
+    }
+   }
+  },
+  "eabf3ea090e6": {
+   "cat": "contracts",
+   "imp": 5,
+   "summary": "Ultima Genomics won a major sequencing award for Phase III of Singapore's National Precision Medicine programme using its UG200 platform, its first national-scale clinical whole-genome win.",
+   "rel": {
+    "tools": {
+     "score": 7,
+     "why": "A low-cost sequencing challenger wins a national clinical programme against Illumina."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Clinical whole-genome sequencing at population scale."
+    }
+   }
+  },
+  "4a0b0a04da10": {
+   "dup": "64ae4683b800"
+  },
+  "22ff7355afd8": {
+   "drop": true
+  },
+  "6a0a5bd6b718": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "China now lets PhD students in clinical medicine graduate without a thesis, extending its 'practical PhD' programme beyond engineering, Nature reports.",
+   "rel": {
+    "healthcare": {
+     "score": 3,
+     "why": "Changes how China trains clinician researchers."
+    }
+   }
+  },
+  "07176c3d2164": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Nature Biotechnology profiles Wild Bioscience as one of its editor's picks among companies that received sizeable funding this year.",
+   "rel": {
+    "agrifood": {
+     "score": 4,
+     "why": "Highlights a crop trait-engineering startup."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Editorial signal on a funded startup."
+    }
+   }
+  },
+  "d2a91aec00fb": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A Nature Medicine study of perimenopausal women profiled gut, oral, urinary and vaginocervical microbiomes and found heterogeneous responses to menopausal hormone therapy.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Links hormone therapy to microbiome changes in women's health."
+    }
+   }
+  },
+  "ce05186d03a4": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "In a partially randomised, placebo-controlled phase 1b trial in Nature Medicine, Seres' oral live biotherapeutic SER-155 cut bloodstream infections in allogeneic stem cell transplant recipients by 77% in relative risk versus placebo and lowered antibiotic exposure, Seres says.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Peer-reviewed signal for a microbiome drug in a high-risk group."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Bloodstream infections are a major cause of transplant deaths."
+    }
+   }
+  },
+  "f49a8477691e": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Nature explains why a major trial of a lipoprotein(a)-lowering drug failed to show cardiovascular benefit and what it means for the other Lp(a) therapies in development.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Several large Lp(a) programmes depend on the outcome-benefit hypothesis."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Weighs on a crowded cardiovascular class."
+    }
+   }
+  },
+  "5a165ebb6864": {
+   "drop": true
+  },
+  "ea59588f520b": {
+   "drop": true
+  },
+  "cb07c3269560": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint describes a compact three-way junction oligonucleotide probe for widefield and super-resolution imaging of RNAs and proteins in tissue. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "New probe chemistry for spatial imaging."
+    }
+   }
+  },
+  "897d67624a45": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint releases a cytotoxicity dataset for ionizable lipid nanoparticles to support data-driven design of safer LNPs. Not yet peer-reviewed.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "LNPs deliver mRNA and gene-editing medicines."
+    },
+    "ai": {
+     "score": 4,
+     "why": "Training data for machine-learning LNP design."
+    }
+   }
+  },
+  "0ebcfcadb47e": {
+   "drop": true
+  },
+  "79eafb815d40": {
+   "drop": true
+  },
+  "fc41d5897760": {
+   "drop": true
+  },
+  "26b61cbcc1ff": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "NEJM published a trial of transcatheter aortic valve replacement (TAVR) in patients with moderate aortic stenosis and at-risk features, with an accompanying editorial on managing moderate stenosis in older adults.",
+   "rel": {
+    "meddevices": {
+     "score": 6,
+     "why": "Could extend TAVR to earlier-stage patients."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Bears on when to intervene in a common valve disease."
+    }
+   }
+  },
+  "1d3e416b901b": {
+   "dup": "26b61cbcc1ff"
+  },
+  "1fc516b98c5e": {
+   "drop": true
+  },
+  "3e68e39d76a4": {
+   "drop": true
+  },
+  "18c6ecfeca75": {
+   "drop": true
+  },
+  "fa99e11a1d13": {
+   "drop": true
+  },
+  "72208ce4892a": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint reports two novel, highly divergent clones of Listeria monocytogenes serotype 4b in North America. Not yet peer-reviewed.",
+   "rel": {
+    "agrifood": {
+     "score": 4,
+     "why": "Food safety surveillance of a serious foodborne pathogen."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Pathogen genomic surveillance."
+    }
+   }
+  },
+  "b474dc8610b2": {
+   "drop": true
+  },
+  "64345550e8c0": {
+   "drop": true
+  },
+  "7fa08cc73137": {
+   "drop": true
+  },
+  "7cf5d08c5cb8": {
+   "dup": "fce4785ffc2c"
+  },
+  "4e81e74ecef6": {
+   "drop": true
+  },
+  "5fb74a5cac35": {
+   "drop": true
+  },
+  "088ea64bea6f": {
+   "dup": "fce4785ffc2c"
+  },
+  "25ee30db8ec3": {
+   "drop": true
+  },
+  "bbfee811aa2a": {
+   "drop": true
+  },
+  "8b87cc6ba91d": {
+   "dup": "98f430df60ac"
+  },
+  "ec0bb7290235": {
+   "dup": "fce4785ffc2c"
+  },
+  "674476ff9dbe": {
+   "dup": "fce4785ffc2c"
+  },
+  "1fcd57a312ac": {
+   "drop": true
+  },
+  "77e8c00cb60c": {
+   "drop": true
+  },
+  "0f27c8467d9c": {
+   "drop": true
+  },
+  "774aa576506e": {
+   "drop": true
+  },
+  "8adb38f82a7b": {
+   "drop": true
+  },
+  "27cd6a8a231d": {
+   "drop": true
+  },
+  "c562014b6373": {
+   "drop": true
+  },
+  "a28d7f2c9d5d": {
+   "dup": "fce4785ffc2c"
+  },
+  "d26dc668a48d": {
+   "dup": "fce4785ffc2c"
+  },
+  "ddc17a5482c7": {
+   "drop": true
+  },
+  "e3272ab7ca7c": {
+   "drop": true
+  },
+  "63ff56390f8d": {
+   "dup": "172c5a44341a"
+  },
+  "08fd005800b6": {
+   "drop": true
+  },
+  "9da88a81f1f8": {
+   "drop": true
+  },
+  "208e7dc1e287": {
+   "dup": "7c813c078984"
+  },
+  "e8e2450dbffe": {
+   "drop": true
+  },
+  "45a53f002164": {
+   "dup": "2026-10-30-gc-biopharma-hunterase-icv"
+  },
+  "8e6f49534875": {
+   "drop": true
+  },
+  "94f861a5bc1f": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Yuhan's third-quarter consolidated revenue rose about 6% year on year to 604.3 billion won, driven by the lung cancer drug Leclaza and probiotics.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Results of a top Korean drugmaker with a global EGFR drug."
+    }
+   }
+  },
+  "e30ea1ad7972": {
+   "drop": true
+  },
+  "edf068c0842d": {
+   "dup": "f743ef531124"
+  },
+  "9b892e89ae08": {
+   "drop": true
+  },
+  "ba01e7c4b4e7": {
+   "cat": "funding",
+   "imp": 5,
+   "summary": "Setara Biosciences launched with $90 million to develop the genetics-driven pipeline spun out of Actio Biosciences after Jazz bought Actio's epilepsy drug, led by a Charcot-Marie-Tooth disease medicine.",
+   "rel": {
+    "investment": {
+     "score": 6,
+     "why": "A sizeable launch round for a rare disease spinout."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Advances a precision rare neurology pipeline."
+    }
+   }
+  },
+  "e864311adca2": {
+   "dup": "ba01e7c4b4e7"
+  },
+  "8bdd156cdfc4": {
+   "dup": "28c1dd42e2b4"
+  },
+  "e0fcf3a1fd60": {
+   "drop": true
+  },
+  "62039be4986e": {
+   "drop": true
+  },
+  "f65e7d269d38": {
+   "drop": true
+  },
+  "2cef114cf345": {
+   "dup": "32820b40fa09"
+  },
+  "5c2f269f58d1": {
+   "drop": true
+  },
+  "5babf2962d26": {
+   "drop": true
+  },
+  "4e1d0f4d8a3d": {
+   "drop": true
+  },
+  "75025333793e": {
+   "dup": "157003cfd908"
+  },
+  "68ff61d3daa0": {
+   "drop": true
+  },
+  "c0d13355cef8": {
+   "dup": "157003cfd908"
+  },
+  "e4f714ba9b72": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "On its Q3 earnings call, Bristol Myers Squibb defended its pipeline as its answer to a looming patent cliff and reiterated interest in later-stage business development deals.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Signals BMS is shopping for late-stage assets."
+    },
+    "investment": {
+     "score": 4,
+     "why": "BD appetite at a big pharma supports biotech valuations."
+    }
+   }
+  },
+  "f59efc10b90d": {
+   "drop": true
+  },
+  "d69977a4d4fd": {
+   "dup": "5a3495574796"
+  },
+  "952417de4bbb": {
+   "dup": "5a3495574796"
+  },
+  "84934324676b": {
+   "drop": true
+  },
+  "69724cc3cbbc": {
+   "drop": true
+  },
+  "65faf13d45c6": {
+   "drop": true
+  },
+  "0d8ad6439ccc": {
+   "drop": true
+  },
+  "6bdb991e819d": {
+   "drop": true
+  },
+  "e3b77d178a2e": {
+   "drop": true
+  },
+  "260e5d47fbc8": {
+   "drop": true
+  },
+  "3986a34860d2": {
+   "drop": true
+  },
+  "6ba861e8c792": {
+   "dup": "68d06e5a1880"
+  },
+  "bee145658115": {
+   "drop": true
+  },
+  "e3672f1550df": {
+   "drop": true
+  },
+  "74f2728fce92": {
+   "dup": "98f430df60ac"
+  },
+  "559e6d5e418d": {
+   "drop": true
+  },
+  "dd2c98e4c894": {
+   "drop": true
+  },
+  "a7d625909f35": {
+   "drop": true
+  },
+  "034ec4345cd5": {
+   "drop": true
+  },
+  "bd18034d0017": {
+   "drop": true
+  },
+  "3d906ae61b68": {
+   "drop": true
+  },
+  "a67691798496": {
+   "drop": true
+  },
+  "06e27e10adae": {
+   "dup": "7c813c078984"
+  },
+  "35c53b47cfa6": {
+   "drop": true
+  },
+  "c0c7f95101eb": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Nature reports that single-cell profiling of nearly 2,000 people tied genetic variants that alter gene regulation in specific cell types closely to disease.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "Shows the power of population-scale single-cell genomics."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Cell-type-specific genetics helps target validation."
+    }
+   }
+  },
+  "03bf17746476": {
+   "drop": true
+  },
+  "4042ff57f9b0": {
+   "drop": true
+  },
+  "90ae09a68dbe": {
+   "drop": true
+  },
+  "caa88a34c27d": {
+   "drop": true
+  },
+  "568559b0bbf9": {
+   "dup": "d76c5250b63f"
+  },
+  "2330167c4bc4": {
+   "drop": true
+  },
+  "bfe09f254a31": {
+   "drop": true
+  },
+  "0142974eb2ad": {
+   "drop": true
+  },
+  "04ab67b848ec": {
+   "drop": true
+  },
+  "47ca1f10c6b6": {
+   "drop": true
+  },
+  "a1c582058388": {
+   "drop": true
+  },
+  "415e222efabe": {
+   "drop": true
+  },
+  "d11c7fcd08c1": {
+   "drop": true
+  },
+  "67e139d57680": {
+   "drop": true
+  },
+  "3ffbffff5c2c": {
+   "drop": true
+  },
+  "0ffcf1f2d96e": {
+   "drop": true
+  },
+  "4db06ed25f9c": {
+   "drop": true
+  },
+  "11f3cb257b6b": {
+   "drop": true
+  },
+  "c6e3a807cde5": {
+   "drop": true
+  },
+  "1b4fcac558ca": {
+   "drop": true
+  },
+  "fe226254889a": {
+   "drop": true
+  },
+  "5ce56eac88c3": {
+   "dup": "7c813c078984"
+  },
+  "4fd2cd0b533c": {
+   "drop": true
+  },
+  "8922e5e772fd": {
+   "drop": true
+  },
+  "8f528b8f13c2": {
+   "drop": true
+  },
+  "f5e20a68825f": {
+   "drop": true
+  },
+  "7ee4d140cfc9": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A Lancet comment argues for redefining curative treatment of resected early-stage mismatch repair-deficient colon cancer beyond surgery plus adjuvant chemotherapy.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Supports moving immunotherapy earlier in dMMR colon cancer."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Could change standard care for a defined colon cancer subgroup."
+    }
+   }
+  },
+  "64bee9a3d2b3": {
+   "drop": true
+  },
+  "108a2359675b": {
+   "drop": true
+  },
+  "ae179258fb70": {
+   "drop": true
+  },
+  "27297f68bf53": {
+   "dup": "479ecd2af517"
+  },
+  "4495b25d6558": {
+   "drop": true
+  },
+  "e9563b94ef04": {
+   "drop": true
+  },
+  "9f7ee28adfb7": {
+   "drop": true
   }
  },
  "extra": [
