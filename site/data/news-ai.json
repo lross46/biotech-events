@@ -1,51 +1,69 @@
 {
- "updated": "2026-11-02T14:38:28Z",
+ "updated": "2026-11-03T06:43:30Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-02T14:38:28Z",
+  "date": "2026-11-03T06:43:30Z",
   "points": [
    {
     "sec": "results",
-    "text": "TCT 2026 in San Diego dominated a quiet weekend, and the device data mostly held up. Abbott said its TECTONIC study of the investigational SonicForce coronary lithotripsy system met both primary endpoints in 335 patients, with 0.3% target lesion failure at 30 days and 97% procedural success, setting it up to challenge J&J's Shockwave in calcified arteries. In TRANSFORM II, Concept Medical's sirolimus-coated balloon was noninferior to a drug-eluting stent at one year in 1,842 patients (2.1% vs 2.4% target lesion failure), and the NEJM-published P4 trial found CT angiography as good as intravascular ultrasound for planning PCI. The one miss was the Shockwave Reducer, which did not improve perfusion over sham in a small trial in angina without blocked arteries.",
+    "text": "A quiet day for trial readouts. Tiziana's intranasal anti-CD3 antibody foralumab met its phase 2a endpoints in non-active secondary progressive MS, though only the lower 50 µg dose cut neuroinflammation on PET, and Teva stopped a key trial of one of its first innovative medicines for futility, another knock to its pivot away from generics. Abbott started a pivotal trial of its Cephea transcatheter mitral valve, aiming for up to 585 patients.",
     "ids": [
-     "d16d91730530",
-     "2026-11-01-transform-ii-sirolimus-balloon-noninferior",
-     "2026-11-01-p4-ccta-noninferior-ivus-pci",
-     "2026-11-01-remedy-pilot-coronary-sinus-reducer-anoca"
+     "5f3bb4880fc1",
+     "c58ed3114910",
+     "e4fbc922c939"
     ]
    },
    {
     "sec": "science",
-    "text": "Two university studies stood out. University of Virginia researchers used focused ultrasound and microbubbles to open the blood-brain barrier and deliver nanoparticle microRNAs that slowed glioblastoma and extended survival in mice (Journal of Clinical Investigation), and a UCLA study of about 1,650 people linked long-term chlorpyrifos exposure to 2.5 times the risk of Parkinson's, with animal work pointing to impaired autophagy. The rest was a light run of bioRxiv preprints, mostly on bacterial envelopes and antimicrobial-resistant pathogens such as Klebsiella and Acinetobacter.",
+    "text": "Journal content leaned toward public health. A Global Burden of Disease analysis in Nature Medicine put cervical cancer at 887,000 new cases and 369,000 deaths in 2023, and a Nature comment argued surveillance systems miss epidemics with unusual symptoms and laid out five fixes. On bioRxiv, a cell-in-drop genotyping method measures the megabase-scale chromosome losses Cas9 cuts can cause, a safety readout gene-editing developers will want.",
     "ids": [
-     "82aef178822d",
-     "858d08893264",
-     "b79cbeeac6e0"
+     "117c7a08523b",
+     "c9d343771e48",
+     "d0f336615f9a"
     ]
    },
    {
     "sec": "approvals",
-    "text": "The FDA accepted uniQure's BLA for AMT-130 (ifezuntirgene inilparvovec), its Huntington's disease gene therapy, under accelerated approval with priority review and a 1 May 2027 decision date; the filing leans on 36-month phase 1/2 data against an external registry control, and an advisory committee is tentatively planned. Smaller news included a partial clinical hold on Bright Minds' pediatric epilepsy study over mouse toxicity and missing juvenile data.",
+    "text": "The FDA accepted uniQure's Huntington's gene therapy AMT-130 for accelerated approval with a 1 May 2027 decision date and a likely advisory committee, and agreed a roughly 200-patient randomised confirmatory trial. It also gave tentative approval to Dr. Reddy's generic of Gilead's twice-yearly HIV prevention shot lenacapavir, priced at about $40 a year for lower-income countries, and finalised potency-assurance guidance for cell and gene therapies, replacing its 2011 rules. On the downside, Agios' mitapivat decision in sickle cell slipped to 1 February over REMS questions, Bright Minds got a partial clinical hold, and Form 483s flagged sterility and data problems at Hansoh and Samsung Biologics sites.",
     "ids": [
-     "86d50a22ca0f",
-     "889a7d67b847"
+     "9e9893d82d86",
+     "e65f5ced72a3",
+     "c24b6c598138",
+     "d296b585307c"
+    ]
+   },
+   {
+    "sec": "policy",
+    "text": "Little policy news. A STAT investigation found a US fertility facilitator sending older women abroad, mainly to Albania, for mitochondrial replacement therapy on unsubstantiated success claims; it paused enrolment after STAT's questions.",
+    "ids": [
+     "2026-11-02-stat-mitochondrial-replacement-fertility-tourism"
     ]
    },
    {
     "sec": "money",
-    "text": "Fresenius Kabi signed an exclusive deal with WuXi Biologics for option rights on up to 37 first-to-market biosimilars, which it says would more than double its biosimilar portfolio to as many as 66 molecules over a decade. Bavarian Nordic won a four-year UK contract to supply its MVA-BN mpox and smallpox vaccine, value undisclosed.",
+    "text": "Fresenius and WuXi Biologics signed one of the biggest biosimilar pacts yet, covering up to 37 molecules aimed at originator drugs with €370 billion in sales. AbbVie disclosed a deal worth up to $757 million with Beijing's Brise for two preclinical migraine drugs, extending the run of China-sourced licensing, and OpenAI-backed Biossil bought Theriva's antibiotic-degrading enzyme portfolio for up to $91 million. Novartis handed back BioArctic's BrainTransporter collaboration, leaving BioArctic its $30 million upfront.",
     "ids": [
-     "16d237cb6bed",
-     "57d9f44b9ea4"
+     "b65860dcd2f8",
+     "5c2b22a83623",
+     "df8c95c0dbeb",
+     "6153d15e75b6"
     ]
    },
    {
     "sec": "companies",
-    "text": "Gene editing stocks had a strong week on ESGCT readouts and the FDA's 27 October draft guidance letting individualised editing therapies share a single BLA: Prime Medicine rose 29%, Beam 13%, and Editas and Intellia 11% each, while Caribou fell another 21% during its strategic review. Smaller news was thin over the weekend, with Orthocell reporting record US sales of its Remplir nerve wrap. On Monday Karyopharm filed for Chapter 11, with lenders backing a merger with Ayrmid through a court-supervised sale and up to $55 million in bankruptcy financing.",
+    "text": "Karyopharm filed for Chapter 11 and will be auctioned with Ayrmid as lead bidder and merger partner. Earnings set the tone elsewhere: CRISPR Therapeutics' Casgevy sales hit $99 million, nearly six times a year ago, BioMarin passed $1 billion in quarterly revenue, Neurocrine raised Ingrezza guidance, and AstraZeneca launched a new restructuring while Alnylam shares slumped. 10x Genomics also launched Sentira, a Claude-powered AI agent for single-cell analysis.",
     "ids": [
-     "4672d319f5e2",
-     "98af2cc9b6f2",
-     "e2c084c6f930"
+     "4bbed7540c17",
+     "28b96e524e55",
+     "1e4b87a9dc27",
+     "37c05b969679"
+    ]
+   },
+   {
+    "sec": "biodef",
+    "text": "A Washington state resident died of H5N1 after exposure at a dairy with infected cattle, the first US bird flu death in a year. The CDC found no mutations pointing to easier spread and still rates public risk as low, but the case raises pressure on farm-worker protection and herd testing.",
+    "ids": [
+     "7ece3982c7f4"
     ]
    }
   ]
@@ -11245,27 +11263,6 @@
     }
    }
   },
-  "9c2af61745ac": {
-   "drop": true
-  },
-  "fbe089cbb1ae": {
-   "drop": true
-  },
-  "99873d036220": {
-   "drop": true
-  },
-  "05a4665c8eb3": {
-   "drop": true
-  },
-  "029d41f723a6": {
-   "drop": true
-  },
-  "5cec3ede4a61": {
-   "drop": true
-  },
-  "7fa08cc73137": {
-   "drop": true
-  },
   "d3aa2a16dc71": {
    "cat": "science",
    "imp": 6,
@@ -11546,12 +11543,6 @@
   },
   "b27838171599": {
    "dup": "5e0f3777aea2"
-  },
-  "b474dc8610b2": {
-   "drop": true
-  },
-  "64345550e8c0": {
-   "drop": true
   },
   "8700e4435e7b": {
    "cat": "science",
@@ -12095,496 +12086,17 @@
   "740265a54cb4": {
    "dup": "2026-11-01-p4-ccta-noninferior-ivus-pci"
   },
-  "7cf5d08c5cb8": {
-   "dup": "fce4785ffc2c"
-  },
-  "4e81e74ecef6": {
-   "drop": true
-  },
-  "5fb74a5cac35": {
-   "dup": "68812dd7dda9"
-  },
-  "088ea64bea6f": {
-   "dup": "fce4785ffc2c"
-  },
-  "25ee30db8ec3": {
-   "drop": true
-  },
-  "bbfee811aa2a": {
-   "drop": true
-  },
-  "8b87cc6ba91d": {
-   "dup": "98f430df60ac"
-  },
-  "ec0bb7290235": {
-   "drop": true
-  },
-  "674476ff9dbe": {
-   "drop": true
-  },
-  "1fcd57a312ac": {
-   "drop": true
-  },
-  "77e8c00cb60c": {
-   "drop": true
-  },
-  "0f27c8467d9c": {
-   "drop": true
-  },
-  "774aa576506e": {
-   "drop": true
-  },
-  "8adb38f82a7b": {
-   "drop": true
-  },
-  "27cd6a8a231d": {
-   "drop": true
-  },
-  "c562014b6373": {
-   "drop": true
-  },
-  "a28d7f2c9d5d": {
-   "dup": "fce4785ffc2c"
-  },
-  "d26dc668a48d": {
-   "dup": "fce4785ffc2c"
-  },
-  "ddc17a5482c7": {
-   "drop": true
-  },
-  "ea5e12c71c52": {
-   "drop": true
-  },
-  "faa619e4c829": {
-   "drop": true
-  },
-  "e3272ab7ca7c": {
-   "drop": true
-  },
-  "b25566a6a8ca": {
-   "drop": true
-  },
-  "a6d9cd4988b4": {
-   "drop": true
-  },
-  "f6583ce19a7f": {
-   "drop": true
-  },
-  "4fa38675d781": {
-   "drop": true
-  },
-  "d6a52590ef6d": {
-   "drop": true
-  },
-  "593c909a353c": {
-   "drop": true
-  },
-  "1785a56e3d17": {
-   "drop": true
-  },
-  "ff85217f62eb": {
-   "drop": true
-  },
-  "9cdbbc1dfee4": {
-   "drop": true
-  },
-  "843cfae557ea": {
-   "drop": true
-  },
-  "63ff56390f8d": {
-   "dup": "172c5a44341a"
-  },
-  "08fd005800b6": {
-   "drop": true
-  },
-  "9da88a81f1f8": {
-   "drop": true
-  },
-  "208e7dc1e287": {
-   "drop": true
-  },
-  "002cb97522dd": {
-   "drop": true
-  },
-  "e8e2450dbffe": {
-   "drop": true
-  },
-  "45a53f002164": {
-   "dup": "2026-10-30-gc-biopharma-hunterase-icv"
-  },
-  "8c73fc8e5df8": {
-   "drop": true
-  },
-  "8e6f49534875": {
-   "drop": true
-  },
-  "563af7ea38fb": {
-   "drop": true
-  },
-  "558c8f788b99": {
-   "drop": true
-  },
-  "73492f058760": {
-   "drop": true
-  },
-  "029ff2f4abba": {
-   "drop": true
-  },
-  "94f861a5bc1f": {
-   "drop": true
-  },
-  "549309bcd566": {
-   "drop": true
-  },
-  "6323a8afc204": {
-   "drop": true
-  },
-  "e30ea1ad7972": {
-   "drop": true
-  },
-  "edf068c0842d": {
-   "dup": "f743ef531124"
-  },
-  "9b892e89ae08": {
-   "drop": true
-  },
-  "ba01e7c4b4e7": {
-   "dup": "ea6110414e4d"
-  },
-  "e864311adca2": {
-   "dup": "ea6110414e4d"
-  },
-  "8bdd156cdfc4": {
-   "dup": "28c1dd42e2b4"
-  },
   "263a3f3caf04": {
    "drop": true
   },
-  "e0fcf3a1fd60": {
-   "drop": true
-  },
-  "62039be4986e": {
-   "drop": true
-  },
-  "f65e7d269d38": {
-   "drop": true
-  },
-  "2cef114cf345": {
-   "dup": "32820b40fa09"
-  },
-  "5c2f269f58d1": {
-   "drop": true
-  },
-  "5babf2962d26": {
-   "drop": true
-  },
-  "4e1d0f4d8a3d": {
-   "drop": true
-  },
-  "75025333793e": {
-   "dup": "157003cfd908"
-  },
-  "68ff61d3daa0": {
-   "drop": true
-  },
-  "c0d13355cef8": {
-   "dup": "157003cfd908"
-  },
-  "e4f714ba9b72": {
-   "dup": "3d55cd1f6330"
-  },
-  "102169c76c7d": {
-   "dup": "efd4e3e482f4"
-  },
-  "724fa82ba951": {
-   "dup": "40c176f99965"
-  },
-  "f59efc10b90d": {
-   "drop": true
-  },
-  "d69977a4d4fd": {
-   "dup": "5a3495574796"
-  },
-  "952417de4bbb": {
-   "dup": "5a3495574796"
-  },
-  "12d47ebb2f56": {
-   "dup": "68d06e5a1880"
-  },
-  "893bf695e38f": {
-   "drop": true
-  },
-  "46d8be7e4e88": {
-   "drop": true
-  },
-  "6370eba30eba": {
-   "drop": true
-  },
-  "2e4d2604c247": {
-   "drop": true
-  },
-  "fc05684a9de9": {
-   "dup": "68d06e5a1880"
-  },
-  "2728f2b1b598": {
-   "drop": true
-  },
-  "84934324676b": {
-   "drop": true
-  },
-  "69724cc3cbbc": {
-   "drop": true
-  },
-  "bf7d6b36d54a": {
-   "dup": "21d272940445"
-  },
-  "109291e1b8d7": {
-   "dup": "21d272940445"
-  },
-  "65faf13d45c6": {
-   "drop": true
-  },
-  "0d8ad6439ccc": {
-   "drop": true
-  },
-  "6bdb991e819d": {
-   "drop": true
-  },
-  "e3b77d178a2e": {
-   "drop": true
-  },
-  "260e5d47fbc8": {
-   "drop": true
-  },
-  "3986a34860d2": {
-   "drop": true
-  },
-  "6ba861e8c792": {
-   "dup": "68d06e5a1880"
-  },
-  "bee145658115": {
-   "drop": true
-  },
-  "23217ec8cfd1": {
-   "dup": "ac45c19bd60a"
-  },
-  "0a2d2e4e4b12": {
-   "drop": true
-  },
-  "9e09c0acde86": {
-   "dup": "cf3c350cfb69"
-  },
-  "e3672f1550df": {
-   "drop": true
-  },
-  "74f2728fce92": {
-   "dup": "98f430df60ac"
-  },
-  "559e6d5e418d": {
-   "drop": true
-  },
-  "dd2c98e4c894": {
-   "drop": true
-  },
-  "a7d625909f35": {
-   "drop": true
-  },
-  "034ec4345cd5": {
-   "drop": true
-  },
-  "bd18034d0017": {
-   "drop": true
-  },
-  "3d906ae61b68": {
-   "drop": true
-  },
-  "a67691798496": {
-   "drop": true
-  },
-  "06e27e10adae": {
-   "dup": "7c813c078984"
-  },
-  "35c53b47cfa6": {
-   "drop": true
-  },
-  "d9cfb1a5ae2f": {
-   "drop": true
-  },
-  "c0c7f95101eb": {
-   "dup": "0fb08c76b70e"
-  },
-  "a418a746c4ec": {
-   "drop": true
-  },
-  "03bf17746476": {
-   "drop": true
-  },
-  "4042ff57f9b0": {
-   "drop": true
-  },
-  "90ae09a68dbe": {
-   "drop": true
-  },
-  "caa88a34c27d": {
-   "drop": true
-  },
-  "568559b0bbf9": {
-   "dup": "d76c5250b63f"
-  },
-  "2330167c4bc4": {
-   "drop": true
-  },
-  "bfe09f254a31": {
-   "drop": true
-  },
-  "0142974eb2ad": {
-   "drop": true
-  },
-  "b0d9598fd2ba": {
-   "drop": true
-  },
-  "04ab67b848ec": {
-   "drop": true
-  },
-  "47ca1f10c6b6": {
-   "drop": true
-  },
-  "a1c582058388": {
-   "drop": true
-  },
-  "415e222efabe": {
-   "drop": true
-  },
-  "d11c7fcd08c1": {
-   "drop": true
-  },
-  "67e139d57680": {
-   "drop": true
-  },
-  "3ffbffff5c2c": {
-   "drop": true
-  },
-  "0ffcf1f2d96e": {
-   "drop": true
-  },
-  "4db06ed25f9c": {
-   "drop": true
-  },
-  "11f3cb257b6b": {
-   "drop": true
-  },
-  "c6e3a807cde5": {
-   "drop": true
-  },
-  "1b4fcac558ca": {
-   "drop": true
-  },
-  "fe226254889a": {
-   "drop": true
-  },
-  "5ce56eac88c3": {
-   "dup": "7c813c078984"
-  },
-  "4fd2cd0b533c": {
-   "drop": true
-  },
-  "8922e5e772fd": {
-   "drop": true
-  },
-  "8f528b8f13c2": {
-   "drop": true
-  },
-  "f5e20a68825f": {
-   "drop": true
-  },
-  "7ee4d140cfc9": {
-   "dup": "d8710dfcb45c"
-  },
-  "64bee9a3d2b3": {
-   "drop": true
-  },
-  "108a2359675b": {
-   "drop": true
-  },
-  "ae179258fb70": {
-   "drop": true
-  },
-  "27297f68bf53": {
-   "dup": "479ecd2af517"
-  },
-  "4495b25d6558": {
-   "drop": true
-  },
-  "e9563b94ef04": {
-   "drop": true
-  },
-  "cd10dbf6af32": {
-   "drop": true
-  },
-  "9f7ee28adfb7": {
-   "drop": true
-  },
-  "329068c61c65": {
-   "drop": true
-  },
-  "12605db9d56f": {
-   "drop": true
-  },
-  "c70d86361bec": {
-   "drop": true
-  },
   "86d50a22ca0f": {
-   "cat": "regulatory",
-   "imp": 8,
-   "summary": "uniQure says the FDA accepted its BLA for the Huntington's disease gene therapy ifezuntirgene inilparvovec (AMT-130) under accelerated approval with priority review, setting a PDUFA date of 1 May 2027. The filing rests on 36-month phase 1/2 data compared with a matched external control from the Enroll-HD registry, and the FDA tentatively plans an advisory committee.",
-   "rel": {
-    "cellgene": {
-     "score": 9,
-     "why": "Could become the first approved gene therapy for Huntington's disease."
-    },
-    "pharma": {
-     "score": 7,
-     "why": "Tests FDA acceptance of external-control data for an accelerated neurology approval."
-    },
-    "investment": {
-     "score": 5,
-     "why": "Sets a binary regulatory date for uniQure in May 2027."
-    }
-   }
+   "dup": "9e9893d82d86"
   },
   "e2c084c6f930": {
-   "cat": "other",
-   "imp": 6,
-   "summary": "Karyopharm filed for Chapter 11 in Texas under a restructuring deal with its lenders that plans a merger with Ayrmid, which will act as lead bidder in a court-supervised sale open to competing bids; no price was disclosed. Existing secured lenders committed up to $55 million in debtor-in-possession financing, and closing is expected in Q1 2027.",
-   "rel": {
-    "pharma": {
-     "score": 6,
-     "why": "Bankruptcy of a commercial-stage cancer drugmaker (Xpovio)."
-    },
-    "investment": {
-     "score": 7,
-     "why": "Restructuring hands control to lenders and a lead bidder, a warning for indebted small-cap biotechs."
-    }
-   }
+   "dup": "4bbed7540c17"
   },
   "16d237cb6bed": {
-   "cat": "deals",
-   "imp": 6,
-   "summary": "Fresenius Kabi and WuXi Biologics signed an exclusive development agreement giving Fresenius option rights to up to 37 potential first-to-market biosimilars, which Fresenius says would expand its portfolio from 29 to up to 66 molecules over the next decade, targeting originators with more than €370 billion in sales.",
-   "rel": {
-    "pharma": {
-     "score": 7,
-     "why": "One of the largest biosimilar pipeline deals, aimed at the coming biologics patent cliff."
-    },
-    "bioprocessing": {
-     "score": 6,
-     "why": "Large development and manufacturing commitment for a Chinese CDMO."
-    },
-    "investment": {
-     "score": 4,
-     "why": "Signals WuXi keeps winning Western partners despite US scrutiny."
-    }
-   }
+   "dup": "b65860dcd2f8"
   },
   "57d9f44b9ea4": {
    "cat": "contracts",
@@ -12606,19 +12118,7 @@
    }
   },
   "889a7d67b847": {
-   "cat": "regulatory",
-   "imp": 4,
-   "summary": "Bright Minds says the FDA placed a partial clinical hold on its planned study of BMB-101 in developmental and epileptic encephalopathies, citing toxicity seen in mice and insufficient pharmacokinetic and juvenile toxicity data to support enrolling children.",
-   "rel": {
-    "pharma": {
-     "score": 5,
-     "why": "Setback for a pediatric epilepsy programme at a small biotech."
-    },
-    "investment": {
-     "score": 4,
-     "why": "Delays a key study for a Nasdaq-listed company."
-    }
-   }
+   "dup": "279485d7e260"
   },
   "df448c0ba0c5": {
    "cat": "clinical",
@@ -12651,15 +12151,7 @@
    }
   },
   "12ac0df36806": {
-   "cat": "clinical",
-   "imp": 4,
-   "summary": "Tiziana says intranasal foralumab met its safety endpoint in the 48-patient, placebo-controlled phase 2a INFORM-MS trial in non-active secondary progressive MS and reduced microglial activation on PET at 50 µg (p=0.0168) but not at 100 µg; the trial was not powered for clinical endpoints.",
-   "rel": {
-    "pharma": {
-     "score": 5,
-     "why": "Small early signal for a nasal anti-CD3 antibody in progressive MS."
-    }
-   }
+   "dup": "5f3bb4880fc1"
   },
   "9c79ed74f947": {
    "cat": "deals",
@@ -12834,6 +12326,834 @@
     "healthcare": {
      "score": 4,
      "why": "Oral option for a common skin disease."
+    }
+   }
+  },
+  "45c3511e60ad": {
+   "drop": true
+  },
+  "e0127b331db1": {
+   "drop": true
+  },
+  "fbf5a9b971a0": {
+   "drop": true
+  },
+  "66689dd0ccb5": {
+   "drop": true
+  },
+  "5d7362f2b053": {
+   "drop": true
+  },
+  "a90da742718e": {
+   "drop": true
+  },
+  "9d19816d8301": {
+   "drop": true
+  },
+  "7ab5bf998ed3": {
+   "drop": true
+  },
+  "758dd6635047": {
+   "drop": true
+  },
+  "7cdd0970478b": {
+   "drop": true
+  },
+  "b43d967599f4": {
+   "drop": true
+  },
+  "7652e053f53f": {
+   "drop": true
+  },
+  "ccf25a9f47f6": {
+   "drop": true
+  },
+  "01eb542f29d5": {
+   "drop": true
+  },
+  "bb64fda7bbd6": {
+   "drop": true
+  },
+  "d4e1dcb9c287": {
+   "drop": true
+  },
+  "7f86a88dfc00": {
+   "drop": true
+  },
+  "97d3d6a588f9": {
+   "drop": true
+  },
+  "fba920fe254b": {
+   "drop": true
+  },
+  "4cd0ccbb6bd7": {
+   "drop": true
+  },
+  "39fef7b8f12a": {
+   "drop": true
+  },
+  "987adf4df4a6": {
+   "drop": true
+  },
+  "e85c50c207b6": {
+   "drop": true
+  },
+  "da81d2376a34": {
+   "drop": true
+  },
+  "9ca346e2f7a8": {
+   "drop": true
+  },
+  "6d9d5daf5ddc": {
+   "drop": true
+  },
+  "94af2bb331bb": {
+   "drop": true
+  },
+  "4cc905dfcf96": {
+   "drop": true
+  },
+  "94ea872a43a8": {
+   "drop": true
+  },
+  "416f9d687684": {
+   "drop": true
+  },
+  "ea6635ff1d98": {
+   "drop": true
+  },
+  "a17b8322c032": {
+   "drop": true
+  },
+  "209ee195ae1a": {
+   "drop": true
+  },
+  "c646cd281a9a": {
+   "drop": true
+  },
+  "77626a4bb74d": {
+   "drop": true
+  },
+  "ce30ebd99ec5": {
+   "drop": true
+  },
+  "5a95cc5c75a7": {
+   "drop": true
+  },
+  "05721f1f80e7": {
+   "drop": true
+  },
+  "72dc5addf350": {
+   "drop": true
+  },
+  "e01b454240f0": {
+   "drop": true
+  },
+  "c59ad7f48835": {
+   "drop": true
+  },
+  "547c53a136a7": {
+   "drop": true
+  },
+  "f68096eccaff": {
+   "drop": true
+  },
+  "73fef3e3cac4": {
+   "drop": true
+  },
+  "e15baf12128e": {
+   "drop": true
+  },
+  "5f78facab9fe": {
+   "drop": true
+  },
+  "dda88121b0a4": {
+   "drop": true
+  },
+  "4b5feb981690": {
+   "drop": true
+  },
+  "c7d58c043b77": {
+   "drop": true
+  },
+  "50952f4999a8": {
+   "drop": true
+  },
+  "9037e3fdd19f": {
+   "drop": true
+  },
+  "41ef40a7dcdc": {
+   "drop": true
+  },
+  "7d9daa8b1908": {
+   "drop": true
+  },
+  "67850927942d": {
+   "drop": true
+  },
+  "723a514bf256": {
+   "drop": true
+  },
+  "3238da30c30d": {
+   "drop": true
+  },
+  "bb78c4e08c42": {
+   "drop": true
+  },
+  "f2669f3b8e26": {
+   "drop": true
+  },
+  "69841194f95e": {
+   "drop": true
+  },
+  "bbbbe4de29cb": {
+   "drop": true
+  },
+  "5f9f4f58fad6": {
+   "drop": true
+  },
+  "119f813263ad": {
+   "drop": true
+  },
+  "8b5aabb878ca": {
+   "drop": true
+  },
+  "833bbb6e66a6": {
+   "drop": true
+  },
+  "13068cb7a254": {
+   "drop": true
+  },
+  "46c94c106712": {
+   "drop": true
+  },
+  "8fee8e182daa": {
+   "drop": true
+  },
+  "37e38b04f015": {
+   "drop": true
+  },
+  "88c9a6df8478": {
+   "drop": true
+  },
+  "92b9cffa5e64": {
+   "drop": true
+  },
+  "48ffe9c67bdb": {
+   "drop": true
+  },
+  "9ce825bceda4": {
+   "drop": true
+  },
+  "5be18d55152f": {
+   "drop": true
+  },
+  "d873090f37e1": {
+   "drop": true
+  },
+  "1c61d7de81bf": {
+   "dup": "9e9893d82d86"
+  },
+  "88df81e4bcf8": {
+   "dup": "4bbed7540c17"
+  },
+  "422f64f06226": {
+   "dup": "b65860dcd2f8"
+  },
+  "d5013d72748b": {
+   "dup": "9e9893d82d86"
+  },
+  "f236e28baa93": {
+   "dup": "2edbbfd9093f"
+  },
+  "0a16bb639385": {
+   "dup": "4bbed7540c17"
+  },
+  "0bd688ac8ec2": {
+   "dup": "279485d7e260"
+  },
+  "b9e17c370bdd": {
+   "dup": "9e9893d82d86"
+  },
+  "b65860dcd2f8": {
+   "cat": "deals",
+   "imp": 6,
+   "summary": "Fresenius Kabi and WuXi Biologics signed an exclusive development deal giving Fresenius rights to up to 37 potential first-to-market biosimilars, which would take its portfolio from 29 to as many as 66 molecules targeting originator drugs with more than €370 billion ($415 billion) in sales.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "One of the largest biosimilar pipeline deals, aimed at the coming biologics patent cliff."
+    },
+    "bioprocessing": {
+     "score": 6,
+     "why": "Large development and manufacturing commitment for a Chinese CDMO."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Shows WuXi still wins Western partners despite US scrutiny of Chinese suppliers."
+    }
+   }
+  },
+  "c110cac2224d": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "Newly disclosed FDA Form 483 inspection reports flag manufacturing problems at separate facilities run by China's Hansoh Pharma and Korea's Samsung Biologics, with sterilization issues and data falsification among the observations.",
+   "rel": {
+    "bioprocessing": {
+     "score": 7,
+     "why": "Inspection findings at one of the world's largest biologics CDMOs matter to its many clients."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Quality findings at major Asian manufacturers can delay partners' products."
+    }
+   }
+  },
+  "c5aa1fa960ff": {
+   "cat": "deals",
+   "imp": 3,
+   "summary": "Newlight Technologies and Prime Polymer say they have developed a textile material that alloys polypropylene with Newlight's microbially made Aircarbon PHB, claiming PET-like dyeability, lower weight and a smaller environmental footprint.",
+   "rel": {
+    "industrial": {
+     "score": 5,
+     "why": "Brings a biomanufactured polymer into a mainstream plastics application."
+    },
+    "fermentation": {
+     "score": 3,
+     "why": "PHB is produced by microbial fermentation of captured carbon."
+    }
+   }
+  },
+  "ceb0fb81e355": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Neurocrine reported third-quarter revenue of $1.1 billion, up 41% year on year, and raised its 2026 Ingrezza sales guidance to $2.9–2.925 billion.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Strong growth at a mid-cap neuroscience drugmaker."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Guidance raise for a widely held biotech."
+    }
+   }
+  },
+  "d479a8246fbb": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Hippocratic AI says it has launched Polaris 6 Ultra, a larger voice model for patient-facing healthcare tasks, at a lower price than earlier versions; performance claims are the company's own.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "New release from a well-funded healthcare generative-AI company."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Voice agents for patient calls are being adopted by health systems."
+    }
+   }
+  },
+  "6153d15e75b6": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "BioArctic says Novartis ended their August 2025 option and license deal combining BioArctic's BrainTransporter brain-delivery technology with a Novartis antibody because Novartis is discontinuing the programme; BioArctic keeps the full $30 million upfront and has five other BrainTransporter collaborations.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Big-pharma exit from a brain-shuttle partnership in neurology."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Loss of a partner for a Nasdaq Stockholm-listed biotech."
+    }
+   }
+  },
+  "e929a1ad67b1": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Jazz reported record third-quarter revenue of $1.2 billion, up 10%, raised its full-year revenue guidance, and noted the launch of Ziihera in first-line HER2-positive gastroesophageal cancer.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Earnings and launch update from a mid-size specialty drugmaker."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Guidance raise."
+    }
+   }
+  },
+  "b34cd53acc29": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "BioMarin reported third-quarter revenue of $1.025 billion, up 32% year on year, driven by a 44% rise in metabolic-condition drugs and 12% in skeletal conditions, and updated its 2026 guidance.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Earnings from a leading rare-disease drugmaker."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Guidance update for a large-cap biotech."
+    }
+   }
+  },
+  "28b96e524e55": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "CRISPR Therapeutics says Casgevy brought in $99 million in Q3, up 30% on Q2 and nearly six times a year earlier, with more than 750 patients started on treatment; the FDA granted RMAT designations to its in vivo gene-editing candidate CTX310 for severe hypertriglyceridemia and high LDL cholesterol. It held $2.28 billion in cash.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "Shows how fast the first approved CRISPR medicine is ramping, and advances in vivo editing for cardiovascular disease."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Commercial traction of a one-time therapy for sickle cell and thalassemia."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Revenue trajectory is a key test for gene-editing valuations."
+    }
+   }
+  },
+  "7ece3982c7f4": {
+   "cat": "other",
+   "imp": 8,
+   "summary": "A Yakima County, Washington, resident with underlying conditions died of H5N1 bird flu after exposure at a dairy with infected cattle, the first US bird flu death in a year. The CDC found no genetic changes suggesting easier spread or greater severity, no person-to-person transmission, and says public risk remains low.",
+   "rel": {
+    "biosecurity": {
+     "score": 9,
+     "why": "Fatal human H5N1 case linked to the ongoing US dairy cattle outbreak."
+    },
+    "healthcare": {
+     "score": 7,
+     "why": "Raises the stakes for surveillance and protection of farm workers."
+    },
+    "agrifood": {
+     "score": 6,
+     "why": "Keeps pressure on dairy herd testing and biosecurity."
+    }
+   }
+  },
+  "5c2b22a83623": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "AbbVie and Beijing-based Brise Pharmaceuticals disclosed a discovery and commercialization deal worth up to $757 million for two preclinical migraine programmes; the agreement dates back to 2024. Further terms are behind a paywall.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Another big-pharma licensing deal with a Chinese biotech."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Adds to the run of China-sourced pipeline deals."
+    }
+   }
+  },
+  "279485d7e260": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "The FDA placed a partial clinical hold on Bright Minds Biosciences' planned study of BMB-101 in developmental and epileptic encephalopathies, citing toxicity in mice and concerns about readiness to enrol children; the stock fell sharply.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Setback for a paediatric epilepsy programme at a small biotech."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Delays a key study for a Nasdaq-listed company."
+    }
+   }
+  },
+  "5f3bb4880fc1": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Tiziana's intranasal anti-CD3 antibody foralumab met the dual endpoints of a 48-patient phase 2a trial in non-active secondary progressive MS, reducing microglial activation on PET at 50 µg, while the 100 µg dose missed that neuroinflammation measure.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Small early signal for a nasal antibody in progressive MS, where options are few."
+    }
+   }
+  },
+  "c58ed3114910": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Teva stopped a key trial of one of its first innovative medicines after an interim analysis found it futile; details beyond the headline were not accessible.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Blow to Teva's shift from generics to an innovative pipeline."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Pipeline setback for a large-cap drugmaker."
+    }
+   }
+  },
+  "df8c95c0dbeb": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "Canadian startup Biossil Labs, backed by OpenAI, agreed to buy Theriva Biologics' deprioritised early- to mid-stage portfolio of antibiotic-degrading enzymes for up to $91 million, its latest asset acquisition.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Revives microbiome-protecting enzyme programmes dropped by their developer."
+    },
+    "ai": {
+     "score": 4,
+     "why": "AI-backed company building a pipeline by buying clinical assets."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Shows tech money buying discounted biotech assets."
+    }
+   }
+  },
+  "9e9893d82d86": {
+   "cat": "regulatory",
+   "imp": 8,
+   "summary": "The FDA accepted uniQure's BLA for its Huntington's disease gene therapy AMT-130 (ifezuntirgene inilparvovec) for accelerated approval with priority review and a 1 May 2027 decision date, and tentatively plans an advisory committee. uniQure says it aligned with the FDA on a confirmatory trial: randomised against standard of care, about 200 patients in a 2:1 ratio.",
+   "rel": {
+    "cellgene": {
+     "score": 9,
+     "why": "Could become the first approved gene therapy for Huntington's disease."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Tests FDA acceptance of external-control data for an accelerated neurology approval."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Sets a binary regulatory date for uniQure."
+    }
+   }
+  },
+  "67e1f3ffa658": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A study links brain abnormalities and cognitive decline in pulmonary hypertension to the same inflammatory processes that drive the lung disease.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Points to inflammation as a possible target for cognitive symptoms in pulmonary hypertension."
+    }
+   }
+  },
+  "4bbed7540c17": {
+   "cat": "other",
+   "imp": 6,
+   "summary": "Debt-laden Karyopharm, maker of the blood cancer drug Xpovio, filed for Chapter 11 and will sell itself in a court-supervised auction with Ayrmid, parent of cell therapy maker Gamida Cell, as lead bidder and planned merger partner; lenders committed up to $55 million in bankruptcy financing.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Bankruptcy of a commercial-stage cancer drugmaker."
+    },
+    "investment": {
+     "score": 7,
+     "why": "Restructuring hands control to lenders and a lead bidder, a warning for indebted small-cap biotechs."
+    }
+   }
+  },
+  "c08c89adeba9": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Abbott reported pricing pressure and slower diabetes-device growth ahead of a planned Medicare coverage expansion of continuous glucose monitors for people with type 2 diabetes, while rival Dexcom did not see the same slowdown.",
+   "rel": {
+    "meddevices": {
+     "score": 6,
+     "why": "Shows the competitive and pricing dynamics in the CGM market."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Medicare coverage expansion will widen CGM use in type 2 diabetes."
+    }
+   }
+  },
+  "e65f5ced72a3": {
+   "cat": "regulatory",
+   "imp": 7,
+   "summary": "The FDA gave tentative approval to Dr. Reddy's generic version of Gilead's twice-yearly HIV prevention injection lenacapavir, clearing it for supply to dozens of lower-income countries at about $40 per person per year, with shipments planned to start next month.",
+   "rel": {
+    "healthcare": {
+     "score": 8,
+     "why": "Opens low-cost access to long-acting HIV prevention in low- and middle-income countries."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Generic licensing model for a major new HIV medicine."
+    },
+    "biosecurity": {
+     "score": 4,
+     "why": "Long-acting PrEP at scale could cut HIV transmission globally."
+    }
+   }
+  },
+  "37c05b969679": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "10x Genomics launched Sentira Single Cell, a cloud-based AI agent powered by Anthropic's Claude models that writes and runs analysis code when users ask questions about their Chromium single-cell data, priced by credits; 10x says results still need human review.",
+   "rel": {
+    "tools": {
+     "score": 7,
+     "why": "Brings agentic AI analysis to one of the most used single-cell platforms."
+    },
+    "ai": {
+     "score": 7,
+     "why": "Large-language-model agent embedded in a mainstream research workflow."
+    }
+   }
+  },
+  "e482d53d0b17": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Analysis: biosimilars of Merck's Keytruda are coming as its patents expire, but subcutaneous reformulation, contracting and other factors may make widespread uptake an uphill battle.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "The world's top-selling drug's patent cliff shapes oncology and biosimilar strategy."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Affects forecasts for Merck and biosimilar makers."
+    }
+   }
+  },
+  "d296b585307c": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "The FDA pushed its decision on Agios' mitapivat for sickle cell disease from 1 November 2026 to 1 February 2027 after classing Agios' response, about nine months of extra RISE UP safety data sent to help decide whether a REMS is needed, as a major amendment.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Delays a potential new oral sickle cell therapy."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Sickle cell patients wait longer for a new option."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Pushes out a key catalyst for Agios."
+    }
+   }
+  },
+  "1e4b87a9dc27": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Earnings roundup: AstraZeneca announced a new restructuring programme to redeploy resources, Alnylam shares fell on worries about a top drug, and Regeneron was rewarded for a record quarter.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Earnings from three bellwether drugmakers set the sector's tone."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Big share moves for large-cap biopharma."
+    }
+   }
+  },
+  "c24b6c598138": {
+   "cat": "regulatory",
+   "imp": 7,
+   "summary": "The FDA finalised guidance on potency assurance for cell and gene therapy products, replacing its 2011 potency guidance with a risk-based strategy from IND to post-market that covers raw-material controls, in-process testing and lot-release potency assays, including for short-shelf-life, viral-vector and patient-specific products; a webinar follows on 10 December.",
+   "rel": {
+    "cellgene": {
+     "score": 9,
+     "why": "Sets the FDA's current expectations for proving each CGT batch works, a frequent cause of delays."
+    },
+    "bioprocessing": {
+     "score": 7,
+     "why": "Directly shapes CGT manufacturing controls and release testing."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Regulatory clarity for a fast-growing modality."
+    }
+   }
+  },
+  "e4fbc922c939": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Abbott began a pivotal trial of its Cephea transcatheter mitral valve replacement system, delivered through a leg vein, aiming to enrol up to 585 patients in the US, Canada and Europe.",
+   "rel": {
+    "meddevices": {
+     "score": 7,
+     "why": "Large structural-heart company pushes into less invasive mitral replacement."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Could offer an option for patients unfit for surgery."
+    }
+   }
+  },
+  "76b9682a6ab4": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Fooditive is in advanced licensing talks to commercialise the low-calorie rare sugar 5-KDF, having tested production at 75,000-litre scale, and awaits an FDA decision on the sweetener.",
+   "rel": {
+    "agrifood": {
+     "score": 5,
+     "why": "New fermentation-made sweetener nearing commercial scale."
+    },
+    "fermentation": {
+     "score": 5,
+     "why": "Scale-up of a precision-fermented food ingredient."
+    }
+   }
+  },
+  "e916a80a6d07": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Researchers found that 'cellophane' bees build nests from a strong, waterproof, biodegradable polyester, a material that could inspire new sustainable plastics.",
+   "rel": {
+    "industrial": {
+     "score": 4,
+     "why": "Natural biopolymer could inform biodegradable materials design."
+    }
+   }
+  },
+  "117c7a08523b": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Global Burden of Disease analysis estimates 887,000 new cervical cancer cases and 369,000 deaths worldwide in 2023, with forecasts to 2050 showing where HPV vaccination and screening gaps persist.",
+   "rel": {
+    "healthcare": {
+     "score": 7,
+     "why": "Global data to target HPV vaccination and screening."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Screening coverage is a key driver of the burden."
+    }
+   }
+  },
+  "c9d343771e48": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Nature comment argues current epidemic surveillance misses outbreaks whose symptoms are unusual or unexpected, and sets out five overlooked steps to detect new epidemics faster.",
+   "rel": {
+    "biosecurity": {
+     "score": 7,
+     "why": "Practical proposals to close a gap in early outbreak detection."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Relevant to public-health surveillance systems."
+    }
+   }
+  },
+  "8f5b85fe41c9": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Nature feature on Neuropixels probes, which record hundreds of individual neurons at once and are now used from rodents to humans, and how they are changing neuroscience.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "Profiles a widely adopted large-scale neural recording technology."
+    },
+    "meddevices": {
+     "score": 3,
+     "why": "Human use of high-density probes."
+    }
+   }
+  },
+  "4ea7cce75ab4": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Preprint describes timePlex, which raises LC-MS throughput by encoding samples in time so several can run together. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "Could multiply throughput for mass-spectrometry proteomics and metabolomics."
+    }
+   }
+  },
+  "6744dd31130a": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Preprint reports a thiadiazole-succinimide compound that targets the V-ATPase subunit Vma13 and stops Candida albicans escaping from macrophages. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Possible new antifungal mechanism for invasive candidiasis."
+    }
+   }
+  },
+  "da72c18aea9e": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Preprint uses experimental evolution to show Csu pili play opposing roles at different stages of Acinetobacter baumannii lung infection. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Insight into a multidrug-resistant priority pathogen."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Concerns a WHO critical-priority resistant bacterium."
+    }
+   }
+  },
+  "390255eeb221": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Preprint reports an mRNA-lipid nanoparticle vaccine encoding the H. pylori secretion-system protein CagW that protected mice against H. pylori challenge. Not yet peer-reviewed.",
+   "rel": {
+    "cellgene": {
+     "score": 4,
+     "why": "Extends mRNA vaccines to a bacterial carcinogen."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Vaccine route as antibiotic resistance erodes H. pylori treatment."
+    }
+   }
+  },
+  "f62701c15eb3": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Preprint uses machine learning to design strong transcriptional activation domains, a type of disordered protein that structure-based AI design tools handle poorly. Not yet peer-reviewed.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "Extends AI protein design to intrinsically disordered proteins."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Useful parts for synthetic biology and gene regulation."
+    }
+   }
+  },
+  "0d86c34bbdb3": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Preprint shows fluidized-bed cathodes convert CO2 to formate at high rates while supporting microbial growth in situ. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 5,
+     "why": "Couples electrochemistry with microbes for CO2-based biomanufacturing."
+    },
+    "fermentation": {
+     "score": 4,
+     "why": "Formate as a feedstock for microbial production."
+    }
+   }
+  },
+  "d0f336615f9a": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Preprint introduces cell-in-drop genotyping that detects megabase-scale loss of heterozygosity caused by CRISPR-Cas9 cuts, offering a quantitative measure of on-target genotoxicity. Not yet peer-reviewed.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "A way to measure a key safety risk of Cas9 editing in therapies."
+    },
+    "tools": {
+     "score": 5,
+     "why": "New single-cell assay for editing quality control."
     }
    }
   }
@@ -13358,6 +13678,27 @@
     "healthcare": {
      "score": 4,
      "why": "Bears on treatment options for angina without obstructive coronary disease."
+    }
+   }
+  },
+  {
+   "id": "2026-11-02-stat-mitochondrial-replacement-fertility-tourism",
+   "title": "Women travel thousands of miles for a reproductive moonshot. Scientists say they've been misled",
+   "url": "https://www.statnews.com/2026/11/02/three-parent-ivf-fertility-tourism-investigation-mrt-therapy/",
+   "source": "STAT",
+   "kind": "news",
+   "published": "2026-11-02T10:00:00Z",
+   "cat": "policy",
+   "imp": 5,
+   "summary": "A STAT investigation found US facilitator International Fertility Group sent older women, mostly to a clinic in Albania, for mitochondrial replacement therapy marketed as boosting 'egg energy', claiming 34 births and a 54% pregnancy rate it did not substantiate. Experts say there is no published evidence the technique works for women over 40; after STAT's inquiries IFG paused new enrolment.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "Exposes unproven embryo-modification procedures sold to infertility patients through medical tourism."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Germline mitochondrial transfer is being used outside regulated settings, raising oversight questions for the field."
     }
    }
   }
