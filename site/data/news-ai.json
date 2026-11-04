@@ -1,72 +1,73 @@
 {
- "updated": "2026-11-03T13:42:53Z",
+ "updated": "2026-11-04T06:42:47Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-03T13:42:53Z",
+  "date": "2026-11-04T06:42:47Z",
   "points": [
    {
     "sec": "results",
-    "text": "Geron discontinued its phase 3 IMpactMF trial of Rytelo in JAK inhibitor-pretreated myelofibrosis after the data monitoring committee judged it unlikely to succeed, just as Novartis readies a bid for pelabresib. In Nature Medicine, Seres reported that its oral live biotherapeutic SER-155 cut bloodstream infections in stem cell transplant recipients by 77% versus placebo in a phase 1b trial, and NEJM published a TAVR trial in moderate aortic stenosis. Elsewhere Tiziana's intranasal foralumab met phase 2a endpoints in secondary progressive MS and Teva stopped a key innovative-drug trial for futility.",
+    "text": "Servier's sevasemten, bought from Edgewise for $1.55 billion upfront only five months ago, missed both primary and secondary endpoints in the pivotal GRAND CANYON trial in Becker muscular dystrophy. On the positive side, Recursion reported polyp-burden reductions in 13 of 15 patients with familial adenomatous polyposis and plans a pivotal trial in late 2027, and Nature Medicine published pooled data on IL-15-engineered TIL therapy in checkpoint-resistant melanoma. Abbott's TECTONIC lithotripsy data looked strong at 30 days, though analysts urged caution.",
     "ids": [
-     "b8a427439ebd",
-     "ce05186d03a4",
-     "26b61cbcc1ff",
-     "5f3bb4880fc1"
+     "0cfb08e4590f",
+     "9a91073dd4c9",
+     "c86f1bc5d09d",
+     "aca8ba9df002"
     ]
    },
    {
     "sec": "science",
-    "text": "Journal content leaned toward public health. A Global Burden of Disease analysis in Nature Medicine put cervical cancer at 887,000 new cases and 369,000 deaths in 2023, and a Nature comment argued surveillance systems miss epidemics with unusual symptoms and laid out five fixes. On bioRxiv, a cell-in-drop genotyping method measures the megabase-scale chromosome losses Cas9 cuts can cause, a safety readout gene-editing developers will want.",
+    "text": "Nightingale Health will run Alamar's NULISA proteomics on 80,000 UK Biobank samples to hunt for early blood signs of neurodegeneration. Preprints added an oral spirulina-made protein cocktail for C. difficile and a Cas9-guided nanopore method for checking plasmid quality in gene therapy and mRNA manufacturing.",
     "ids": [
-     "117c7a08523b",
-     "c9d343771e48",
-     "d0f336615f9a"
+     "166094e0e8bd",
+     "3f0758b60597",
+     "cbde9c5c0c89"
     ]
    },
    {
     "sec": "approvals",
-    "text": "The FDA accepted uniQure's Huntington's gene therapy AMT-130 for accelerated approval with a 1 May 2027 decision date and a likely advisory committee, and agreed a roughly 200-patient randomised confirmatory trial. It also gave tentative approval to Dr. Reddy's generic of Gilead's twice-yearly HIV prevention shot lenacapavir, priced at about $40 a year for lower-income countries, and finalised potency-assurance guidance for cell and gene therapies, replacing its 2011 rules. On the downside, Agios' mitapivat decision in sickle cell slipped to 1 February over REMS questions, Bright Minds got a partial clinical hold, and Form 483s flagged sterility and data problems at Hansoh and Samsung Biologics sites.",
+    "text": "Neurocrine defended its Prader-Willi drug Vykat XR after confirming another patient death, which would bring the reported total to eight, and plans a safety study in 2027. Vertex used its earnings call to reassure investors ahead of the FDA decision on its IgA nephropathy drug, and STAT looked at the tight race between Compass and a non-profit for the first psychedelic approval.",
     "ids": [
-     "9e9893d82d86",
-     "e65f5ced72a3",
-     "c24b6c598138",
-     "d296b585307c"
+     "2026-11-03-neurocrine-vykat-eighth-death",
+     "6f8406223f58",
+     "b2b072ddd814"
     ]
    },
    {
     "sec": "policy",
-    "text": "Bayer said it is working on a most-favoured-nation pricing deal with the Trump administration, adding to the drugmakers negotiating US prices. A STAT investigation found a US fertility facilitator sending older women abroad for mitochondrial replacement therapy on unsubstantiated claims, and a follow-up piece reported growing scientific doubts about the technique itself.",
+    "text": "KFF found Medicare Part D premiums will rise about 50% on average next year, while Pfizer's Albert Bourla said he expects the MFN pricing deals with the White House to survive likely Democratic midterm gains. The COINS Act's threat to China dealmaking is opening a door for Korea, and at COP17 leaders complained that companies using public genetic data are not paying into the benefit-sharing fund. Health AI governance was a theme, with the AMA and federal agencies both weighing who is liable when clinical AI goes wrong.",
     "ids": [
-     "c5255579af83",
-     "2026-11-02-stat-mitochondrial-replacement-fertility-tourism",
-     "81e8f39b40e6"
+     "a95e83daf693",
+     "1725f8fae817",
+     "c1ca15e493c0",
+     "a86707cc8cac"
     ]
    },
    {
     "sec": "money",
-    "text": "Merck KGaA is leaving contract manufacturing, selling its CDMO business, with five US sites and about 1,100 staff, to Lonza, while Samsung Biologics and AGC Biologics booked large new commercial manufacturing orders. Fresenius and WuXi Biologics signed one of the biggest biosimilar pacts yet, covering up to 37 molecules, and Samsung Bioepis handed Teva US rights to its Remicade and Enbrel biosimilars in a deal worth up to $420 million. LG Chem's obesity licence with Rhythm grew to $855 million, AbbVie licensed two Chinese migraine drugs for up to $757 million, and Novartis walked away from its BioArctic brain-shuttle collaboration.",
+    "text": "A quieter day for deals after Lonza's purchase of Merck KGaA's CDMO business. Labiotech's October round-up put the month's largest biotech acquisition at $2 billion, Shilpa CDMO is putting $50 million into peptide manufacturing, and CStone signed a clinical co-development pact with Kimia on a DNA-repair oncology drug.",
     "ids": [
-     "968fa55817bc",
-     "b65860dcd2f8",
-     "8cfe2d49e5b2",
-     "f77a93cf0155"
+     "d58098a5d85b",
+     "aec57b25a39d",
+     "b3d612bd7e9b"
     ]
    },
    {
     "sec": "companies",
-    "text": "Karyopharm filed for Chapter 11 and will be auctioned with Ayrmid as lead bidder and merger partner. Earnings set the tone elsewhere: CRISPR Therapeutics' Casgevy sales hit $99 million, nearly six times a year ago, BioMarin passed $1 billion in quarterly revenue, Neurocrine raised Ingrezza guidance, and AstraZeneca launched a new restructuring while Alnylam shares slumped. 10x Genomics also launched Sentira, a Claude-powered AI agent for single-cell analysis.",
+    "text": "Pfizer beat third-quarter estimates and raised 2026 guidance as oncology and migraine growth offset falling Covid sales, while trimming its obesity and PAH pipeline. Ultragenyx is cutting about 20% of staff and dropping a Wilson disease gene therapy, Philips set aside $322 million to settle the DOJ probe into its sleep apnea device recall, and Bayer again faced questions about splitting off crop science.",
     "ids": [
-     "4bbed7540c17",
-     "28b96e524e55",
-     "1e4b87a9dc27",
-     "37c05b969679"
+     "4b1ca993e1a9",
+     "dbf168b752b7",
+     "27f007d1fe59",
+     "2bad2c94e4dc"
     ]
    },
    {
     "sec": "biodef",
-    "text": "A Washington state resident died of H5N1 after exposure at a dairy with infected cattle, the first US bird flu death in a year. The CDC found no mutations pointing to easier spread and still rates public risk as low, but the case raises pressure on farm-worker protection and herd testing.",
+    "text": "The FDA cleared Cepheid's Xpert Hemorrhagic Fever Panel, which detects Ebola, Marburg, Lassa and Crimean-Congo viruses in about an hour, as Ebola spreads in Africa. New York recorded its first measles death in 30 years, a child in the north of the state, and Marburg genomes from Ethiopia's first outbreak point to a long-term hidden reservoir in East and Central Africa.",
     "ids": [
-     "7ece3982c7f4"
+     "886ccac672be",
+     "5ec798453c55",
+     "c258b1bc2bec"
     ]
    }
   ]
@@ -7752,9 +7753,6 @@
     }
    }
   },
-  "7b1b9de47181": {
-   "dup": "b8a427439ebd"
-  },
   "dcd9344ca6d8": {
    "cat": "other",
    "imp": 3,
@@ -8569,15 +8567,6 @@
      "why": "Shows how much spending GLP-1 drugs are absorbing."
     }
    }
-  },
-  "163c0fe9709f": {
-   "dup": "e5171998e98d"
-  },
-  "80fae03f4fe2": {
-   "dup": "68d06e5a1880"
-  },
-  "54aa8735355e": {
-   "dup": "7b1b9de47181"
   },
   "23a5df178dfc": {
    "dup": "8d94f307f7c6"
@@ -11511,18 +11500,6 @@
     }
    }
   },
-  "99c1993be921": {
-   "drop": true
-  },
-  "d000c5032b2a": {
-   "drop": true
-  },
-  "14bc36ab7885": {
-   "drop": true
-  },
-  "e24e33183477": {
-   "drop": true
-  },
   "d2613d55111c": {
    "drop": true
   },
@@ -11706,12 +11683,6 @@
     }
    }
   },
-  "65a3d15207c3": {
-   "drop": true
-  },
-  "1e1d7c71001a": {
-   "drop": true
-  },
   "98af2cc9b6f2": {
    "cat": "other",
    "imp": 3,
@@ -11724,19 +11695,7 @@
    }
   },
   "d16d91730530": {
-   "cat": "clinical",
-   "imp": 6,
-   "summary": "Abbott says its TECTONIC study of the investigational SonicForce coronary intravascular lithotripsy system in 335 patients met both primary endpoints, with 0.3% target lesion failure at 30 days and 97% procedural success. The data were presented at TCT and published in JACC: Cardiovascular Interventions; the device is not yet FDA-approved.",
-   "rel": {
-    "meddevices": {
-     "score": 9,
-     "why": "Pivotal data positioning Abbott to challenge the leader in coronary lithotripsy for calcified arteries."
-    },
-    "healthcare": {
-     "score": 5,
-     "why": "Adds a potential option for treating severely calcified coronary disease before stenting."
-    }
-   }
+   "dup": "aca8ba9df002"
   },
   "4672d319f5e2": {
    "cat": "other",
@@ -12073,9 +12032,6 @@
   },
   "687033b68bdc": {
    "dup": "82bb42b75563"
-  },
-  "740265a54cb4": {
-   "dup": "2026-11-01-p4-ccta-noninferior-ivus-pci"
   },
   "263a3f3caf04": {
    "drop": true
@@ -12513,33 +12469,6 @@
    "drop": true
   },
   "13068cb7a254": {
-   "drop": true
-  },
-  "46c94c106712": {
-   "drop": true
-  },
-  "8fee8e182daa": {
-   "drop": true
-  },
-  "37e38b04f015": {
-   "drop": true
-  },
-  "88c9a6df8478": {
-   "drop": true
-  },
-  "92b9cffa5e64": {
-   "drop": true
-  },
-  "48ffe9c67bdb": {
-   "drop": true
-  },
-  "9ce825bceda4": {
-   "drop": true
-  },
-  "5be18d55152f": {
-   "drop": true
-  },
-  "d873090f37e1": {
    "drop": true
   },
   "1c61d7de81bf": {
@@ -13813,18 +13742,6 @@
   "1d3e416b901b": {
    "dup": "26b61cbcc1ff"
   },
-  "1fc516b98c5e": {
-   "drop": true
-  },
-  "3e68e39d76a4": {
-   "drop": true
-  },
-  "18c6ecfeca75": {
-   "drop": true
-  },
-  "fa99e11a1d13": {
-   "drop": true
-  },
   "72208ce4892a": {
    "cat": "science",
    "imp": 3,
@@ -13840,96 +13757,6 @@
     }
    }
   },
-  "b474dc8610b2": {
-   "drop": true
-  },
-  "64345550e8c0": {
-   "drop": true
-  },
-  "7fa08cc73137": {
-   "drop": true
-  },
-  "7cf5d08c5cb8": {
-   "dup": "fce4785ffc2c"
-  },
-  "4e81e74ecef6": {
-   "drop": true
-  },
-  "5fb74a5cac35": {
-   "drop": true
-  },
-  "088ea64bea6f": {
-   "dup": "fce4785ffc2c"
-  },
-  "25ee30db8ec3": {
-   "drop": true
-  },
-  "bbfee811aa2a": {
-   "drop": true
-  },
-  "8b87cc6ba91d": {
-   "dup": "98f430df60ac"
-  },
-  "ec0bb7290235": {
-   "dup": "fce4785ffc2c"
-  },
-  "674476ff9dbe": {
-   "dup": "fce4785ffc2c"
-  },
-  "1fcd57a312ac": {
-   "drop": true
-  },
-  "77e8c00cb60c": {
-   "drop": true
-  },
-  "0f27c8467d9c": {
-   "drop": true
-  },
-  "774aa576506e": {
-   "drop": true
-  },
-  "8adb38f82a7b": {
-   "drop": true
-  },
-  "27cd6a8a231d": {
-   "drop": true
-  },
-  "c562014b6373": {
-   "drop": true
-  },
-  "a28d7f2c9d5d": {
-   "dup": "fce4785ffc2c"
-  },
-  "d26dc668a48d": {
-   "dup": "fce4785ffc2c"
-  },
-  "ddc17a5482c7": {
-   "drop": true
-  },
-  "e3272ab7ca7c": {
-   "drop": true
-  },
-  "63ff56390f8d": {
-   "dup": "172c5a44341a"
-  },
-  "08fd005800b6": {
-   "drop": true
-  },
-  "9da88a81f1f8": {
-   "drop": true
-  },
-  "208e7dc1e287": {
-   "dup": "7c813c078984"
-  },
-  "e8e2450dbffe": {
-   "drop": true
-  },
-  "45a53f002164": {
-   "dup": "2026-10-30-gc-biopharma-hunterase-icv"
-  },
-  "8e6f49534875": {
-   "drop": true
-  },
   "94f861a5bc1f": {
    "cat": "other",
    "imp": 3,
@@ -13940,15 +13767,6 @@
      "why": "Results of a top Korean drugmaker with a global EGFR drug."
     }
    }
-  },
-  "e30ea1ad7972": {
-   "drop": true
-  },
-  "edf068c0842d": {
-   "dup": "f743ef531124"
-  },
-  "9b892e89ae08": {
-   "drop": true
   },
   "ba01e7c4b4e7": {
    "cat": "funding",
@@ -13965,42 +13783,6 @@
     }
    }
   },
-  "e864311adca2": {
-   "dup": "ba01e7c4b4e7"
-  },
-  "8bdd156cdfc4": {
-   "dup": "28c1dd42e2b4"
-  },
-  "e0fcf3a1fd60": {
-   "drop": true
-  },
-  "62039be4986e": {
-   "drop": true
-  },
-  "f65e7d269d38": {
-   "drop": true
-  },
-  "2cef114cf345": {
-   "dup": "32820b40fa09"
-  },
-  "5c2f269f58d1": {
-   "drop": true
-  },
-  "5babf2962d26": {
-   "drop": true
-  },
-  "4e1d0f4d8a3d": {
-   "drop": true
-  },
-  "75025333793e": {
-   "dup": "157003cfd908"
-  },
-  "68ff61d3daa0": {
-   "drop": true
-  },
-  "c0d13355cef8": {
-   "dup": "157003cfd908"
-  },
   "e4f714ba9b72": {
    "cat": "other",
    "imp": 4,
@@ -14015,78 +13797,6 @@
      "why": "BD appetite at a big pharma supports biotech valuations."
     }
    }
-  },
-  "f59efc10b90d": {
-   "drop": true
-  },
-  "d69977a4d4fd": {
-   "dup": "5a3495574796"
-  },
-  "952417de4bbb": {
-   "dup": "5a3495574796"
-  },
-  "84934324676b": {
-   "drop": true
-  },
-  "69724cc3cbbc": {
-   "drop": true
-  },
-  "65faf13d45c6": {
-   "drop": true
-  },
-  "0d8ad6439ccc": {
-   "drop": true
-  },
-  "6bdb991e819d": {
-   "drop": true
-  },
-  "e3b77d178a2e": {
-   "drop": true
-  },
-  "260e5d47fbc8": {
-   "drop": true
-  },
-  "3986a34860d2": {
-   "drop": true
-  },
-  "6ba861e8c792": {
-   "dup": "68d06e5a1880"
-  },
-  "bee145658115": {
-   "drop": true
-  },
-  "e3672f1550df": {
-   "drop": true
-  },
-  "74f2728fce92": {
-   "dup": "98f430df60ac"
-  },
-  "559e6d5e418d": {
-   "drop": true
-  },
-  "dd2c98e4c894": {
-   "drop": true
-  },
-  "a7d625909f35": {
-   "drop": true
-  },
-  "034ec4345cd5": {
-   "drop": true
-  },
-  "bd18034d0017": {
-   "drop": true
-  },
-  "3d906ae61b68": {
-   "drop": true
-  },
-  "a67691798496": {
-   "drop": true
-  },
-  "06e27e10adae": {
-   "dup": "7c813c078984"
-  },
-  "35c53b47cfa6": {
-   "drop": true
   },
   "c0c7f95101eb": {
    "cat": "science",
@@ -14103,84 +13813,6 @@
     }
    }
   },
-  "03bf17746476": {
-   "drop": true
-  },
-  "4042ff57f9b0": {
-   "drop": true
-  },
-  "90ae09a68dbe": {
-   "drop": true
-  },
-  "caa88a34c27d": {
-   "drop": true
-  },
-  "568559b0bbf9": {
-   "dup": "d76c5250b63f"
-  },
-  "2330167c4bc4": {
-   "drop": true
-  },
-  "bfe09f254a31": {
-   "drop": true
-  },
-  "0142974eb2ad": {
-   "drop": true
-  },
-  "04ab67b848ec": {
-   "drop": true
-  },
-  "47ca1f10c6b6": {
-   "drop": true
-  },
-  "a1c582058388": {
-   "drop": true
-  },
-  "415e222efabe": {
-   "drop": true
-  },
-  "d11c7fcd08c1": {
-   "drop": true
-  },
-  "67e139d57680": {
-   "drop": true
-  },
-  "3ffbffff5c2c": {
-   "drop": true
-  },
-  "0ffcf1f2d96e": {
-   "drop": true
-  },
-  "4db06ed25f9c": {
-   "drop": true
-  },
-  "11f3cb257b6b": {
-   "drop": true
-  },
-  "c6e3a807cde5": {
-   "drop": true
-  },
-  "1b4fcac558ca": {
-   "drop": true
-  },
-  "fe226254889a": {
-   "drop": true
-  },
-  "5ce56eac88c3": {
-   "dup": "7c813c078984"
-  },
-  "4fd2cd0b533c": {
-   "drop": true
-  },
-  "8922e5e772fd": {
-   "drop": true
-  },
-  "8f528b8f13c2": {
-   "drop": true
-  },
-  "f5e20a68825f": {
-   "drop": true
-  },
   "7ee4d140cfc9": {
    "cat": "science",
    "imp": 3,
@@ -14196,25 +13828,893 @@
     }
    }
   },
-  "64bee9a3d2b3": {
+  "b3d612bd7e9b": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "CStone Pharmaceuticals says it has entered a clinical development collaboration with Kimia Therapeutics to advance a drug candidate targeting DNA repair pathways that solid tumours depend on.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Oncology co-development pact between a Chinese biotech and a DNA-repair drug developer."
+    }
+   }
+  },
+  "9fd3d558967c": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Verismo Therapeutics says its SynKIR-110 KIR-CAR T cells controlled tumours faster than a conventional CD28-based CAR T in preclinical models while producing about 10-fold less IFNγ and 30-fold less TNFα and IL-2, data shown at SITC 2026.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "Preclinical evidence for a CAR design aimed at lowering cytokine release."
+    }
+   }
+  },
+  "1a8468d9dbab": {
    "drop": true
   },
-  "108a2359675b": {
+  "56e64f71f1d7": {
+   "cat": "deals",
+   "imp": 3,
+   "summary": "Zuellig Pharma says it acquired a licensed facility in Hangzhou to build local clinical-trial supply sourcing in China.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Adds clinical supply capacity for trials run in China."
+    }
+   }
+  },
+  "166094e0e8bd": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Nightingale Health will use Alamar Biosciences' NULISA platform to measure hundreds of blood proteins in 80,000 UK Biobank samples, looking for early molecular signs of neurodegenerative disease.",
+   "rel": {
+    "tools": {
+     "score": 7,
+     "why": "Large-scale deployment of a high-sensitivity proteomics platform on a flagship biobank."
+    },
+    "diagnostics": {
+     "score": 6,
+     "why": "Could yield blood biomarkers for early neurodegeneration detection."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Biomarker data that could guide neurology drug development."
+    }
+   }
+  },
+  "c6ad699620b1": {
    "drop": true
   },
-  "ae179258fb70": {
+  "dbf168b752b7": {
+   "cat": "other",
+   "imp": 6,
+   "summary": "Ultragenyx is laying off about 20% of its staff, its second cut this year, and scrapping a Wilson disease gene therapy after a quarter with two FDA approvals but a major setback in Angelman syndrome.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "A leading rare-disease gene therapy developer drops an AAV programme."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Restructuring at a mid-sized rare-disease company."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Cost cuts after a key clinical setback."
+    }
+   }
+  },
+  "365f30e0897f": {
    "drop": true
   },
-  "27297f68bf53": {
-   "dup": "479ecd2af517"
-  },
-  "4495b25d6558": {
+  "c5f31ddc75df": {
    "drop": true
   },
-  "e9563b94ef04": {
+  "c5d1aebc3863": {
    "drop": true
   },
-  "9f7ee28adfb7": {
+  "01a1d54ea18e": {
+   "drop": true
+  },
+  "03e3de642873": {
+   "drop": true
+  },
+  "0cd986a6dfea": {
+   "dup": "0cfb08e4590f"
+  },
+  "b40841cdf61b": {
+   "drop": true
+  },
+  "7a35f99cb229": {
+   "drop": true
+  },
+  "0cfb08e4590f": {
+   "cat": "clinical",
+   "imp": 7,
+   "summary": "Sevasemten, the Becker muscular dystrophy drug Servier bought from Edgewise for $1.55 billion upfront five months ago, missed both its primary and secondary endpoints in the pivotal GRAND CANYON trial.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "A large late-stage failure in a rare neuromuscular disease with no approved treatment."
+    },
+    "investment": {
+     "score": 6,
+     "why": "Wipes out much of the value of one of the year's larger biotech acquisitions."
+    }
+   }
+  },
+  "1725f8fae817": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "Pfizer CEO Albert Bourla said he does not expect likely Democratic gains in Congress at the midterms to change the most-favoured-nation pricing deals drug companies struck with the Trump White House.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Signals industry expects the MFN pricing deals to hold after the election."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Bears on US drug pricing policy."
+    }
+   }
+  },
+  "27f007d1fe59": {
+   "cat": "other",
+   "imp": 6,
+   "summary": "Philips set aside $322 million after its Respironics unit reached an agreement in principle with the US Department of Justice to settle the investigation into its recall of potentially defective sleep apnea devices.",
+   "rel": {
+    "meddevices": {
+     "score": 8,
+     "why": "A major financial settlement over one of the largest device recalls."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Resolves a federal probe tied to patient safety."
+    }
+   }
+  },
+  "7aede2225fbf": {
+   "dup": "f77a93cf0155"
+  },
+  "58b8bc699f3f": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "AbbVie has scrapped a phase 2 monoclonal antibody for solid tumours after concluding it was unlikely to beat the current standard of care, Fierce reports.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Big-pharma oncology pipeline pruning."
+    }
+   }
+  },
+  "0627a3df86d2": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Pfizer dropped a phase 2 pulmonary arterial hypertension candidate targeting BMP9 for business reasons and pared back its obesity pipeline, according to its Q3 pipeline update.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Pipeline cuts at the largest US drugmaker, including in obesity."
+    }
+   }
+  },
+  "aca8ba9df002": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "Abbott posted positive 30-day results from its TECTONIC trial of the investigational SonicForce coronary intravascular lithotripsy system, with 0.3% target lesion failure and 97% procedural success in 335 patients, though analysts urged caution on the early data.",
+   "rel": {
+    "meddevices": {
+     "score": 9,
+     "why": "Pivotal data positioning Abbott to challenge the leader in coronary lithotripsy for calcified arteries."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Adds a potential option for treating severely calcified coronary disease before stenting."
+    }
+   }
+  },
+  "e0f4141211f0": {
+   "dup": "968fa55817bc"
+  },
+  "84989ed6e3be": {
+   "dup": "968fa55817bc"
+  },
+  "2bad2c94e4dc": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Bayer says its pharmaceutical business may be entering a growth cycle, but CEO Bill Anderson again faced questions on whether the group will split off its crop science arm.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Outlook for a top-20 drugmaker's pharma recovery."
+    },
+    "agrifood": {
+     "score": 6,
+     "why": "Possible separation of one of the largest crop science businesses."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Break-up speculation shapes the investor case for Bayer."
+    }
+   }
+  },
+  "bbab1ad74f0c": {
+   "dup": "4b1ca993e1a9"
+  },
+  "4b1ca993e1a9": {
+   "cat": "other",
+   "imp": 6,
+   "summary": "Pfizer beat third-quarter estimates and raised its 2026 guidance as oncology and migraine growth, an Eliquis beat and 37% growth from acquired products offset sharp falls in Covid product sales.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Bellwether results showing Pfizer's post-Covid portfolio taking over."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Guidance raise from the largest US drugmaker."
+    }
+   }
+  },
+  "4c00d71c018d": {
+   "drop": true
+  },
+  "9a91073dd4c9": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "Recursion says 13 of 15 patients with familial adenomatous polyposis had a reduction in polyp burden after 12 weeks of its lead candidate in phase 2, with a 47% median reduction, and plans a pivotal trial in the second half of 2027.",
+   "rel": {
+    "ai": {
+     "score": 7,
+     "why": "Clinical read-out for the leading AI-driven drug discovery company."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Positive phase 2 data in a rare hereditary cancer-predisposition syndrome with no approved drug."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Sets a pivotal timeline for Recursion's lead asset."
+    }
+   }
+  },
+  "02866995c420": {
+   "drop": true
+  },
+  "c1ca15e493c0": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "BioWorld reports that the proposed US COINS Act could upend biotech dealmaking with China, while Korea sees an opening to attract that business.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "US outbound-investment rules could reroute in-licensing away from China."
+    },
+    "investment": {
+     "score": 6,
+     "why": "Shifts where cross-border biotech deals and capital flow."
+    }
+   }
+  },
+  "5960ccefe214": {
+   "cat": "funding",
+   "imp": 3,
+   "summary": "The National Cancer Institute awarded Montefiore Einstein Comprehensive Cancer Center a $10 million grant for collaborative research on breast cancer dormancy, metastasis and relapse.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Federal funding for breast cancer relapse research."
+    }
+   }
+  },
+  "2ddf3d2ac9de": {
+   "drop": true
+  },
+  "886ccac672be": {
+   "cat": "regulatory",
+   "imp": 7,
+   "summary": "Cepheid received FDA clearance for its Xpert Hemorrhagic Fever Panel, a multiplex PCR test that detects Ebola, Marburg, Lassa and Crimean-Congo hemorrhagic fever viruses in about 61 minutes, the company says.",
+   "rel": {
+    "diagnostics": {
+     "score": 9,
+     "why": "First cleared rapid multiplex PCR panel for four high-consequence hemorrhagic fever viruses."
+    },
+    "biosecurity": {
+     "score": 8,
+     "why": "Faster frontline detection of Ebola and Marburg during active outbreaks."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Helps hospitals triage suspected viral hemorrhagic fever cases."
+    }
+   }
+  },
+  "6f8406223f58": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "Ahead of an FDA decision on its IgA nephropathy drug, Vertex executives used the earnings call to express conviction in the launch after recent scrutiny of its infection risk.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "A launch investors see as key to Vertex's growth beyond cystic fibrosis."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Management response to concerns weighing on the stock."
+    }
+   }
+  },
+  "369da48134cd": {
+   "drop": true
+  },
+  "d95c9167a2ee": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "Patients, providers and medtech firms filed hundreds of comments to the FDA on how it should regulate generative AI in medical devices; MedTech Dive summarises five main positions.",
+   "rel": {
+    "meddevices": {
+     "score": 7,
+     "why": "Input that will shape FDA rules for generative AI devices."
+    },
+    "ai": {
+     "score": 7,
+     "why": "Defines the regulatory path for generative AI in clinical products."
+    }
+   }
+  },
+  "bcec8ed6b353": {
+   "drop": true
+  },
+  "e105ded635eb": {
+   "drop": true
+  },
+  "a3fd351dfcd5": {
+   "drop": true
+  },
+  "2757b7cd16a7": {
+   "drop": true
+  },
+  "a5128b91e9bb": {
+   "drop": true
+  },
+  "61680c433251": {
+   "drop": true
+  },
+  "bbb7b0fd868b": {
+   "drop": true
+  },
+  "57d801a884e9": {
+   "drop": true
+  },
+  "c36af63effe7": {
+   "drop": true
+  },
+  "cef72016fa7f": {
+   "drop": true
+  },
+  "4b08d277a03e": {
+   "drop": true
+  },
+  "22a26f95deae": {
+   "drop": true
+  },
+  "223a19eef593": {
+   "drop": true
+  },
+  "04ee2f892ab9": {
+   "drop": true
+  },
+  "6ac4cbf2fd98": {
+   "drop": true
+  },
+  "086800c36dec": {
+   "drop": true
+  },
+  "567d9e1f1ca0": {
+   "drop": true
+  },
+  "32e49ce24823": {
+   "drop": true
+  },
+  "84408ea118c0": {
+   "drop": true
+  },
+  "5a24c2f29a99": {
+   "drop": true
+  },
+  "bfc9d0d21579": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Cambiotics says it has started a first-in-human trial of its engineered beneficial bacteria designed to help eliminate PFAS, in firefighters with occupational PFAS exposure.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Tests a microbial approach to reducing 'forever chemical' body burden."
+    },
+    "fermentation": {
+     "score": 3,
+     "why": "Live biotherapeutic built from engineered bacterial strains."
+    }
+   }
+  },
+  "eba55beddb3d": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Lupin launched generic raltegravir 600 mg tablets in the US as first-to-file, making it eligible for 180 days of generic exclusivity.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "First generic entry for a once-daily HIV integrase inhibitor dose."
+    }
+   }
+  },
+  "1eb662a19f2f": {
+   "drop": true
+  },
+  "0f71edabab99": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Researchers identified the molecular and neural pathway C. elegans uses to actively forget a learned odour, offering a framework for studying active forgetting.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Basic neuroscience on memory mechanisms."
+    }
+   }
+  },
+  "96d540898774": {
+   "drop": true
+  },
+  "9e0bbe816e87": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "The American Medical Association issued a brief saying AI developers and health systems, not only physicians, should share liability for clinical AI, assigning distinct responsibilities to each.",
+   "rel": {
+    "ai": {
+     "score": 7,
+     "why": "Sets out who is accountable when clinical AI causes harm."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Shapes how hospitals adopt and govern AI tools."
+    },
+    "meddevices": {
+     "score": 4,
+     "why": "Affects liability exposure for AI software vendors."
+    }
+   }
+  },
+  "aec57b25a39d": {
+   "cat": "contracts",
+   "imp": 4,
+   "summary": "Contract Pharma reports that India's Shilpa CDMO is investing $50 million in peptide manufacturing capacity.",
+   "rel": {
+    "bioprocessing": {
+     "score": 6,
+     "why": "Adds peptide CDMO capacity as GLP-1 demand grows."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "More outsourced supply for peptide drugs."
+    }
+   }
+  },
+  "3bcc55526529": {
+   "drop": true
+  },
+  "b2b072ddd814": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "STAT looks at the race for the first FDA-approved psychedelic drug, where frontrunner Compass Pathways may face a close contest with a non-profit developer.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "First psychedelic approval would open a new class of psychiatric drugs."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Who wins first shapes value in the psychedelic biotech space."
+    }
+   }
+  },
+  "1684026d4567": {
+   "dup": "37ab08fbddfe"
+  },
+  "4a9a34d040c1": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "Federal officials at the FDA and CMS are looking to work with states on regulating health AI, alongside a push to protect doctors from AI liability, STAT reports.",
+   "rel": {
+    "ai": {
+     "score": 7,
+     "why": "Signals a federal-state approach to governing health AI."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Affects how providers deploy AI tools."
+    }
+   }
+  },
+  "fb46ca08dc69": {
+   "dup": "5ec798453c55"
+  },
+  "e32e289786fc": {
+   "drop": true
+  },
+  "f3b60d7b1eb8": {
+   "drop": true
+  },
+  "648e93ee225f": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "T-Cypher Bio presented preclinical data at SITC 2026 on two T cell engager candidates aimed at cancer targets with high copy numbers on tumour cells, the company says.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Early T cell engager candidates in oncology."
+    }
+   }
+  },
+  "d58098a5d85b": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "Labiotech's October round-up: the month's largest biotech acquisition was worth $2 billion, with licensing deals spread across therapeutic technologies.",
+   "rel": {
+    "investment": {
+     "score": 5,
+     "why": "Monthly snapshot of biotech M&A and licensing values."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Shows where dealmaking concentrated in October."
+    }
+   }
+  },
+  "a551d4d8707d": {
+   "drop": true
+  },
+  "c58af59c0cc2": {
+   "drop": true
+  },
+  "26dcd10268d3": {
+   "drop": true
+  },
+  "e79728c0bf96": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Evaxion will present broad biomarker data from the phase 2 trial of its AI-designed personalised cancer vaccine EVX-01 at SITC 2026, the company says.",
+   "rel": {
+    "ai": {
+     "score": 4,
+     "why": "Data from an AI-designed personalised neoantigen vaccine."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Biomarker follow-up from a phase 2 cancer vaccine trial."
+    }
+   }
+  },
+  "281799db0744": {
+   "drop": true
+  },
+  "5ec798453c55": {
+   "cat": "other",
+   "imp": 7,
+   "summary": "A child in rural northern New York has died of measles, the state's first measles death in 30 years, amid the largest US measles outbreak in more than three decades.",
+   "rel": {
+    "biosecurity": {
+     "score": 6,
+     "why": "A fatal case marks escalating harm from the national measles resurgence."
+    },
+    "healthcare": {
+     "score": 7,
+     "why": "Highlights gaps in vaccination coverage and outbreak response."
+    }
+   }
+  },
+  "a95e83daf693": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "Medicare Part D premiums will rise about 50% on average next year, KFF found, urging seniors to compare plans carefully during open enrolment given wide variance in costs.",
+   "rel": {
+    "healthcare": {
+     "score": 7,
+     "why": "A sharp cost increase for US seniors' drug coverage."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Part D redesign pressures plan economics and drug access."
+    }
+   }
+  },
+  "b50ec8dddb23": {
+   "dup": "9e9893d82d86"
+  },
+  "b946bbe48cc7": {
+   "drop": true
+  },
+  "60c030ef55bd": {
+   "drop": true
+  },
+  "729d29a04b6c": {
+   "drop": true
+  },
+  "89645b6ce51b": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "Food tech startup Nutrition From Water is partnering with Portuguese ingredient firm Prolacto to develop hybrid dairy blends that combine its water-based proteins and fibres with dairy.",
+   "rel": {
+    "agrifood": {
+     "score": 6,
+     "why": "Commercial partnership for alternative protein ingredients in dairy."
+    },
+    "fermentation": {
+     "score": 3,
+     "why": "Novel protein ingredients for food applications."
+    }
+   }
+  },
+  "a48758f449ca": {
+   "drop": true
+  },
+  "4bd917222d73": {
+   "drop": true
+  },
+  "83140d6b0e0f": {
+   "drop": true
+  },
+  "a84ce6e8b7b4": {
+   "drop": true
+  },
+  "fd593ea6b92d": {
+   "drop": true
+  },
+  "0908e6d1e566": {
+   "drop": true
+  },
+  "76acaba1612c": {
+   "drop": true
+  },
+  "eecc4f6cc8d1": {
+   "drop": true
+  },
+  "2661bb752d26": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Scientists found evidence that a deadly chytrid fungus swept through Brazil and devastated vulnerable frog species, likely solving a nearly 50-year-old mystery of vanishing frogs.",
+   "rel": {
+    "biosecurity": {
+     "score": 3,
+     "why": "Shows how an emerging wildlife pathogen spread undetected for decades."
+    }
+   }
+  },
+  "5a91f60703e9": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "More than €55 billion from the EU's pandemic recovery fund has gone to research and innovation, and European scientists worry the investment will not be sustained as the fund winds down.",
+   "rel": {
+    "investment": {
+     "score": 5,
+     "why": "A large public research funding stream in Europe is ending."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Labs funded by the recovery fund face budget cliffs."
+    }
+   }
+  },
+  "9476cd1bccd9": {
+   "drop": true
+  },
+  "36980f90a911": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Bracco is investing $230 million in a plant in Sanford, North Carolina, its first US manufacturing site for injectable contrast media.",
+   "rel": {
+    "meddevices": {
+     "score": 6,
+     "why": "Onshores production of imaging contrast agents."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Part of the wave of US manufacturing investment by foreign firms."
+    },
+    "bioprocessing": {
+     "score": 3,
+     "why": "New sterile injectables capacity in the US."
+    }
+   }
+  },
+  "280b6971b865": {
+   "drop": true
+  },
+  "cdeed3d071e8": {
+   "drop": true
+  },
+  "c86f1bc5d09d": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "In a non-prespecified pooled analysis of phase 1 and 1/2 trials published in Nature Medicine and presented at SITC 2026, tumour-infiltrating lymphocytes engineered with regulatable membrane-bound IL-15 were tested in melanoma resistant to checkpoint inhibitors.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "Clinical data for an engineered next-generation TIL cell therapy."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Option for checkpoint-refractory melanoma."
+    }
+   }
+  },
+  "c258b1bc2bec": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "Sequencing of Marburg virus from Ethiopia's first outbreak suggests the pathogen has been lurking long-term in East and Central Africa, Nature reports.",
+   "rel": {
+    "biosecurity": {
+     "score": 7,
+     "why": "Points to an undetected reservoir that raises future Marburg spillover risk."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Genomic surveillance informs outbreak detection."
+    }
+   }
+  },
+  "a86707cc8cac": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "At the COP17 biodiversity summit, leaders complained that companies using public genetic sequence data are not paying into the voluntary fund meant to share the benefits, Nature reports.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Pressure could turn voluntary DSI payments into binding obligations for drug developers."
+    },
+    "agrifood": {
+     "score": 5,
+     "why": "Seed and crop companies also rely on public genetic data."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Affects use of open sequence databases."
+    },
+    "investment": {
+     "score": 3,
+     "why": "A possible new cost on genetic-data-driven businesses."
+    }
+   }
+  },
+  "820e440b00c2": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint describes putative biosurfactants produced by polar microbial consortia, aimed at food, pharmaceutical and environmental uses. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 4,
+     "why": "New microbial sources of biodegradable surfactants."
+    }
+   }
+  },
+  "3f0758b60597": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Researchers describe an oral cocktail of therapeutic proteins produced in transgenic spirulina to treat C. difficile infection, an approach to delivering protein drugs to the gut. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Potential low-cost oral biologic for a major hospital infection."
+    },
+    "bioprocessing": {
+     "score": 5,
+     "why": "Uses engineered spirulina as a production host for therapeutic proteins."
+    }
+   }
+  },
+  "cbde9c5c0c89": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "NPlasmid-seq uses Cas9-guided nanopore sequencing to check vector and IVT-template plasmids molecule by molecule, catching structural heterogeneity that consensus QC misses. Not yet peer-reviewed.",
+   "rel": {
+    "bioprocessing": {
+     "score": 6,
+     "why": "Better QC for plasmids used in gene therapy and mRNA manufacturing."
+    },
+    "tools": {
+     "score": 5,
+     "why": "A new nanopore-based sequencing assay."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Plasmid integrity matters for AAV and mRNA production."
+    }
+   }
+  },
+  "b4b4b6dbc76c": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A genome-wide screen maps the host factors that single-stranded RNA and DNA bacteriophages need to infect bacteria. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Basic biology relevant to phage therapy."
+    }
+   }
+  },
+  "adc467f8c2b5": {
+   "drop": true
+  },
+  "192bee182028": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A degradable ceramic scaffold that drives fibronectin assembly let low-dose BMP-2 regenerate structurally mature bone in critical-sized load-bearing defects in an animal model. Not yet peer-reviewed.",
+   "rel": {
+    "meddevices": {
+     "score": 4,
+     "why": "Bone-graft material aiming to cut BMP-2 doses."
+    }
+   }
+  },
+  "158bc3bf3266": {
+   "drop": true
+  },
+  "5b24fba5a940": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint finds the PhoPQ system regulates quorum sensing in small colony variants of Pseudomonas aeruginosa, a hospital pathogen that forms biofilms. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "A possible target against persistent P. aeruginosa infections."
+    }
+   }
+  },
+  "5ff31004795e": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Researchers report a rational design strategy for protease-resistant peptide fusion inhibitors against enveloped viruses. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Addresses a key weakness of peptide antivirals."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Broad-spectrum antiviral approach for enveloped viruses."
+    }
+   }
+  },
+  "084291ee6f86": {
+   "drop": true
+  },
+  "2e6596728872": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint describes AAVS1 FRT cell lines for inducible, dose-dependent transgene expression to make stable cell line generation more reproducible. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 4,
+     "why": "A research tool for reproducible stable cell lines."
+    }
+   }
+  },
+  "bf374130e4cc": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Click-alginate cryogels allow non-invasive near-infrared sensing of gastric pH, which is rarely measured despite widespread acid-suppressive therapy. Not yet peer-reviewed.",
+   "rel": {
+    "meddevices": {
+     "score": 4,
+     "why": "Ingestible sensing material for gastric acidity."
+    },
+    "diagnostics": {
+     "score": 3,
+     "why": "Possible new way to monitor acid suppression."
+    }
+   }
+  },
+  "a1c18472d690": {
    "drop": true
   }
  },
@@ -14759,6 +15259,31 @@
     "cellgene": {
      "score": 4,
      "why": "Germline mitochondrial transfer is being used outside regulated settings, raising oversight questions for the field."
+    }
+   }
+  },
+  {
+   "id": "2026-11-03-neurocrine-vykat-eighth-death",
+   "title": "Neurocrine defends Prader-Willi drug after another patient death",
+   "url": "https://www.biospace.com/business/neurocrine-defends-prader-willi-drug-after-another-patient-death",
+   "source": "BioSpace",
+   "kind": "news",
+   "published": "2026-11-03T18:00:00Z",
+   "cat": "regulatory",
+   "imp": 6,
+   "summary": "Neurocrine confirmed another death in a patient taking its Prader-Willi syndrome drug Vykat XR, which BioSpace says would bring reported deaths to eight; clinicians say the events are not definitively linked to the drug. Neurocrine says it is confident in the benefit-risk profile and current label, and plans a dosing and safety study in 2027.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Post-marketing safety pressure on a drug Neurocrine bought with its $2.9 billion Soleno acquisition."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Prescribers of a rare-disease drug face mounting safety signals."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Vykat brought in $107 million in Q3 and analysts expect discontinuations."
     }
    }
   }
