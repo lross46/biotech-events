@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-04T06:42:47Z",
+ "updated": "2026-11-04T13:44:19Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-04T06:42:47Z",
+  "date": "2026-11-04T13:44:19Z",
   "points": [
    {
     "sec": "results",
-    "text": "Servier's sevasemten, bought from Edgewise for $1.55 billion upfront only five months ago, missed both primary and secondary endpoints in the pivotal GRAND CANYON trial in Becker muscular dystrophy. On the positive side, Recursion reported polyp-burden reductions in 13 of 15 patients with familial adenomatous polyposis and plans a pivotal trial in late 2027, and Nature Medicine published pooled data on IL-15-engineered TIL therapy in checkpoint-resistant melanoma. Abbott's TECTONIC lithotripsy data looked strong at 30 days, though analysts urged caution.",
+    "text": "Servier's sevasemten, bought from Edgewise for $1.55 billion upfront only five months ago, missed both primary and secondary endpoints in the pivotal GRAND CANYON trial in Becker muscular dystrophy. On the positive side, Recursion reported polyp-burden reductions in 13 of 15 patients with familial adenomatous polyposis and plans a pivotal trial in late 2027, and Nature Medicine published phase 2 data showing encouraging pathological responses with perioperative ivonescimab in resectable lung cancer. Abbott's TECTONIC lithotripsy data looked strong at 30 days, though analysts urged caution.",
     "ids": [
      "0cfb08e4590f",
      "9a91073dd4c9",
-     "c86f1bc5d09d",
+     "fe06643ee011",
      "aca8ba9df002"
     ]
    },
@@ -44,21 +44,22 @@
    },
    {
     "sec": "money",
-    "text": "A quieter day for deals after Lonza's purchase of Merck KGaA's CDMO business. Labiotech's October round-up put the month's largest biotech acquisition at $2 billion, Shilpa CDMO is putting $50 million into peptide manufacturing, and CStone signed a clinical co-development pact with Kimia on a DNA-repair oncology drug.",
+    "text": "AbbVie paid Nxera $100 million upfront, in a deal worth up to about $1.4 billion, for a phase 1 gut-targeting IBD drug, and China's Minghui sold Japanese rights to its phase 3 thyroid eye disease antibody to ASKA for $110 million upfront. That follows Lonza's purchase of Merck KGaA's CDMO business; elsewhere Shilpa CDMO is putting $50 million into peptide manufacturing.",
     "ids": [
+     "46cb58fa782b",
+     "f31e179ef4c9",
      "d58098a5d85b",
-     "aec57b25a39d",
-     "b3d612bd7e9b"
+     "aec57b25a39d"
     ]
    },
    {
     "sec": "companies",
-    "text": "Pfizer beat third-quarter estimates and raised 2026 guidance as oncology and migraine growth offset falling Covid sales, while trimming its obesity and PAH pipeline. Ultragenyx is cutting about 20% of staff and dropping a Wilson disease gene therapy, Philips set aside $322 million to settle the DOJ probe into its sleep apnea device recall, and Bayer again faced questions about splitting off crop science.",
+    "text": "Novo now forecasts roughly flat 2026 sales as its finance chief departs, says CagriSema will not reach Europe for a couple of years, and is still hunting deals after impairments from clinical misses. CVS Health plans to split into an insurance-and-pharmacy-services company and a retail pharmacy company, and a former Madrigal executive alleges the company covered up safety issues with its drug just as Rezdiffra passed $1 billion in annual sales. Pfizer beat estimates and raised guidance, while Ultragenyx is cutting about 20% of staff to halve R&D spend.",
     "ids": [
-     "4b1ca993e1a9",
-     "dbf168b752b7",
-     "27f007d1fe59",
-     "2bad2c94e4dc"
+     "94a92d994de0",
+     "1a4060d80628",
+     "60bc87ff3caa",
+     "4b1ca993e1a9"
     ]
    },
    {
@@ -14716,6 +14717,907 @@
   },
   "a1c18472d690": {
    "drop": true
+  },
+  "131a2e09bf3b": {
+   "drop": true
+  },
+  "36f1999d9af5": {
+   "drop": true
+  },
+  "eae4fe60b4fd": {
+   "drop": true
+  },
+  "4d2f68fad468": {
+   "drop": true
+  },
+  "35782cf3b40e": {
+   "drop": true
+  },
+  "53518c6e665c": {
+   "drop": true
+  },
+  "555eb7421b06": {
+   "drop": true
+  },
+  "bc1b85f0ac0f": {
+   "drop": true
+  },
+  "50be197b95d0": {
+   "drop": true
+  },
+  "25314e362238": {
+   "drop": true
+  },
+  "fe0b435f1479": {
+   "drop": true
+  },
+  "39922d9ee3e8": {
+   "drop": true
+  },
+  "46e53c71bcc3": {
+   "drop": true
+  },
+  "9080f33021e1": {
+   "drop": true
+  },
+  "b841e1cd7965": {
+   "drop": true
+  },
+  "82e6bccfa009": {
+   "drop": true
+  },
+  "ce24da375456": {
+   "drop": true
+  },
+  "46af7e6d81bd": {
+   "drop": true
+  },
+  "64d7ad489e5f": {
+   "drop": true
+  },
+  "cf563b1d05f0": {
+   "drop": true
+  },
+  "1476a4aa00dc": {
+   "drop": true
+  },
+  "79e85003ddba": {
+   "drop": true
+  },
+  "217428b790ad": {
+   "drop": true
+  },
+  "69dd84371004": {
+   "drop": true
+  },
+  "c83d53dcefc0": {
+   "drop": true
+  },
+  "daece8236aee": {
+   "drop": true
+  },
+  "eba35999c718": {
+   "drop": true
+  },
+  "82186064e0ee": {
+   "drop": true
+  },
+  "7d67668ea124": {
+   "drop": true
+  },
+  "42487870139f": {
+   "drop": true
+  },
+  "c82a9afaa041": {
+   "drop": true
+  },
+  "4049e4301776": {
+   "drop": true
+  },
+  "069d69b2edd4": {
+   "drop": true
+  },
+  "0174dc0b7fef": {
+   "drop": true
+  },
+  "c485899de855": {
+   "drop": true
+  },
+  "a87e24ade605": {
+   "drop": true
+  },
+  "dc82e6bb9562": {
+   "drop": true
+  },
+  "b2b7570f6645": {
+   "drop": true
+  },
+  "4e3539a4b955": {
+   "drop": true
+  },
+  "95a1d48a578b": {
+   "drop": true
+  },
+  "28aeaee18289": {
+   "drop": true
+  },
+  "d8255cd6b165": {
+   "drop": true
+  },
+  "41b443eda2df": {
+   "drop": true
+  },
+  "a764b7786021": {
+   "drop": true
+  },
+  "6fced81710ff": {
+   "drop": true
+  },
+  "fefe76a558a6": {
+   "drop": true
+  },
+  "7f0ccd9c4771": {
+   "drop": true
+  },
+  "7011f7b7068e": {
+   "drop": true
+  },
+  "ceeaed1b5777": {
+   "drop": true
+  },
+  "dade125b77c1": {
+   "drop": true
+  },
+  "1630c284baa9": {
+   "drop": true
+  },
+  "5bb2b3cc1c01": {
+   "drop": true
+  },
+  "3f89ba8181fa": {
+   "drop": true
+  },
+  "dbeb1098c7ee": {
+   "drop": true
+  },
+  "42e7018cd6d0": {
+   "drop": true
+  },
+  "48ffe9c67bdb": {
+   "drop": true
+  },
+  "8fee8e182daa": {
+   "drop": true
+  },
+  "46c94c106712": {
+   "drop": true
+  },
+  "3e68e39d76a4": {
+   "drop": true
+  },
+  "1fc516b98c5e": {
+   "drop": true
+  },
+  "5be18d55152f": {
+   "drop": true
+  },
+  "9ce825bceda4": {
+   "drop": true
+  },
+  "1e1d7c71001a": {
+   "drop": true
+  },
+  "65a3d15207c3": {
+   "drop": true
+  },
+  "64345550e8c0": {
+   "drop": true
+  },
+  "b474dc8610b2": {
+   "drop": true
+  },
+  "ddc17a5482c7": {
+   "drop": true
+  },
+  "d26dc668a48d": {
+   "drop": true
+  },
+  "a28d7f2c9d5d": {
+   "drop": true
+  },
+  "c562014b6373": {
+   "drop": true
+  },
+  "27cd6a8a231d": {
+   "drop": true
+  },
+  "8adb38f82a7b": {
+   "drop": true
+  },
+  "774aa576506e": {
+   "drop": true
+  },
+  "0f27c8467d9c": {
+   "drop": true
+  },
+  "77e8c00cb60c": {
+   "drop": true
+  },
+  "1fcd57a312ac": {
+   "drop": true
+  },
+  "674476ff9dbe": {
+   "drop": true
+  },
+  "ec0bb7290235": {
+   "drop": true
+  },
+  "bbfee811aa2a": {
+   "drop": true
+  },
+  "25ee30db8ec3": {
+   "drop": true
+  },
+  "088ea64bea6f": {
+   "drop": true
+  },
+  "5fb74a5cac35": {
+   "drop": true
+  },
+  "4e81e74ecef6": {
+   "drop": true
+  },
+  "7cf5d08c5cb8": {
+   "drop": true
+  },
+  "e3272ab7ca7c": {
+   "drop": true
+  },
+  "9da88a81f1f8": {
+   "drop": true
+  },
+  "e30ea1ad7972": {
+   "drop": true
+  },
+  "9b892e89ae08": {
+   "drop": true
+  },
+  "62039be4986e": {
+   "drop": true
+  },
+  "5babf2962d26": {
+   "drop": true
+  },
+  "5c2f269f58d1": {
+   "drop": true
+  },
+  "68ff61d3daa0": {
+   "drop": true
+  },
+  "84934324676b": {
+   "drop": true
+  },
+  "69724cc3cbbc": {
+   "drop": true
+  },
+  "65faf13d45c6": {
+   "drop": true
+  },
+  "0d8ad6439ccc": {
+   "drop": true
+  },
+  "e3b77d178a2e": {
+   "drop": true
+  },
+  "6bdb991e819d": {
+   "drop": true
+  },
+  "260e5d47fbc8": {
+   "drop": true
+  },
+  "3986a34860d2": {
+   "drop": true
+  },
+  "d873090f37e1": {
+   "drop": true
+  },
+  "bee145658115": {
+   "drop": true
+  },
+  "e3672f1550df": {
+   "drop": true
+  },
+  "a67691798496": {
+   "drop": true
+  },
+  "3d906ae61b68": {
+   "drop": true
+  },
+  "bd18034d0017": {
+   "drop": true
+  },
+  "034ec4345cd5": {
+   "drop": true
+  },
+  "a7d625909f35": {
+   "drop": true
+  },
+  "dd2c98e4c894": {
+   "drop": true
+  },
+  "559e6d5e418d": {
+   "drop": true
+  },
+  "35c53b47cfa6": {
+   "drop": true
+  },
+  "03bf17746476": {
+   "drop": true
+  },
+  "4042ff57f9b0": {
+   "drop": true
+  },
+  "90ae09a68dbe": {
+   "drop": true
+  },
+  "caa88a34c27d": {
+   "drop": true
+  },
+  "2330167c4bc4": {
+   "drop": true
+  },
+  "bfe09f254a31": {
+   "drop": true
+  },
+  "0142974eb2ad": {
+   "drop": true
+  },
+  "04ab67b848ec": {
+   "drop": true
+  },
+  "47ca1f10c6b6": {
+   "drop": true
+  },
+  "415e222efabe": {
+   "drop": true
+  },
+  "a1c582058388": {
+   "drop": true
+  },
+  "d11c7fcd08c1": {
+   "drop": true
+  },
+  "4db06ed25f9c": {
+   "drop": true
+  },
+  "0ffcf1f2d96e": {
+   "drop": true
+  },
+  "3ffbffff5c2c": {
+   "drop": true
+  },
+  "67e139d57680": {
+   "drop": true
+  },
+  "11f3cb257b6b": {
+   "drop": true
+  },
+  "1b4fcac558ca": {
+   "drop": true
+  },
+  "fe226254889a": {
+   "drop": true
+  },
+  "4fd2cd0b533c": {
+   "drop": true
+  },
+  "8922e5e772fd": {
+   "drop": true
+  },
+  "f5e20a68825f": {
+   "drop": true
+  },
+  "8f528b8f13c2": {
+   "drop": true
+  },
+  "64bee9a3d2b3": {
+   "drop": true
+  },
+  "108a2359675b": {
+   "drop": true
+  },
+  "ae179258fb70": {
+   "drop": true
+  },
+  "74f2728fce92": {
+   "dup": "98f430df60ac"
+  },
+  "8b87cc6ba91d": {
+   "dup": "98f430df60ac"
+  },
+  "63ff56390f8d": {
+   "dup": "172c5a44341a"
+  },
+  "6ba861e8c792": {
+   "dup": "68d06e5a1880"
+  },
+  "e864311adca2": {
+   "dup": "ea6110414e4d"
+  },
+  "27297f68bf53": {
+   "dup": "479ecd2af517"
+  },
+  "7fa08cc73137": {
+   "dup": "e9bc26ecbea5"
+  },
+  "d29c4fafb615": {
+   "dup": "dbf168b752b7"
+  },
+  "7468b7774f33": {
+   "dup": "60bc87ff3caa"
+  },
+  "c1753ddd194b": {
+   "dup": "46cb58fa782b"
+  },
+  "7b8b13a1d7e0": {
+   "dup": "f31e179ef4c9"
+  },
+  "f204071e570b": {
+   "dup": "94a92d994de0"
+  },
+  "568559b0bbf9": {
+   "dup": "d76c5250b63f"
+  },
+  "06e27e10adae": {
+   "dup": "7c813c078984"
+  },
+  "edf068c0842d": {
+   "dup": "f743ef531124"
+  },
+  "60bc87ff3caa": {
+   "cat": "other",
+   "imp": 6,
+   "summary": "STAT reports that a former Madrigal Pharmaceuticals executive alleges the company covered up safety issues tied to its drug.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Safety allegations against the maker of the first approved MASH drug."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Concerns patients taking a newly launched liver drug."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Allegations could weigh on a fast-growing commercial biotech."
+    }
+   }
+  },
+  "5bb40396c401": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Madrigal's Rezdiffra, the first FDA-approved MASH therapy, crossed $1 billion in annual sales, and CEO Bill Sibold called MASH an accelerating market.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Shows commercial scale for the first MASH drug as rivals approach."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Blockbuster milestone for a mid-cap biotech."
+    }
+   }
+  },
+  "94a92d994de0": {
+   "cat": "other",
+   "imp": 7,
+   "summary": "Novo now forecasts roughly flat 2026 sales, which Endpoints calls an upgrade for the company, as finance chief Karsten Munk Knudsen departs; Novo's CEO told Fierce it still wants deals to close pipeline gaps after impairment charges from clinical misses.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Outlook and leadership change at one of the two obesity market leaders."
+    },
+    "investment": {
+     "score": 6,
+     "why": "Novo remains open to acquisitions to refill its pipeline."
+    }
+   }
+  },
+  "e9c86d3d926e": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Novo will not launch its obesity drug CagriSema in Europe for 'a couple of years', outgoing CFO Karsten Munk Knudsen told Endpoints.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Delays Novo's next obesity drug in a major market."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Affects when European patients can access the combination."
+    }
+   }
+  },
+  "1a4060d80628": {
+   "cat": "other",
+   "imp": 7,
+   "summary": "CVS Health says it intends to separate into two companies: one for health benefits, pharmacy services and care delivery, and one for national retail pharmacy and community healthcare.",
+   "rel": {
+    "healthcare": {
+     "score": 8,
+     "why": "Breakup of one of the largest US insurers and pharmacy chains."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Splits a major PBM and pharmacy channel for drugmakers."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Large corporate restructuring in US healthcare."
+    }
+   }
+  },
+  "46cb58fa782b": {
+   "cat": "deals",
+   "imp": 6,
+   "summary": "AbbVie is paying Nxera $100 million upfront in a deal worth up to about $1.4 billion for a phase 1 gut-targeting inflammatory bowel disease candidate Nxera had deprioritised.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Big Pharma licensing in IBD from a Japan-UK biotech."
+    },
+    "investment": {
+     "score": 5,
+     "why": "$100M upfront for an early-stage asset."
+    }
+   }
+  },
+  "f31e179ef4c9": {
+   "cat": "deals",
+   "imp": 5,
+   "summary": "Shanghai-based Minghui Pharmaceutical licensed Japanese rights to its phase 3 IGF-1R antibody for thyroid eye disease to ASKA Pharmaceutical for $110 million upfront.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "China-to-Japan out-licensing of a late-stage antibody."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Sizeable upfront for a regional rights deal."
+    }
+   }
+  },
+  "902ff4326f37": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Sanofi has ended work on a STAT6 degrader licensed from Nurix for inflammatory disease, two months after it entered the clinic.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Early exit from a closely watched oral STAT6 approach in immunology."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Setback for Nurix's partnered pipeline."
+    }
+   }
+  },
+  "2ff8daea962c": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "AbbVie is investing £120 million ($160 million) to expand its UK R&D presence, including a new R&D headquarters.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Big Pharma R&D investment in the UK amid pricing tensions."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Signal on the UK life sciences climate."
+    }
+   }
+  },
+  "fe06643ee011": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "In a nonrandomised phase 2 trial in Nature Medicine, perioperative ivonescimab alone or with chemotherapy gave encouraging pathological response rates in resectable non-small cell lung cancer.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Extends the PD-1/VEGF bispecific into early-stage lung cancer."
+    }
+   }
+  },
+  "8002dbd00599": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "HLB's liver cancer drug (rivoceranib with camrelizumab) is back under FDA review after resubmission, with a decision due in April.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Third FDA attempt for a Korean-Chinese liver cancer combination."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Major catalyst for HLB shares."
+    }
+   }
+  },
+  "439c7c307fe6": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Korea's Ministry of Food and Drug Safety approved Novartis' Vanrafia (atrasentan) for adults with IgA nephropathy, the country's first selective endothelin A receptor antagonist for the disease.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Asian approval in a crowded IgA nephropathy market."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "New option for Korean kidney patients."
+    }
+   }
+  },
+  "f4b806218839": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "From December, Korea will cut patients' share of covered medical costs for rare and severe intractable diseases from 10% to 7%, benefiting about 1.36 million patients.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "National reimbursement change for rare-disease patients."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Lowers patient costs for rare-disease drugs in Korea."
+    }
+   }
+  },
+  "7bcfec03eeaf": {
+   "cat": "funding",
+   "imp": 3,
+   "summary": "Korean medical AI company Lunit will issue 47.7 billion won ($35.6 million) of zero-coupon convertible bonds to refinance debt from its 2024 acquisition of Volpara Health Technologies.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "Financing at a leading medical imaging AI company."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Volpara is a breast cancer screening business."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Debt refinancing by a listed medtech."
+    }
+   }
+  },
+  "2a4d45004dea": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Daewoong Pharmaceutical's third-quarter operating profit rose 25.4% to 71.3 billion won on revenue of 459.4 billion won (+11.6%), with record exports of its botulinum toxin Nabota.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Results from a major Korean drugmaker driven by toxin exports."
+    }
+   }
+  },
+  "b367ec797fdd": {
+   "cat": "funding",
+   "imp": 3,
+   "summary": "1st Biotherapeutics raised 10 billion won ($7.5 million) with SK biopharmaceuticals as a strategic investor, bringing its total funding to about 117.5 billion won.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Strategic backing for a Korean drug developer."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Korean biotech venture round."
+    }
+   }
+  },
+  "2f681c9272b2": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Celltrion says its four-pathway obesity candidate CT-G32/SCO-940 produced greater weight loss than Lilly's retatrutide in a rat study. Preclinical only.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Early entrant in next-generation multi-agonist obesity drugs."
+    }
+   }
+  },
+  "5e5a8f78e18e": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "UCB says it is adding Cradle's AI protein-engineering platform to its computational antibody discovery work under a new collaboration; terms were not given in the release.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "Pharma adopting generative AI for antibody engineering."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Antibody discovery partnership at UCB."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Platform deal for an AI protein-design tool."
+    }
+   }
+  },
+  "1ed6cfe61907": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "IASO Bio and partner Pills and Pokes launched FUCASO, its fully human BCMA CAR-T therapy approved by Singapore's Health Sciences Authority, in Singapore on 3 November, the company says.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Chinese-developed CAR-T reaching a Southeast Asian market."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "International commercial launch for a Chinese biotech."
+    }
+   }
+  },
+  "fb43e205a495": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "The Scientist reports on generative AI-designed protein binders that pair with custom fluorescent dyes for ultra-stable, multicolour live-cell imaging.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "New imaging reagents from AI protein design."
+    },
+    "ai": {
+     "score": 5,
+     "why": "Applied generative protein design."
+    }
+   }
+  },
+  "cda659039d8e": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "An opinion piece in The Scientist argues AI companies should broaden scientists' access to advanced models, citing Anthropic's biology work, and that universities and journals should reward AI collaboration.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "Debate over academic access to frontier AI for biology."
+    }
+   }
+  },
+  "a86cff3f2d7a": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Researchers built a snake-inspired soft robotic scope that navigated pig intestines to image, take biopsies and deliver drugs.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Early-stage robotic endoscopy for the small intestine."
+    }
+   }
+  },
+  "2a1d55847c02": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "The UK and EU agreed a deal removing post-Brexit agrifood checks, with novel foods set for a temporary exemption that preserves the UK's separate path on cultivated meat approvals.",
+   "rel": {
+    "agrifood": {
+     "score": 7,
+     "why": "Keeps the UK route open for cultivated meat and novel foods."
+    },
+    "fermentation": {
+     "score": 4,
+     "why": "Novel food rules also cover precision-fermentation ingredients."
+    }
+   }
+  },
+  "07b2779b2a24": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Oxford-based Ivy Farm Technologies won UK clearance to sell cultivated Wagyu beef as a pet food ingredient, the second such UK approval.",
+   "rel": {
+    "agrifood": {
+     "score": 6,
+     "why": "Another UK regulatory win for cultivated meat."
+    }
+   }
+  },
+  "6d6f41be2179": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "A US judge ruled for the maker of David protein bars in an antitrust lawsuit over the alternative fat EPG, finding David bars interchangeable with other protein bars.",
+   "rel": {
+    "agrifood": {
+     "score": 5,
+     "why": "Legal fight over a novel fat ingredient in food."
+    }
+   }
+  },
+  "fcf53b5e8ed7": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Researchers say one-time gene editing could replace lifelong drugs for heart disease and high cholesterol, but warn that permanent edits carry risks that may take years to appear.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "Long-term safety questions for in vivo editing of common diseases."
+    }
+   }
+  },
+  "d718a0418774": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "In lab experiments, scientists used carbon monoxide produced by tumour cells to make active drugs inside the cancer cells, aiming to spare healthy tissue.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Early prodrug strategy for selective cancer targeting."
+    }
+   }
+  },
+  "2352a4abc5d1": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A preprint shows a genomic language model can design regulatory DNA sequences from a few examples via in-context learning. Not yet peer-reviewed.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "Generative AI for designing gene regulatory elements."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Sequence design method for synthetic biology."
+    }
+   }
+  },
+  "64035cd73acd": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A preprint presents ORCA, which couples RADAR-based detection of amplified oncogenic RNA with a conditional payload to kill cancer cells selectively. Not yet peer-reviewed.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "Programmable RNA-sensing approach for gene-based cancer therapy."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Early oncology modality."
+    }
+   }
+  },
+  "d85696468a57": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature Medicine transcriptomic atlas of colorectal tumours across eight decades of life finds early-onset colorectal cancer has distinct biological features.",
+   "rel": {
+    "diagnostics": {
+     "score": 4,
+     "why": "Could inform screening and biomarkers for rising early-onset cases."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Biology of a growing cancer subgroup."
+    }
+   }
+  },
+  "740265a54cb4": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "An NEJM trial compares coronary CT angiography with intravascular ultrasound for guiding percutaneous coronary intervention.",
+   "rel": {
+    "meddevices": {
+     "score": 6,
+     "why": "Head-to-head test of imaging guidance for stenting."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Could change cardiology practice."
+    }
+   }
   }
  },
  "extra": [
