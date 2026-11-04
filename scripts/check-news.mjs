@@ -28,7 +28,8 @@ for (const s of src.sources || []) {
 const ids = new Set((news.items || []).map((i) => i.id));
 function checkReview(where, a) {
   if (a.drop) return;
-  if (a.dup) { if (!ids.has(a.dup) && !(ai.extra || []).some((x) => x.id === a.dup)) err(where, `dup points to unknown story ${a.dup}`); return; }
+  // Only check a dup while its own story is still in the feed: once that story is pruned, its original may be gone too.
+  if (a.dup) { if (where.startsWith("review ") && !ids.has(where.slice(7))) return; if (!ids.has(a.dup) && !(ai.extra || []).some((x) => x.id === a.dup)) err(where, `dup points to unknown story ${a.dup}`); return; }
   if (!a.summary) err(where, "missing summary");
   if (!CATS.includes(a.cat)) err(where, `cat must be one of ${CATS.join(", ")}`);
   if (!Number.isInteger(a.imp) || a.imp < 0 || a.imp > 10) err(where, "imp must be a whole number 0-10");
