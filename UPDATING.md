@@ -23,8 +23,15 @@ short summary and per-sector relevance scores. Aim for 100–250 upcoming events
    - Asia-Pacific, Latin America, Middle East & Africa,
    - webinars and online events in the next 2–3 months,
    - next editions of big recurring events once their dates are announced (look 18 months ahead).
+   - **hub-city sweep:** search "biotech show / expo / week / summit <city> <year>" for London, Cambridge,
+     Oxford, Boston, San Francisco, San Diego, Basel, Paris, Berlin, Amsterdam, Copenhagen, Singapore and
+     Tokyo, and check the "what's on" calendars of the big venues (ExCeL London, Olympia London, NEC
+     Birmingham, Messe Frankfurt/Düsseldorf/Munich, RAI Amsterdam, Boston BCEC, Moscone). Many large trade
+     shows run by independent organisers (e.g. London Biotechnology Show) appear on none of the sources below.
    Good sources: official society/organiser sites, Informa Connect, Terrapinn, Labroots, BIA, BIO, EBD Group,
-   BioCentury, Cambridge Healthtech Institute, Gordon Research Conferences, national biotech associations.
+   BioCentury, Cambridge Healthtech Institute, Gordon Research Conferences, national biotech associations,
+   Oxford Global, Kisaco Research, Easyfairs, Messe/venue event calendars, and event aggregators
+   (e.g. 10times, Conference Index) as leads to confirm on the official site.
 5. **Only add an event when** its dates and city are stated on the official site, or on two independent
    listings if the official site cannot be read. Use the official event URL (https). Never guess dates.
 6. For each event fill in: `id` (lowercase-dashes, include the year), `name`, `start`/`end` (YYYY-MM-DD),
