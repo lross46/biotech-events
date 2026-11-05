@@ -247,7 +247,6 @@ html{overscroll-behavior-y:contain}
         <div class="count" id="count"></div>
         <select class="sel" id="sort" aria-label="Sort by"></select>
         <button class="btn" type="button" id="srcbtn" hidden>Sources</button>
-        <a class="btn" id="suggest" href="https://github.com/lross46/biotech-events/issues/new?template=event-suggestion.yml" target="_blank" rel="noopener" title="Tell us about an event that is missing">+ Suggest event</a>
         <div class="seg" role="group" aria-label="View" id="viewseg">
           <button type="button" data-view="list">List</button>
           <button type="button" data-view="month">Month</button>
@@ -784,7 +783,6 @@ function render() {
   $("#sort").value = S.sort;
   $("#sort").hidden = news || S.view === "month";
   $("#srcbtn").hidden = !news || N.sources || N.about;
-  $("#suggest").hidden = news;
   $("#viewseg").hidden = news;
   persist();
   if (news) return renderNews();

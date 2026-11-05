@@ -15,13 +15,9 @@ short summary and per-sector relevance scores. Aim for 100–250 upcoming events
 1. Read `site/data/events.json`, `data/event-pipeline.json` (your working file: leads, watch list, last gap
    check) and `scripts/check-data.mjs` (it defines the allowed values for `type`, `format`, `region` and the
    sector ids).
-1b. **Leads and suggestions first.** Check every lead in `data/event-pipeline.json` → `leads` (added by the
-   daily news review) and every open GitHub issue titled "Event suggestion:" or labelled `event-suggestion`
-   in lross46/biotech-events (people suggest them from the app's "+ Suggest event" button). Apply the step 5
-   rule. Add the event if it qualifies, then remove the lead; close each issue with a one-line comment
-   ("Added: <name>, <dates>" or why not, e.g. "Not biotech" or "No dates announced yet; on the watch list").
-   A lead whose dates aren't announced yet goes on the watch list instead.
-   (Use the GitHub MCP tools for issues. If they aren't available, say so in the commit message and continue.)
+1b. **Leads first.** Check every lead in `data/event-pipeline.json` → `leads` (added by the daily news
+   review). Apply the step 5 rule. Add the event if it qualifies, then remove the lead. A lead whose dates
+   aren't announced yet goes on the watch list instead.
 2. **Prune:** delete events whose end date is more than 60 days in the past. Before deleting a recurring
    event, make sure its series is in `watch` (update `lastYear`, `lastStart`, `lastId`, `url`).
 2b. **Watch list:** for each `watch` entry with `nextKnown: false` whose last edition started more than 6
