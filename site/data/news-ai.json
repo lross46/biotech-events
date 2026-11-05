@@ -1,74 +1,73 @@
 {
- "updated": "2026-11-04T13:44:19Z",
+ "updated": "2026-11-05T06:45:16Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-04T13:44:19Z",
+  "date": "2026-11-05T06:45:16Z",
   "points": [
    {
     "sec": "results",
-    "text": "Servier's sevasemten, bought from Edgewise for $1.55 billion upfront only five months ago, missed both primary and secondary endpoints in the pivotal GRAND CANYON trial in Becker muscular dystrophy. On the positive side, Recursion reported polyp-burden reductions in 13 of 15 patients with familial adenomatous polyposis and plans a pivotal trial in late 2027, and Nature Medicine published phase 2 data showing encouraging pathological responses with perioperative ivonescimab in resectable lung cancer. Abbott's TECTONIC lithotripsy data looked strong at 30 days, though analysts urged caution.",
+    "text": "Kamau Therapeutics posted first data for its revamped sickle cell gene-editing therapy nula-cel 2.0, with no pain crises or transfusions in three patients, as the first wave of ASH abstracts landed; Umoja will present the first clinical data for its in vivo CAR-T. On the downside, Spyre dropped its anti-TL1A antibody in rheumatic diseases after trial misses and Ideaya halted a darovasertib study in uveal melanoma. At TCT, Edwards' TAVR in moderate aortic stenosis was the standout, with positive results for Medtronic's renal denervation and Abbott's appendage closure device.",
     "ids": [
-     "0cfb08e4590f",
-     "9a91073dd4c9",
-     "fe06643ee011",
-     "aca8ba9df002"
+     "88443e928d44",
+     "733cea70c44c",
+     "69e928cc14a5",
+     "437aae966814"
     ]
    },
    {
     "sec": "science",
-    "text": "Nightingale Health will run Alamar's NULISA proteomics on 80,000 UK Biobank samples to hunt for early blood signs of neurodegeneration. Preprints added an oral spirulina-made protein cocktail for C. difficile and a Cas9-guided nanopore method for checking plasmid quality in gene therapy and mRNA manufacturing.",
+    "text": "Nature published AutoDNA, a Chinese lab where AI agents run multi-step molecular biology experiments from a simple prompt, alongside an in vivo CAR-T double-knockout screen that finds gene pairs which make CAR-T cells more potent and gene circuits that switch on only in cancer cells by exploiting ribosomal frameshifting. Nature also reported seizures nearly vanishing in three epilepsy patients given an experimental brain gene therapy, and a large multi-omic glioblastoma atlas.",
     "ids": [
-     "166094e0e8bd",
-     "3f0758b60597",
-     "cbde9c5c0c89"
+     "b7943ae940a8",
+     "2aecb7de228e",
+     "858ec1befcc0",
+     "9c3ca22fa6cf"
     ]
    },
    {
     "sec": "approvals",
-    "text": "Neurocrine defended its Prader-Willi drug Vykat XR after confirming another patient death, which would bring the reported total to eight, and plans a safety study in 2027. Vertex used its earnings call to reassure investors ahead of the FDA decision on its IgA nephropathy drug, and STAT looked at the tight race between Compass and a non-profit for the first psychedelic approval.",
+    "text": "The FDA approved Inovio's Voceryq for a rare HPV-driven airway disease, the first plasmid DNA-based immunotherapy to reach the market. Philips will pay €288 million to settle the US Justice Department probe into its CPAP recall, and the MHRA set out how it treats trial applications relying on safety data from labs outside the OECD system. Pfizer expects Europe to approve its Lyme vaccine before the US.",
     "ids": [
-     "2026-11-03-neurocrine-vykat-eighth-death",
-     "6f8406223f58",
-     "b2b072ddd814"
+     "69838d8a29c8",
+     "30e6c28d3253",
+     "d291b98bc11f",
+     "2026-11-04-pfizer-lyme-vaccine-europe-first"
     ]
    },
    {
     "sec": "policy",
-    "text": "KFF found Medicare Part D premiums will rise about 50% on average next year, while Pfizer's Albert Bourla said he expects the MFN pricing deals with the White House to survive likely Democratic midterm gains. The COINS Act's threat to China dealmaking is opening a door for Korea, and at COP17 leaders complained that companies using public genetic data are not paying into the benefit-sharing fund. Health AI governance was a theme, with the AMA and federal agencies both weighing who is liable when clinical AI goes wrong.",
+    "text": "With Democrats now controlling Congress, STAT reports Bernie Sanders is set to hold major sway over the FDA funding bill, though analysts expect biotech stocks to rise and say drug pricing is not the new majority's first priority. Endpoints charted how China climbed industry worry lists ahead of the Treasury's draft investment limits even as big pharma kept licensing Chinese drugs.",
     "ids": [
-     "a95e83daf693",
-     "1725f8fae817",
-     "c1ca15e493c0",
-     "a86707cc8cac"
+     "d15c3500c940",
+     "4b35c66971dd",
+     "8226dacfc497"
     ]
    },
    {
     "sec": "money",
-    "text": "AbbVie paid Nxera $100 million upfront, in a deal worth up to about $1.4 billion, for a phase 1 gut-targeting IBD drug, and China's Minghui sold Japanese rights to its phase 3 thyroid eye disease antibody to ASKA for $110 million upfront. That follows Lonza's purchase of Merck KGaA's CDMO business; elsewhere Shilpa CDMO is putting $50 million into peptide manufacturing.",
+    "text": "Boehringer Ingelheim paid Sino Biopharmaceutical $358 million upfront for preclinical T-cell engagers and ADCs in a deal that could top $7 billion, the latest big China licensing deal. Blackstone Life Sciences will put up to $455 million into Boston Scientific's next miniature heart pump, Myriad Genetics agreed to sell its prenatal business, and Bayer teamed up with Brazil's IdeeLab on biofungicides.",
     "ids": [
-     "46cb58fa782b",
-     "f31e179ef4c9",
-     "d58098a5d85b",
-     "aec57b25a39d"
+     "a2566fb9fa79",
+     "54b4dc9fda93",
+     "c66e2814416a",
+     "1bddd950e5ed"
     ]
    },
    {
     "sec": "companies",
-    "text": "Novo now forecasts roughly flat 2026 sales as its finance chief departs, says CagriSema will not reach Europe for a couple of years, and is still hunting deals after impairments from clinical misses. CVS Health plans to split into an insurance-and-pharmacy-services company and a retail pharmacy company, and a former Madrigal executive alleges the company covered up safety issues with its drug just as Rezdiffra passed $1 billion in annual sales. Pfizer beat estimates and raised guidance, while Ultragenyx is cutting about 20% of staff to halve R&D spend.",
+    "text": "CVS Health will split its Aetna and Caremark businesses from its retail pharmacies, a sharp reversal of years of integration. Samsung Biologics' union says 400 staff will strike from 6 November, a risk for one of the largest biologics CDMOs. In medtech, Smith+Nephew's talks to combine orthopaedics with J&J's DePuy Synthes failed, and Zimmer raised its sales forecast despite slower knee sales.",
     "ids": [
-     "94a92d994de0",
-     "1a4060d80628",
-     "60bc87ff3caa",
-     "4b1ca993e1a9"
+     "485137e3ae54",
+     "15e335470b12",
+     "c7351353a5ca",
+     "cb4a049d88bc"
     ]
    },
    {
     "sec": "biodef",
-    "text": "The FDA cleared Cepheid's Xpert Hemorrhagic Fever Panel, which detects Ebola, Marburg, Lassa and Crimean-Congo viruses in about an hour, as Ebola spreads in Africa. New York recorded its first measles death in 30 years, a child in the north of the state, and Marburg genomes from Ethiopia's first outbreak point to a long-term hidden reservoir in East and Central Africa.",
+    "text": "An unexplained anthrax outbreak is killing hippos in the Democratic Republic of the Congo, raising concern about spillover to people in a country already fighting Ebola and cholera.",
     "ids": [
-     "886ccac672be",
-     "5ec798453c55",
-     "c258b1bc2bec"
+     "2615854f6598"
     ]
    }
   ]
@@ -8569,9 +8568,6 @@
     }
    }
   },
-  "23a5df178dfc": {
-   "dup": "8d94f307f7c6"
-  },
   "3355bd06c483": {
    "cat": "regulatory",
    "imp": 3,
@@ -9994,9 +9990,6 @@
   "4d1d4d171e06": {
    "dup": "f743ef531124"
   },
-  "445d6e8554f7": {
-   "dup": "bb54134c731c"
-  },
   "c6bdfea9fdac": {
    "cat": "clinical",
    "imp": 5,
@@ -11133,9 +11126,6 @@
     }
    }
   },
-  "6f6bd1013cba": {
-   "drop": true
-  },
   "aea27018c90e": {
    "cat": "other",
    "imp": 5,
@@ -11510,9 +11500,6 @@
   "eb5b6c404023": {
    "dup": "461acedffe78"
   },
-  "b27838171599": {
-   "dup": "5e0f3777aea2"
-  },
   "8700e4435e7b": {
    "cat": "science",
    "imp": 5,
@@ -11695,9 +11682,6 @@
     }
    }
   },
-  "d16d91730530": {
-   "dup": "aca8ba9df002"
-  },
   "4672d319f5e2": {
    "cat": "other",
    "imp": 5,
@@ -11845,151 +11829,7 @@
     }
    }
   },
-  "81218e82cb20": {
-   "drop": true
-  },
-  "ba2105c7905d": {
-   "drop": true
-  },
-  "ba2f44b07c6c": {
-   "drop": true
-  },
-  "d38ab7d84703": {
-   "drop": true
-  },
-  "f39792f996e0": {
-   "drop": true
-  },
-  "9c51bcd6be8d": {
-   "drop": true
-  },
-  "b76f8b3fa934": {
-   "drop": true
-  },
-  "c4823a5d2e60": {
-   "drop": true
-  },
-  "c9192792e603": {
-   "drop": true
-  },
-  "c5158d0728a3": {
-   "drop": true
-  },
-  "2dfc79907465": {
-   "drop": true
-  },
-  "8a5b01efd78b": {
-   "dup": "bf3fb39befd2"
-  },
-  "035c6237b810": {
-   "drop": true
-  },
-  "bb958441da34": {
-   "drop": true
-  },
-  "21b18340e1d9": {
-   "drop": true
-  },
-  "d0572a39be70": {
-   "drop": true
-  },
-  "0fd52159cfe9": {
-   "drop": true
-  },
-  "e08da9c6c354": {
-   "drop": true
-  },
-  "2260d98526cb": {
-   "drop": true
-  },
-  "62b4b429d164": {
-   "drop": true
-  },
-  "a8997a75fa46": {
-   "drop": true
-  },
-  "dd1af091155f": {
-   "drop": true
-  },
-  "412fbd623d12": {
-   "drop": true
-  },
-  "e137df26f347": {
-   "drop": true
-  },
-  "746ffd0fc289": {
-   "drop": true
-  },
-  "57c5130b1463": {
-   "drop": true
-  },
-  "a0286444becc": {
-   "drop": true
-  },
-  "337181b0cbff": {
-   "dup": "2026-11-01-transform-ii-sirolimus-balloon-noninferior"
-  },
-  "4d090dc68d99": {
-   "drop": true
-  },
-  "a4c253b00f9b": {
-   "drop": true
-  },
-  "0cf38a1adbd6": {
-   "drop": true
-  },
-  "663eb438af1a": {
-   "drop": true
-  },
-  "559ff3b6ff56": {
-   "drop": true
-  },
-  "290c14e0006d": {
-   "drop": true
-  },
-  "8156977ce882": {
-   "drop": true
-  },
-  "b4b5c5a2f915": {
-   "drop": true
-  },
-  "0d137280b19c": {
-   "drop": true
-  },
-  "87671dca638f": {
-   "drop": true
-  },
-  "52a1a41692d3": {
-   "drop": true
-  },
-  "ebf6afaf24c6": {
-   "drop": true
-  },
-  "891a326e32b5": {
-   "drop": true
-  },
-  "a22f7002dbed": {
-   "dup": "43e3765040dd"
-  },
-  "86b0728470a8": {
-   "drop": true
-  },
-  "21fb8dc84ead": {
-   "drop": true
-  },
-  "4f7725a5d351": {
-   "drop": true
-  },
-  "9cae35dda3ed": {
-   "drop": true
-  },
-  "bf7c6a9577c2": {
-   "drop": true
-  },
   "27d8e87cb968": {
-   "drop": true
-  },
-  "1bfd8fbfdee8": {
    "drop": true
   },
   "dae348d48773": {
@@ -11997,54 +11837,6 @@
   },
   "5085989fa43e": {
    "drop": true
-  },
-  "fbc0260228de": {
-   "dup": "cf3c350cfb69"
-  },
-  "fc2592095797": {
-   "drop": true
-  },
-  "58158dba3dd3": {
-   "drop": true
-  },
-  "021794762a95": {
-   "drop": true
-  },
-  "a5e934cb6e05": {
-   "drop": true
-  },
-  "323af45ce0aa": {
-   "dup": "2edbbfd9093f"
-  },
-  "bad72475d8c2": {
-   "drop": true
-  },
-  "1f5a8618fadd": {
-   "drop": true
-  },
-  "2007990be77f": {
-   "drop": true
-  },
-  "ce56a1baac95": {
-   "drop": true
-  },
-  "58d4eaa99eee": {
-   "drop": true
-  },
-  "687033b68bdc": {
-   "dup": "82bb42b75563"
-  },
-  "263a3f3caf04": {
-   "drop": true
-  },
-  "86d50a22ca0f": {
-   "dup": "9e9893d82d86"
-  },
-  "e2c084c6f930": {
-   "dup": "4bbed7540c17"
-  },
-  "16d237cb6bed": {
-   "dup": "b65860dcd2f8"
   },
   "57d9f44b9ea4": {
    "cat": "contracts",
@@ -12064,9 +11856,6 @@
      "why": "Recurring government revenue for a vaccine maker."
     }
    }
-  },
-  "889a7d67b847": {
-   "dup": "279485d7e260"
   },
   "df448c0ba0c5": {
    "cat": "clinical",
@@ -12097,9 +11886,6 @@
      "why": "Supports Korea's ADC licensing story."
     }
    }
-  },
-  "12ac0df36806": {
-   "dup": "5f3bb4880fc1"
   },
   "9c79ed74f947": {
    "cat": "deals",
@@ -12280,221 +12066,8 @@
   "45c3511e60ad": {
    "drop": true
   },
-  "e0127b331db1": {
-   "drop": true
-  },
-  "fbf5a9b971a0": {
-   "drop": true
-  },
-  "66689dd0ccb5": {
-   "drop": true
-  },
-  "5d7362f2b053": {
-   "drop": true
-  },
-  "a90da742718e": {
-   "drop": true
-  },
-  "9d19816d8301": {
-   "drop": true
-  },
-  "7ab5bf998ed3": {
-   "drop": true
-  },
-  "758dd6635047": {
-   "drop": true
-  },
-  "7cdd0970478b": {
-   "drop": true
-  },
-  "b43d967599f4": {
-   "drop": true
-  },
-  "7652e053f53f": {
-   "drop": true
-  },
-  "ccf25a9f47f6": {
-   "drop": true
-  },
-  "01eb542f29d5": {
-   "drop": true
-  },
-  "bb64fda7bbd6": {
-   "drop": true
-  },
-  "d4e1dcb9c287": {
-   "drop": true
-  },
-  "7f86a88dfc00": {
-   "drop": true
-  },
-  "97d3d6a588f9": {
-   "drop": true
-  },
-  "fba920fe254b": {
-   "drop": true
-  },
-  "4cd0ccbb6bd7": {
-   "drop": true
-  },
-  "39fef7b8f12a": {
-   "drop": true
-  },
-  "987adf4df4a6": {
-   "drop": true
-  },
-  "e85c50c207b6": {
-   "drop": true
-  },
-  "da81d2376a34": {
-   "drop": true
-  },
-  "9ca346e2f7a8": {
-   "drop": true
-  },
-  "6d9d5daf5ddc": {
-   "drop": true
-  },
-  "94af2bb331bb": {
-   "drop": true
-  },
-  "4cc905dfcf96": {
-   "drop": true
-  },
-  "94ea872a43a8": {
-   "drop": true
-  },
-  "416f9d687684": {
-   "drop": true
-  },
-  "ea6635ff1d98": {
-   "drop": true
-  },
-  "a17b8322c032": {
-   "drop": true
-  },
-  "209ee195ae1a": {
-   "drop": true
-  },
-  "c646cd281a9a": {
-   "drop": true
-  },
-  "77626a4bb74d": {
-   "drop": true
-  },
-  "ce30ebd99ec5": {
-   "drop": true
-  },
-  "5a95cc5c75a7": {
-   "drop": true
-  },
-  "05721f1f80e7": {
-   "drop": true
-  },
-  "72dc5addf350": {
-   "drop": true
-  },
-  "e01b454240f0": {
-   "drop": true
-  },
-  "c59ad7f48835": {
-   "drop": true
-  },
-  "547c53a136a7": {
-   "drop": true
-  },
-  "f68096eccaff": {
-   "drop": true
-  },
-  "73fef3e3cac4": {
-   "drop": true
-  },
-  "e15baf12128e": {
-   "drop": true
-  },
-  "5f78facab9fe": {
-   "drop": true
-  },
-  "dda88121b0a4": {
-   "drop": true
-  },
-  "4b5feb981690": {
-   "drop": true
-  },
-  "c7d58c043b77": {
-   "drop": true
-  },
-  "50952f4999a8": {
-   "drop": true
-  },
-  "9037e3fdd19f": {
-   "drop": true
-  },
-  "41ef40a7dcdc": {
-   "drop": true
-  },
-  "7d9daa8b1908": {
-   "drop": true
-  },
-  "67850927942d": {
-   "drop": true
-  },
-  "723a514bf256": {
-   "drop": true
-  },
-  "3238da30c30d": {
-   "drop": true
-  },
-  "bb78c4e08c42": {
-   "drop": true
-  },
-  "f2669f3b8e26": {
-   "drop": true
-  },
-  "69841194f95e": {
-   "drop": true
-  },
-  "bbbbe4de29cb": {
-   "drop": true
-  },
-  "5f9f4f58fad6": {
-   "drop": true
-  },
-  "119f813263ad": {
-   "drop": true
-  },
-  "8b5aabb878ca": {
-   "drop": true
-  },
-  "833bbb6e66a6": {
-   "drop": true
-  },
-  "13068cb7a254": {
-   "drop": true
-  },
-  "1c61d7de81bf": {
-   "dup": "9e9893d82d86"
-  },
   "88df81e4bcf8": {
    "dup": "4bbed7540c17"
-  },
-  "422f64f06226": {
-   "dup": "b65860dcd2f8"
-  },
-  "d5013d72748b": {
-   "dup": "9e9893d82d86"
-  },
-  "f236e28baa93": {
-   "dup": "2edbbfd9093f"
-  },
-  "0a16bb639385": {
-   "dup": "4bbed7540c17"
-  },
-  "0bd688ac8ec2": {
-   "dup": "279485d7e260"
-  },
-  "b9e17c370bdd": {
-   "dup": "9e9893d82d86"
   },
   "b65860dcd2f8": {
    "cat": "deals",
@@ -12574,9 +12147,6 @@
      "why": "Voice agents for patient calls are being adopted by health systems."
     }
    }
-  },
-  "6153d15e75b6": {
-   "dup": "37ab08fbddfe"
   },
   "e929a1ad67b1": {
    "cat": "other",
@@ -13684,12 +13254,6 @@
     }
    }
   },
-  "5a165ebb6864": {
-   "drop": true
-  },
-  "ea59588f520b": {
-   "drop": true
-  },
   "cb07c3269560": {
    "cat": "science",
    "imp": 3,
@@ -13716,15 +13280,6 @@
     }
    }
   },
-  "0ebcfcadb47e": {
-   "drop": true
-  },
-  "79eafb815d40": {
-   "drop": true
-  },
-  "fc41d5897760": {
-   "drop": true
-  },
   "26b61cbcc1ff": {
    "cat": "clinical",
    "imp": 5,
@@ -13739,9 +13294,6 @@
      "why": "Bears on when to intervene in a common valve disease."
     }
    }
-  },
-  "1d3e416b901b": {
-   "dup": "26b61cbcc1ff"
   },
   "72208ce4892a": {
    "cat": "science",
@@ -14528,12 +14080,6 @@
     }
    }
   },
-  "280b6971b865": {
-   "drop": true
-  },
-  "cdeed3d071e8": {
-   "drop": true
-  },
   "c86f1bc5d09d": {
    "cat": "clinical",
    "imp": 6,
@@ -14643,9 +14189,6 @@
     }
    }
   },
-  "adc467f8c2b5": {
-   "drop": true
-  },
   "192bee182028": {
    "cat": "science",
    "imp": 3,
@@ -14656,9 +14199,6 @@
      "why": "Bone-graft material aiming to cut BMP-2 doses."
     }
    }
-  },
-  "158bc3bf3266": {
-   "drop": true
   },
   "5b24fba5a940": {
    "cat": "science",
@@ -14686,9 +14226,6 @@
     }
    }
   },
-  "084291ee6f86": {
-   "drop": true
-  },
   "2e6596728872": {
    "cat": "science",
    "imp": 3,
@@ -14714,9 +14251,6 @@
      "why": "Possible new way to monitor acid suppression."
     }
    }
-  },
-  "a1c18472d690": {
-   "drop": true
   },
   "131a2e09bf3b": {
    "drop": true
@@ -14883,273 +14417,6 @@
   "42e7018cd6d0": {
    "drop": true
   },
-  "48ffe9c67bdb": {
-   "drop": true
-  },
-  "8fee8e182daa": {
-   "drop": true
-  },
-  "46c94c106712": {
-   "drop": true
-  },
-  "3e68e39d76a4": {
-   "drop": true
-  },
-  "1fc516b98c5e": {
-   "drop": true
-  },
-  "5be18d55152f": {
-   "drop": true
-  },
-  "9ce825bceda4": {
-   "drop": true
-  },
-  "1e1d7c71001a": {
-   "drop": true
-  },
-  "65a3d15207c3": {
-   "drop": true
-  },
-  "64345550e8c0": {
-   "drop": true
-  },
-  "b474dc8610b2": {
-   "drop": true
-  },
-  "ddc17a5482c7": {
-   "drop": true
-  },
-  "d26dc668a48d": {
-   "drop": true
-  },
-  "a28d7f2c9d5d": {
-   "drop": true
-  },
-  "c562014b6373": {
-   "drop": true
-  },
-  "27cd6a8a231d": {
-   "drop": true
-  },
-  "8adb38f82a7b": {
-   "drop": true
-  },
-  "774aa576506e": {
-   "drop": true
-  },
-  "0f27c8467d9c": {
-   "drop": true
-  },
-  "77e8c00cb60c": {
-   "drop": true
-  },
-  "1fcd57a312ac": {
-   "drop": true
-  },
-  "674476ff9dbe": {
-   "drop": true
-  },
-  "ec0bb7290235": {
-   "drop": true
-  },
-  "bbfee811aa2a": {
-   "drop": true
-  },
-  "25ee30db8ec3": {
-   "drop": true
-  },
-  "088ea64bea6f": {
-   "drop": true
-  },
-  "5fb74a5cac35": {
-   "drop": true
-  },
-  "4e81e74ecef6": {
-   "drop": true
-  },
-  "7cf5d08c5cb8": {
-   "drop": true
-  },
-  "e3272ab7ca7c": {
-   "drop": true
-  },
-  "9da88a81f1f8": {
-   "drop": true
-  },
-  "e30ea1ad7972": {
-   "drop": true
-  },
-  "9b892e89ae08": {
-   "drop": true
-  },
-  "62039be4986e": {
-   "drop": true
-  },
-  "5babf2962d26": {
-   "drop": true
-  },
-  "5c2f269f58d1": {
-   "drop": true
-  },
-  "68ff61d3daa0": {
-   "drop": true
-  },
-  "84934324676b": {
-   "drop": true
-  },
-  "69724cc3cbbc": {
-   "drop": true
-  },
-  "65faf13d45c6": {
-   "drop": true
-  },
-  "0d8ad6439ccc": {
-   "drop": true
-  },
-  "e3b77d178a2e": {
-   "drop": true
-  },
-  "6bdb991e819d": {
-   "drop": true
-  },
-  "260e5d47fbc8": {
-   "drop": true
-  },
-  "3986a34860d2": {
-   "drop": true
-  },
-  "d873090f37e1": {
-   "drop": true
-  },
-  "bee145658115": {
-   "drop": true
-  },
-  "e3672f1550df": {
-   "drop": true
-  },
-  "a67691798496": {
-   "drop": true
-  },
-  "3d906ae61b68": {
-   "drop": true
-  },
-  "bd18034d0017": {
-   "drop": true
-  },
-  "034ec4345cd5": {
-   "drop": true
-  },
-  "a7d625909f35": {
-   "drop": true
-  },
-  "dd2c98e4c894": {
-   "drop": true
-  },
-  "559e6d5e418d": {
-   "drop": true
-  },
-  "35c53b47cfa6": {
-   "drop": true
-  },
-  "03bf17746476": {
-   "drop": true
-  },
-  "4042ff57f9b0": {
-   "drop": true
-  },
-  "90ae09a68dbe": {
-   "drop": true
-  },
-  "caa88a34c27d": {
-   "drop": true
-  },
-  "2330167c4bc4": {
-   "drop": true
-  },
-  "bfe09f254a31": {
-   "drop": true
-  },
-  "0142974eb2ad": {
-   "drop": true
-  },
-  "04ab67b848ec": {
-   "drop": true
-  },
-  "47ca1f10c6b6": {
-   "drop": true
-  },
-  "415e222efabe": {
-   "drop": true
-  },
-  "a1c582058388": {
-   "drop": true
-  },
-  "d11c7fcd08c1": {
-   "drop": true
-  },
-  "4db06ed25f9c": {
-   "drop": true
-  },
-  "0ffcf1f2d96e": {
-   "drop": true
-  },
-  "3ffbffff5c2c": {
-   "drop": true
-  },
-  "67e139d57680": {
-   "drop": true
-  },
-  "11f3cb257b6b": {
-   "drop": true
-  },
-  "1b4fcac558ca": {
-   "drop": true
-  },
-  "fe226254889a": {
-   "drop": true
-  },
-  "4fd2cd0b533c": {
-   "drop": true
-  },
-  "8922e5e772fd": {
-   "drop": true
-  },
-  "f5e20a68825f": {
-   "drop": true
-  },
-  "8f528b8f13c2": {
-   "drop": true
-  },
-  "64bee9a3d2b3": {
-   "drop": true
-  },
-  "108a2359675b": {
-   "drop": true
-  },
-  "ae179258fb70": {
-   "drop": true
-  },
-  "74f2728fce92": {
-   "dup": "98f430df60ac"
-  },
-  "8b87cc6ba91d": {
-   "dup": "98f430df60ac"
-  },
-  "63ff56390f8d": {
-   "dup": "172c5a44341a"
-  },
-  "6ba861e8c792": {
-   "dup": "68d06e5a1880"
-  },
-  "e864311adca2": {
-   "dup": "ea6110414e4d"
-  },
-  "27297f68bf53": {
-   "dup": "479ecd2af517"
-  },
-  "7fa08cc73137": {
-   "dup": "e9bc26ecbea5"
-  },
   "d29c4fafb615": {
    "dup": "dbf168b752b7"
   },
@@ -15164,15 +14431,6 @@
   },
   "f204071e570b": {
    "dup": "94a92d994de0"
-  },
-  "568559b0bbf9": {
-   "dup": "d76c5250b63f"
-  },
-  "06e27e10adae": {
-   "dup": "7c813c078984"
-  },
-  "edf068c0842d": {
-   "dup": "f743ef531124"
   },
   "60bc87ff3caa": {
    "cat": "other",
@@ -15239,23 +14497,7 @@
    }
   },
   "1a4060d80628": {
-   "cat": "other",
-   "imp": 7,
-   "summary": "CVS Health says it intends to separate into two companies: one for health benefits, pharmacy services and care delivery, and one for national retail pharmacy and community healthcare.",
-   "rel": {
-    "healthcare": {
-     "score": 8,
-     "why": "Breakup of one of the largest US insurers and pharmacy chains."
-    },
-    "pharma": {
-     "score": 5,
-     "why": "Splits a major PBM and pharmacy channel for drugmakers."
-    },
-    "investment": {
-     "score": 4,
-     "why": "Large corporate restructuring in US healthcare."
-    }
-   }
+   "dup": "485137e3ae54"
   },
   "46cb58fa782b": {
    "cat": "deals",
@@ -15618,6 +14860,1246 @@
      "why": "Could change cardiology practice."
     }
    }
+  },
+  "485137e3ae54": {
+   "cat": "other",
+   "imp": 7,
+   "summary": "CVS Health will split into two public companies, separating its Aetna insurance and Caremark pharmacy benefit businesses from its retail pharmacies, reversing years of deal-making that combined them.",
+   "rel": {
+    "healthcare": {
+     "score": 8,
+     "why": "Breakup of one of the largest US insurers and pharmacy chains."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Reshapes a major PBM and pharmacy channel that sets drug access and pricing."
+    },
+    "investment": {
+     "score": 5,
+     "why": "A major strategic reversal for a healthcare bellwether."
+    }
+   }
+  },
+  "1bddd950e5ed": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "Bayer and Brazilian startup IdeeLab are partnering to develop biofungicides for Brazilian farmers.",
+   "rel": {
+    "agrifood": {
+     "score": 7,
+     "why": "Big agrochemical player backing biological crop protection in a key farm market."
+    },
+    "fermentation": {
+     "score": 3,
+     "why": "Biofungicides are typically produced by microbial fermentation."
+    }
+   }
+  },
+  "4b35c66971dd": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "Analysts told Biopharma Dive the sector tends to outperform after midterm elections and that Democrats, now controlling Congress, have bigger priorities than drug pricing.",
+   "rel": {
+    "investment": {
+     "score": 6,
+     "why": "Sets the market's read of biotech stocks after the US midterms."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Gauges the near-term risk of new drug pricing legislation."
+    }
+   }
+  },
+  "599beac08070": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "A USP general chapter setting a mandatory, risk-based standard for evaluating extractables and leachables from plastic manufacturing components is now enforceable, BioProcess International reports.",
+   "rel": {
+    "bioprocessing": {
+     "score": 7,
+     "why": "New compliance requirement for single-use plastic components in biologics manufacturing."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Affects quality programmes at drug manufacturers."
+    }
+   }
+  },
+  "ccd3ce9123db": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint describes V-SWITCH, a single-vector cell-based fluorescent reporter that switches on when cells are infected by an RNA virus. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "Modular reporter for studying RNA virus infection in cells."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Could aid live-virus research on emerging pathogens."
+    }
+   }
+  },
+  "d7fb3796cff7": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A preprint reports that rhizobia, the nitrogen-fixing bacteria of legume nodules, carry native T-DNA transfer systems and transform nodule cells, a mechanism previously thought specific to agrobacteria. Not yet peer-reviewed.",
+   "rel": {
+    "agrifood": {
+     "score": 6,
+     "why": "New insight into legume symbiosis and a possible route for plant genetic engineering."
+    }
+   }
+  },
+  "1e081d0c45d3": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint uses the N-GLYcanyzer tool to track how process parameters change the N-glycosylation of a trastuzumab biosimilar over time in a microperfusion process. Not yet peer-reviewed.",
+   "rel": {
+    "bioprocessing": {
+     "score": 6,
+     "why": "Real-time monitoring of a critical quality attribute in continuous antibody manufacturing."
+    }
+   }
+  },
+  "c693464b602c": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A preprint reports the first de novo microbial biosynthesis of anisole, an aromatic ether and green solvent now made from petroleum-derived phenol. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 6,
+     "why": "A bio-based route to a petrochemical solvent."
+    },
+    "fermentation": {
+     "score": 5,
+     "why": "Engineered microbial production of a new chemical."
+    }
+   }
+  },
+  "88443e928d44": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Kamau Therapeutics reported first clinical data for its revamped sickle cell gene editing therapy, nula-cel 2.0, in an ASH abstract: three patients had no pain crises or transfusion needs so far. It targets a US launch in 2028.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "Early data for a gene-correction approach to sickle cell disease."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "A potential new competitor in sickle cell gene therapy."
+    }
+   }
+  },
+  "8226dacfc497": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "Endpoints says China rose up biotech's list of worries in the months before the Treasury's draft rules limiting US investment in Chinese biopharma, even as big pharma kept licensing Chinese assets.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Tension between China licensing and US investment restrictions."
+    },
+    "investment": {
+     "score": 6,
+     "why": "Investor sentiment on China exposure."
+    }
+   }
+  },
+  "eb801ca194ae": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "The first wave of abstracts for the American Society of Hematology meeting, held in New Orleans in December, is out, with data from J&J, Servier and AstraZeneca among others.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Previews the year's biggest hematology data meeting."
+    },
+    "cellgene": {
+     "score": 5,
+     "why": "ASH is a key venue for CAR-T and gene therapy data."
+    }
+   }
+  },
+  "733cea70c44c": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Spyre is dropping its long-acting anti-TL1A antibody SPY072 in rheumatic diseases after it missed primary endpoints, including in psoriatic arthritis; Ideaya halted a darovasertib trial in uveal melanoma, and United Therapeutics is paying Pfizer $525 million to remove royalties on ralinepag.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Setbacks in the crowded TL1A class and an eye cancer programme."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Hits two mid-cap biotechs."
+    }
+   }
+  },
+  "a2566fb9fa79": {
+   "cat": "deals",
+   "imp": 8,
+   "summary": "Boehringer Ingelheim is paying Sino Biopharmaceutical $358 million upfront in a backloaded deal for preclinical T-cell engagers and antibody-drug conjugates for cancer that could be worth more than $7 billion.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "One of the year's largest China-sourced oncology licensing deals."
+    },
+    "investment": {
+     "score": 6,
+     "why": "Large upfront that adds to the flow of capital into Chinese biotech."
+    }
+   }
+  },
+  "98c51c72882d": {
+   "cat": "contracts",
+   "imp": 4,
+   "summary": "Ipsen will use Charles River's virtual control group database in a toxicology study, replacing some control animals with historical data.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "Adoption of a data-driven method that cuts animal use in preclinical safety studies."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Changes how drug developers run toxicology studies."
+    }
+   }
+  },
+  "23f0a7107660": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "GE HealthCare launched Allia Celeo, a ceiling-mounted AI-assisted image guidance system for interventional procedures, at TCT 2026.",
+   "rel": {
+    "meddevices": {
+     "score": 6,
+     "why": "New interventional imaging system from a major vendor."
+    },
+    "ai": {
+     "score": 4,
+     "why": "AI built into procedural image guidance."
+    }
+   }
+  },
+  "54b4dc9fda93": {
+   "cat": "funding",
+   "imp": 6,
+   "summary": "Blackstone Life Sciences will put up to $455 million into co-funding development of Boston Scientific's next-generation miniature heart pump.",
+   "rel": {
+    "meddevices": {
+     "score": 8,
+     "why": "Large private capital deal for a cardiac device programme."
+    },
+    "investment": {
+     "score": 6,
+     "why": "Shows royalty-style funding moving into medtech development."
+    }
+   }
+  },
+  "0b71f91138fb": {
+   "cat": "funding",
+   "imp": 4,
+   "summary": "Clinical research company nPhase closed a $30 million series D to expand its AI-native clinical data platform.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "AI platform for clinical trial data."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Clinical trial operations tooling."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Mid-sized late-stage round."
+    }
+   }
+  },
+  "c7351353a5ca": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Smith+Nephew held talks with J&J's DePuy Synthes hip and knee unit about combining it with Smith+Nephew's orthopaedics business, but the talks failed.",
+   "rel": {
+    "meddevices": {
+     "score": 7,
+     "why": "Signals consolidation pressure in orthopaedic implants."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Points to possible future M&A in orthopaedics."
+    }
+   }
+  },
+  "69838d8a29c8": {
+   "cat": "regulatory",
+   "imp": 7,
+   "summary": "The FDA approved Inovio's Voceryq, the first plasmid DNA-based immunotherapy, for a rare HPV-driven airway disease, after an earlier setback that threatened its accelerated approval path.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "First approval for a new class of DNA-based medicine."
+    },
+    "cellgene": {
+     "score": 6,
+     "why": "Validates plasmid DNA delivery as a therapeutic modality."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "New treatment for patients with a rare recurrent airway disease."
+    }
+   }
+  },
+  "15e335470b12": {
+   "cat": "other",
+   "imp": 6,
+   "summary": "Samsung Biologics' union says 400 employees will strike from November 6 after labour negotiations stalled.",
+   "rel": {
+    "bioprocessing": {
+     "score": 7,
+     "why": "Possible disruption at one of the world's largest biologics CDMOs."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Drugmakers rely on Samsung Biologics capacity."
+    }
+   }
+  },
+  "010847b00a64": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Researchers found that the HOXA10 gene keeps up the supply of bone stem cells throughout life, which they say could point to ways to improve bone repair.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Possible target for bone regeneration."
+    }
+   }
+  },
+  "b1a5e25da9d8": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A study found the VRC01 broadly neutralising antibody initially protects against HIV infection, but resistant strains break through as antibody levels fall, supporting combinations of antibodies.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Informs design of antibody-based HIV prevention."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Relevant to long-acting HIV prevention strategies."
+    }
+   }
+  },
+  "de5f5e49295e": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "GEN reports that variable apheresis collection and handling practices are a major source of starting-material variability for cell therapy makers, and argues for standardisation.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Starting-material variability is a key manufacturing problem for cell therapies."
+    },
+    "bioprocessing": {
+     "score": 5,
+     "why": "Upstream process consistency for autologous products."
+    }
+   }
+  },
+  "d33311047582": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "GEN looks at an early-stage viable-cell-density-on-a-chip monitor that could bring in-line process analytical monitoring to small bioprocesses.",
+   "rel": {
+    "bioprocessing": {
+     "score": 6,
+     "why": "Fills an instrumentation gap for small-scale process monitoring."
+    },
+    "tools": {
+     "score": 4,
+     "why": "New sensor technology."
+    }
+   }
+  },
+  "334b7cc8ccd9": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Researchers developed a continuous freeze-drying process with suspended vials and a digital twin, reporting more uniform product quality and higher yields.",
+   "rel": {
+    "bioprocessing": {
+     "score": 6,
+     "why": "Advance in continuous lyophilisation for drug product manufacturing."
+    }
+   }
+  },
+  "d0ce43c46a97": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A modelling study finds building systems, not bioreactors, dominate energy use in antibody manufacturing, and that continuous processing and better facility design could cut emissions.",
+   "rel": {
+    "bioprocessing": {
+     "score": 6,
+     "why": "Points manufacturers to the biggest sources of energy use."
+    },
+    "industrial": {
+     "score": 3,
+     "why": "Sustainability of biomanufacturing."
+    }
+   }
+  },
+  "69e928cc14a5": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Umoja Biopharma says it will give an oral presentation of the first clinical data for UB-VV400, its in vivo CAR-T cell therapy, at ASH 2026; the data come from investigator-initiated trials.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "Early human data for in vivo CAR-T, a closely watched approach."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Competition for ex vivo cell therapies."
+    }
+   }
+  },
+  "4d795b6c881f": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Hemab Therapeutics says first clinical data for sutacimig in Factor VII deficiency show multi-fold accumulation of the patient's own FVII(a); the data will be presented at ASH.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Early data for a new approach in a rare bleeding disorder."
+    }
+   }
+  },
+  "12dcdfeeb175": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Verismo Therapeutics says interim first-in-human data for SynKIR-310, a CD19-targeted KIR-CAR T therapy, showed antitumour activity with no CRS or ICANS; it will present at ASH.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Early data for an alternative CAR-T architecture."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Lymphoma treatment pipeline."
+    }
+   }
+  },
+  "71a7f45a1560": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Menarini and Ryvu say first phase 2 JASPIS-01 data for dapolsertib monotherapy in heavily pretreated aggressive B-cell non-Hodgkin lymphoma will be presented at ASH.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Mid-stage data for a PIM/FLT3 kinase inhibitor in lymphoma."
+    }
+   }
+  },
+  "c66e2814416a": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "Myriad Genetics says it has agreed to sell its prenatal health business and raised the mid-point of its 2026 revenue guidance.",
+   "rel": {
+    "diagnostics": {
+     "score": 7,
+     "why": "A major genetic testing company exits prenatal screening."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Portfolio reshaping at a listed diagnostics firm."
+    }
+   }
+  },
+  "1fbc697a4ce9": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "STAT's AI Prognosis profiles biotech startups that argue AI makes a bigger difference outside drug discovery.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "Counterpoint to the AI drug discovery wave."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Where startup founders see AI value."
+    }
+   }
+  },
+  "cb4a049d88bc": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Zimmer Biomet raised its sales forecast despite slower knee business, which its CEO did not attribute to a market slowdown, unlike rival Stryker.",
+   "rel": {
+    "meddevices": {
+     "score": 6,
+     "why": "Read on the orthopaedic implant market."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Earnings from a large medtech."
+    }
+   }
+  },
+  "30e6c28d3253": {
+   "cat": "regulatory",
+   "imp": 6,
+   "summary": "Philips will pay €288 million to settle a US Justice Department investigation tied to its recall of millions of sleep and respiratory devices.",
+   "rel": {
+    "meddevices": {
+     "score": 8,
+     "why": "Major settlement closing out one of the largest device recalls."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Concerns devices used by millions of patients."
+    }
+   }
+  },
+  "437aae966814": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "MedTech Dive's TCT 2026 takeaways: Edwards' TAVR in moderate aortic stenosis drew applause, and Medtronic's renal denervation and Abbott's left atrial appendage closure devices also posted positive results.",
+   "rel": {
+    "meddevices": {
+     "score": 8,
+     "why": "Key structural heart and cardiology device data."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Could widen use of TAVR to earlier disease."
+    }
+   }
+  },
+  "d291b98bc11f": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "The MHRA issued guidance on how it assesses UK clinical trial applications that rely on non-clinical safety data generated outside the OECD Mutual Acceptance of Data system.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Clarifies UK trial authorisation for sponsors using non-OECD labs, such as in China."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Affects contract research labs outside the OECD system."
+    }
+   }
+  },
+  "29847b25d9e9": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature Outlook on Parkinson's disease reports accelerating progress, including early trials of dopamine-neuron transplants from stem cells, adaptive brain stimulation implants and the theory that some cases start in the gut.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Overview of the Parkinson's treatment pipeline."
+    },
+    "cellgene": {
+     "score": 5,
+     "why": "Stem-cell-derived neuron transplants are entering trials."
+    },
+    "meddevices": {
+     "score": 3,
+     "why": "Next-generation deep brain stimulation."
+    }
+   }
+  },
+  "b7943ae940a8": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "Nature published AutoDNA, an AI-native autonomous lab in China in which AI agents coordinate instruments to run multi-step molecular biology experiments, such as encoding and reading messages in DNA, from a simple prompt.",
+   "rel": {
+    "ai": {
+     "score": 8,
+     "why": "AI agents running wet-lab experiments end to end."
+    },
+    "tools": {
+     "score": 7,
+     "why": "Lab automation and self-driving lab platforms."
+    }
+   }
+  },
+  "2615854f6598": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "An unexplained anthrax outbreak is killing hippos in the Democratic Republic of the Congo, raising concern about spread to people as the country also battles Ebola and cholera outbreaks, Nature reports.",
+   "rel": {
+    "biosecurity": {
+     "score": 7,
+     "why": "Animal anthrax outbreak with spillover risk in a country already facing Ebola."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Public health risk in an overstretched health system."
+    }
+   }
+  },
+  "2aecb7de228e": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Nature study used high-throughput in vivo CAR-T double-knockout screening to find gene pairs whose combined deletion improves CAR-T antitumour activity.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "Identifies new edits to make CAR-T cells more potent."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Scalable in vivo combinatorial screening method."
+    }
+   }
+  },
+  "bc36e1dff8a6": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Two Nature papers map glioblastoma with single-cell and spatial multi-omics across more than a million cells, showing cancer cells follow a spatial trajectory and that non-genetic plasticity drives the disease's heterogeneity.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Reference atlas for designing glioblastoma treatments."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Showcase of multi-omic atlas methods."
+    }
+   }
+  },
+  "b8f3f77d0287": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature study used high-throughput CRISPR interference to map interactions between essential genes in Mycobacterium tuberculosis.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Points to combination targets for TB drugs."
+    },
+    "tools": {
+     "score": 3,
+     "why": "CRISPRi genetic interaction mapping in bacteria."
+    }
+   }
+  },
+  "858ec1befcc0": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Nature study shows that codon-pair-dependent ribosomal frameshifting is a feature of cancer cells and uses it to build gene circuits that switch on selectively in cancer.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "A new way to make gene therapies cancer-selective."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Possible oncology targeting strategy."
+    }
+   }
+  },
+  "2bafaa7def40": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature study finds endothelial cells can adapt to loss of VEGFR2 signalling and still form new functional vessels through venousization, challenging the standard view of angiogenesis.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "May explain resistance to anti-VEGF drugs."
+    }
+   }
+  },
+  "39fe5f95aa67": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Nature researchers identify Nectin-4 as the entry receptor rubella virus uses in airway and placental cells.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "New target for understanding congenital rubella."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Clarifies how a respiratory virus infects."
+    }
+   }
+  },
+  "52b16a1987e9": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature gene network analysis shows mutations in diverse autism-linked genes converge on shared transcriptomic effects and sheds light on why females appear protected.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Convergent pathways could be drug targets."
+    },
+    "diagnostics": {
+     "score": 3,
+     "why": "Genetics of autism risk."
+    }
+   }
+  },
+  "ca7fc428671a": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Nature published structRFM, an open RNA foundation model pre-trained on 21 million sequence-structure pairs for predicting RNA structure and function.",
+   "rel": {
+    "ai": {
+     "score": 7,
+     "why": "Open foundation model for RNA."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Useful for designing RNA medicines."
+    }
+   }
+  },
+  "5566a13a3b45": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature study traces 80 years of Chinese crop breeding to a conserved flowering-time module that enables double-season cropping, and shows precision genome editing can recreate it.",
+   "rel": {
+    "agrifood": {
+     "score": 7,
+     "why": "Genome-editing target for higher crop productivity."
+    }
+   }
+  },
+  "269ac42effe8": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature study of gut microbial single-nucleotide variants in 10,781 people found 940 associations linking strain-level variation to 69 health traits and exposures.",
+   "rel": {
+    "diagnostics": {
+     "score": 4,
+     "why": "Strain-level microbiome markers of health."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Leads for microbiome therapeutics."
+    }
+   }
+  },
+  "9c3ca22fa6cf": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "Nature reports that seizures nearly vanished in three people with epilepsy who received an experimental gene therapy, delivered by viruses into the brain and combined with a drug.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "Early human evidence for gene therapy in epilepsy."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Potential new approach for drug-resistant epilepsy."
+    }
+   }
+  },
+  "30630a58d2fa": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Scientists found a compound that turns the muscle-repair protein HGF into a 'Super HGF' that binds its receptor more than twice as strongly, which could help ageing muscles repair.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Early-stage approach to muscle regeneration."
+    }
+   }
+  },
+  "06c34b210643": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Stanford researchers used AI to identify a natural molecule that suppressed appetite and promoted fat loss in animals, which they describe as an Ozempic-like effect.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "A new natural peptide lead in obesity."
+    },
+    "ai": {
+     "score": 4,
+     "why": "AI-driven discovery of a bioactive molecule."
+    }
+   }
+  },
+  "f2f1042fa6ca": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Science News reports Anthropic used its Claude AI to find evidence that bacteria and viruses also likely make vaults, mysterious cell particles, suggesting an ancient origin.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "An AI model used for biological discovery."
+    },
+    "tools": {
+     "score": 3,
+     "why": "AI-assisted protein homology research."
+    }
+   }
+  },
+  "d15c3500c940": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "Senator Bernie Sanders, a pharma critic, is set to hold major sway over the FDA funding bill and could use it to push reforms, STAT reports.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "FDA funding and drug policy could shift under a Democratic Congress."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Affects FDA resources and drug access policy."
+    }
+   }
+  },
+  "f9064ac08a11": {
+   "drop": true
+  },
+  "6562f44c43d2": {
+   "drop": true
+  },
+  "5c42fda95668": {
+   "drop": true
+  },
+  "a8115c1a72eb": {
+   "drop": true
+  },
+  "0c68afa5ce4b": {
+   "drop": true
+  },
+  "981c8779ab64": {
+   "drop": true
+  },
+  "0b528c9d9ed4": {
+   "drop": true
+  },
+  "0cd2a4c18d27": {
+   "drop": true
+  },
+  "126bcd0a166d": {
+   "drop": true
+  },
+  "239c75bb4147": {
+   "drop": true
+  },
+  "f90865fce085": {
+   "drop": true
+  },
+  "62e0e6bd9f38": {
+   "drop": true
+  },
+  "dc06a8335237": {
+   "drop": true
+  },
+  "58ca152e906d": {
+   "drop": true
+  },
+  "354eda1e5efd": {
+   "drop": true
+  },
+  "5acc421dca2c": {
+   "drop": true
+  },
+  "b4092f3b40c0": {
+   "drop": true
+  },
+  "5877bd09da75": {
+   "drop": true
+  },
+  "881af236c58a": {
+   "drop": true
+  },
+  "774ec8069cfc": {
+   "drop": true
+  },
+  "c1913adce1a8": {
+   "drop": true
+  },
+  "9d5b61605102": {
+   "drop": true
+  },
+  "4f5f6a2747d7": {
+   "drop": true
+  },
+  "e4ceb7f8e796": {
+   "drop": true
+  },
+  "95b10d6dc5a9": {
+   "drop": true
+  },
+  "96da148bcf97": {
+   "drop": true
+  },
+  "5a1f12b77707": {
+   "drop": true
+  },
+  "1575a0b2eb23": {
+   "drop": true
+  },
+  "373aa6306d80": {
+   "drop": true
+  },
+  "37736ad17b58": {
+   "drop": true
+  },
+  "e0b54a76b30f": {
+   "drop": true
+  },
+  "bf8ba4ddc6bb": {
+   "drop": true
+  },
+  "dbe5eead42f6": {
+   "drop": true
+  },
+  "9ab8d40a06b5": {
+   "drop": true
+  },
+  "4d08c2386558": {
+   "drop": true
+  },
+  "311d5d697ec2": {
+   "drop": true
+  },
+  "d8df2e46889a": {
+   "drop": true
+  },
+  "dfe0d50d4b2e": {
+   "drop": true
+  },
+  "a1e174b667ae": {
+   "drop": true
+  },
+  "d03242a4d896": {
+   "drop": true
+  },
+  "ded261c0682c": {
+   "drop": true
+  },
+  "7aa1a653c9e8": {
+   "drop": true
+  },
+  "d7c94404c4ed": {
+   "drop": true
+  },
+  "f161733f6285": {
+   "drop": true
+  },
+  "5dcfc2cdd643": {
+   "drop": true
+  },
+  "bfe3480aab24": {
+   "drop": true
+  },
+  "7e271704418c": {
+   "drop": true
+  },
+  "968c4fd8415e": {
+   "drop": true
+  },
+  "3a71fdd0b8ea": {
+   "drop": true
+  },
+  "c6c7fe28c17c": {
+   "drop": true
+  },
+  "bf70e0464023": {
+   "drop": true
+  },
+  "3bbeba40c581": {
+   "drop": true
+  },
+  "feaa356ca571": {
+   "drop": true
+  },
+  "53f6ea991303": {
+   "drop": true
+  },
+  "7f1a29fef0a8": {
+   "drop": true
+  },
+  "9c8127017004": {
+   "drop": true
+  },
+  "05ec2af95a87": {
+   "drop": true
+  },
+  "b5f39fa0c6b4": {
+   "drop": true
+  },
+  "4106f433b843": {
+   "drop": true
+  },
+  "b005a217dde5": {
+   "drop": true
+  },
+  "a9c8715ff6cb": {
+   "drop": true
+  },
+  "723f00177e19": {
+   "drop": true
+  },
+  "58b26d2a2dc3": {
+   "drop": true
+  },
+  "6b25bacd946b": {
+   "drop": true
+  },
+  "924a4ed0f419": {
+   "drop": true
+  },
+  "0f16fda46649": {
+   "drop": true
+  },
+  "4c79b0105e16": {
+   "drop": true
+  },
+  "e441ee3e496e": {
+   "drop": true
+  },
+  "db19dc0a9c0b": {
+   "drop": true
+  },
+  "83ae69f4c818": {
+   "drop": true
+  },
+  "d1ec54f7e6b6": {
+   "drop": true
+  },
+  "a3acf7af600a": {
+   "drop": true
+  },
+  "9f461518eb1b": {
+   "drop": true
+  },
+  "0f77fda8a794": {
+   "drop": true
+  },
+  "ef67169f53c5": {
+   "drop": true
+  },
+  "8afd33ef624c": {
+   "drop": true
+  },
+  "e84fc77bec37": {
+   "drop": true
+  },
+  "47b7da359bfe": {
+   "drop": true
+  },
+  "81cc447b6f23": {
+   "drop": true
+  },
+  "5db2e4edf9c9": {
+   "drop": true
+  },
+  "19a61c179cad": {
+   "drop": true
+  },
+  "b510933ae50e": {
+   "drop": true
+  },
+  "b74c3e24c070": {
+   "drop": true
+  },
+  "7543a1620362": {
+   "drop": true
+  },
+  "ea2b19b26b6a": {
+   "drop": true
+  },
+  "cb84b3934850": {
+   "drop": true
+  },
+  "e1b29a6aaa99": {
+   "drop": true
+  },
+  "993af5abba18": {
+   "drop": true
+  },
+  "a4bb5d0dea28": {
+   "drop": true
+  },
+  "ba8c3f3a4ebb": {
+   "drop": true
+  },
+  "deb9f5661d3e": {
+   "drop": true
+  },
+  "71eca52e01d8": {
+   "drop": true
+  },
+  "759ba645ab4c": {
+   "drop": true
+  },
+  "f8ab24ff69f3": {
+   "drop": true
+  },
+  "1db02bb84242": {
+   "drop": true
+  },
+  "aec64996a44f": {
+   "drop": true
+  },
+  "79aa09795f1f": {
+   "drop": true
+  },
+  "2cf4421a9871": {
+   "drop": true
+  },
+  "5bf0979b0db7": {
+   "drop": true
+  },
+  "03257a465565": {
+   "drop": true
+  },
+  "7da2ba87bb8c": {
+   "drop": true
+  },
+  "62041aef2e56": {
+   "drop": true
+  },
+  "21c1bdb0fbec": {
+   "drop": true
+  },
+  "c95c22b6d2f1": {
+   "drop": true
+  },
+  "416423b0d183": {
+   "drop": true
+  },
+  "e4ac240e1ab9": {
+   "drop": true
+  },
+  "7ce23571f721": {
+   "drop": true
+  },
+  "b89e0f6268cf": {
+   "drop": true
+  },
+  "b483b8248089": {
+   "drop": true
+  },
+  "abd42d574ebe": {
+   "drop": true
+  },
+  "a3ead2ad55be": {
+   "drop": true
+  },
+  "921e42ddee2a": {
+   "drop": true
+  },
+  "087fc81444e0": {
+   "drop": true
+  },
+  "c9b797187742": {
+   "drop": true
+  },
+  "0a7c35532cab": {
+   "drop": true
+  },
+  "567b14aab899": {
+   "drop": true
+  },
+  "7e4c63ae6985": {
+   "drop": true
+  },
+  "fe1c642e4b59": {
+   "drop": true
+  },
+  "d482c20de9cd": {
+   "drop": true
+  },
+  "a37b5493c2cc": {
+   "drop": true
+  },
+  "3f5a15183464": {
+   "drop": true
+  },
+  "c4e455b2cbd6": {
+   "drop": true
+  },
+  "9aeb04704dce": {
+   "dup": "902ff4326f37"
+  },
+  "b54fb9366e43": {
+   "dup": "902ff4326f37"
+  },
+  "406aca246414": {
+   "dup": "94a92d994de0"
+  },
+  "e1f1ef89a897": {
+   "dup": "94a92d994de0"
+  },
+  "4fa1a37a2988": {
+   "dup": "94a92d994de0"
+  },
+  "ee31ef4a7da2": {
+   "dup": "485137e3ae54"
+  },
+  "862e4e85c37e": {
+   "dup": "485137e3ae54"
+  },
+  "39b4724db844": {
+   "dup": "0cfb08e4590f"
+  },
+  "089e7eb33de6": {
+   "dup": "a2566fb9fa79"
+  },
+  "88ba24e53fcf": {
+   "dup": "f31e179ef4c9"
+  },
+  "d72ac1bbe55f": {
+   "dup": "60bc87ff3caa"
+  },
+  "4552c4709551": {
+   "dup": "dbf168b752b7"
+  },
+  "a025b51d22a0": {
+   "dup": "968fa55817bc"
+  },
+  "412365720862": {
+   "dup": "88443e928d44"
+  },
+  "bb755a777770": {
+   "dup": "bc36e1dff8a6"
+  },
+  "6849fb47c61f": {
+   "dup": "bc36e1dff8a6"
+  },
+  "6978538190d5": {
+   "dup": "1fbc697a4ce9"
+  },
+  "7a6d68c0341d": {
+   "dup": "d291b98bc11f"
+  },
+  "6b20e0ff5133": {
+   "dup": "29847b25d9e9"
+  },
+  "1d1d3181dd88": {
+   "dup": "29847b25d9e9"
+  },
+  "b6a9c09a65ff": {
+   "dup": "29847b25d9e9"
+  },
+  "b643280ccef5": {
+   "dup": "29847b25d9e9"
+  },
+  "4271720be6aa": {
+   "dup": "29847b25d9e9"
+  },
+  "0bb61616128f": {
+   "dup": "29847b25d9e9"
+  },
+  "ee3e057cdd8a": {
+   "dup": "29847b25d9e9"
+  },
+  "ab9b25b62f91": {
+   "dup": "b7943ae940a8"
+  },
+  "8937d08a28c4": {
+   "dup": "b7943ae940a8"
+  },
+  "bd4cdf44eda9": {
+   "dup": "858ec1befcc0"
   }
  },
  "extra": [
@@ -16186,6 +16668,27 @@
     "investment": {
      "score": 5,
      "why": "Vykat brought in $107 million in Q3 and analysts expect discontinuations."
+    }
+   }
+  },
+  {
+   "id": "2026-11-04-pfizer-lyme-vaccine-europe-first",
+   "title": "Pfizer eyes Europe first for Lyme vaccine as prevalence rises in US",
+   "url": "https://www.biospace.com/business/pfizer-eyes-europe-first-for-lyme-vaccine-as-prevalence-rises-in-us",
+   "source": "BioSpace",
+   "kind": "news",
+   "published": "2026-11-04T18:00:00Z",
+   "cat": "regulatory",
+   "imp": 6,
+   "summary": "Pfizer expects Europe to be the first market for its Valneva-partnered Lyme disease vaccine PF-07307405: the EMA accepted the application in August with a CHMP opinion due in 2027, while a US filing has not yet been made and an update on FDA talks is expected this quarter.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Path to market for the only late-stage Lyme vaccine."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "First Lyme vaccine for people in decades could reach Europe before the US."
     }
    }
   }
