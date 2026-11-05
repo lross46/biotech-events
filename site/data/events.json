@@ -708,6 +708,67 @@
    "checked": "2026-11-02"
   },
   {
+   "id": "london-biotechnology-show-2026",
+   "name": "London Biotechnology Show 2026",
+   "start": "2026-11-18",
+   "end": "2026-11-19",
+   "type": "tradeshow",
+   "format": "inperson",
+   "region": "uk",
+   "city": "London",
+   "country": "UK",
+   "organiser": "London Biotechnology Show",
+   "url": "https://www.londonbiotechshow.com/",
+   "free": true,
+   "summary": "Two-day biotech exhibition and conference at ExCeL London (3rd edition), with a start-up showcase and buyer programme. Draws 3,000+ people from biotech, pharma, medtech, investment and research.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Biopharmaceuticals, vaccines and therapeutics are a core focus sector."
+    },
+    "cellgene": {
+     "score": 7,
+     "why": "Gene and cell therapy and regenerative medicine are a named focus sector."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Precision medicine and clinical trials content alongside medtech exhibitors."
+    },
+    "diagnostics": {
+     "score": 6,
+     "why": "Diagnostics is one of the show's listed focus areas."
+    },
+    "ai": {
+     "score": 6,
+     "why": "Bioinformatics and AI-driven drug discovery is a named focus sector."
+    },
+    "bioprocessing": {
+     "score": 5,
+     "why": "Biomanufacturing suppliers and CDMOs exhibit."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Start-up showcase and investor attendees."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Lab and research platform vendors among exhibitors."
+    },
+    "meddevices": {
+     "score": 4,
+     "why": "Medtech innovators listed among the audience."
+    }
+   },
+   "keywords": [
+    "LBS",
+    "ExCeL",
+    "London Biotech Show",
+    "London Life Sciences Week"
+   ],
+   "added": "2026-11-05",
+   "checked": "2026-11-05"
+  },
+  {
    "id": "cphi-india-2026",
    "name": "CPHI & PMEC India 2026",
    "start": "2026-11-23",
