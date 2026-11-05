@@ -18,7 +18,14 @@ short summary and per-sector relevance scores. Aim for 100–250 upcoming events
 3. **Re-check:** for upcoming events whose `checked` date is more than 60 days old, or which start in the next
    30 days, confirm dates, place and URL on the official site. Fix anything that changed (cancelled →
    delete; postponed → new dates). Set `checked` to today.
-4. **Find new events.** Search the web for upcoming events in every sector, favouring gaps:
+4. **Find new events.** First run a fixed per-sector sweep, every week, for all 14 sectors in step 8. For each
+   sector run at least these searches (use the sector's plain-English name and 1–2 common synonyms, e.g.
+   cellgene → "cell and gene therapy", "ATMP"; tools → "lab automation", "omics"; fermentation →
+   "precision fermentation"), with the current and next year:
+   - "<sector> conference <year>", "<sector> summit <year>", "<sector> congress <year>",
+   - "<sector> trade show OR expo <year>", "<sector> partnering OR investor event <year>",
+   - "<sector> webinar" (next 2–3 months).
+   Note in the commit message how many new events each sector's sweep found. Then search further, favouring gaps:
    - sectors or regions with fewer than ~8 upcoming events scoring 5+ (run the check script to see counts),
    - Asia-Pacific, Latin America, Middle East & Africa,
    - webinars and online events in the next 2–3 months,
