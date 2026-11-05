@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-05T06:45:16Z",
+ "updated": "2026-11-05T13:42:20Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-05T06:45:16Z",
+  "date": "2026-11-05T13:42:20Z",
   "points": [
    {
     "sec": "results",
@@ -26,11 +26,11 @@
    },
    {
     "sec": "approvals",
-    "text": "The FDA approved Inovio's Voceryq for a rare HPV-driven airway disease, the first plasmid DNA-based immunotherapy to reach the market. Philips will pay €288 million to settle the US Justice Department probe into its CPAP recall, and the MHRA set out how it treats trial applications relying on safety data from labs outside the OECD system. Pfizer expects Europe to approve its Lyme vaccine before the US.",
+    "text": "The UK MHRA issued interim safety advice for Italfarmaco's Duchenne drug Duvyzat (givinostat) after several deaths in patients taking it, and proposed label changes. The FDA approved Inovio's Voceryq for a rare HPV-driven airway disease, the first plasmid DNA-based immunotherapy to reach the market. Philips will pay €288 million to settle the US Justice Department probe into its CPAP recall, and Pfizer expects Europe to approve its Lyme vaccine before the US.",
     "ids": [
+     "1fa222385523",
      "69838d8a29c8",
      "30e6c28d3253",
-     "d291b98bc11f",
      "2026-11-04-pfizer-lyme-vaccine-europe-first"
     ]
    },
@@ -45,22 +45,22 @@
    },
    {
     "sec": "money",
-    "text": "Boehringer Ingelheim paid Sino Biopharmaceutical $358 million upfront for preclinical T-cell engagers and ADCs in a deal that could top $7 billion, the latest big China licensing deal. Blackstone Life Sciences will put up to $455 million into Boston Scientific's next miniature heart pump, Myriad Genetics agreed to sell its prenatal business, and Bayer teamed up with Brazil's IdeeLab on biofungicides.",
+    "text": "Boehringer Ingelheim paid Sino Biopharmaceutical $358 million upfront for preclinical T-cell engagers and ADCs in a deal that could top $7 billion, the latest big China licensing deal. Blackstone Life Sciences will put up to $455 million into Boston Scientific's next miniature heart pump, and UK biotech T-Therapeutics raised $133 million with J&J, Merck KGaA, Lilly and Sanofi backing its TCR engagers, part of a busy day for private rounds that also included Alethio's $90 million.",
     "ids": [
      "a2566fb9fa79",
      "54b4dc9fda93",
-     "c66e2814416a",
-     "1bddd950e5ed"
+     "5242c89f8c10",
+     "eeece3668fba"
     ]
    },
    {
     "sec": "companies",
-    "text": "CVS Health will split its Aetna and Caremark businesses from its retail pharmacies, a sharp reversal of years of integration. Samsung Biologics' union says 400 staff will strike from 6 November, a risk for one of the largest biologics CDMOs. In medtech, Smith+Nephew's talks to combine orthopaedics with J&J's DePuy Synthes failed, and Zimmer raised its sales forecast despite slower knee sales.",
+    "text": "CVS Health will split its Aetna and Caremark businesses from its retail pharmacies, a sharp reversal of years of integration. Revolution Medicines' pancreatic cancer drug Rasonque is off to one of the best oncology launches on record, STAT reports. Samsung Biologics' union says 400 staff will strike from 6 November, and in medtech Smith+Nephew's talks to combine orthopaedics with J&J's DePuy Synthes failed.",
     "ids": [
      "485137e3ae54",
+     "9dc68ad4ae72",
      "15e335470b12",
-     "c7351353a5ca",
-     "cb4a049d88bc"
+     "c7351353a5ca"
     ]
    },
    {
@@ -16100,6 +16100,1038 @@
   },
   "bd4cdf44eda9": {
    "dup": "858ec1befcc0"
+  },
+  "4c914e1a8e77": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "A Korean oncologist told Korea Biomedical Review that Novartis' CDK4/6 inhibitor Kisqali (ribociclib) improved overall survival in HR+/HER2- early breast cancer much sooner than expected.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Overall survival backing strengthens Kisqali's adjuvant position against Verzenio."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Bears on adjuvant treatment choices in early breast cancer."
+    }
+   }
+  },
+  "647040bb5686": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "SK bioscience's third-quarter revenue rose 21% to 182.4 billion won ($128 million), driven by its German subsidiary IDT Biologika and higher vaccine sales, while its operating loss narrowed to an 11-quarter low.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "A major Asian vaccine maker's recovery."
+    },
+    "bioprocessing": {
+     "score": 5,
+     "why": "Contract manufacturing at IDT Biologika is driving growth."
+    }
+   }
+  },
+  "b4f712adc2f6": {
+   "drop": true
+  },
+  "5b685bd519de": {
+   "drop": true
+  },
+  "403c374a5686": {
+   "drop": true
+  },
+  "bacd347a6d0e": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Lunit will present two studies at SITC 2026 showing its AI pathology tools can identify tissue features linked to homologous recombination deficiency in ovarian cancer and immune patterns tied to immunotherapy response in bladder cancer.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "AI pathology used to infer biomarkers from standard slides."
+    },
+    "diagnostics": {
+     "score": 6,
+     "why": "Could reduce reliance on separate molecular HRD tests."
+    }
+   }
+  },
+  "d5cafe950030": {
+   "drop": true
+  },
+  "9983fbeb6597": {
+   "drop": true
+  },
+  "ed1527904dd4": {
+   "drop": true
+  },
+  "c0504ac9062d": {
+   "drop": true
+  },
+  "07e1d0e3e353": {
+   "drop": true
+  },
+  "138e361807d4": {
+   "drop": true
+  },
+  "e8e1ee4ffacb": {
+   "drop": true
+  },
+  "b012631c9ac4": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Edgewise says that after an end-of-phase 2 meeting with the FDA it has submitted the protocol for STRATUS-HCM, a phase 3 program of two placebo-controlled studies of EDG-7500 in obstructive and nonobstructive hypertrophic cardiomyopathy, with dose escalation guided by tolerability rather than safety echocardiograms.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Dropping echo monitoring would differentiate EDG-7500 from approved cardiac myosin inhibitors."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Clears the path to pivotal trials after Edgewise's recent muscular dystrophy setback."
+    }
+   }
+  },
+  "8000b4c674fd": {
+   "drop": true
+  },
+  "610dbac497d2": {
+   "drop": true
+  },
+  "9a456cd46961": {
+   "drop": true
+  },
+  "e00578079f96": {
+   "drop": true
+  },
+  "ce19a6a8d3e4": {
+   "cat": "funding",
+   "imp": 4,
+   "summary": "Nova Anchora raised $23 million to advance NvA-021, a topical collagen VII therapy for dystrophic epidermolysis bullosa.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "A new entrant in a rare skin disease where Vyjuvek is approved."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Early-stage rare disease financing."
+    }
+   }
+  },
+  "bbe1fa005628": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Arcutis began enrolling a phase 3 study of Zoryve (roflumilast) cream 0.3% in moderate to severe atopic dermatitis.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Pushes a topical PDE4 inhibitor into more severe eczema, a market led by biologics."
+    }
+   }
+  },
+  "0c08bdec4de3": {
+   "drop": true
+  },
+  "f396a013e270": {
+   "drop": true
+  },
+  "3a4fd1f91229": {
+   "drop": true
+  },
+  "46b597f02672": {
+   "drop": true
+  },
+  "20a8a416ccaa": {
+   "drop": true
+  },
+  "d66bcedfec9e": {
+   "drop": true
+  },
+  "9a2b317b6a51": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "STAT reports that Sen. Bernie Sanders is likely to chair the Senate health committee next year after the midterm results, which could let him reshape how the FDA deals with drug companies.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "A Sanders-led HELP committee would bring tougher scrutiny of drug pricing and FDA-industry ties."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Raises the profile of single-payer proposals."
+    }
+   }
+  },
+  "c7fdbfb7791d": {
+   "drop": true
+  },
+  "226e7f358d72": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Vericel reported third-quarter revenue up 26% to $85.4 million and net income of $14.2 million, and raised its 2026 revenue guidance to $344-346 million.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "A profitable commercial cell therapy company (MACI, Epicel)."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Raised guidance for a commercial-stage cell therapy business."
+    }
+   }
+  },
+  "9dc68ad4ae72": {
+   "cat": "other",
+   "imp": 7,
+   "summary": "STAT reports that Rasonque, Revolution Medicines' new pancreatic cancer drug, is off to one of the best oncology drug launches in history (details behind the STAT+ paywall).",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "A first RAS(ON) inhibitor launch in pancreatic cancer selling fast signals big demand for the class."
+    },
+    "investment": {
+     "score": 7,
+     "why": "A strong launch reshapes Revolution Medicines' valuation and the RAS-inhibitor race."
+    }
+   }
+  },
+  "b22a6d81ee96": {
+   "drop": true
+  },
+  "1ac268133e22": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "Dyne says the FDA is reviewing its BLA for z-rostudirsen in exon 51 Duchenne muscular dystrophy under priority review, with a PDUFA date of 21 January 2027.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "A potential next-generation exon-skipping option for Duchenne."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Sets a near-term binary decision for Dyne."
+    }
+   }
+  },
+  "12c5744b774e": {
+   "drop": true
+  },
+  "b4f2975692e5": {
+   "drop": true
+  },
+  "aa6db86a6819": {
+   "drop": true
+  },
+  "1fa222385523": {
+   "cat": "regulatory",
+   "imp": 7,
+   "summary": "The UK MHRA issued interim risk-mitigation advice for Italfarmaco's Duchenne drug Duvyzat (givinostat) after several international reports of deaths in patients taking it, and has proposed updates to the product information.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "A safety signal on one of the few approved Duchenne therapies, with likely label changes."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Prescribers of Duchenne patients need to apply the new monitoring advice."
+    }
+   }
+  },
+  "cf0c72cdf988": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "A survey reported by Green Queen found that 60% of Indian meat-eaters like the taste of plant-based meat and eggs, but a taste gap with animal products remains and more R&D is needed.",
+   "rel": {
+    "agrifood": {
+     "score": 5,
+     "why": "Consumer evidence for alternative protein demand in India."
+    }
+   }
+  },
+  "64c3a0f1ddf9": {
+   "drop": true
+  },
+  "d30d3f8eada9": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Kayak Therapeutics says the FDA cleared its IND for KT-300, a potential first-in-class TRIM7 inhibitor for RAS-driven cancers.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "A new mechanism against RAS-driven tumours entering the clinic."
+    }
+   }
+  },
+  "4da1f3cb27cc": {
+   "drop": true
+  },
+  "26a3f62ddbf1": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Opus Genetics completed dosing of the second cohort in its phase 1/2 trial of OPGx-BEST1 gene therapy for inherited retinal diseases caused by BEST1 mutations.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "An AAV gene therapy for an inherited retinal disease progressing through dose cohorts."
+    }
+   }
+  },
+  "67e8de2fdade": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "STAT looks at why shares of ProMIS Neurosciences, which is developing an Alzheimer's disease treatment, sold off sharply last week and whether the reasons hold up.",
+   "rel": {
+    "investment": {
+     "score": 5,
+     "why": "Analysis of a sharp market reaction to an Alzheimer's biotech."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Bears on the outlook for a misfolded-amyloid antibody approach."
+    }
+   }
+  },
+  "b929e689878e": {
+   "drop": true
+  },
+  "b85be3856dde": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Celltrion launched three biosimilars in Brazil, ustekinumab (Qoyvolma) and two denosumab products (Stoboclo, Osenvelt), taking its Brazilian portfolio to 10.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Shows Korean biosimilar makers expanding into Latin America."
+    }
+   }
+  },
+  "70f86e628c89": {
+   "drop": true
+  },
+  "d22c0c4a7443": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Curocell's CAR-T therapy Rimqarto (anbalcabtagene autoleucel) showed a 53.5% three-year overall survival rate in relapsed or refractory diffuse large B-cell lymphoma in long-term follow-up released ahead of ASH 2026.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "Long-term survival data for Korea's first domestic CAR-T."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Supports Curocell's push into second-line lymphoma."
+    }
+   }
+  },
+  "6625d83bb3a4": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "GI Innovation dosed the first patient in a global phase 1b/2 trial combining its GI-102 with Johnson & Johnson's KLK2xCD3 T-cell engager pasritamig in metastatic castration-resistant prostate cancer.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "A Korean biotech in a clinical collaboration with J&J."
+    }
+   }
+  },
+  "9f4dbe06ef83": {
+   "drop": true
+  },
+  "a7622de8692b": {
+   "drop": true
+  },
+  "518463d70729": {
+   "drop": true
+  },
+  "38fe2ab6b5f3": {
+   "drop": true
+  },
+  "3d7a610b67ec": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "The UK MHRA and NICE published a report on a joint scientific dialogue on real-world evidence, aimed at supporting both regulatory and health technology assessment decisions across a product's lifecycle.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Aligns UK regulator and HTA body on how real-world evidence will be judged."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Could speed NHS access decisions."
+    }
+   }
+  },
+  "96fdeedd80a5": {
+   "drop": true
+  },
+  "1e42da2fb1a0": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "UKHSA published the latest Gonococcal Resistance to Antimicrobials Surveillance Programme (GRASP) report on trends in resistance and reduced susceptibility in gonorrhoea in England and Wales.",
+   "rel": {
+    "biosecurity": {
+     "score": 5,
+     "why": "Tracks drug-resistant gonorrhoea, a WHO priority pathogen."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Informs treatment guidance for sexually transmitted infections."
+    }
+   }
+  },
+  "3c0c6cc9b7e9": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "STAT reports that after patient deaths China has restricted investigator-initiated biotech trials, slowing a flood of fast early human studies and leaving rare-disease families and US investors facing uncertainty.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Investigator-initiated trials in China have been a fast, cheap route to early human data for global drug developers."
+    },
+    "investment": {
+     "score": 6,
+     "why": "Weakens a key source of quick proof-of-concept data behind China in-licensing deals."
+    },
+    "cellgene": {
+     "score": 5,
+     "why": "Many such trials tested cell and gene therapies."
+    }
+   }
+  },
+  "26b11705bd4c": {
+   "drop": true
+  },
+  "1829638aa96a": {
+   "drop": true
+  },
+  "8d0c293fe017": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Cloudbreak Pharma's CBT-001 eye drops beat vehicle in a 659-patient phase 3 trial in pterygium, improving eye redness at month 3 and slowing lesion growth at month 12 (both p<0.001); superficial keratitis was more common on drug (20% vs 8%). Cloudbreak, whose Hong Kong shares have been suspended since September, plans to meet the FDA.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Potentially the first drug for pterygium, a condition now treated only by surgery."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Results come as the company's listed shares remain suspended."
+    }
+   }
+  },
+  "eeece3668fba": {
+   "cat": "funding",
+   "imp": 5,
+   "summary": "Oxford spinout Alethio Therapeutics raised a $90 million Series A, about a year after leaving stealth, to advance its lead antibody for essential thrombocythemia and other myeloproliferative neoplasms.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "A new antibody approach in rare blood cancers now treated mostly with JAK inhibitors and cytoreduction."
+    },
+    "investment": {
+     "score": 6,
+     "why": "A large Series A for a UK university spinout."
+    }
+   }
+  },
+  "b85679a2123a": {
+   "dup": "eeece3668fba"
+  },
+  "2f07e95d5e1c": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "A day after Texas elected Democratic statewide leaders, two cultivated meat companies urged a court to overturn the state's ban on cultivated meat, Green Queen reports.",
+   "rel": {
+    "agrifood": {
+     "score": 7,
+     "why": "Texas is one of the US states banning cultivated meat sales."
+    },
+    "fermentation": {
+     "score": 4,
+     "why": "State bans shape the US market for cell-cultured food."
+    }
+   }
+  },
+  "87bdd90929ca": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Implantica says the first US procedures with its RefluxStop implant for acid reflux have been completed.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "US commercial entry for a new reflux implant."
+    }
+   }
+  },
+  "8c1ec69c7408": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Acepodia dosed the first patient in a phase 1 trial of ACE723, a dual-payload antibody-drug conjugate and the first candidate from its AD2C platform.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Dual-payload ADCs are an emerging design to overcome resistance."
+    }
+   }
+  },
+  "1c61d7de81bf": {
+   "dup": "9e9893d82d86"
+  },
+  "9d19816d8301": {
+   "drop": true
+  },
+  "5d7362f2b053": {
+   "drop": true
+  },
+  "66689dd0ccb5": {
+   "drop": true
+  },
+  "e0127b331db1": {
+   "drop": true
+  },
+  "fbf5a9b971a0": {
+   "drop": true
+  },
+  "a90da742718e": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Compass Pathways published survey data on the burden of treatment-resistant depression on patients and caregivers as it prepares to launch its psilocybin therapy COMP360, which is nearing the market.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Groundwork for what could be the first approved psychedelic medicine."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Psychedelic therapy needs new clinic infrastructure and payer buy-in."
+    }
+   }
+  },
+  "7ab5bf998ed3": {
+   "drop": true
+  },
+  "e8d1151d856f": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Novonesis reported 7% organic sales growth for the first nine months of 2026 and an adjusted EBITDA margin of 37.9%, confirming its full-year outlook of 7-8% growth.",
+   "rel": {
+    "industrial": {
+     "score": 8,
+     "why": "The largest industrial enzymes and microbes company sets the tone for industrial biotech demand."
+    },
+    "fermentation": {
+     "score": 7,
+     "why": "Novonesis is the biggest player in precision-fermented enzymes and cultures."
+    },
+    "agrifood": {
+     "score": 6,
+     "why": "Food, feed and agricultural biosolutions are a large part of its sales."
+    }
+   }
+  },
+  "5242c89f8c10": {
+   "cat": "funding",
+   "imp": 6,
+   "summary": "Cambridge, UK biotech T-Therapeutics raised an oversubscribed $133 million Series B, with J&J, Merck KGaA and Eli Lilly joining Sanofi, to take its TCR-based T cell engagers for cancer and autoimmune disease to clinical proof of concept.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Four big pharma investors back TCR bispecifics, including for autoimmune disease."
+    },
+    "investment": {
+     "score": 7,
+     "why": "One of the larger European private rounds this year."
+    }
+   }
+  },
+  "29ee4dea91e9": {
+   "dup": "5242c89f8c10"
+  },
+  "7e0ead5864ed": {
+   "dup": "e8d1151d856f"
+  },
+  "cbb479b7f46f": {
+   "drop": true
+  },
+  "5c93bcdd21f4": {
+   "drop": true
+  },
+  "6088289a42ae": {
+   "cat": "deals",
+   "imp": 3,
+   "summary": "Telix joined Thera4Care, a European initiative to build an integrated theranostics ecosystem, with its FAP-targeting candidate TLX400-Tx selected for evaluation with terbium-161.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Radiopharmaceutical companies are pooling efforts on next-generation isotopes."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Aims to widen theranostics access in Europe."
+    }
+   }
+  },
+  "e85489238062": {
+   "drop": true
+  },
+  "aea6ac98fb56": {
+   "drop": true
+  },
+  "edfcf2d46be0": {
+   "drop": true
+  },
+  "099deddd2dc1": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "Akeso says China's NMPA granted priority review to ivonescimab plus chemotherapy for first-line locally advanced or metastatic biliary tract cancer.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Extends the PD-1xVEGF bispecific, the most watched new oncology class, into a new indication."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Adds to Akeso's and partner Summit's commercial runway in China."
+    }
+   }
+  },
+  "2e1f9eeb580a": {
+   "dup": "8d0c293fe017"
+  },
+  "88ca828ec76d": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Nature Medicine study of fecal metagenomes from 6,803 adults in Japan's 4D cohort, validated in 13 other cohorts, found two opposing microbiome-mediated axes that link modifiable lifestyle factors to health and chronic disease.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "Microbiome scores could become markers for lifestyle-linked disease risk."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "Validated microbiome prediction scores are a step towards stool-based risk tests."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Large-scale shotgun metagenomics across many cohorts."
+    }
+   }
+  },
+  "2c80c0c9f787": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A bioRxiv preprint maps a Mg-Fe-PmrAB regulatory circuit that makes Enterobacteriaceae tolerant to polymyxins under phosphate starvation, and reports that targeting it reverses that tolerance. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Points to a way to restore polymyxins, a last-resort antibiotic class."
+    },
+    "biosecurity": {
+     "score": 4,
+     "why": "Relevant to antimicrobial resistance in Gram-negative pathogens."
+    }
+   }
+  },
+  "1ef31cc72eed": {
+   "dup": "68d06e5a1880"
+  },
+  "bba62f9188b5": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "NEJM published an original trial report on Arrowhead's RNAi drug plozasiran in severe hypertriglyceridemia, including its effect on the risk of acute pancreatitis (full text not accessible).",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Key evidence for expanding plozasiran beyond familial chylomicronaemia syndrome into a much larger population."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Pancreatitis prevention is the clinically meaningful outcome for these patients."
+    }
+   }
+  },
+  "a28b44840214": {
+   "drop": true
+  },
+  "aa20f4b54bcf": {
+   "drop": true
+  },
+  "ed33244b864b": {
+   "drop": true
+  },
+  "194951348aa8": {
+   "drop": true
+  },
+  "fbdaf94c56a3": {
+   "drop": true
+  },
+  "069c739ea154": {
+   "drop": true
+  },
+  "b1914a1cde22": {
+   "drop": true
+  },
+  "4adefc7ac51d": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "An NEJM editorial discusses the trial results for a triple incretin agonist in obesity, knee osteoarthritis and obstructive sleep apnea.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Commentary on the obesity drug class's expansion into new indications."
+    }
+   }
+  },
+  "5b75e6344218": {
+   "drop": true
+  },
+  "d7163bd55a11": {
+   "drop": true
+  },
+  "8ca356fb5611": {
+   "drop": true
+  },
+  "280b6971b865": {
+   "drop": true
+  },
+  "cdeed3d071e8": {
+   "drop": true
+  },
+  "158bc3bf3266": {
+   "drop": true
+  },
+  "422f64f06226": {
+   "cat": "deals",
+   "imp": 5,
+   "summary": "WuXi Biologics and Fresenius struck what Endpoints calls one of the largest biosimilar deals to date, ahead of an expected 'golden decade' of biologic patent expiries.",
+   "rel": {
+    "bioprocessing": {
+     "score": 7,
+     "why": "Gives a Chinese CDMO a major role in a European biosimilar pipeline despite US Biosecure pressure."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Biosimilar players are positioning for a large wave of biologic patent losses."
+    }
+   }
+  },
+  "416f9d687684": {
+   "drop": true
+  },
+  "81218e82cb20": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "OliX Pharmaceuticals submitted an IND to the FDA to run part of a phase 2a trial of OLX301A, its RNAi treatment for geographic atrophy, after Australian approval of the study.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "An siRNA approach to geographic atrophy moving into US trials."
+    }
+   }
+  },
+  "ba2105c7905d": {
+   "drop": true
+  },
+  "dda88121b0a4": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "AdvaMed chair and Resmed CEO Mick Farrell told MedTech Dive his priorities for the medtech industry in a year of cyberattacks, inflation and possible tariffs.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Industry lobby priorities on tariffs and regulation."
+    }
+   }
+  },
+  "ba2f44b07c6c": {
+   "drop": true
+  },
+  "263a3f3caf04": {
+   "drop": true
+  },
+  "bb78c4e08c42": {
+   "drop": true
+  },
+  "bbbbe4de29cb": {
+   "drop": true
+  },
+  "119f813263ad": {
+   "drop": true
+  },
+  "fc41d5897760": {
+   "drop": true
+  },
+  "663eb438af1a": {
+   "drop": true
+  },
+  "559ff3b6ff56": {
+   "drop": true
+  },
+  "290c14e0006d": {
+   "drop": true
+  },
+  "8156977ce882": {
+   "drop": true
+  },
+  "b4b5c5a2f915": {
+   "drop": true
+  },
+  "0d137280b19c": {
+   "drop": true
+  },
+  "52a1a41692d3": {
+   "drop": true
+  },
+  "21fb8dc84ead": {
+   "drop": true
+  },
+  "1d3e416b901b": {
+   "drop": true
+  },
+  "1f5a8618fadd": {
+   "drop": true
+  },
+  "2007990be77f": {
+   "drop": true
+  },
+  "ce56a1baac95": {
+   "drop": true
+  },
+  "65a3d15207c3": {
+   "drop": true
+  },
+  "1e1d7c71001a": {
+   "drop": true
+  },
+  "b474dc8610b2": {
+   "drop": true
+  },
+  "64345550e8c0": {
+   "drop": true
+  },
+  "7cf5d08c5cb8": {
+   "drop": true
+  },
+  "4e81e74ecef6": {
+   "drop": true
+  },
+  "5fb74a5cac35": {
+   "drop": true
+  },
+  "088ea64bea6f": {
+   "drop": true
+  },
+  "25ee30db8ec3": {
+   "drop": true
+  },
+  "bbfee811aa2a": {
+   "drop": true
+  },
+  "8b87cc6ba91d": {
+   "dup": "98f430df60ac"
+  },
+  "ec0bb7290235": {
+   "drop": true
+  },
+  "674476ff9dbe": {
+   "drop": true
+  },
+  "1fcd57a312ac": {
+   "drop": true
+  },
+  "77e8c00cb60c": {
+   "drop": true
+  },
+  "0f27c8467d9c": {
+   "drop": true
+  },
+  "774aa576506e": {
+   "drop": true
+  },
+  "8adb38f82a7b": {
+   "drop": true
+  },
+  "27cd6a8a231d": {
+   "drop": true
+  },
+  "c562014b6373": {
+   "drop": true
+  },
+  "a28d7f2c9d5d": {
+   "drop": true
+  },
+  "d26dc668a48d": {
+   "drop": true
+  },
+  "ddc17a5482c7": {
+   "drop": true
+  },
+  "e3272ab7ca7c": {
+   "drop": true
+  },
+  "e30ea1ad7972": {
+   "drop": true
+  },
+  "68ff61d3daa0": {
+   "drop": true
+  },
+  "84934324676b": {
+   "drop": true
+  },
+  "69724cc3cbbc": {
+   "drop": true
+  },
+  "65faf13d45c6": {
+   "drop": true
+  },
+  "0d8ad6439ccc": {
+   "drop": true
+  },
+  "6bdb991e819d": {
+   "drop": true
+  },
+  "e3b77d178a2e": {
+   "drop": true
+  },
+  "260e5d47fbc8": {
+   "drop": true
+  },
+  "3986a34860d2": {
+   "drop": true
+  },
+  "d873090f37e1": {
+   "drop": true
+  },
+  "6ba861e8c792": {
+   "dup": "68d06e5a1880"
+  },
+  "bee145658115": {
+   "drop": true
+  },
+  "e3672f1550df": {
+   "drop": true
+  },
+  "74f2728fce92": {
+   "dup": "98f430df60ac"
+  },
+  "559e6d5e418d": {
+   "drop": true
+  },
+  "dd2c98e4c894": {
+   "drop": true
+  },
+  "a7d625909f35": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "An NEJM editorial discusses the evidence on sirolimus-coated balloon angioplasty for infrainguinal (leg) artery disease.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Drug-coated balloons are a growing alternative to stents in peripheral artery disease."
+    }
+   }
+  },
+  "034ec4345cd5": {
+   "drop": true
+  },
+  "bd18034d0017": {
+   "drop": true
+  },
+  "3d906ae61b68": {
+   "drop": true
+  },
+  "a67691798496": {
+   "drop": true
+  },
+  "06e27e10adae": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "The Scientist reports that Merck and Moderna's personalised mRNA cancer vaccine, added to standard care, cut the risk of melanoma recurrence or death by 42%.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Personalised mRNA vaccine data in melanoma."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Supports individualised neoantigen therapy as a category."
+    }
+   }
+  },
+  "35c53b47cfa6": {
+   "drop": true
+  },
+  "a1c18472d690": {
+   "drop": true
+  },
+  "03bf17746476": {
+   "drop": true
+  },
+  "4042ff57f9b0": {
+   "drop": true
+  },
+  "90ae09a68dbe": {
+   "drop": true
+  },
+  "caa88a34c27d": {
+   "drop": true
+  },
+  "568559b0bbf9": {
+   "dup": "d76c5250b63f"
+  },
+  "2330167c4bc4": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "A Labiotech piece from Lonza discusses the 'stranded asset' problem in microbial custom manufacturing, where capacity built for one product goes unused.",
+   "rel": {
+    "bioprocessing": {
+     "score": 5,
+     "why": "Capacity planning in microbial CDMO manufacturing."
+    },
+    "fermentation": {
+     "score": 4,
+     "why": "Relevant to companies relying on contract microbial capacity."
+    }
+   }
+  },
+  "0142974eb2ad": {
+   "drop": true
+  },
+  "bfe09f254a31": {
+   "drop": true
+  },
+  "04ab67b848ec": {
+   "drop": true
+  },
+  "415e222efabe": {
+   "drop": true
+  },
+  "d11c7fcd08c1": {
+   "drop": true
+  },
+  "a1c582058388": {
+   "drop": true
+  },
+  "67e139d57680": {
+   "drop": true
+  },
+  "3ffbffff5c2c": {
+   "drop": true
+  },
+  "0ffcf1f2d96e": {
+   "drop": true
+  },
+  "4db06ed25f9c": {
+   "drop": true
+  },
+  "11f3cb257b6b": {
+   "drop": true
+  },
+  "1b4fcac558ca": {
+   "drop": true
+  },
+  "fe226254889a": {
+   "drop": true
   }
  },
  "extra": [
