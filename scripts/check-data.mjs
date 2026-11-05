@@ -37,6 +37,16 @@ for (const e of data.events || []) {
   if (!Object.keys(e.rel || {}).length) err(e, "needs at least one sector in rel");
 }
 
+// The weekly update's working file (leads, watch list): must stay valid JSON with the expected lists.
+try {
+  const pipe = JSON.parse(readFileSync(new URL("../data/event-pipeline.json", import.meta.url), "utf8"));
+  if (!Array.isArray(pipe.leads) || !Array.isArray(pipe.watch)) errors.push("data/event-pipeline.json needs 'leads' and 'watch' arrays");
+  for (const l of pipe.leads || []) if (!/^https:\/\//.test(l.url || "")) errors.push(`event-pipeline lead '${l.name || "?"}': url must start with https://`);
+  for (const w of pipe.watch || []) if (!w.series) errors.push("event-pipeline watch entry missing 'series'");
+} catch (e) {
+  errors.push(`data/event-pipeline.json: ${e.message}`);
+}
+
 const today = new Date().toISOString().slice(0, 10);
 const upcoming = (data.events || []).filter((e) => (e.end || e.start) >= today);
 const staleDays = Math.floor((Date.now() - new Date(data.updated)) / 864e5);

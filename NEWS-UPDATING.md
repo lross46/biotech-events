@@ -50,6 +50,13 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
        editing, CAR-T, AAV, mRNA medicines) and `tools` is research tools and platforms (instruments,
        sequencing, omics, reagents, lab automation); score them alongside `pharma`, not instead of it.
    Work in batches; there are usually 100–300 new stories a day. Be brief but never vague.
+2b. **Event leads.** While reviewing (including stories you drop as event promotions), note every story that
+   names an upcoming biotech, pharma, medtech or life-science conference, trade show, summit or partnering
+   event. If it isn't already in `site/data/events.json` (check by name and dates), add it to
+   `data/event-pipeline.json` → `leads` as `{"name": "…", "dates": "as stated, or null", "city": "… or null",
+   "url": "<the story url>", "source": "<outlet>", "added": "YYYY-MM-DD"}`. Skip duplicates already in
+   `leads`, and investor-relations notices like "X to present at Y". Don't add events to `events.json`
+   yourself; the weekly event update checks and adds them. Commit the file together with your review.
 3. **Scout** for important stories from the last 48 hours that the feeds missed. Search the web for each
    sector, and specifically for: Asia-Pacific (China, Japan, Korea, Singapore, India), EU and UK government and
    defence biotech news, biosecurity incidents, company press releases for large deals or trial results.

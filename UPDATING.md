@@ -12,9 +12,22 @@ short summary and per-sector relevance scores. Aim for 100–250 upcoming events
 
 ## Steps
 
-1. Read `site/data/events.json` and `scripts/check-data.mjs` (it defines the allowed values for `type`,
-   `format`, `region` and the sector ids).
-2. **Prune:** delete events whose end date is more than 60 days in the past.
+1. Read `site/data/events.json`, `data/event-pipeline.json` (your working file: leads, watch list, last gap
+   check) and `scripts/check-data.mjs` (it defines the allowed values for `type`, `format`, `region` and the
+   sector ids).
+1b. **Leads and suggestions first.** Check every lead in `data/event-pipeline.json` → `leads` (added by the
+   daily news review) and every open GitHub issue titled "Event suggestion:" or labelled `event-suggestion`
+   in lross46/biotech-events (people suggest them from the app's "+ Suggest event" button). Apply the step 5
+   rule. Add the event if it qualifies, then remove the lead; close each issue with a one-line comment
+   ("Added: <name>, <dates>" or why not, e.g. "Not biotech" or "No dates announced yet; on the watch list").
+   A lead whose dates aren't announced yet goes on the watch list instead.
+   (Use the GitHub MCP tools for issues. If they aren't available, say so in the commit message and continue.)
+2. **Prune:** delete events whose end date is more than 60 days in the past. Before deleting a recurring
+   event, make sure its series is in `watch` (update `lastYear`, `lastStart`, `lastId`, `url`).
+2b. **Watch list:** for each `watch` entry with `nextKnown: false` whose last edition started more than 6
+   months ago or ends within the next 3 months, look for the next edition's dates on the official site. When they
+   are announced, add the event and set `nextKnown: true` (reset it to `false` once that edition becomes the
+   latest one listed). Add every new recurring event you list in step 4 to `watch`.
 3. **Re-check:** for upcoming events whose `checked` date is more than 60 days old, or which start in the next
    30 days, confirm dates, place and URL on the official site. Fix anything that changed (cancelled →
    delete; postponed → new dates). Set `checked` to today.
@@ -39,6 +52,11 @@ short summary and per-sector relevance scores. Aim for 100–250 upcoming events
    BioCentury, Cambridge Healthtech Institute, Gordon Research Conferences, national biotech associations,
    Oxford Global, Kisaco Research, Easyfairs, Messe/venue event calendars, and event aggregators
    (e.g. 10times, Conference Index) as leads to confirm on the official site.
+4b. **Monthly gap check** (when `lastGapCheck` is empty or more than 28 days ago): on two or three big event
+   listing sites (e.g. 10times, Conference Index, the ExCeL / Messe / RAI "what's on" pages), list the largest
+   biotech, pharma, medtech and life-science events in the next 12 months for London, Boston, San Francisco,
+   San Diego, Basel, Paris, Berlin, Amsterdam, Copenhagen, Singapore and Tokyo. Add any big ones we don't have
+   (step 5 rule), set `lastGapCheck` to today, and say in the commit message how many the check found.
 5. **Only add an event when** its dates and city are stated on the official site, or on two independent
    listings if the official site cannot be read. Use the official event URL (https). Never guess dates.
 6. For each event fill in: `id` (lowercase-dashes, include the year), `name`, `start`/`end` (YYYY-MM-DD),
@@ -57,7 +75,8 @@ short summary and per-sector relevance scores. Aim for 100–250 upcoming events
    tools covers research tools and platforms (instruments, sequencing, omics, reagents, lab automation);
    fermentation covers precision, biomass and traditional fermentation; bioprocessing covers upstream/downstream manufacturing and CDMOs; industrial covers
    synthetic biology for chemicals, materials and biomanufacturing.
-9. Set the top-level `updated` to the current UTC time (ISO 8601).
+9. Set the top-level `updated` in `events.json` to the current UTC time (ISO 8601), and `updated` in
+   `data/event-pipeline.json` to today's date.
 10. Run `node scripts/check-data.mjs` and fix every error it reports.
 11. Before committing, set the commit identity so no personal email ends up in the public history:
    `git config user.name "lross46"` and `git config user.email "347590180+lross46@users.noreply.github.com"`.

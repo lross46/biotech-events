@@ -1,0 +1,22 @@
+name: Suggest an event
+description: Tell Bio Radar about a biotech event that is missing. The weekly update checks it and adds it.
+title: "Event suggestion: "
+labels: ["event-suggestion"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Event link
+      description: The official event page if you have it, otherwise any page that mentions it.
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Event name and dates (if you know them)
+  - type: textarea
+    id: why
+    attributes:
+      label: Anything else? (optional)
+      description: Why it matters, which sectors, who goes.
