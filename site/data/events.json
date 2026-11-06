@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T05:48:49Z",
+ "updated": "2026-11-06T16:21:42Z",
  "horizon": "Events from now to about 18 months ahead",
  "events": [
   {
@@ -3866,6 +3866,56 @@
    ],
    "added": "2026-10-26",
    "checked": "2026-10-26"
+  },
+  {
+   "id": "biotechx-europe-2027",
+   "name": "BioTechX Europe 2027",
+   "start": "2027-10-11",
+   "end": "2027-10-13",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Basel",
+   "country": "Switzerland",
+   "organiser": "Terrapinn",
+   "url": "https://www.terrapinn.com/conference/biotechx/",
+   "free": false,
+   "summary": "Large Basel congress and exhibition on diagnostics, precision medicine, genomics, data and AI in drug development, drawing 3,000+ pharma, academic and clinical attendees.",
+   "rel": {
+    "ai": {
+     "score": 8,
+     "why": "AI, multiomic data and digital transformation in R&D are core tracks."
+    },
+    "diagnostics": {
+     "score": 8,
+     "why": "Diagnostics and precision medicine are a headline focus."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Pharma R&D and data leaders make up much of the audience."
+    },
+    "tools": {
+     "score": 7,
+     "why": "Genomics, sequencing and multiomics platforms feature heavily among talks and exhibitors."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Clinicians and sessions on bringing precision medicine into care."
+    },
+    "cellgene": {
+     "score": 3,
+     "why": "Some sessions on next-generation therapies."
+    }
+   },
+   "keywords": [
+    "BioTechX",
+    "BioTech X",
+    "Biotech X Basel",
+    "precision medicine",
+    "genomics"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "labroots-cgt-2027",

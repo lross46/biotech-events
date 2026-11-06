@@ -1,6 +1,6 @@
 {
  "about": "Working file for the weekly event update (see UPDATING.md). Not shown in the app.",
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "lastGapCheck": null,
  "leads": [],
  "watch": [
@@ -213,6 +213,14 @@
    "nextKnown": false
   },
   {
+   "series": "BIO€quity Europe",
+   "lastYear": 2027,
+   "lastStart": "2027-05-10",
+   "lastId": "bioequity-europe-2027",
+   "url": "https://conferences.biocentury.com/bioequity-europe-2027",
+   "nextKnown": false
+  },
+  {
    "series": "BioAsia",
    "lastYear": 2027,
    "lastStart": "2027-02-15",
@@ -301,11 +309,11 @@
    "nextKnown": false
   },
   {
-   "series": "BIO€quity Europe",
+   "series": "BioTechX Europe",
    "lastYear": 2027,
-   "lastStart": "2027-05-10",
-   "lastId": "bioequity-europe-2027",
-   "url": "https://conferences.biocentury.com/bioequity-europe-2027",
+   "lastStart": "2027-10-11",
+   "lastId": "biotechx-europe-2027",
+   "url": "https://www.terrapinn.com/conference/biotechx/",
    "nextKnown": false
   },
   {
