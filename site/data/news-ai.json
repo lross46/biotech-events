@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-06T06:42:58Z",
+ "updated": "2026-11-06T13:42:33Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-06T06:42:58Z",
+  "date": "2026-11-06T13:42:33Z",
   "points": [
    {
     "sec": "results",
@@ -46,12 +46,12 @@
    },
    {
     "sec": "money",
-    "text": "AstraZeneca has offered about $10 billion for rare obesity drugmaker Rhythm, the Wall Street Journal reports, with analysts expecting a bidding war. ANI is buying Egetis for $560 million for its approved orphan drug Emcitate, and China licensing kept going as Evommune paid Hinova $30 million upfront for a molecular glue and Caldera took a bispecific from Qyuns; Rezera, formerly NodThera, filed for a $181 million IPO.",
+    "text": "AstraZeneca has offered about $10 billion for rare obesity drugmaker Rhythm, the Wall Street Journal reports, with analysts expecting a bidding war. Lilly agreed to sell Zepbound and Foundayo through Hims & Hers at self-pay prices from $299 and $149 a month, with Hims pledging never to offer compounded copies. ANI is buying Egetis for $560 million for its orphan drug Emcitate, and China licensing kept going as Evommune paid Hinova $30 million upfront for a molecular glue; Rezera, formerly NodThera, filed for a $181 million IPO.",
     "ids": [
      "85101ab8f79e",
+     "0663a51606fc",
      "3e39974a9c9d",
-     "145d7ea180e7",
-     "e9a0539daa4c"
+     "145d7ea180e7"
     ]
    },
    {
@@ -17569,6 +17569,708 @@
     "healthcare": {
      "score": 3,
      "why": "New option after EGFR inhibitor resistance."
+    }
+   }
+  },
+  "a7585686b1f1": {
+   "drop": true
+  },
+  "3149d03a8533": {
+   "drop": true
+  },
+  "0c8b7772aa37": {
+   "drop": true
+  },
+  "9bdd1a03c9bf": {
+   "drop": true
+  },
+  "e1c379a4da62": {
+   "drop": true
+  },
+  "474b93ef4a1f": {
+   "drop": true
+  },
+  "40c73965c2d8": {
+   "drop": true
+  },
+  "005daf33938b": {
+   "drop": true
+  },
+  "b1ed9361e302": {
+   "drop": true
+  },
+  "e999a56f3992": {
+   "drop": true
+  },
+  "6bc535582abc": {
+   "drop": true
+  },
+  "8e7a06e4256d": {
+   "drop": true
+  },
+  "6d5ce015ab26": {
+   "drop": true
+  },
+  "72a65ef2a51d": {
+   "drop": true
+  },
+  "6fd8bd73e844": {
+   "drop": true
+  },
+  "9c41a513889c": {
+   "drop": true
+  },
+  "f31b4808ceaf": {
+   "drop": true
+  },
+  "39c3eded576e": {
+   "drop": true
+  },
+  "426eb50eff54": {
+   "drop": true
+  },
+  "2cd94d21b408": {
+   "drop": true
+  },
+  "be6cac47eb29": {
+   "drop": true
+  },
+  "f527076d3597": {
+   "drop": true
+  },
+  "38280df1c81b": {
+   "drop": true
+  },
+  "4190acca4168": {
+   "drop": true
+  },
+  "b76c2e527e26": {
+   "drop": true
+  },
+  "8ca356fb5611": {
+   "drop": true
+  },
+  "a56648f29dc3": {
+   "drop": true
+  },
+  "dba4957f5c00": {
+   "drop": true
+  },
+  "0c68afa5ce4b": {
+   "drop": true
+  },
+  "c40ce93661fe": {
+   "drop": true
+  },
+  "62041aef2e56": {
+   "drop": true
+  },
+  "7da2ba87bb8c": {
+   "drop": true
+  },
+  "5bf0979b0db7": {
+   "drop": true
+  },
+  "2cf4421a9871": {
+   "drop": true
+  },
+  "759ba645ab4c": {
+   "drop": true
+  },
+  "f8ab24ff69f3": {
+   "drop": true
+  },
+  "71eca52e01d8": {
+   "drop": true
+  },
+  "79aa09795f1f": {
+   "drop": true
+  },
+  "1db02bb84242": {
+   "drop": true
+  },
+  "aec64996a44f": {
+   "drop": true
+  },
+  "c95c22b6d2f1": {
+   "drop": true
+  },
+  "bf2221685f97": {
+   "drop": true
+  },
+  "02866995c420": {
+   "drop": true
+  },
+  "40f91ce423e2": {
+   "drop": true
+  },
+  "f3b60d7b1eb8": {
+   "drop": true
+  },
+  "281799db0744": {
+   "drop": true
+  },
+  "9476cd1bccd9": {
+   "drop": true
+  },
+  "380bdc148580": {
+   "drop": true
+  },
+  "cdeed3d071e8": {
+   "drop": true
+  },
+  "280b6971b865": {
+   "drop": true
+  },
+  "bb78c4e08c42": {
+   "drop": true
+  },
+  "bbbbe4de29cb": {
+   "drop": true
+  },
+  "119f813263ad": {
+   "drop": true
+  },
+  "fc41d5897760": {
+   "drop": true
+  },
+  "52a1a41692d3": {
+   "drop": true
+  },
+  "21fb8dc84ead": {
+   "drop": true
+  },
+  "1d3e416b901b": {
+   "drop": true
+  },
+  "1f5a8618fadd": {
+   "drop": true
+  },
+  "ce56a1baac95": {
+   "drop": true
+  },
+  "2007990be77f": {
+   "drop": true
+  },
+  "1e1d7c71001a": {
+   "drop": true
+  },
+  "65a3d15207c3": {
+   "drop": true
+  },
+  "64345550e8c0": {
+   "drop": true
+  },
+  "b474dc8610b2": {
+   "drop": true
+  },
+  "e3272ab7ca7c": {
+   "drop": true
+  },
+  "e30ea1ad7972": {
+   "drop": true
+  },
+  "68ff61d3daa0": {
+   "drop": true
+  },
+  "84934324676b": {
+   "drop": true
+  },
+  "69724cc3cbbc": {
+   "drop": true
+  },
+  "6bdb991e819d": {
+   "drop": true
+  },
+  "e3b77d178a2e": {
+   "drop": true
+  },
+  "0d8ad6439ccc": {
+   "drop": true
+  },
+  "260e5d47fbc8": {
+   "drop": true
+  },
+  "3986a34860d2": {
+   "drop": true
+  },
+  "d873090f37e1": {
+   "drop": true
+  },
+  "35c53b47cfa6": {
+   "drop": true
+  },
+  "bee145658115": {
+   "drop": true
+  },
+  "a1c18472d690": {
+   "drop": true
+  },
+  "0142974eb2ad": {
+   "drop": true
+  },
+  "4042ff57f9b0": {
+   "drop": true
+  },
+  "bfe09f254a31": {
+   "drop": true
+  },
+  "04ab67b848ec": {
+   "drop": true
+  },
+  "d11c7fcd08c1": {
+   "drop": true
+  },
+  "415e222efabe": {
+   "drop": true
+  },
+  "a1c582058388": {
+   "drop": true
+  },
+  "11f3cb257b6b": {
+   "drop": true
+  },
+  "ee3e057cdd8a": {
+   "dup": "29847b25d9e9"
+  },
+  "0bb61616128f": {
+   "dup": "29847b25d9e9"
+  },
+  "4271720be6aa": {
+   "dup": "29847b25d9e9"
+  },
+  "b643280ccef5": {
+   "dup": "29847b25d9e9"
+  },
+  "b6a9c09a65ff": {
+   "dup": "29847b25d9e9"
+  },
+  "1d1d3181dd88": {
+   "dup": "29847b25d9e9"
+  },
+  "6b20e0ff5133": {
+   "dup": "29847b25d9e9"
+  },
+  "bd26fd74777c": {
+   "dup": "fe06643ee011"
+  },
+  "75e957a2fd98": {
+   "dup": "03fead43962c"
+  },
+  "23a5df178dfc": {
+   "dup": "8d94f307f7c6"
+  },
+  "a57c011ff8db": {
+   "dup": "a2d74786959d"
+  },
+  "84989ed6e3be": {
+   "dup": "968fa55817bc"
+  },
+  "fb46ca08dc69": {
+   "dup": "5ec798453c55"
+  },
+  "d96c3d72332f": {
+   "dup": "68d06e5a1880"
+  },
+  "6ba861e8c792": {
+   "dup": "68d06e5a1880"
+  },
+  "74f2728fce92": {
+   "dup": "98f430df60ac"
+  },
+  "568559b0bbf9": {
+   "dup": "d76c5250b63f"
+  },
+  "0663a51606fc": {
+   "cat": "deals",
+   "imp": 7,
+   "summary": "Lilly and Hims & Hers say patients prescribed through the Hims & Hers platform can get Lilly's Zepbound (tirzepatide) and Foundayo (orforglipron) at self-pay prices starting at $299 and $149 a month. Hims & Hers committed never to offer compounded copies of Lilly's GLP-1 medicines.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Moves the leading obesity drugmaker's branded GLP-1s into the biggest telehealth channel that previously sold compounded copies."
+    },
+    "healthcare": {
+     "score": 7,
+     "why": "Shifts direct-to-consumer obesity care towards approved drugs at cash prices."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Material for both companies' obesity revenue outlook."
+    }
+   }
+  },
+  "36a8a788b4ca": {
+   "cat": "funding",
+   "imp": 5,
+   "summary": "Fathom Therapeutics raised a $55 million Series A led by Sutter Hill Ventures, with Kos Biotechnology Partners joining, according to Kos. Fathom's Microcosmos platform combines quantum chemistry, physics-based simulation and AI to model protein-drug interactions at atomic resolution.",
+   "rel": {
+    "ai": {
+     "score": 8,
+     "why": "Venture backing for physics-plus-AI drug discovery."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "A new discovery-platform company aiming to generate drug candidates."
+    },
+    "investment": {
+     "score": 6,
+     "why": "A sizeable Series A for an AI discovery startup."
+    }
+   }
+  },
+  "2a21ff38ff0b": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Satellos says that after FDA feedback it has changed the primary endpoint of its phase 2 BASECAMP trial of oral forazapadin in boys aged 7 to 9 with Duchenne muscular dystrophy from dynamometry to MRI-measured fat fraction of the vastus lateralis. Topline 12-week placebo-controlled data are expected in Q1 2027.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Shows FDA openness to an MRI imaging endpoint in a Duchenne trial."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Rare paediatric muscle disease programme."
+    }
+   }
+  },
+  "f21a1250ffa0": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Zimmer Biomet announced Surgeon-Guided Autonomy, which it calls a new category of intelligent surgery built on a closed-loop 'predict, perform, recover' framework that keeps the surgeon in control in the operating room.",
+   "rel": {
+    "meddevices": {
+     "score": 7,
+     "why": "A large orthopaedics maker's strategy for autonomous features in surgical robotics."
+    },
+    "ai": {
+     "score": 4,
+     "why": "AI-driven planning and autonomy in surgery."
+    }
+   }
+  },
+  "4d519828704c": {
+   "cat": "funding",
+   "imp": 4,
+   "summary": "INOVIO priced a public offering of about $75 million, days after FDA approval of its DNA-based immunotherapy Voceryq for recurrent respiratory papillomatosis.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Funds the launch of a newly approved DNA medicine."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Post-approval equity raise."
+    },
+    "cellgene": {
+     "score": 3,
+     "why": "DNA medicine platform."
+    }
+   }
+  },
+  "786b1e94c068": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Lynk Pharmaceuticals says China's NMPA has accepted its new drug application for zemprocitinib, its lead drug, in rheumatoid arthritis.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "A China-developed JAK-class immunology drug nears approval."
+    }
+   }
+  },
+  "0d08b919c0c7": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Bio-Thera says China's NMPA approved BAT2506, the first golimumab biosimilar approved in China.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "First biosimilar competition for golimumab in China."
+    },
+    "bioprocessing": {
+     "score": 3,
+     "why": "Another biologic biosimilar entering manufacture."
+    }
+   }
+  },
+  "7e4ce0537f43": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Endpoints rounds up executive moves: Novo Nordisk and Pfizer have hired new chief financial officers, and Alnylam's chief commercial officer is leaving as its commercial struggles continue.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Leadership changes at three large drugmakers."
+    },
+    "investment": {
+     "score": 3,
+     "why": "CFO changes at Novo and Pfizer matter to investors."
+    }
+   }
+  },
+  "20446dc6d8dd": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Merck Life Science CEO Jean-Charles Wirth told Korea Biomedical Review the company plans to grow its newly opened Daejeon bioprocessing production centre into a regional hub serving Korea and other Asian markets, possibly adding products as demand grows.",
+   "rel": {
+    "bioprocessing": {
+     "score": 7,
+     "why": "A major bioprocess supplier is building Asian manufacturing capacity."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Life-science supply chain in Asia."
+    }
+   }
+  },
+  "304594adf3d0": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "Pfizer's Litfulo (ritlecitinib) cleared Korea's HIRA reimbursement review for severe alopecia areata in adults and adolescents aged 12 and over, moving it closer to national insurance coverage.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Reimbursement step for a Pfizer immunology drug in Korea."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Wider patient access in Korea."
+    }
+   }
+  },
+  "09eefb74c4c2": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "SK biopharmaceuticals says it built a 7.14-million-record dataset and tested a specialised AI model on 66 drug development tasks in a government-backed project, but has not disclosed the model's performance.",
+   "rel": {
+    "ai": {
+     "score": 7,
+     "why": "Korean government-backed push to build drug R&D AI models."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "AI tools for drug development at a Korean drugmaker."
+    }
+   }
+  },
+  "cdfca44fb81f": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "Korea's MFDS designated two peritoneal dialysis devices, including a US-made PD catheter, for emergency import to treat severe acute kidney injury in newborns and children.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Emergency import route to fill a paediatric device gap."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Access to dialysis for critically ill children."
+    }
+   }
+  },
+  "8937d08a28c4": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Nature paper describes an AI system that coordinates laboratory instruments to run multi-step molecular biology experiments with limited human intervention; Nature's news team reports the self-driving lab in China needs only a simple prompt to encode messages in DNA and read them out.",
+   "rel": {
+    "ai": {
+     "score": 8,
+     "why": "AI agents running real wet-lab workflows end to end."
+    },
+    "tools": {
+     "score": 7,
+     "why": "Lab automation that could change how experiments are run."
+    }
+   }
+  },
+  "3cf1b441539c": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A gait foundation model trained on 3D skeletal motion from 3,328 adults predicts a wide range of clinical characteristics and diagnoses, Nature Medicine reports.",
+   "rel": {
+    "ai": {
+     "score": 7,
+     "why": "A foundation model applied to motion data for health prediction."
+    },
+    "diagnostics": {
+     "score": 6,
+     "why": "Gait as a non-invasive screening signal for many conditions."
+    },
+    "meddevices": {
+     "score": 4,
+     "why": "Points to camera or sensor-based assessment tools."
+    }
+   }
+  },
+  "b94e0a289435": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Cas12a-based combinatorial knockout screens produced a genetic interaction map of the DNA damage response, defining functional relationships among its genes and pathways (Nature Biotechnology).",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "Combinatorial CRISPR screening method and resource."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Synthetic-lethal targets in DNA repair for oncology."
+    }
+   }
+  },
+  "b675c84de30c": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "NYU Grossman researchers found that DNA replication problems at a small set of chromosome sites can determine how cancer cells respond to PARP inhibitors, pointing to possible biomarkers of drug sensitivity.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Could help select patients for PARP inhibitors."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Candidate biomarkers of drug response."
+    }
+   }
+  },
+  "6849fb47c61f": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Multi-omic analyses of patient glioblastoma cells in Nature show non-genetic cellular plasticity drives disease progression, with the stability of cell states shaping how tumours evolve.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Regulatory programmes as targets in an untreatable brain cancer."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Multi-omic profiling at scale."
+    }
+   }
+  },
+  "bd4cdf44eda9": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature News & Views piece describes how errors in protein production from RNA in cancer cells might be harnessed for a gene-therapy tool that selectively targets tumours.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "A new tumour-selective gene therapy concept."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Oncology modality at early research stage."
+    }
+   }
+  },
+  "03257a465565": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "TomoSAXS, an X-ray imaging platform shown on intervertebral discs, visualises mechanics from the nanoscale to the whole organ in intact tissue (Nature).",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "New multiscale imaging method for tissue mechanics."
+    },
+    "meddevices": {
+     "score": 3,
+     "why": "Relevant to spinal implant and tissue research."
+    }
+   }
+  },
+  "deb9f5661d3e": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Global heat-related mortality rose by 29% in very strong El Niño years, with the heaviest burden in low- and middle-income countries, according to epidemiological estimates in Nature Medicine.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "Quantifies climate-cycle health burden for planning."
+    }
+   }
+  },
+  "a7634ba5b2eb": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint reports high reproducibility in one direct-to-consumer gut microbiome testing workflow under real-world conditions, using fecal reference material. Not yet peer-reviewed.",
+   "rel": {
+    "diagnostics": {
+     "score": 5,
+     "why": "Addresses known variability in consumer microbiome tests."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Use of reference materials for microbiome assays."
+    }
+   }
+  },
+  "cb775cce66ff": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "MitoDecode quantifies mitochondrial stress states directly from fluorescence images without segmentation or predefined features, a preprint reports. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "Image-analysis method for cell phenotyping."
+    },
+    "ai": {
+     "score": 4,
+     "why": "Learned image decoding of cell states."
+    }
+   }
+  },
+  "b20726548707": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A mouse study preprint tests whether nanotherapy-induced tolerance of allogeneic islet grafts survives a distant MRSA skin infection, relevant to replacing lifelong immunosuppression in islet transplantation for type 1 diabetes. Not yet peer-reviewed.",
+   "rel": {
+    "cellgene": {
+     "score": 4,
+     "why": "Durability of tolerance for cell transplant therapies."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Immune tolerance approaches in diabetes."
+    }
+   }
+  },
+  "7c4c17589a33": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Slovenian food-tech startup Juicy Marbles launched Granny's Roast, a whole-cut plant-based turkey roulade, for Thanksgiving.",
+   "rel": {
+    "agrifood": {
+     "score": 5,
+     "why": "Product launch in whole-cut plant-based meat."
+    }
+   }
+  },
+  "416f9d687684": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Verigraft's CEO told BioProcess International how its tissue-engineered vein grafts aim to treat chronic vein disease without the risk of rejection.",
+   "rel": {
+    "cellgene": {
+     "score": 4,
+     "why": "Tissue-engineered graft approach to vein disease."
+    },
+    "bioprocessing": {
+     "score": 3,
+     "why": "Manufacture of engineered tissue."
+    }
+   }
+  },
+  "ab9b25b62f91": {
+   "dup": "8937d08a28c4"
+  },
+  "b3710bf97619": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "An implantable ultrasound patch tracked spinal cord blood flow and delivered localised therapy after surgery in animal models, The Scientist reports.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Implantable monitoring and therapy device for spinal cord injury."
     }
    }
   }
