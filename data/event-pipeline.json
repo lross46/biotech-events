@@ -1073,5 +1073,23 @@
    "url": "https://www.terrapinn.com/conference/world-vaccine-congress-washington",
    "nextKnown": false
   }
+ ],
+ "lastListingScan": "2026-11-06",
+ "listingScanReport": [
+  "10times biotechnology: HTTP 403, 0 events on page",
+  "10times pharmaceutical: HTTP 403, 0 events on page",
+  "10times medical: HTTP 403, 0 events on page",
+  "Conference Index biotechnology: HTTP 403, 0 events on page",
+  "Conference Index pharmaceutical: HTTP 403, 0 events on page",
+  "EuroScienceJobs conferences: HTTP 200, 0 events on page",
+  "Eventbrite biotech online: HTTP 405, 0 events on page",
+  "Eventbrite biotech London: HTTP 405, 0 events on page",
+  "Eventbrite biotech Boston: HTTP 405, 0 events on page",
+  "Eventbrite biotech San Francisco: HTTP 405, 0 events on page",
+  "Labroots virtual events: HTTP 200, 0 events on page",
+  "clocate biotechnology: HTTP 403, 0 events on page",
+  "Showsbee Basel: HTTP 200, 0 events on page",
+  "Messe Basel calendar: HTTP 200, 0 events on page",
+  "ExCeL London calendar: HTTP 200, 0 events on page"
  ]
 }
