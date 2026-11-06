@@ -1,0 +1,33 @@
+name: Scan event listing sites
+
+# Weekly, before the Monday Claude event update: reads the listing pages in data/listing-sources.json and
+# writes events we don't have yet to data/event-pipeline.json -> candidates (see scripts/scan-listings.mjs).
+on:
+  schedule:
+    - cron: "17 18 * * 0"   # Sundays 18:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Scan listing sites
+        run: node scripts/scan-listings.mjs
+      - name: Check data
+        run: node scripts/check-data.mjs
+      - name: Commit candidates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/event-pipeline.json
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Listing scan $(date -u +%Y-%m-%d): candidates for the weekly event update"
+            for i in 1 2 3 4; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep $((i * 5)); done
+          fi
