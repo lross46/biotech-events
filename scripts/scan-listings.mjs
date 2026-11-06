@@ -43,7 +43,10 @@ const known = [
 const isKnown = (name) => known.some((k) => similar(name, k));
 
 /* ---------- schema.org Event extraction ---------- */
-const decode = (s) => String(s || "").replace(/&amp;/g, "&").replace(/&#0?39;|&apos;/g, "'").replace(/&quot;/g, '"')
+const ENT = { amp: "&", apos: "'", quot: '"', lt: "<", gt: ">", nbsp: " ", ndash: "–", mdash: "—", rsquo: "'", lsquo: "'", rdquo: '"', ldquo: '"', hellip: "…", eacute: "é", uuml: "ü", ouml: "ö", auml: "ä" };
+const entities = (s) => String(s || "").replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+  .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(+d)).replace(/&([a-z]+);/gi, (m, n) => ENT[n.toLowerCase()] ?? m);
+const decode = (s) => entities(entities(s)).replace(/&amp;/g, "&").replace(/&#0?39;|&apos;/g, "'").replace(/&quot;/g, '"')
   .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 function* walk(node) {
   if (Array.isArray(node)) for (const n of node) yield* walk(n);
@@ -98,14 +101,17 @@ function findDate(text) {
   }
   return best?.date || "";
 }
-const GENERIC = /^(read more|more|details|register|book now|learn more|view|view event|see more|find out more|info|tickets?|website|visit website|more info|home|next|previous|apply now)$/i;
-const BIOISH = /bio|pharma|life ?science|medic|health|genom|diagnos|\blab|cell|gene|vaccin|drug|clinic|omic|ferment|synth|medtech|crispr|rna|protein|antibod|oncolog|cancer|patholog|biosecur|cbrn|neuro|immun|chem/i;
+const GENERIC = /^(read more|more|details|register|book now|learn more|view|view event|see event|see more|find out more|info|tickets?|website|visit website|more info|home|next|previous|apply now|post a job|recruiters guide|follow us|contact us|privacy policy|more \w+\s*(\.\.\.|…)?)$/i;
+const BIOISH = /bio|pharma|life ?science|medic|health|genom|diagnos|\blab\b|laborator|\bcells?\b|\bcellular|\bgene\b|\bgenes\b|genetic|vaccin|\bdrug|clinic|omics?\b|ferment|synth|medtech|crispr|\brna\b|\bdna\b|protein|antibod|oncolog|cancer|patholog|biosecur|cbrn|neuro|immun|chemi|nutraceut|cosmetic science|precision medicine|therapeut/i;
+// Cut dates, "Find out more" and similar tails that some listings put inside the link text.
+const cleanName = (n) => n.replace(/\s*\|\s*/g, " ").split(/\s*(?:\d{1,2}(?:st|nd|rd|th)?\s*[-–]\s*\d{1,2}\s+[a-z]{3}|\b\d{1,2}\s+(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\s+20\d\d|find out more|read more|learn more|book now)/i)[0]
+  .replace(/^\d{1,2}\s+[a-z]+\s+20\d\d\s*[-–]\s*/i, "").replace(/(\D)(20\d\d)\s*$/, "$1 $2").replace(/\s+/g, " ").trim();
 function extractLinks(html, base, filter) {
   const body = html.replace(/<(script|style|noscript|svg)[\s\S]*?<\/\1>/gi, " ");
   const anchors = [];
   const flat = body.replace(/<a\b[^>]*href=["']([^"'#]+)["'][^>]*>([\s\S]*?)<\/a>/gi, (_, href, inner) => {
     anchors.push({ href, name: decode(inner) });
-    return ` \u0001${anchors.length - 1}\u0002 ${decode(inner)} `;
+    return ` \u0001${anchors.length - 1}\u0002 ${decode(inner)} \u0003 `;
   }).replace(/<[^>]+>/g, " | ");
   const text = decode(flat.replace(/\u0001\d+\u0002/g, (t) => t)); // keep markers
   const out = [];
@@ -115,15 +121,23 @@ function extractLinks(html, base, filter) {
     const name = a.name;
     if (!name || name.length < 8 || name.length > 140 || GENERIC.test(name) || name.split(" ").length < 2) continue;
     if (filter && !BIOISH.test(name)) continue;
-    const near = text.slice(Math.max(0, mk.index - 150), mk.index + 350).replace(/\u0001\d+\u0002/g, " ");
-    const start = findDate(text.slice(mk.index, mk.index + 350).replace(/\u0001\d+\u0002/g, " ")) || findDate(near);
+    // Date in the link itself or after it (up to the next link), else just before it (tables with a date column).
+    const after = text.slice(mk.index + mk[0].length, mk.index + 400);
+    const nextLink = after.search(/\u0001\d+\u0002/);
+    const own = (name + " " + (nextLink >= 0 ? after.slice(0, nextLink) : after)).slice(0, 400);
+    const win = text.slice(Math.max(0, mk.index - 120), mk.index);
+    const before = win.slice(win.lastIndexOf("\u0003") + 1).replace(/\u0001\d+\u0002/g, " ");
+    const spaced = (t) => t.replace(/\u0003/g, " ").replace(/([a-z])(\d)/gi, "$1 $2").replace(/(20\d\d)(\d{1,2}\s*[-–])/g, "$1 $2");
+    const start = findDate(spaced(own)) || findDate(spaced(before));
     if (!start) continue;
     let url = "";
     try { url = new URL(a.href, base).href; } catch {}
     const key = squash(name) + start;
     if (seen.has(key)) continue;
     seen.add(key);
-    out.push({ name: name.replace(/\s*\|\s*/g, " "), start, end: start, url, city: "", country: "", online: false, guessed: true });
+    const clean = cleanName(name);
+    if (clean.length < 8 || GENERIC.test(clean) || (filter && !BIOISH.test(clean))) continue;
+    out.push({ name: clean, start, end: start, url, city: "", country: "", online: false, guessed: true });
   }
   return out;
 }
