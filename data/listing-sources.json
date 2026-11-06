@@ -1,0 +1,20 @@
+{
+ "about": "Event listing pages read weekly by scripts/scan-listings.mjs (schema.org Event data). Events we don't have go to data/event-pipeline.json -> candidates. A source that keeps showing 0 events in the scan report can be replaced.",
+ "sources": [
+  { "name": "10times biotechnology", "url": "https://10times.com/biotechnology" },
+  { "name": "10times pharmaceutical", "url": "https://10times.com/pharmaceutical" },
+  { "name": "10times medical", "url": "https://10times.com/medical-pharma" },
+  { "name": "Conference Index biotechnology", "url": "https://conferenceindex.org/conferences/biotechnology" },
+  { "name": "Conference Index pharmaceutical", "url": "https://conferenceindex.org/conferences/pharmaceutical-sciences" },
+  { "name": "EuroScienceJobs conferences", "url": "https://www.eurosciencejobs.com/conferences" },
+  { "name": "Eventbrite biotech online", "url": "https://www.eventbrite.com/d/online/biotech/" },
+  { "name": "Eventbrite biotech London", "url": "https://www.eventbrite.co.uk/d/united-kingdom--london/biotech/" },
+  { "name": "Eventbrite biotech Boston", "url": "https://www.eventbrite.com/d/ma--boston/biotech/" },
+  { "name": "Eventbrite biotech San Francisco", "url": "https://www.eventbrite.com/d/ca--san-francisco/biotech/" },
+  { "name": "Labroots virtual events", "url": "https://www.labroots.com/virtual-events" },
+  { "name": "clocate biotechnology", "url": "https://www.clocate.com/conferences/biotechnology/" },
+  { "name": "Showsbee Basel", "url": "https://www.showsbee.com/shows-0-1-Switzerland-Basel-All_Shows.html" },
+  { "name": "Messe Basel calendar", "url": "https://www.messe-basel.com/en/events" },
+  { "name": "ExCeL London calendar", "url": "https://www.excel.london/whats-on" }
+ ]
+}

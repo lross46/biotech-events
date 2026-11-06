@@ -43,6 +43,10 @@ try {
   if (!Array.isArray(pipe.leads) || !Array.isArray(pipe.watch)) errors.push("data/event-pipeline.json needs 'leads' and 'watch' arrays");
   for (const l of pipe.leads || []) if (!/^https:\/\//.test(l.url || "")) errors.push(`event-pipeline lead '${l.name || "?"}': url must start with https://`);
   for (const w of pipe.watch || []) if (!w.series) errors.push("event-pipeline watch entry missing 'series'");
+  for (const k of ["candidates", "dismissed", "organisers"]) if (pipe[k] && !Array.isArray(pipe[k])) errors.push(`data/event-pipeline.json '${k}' must be a list`);
+  for (const c of pipe.candidates || []) if (!c.name || !/^\d{4}-\d\d-\d\d$/.test(c.start || "")) errors.push(`event-pipeline candidate '${c.name || "?"}' needs name and start`);
+  for (const d of pipe.dismissed || []) if (!d.name) errors.push("event-pipeline dismissed entry missing 'name'");
+  for (const o of pipe.organisers || []) if (!o.name || !/^https:\/\//.test(o.url || "")) errors.push(`event-pipeline organiser '${o.name || "?"}' needs name and https url`);
 } catch (e) {
   errors.push(`data/event-pipeline.json: ${e.message}`);
 }

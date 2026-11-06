@@ -2,7 +2,212 @@
  "about": "Working file for the weekly event update (see UPDATING.md). Not shown in the app.",
  "updated": "2026-11-06",
  "lastGapCheck": null,
+ "lastOrganiserCheck": null,
  "leads": [],
+ "candidates": [],
+ "dismissed": [],
+ "organisers": [
+  {
+   "name": "Terrapinn",
+   "url": "https://www.terrapinn.com/",
+   "kind": "conferences"
+  },
+  {
+   "name": "Informa Connect (life sciences)",
+   "url": "https://informaconnect.com/life-sciences/",
+   "kind": "conferences"
+  },
+  {
+   "name": "Informa Markets: CPHI",
+   "url": "https://www.cphi.com/",
+   "kind": "trade shows"
+  },
+  {
+   "name": "Oxford Global",
+   "url": "https://oxfordglobal.com/",
+   "kind": "conferences"
+  },
+  {
+   "name": "Kisaco Research",
+   "url": "https://www.kisacoresearch.com/",
+   "kind": "conferences"
+  },
+  {
+   "name": "Hanson Wade",
+   "url": "https://www.hansonwade.com/",
+   "kind": "conferences"
+  },
+  {
+   "name": "SelectBio",
+   "url": "https://www.selectbio.com/",
+   "kind": "conferences"
+  },
+  {
+   "name": "Cambridge Healthtech Institute",
+   "url": "https://www.healthtech.com/",
+   "kind": "conferences"
+  },
+  {
+   "name": "SMi Group",
+   "url": "https://www.smi-online.co.uk/",
+   "kind": "conferences incl. defence/CBRN"
+  },
+  {
+   "name": "Fleming Conferences",
+   "url": "https://fleming.events/",
+   "kind": "conferences"
+  },
+  {
+   "name": "BioCentury",
+   "url": "https://conferences.biocentury.com/",
+   "kind": "investor/partnering"
+  },
+  {
+   "name": "EBD Group",
+   "url": "https://www.ebdgroup.com/",
+   "kind": "partnering"
+  },
+  {
+   "name": "BIO",
+   "url": "https://www.bio.org/events",
+   "kind": "partnering"
+  },
+  {
+   "name": "Demy-Colton (Biotech Showcase)",
+   "url": "https://biotechshowcase.com/",
+   "kind": "investor"
+  },
+  {
+   "name": "Easyfairs",
+   "url": "https://www.easyfairs.com/",
+   "kind": "trade shows"
+  },
+  {
+   "name": "Messe Basel (MCH Group)",
+   "url": "https://www.messe-basel.com/",
+   "kind": "venue"
+  },
+  {
+   "name": "Messe Frankfurt / DECHEMA (ACHEMA)",
+   "url": "https://www.achema.de/",
+   "kind": "trade shows"
+  },
+  {
+   "name": "Messe München (analytica)",
+   "url": "https://analytica.de/",
+   "kind": "trade shows"
+  },
+  {
+   "name": "Messe Düsseldorf (MEDICA, COMPAMED)",
+   "url": "https://www.medica-tradefair.com/",
+   "kind": "trade shows"
+  },
+  {
+   "name": "ExCeL London",
+   "url": "https://www.excel.london/whats-on",
+   "kind": "venue"
+  },
+  {
+   "name": "RAI Amsterdam",
+   "url": "https://www.rai.nl/en/",
+   "kind": "venue"
+  },
+  {
+   "name": "Labroots",
+   "url": "https://www.labroots.com/virtual-events",
+   "kind": "webinars/online"
+  },
+  {
+   "name": "Keystone Symposia",
+   "url": "https://www.keystonesymposia.org/",
+   "kind": "symposia"
+  },
+  {
+   "name": "Gordon Research Conferences",
+   "url": "https://www.grc.org/",
+   "kind": "symposia"
+  },
+  {
+   "name": "Cold Spring Harbor Meetings",
+   "url": "https://meetings.cshl.edu/",
+   "kind": "symposia"
+  },
+  {
+   "name": "EMBL / EMBO events",
+   "url": "https://www.embl.org/events/",
+   "kind": "symposia"
+  },
+  {
+   "name": "Wellcome Connecting Science",
+   "url": "https://coursesandconferences.wellcomeconnectingscience.org/",
+   "kind": "symposia"
+  },
+  {
+   "name": "SLAS",
+   "url": "https://www.slas.org/events/",
+   "kind": "conferences"
+  },
+  {
+   "name": "ISCT",
+   "url": "https://www.isctglobal.org/",
+   "kind": "conferences"
+  },
+  {
+   "name": "ASGCT",
+   "url": "https://www.asgct.org/",
+   "kind": "conferences"
+  },
+  {
+   "name": "Alliance for Regenerative Medicine",
+   "url": "https://alliancerm.org/",
+   "kind": "conferences"
+  },
+  {
+   "name": "SynBioBeta",
+   "url": "https://synbiobeta.com/",
+   "kind": "conferences"
+  },
+  {
+   "name": "Rethink Events (Future Food-Tech)",
+   "url": "https://www.futurefoodtech.com/",
+   "kind": "conferences"
+  },
+  {
+   "name": "BIA (UK BioIndustry Association)",
+   "url": "https://www.bioindustry.org/",
+   "kind": "partnering"
+  },
+  {
+   "name": "One Nucleus",
+   "url": "https://onenucleus.com/",
+   "kind": "partnering"
+  },
+  {
+   "name": "MassBio",
+   "url": "https://www.massbio.org/",
+   "kind": "partnering"
+  },
+  {
+   "name": "Biocom California",
+   "url": "https://www.biocom.org/",
+   "kind": "partnering"
+  },
+  {
+   "name": "Swiss Biotech Association",
+   "url": "https://www.swissbiotech.org/",
+   "kind": "partnering"
+  },
+  {
+   "name": "ABSA International",
+   "url": "https://absa.org/",
+   "kind": "biosafety/biosecurity"
+  },
+  {
+   "name": "Jefferies / JPMorgan healthcare (investor weeks)",
+   "url": "https://www.jpmorgan.com/about-us/events-conferences/health-care-conference",
+   "kind": "investor"
+  }
+ ],
  "watch": [
   {
    "series": "AACR Annual Meeting",

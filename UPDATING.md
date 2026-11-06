@@ -12,12 +12,19 @@ short summary and per-sector relevance scores. Aim for 100–250 upcoming events
 
 ## Steps
 
-1. Read `site/data/events.json`, `data/event-pipeline.json` (your working file: leads, watch list, last gap
+1. Read `site/data/events.json`, `data/event-pipeline.json` (your working file: leads, listing-site candidates, organisers, watch list, last gap
    check) and `scripts/check-data.mjs` (it defines the allowed values for `type`, `format`, `region` and the
    sector ids).
 1b. **Leads first.** Check every lead in `data/event-pipeline.json` → `leads` (added by the daily news
    review). Apply the step 5 rule. Add the event if it qualifies, then remove the lead. A lead whose dates
    aren't announced yet goes on the watch list instead.
+1c. **Listing-site candidates.** `candidates` is filled every Sunday by `scripts/scan-listings.mjs` (GitHub
+   Actions) with events found on listing sites (`data/listing-sources.json`) that don't match anything we
+   list. For each one: if it is a real biotech/pharma/life-science event and qualifies under step 5, add it
+   (from the official site, never from the listing alone); otherwise move it to `dismissed` as
+   `{ "name", "reason" }` (e.g. "not biotech", "duplicate of <id>", "too small", "no official dates") so the
+   scan stops flagging it. Leave `candidates` empty when done. Check `listingScanReport`: if a source keeps
+   reading 0 events, replace it in `data/listing-sources.json` with a working page and say so in the commit.
 2. **Prune:** delete events whose end date is more than 60 days in the past. Before deleting a recurring
    event, make sure its series is in `watch` (update `lastYear`, `lastStart`, `lastId`, `url`).
 2b. **Watch list:** for each `watch` entry with `nextKnown: false` whose last edition started more than 6
@@ -53,6 +60,11 @@ short summary and per-sector relevance scores. Aim for 100–250 upcoming events
    biotech, pharma, medtech and life-science events in the next 12 months for London, Boston, San Francisco,
    San Diego, Basel, Paris, Berlin, Amsterdam, Copenhagen, Singapore and Tokyo. Add any big ones we don't have
    (step 5 rule), set `lastGapCheck` to today, and say in the commit message how many the check found.
+4c. **Monthly organiser check** (when `lastOrganiserCheck` is empty or more than 28 days ago): for every
+   entry in `organisers`, open its full event list/portfolio page (the `url` is a starting point; fix it if
+   it moved) and compare every biotech-relevant event in the next 18 months with our list. Add the missing
+   ones (step 5 rule), add each new series to `watch`, add any big organiser you come across that isn't in
+   the list, set `lastOrganiserCheck` to today, and say in the commit message how many each organiser gave.
 5. **Only add an event when** its dates and city are stated on the official site, or on two independent
    listings if the official site cannot be read. Use the official event URL (https). Never guess dates.
 6. For each event fill in: `id` (lowercase-dashes, include the year), `name`, `start`/`end` (YYYY-MM-DD),
