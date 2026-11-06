@@ -20,6 +20,8 @@ jobs:
           node-version: 22
       - name: Scan listing sites
         run: node scripts/scan-listings.mjs
+        env:
+          SCAN_DEBUG: "1"
       - name: Check data
         run: node scripts/check-data.mjs
       - name: Commit candidates

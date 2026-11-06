@@ -77,6 +77,57 @@ function extract(html, base) {
   return out;
 }
 
+/* ---------- fallback: event-like links with a date next to them (pages without JSON-LD) ---------- */
+const MON = { jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12 };
+const M = "(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\\.?";
+const DATE_RES = [
+  [new RegExp(`\\b(\\d{1,2})(?:st|nd|rd|th)?(?:\\s*[-–]\\s*\\d{1,2}(?:st|nd|rd|th)?)?\\s+${M}\\s+(20\\d\\d)\\b`, "i"), (m) => [m[3], MON[m[2].toLowerCase()], m[1]]],
+  [new RegExp(`\\b(\\d{1,2})(?:st|nd|rd|th)?\\s+${M}\\s*[-–]\\s*\\d{1,2}(?:st|nd|rd|th)?\\s+${M}\\s+(20\\d\\d)\\b`, "i"), (m) => [m[4], MON[m[2].toLowerCase()], m[1]]],
+  [new RegExp(`\\b${M}\\s+(\\d{1,2})(?:st|nd|rd|th)?(?:\\s*[-–]\\s*(?:${M}\\s+)?\\d{1,2})?,?\\s+(20\\d\\d)\\b`, "i"), (m) => [m[4], MON[m[1].toLowerCase()], m[2]]],
+  [/\b(20\d\d)-(\d\d)-(\d\d)\b/, (m) => [m[1], +m[2], m[3]]],
+  [/\b(\d{1,2})\.(\d{1,2})\.(?:\s*[-–]\s*\d{1,2}\.\d{1,2}\.)?\s*(20\d\d)\b/, (m) => [m[3], +m[2], m[1]]],
+];
+function findDate(text) {
+  let best = null;
+  for (const [re, f] of DATE_RES) {
+    const m = text.match(re);
+    if (!m) continue;
+    const [y, mo, d] = f(m);
+    if (!mo || mo > 12 || +d < 1 || +d > 31) continue;
+    if (!best || m.index < best.at) best = { at: m.index, date: `${y}-${String(mo).padStart(2, "0")}-${String(d).padStart(2, "0")}` };
+  }
+  return best?.date || "";
+}
+const GENERIC = /^(read more|more|details|register|book now|learn more|view|view event|see more|find out more|info|tickets?|website|visit website|more info|home|next|previous|apply now)$/i;
+const BIOISH = /bio|pharma|life ?science|medic|health|genom|diagnos|\blab|cell|gene|vaccin|drug|clinic|omic|ferment|synth|medtech|crispr|rna|protein|antibod|oncolog|cancer|patholog|biosecur|cbrn|neuro|immun|chem/i;
+function extractLinks(html, base, filter) {
+  const body = html.replace(/<(script|style|noscript|svg)[\s\S]*?<\/\1>/gi, " ");
+  const anchors = [];
+  const flat = body.replace(/<a\b[^>]*href=["']([^"'#]+)["'][^>]*>([\s\S]*?)<\/a>/gi, (_, href, inner) => {
+    anchors.push({ href, name: decode(inner) });
+    return ` \u0001${anchors.length - 1}\u0002 ${decode(inner)} `;
+  }).replace(/<[^>]+>/g, " | ");
+  const text = decode(flat.replace(/\u0001\d+\u0002/g, (t) => t)); // keep markers
+  const out = [];
+  const seen = new Set();
+  for (const mk of text.matchAll(/\u0001(\d+)\u0002/g)) {
+    const a = anchors[+mk[1]];
+    const name = a.name;
+    if (!name || name.length < 8 || name.length > 140 || GENERIC.test(name) || name.split(" ").length < 2) continue;
+    if (filter && !BIOISH.test(name)) continue;
+    const near = text.slice(Math.max(0, mk.index - 150), mk.index + 350).replace(/\u0001\d+\u0002/g, " ");
+    const start = findDate(text.slice(mk.index, mk.index + 350).replace(/\u0001\d+\u0002/g, " ")) || findDate(near);
+    if (!start) continue;
+    let url = "";
+    try { url = new URL(a.href, base).href; } catch {}
+    const key = squash(name) + start;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push({ name: name.replace(/\s*\|\s*/g, " "), start, end: start, url, city: "", country: "", online: false, guessed: true });
+  }
+  return out;
+}
+
 /* ---------- run ---------- */
 const found = new Map();
 const report = [];
@@ -87,7 +138,11 @@ for (const s of sources) {
       headers: { "user-agent": ua, accept: "text/html,application/xhtml+xml", "accept-language": "en" } });
     status = String(r.status);
     if (r.ok) {
-      for (const ev of extract(await r.text(), s.url)) {
+      const html = await r.text();
+      let evs = extract(html, s.url);
+      if (!evs.length) evs = extractLinks(html, s.url, s.filter);
+      if (process.env.SCAN_DEBUG) console.log(`--- ${s.name}: ${html.length} bytes; sample:`, evs.slice(0, 4).map((e) => `${e.start} ${e.name}`));
+      for (const ev of evs) {
         n++;
         if (ev.start < today || ev.start > horizon) continue;
         const key = squash(ev.name) + ev.start.slice(0, 7);
