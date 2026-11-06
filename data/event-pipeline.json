@@ -4,309 +4,109 @@
  "lastGapCheck": null,
  "lastOrganiserCheck": null,
  "leads": [],
- "candidates": [
+ "candidates": [],
+ "dismissed": [
   {
    "name": "Novel Mechanism of Wound Healing Helps Tumors Evade Immunity",
-   "start": "2026-11-06",
-   "end": "2026-11-06",
-   "url": "https://www.labroots.com/trending/nocat/31313/novel-mechanism-wound-healing-helps-tumors-evade-immunity",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-06"
+   "reason": "not an event (news article)"
   },
   {
    "name": "Do You Know What's in Your Coffee?",
-   "start": "2026-11-06",
-   "end": "2026-11-06",
-   "url": "https://www.labroots.com/trending/nocat/31283/what-s-coffee",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-06"
+   "reason": "not an event (news article)"
   },
   {
    "name": "Improve amplification reliability with heat-labile UDG",
-   "start": "2026-11-06",
-   "end": "2026-11-06",
-   "url": "https://www.labroots.com/trending/nocat/31288/improve-amplification-reliability-heat-labile-udg",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-06"
+   "reason": "not an event (news article)"
   },
   {
    "name": "From Preclinical to Clinical: Practical Bioanalytical Strategies for Developing Modern Therapeutics",
-   "start": "2026-11-09",
-   "end": "2026-11-09",
-   "url": "https://www.labroots.com/webinar/preclinical-clinical-practical-bioanalytical-strategies-developing-modern-therapeutics",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-06"
+   "reason": "too small (single sponsored webinar)"
   },
   {
    "name": "When Test Results Don't Add Up: A Case-Based Approach to Rodent Diagnostics",
-   "start": "2026-11-10",
-   "end": "2026-11-10",
-   "url": "https://www.labroots.com/webinar/test-results-don-t-add-up-case-based-approach-rodent-diagnostics",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-06"
+   "reason": "too small (single sponsored webinar)"
   },
   {
    "name": "Comprehensive methodologies for biomarker detection: From qPCR and dPCR to NGS",
-   "start": "2026-11-10",
-   "end": "2026-11-10",
-   "url": "https://www.labroots.com/webinar/comprehensive-methodologies-biomarker-detection-qpcr-dpcr-ngs",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-06"
+   "reason": "too small (single sponsored webinar)"
   },
   {
    "name": "Beyond Automation: Building the Infrastructure for Autonomous Laboratories",
-   "start": "2026-11-10",
-   "end": "2026-11-10",
-   "url": "https://www.labroots.com/webinar/beyond-automation-building-infrastructure-autonomous-laboratories",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-06"
+   "reason": "too small (single sponsored webinar)"
   },
   {
    "name": "LSX Investival Showcase",
-   "start": "2026-11-16",
-   "end": "2026-11-16",
-   "url": "https://www.eurosciencejobs.com/conferences/2716/lsx_investival_showcase",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "EuroScienceJobs conferences",
-   "seen": "2026-11-06"
+   "reason": "added as lsx-investival-showcase-2026"
   },
   {
    "name": "The European Meeting on Environmental Chemistry (EMEC26)",
-   "start": "2026-11-24",
-   "end": "2026-11-24",
-   "url": "https://www.eurosciencejobs.com/conferences/2652/the_european_meeting_on_environmental_chemistry_emec26",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "EuroScienceJobs conferences",
-   "seen": "2026-11-06"
+   "reason": "not biotech (environmental chemistry)"
   },
   {
    "name": "BodyPower Metabolic Health Conference 2026",
-   "start": "2026-11-28",
-   "end": "2026-11-28",
-   "url": "https://www.excel.london/whats-on/bodypower-metabolic-health-conference-2026",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "ExCeL London calendar",
-   "seen": "2026-11-06"
+   "reason": "not biotech (fitness/consumer health)"
   },
   {
    "name": "Biocides Europe 2026",
-   "start": "2026-12-01",
-   "end": "2026-12-01",
-   "url": "https://www.eurosciencejobs.com/conferences/2815/biocides_europe_2026",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "EuroScienceJobs conferences",
-   "seen": "2026-11-06"
+   "reason": "not biotech (chemical biocides regulation)"
   },
   {
    "name": "AI and Computational Biology",
-   "start": "2026-12-09",
-   "end": "2026-12-09",
-   "url": "https://www.eurosciencejobs.com/conferences/2748/ai_and_computational_biology",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "EuroScienceJobs conferences",
-   "seen": "2026-11-06"
+   "reason": "added as vib-ai-compbio-2026"
   },
   {
    "name": "Advances in Chemical Biology",
-   "start": "2027-01-26",
-   "end": "2027-01-26",
-   "url": "https://www.eurosciencejobs.com/conferences/2749/advances_in_chemical_biology",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "EuroScienceJobs conferences",
-   "seen": "2026-11-06"
+   "reason": "added as dechema-chembio-2027"
   },
   {
    "name": "The Tumor Micro- and Macroenvironment Conference",
-   "start": "2027-02-17",
-   "end": "2027-02-17",
-   "url": "https://www.eurosciencejobs.com/conferences/2816/the_tumor_micro_and_macroenvironment_conference",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "EuroScienceJobs conferences",
-   "seen": "2026-11-06"
+   "reason": "added as vib-tumor-environment-2027"
   },
   {
    "name": "Oligos & Peptides Manufacturing DACH 2027 #OPMDACH 2027",
-   "start": "2027-02-17",
-   "end": "2027-02-17",
-   "url": "https://www.eurosciencejobs.com/conferences/2766/oligos_peptides_manufacturing_dach_2027_opmdach2027",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "EuroScienceJobs conferences",
-   "seen": "2026-11-06"
+   "reason": "added as opx-dach-2027"
   },
   {
    "name": "4th Bioequivalence Conference",
-   "start": "2027-02-24",
-   "end": "2027-02-24",
-   "url": "https://www.eurosciencejobs.com/conferences/2750/4th_bioequivalence_conference",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "EuroScienceJobs conferences",
-   "seen": "2026-11-06"
+   "reason": "too small (one-day generics regulatory meeting)"
   },
   {
    "name": "Neuroscience Virtual Event Series 2027",
-   "start": "2027-03-03",
-   "end": "2027-03-03",
-   "url": "https://www.labroots.com/virtual-event/neuroscience-2027",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-06"
+   "reason": "added as labroots-neuroscience-2027"
   },
   {
    "name": "Digital Health Rewired 2027",
-   "start": "2027-03-16",
-   "end": "2027-03-16",
-   "url": "https://www.thenec.co.uk/events/digital-health-rewired/",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "NEC Birmingham calendar",
-   "seen": "2026-11-06"
+   "reason": "added as digital-health-rewired-2027"
   },
   {
    "name": "Best Practice London & Women's Health Professional Care",
-   "start": "2027-03-20",
-   "end": "2027-03-20",
-   "url": "https://olympia.london/events/best-practice-london-womens-health-professional-care",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Olympia London calendar",
-   "seen": "2026-11-06"
+   "reason": "not biotech (primary care)"
   },
   {
    "name": "Neuro Rehab",
-   "start": "2027-03-23",
-   "end": "2027-03-23",
-   "url": "https://www.thenec.co.uk/events/neuro-rehab-2027/",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "NEC Birmingham calendar",
-   "seen": "2026-11-06"
+   "reason": "not biotech (clinical rehabilitation)"
   },
   {
    "name": "23rd Biosimilar Medicines Conference #BIOS27",
-   "start": "2027-04-22",
-   "end": "2027-04-22",
-   "url": "https://www.eurosciencejobs.com/conferences/2752/23rd_biosimilar_medicines_conference_bios27",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "EuroScienceJobs conferences",
-   "seen": "2026-11-06"
+   "reason": "added as bios27-biosimilars-2027"
   },
   {
    "name": "Submit a new conference",
-   "start": "2027-04-22",
-   "end": "2027-04-22",
-   "url": "https://www.eurosciencejobs.com/conferences/submit",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "EuroScienceJobs conferences",
-   "seen": "2026-11-06"
+   "reason": "not an event (site link)"
   },
   {
    "name": "The Health & Safety Event 2027",
-   "start": "2027-04-27",
-   "end": "2027-04-27",
-   "url": "https://www.thenec.co.uk/events/the-health-safety-event-2027/",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "NEC Birmingham calendar",
-   "seen": "2026-11-06"
+   "reason": "not biotech"
   },
   {
    "name": "The Pharmacy Show",
-   "start": "2027-10-10",
-   "end": "2027-10-10",
-   "url": "https://www.thenec.co.uk/events/the-pharmacy-show/",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "NEC Birmingham calendar",
-   "seen": "2026-11-06"
+   "reason": "not biotech (community pharmacy retail)"
   },
   {
    "name": "Lab Sustainability Virtual Event Series 2027",
-   "start": "2027-11-17",
-   "end": "2027-11-17",
-   "url": "https://www.labroots.com/virtual-event/lab-sustainability-2027",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-06"
+   "reason": "added as labroots-lab-sustainability-2027"
   }
  ],
- "dismissed": [],
  "organisers": [
   {
    "name": "Terrapinn",
@@ -576,9 +376,9 @@
   },
   {
    "series": "AI Drug Discovery & Development Summit",
-   "lastYear": 2026,
-   "lastStart": "2026-10-27",
-   "lastId": "aiddd-boston-2026",
+   "lastYear": 2027,
+   "lastStart": "2027-12-06",
+   "lastId": "aiddd-boston-2027",
    "url": "https://www.aidrivendrugdevelopment.com/",
    "nextKnown": false
   },
@@ -592,10 +392,10 @@
   },
   {
    "series": "AMP Annual Meeting & Expo",
-   "lastYear": 2026,
-   "lastStart": "2026-11-10",
-   "lastId": "amp-2026",
-   "url": "https://amp26.amp.org/",
+   "lastYear": 2027,
+   "lastStart": "2027-11-09",
+   "lastId": "amp-2027",
+   "url": "https://www.amp.org/events/amp-events-calendar/",
    "nextKnown": false
   },
   {
@@ -700,7 +500,8 @@
    "lastStart": "2026-11-09",
    "lastId": "bio-europe-2026",
    "url": "https://informaconnect.com/bioeurope/",
-   "nextKnown": true
+   "nextKnown": false,
+   "note": "2027 edition: Stockholmsmässan, Stockholm, late October 2027; exact dates not yet published"
   },
   {
    "series": "BIO-Europe Spring",
@@ -976,10 +777,10 @@
   },
   {
    "series": "ESMO Congress",
-   "lastYear": 2026,
-   "lastStart": "2026-10-23",
-   "lastId": "esmo-2026",
-   "url": "https://www.esmo.org/meeting-calendar/esmo-congress-2026",
+   "lastYear": 2027,
+   "lastStart": "2027-09-17",
+   "lastId": "esmo-2027",
+   "url": "https://www.esmo.org/meeting-calendar",
    "nextKnown": false
   },
   {
@@ -996,14 +797,6 @@
    "lastStart": "2027-04-13",
    "lastId": "festival-of-biologics-usa-2027",
    "url": "https://www.terrapinn.com/conference/festival-of-biologics-usa",
-   "nextKnown": false
-  },
-  {
-   "series": "Festival of Genomics & Biodata",
-   "lastYear": 2027,
-   "lastStart": "2027-01-27",
-   "lastId": "fog-london-2027",
-   "url": "https://www.thefestivalofgenomics.com/london",
    "nextKnown": false
   },
   {
@@ -1223,11 +1016,11 @@
    "nextKnown": false
   },
   {
-   "series": "SLAS2027 International Conference & Exhibition",
-   "lastYear": 2027,
-   "lastStart": "2027-01-30",
-   "lastId": "slas-2027",
-   "url": "https://www.slas.org/events-calendar/slas2027-international-conference-exhibition/",
+   "series": "SLAS International Conference & Exhibition",
+   "lastYear": 2028,
+   "lastStart": "2028-02-05",
+   "lastId": "slas-2028",
+   "url": "https://slas.org/events",
    "nextKnown": false
   },
   {
@@ -1373,6 +1166,340 @@
    "lastId": "world-vaccine-congress-dc-2027",
    "url": "https://www.terrapinn.com/conference/world-vaccine-congress-washington",
    "nextKnown": false
+  },
+  {
+   "series": "LSX Investival Showcase",
+   "lastYear": 2026,
+   "lastStart": "2026-11-16",
+   "lastId": "lsx-investival-showcase-2026",
+   "url": "https://informaconnect.com/investival-showcase/",
+   "nextKnown": false
+  },
+  {
+   "series": "Biosimilar Medicines Conference (Medicines for Europe)",
+   "lastYear": 2027,
+   "lastStart": "2027-04-22",
+   "lastId": "bios27-biosimilars-2027",
+   "url": "https://www.medicinesforeurope.com/events/bios27/",
+   "nextKnown": false
+  },
+  {
+   "series": "AI and Computational Biology (VIB)",
+   "lastYear": 2026,
+   "lastStart": "2026-12-09",
+   "lastId": "vib-ai-compbio-2026",
+   "url": "https://www.vibconferences.be/events/ai-and-computational-biology",
+   "nextKnown": false
+  },
+  {
+   "series": "Advances in Chemical Biology",
+   "lastYear": 2027,
+   "lastStart": "2027-01-26",
+   "lastId": "dechema-chembio-2027",
+   "url": "https://dechema.de/en/ChemBio2027.html",
+   "nextKnown": false
+  },
+  {
+   "series": "The Tumor Micro- and Macroenvironment Conference",
+   "lastYear": 2027,
+   "lastStart": "2027-02-17",
+   "lastId": "vib-tumor-environment-2027",
+   "url": "https://www.vibconferences.be/events/the-tumor-micro-and-macroenvironment",
+   "nextKnown": false
+  },
+  {
+   "series": "OPX: Oligos & Peptides Confex DACH",
+   "lastYear": 2027,
+   "lastStart": "2027-02-17",
+   "lastId": "opx-dach-2027",
+   "url": "https://www.imapac.com/events/oligos-peptides-confex-dach-2027",
+   "nextKnown": false
+  },
+  {
+   "series": "Neuroscience Virtual Event Series",
+   "lastYear": 2027,
+   "lastStart": "2027-03-03",
+   "lastId": "labroots-neuroscience-2027",
+   "url": "https://www.labroots.com/virtual-event/neuroscience-2027",
+   "nextKnown": false
+  },
+  {
+   "series": "Lab Sustainability Virtual Event Series",
+   "lastYear": 2027,
+   "lastStart": "2027-11-17",
+   "lastId": "labroots-lab-sustainability-2027",
+   "url": "https://www.labroots.com/virtual-event/lab-sustainability-2027",
+   "nextKnown": false
+  },
+  {
+   "series": "Digital Health Rewired",
+   "lastYear": 2027,
+   "lastStart": "2027-03-16",
+   "lastId": "digital-health-rewired-2027",
+   "url": "https://www.digitalhealthrewired.com",
+   "nextKnown": false
+  },
+  {
+   "series": "AMP Europe",
+   "lastYear": 2027,
+   "lastStart": "2027-06-21",
+   "lastId": "amp-europe-2027",
+   "url": "https://www.amp.org/events/amp-events-calendar/",
+   "nextKnown": false
+  },
+  {
+   "series": "ChinaBio Partnering Forum",
+   "lastYear": 2027,
+   "lastStart": "2027-04-27",
+   "lastId": "chinabio-2027",
+   "url": "https://informaconnect.com/chinabio/",
+   "nextKnown": false
+  },
+  {
+   "series": "Medical Biodefense Conference",
+   "lastYear": 2027,
+   "lastStart": "2027-04-07",
+   "lastId": "medical-biodefense-2027",
+   "url": "https://conference.instmikrobiobw.de/",
+   "nextKnown": false
+  },
+  {
+   "series": "HIMSS Global Health Conference & Exhibition",
+   "lastYear": 2027,
+   "lastStart": "2027-04-05",
+   "lastId": "himss-2027",
+   "url": "https://www.himss.org/",
+   "nextKnown": false
+  },
+  {
+   "series": "HIMSS Europe",
+   "lastYear": 2027,
+   "lastStart": "2027-06-08",
+   "lastId": "himss-europe-2027",
+   "url": "https://www.himss.org/events-overview/european-health-conference-and-exhibition/",
+   "nextKnown": false
+  },
+  {
+   "series": "DMEA",
+   "lastYear": 2027,
+   "lastStart": "2027-04-13",
+   "lastId": "dmea-2027",
+   "url": "https://dmea.de/en/",
+   "nextKnown": false
+  },
+  {
+   "series": "MedtecSUMMIT",
+   "lastYear": 2027,
+   "lastStart": "2027-03-10",
+   "lastId": "medtecsummit-2027",
+   "url": "https://www.bayern-innovativ.de/en/detail/medtecsummit-2027/",
+   "nextKnown": false
+  },
+  {
+   "series": "DIA Europe",
+   "lastYear": 2027,
+   "lastStart": "2027-03-16",
+   "lastId": "dia-europe-2027",
+   "url": "https://www.diaglobal.org/en/flagship/dia-europe-2027/about/conference",
+   "nextKnown": false
+  },
+  {
+   "series": "CPHI Japan",
+   "lastYear": 2027,
+   "lastStart": "2027-04-21",
+   "lastId": "cphi-japan-2027",
+   "url": "https://www.cphi.com/japan/",
+   "nextKnown": false
+  },
+  {
+   "series": "ESGCT Annual Congress",
+   "lastYear": 2027,
+   "lastStart": "2027-10-26",
+   "lastId": "esgct-2027",
+   "url": "https://www.esgct.eu/upcoming-events",
+   "nextKnown": false
+  },
+  {
+   "series": "LSX Investival Europe",
+   "lastYear": 2027,
+   "lastStart": "2027-04-07",
+   "lastId": "lsx-investival-europe-2027",
+   "url": "https://informaconnect.com/investival-europe/",
+   "nextKnown": false
+  },
+  {
+   "series": "IFT FIRST",
+   "lastYear": 2027,
+   "lastStart": "2027-07-11",
+   "lastId": "ift-first-2027",
+   "url": "https://www.ift.org/events/ift-first",
+   "nextKnown": false
+  },
+  {
+   "series": "evokeAG",
+   "lastYear": 2027,
+   "lastStart": "2027-02-16",
+   "lastId": "evokeag-2027",
+   "url": "https://evokeag.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "Future of BioEconomy",
+   "lastYear": 2027,
+   "lastStart": "2027-01-21",
+   "lastId": "future-of-bioeconomy-2027",
+   "url": "https://ceresana.com/en/events/future-of-bioeconomy-2027",
+   "nextKnown": false
+  },
+  {
+   "series": "Keystone: Computational Drug Discovery – Tools Across the Translational Pipeline",
+   "lastYear": 2027,
+   "lastStart": "2027-02-22",
+   "lastId": "keystone-comp-drug-discovery-2027",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/k82027",
+   "nextKnown": false
+  },
+  {
+   "series": "Digi-Tech Pharma & AI",
+   "lastYear": 2027,
+   "lastStart": "2027-05-11",
+   "lastId": "digitech-pharma-ai-2027",
+   "url": "https://www.rsc.org/events/find-an-event/digi-tech-pharma-ai-2027-conference",
+   "nextKnown": false
+  },
+  {
+   "series": "Biocom Global Partnering & Investor Conference",
+   "lastYear": 2027,
+   "lastStart": "2027-02-23",
+   "lastId": "biocom-global-partnering-2027",
+   "url": "https://www.biocom.org/conferences/global-partnering-conference/",
+   "nextKnown": false
+  },
+  {
+   "series": "Biologics Manufacturing Asia",
+   "lastYear": 2027,
+   "lastStart": "2027-03-23",
+   "lastId": "biologics-manufacturing-asia-2027",
+   "url": "https://www.imapac.com/events/biologics-manufacturing-asia-2027",
+   "nextKnown": false
+  },
+  {
+   "series": "INTERPHEX Week Tokyo",
+   "lastYear": 2027,
+   "lastStart": "2027-06-30",
+   "lastId": "interphex-week-tokyo-2027",
+   "url": "https://interphex.jp/en-gb.html",
+   "nextKnown": false
+  },
+  {
+   "series": "Precision Medicine East (NextGen Omics, Spatial & Data US)",
+   "lastYear": 2027,
+   "lastStart": "2027-03-23",
+   "lastId": "precision-medicine-east-2027",
+   "url": "https://oxfordglobal.com/precision-medicine/events/nextgen-omics-us",
+   "nextKnown": false
+  },
+  {
+   "series": "Cell (Oxford Global)",
+   "lastYear": 2026,
+   "lastStart": "2026-11-12",
+   "lastId": "oxford-global-cell-2026",
+   "url": "https://oxfordglobal.com/calendar/",
+   "nextKnown": false
+  },
+  {
+   "series": "NextGen Biomed",
+   "lastYear": 2027,
+   "lastStart": "2027-03-18",
+   "lastId": "nextgen-biomed-2027",
+   "url": "https://oxfordglobal.com/calendar/",
+   "nextKnown": false
+  },
+  {
+   "series": "Drug Discovery Europe",
+   "lastYear": 2027,
+   "lastStart": "2027-06-22",
+   "lastId": "drug-discovery-europe-2027",
+   "url": "https://oxfordglobal.com/calendar/",
+   "nextKnown": false
+  },
+  {
+   "series": "Digital Health Festival",
+   "lastYear": 2027,
+   "lastStart": "2027-05-19",
+   "lastId": "digital-health-festival-2027",
+   "url": "https://www.terrapinn.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "BIO Middle East",
+   "lastYear": 2026,
+   "lastStart": "2026-12-14",
+   "lastId": "bio-middle-east-2026",
+   "url": "https://informaconnect.com/bio-middle-east/",
+   "nextKnown": false
+  },
+  {
+   "series": "Biocontrol & Biostimulants Mexico",
+   "lastYear": 2027,
+   "lastStart": "2027-05-25",
+   "lastId": "biocontrol-mexico-2027",
+   "url": "https://informaconnect.com/biocontrol-biostimulants-mexico/",
+   "nextKnown": false
+  },
+  {
+   "series": "ASCO Annual Meeting",
+   "lastYear": 2026,
+   "lastStart": "2026-05-29",
+   "lastId": "",
+   "url": "https://conferences.asco.org/am",
+   "nextKnown": false,
+   "note": "2027 edition at McCormick Place, Chicago; listings say 4-8 June 2027 but not confirmed on the official site yet"
+  },
+  {
+   "series": "ISCT Annual Meeting",
+   "lastYear": 2026,
+   "lastStart": "2026-05-06",
+   "lastId": "",
+   "url": "https://www.isctglobal.org/isct2027toronto/registration",
+   "nextKnown": false,
+   "note": "ISCT 2027 at Metro Toronto Convention Centre (training day 15 May 2027); full dates not yet on the site"
+  },
+  {
+   "series": "EuroMedLab",
+   "lastYear": 2025,
+   "lastStart": "2025-05-18",
+   "lastId": "",
+   "url": "https://labmed.org.uk/our-resources/news/london-to-host-euromedlab-2027.html",
+   "nextKnown": false,
+   "note": "2027 edition in London; dates not found (official site blocks reading)"
+  },
+  {
+   "series": "CBRNe Summit Europe",
+   "lastYear": 2026,
+   "lastStart": "2026-02-03",
+   "lastId": "",
+   "url": "https://intelligence-sec.com/events/cbrne-summit-europe-2027/",
+   "nextKnown": false,
+   "note": "2027: Hilton Tallinn Park, 26-28 April 2027 per one listing; official site unreadable, needs a second source"
+  },
+  {
+   "series": "Bioprocessing Summit Europe",
+   "lastYear": 2026,
+   "lastStart": "2026-10-01",
+   "lastId": "",
+   "url": "https://www.biocat.cat/en/current-news/agenda/bioprocessing-summit-europe-2027",
+   "nextKnown": false,
+   "note": "2027: InterContinental Barcelona, 5-7 Oct 2027 listed as provisional (CHI)"
+  },
+  {
+   "series": "OPT Congress (Oligonucleotide & Precision Therapeutics)",
+   "lastYear": 2026,
+   "lastStart": "2026-03-01",
+   "lastId": "",
+   "url": "https://www.optcongress.com/",
+   "nextKnown": false,
+   "note": "2027: 17-19 Mar 2027, Seaport Hotel Boston per clocate; confirm on official site"
   }
  ],
  "lastListingScan": "2026-11-06",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T16:21:42Z",
+ "updated": "2026-11-06T16:47:19Z",
  "horizon": "Events from now to about 18 months ahead",
  "events": [
   {
@@ -419,7 +419,7 @@
     }
    },
    "added": "2026-10-25",
-   "checked": "2026-11-02",
+   "checked": "2026-11-06",
    "keywords": [
     "partnering",
     "licensing",
@@ -459,7 +459,7 @@
     "CMC"
    ],
    "added": "2026-10-26",
-   "checked": "2026-11-02"
+   "checked": "2026-11-06"
   },
   {
    "id": "amp-2026",
@@ -502,7 +502,7 @@
     "NGS"
    ],
    "added": "2026-10-26",
-   "checked": "2026-11-02"
+   "checked": "2026-11-06"
   },
   {
    "id": "labroots-clin-dx-2026",
@@ -531,8 +531,43 @@
     }
    },
    "added": "2026-10-25",
-   "checked": "2026-11-02",
+   "checked": "2026-11-06",
    "time": "05:30 PT"
+  },
+  {
+   "free": null,
+   "id": "oxford-global-cell-2026",
+   "name": "Cell 2026",
+   "start": "2026-11-12",
+   "end": "2026-11-13",
+   "type": "conference",
+   "format": "inperson",
+   "region": "uk",
+   "city": "London",
+   "country": "UK",
+   "organiser": "Oxford Global",
+   "url": "https://oxfordglobal.com/calendar/",
+   "summary": "Oxford Global's London meeting on cell and gene therapy development, manufacturing and cell-based research tools.",
+   "rel": {
+    "cellgene": {
+     "score": 9,
+     "why": "Cell and gene therapy development tracks."
+    },
+    "bioprocessing": {
+     "score": 5,
+     "why": "CGT manufacturing sessions."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Cell culture and analysis tools."
+    }
+   },
+   "keywords": [
+    "CGT",
+    "cell therapy"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "compamed-2026",
@@ -562,7 +597,42 @@
     "medtech supply chain"
    ],
    "added": "2026-10-26",
-   "checked": "2026-11-02"
+   "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "lsx-investival-showcase-2026",
+   "name": "LSX Investival Showcase 2026",
+   "start": "2026-11-16",
+   "end": "2026-11-16",
+   "type": "partnering",
+   "format": "inperson",
+   "region": "uk",
+   "city": "London",
+   "country": "UK",
+   "organiser": "Informa Connect",
+   "url": "https://informaconnect.com/investival-showcase/",
+   "summary": "One-day biopharma and medtech investment and partnering event at Old Billingsgate that opens London Life Science Week, with pitches from 150+ life science companies, partnering meetings and investor panels.",
+   "rel": {
+    "investment": {
+     "score": 9,
+     "why": "Built around company pitches to investors and formal partnering."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Most presenting companies are drug developers."
+    },
+    "meddevices": {
+     "score": 4,
+     "why": "Medtech companies also present."
+    }
+   },
+   "keywords": [
+    "LSX",
+    "London Life Science Week"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "medica-2026",
@@ -601,7 +671,7 @@
     }
    },
    "added": "2026-10-25",
-   "checked": "2026-11-02"
+   "checked": "2026-11-06"
   },
   {
    "id": "bioprocessuk-2026",
@@ -636,7 +706,7 @@
     }
    },
    "added": "2026-10-25",
-   "checked": "2026-11-02"
+   "checked": "2026-11-06"
   },
   {
    "id": "fi-europe-2026",
@@ -671,7 +741,7 @@
     "food ingredients"
    ],
    "added": "2026-10-26",
-   "checked": "2026-11-02"
+   "checked": "2026-11-06"
   },
   {
    "id": "labroots-proteomics-nov-2026",
@@ -705,7 +775,7 @@
     "proteomics"
    ],
    "added": "2026-11-02",
-   "checked": "2026-11-02"
+   "checked": "2026-11-06"
   },
   {
    "id": "london-biotechnology-show-2026",
@@ -766,7 +836,7 @@
     "London Life Sciences Week"
    ],
    "added": "2026-11-05",
-   "checked": "2026-11-05"
+   "checked": "2026-11-06"
   },
   {
    "id": "cphi-india-2026",
@@ -801,7 +871,7 @@
     "API"
    ],
    "added": "2026-10-26",
-   "checked": "2026-11-02"
+   "checked": "2026-11-06"
   },
   {
    "id": "cbrne-summit-asia-2026",
@@ -836,7 +906,7 @@
     "CBRNE"
    ],
    "added": "2026-11-02",
-   "checked": "2026-11-02"
+   "checked": "2026-11-06"
   },
   {
    "id": "synbitech-2026",
@@ -875,7 +945,32 @@
     }
    },
    "added": "2026-10-25",
-   "checked": "2026-11-02"
+   "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "og-cgt-manufacturing-dec-2026",
+   "name": "Scaling Up CGT Manufacturing (online)",
+   "start": "2026-12-03",
+   "end": "2026-12-03",
+   "type": "webinar",
+   "format": "online",
+   "region": "global",
+   "organiser": "Oxford Global",
+   "url": "https://oxfordglobal.com/calendar/",
+   "summary": "Oxford Global online event on scaling cell and gene therapy manufacturing.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "Cell and gene therapy production."
+    },
+    "bioprocessing": {
+     "score": 7,
+     "why": "Manufacturing scale-up."
+    }
+   },
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "labroots-precision-oncology-dec-2026",
@@ -915,6 +1010,66 @@
    ],
    "added": "2026-11-02",
    "checked": "2026-11-02"
+  },
+  {
+   "free": null,
+   "id": "og-spatial-multiomics-dec-2026",
+   "name": "Accelerating Innovation in Spatial Multi-Omics (online)",
+   "start": "2026-12-08",
+   "end": "2026-12-08",
+   "type": "webinar",
+   "format": "online",
+   "region": "global",
+   "organiser": "Oxford Global",
+   "url": "https://oxfordglobal.com/calendar/",
+   "summary": "Oxford Global online event on spatial multi-omics technologies and their use in research and drug discovery.",
+   "rel": {
+    "tools": {
+     "score": 8,
+     "why": "Spatial omics platforms."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Use in drug discovery."
+    }
+   },
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "vib-ai-compbio-2026",
+   "name": "AI and Computational Biology (VIB)",
+   "start": "2026-12-09",
+   "end": "2026-12-10",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Leuven",
+   "country": "Belgium",
+   "organiser": "VIB",
+   "url": "https://www.vibconferences.be/events/ai-and-computational-biology",
+   "summary": "Two-day VIB conference at KU Leuven on AI for understanding biological systems: genome to function, cell to system, disease modelling and new machine-learning methods. Academic and industry audience.",
+   "rel": {
+    "ai": {
+     "score": 9,
+     "why": "The conference is about AI and machine learning in biology."
+    },
+    "tools": {
+     "score": 6,
+     "why": "Omics data and computational platforms."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Disease modelling for drug discovery."
+    }
+   },
+   "keywords": [
+    "bioinformatics",
+    "machine learning"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "biofit-2026",
@@ -992,6 +1147,45 @@
    },
    "added": "2026-10-25",
    "checked": "2026-10-25"
+  },
+  {
+   "free": null,
+   "id": "bio-middle-east-2026",
+   "name": "BIO Middle East 2026",
+   "start": "2026-12-14",
+   "end": "2026-12-16",
+   "type": "partnering",
+   "format": "inperson",
+   "region": "mena",
+   "city": "Riyadh",
+   "country": "Saudi Arabia",
+   "organiser": "Informa Connect / BIO",
+   "url": "https://informaconnect.com/bio-middle-east/",
+   "summary": "First edition of a biotech conference and partnering event at the Riyadh Exhibition & Convention Center (Malham), co-located with CPHI Middle East, on the Gulf's push into life sciences.",
+   "rel": {
+    "investment": {
+     "score": 8,
+     "why": "Partnering and Gulf investment in biotech."
+    },
+    "pharma": {
+     "score": 8,
+     "why": "CPHI Middle East pharma show alongside."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Saudi health system and localisation plans."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "Local manufacturing ambitions."
+    }
+   },
+   "keywords": [
+    "Saudi Arabia",
+    "CPHI Middle East"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "biotech-showcase-2027",
@@ -1115,6 +1309,40 @@
    "checked": "2026-11-02"
   },
   {
+   "free": true,
+   "id": "future-of-bioeconomy-2027",
+   "name": "Future of BioEconomy 2027",
+   "start": "2027-01-21",
+   "end": "2027-01-21",
+   "time": "09:00 CET",
+   "type": "webinar",
+   "format": "online",
+   "region": "global",
+   "organiser": "Ceresana",
+   "url": "https://ceresana.com/en/events/future-of-bioeconomy-2027",
+   "summary": "Free one-day online conference on the bio-based economy: new materials, scaling pilots to market, financing, regulation and sustainability.",
+   "rel": {
+    "industrial": {
+     "score": 8,
+     "why": "Bio-based materials and biomanufacturing scale-up."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Financing bio-based ventures."
+    },
+    "fermentation": {
+     "score": 3,
+     "why": "Fermentation routes to bio-based products."
+    }
+   },
+   "keywords": [
+    "bio-based",
+    "bioeconomy"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
    "id": "idex-2027",
    "name": "IDEX 2027",
    "start": "2027-01-25",
@@ -1226,6 +1454,37 @@
    ]
   },
   {
+   "free": null,
+   "id": "dechema-chembio-2027",
+   "name": "Advances in Chemical Biology 2027",
+   "start": "2027-01-26",
+   "end": "2027-01-27",
+   "type": "symposium",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Frankfurt",
+   "country": "Germany",
+   "organiser": "DECHEMA",
+   "url": "https://dechema.de/en/ChemBio2027.html",
+   "summary": "DECHEMA's chemical biology meeting in Frankfurt on biocatalysts, metalloenzymes as drug targets, natural products from microbes and macrocycles in drug discovery, with talks by young researchers.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Drug targets and macrocycle drug discovery."
+    },
+    "industrial": {
+     "score": 5,
+     "why": "Biocatalysis and enzyme repurposing."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Chemical biology probes and methods."
+    }
+   },
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
    "id": "festival-of-genomics-london-2027",
    "name": "Festival of Genomics & Biodata London 2027",
    "start": "2027-01-27",
@@ -1267,45 +1526,6 @@
    ],
    "added": "2026-11-02",
    "checked": "2026-11-02"
-  },
-  {
-   "id": "fog-london-2027",
-   "name": "Festival of Genomics & Biodata 2027",
-   "start": "2027-01-27",
-   "end": "2027-01-28",
-   "type": "conference",
-   "format": "inperson",
-   "region": "uk",
-   "city": "London",
-   "country": "UK",
-   "organiser": "Front Line Genomics",
-   "url": "https://www.thefestivalofgenomics.com/london",
-   "free": null,
-   "summary": "Large genomics and biodata event at ExCeL London, covering sequencing, genomic medicine, multi-omics and data science, with a big exhibition.",
-   "rel": {
-    "diagnostics": {
-     "score": 7,
-     "why": "Genomic testing and precision medicine."
-    },
-    "ai": {
-     "score": 7,
-     "why": "Biodata, AI and bioinformatics tracks."
-    },
-    "healthcare": {
-     "score": 6,
-     "why": "Genomic medicine in the NHS and beyond."
-    },
-    "pharma": {
-     "score": 5,
-     "why": "Genomics in drug discovery."
-    },
-    "tools": {
-     "score": 7,
-     "why": "Sequencing, multi-omics and genomics platforms."
-    }
-   },
-   "added": "2026-10-25",
-   "checked": "2026-10-25"
   },
   {
    "id": "fst-precision-fermentation-2027",
@@ -1478,6 +1698,31 @@
    "checked": "2026-10-26"
   },
   {
+   "free": null,
+   "id": "og-ai-drug-discovery-feb-2027",
+   "name": "AI in Drug Discovery (online)",
+   "start": "2027-02-11",
+   "end": "2027-02-11",
+   "type": "webinar",
+   "format": "online",
+   "region": "global",
+   "organiser": "Oxford Global",
+   "url": "https://oxfordglobal.com/calendar/",
+   "summary": "Oxford Global online event on applying AI across drug discovery.",
+   "rel": {
+    "ai": {
+     "score": 9,
+     "why": "AI in drug discovery is the topic."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Drug discovery teams."
+    }
+   },
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
    "id": "bioasia-2027",
    "name": "BioAsia 2027",
    "start": "2027-02-15",
@@ -1521,6 +1766,40 @@
    "checked": "2026-11-02"
   },
   {
+   "free": null,
+   "id": "evokeag-2027",
+   "name": "evokeAG. 2027",
+   "start": "2027-02-16",
+   "end": "2027-02-17",
+   "type": "conference",
+   "format": "inperson",
+   "region": "apac",
+   "city": "Adelaide",
+   "country": "Australia",
+   "organiser": "AgriFutures Australia",
+   "url": "https://evokeag.com/",
+   "summary": "Asia-Pacific agrifood tech conference at the Adelaide Convention Centre, bringing farmers, start-ups, investors and researchers together.",
+   "rel": {
+    "agrifood": {
+     "score": 9,
+     "why": "Agrifood innovation is the focus."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Agtech start-ups and investors."
+    },
+    "industrial": {
+     "score": 3,
+     "why": "Biotech in farming and food."
+    }
+   },
+   "keywords": [
+    "agtech"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
    "id": "labroots-drug-discovery-2027",
    "name": "Drug Discovery & Development Virtual Event Series 2027",
    "start": "2027-02-17",
@@ -1553,6 +1832,134 @@
    "added": "2026-10-25",
    "checked": "2026-10-25",
    "time": "05:30 PT"
+  },
+  {
+   "free": null,
+   "id": "opx-dach-2027",
+   "name": "OPX: Oligos & Peptides Confex DACH 2027",
+   "start": "2027-02-17",
+   "end": "2027-02-18",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Munich",
+   "country": "Germany",
+   "organiser": "IMAPAC",
+   "url": "https://www.imapac.com/events/oligos-peptides-confex-dach-2027",
+   "summary": "Industry meeting for the Germany, Austria and Switzerland region on manufacturing oligonucleotide and peptide drugs, from development to commercial scale.",
+   "rel": {
+    "bioprocessing": {
+     "score": 8,
+     "why": "Focus on oligo and peptide manufacturing and CMC."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Peptide and oligonucleotide drug developers."
+    }
+   },
+   "keywords": [
+    "oligonucleotides",
+    "peptides",
+    "GLP-1"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "vib-tumor-environment-2027",
+   "name": "The Tumor Micro- and Macroenvironment Conference",
+   "start": "2027-02-17",
+   "end": "2027-02-19",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Leuven",
+   "country": "Belgium",
+   "organiser": "VIB",
+   "url": "https://www.vibconferences.be/events/the-tumor-micro-and-macroenvironment",
+   "summary": "VIB research conference at KU Leuven on how tumours interact with immunity, metabolism, ageing and the nervous system, and what that means for therapy.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Oncology drug targets and therapy sessions."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Translational cancer research."
+    }
+   },
+   "keywords": [
+    "oncology",
+    "immuno-oncology"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "keystone-comp-drug-discovery-2027",
+   "name": "Keystone: Computational Drug Discovery – Tools Across the Translational Pipeline",
+   "start": "2027-02-22",
+   "end": "2027-02-25",
+   "type": "symposium",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Banff",
+   "country": "Canada",
+   "organiser": "Keystone Symposia",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/k82027",
+   "summary": "Keystone symposium at the Fairmont Banff Springs on computational and AI methods across drug discovery and translation.",
+   "rel": {
+    "ai": {
+     "score": 9,
+     "why": "Computational and AI drug discovery is the theme."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Drug discovery scientists from industry and academia."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Modelling and data platforms."
+    }
+   },
+   "keywords": [
+    "AI drug discovery",
+    "modelling"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "biocom-global-partnering-2027",
+   "name": "Biocom Global Partnering & Investor Conference 2027",
+   "start": "2027-02-23",
+   "end": "2027-02-25",
+   "type": "partnering",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "La Jolla",
+   "country": "USA",
+   "organiser": "Biocom California",
+   "url": "https://www.biocom.org/conferences/global-partnering-conference/",
+   "summary": "Biocom California's partnering and investor conference at The Lodge at Torrey Pines, with company presentations and one-to-one meetings.",
+   "rel": {
+    "investment": {
+     "score": 9,
+     "why": "Investor and partnering meetings are the core."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "San Diego biotech and pharma BD teams."
+    }
+   },
+   "keywords": [
+    "San Diego"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "grc-chem-bio-defense-2027",
@@ -1593,6 +2000,36 @@
     "biodefense",
     "biodefence"
    ]
+  },
+  {
+   "free": true,
+   "id": "labroots-neuroscience-2027",
+   "name": "Neuroscience Virtual Event Series 2027",
+   "start": "2027-03-03",
+   "end": "2027-03-03",
+   "time": "05:30 PT",
+   "type": "webinar",
+   "format": "online",
+   "region": "global",
+   "organiser": "Labroots",
+   "url": "https://www.labroots.com/virtual-event/neuroscience-2027",
+   "summary": "Free online neuroscience event covering brain function, neuropsychiatric disease, neuroinflammation and AI in neuroscience. Talks stay on demand for a year.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Neurodegenerative and psychiatric disease research."
+    },
+    "ai": {
+     "score": 4,
+     "why": "AI in neuroscience track."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Research methods and data practices."
+    }
+   },
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "world-vaccine-congress-dc-2027",
@@ -1748,6 +2185,41 @@
    ]
   },
   {
+   "free": null,
+   "id": "medtecsummit-2027",
+   "name": "MedtecSUMMIT 2027",
+   "start": "2027-03-10",
+   "end": "2027-03-11",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Nuremberg",
+   "country": "Germany",
+   "organiser": "Bayern Innovativ",
+   "url": "https://www.bayern-innovativ.de/en/detail/medtecsummit-2027/",
+   "summary": "International medtech conference at the Meistersingerhalle on AI in the clinic, neurotechnology, robotics, personalised medicine and device translation, with a start-up pitch and exhibition.",
+   "rel": {
+    "meddevices": {
+     "score": 9,
+     "why": "Medical technology is the focus."
+    },
+    "ai": {
+     "score": 5,
+     "why": "AI in clinical settings."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Clinical translation of devices."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Start-up pitch contest."
+    }
+   },
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
    "id": "future-food-tech-sf-2027",
    "name": "Future Food-Tech San Francisco 2027",
    "start": "2027-03-11",
@@ -1812,6 +2284,76 @@
    ],
    "added": "2026-10-26",
    "checked": "2026-10-26"
+  },
+  {
+   "free": null,
+   "id": "dia-europe-2027",
+   "name": "DIA Europe 2027",
+   "start": "2027-03-16",
+   "end": "2027-03-18",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Basel",
+   "country": "Switzerland",
+   "organiser": "DIA",
+   "url": "https://www.diaglobal.org/en/flagship/dia-europe-2027/about/conference",
+   "summary": "Annual meeting of European regulators, pharma and HTA bodies on drug development, regulatory science and access.",
+   "rel": {
+    "pharma": {
+     "score": 9,
+     "why": "Regulatory and development teams from pharma attend."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "HTA and market access."
+    },
+    "ai": {
+     "score": 3,
+     "why": "AI in regulatory science."
+    }
+   },
+   "keywords": [
+    "regulatory",
+    "EMA"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "digital-health-rewired-2027",
+   "name": "Digital Health Rewired 2027",
+   "start": "2027-03-16",
+   "end": "2027-03-17",
+   "type": "tradeshow",
+   "format": "inperson",
+   "region": "uk",
+   "city": "Birmingham",
+   "country": "UK",
+   "organiser": "Digital Health (Closerstill Media)",
+   "url": "https://www.digitalhealthrewired.com",
+   "summary": "The UK's largest digital health expo at NEC Birmingham, bringing NHS leaders, providers, start-ups and suppliers together on data and digital technology in care.",
+   "rel": {
+    "healthcare": {
+     "score": 9,
+     "why": "NHS digital transformation is the core theme."
+    },
+    "ai": {
+     "score": 6,
+     "why": "AI and data in health and care sessions."
+    },
+    "meddevices": {
+     "score": 3,
+     "why": "Digital health and connected device suppliers."
+    }
+   },
+   "keywords": [
+    "NHS",
+    "digital health"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "security-policing-2027",
@@ -1883,6 +2425,69 @@
    "time": "05:30 PT"
   },
   {
+   "free": null,
+   "id": "nextgen-biomed-2027",
+   "name": "NextGen Biomed 2027",
+   "start": "2027-03-18",
+   "end": "2027-03-19",
+   "type": "conference",
+   "format": "inperson",
+   "region": "uk",
+   "city": "London",
+   "country": "UK",
+   "organiser": "Oxford Global",
+   "url": "https://oxfordglobal.com/calendar/",
+   "summary": "Oxford Global's London conference on biologics, peptides and oligonucleotides, and other new drug modalities.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "New modality drug development."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "CMC for biologics, peptides and oligos."
+    }
+   },
+   "keywords": [
+    "peptides",
+    "oligonucleotides",
+    "biologics"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "biologics-manufacturing-asia-2027",
+   "name": "Biologics Manufacturing Asia 2027",
+   "start": "2027-03-23",
+   "end": "2027-03-24",
+   "type": "conference",
+   "format": "inperson",
+   "region": "apac",
+   "city": "Singapore",
+   "country": "Singapore",
+   "organiser": "IMAPAC",
+   "url": "https://www.imapac.com/events/biologics-manufacturing-asia-2027",
+   "summary": "Conference and exhibition at Sands Expo on biologics manufacturing in Asia: upstream, downstream, CDMOs and facility strategy.",
+   "rel": {
+    "bioprocessing": {
+     "score": 9,
+     "why": "Biologics manufacturing is the focus."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Biopharma manufacturing leaders attend."
+    }
+   },
+   "keywords": [
+    "CDMO",
+    "biomanufacturing"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
    "id": "biopharma-apac-2027",
    "name": "Biopharma Asia Pacific Conference, Exhibition & Awards 2027",
    "start": "2027-03-23",
@@ -1915,6 +2520,45 @@
    ],
    "added": "2026-10-26",
    "checked": "2026-10-26"
+  },
+  {
+   "free": null,
+   "id": "precision-medicine-east-2027",
+   "name": "Precision Medicine East 2027 (NextGen Omics, Spatial & Data US)",
+   "start": "2027-03-23",
+   "end": "2027-03-24",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Boston",
+   "country": "USA",
+   "organiser": "Oxford Global",
+   "url": "https://oxfordglobal.com/precision-medicine/events/nextgen-omics-us",
+   "summary": "Oxford Global's Boston meeting on multi-omics, spatial biology, NGS and AI data analysis for drug discovery and clinical research.",
+   "rel": {
+    "tools": {
+     "score": 8,
+     "why": "Omics and spatial biology platforms."
+    },
+    "ai": {
+     "score": 6,
+     "why": "AI data integration and analytics track."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "NGS and clinical omics track."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Omics in drug discovery."
+    }
+   },
+   "keywords": [
+    "multi-omics",
+    "spatial biology"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "labroots-bioprocessing-2027",
@@ -2064,6 +2708,111 @@
    ]
   },
   {
+   "free": null,
+   "id": "himss-2027",
+   "name": "HIMSS27 Global Health Conference & Exhibition",
+   "start": "2027-04-05",
+   "end": "2027-04-08",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Chicago",
+   "country": "USA",
+   "organiser": "HIMSS",
+   "url": "https://www.himss.org/",
+   "summary": "Large health IT conference and expo at McCormick Place on digital health, data, cybersecurity and AI in care delivery.",
+   "rel": {
+    "healthcare": {
+     "score": 9,
+     "why": "Hospital and health system IT leaders attend."
+    },
+    "ai": {
+     "score": 7,
+     "why": "AI in clinical and operational settings."
+    },
+    "meddevices": {
+     "score": 3,
+     "why": "Connected devices and interoperability."
+    }
+   },
+   "keywords": [
+    "health IT",
+    "digital health"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "lsx-investival-europe-2027",
+   "name": "LSX Investival Europe 2027",
+   "start": "2027-04-07",
+   "end": "2027-04-08",
+   "type": "partnering",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Lyon",
+   "country": "France",
+   "organiser": "Informa Connect",
+   "url": "https://informaconnect.com/investival-europe/",
+   "summary": "Investor and partnering event for European life science companies (formerly LSX World Congress), with pre-day forums on 6 April, held in Lyon alongside BIO-Europe Spring week.",
+   "rel": {
+    "investment": {
+     "score": 9,
+     "why": "Company showcases and investor meetings."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Biotech drug developers present."
+    },
+    "meddevices": {
+     "score": 4,
+     "why": "Medtech showcase track."
+    }
+   },
+   "keywords": [
+    "LSX",
+    "investors"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "medical-biodefense-2027",
+   "name": "Medical Biodefense Conference 2027",
+   "start": "2027-04-07",
+   "end": "2027-04-09",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Munich",
+   "country": "Germany",
+   "organiser": "Bundeswehr Institute of Microbiology",
+   "url": "https://conference.instmikrobiobw.de/",
+   "summary": "International conference run by the German armed forces' Institute of Microbiology on biological threats, outbreak response, diagnostics and countermeasures.",
+   "rel": {
+    "defence": {
+     "score": 9,
+     "why": "Military medical biodefence is the core theme."
+    },
+    "biosecurity": {
+     "score": 9,
+     "why": "Biological threat detection and response."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "Pathogen detection and identification."
+    }
+   },
+   "keywords": [
+    "biodefence",
+    "biological weapons"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
    "id": "escmid-global-2027",
    "name": "ESCMID Global 2027",
    "start": "2027-04-09",
@@ -2102,6 +2851,41 @@
     "AMR",
     "infectious disease"
    ]
+  },
+  {
+   "free": null,
+   "id": "dmea-2027",
+   "name": "DMEA 2027",
+   "start": "2027-04-13",
+   "end": "2027-04-15",
+   "type": "tradeshow",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Munich",
+   "country": "Germany",
+   "organiser": "bvitg / Messe München",
+   "url": "https://dmea.de/en/",
+   "summary": "Europe's large digital health trade fair and congress, moving to Munich for 2027, with health IT vendors, hospitals and policymakers.",
+   "rel": {
+    "healthcare": {
+     "score": 9,
+     "why": "Digital health and hospital IT are the core."
+    },
+    "ai": {
+     "score": 5,
+     "why": "AI and data in healthcare."
+    },
+    "meddevices": {
+     "score": 3,
+     "why": "Connected medical technology."
+    }
+   },
+   "keywords": [
+    "digital health",
+    "health IT"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "festival-of-biologics-usa-2027",
@@ -2206,6 +2990,71 @@
    ],
    "added": "2026-10-26",
    "checked": "2026-10-26"
+  },
+  {
+   "free": null,
+   "id": "cphi-japan-2027",
+   "name": "CPHI Japan 2027",
+   "start": "2027-04-21",
+   "end": "2027-04-23",
+   "type": "tradeshow",
+   "format": "inperson",
+   "region": "apac",
+   "city": "Tokyo",
+   "country": "Japan",
+   "organiser": "Informa Markets",
+   "url": "https://www.cphi.com/japan/",
+   "summary": "Japan's pharmaceutical ingredients and manufacturing trade show at Tokyo Big Sight, with APIs, excipients, CDMOs and biopharma zones.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Pharma supply chain and ingredients."
+    },
+    "bioprocessing": {
+     "score": 6,
+     "why": "CDMOs and biologics manufacturing exhibitors."
+    }
+   },
+   "keywords": [
+    "API",
+    "CDMO"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "bios27-biosimilars-2027",
+   "name": "23rd Biosimilar Medicines Conference (BIOS27)",
+   "start": "2027-04-22",
+   "end": "2027-04-23",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Amsterdam",
+   "country": "Netherlands",
+   "organiser": "Medicines for Europe",
+   "url": "https://www.medicinesforeurope.com/events/bios27/",
+   "summary": "Annual meeting of the European biosimilars industry with regulators, payers, clinicians and patient groups, on market access, supply and EU pharmaceutical policy.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Biosimilar policy, regulation and market access."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "Biologics manufacturing and supply resilience."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Payers and health systems on access to biologics."
+    }
+   },
+   "keywords": [
+    "biosimilars"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "pittcon-2027",
@@ -2319,6 +3168,37 @@
     "BPI",
     "CMC"
    ]
+  },
+  {
+   "free": null,
+   "id": "chinabio-2027",
+   "name": "ChinaBio Partnering Forum 2027",
+   "start": "2027-04-27",
+   "end": "2027-04-29",
+   "type": "partnering",
+   "format": "inperson",
+   "region": "apac",
+   "city": "Shanghai",
+   "country": "China",
+   "organiser": "EBD Group / Informa Connect",
+   "url": "https://informaconnect.com/chinabio/",
+   "summary": "Partnering forum at the Shanghai International Convention Center linking Chinese and international biotech, pharma and investors for licensing and deals.",
+   "rel": {
+    "investment": {
+     "score": 9,
+     "why": "Licensing and investment meetings are the core."
+    },
+    "pharma": {
+     "score": 8,
+     "why": "China out-licensing to global pharma."
+    }
+   },
+   "keywords": [
+    "China",
+    "licensing"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "bio-korea-2027",
@@ -2561,6 +3441,37 @@
    "checked": "2026-10-26"
   },
   {
+   "free": null,
+   "id": "digitech-pharma-ai-2027",
+   "name": "Digi-Tech Pharma & AI 2027",
+   "start": "2027-05-11",
+   "end": "2027-05-12",
+   "type": "conference",
+   "format": "inperson",
+   "region": "uk",
+   "city": "London",
+   "country": "UK",
+   "organiser": "Digi-Tech Pharma",
+   "url": "https://www.rsc.org/events/find-an-event/digi-tech-pharma-ai-2027-conference",
+   "summary": "Two-day London conference on AI, machine learning, real-world data and digital tools across drug discovery, clinical trials and regulation.",
+   "rel": {
+    "ai": {
+     "score": 8,
+     "why": "AI and data science in pharma are the core."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Drug discovery and clinical development teams."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Digital health and real-world evidence."
+    }
+   },
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
    "id": "labroots-precision-med-2027",
    "name": "Precision Medicine: Genomics, Proteomics & Molecular Diagnostics Virtual Event 2027",
    "start": "2027-05-12",
@@ -2666,6 +3577,71 @@
    ],
    "added": "2026-10-26",
    "checked": "2026-10-26"
+  },
+  {
+   "free": null,
+   "id": "digital-health-festival-2027",
+   "name": "Digital Health Festival 2027",
+   "start": "2027-05-19",
+   "end": "2027-05-20",
+   "type": "tradeshow",
+   "format": "inperson",
+   "region": "apac",
+   "city": "Melbourne",
+   "country": "Australia",
+   "organiser": "Terrapinn",
+   "url": "https://www.terrapinn.com/",
+   "summary": "Australia's digital health event at the Melbourne Convention and Exhibition Centre, for health providers, government and health tech companies.",
+   "rel": {
+    "healthcare": {
+     "score": 9,
+     "why": "Digital health and care delivery."
+    },
+    "ai": {
+     "score": 5,
+     "why": "AI in healthcare sessions."
+    },
+    "meddevices": {
+     "score": 3,
+     "why": "Health tech exhibitors."
+    }
+   },
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "biocontrol-mexico-2027",
+   "name": "Biocontrol & Biostimulants Mexico 2027",
+   "start": "2027-05-25",
+   "end": "2027-05-27",
+   "type": "conference",
+   "format": "inperson",
+   "region": "latam",
+   "country": "Mexico",
+   "organiser": "Informa Connect",
+   "url": "https://informaconnect.com/biocontrol-biostimulants-mexico/",
+   "summary": "Conference and exhibition on biological crop protection and biostimulants for Mexican and Latin American agriculture (workshops 25 May, main event 26–27 May; city not yet named).",
+   "rel": {
+    "agrifood": {
+     "score": 9,
+     "why": "Biologicals for crop protection are the focus."
+    },
+    "industrial": {
+     "score": 4,
+     "why": "Microbial and bio-based agri inputs."
+    },
+    "fermentation": {
+     "score": 3,
+     "why": "Fermentation-produced biologicals."
+    }
+   },
+   "keywords": [
+    "biologicals",
+    "biopesticides"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "slas-europe-2027",
@@ -2911,6 +3887,37 @@
    ],
    "added": "2026-10-26",
    "checked": "2026-10-26"
+  },
+  {
+   "free": null,
+   "id": "himss-europe-2027",
+   "name": "HIMSS27 Europe",
+   "start": "2027-06-08",
+   "end": "2027-06-10",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Barcelona",
+   "country": "Spain",
+   "organiser": "HIMSS",
+   "url": "https://www.himss.org/events-overview/european-health-conference-and-exhibition/",
+   "summary": "HIMSS's European health conference and exhibition on digital health, health data and AI for European health systems.",
+   "rel": {
+    "healthcare": {
+     "score": 9,
+     "why": "European digital health and health systems."
+    },
+    "ai": {
+     "score": 6,
+     "why": "AI and health data sessions."
+    }
+   },
+   "keywords": [
+    "health IT",
+    "digital health"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "bio-innovations-europe-2027",
@@ -3241,6 +4248,41 @@
    "checked": "2026-10-26"
   },
   {
+   "free": null,
+   "id": "amp-europe-2027",
+   "name": "AMP Europe 2027",
+   "start": "2027-06-21",
+   "end": "2027-06-23",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Amsterdam",
+   "country": "Netherlands",
+   "organiser": "Association for Molecular Pathology",
+   "url": "https://www.amp.org/events/amp-events-calendar/",
+   "summary": "European meeting of the Association for Molecular Pathology on molecular diagnostics, genomics in clinical labs and precision oncology testing.",
+   "rel": {
+    "diagnostics": {
+     "score": 9,
+     "why": "Molecular diagnostics is the focus."
+    },
+    "tools": {
+     "score": 5,
+     "why": "Sequencing and lab technology."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "European clinical lab practice."
+    }
+   },
+   "keywords": [
+    "molecular pathology",
+    "MDx"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
    "id": "asm-microbe-2027",
    "name": "ASM Microbe 2027",
    "start": "2027-06-22",
@@ -3280,6 +4322,41 @@
    "checked": "2026-10-26"
   },
   {
+   "free": null,
+   "id": "drug-discovery-europe-2027",
+   "name": "Drug Discovery Europe 2027",
+   "start": "2027-06-22",
+   "end": "2027-06-23",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Basel",
+   "country": "Switzerland",
+   "organiser": "Oxford Global",
+   "url": "https://oxfordglobal.com/calendar/",
+   "summary": "Oxford Global's Basel drug discovery meeting, co-located with Formulation & Delivery 2027 and Neuroscience Drug Development Europe 2027.",
+   "rel": {
+    "pharma": {
+     "score": 9,
+     "why": "Drug discovery scientists from pharma and biotech."
+    },
+    "ai": {
+     "score": 5,
+     "why": "AI and computational discovery sessions."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Screening and assay technology."
+    }
+   },
+   "keywords": [
+    "formulation",
+    "neuroscience"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
    "id": "dia-2027",
    "name": "DIA 2027 Global Annual Meeting",
    "start": "2027-06-28",
@@ -3313,6 +4390,80 @@
    ],
    "added": "2026-10-26",
    "checked": "2026-10-26"
+  },
+  {
+   "free": null,
+   "id": "interphex-week-tokyo-2027",
+   "name": "INTERPHEX Week Tokyo 2027",
+   "start": "2027-06-30",
+   "end": "2027-07-02",
+   "type": "tradeshow",
+   "format": "inperson",
+   "region": "apac",
+   "city": "Tokyo",
+   "country": "Japan",
+   "organiser": "RX Japan",
+   "url": "https://interphex.jp/en-gb.html",
+   "summary": "Japan's large pharma and biotech manufacturing show at Tokyo Big Sight, co-located with Regenerative Medicine Expo, BioPharma Expo and lab shows.",
+   "rel": {
+    "bioprocessing": {
+     "score": 8,
+     "why": "Pharma and biologics manufacturing equipment."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Pharma production and packaging."
+    },
+    "cellgene": {
+     "score": 5,
+     "why": "Regenerative Medicine Expo runs alongside."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Lab equipment zones."
+    }
+   },
+   "keywords": [
+    "Regenerative Medicine Expo",
+    "BioPharma Expo"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "ift-first-2027",
+   "name": "IFT FIRST 2027",
+   "start": "2027-07-11",
+   "end": "2027-07-14",
+   "type": "tradeshow",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Chicago",
+   "country": "USA",
+   "organiser": "Institute of Food Technologists",
+   "url": "https://www.ift.org/events/ift-first",
+   "summary": "Large food science meeting and expo at McCormick Place, covering ingredients, food technology, alternative proteins and fermentation.",
+   "rel": {
+    "agrifood": {
+     "score": 9,
+     "why": "Core event for food science and ingredients."
+    },
+    "fermentation": {
+     "score": 5,
+     "why": "Fermentation-derived ingredients and alt proteins."
+    },
+    "industrial": {
+     "score": 3,
+     "why": "Bio-based ingredients."
+    }
+   },
+   "keywords": [
+    "food science",
+    "alternative protein"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "whx-kuala-lumpur-2027",
@@ -3688,6 +4839,45 @@
    ],
    "added": "2026-10-26",
    "checked": "2026-10-26"
+  },
+  {
+   "free": null,
+   "id": "esmo-2027",
+   "name": "ESMO Congress 2027",
+   "start": "2027-09-17",
+   "end": "2027-09-21",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Barcelona",
+   "country": "Spain",
+   "organiser": "European Society for Medical Oncology",
+   "url": "https://www.esmo.org/meeting-calendar",
+   "summary": "Europe's main oncology congress at Fira Barcelona Gran Via, where major cancer trial results are presented to oncologists, pharma and regulators.",
+   "rel": {
+    "pharma": {
+     "score": 9,
+     "why": "Key venue for late-stage oncology trial data."
+    },
+    "healthcare": {
+     "score": 7,
+     "why": "Clinical oncology practice."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "Biomarker and companion diagnostic data."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Data readouts move biotech valuations."
+    }
+   },
+   "keywords": [
+    "oncology",
+    "cancer"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "future-foods-congress-2027",
@@ -4182,6 +5372,45 @@
    "checked": "2026-11-02"
   },
   {
+   "free": null,
+   "id": "esgct-2027",
+   "name": "ESGCT 34th Annual Congress",
+   "start": "2027-10-26",
+   "end": "2027-10-29",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Copenhagen",
+   "country": "Denmark",
+   "organiser": "European Society of Gene & Cell Therapy",
+   "url": "https://www.esgct.eu/upcoming-events",
+   "summary": "Europe's main gene and cell therapy congress, covering vectors, gene editing, cell therapies and clinical translation, with industry exhibition.",
+   "rel": {
+    "cellgene": {
+     "score": 10,
+     "why": "Dedicated to gene and cell therapy."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Advanced therapy developers attend."
+    },
+    "bioprocessing": {
+     "score": 5,
+     "why": "Vector and cell manufacturing sessions."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Gene editing and delivery tools."
+    }
+   },
+   "keywords": [
+    "ATMP",
+    "gene editing"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
    "id": "labroots-crispr-2027",
    "name": "CRISPR Virtual Event Series 2027",
    "start": "2027-10-27",
@@ -4222,6 +5451,45 @@
    "added": "2026-10-25",
    "checked": "2026-10-25",
    "time": "05:30 PDT"
+  },
+  {
+   "free": null,
+   "id": "amp-2027",
+   "name": "AMP 2027 Annual Meeting & Expo",
+   "start": "2027-11-09",
+   "end": "2027-11-13",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Baltimore",
+   "country": "USA",
+   "organiser": "Association for Molecular Pathology",
+   "url": "https://www.amp.org/events/amp-events-calendar/",
+   "summary": "Main annual meeting of the molecular pathology community, with a large expo of molecular diagnostics, sequencing and lab technology.",
+   "rel": {
+    "diagnostics": {
+     "score": 10,
+     "why": "Core meeting for molecular diagnostics."
+    },
+    "tools": {
+     "score": 7,
+     "why": "Sequencing and molecular lab platforms in the expo."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Clinical labs and precision medicine."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Companion diagnostics."
+    }
+   },
+   "keywords": [
+    "molecular pathology",
+    "MDx"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   },
   {
    "id": "cphi-frankfurt-2027",
@@ -4287,6 +5555,97 @@
    "added": "2026-10-25",
    "checked": "2026-10-25",
    "time": "05:30 PST"
+  },
+  {
+   "free": true,
+   "id": "labroots-lab-sustainability-2027",
+   "name": "Lab Sustainability Virtual Event Series 2027",
+   "start": "2027-11-17",
+   "end": "2027-11-17",
+   "time": "05:30 PT",
+   "type": "webinar",
+   "format": "online",
+   "region": "global",
+   "organiser": "Labroots",
+   "url": "https://www.labroots.com/virtual-event/lab-sustainability-2027",
+   "summary": "Free online event on running greener labs: energy and water use, plastics and waste, sustainable procurement and lab design.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "Lab operations, consumables and equipment choices."
+    }
+   },
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "aiddd-boston-2027",
+   "name": "AI Drug Discovery & Development Summit 2027",
+   "start": "2027-12-06",
+   "end": "2027-12-08",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Boston",
+   "country": "USA",
+   "organiser": "Kisaco Research",
+   "url": "https://www.aidrivendrugdevelopment.com/",
+   "summary": "Kisaco Research summit at Encore Boston Harbor on using AI across drug discovery and development, for pharma, biotech and AI vendors.",
+   "rel": {
+    "ai": {
+     "score": 10,
+     "why": "AI in drug discovery is the core."
+    },
+    "pharma": {
+     "score": 8,
+     "why": "Pharma R&D leaders attend."
+    },
+    "investment": {
+     "score": 3,
+     "why": "AI biotech start-ups."
+    }
+   },
+   "keywords": [
+    "AIDDD"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "slas-2028",
+   "name": "SLAS2028 International Conference & Exhibition",
+   "start": "2028-02-05",
+   "end": "2028-02-09",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Boston",
+   "country": "USA",
+   "organiser": "SLAS",
+   "url": "https://slas.org/events",
+   "summary": "The main lab automation and screening meeting, with a big exhibition of robotics, liquid handling, assay and data tools. Moves to Boston for 2028.",
+   "rel": {
+    "tools": {
+     "score": 10,
+     "why": "Lab automation and screening platforms are the focus."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Drug discovery screening teams attend."
+    },
+    "ai": {
+     "score": 5,
+     "why": "Data and AI in the automated lab."
+    }
+   },
+   "keywords": [
+    "lab automation",
+    "high-throughput screening"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-06"
   }
  ]
 }
