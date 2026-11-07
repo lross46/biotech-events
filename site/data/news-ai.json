@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-07T06:42:04Z",
+ "updated": "2026-11-07T13:40:19Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-07T06:42:04Z",
+  "date": "2026-11-07T13:40:19Z",
   "points": [
    {
     "sec": "results",
@@ -16,11 +16,11 @@
    },
    {
     "sec": "science",
-    "text": "Science reported the first clinical result for a chemogenetic gene therapy, in which a team in China cut seizures in three epilepsy patients with a gene that lets a drug dampen brain cell activity. Nature covered an underwater glue inspired by a cholera protein, a preprint described megabase-scale genomic chimeras, and a study linked two PFAS chemicals to ER-negative breast cancer.",
+    "text": "Nature published in vivo CRISPR base editing of ANGPTL3 with durable lipid lowering, and Science reported the first clinical result for a chemogenetic gene therapy, in which a team in China cut seizures in three epilepsy patients with a gene that lets a drug dampen brain cell activity. Nature also covered an underwater glue inspired by a cholera protein, and a study linked two PFAS chemicals to ER-negative breast cancer.",
     "ids": [
+     "e2548616f447",
      "65b4a4a0cd15",
      "ec9682a7bd3b",
-     "decf446b0e40",
      "c57c5a42df62"
     ]
    },
@@ -35,8 +35,9 @@
    },
    {
     "sec": "policy",
-    "text": "After the Democrats' midterm win, incoming House science committee leader Zoe Lofgren sketched a science agenda, and Lilly forced a compounder to drop claims for its copied tirzepatide. Otherwise a quiet day.",
+    "text": "CMS formally codified the Medicare drug price negotiation framework set up under the Inflation Reduction Act, despite repeated industry court challenges. After the Democrats' midterm win, incoming House science committee leader Zoe Lofgren sketched a science agenda, and Lilly forced a compounder to drop claims for its copied tirzepatide.",
     "ids": [
+     "b2257b3e76cb",
      "7e07ede11905",
      "a15fc72e88c1"
     ]
@@ -13931,23 +13932,7 @@
    "dup": "dbf168b752b7"
   },
   "60bc87ff3caa": {
-   "cat": "other",
-   "imp": 6,
-   "summary": "STAT reports that a former Madrigal Pharmaceuticals executive alleges the company covered up safety issues tied to its drug.",
-   "rel": {
-    "pharma": {
-     "score": 7,
-     "why": "Safety allegations against the maker of the first approved MASH drug."
-    },
-    "healthcare": {
-     "score": 4,
-     "why": "Concerns patients taking a newly launched liver drug."
-    },
-    "investment": {
-     "score": 5,
-     "why": "Allegations could weigh on a fast-growing commercial biotech."
-    }
-   }
+   "dup": "34f0ff0c1608"
   },
   "5bb40396c401": {
    "cat": "other",
@@ -17074,23 +17059,7 @@
    "dup": "a2d74786959d"
   },
   "0663a51606fc": {
-   "cat": "deals",
-   "imp": 7,
-   "summary": "Lilly and Hims & Hers say patients prescribed through the Hims & Hers platform can get Lilly's Zepbound (tirzepatide) and Foundayo (orforglipron) at self-pay prices starting at $299 and $149 a month. Hims & Hers committed never to offer compounded copies of Lilly's GLP-1 medicines.",
-   "rel": {
-    "pharma": {
-     "score": 8,
-     "why": "Moves the leading obesity drugmaker's branded GLP-1s into the biggest telehealth channel that previously sold compounded copies."
-    },
-    "healthcare": {
-     "score": 7,
-     "why": "Shifts direct-to-consumer obesity care towards approved drugs at cash prices."
-    },
-    "investment": {
-     "score": 5,
-     "why": "Material for both companies' obesity revenue outlook."
-    }
-   }
+   "dup": "a1791b921861"
   },
   "36a8a788b4ca": {
    "cat": "funding",
@@ -18155,6 +18124,518 @@
   },
   "533254bf72a0": {
    "drop": true
+  },
+  "089e7eb33de6": {
+   "dup": "a2566fb9fa79"
+  },
+  "5acc421dca2c": {
+   "drop": true
+  },
+  "88ba24e53fcf": {
+   "dup": "f31e179ef4c9"
+  },
+  "881af236c58a": {
+   "drop": true
+  },
+  "e1f1ef89a897": {
+   "dup": "94a92d994de0"
+  },
+  "5877bd09da75": {
+   "drop": true
+  },
+  "2268ac6a4881": {
+   "drop": true
+  },
+  "b76c2e527e26": {
+   "drop": true
+  },
+  "82862157b7b3": {
+   "drop": true
+  },
+  "f9064ac08a11": {
+   "drop": true
+  },
+  "6562f44c43d2": {
+   "drop": true
+  },
+  "4fa1a37a2988": {
+   "dup": "94a92d994de0"
+  },
+  "131a2e09bf3b": {
+   "drop": true
+  },
+  "9aeb04704dce": {
+   "dup": "902ff4326f37"
+  },
+  "406aca246414": {
+   "dup": "94a92d994de0"
+  },
+  "b54fb9366e43": {
+   "dup": "902ff4326f37"
+  },
+  "c4e455b2cbd6": {
+   "drop": true
+  },
+  "ee31ef4a7da2": {
+   "dup": "485137e3ae54"
+  },
+  "1ef31cc72eed": {
+   "dup": "68d06e5a1880"
+  },
+  "7a6d68c0341d": {
+   "dup": "d291b98bc11f"
+  },
+  "36f1999d9af5": {
+   "drop": true
+  },
+  "a4bb5d0dea28": {
+   "drop": true
+  },
+  "eae4fe60b4fd": {
+   "drop": true
+  },
+  "993af5abba18": {
+   "drop": true
+  },
+  "fe1c642e4b59": {
+   "drop": true
+  },
+  "bc1b85f0ac0f": {
+   "drop": true
+  },
+  "50be197b95d0": {
+   "drop": true
+  },
+  "a28b44840214": {
+   "drop": true
+  },
+  "aa20f4b54bcf": {
+   "drop": true
+  },
+  "ed33244b864b": {
+   "drop": true
+  },
+  "194951348aa8": {
+   "drop": true
+  },
+  "fbdaf94c56a3": {
+   "drop": true
+  },
+  "069c739ea154": {
+   "drop": true
+  },
+  "b1914a1cde22": {
+   "drop": true
+  },
+  "67cdea65efb0": {
+   "drop": true
+  },
+  "5b75e6344218": {
+   "drop": true
+  },
+  "d7163bd55a11": {
+   "drop": true
+  },
+  "ba8c3f3a4ebb": {
+   "drop": true
+  },
+  "c95c22b6d2f1": {
+   "drop": true
+  },
+  "71eca52e01d8": {
+   "drop": true
+  },
+  "6b20e0ff5133": {
+   "dup": "29847b25d9e9"
+  },
+  "ab9b25b62f91": {
+   "dup": "8937d08a28c4"
+  },
+  "759ba645ab4c": {
+   "drop": true
+  },
+  "1d1d3181dd88": {
+   "dup": "29847b25d9e9"
+  },
+  "f8ab24ff69f3": {
+   "drop": true
+  },
+  "b6a9c09a65ff": {
+   "dup": "29847b25d9e9"
+  },
+  "8ca356fb5611": {
+   "drop": true
+  },
+  "b643280ccef5": {
+   "dup": "29847b25d9e9"
+  },
+  "1db02bb84242": {
+   "drop": true
+  },
+  "4271720be6aa": {
+   "dup": "29847b25d9e9"
+  },
+  "aec64996a44f": {
+   "drop": true
+  },
+  "0bb61616128f": {
+   "dup": "29847b25d9e9"
+  },
+  "79aa09795f1f": {
+   "drop": true
+  },
+  "ee3e057cdd8a": {
+   "dup": "29847b25d9e9"
+  },
+  "2cf4421a9871": {
+   "drop": true
+  },
+  "5bf0979b0db7": {
+   "drop": true
+  },
+  "7da2ba87bb8c": {
+   "drop": true
+  },
+  "02866995c420": {
+   "drop": true
+  },
+  "84989ed6e3be": {
+   "dup": "968fa55817bc"
+  },
+  "40f91ce423e2": {
+   "drop": true
+  },
+  "fb46ca08dc69": {
+   "dup": "5ec798453c55"
+  },
+  "f3b60d7b1eb8": {
+   "drop": true
+  },
+  "281799db0744": {
+   "drop": true
+  },
+  "9476cd1bccd9": {
+   "drop": true
+  },
+  "380bdc148580": {
+   "drop": true
+  },
+  "d96c3d72332f": {
+   "dup": "68d06e5a1880"
+  },
+  "280b6971b865": {
+   "drop": true
+  },
+  "cdeed3d071e8": {
+   "drop": true
+  },
+  "bb78c4e08c42": {
+   "drop": true
+  },
+  "bbbbe4de29cb": {
+   "drop": true
+  },
+  "119f813263ad": {
+   "drop": true
+  },
+  "fc41d5897760": {
+   "drop": true
+  },
+  "52a1a41692d3": {
+   "drop": true
+  },
+  "1d3e416b901b": {
+   "drop": true
+  },
+  "1f5a8618fadd": {
+   "drop": true
+  },
+  "2007990be77f": {
+   "drop": true
+  },
+  "ce56a1baac95": {
+   "drop": true
+  },
+  "65a3d15207c3": {
+   "drop": true
+  },
+  "1e1d7c71001a": {
+   "drop": true
+  },
+  "b474dc8610b2": {
+   "drop": true
+  },
+  "64345550e8c0": {
+   "drop": true
+  },
+  "e3272ab7ca7c": {
+   "drop": true
+  },
+  "e30ea1ad7972": {
+   "drop": true
+  },
+  "68ff61d3daa0": {
+   "drop": true
+  },
+  "49fa3a42ca6f": {
+   "dup": "004dfe9fab63"
+  },
+  "84934324676b": {
+   "drop": true
+  },
+  "69724cc3cbbc": {
+   "drop": true
+  },
+  "0d8ad6439ccc": {
+   "drop": true
+  },
+  "e3b77d178a2e": {
+   "drop": true
+  },
+  "6bdb991e819d": {
+   "drop": true
+  },
+  "260e5d47fbc8": {
+   "drop": true
+  },
+  "3986a34860d2": {
+   "drop": true
+  },
+  "d873090f37e1": {
+   "drop": true
+  },
+  "6ba861e8c792": {
+   "dup": "68d06e5a1880"
+  },
+  "bee145658115": {
+   "drop": true
+  },
+  "74f2728fce92": {
+   "dup": "98f430df60ac"
+  },
+  "35c53b47cfa6": {
+   "drop": true
+  },
+  "a1c18472d690": {
+   "drop": true
+  },
+  "4042ff57f9b0": {
+   "drop": true
+  },
+  "568559b0bbf9": {
+   "dup": "d76c5250b63f"
+  },
+  "2a4e3d0e5517": {
+   "drop": true
+  },
+  "0142974eb2ad": {
+   "drop": true
+  },
+  "bfe09f254a31": {
+   "drop": true
+  },
+  "04ab67b848ec": {
+   "drop": true
+  },
+  "607f93b2c883": {
+   "dup": "53c4b7f68d10"
+  },
+  "a1c582058388": {
+   "drop": true
+  },
+  "415e222efabe": {
+   "drop": true
+  },
+  "d11c7fcd08c1": {
+   "drop": true
+  },
+  "8a155e7ee571": {
+   "drop": true
+  },
+  "8d9adfac7da0": {
+   "drop": true
+  },
+  "d2ef87f27245": {
+   "drop": true
+  },
+  "544223834634": {
+   "dup": "e9a0539daa4c"
+  },
+  "a1791b921861": {
+   "cat": "deals",
+   "imp": 7,
+   "summary": "Lilly and Hims & Hers say patients prescribed through the Hims & Hers platform can get Lilly's Zepbound (tirzepatide) and Foundayo (orforglipron) at self-pay prices starting at $299 and $149 a month. Hims & Hers committed never to offer compounded copies of Lilly's GLP-1 medicines.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Moves the leading obesity drugmaker's branded GLP-1s into the biggest telehealth channel that previously sold compounded copies."
+    },
+    "healthcare": {
+     "score": 7,
+     "why": "Shifts direct-to-consumer obesity care towards approved drugs at cash prices."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Material for both companies' obesity revenue outlook."
+    }
+   }
+  },
+  "34f0ff0c1608": {
+   "cat": "other",
+   "imp": 6,
+   "summary": "Madrigal Pharmaceuticals' former head of clinical development has filed a whistleblower lawsuit alleging senior leadership censored serious liver-injury data for its MASH drug Rezdiffra.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Safety allegations against the first approved MASH drug, now a blockbuster, could draw regulatory scrutiny."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Litigation risk for Madrigal's single commercial product."
+    }
+   }
+  },
+  "b2257b3e76cb": {
+   "cat": "policy",
+   "imp": 7,
+   "summary": "CMS has formally codified the Medicare drug price negotiation framework set up under the Inflation Reduction Act, despite repeated industry challenges in court.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Locks in the process that sets Medicare prices for top-selling drugs, shaping revenue forecasts and pipeline choices."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Sets how Medicare will pay for negotiated medicines."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Reduces hope of the programme being unwound by regulation."
+    }
+   }
+  },
+  "1d1866f390f7": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Green Queen reports the Good Food Institute laid off six US employees and eliminated seven more roles after a fall in its revenue.",
+   "rel": {
+    "agrifood": {
+     "score": 6,
+     "why": "The leading alternative-protein think tank cutting staff signals tighter funding for the sector."
+    },
+    "fermentation": {
+     "score": 3,
+     "why": "GFI backs precision-fermentation research and advocacy."
+    }
+   }
+  },
+  "4475ce3a5c19": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "ScienceDaily reports a study finding psilocybin rapidly reshapes the brain by forming new neural connections and strengthening others.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Mechanistic support for psychedelic drug developers."
+    }
+   }
+  },
+  "df0af3410900": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint presents an open-source benchmark comparing sensory and functional properties of dairy and dairy-free products. Not yet peer-reviewed.",
+   "rel": {
+    "agrifood": {
+     "score": 6,
+     "why": "Gives alt-dairy developers a shared way to measure how close products are to dairy."
+    },
+    "fermentation": {
+     "score": 3,
+     "why": "Relevant to precision-fermented dairy protein makers."
+    }
+   }
+  },
+  "737b147c51bf": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A preprint maps human neutralizing antibodies against influenza in summer 2026, finding antigenic advance in H3N2 subclade K and H1N1 D.3.1.1 mutants, to inform vaccine strain updates. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Bears on which strains flu vaccine makers will need for the next season."
+    },
+    "biosecurity": {
+     "score": 5,
+     "why": "Near real-time immunity surveillance for drifting seasonal flu."
+    }
+   }
+  },
+  "bcafdd10fcdf": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint uses integrated omics to show how a toluene-degrading bacterium reorganises nitrogen and lipid metabolism when grown in the gas phase. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 5,
+     "why": "Informs gas-phase bioprocesses for converting poorly soluble compounds."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "Insight for designing immobilised-cell gas-phase reactors."
+    }
+   }
+  },
+  "ac5474d8a025": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A preprint reports that R-pyocin selection restored aminoglycoside sensitivity in a pan-drug-resistant Pseudomonas aeruginosa isolate. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "A possible way to revive old antibiotics against the hardest resistant infections."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Relevant to antimicrobial resistance preparedness."
+    }
+   }
+  },
+  "1da076445548": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "ScienceDaily reports research suggesting a compound found naturally in broccoli could help treat Friedreich ataxia.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Early lead for a rare neurological disease with few treatments."
+    }
+   }
+  },
+  "e2548616f447": {
+   "cat": "science",
+   "imp": 7,
+   "summary": "A Nature paper reports in vivo CRISPR base editing of ANGPTL3 that produced durable lipid lowering.",
+   "rel": {
+    "cellgene": {
+     "score": 9,
+     "why": "One-time in vivo base editing for a common cardiovascular target is a key test case for gene editing beyond rare disease."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Points to a one-shot alternative to chronic lipid-lowering drugs."
+    }
+   }
+  },
+  "7e4931900f76": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint finds non-canonical peptidoglycan cross-linking is essential for Mycobacterium tuberculosis to resist acid inside macrophages. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Identifies a possible new target for TB drugs."
+    }
+   }
   }
  },
  "extra": [
