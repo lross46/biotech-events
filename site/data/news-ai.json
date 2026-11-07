@@ -1,76 +1,69 @@
 {
- "updated": "2026-11-06T13:42:33Z",
+ "updated": "2026-11-07T06:42:04Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-06T13:42:33Z",
+  "date": "2026-11-07T06:42:04Z",
   "points": [
    {
     "sec": "results",
-    "text": "AASLD brought the day's main data: Merck's Hanmi-licensed GLP-1/glucagon agonist efinopegdutide resolved MASH in 63% of patients on the top dose versus 13% on placebo in phase 2b, and AusperBio and Brii Bio reported progress towards a hepatitis B functional cure. A real-world study of more than 500,000 statin users linked Amgen's Repatha to 20% fewer heart attacks than ezetimibe, and the Lancet published phase 3 HERON-Lung01, in which a China-developed ADC beat chemotherapy in EGFR-mutated lung cancer. Big drugmakers are lining up early trispecific antibody data in myeloma for ASH.",
+    "text": "Sarepta stopped enrolling the phase 3 trial meant to confirm Elevidys's benefit in older boys with Duchenne, and Moderna shelved plans for a new cohort of its norovirus vaccine after a phase 3 miss. On the positive side, Merck and Moderna said 99% of vaccine-arm patients in the INTerpath-001 melanoma trial got a manufactured personalised mRNA vaccine, and Immunocore reported 70% two-year survival for brenetafusp plus Kimmtrak in first-line uveal melanoma at SITC. AASLD and AHA added MASH and heart data, led by Zydus's saroglitazar phase 2b.",
     "ids": [
-     "b6ba4e7aef7d",
-     "847b4a606960",
-     "53c4b7f68d10",
-     "1e30bc7bb1bd"
+     "29f740ab275c",
+     "2026-11-06-merck-moderna-intismeran-manufacturing",
+     "94c6ae8aa158",
+     "197d636f0701"
     ]
    },
    {
     "sec": "science",
-    "text": "Science carried a nanoswitch screening method for finding molecular modulators and a study showing metastases hijack blood-cell production in the liver to suppress immunity, plus reviews on GLP-1 drugs and cancer risk and cognition. Preprints added a broad-host phage recombineering tool and live-cell droplet single-cell sequencing.",
+    "text": "Science reported the first clinical result for a chemogenetic gene therapy, in which a team in China cut seizures in three epilepsy patients with a gene that lets a drug dampen brain cell activity. Nature covered an underwater glue inspired by a cholera protein, a preprint described megabase-scale genomic chimeras, and a study linked two PFAS chemicals to ER-negative breast cancer.",
     "ids": [
-     "6b74d6ad5554",
-     "b4712731a57d",
-     "8a02c7f3e31c",
-     "bf0901e0f445"
+     "65b4a4a0cd15",
+     "ec9682a7bd3b",
+     "decf446b0e40",
+     "c57c5a42df62"
     ]
    },
    {
     "sec": "approvals",
-    "text": "Novartis confirmed nine tumour cases in children treated with its SMA gene therapy Zolgensma, seven newly disclosed and two possibly tied to vector DNA integration, a signal that matters across AAV gene therapy. The FDA granted accelerated approval to J&J's subcutaneous Rybrevant Faspro in relapsed head and neck cancer, cleared the first US stemless reverse shoulder implant, and rebuked Vanda over a misleading TV ad.",
+    "text": "Fresh coverage of Novartis's nine Zolgensma tumour cases, two with signs of vector integration, widened the debate on AAV safety. BioSpace flagged a crowded November of FDA decisions, including Summit/Akeso, Capricor and Vertex, and BioCardia finished PMDA consultation for its CardiAMP cell therapy in Japan.",
     "ids": [
      "fa98297baefc",
-     "03fead43962c",
-     "732005ca2f6b",
-     "00413350b90d"
+     "622056b24b7c",
+     "3508e4922a3d"
     ]
    },
    {
     "sec": "policy",
-    "text": "Medicare finalised a rule that will cut billions from 340B drug payments and expand site-neutral payments in 2027, over hospital objections. India will cap trade margins on 137 cancer drugs after a Supreme Court ruling, and the 2026 Lancet Countdown report charted a decade of rising climate-driven health harms. In US vaccine policy, medical societies issued their own respiratory vaccine guidance and family doctors asked Congress for ACIP guardrails.",
+    "text": "After the Democrats' midterm win, incoming House science committee leader Zoe Lofgren sketched a science agenda, and Lilly forced a compounder to drop claims for its copied tirzepatide. Otherwise a quiet day.",
     "ids": [
-     "bcda996e5bd5",
-     "6d372a0bc57e",
-     "901dde8315bc",
-     "610712a85cde"
+     "7e07ede11905",
+     "a15fc72e88c1"
     ]
    },
    {
     "sec": "money",
-    "text": "AstraZeneca has offered about $10 billion for rare obesity drugmaker Rhythm, the Wall Street Journal reports, with analysts expecting a bidding war. Lilly agreed to sell Zepbound and Foundayo through Hims & Hers at self-pay prices from $299 and $149 a month, with Hims pledging never to offer compounded copies. ANI is buying Egetis for $560 million for its orphan drug Emcitate, and China licensing kept going as Evommune paid Hinova $30 million upfront for a molecular glue; Rezera, formerly NodThera, filed for a $181 million IPO.",
+    "text": "A light day for deals: Chai Discovery added Roche as an AI drug discovery partner, and InMed closed its merger with Mentari Therapeutics ahead of Nasdaq trading as MTRI.",
     "ids": [
-     "85101ab8f79e",
-     "0663a51606fc",
-     "3e39974a9c9d",
-     "145d7ea180e7"
+     "2845a335803d",
+     "fbc130a12e1b"
     ]
    },
    {
     "sec": "companies",
-    "text": "Viral-vector CDMO VintaBio is selling its plant and IP as cell and gene therapy demand slows, while Agios is cutting more than 100 R&D roles and Alnylam's commercial chief is leaving as Amvuttra sales disappoint. Edwards raised its forecast on strong TAVR sales.",
+    "text": "Moderna returned to profit with $1.3 billion in Q3 revenue on international Covid vaccine sales, and Siemens Healthineers will spin out its diagnostics arm as Olyrian Diagnostics by mid-2028. Natera's surprise CEO change hit its shares, Merck dropped its Sutro-partnered IL-2 drug, and Generate said Claude helped it shrink CAR-T constructs.",
     "ids": [
-     "c30fa5cbf5bf",
-     "fdc732fce536",
-     "ff1b49ebba4d",
-     "cf7568fc10ae"
+     "c22af8c396d0",
+     "7eec992bb90f",
+     "cac485472c39",
+     "1ff1f621de94"
     ]
    },
    {
     "sec": "biodef",
-    "text": "The Tumaini trial has begun testing vaccines against Bundibugyo virus, the Ebola strain that has killed more than 5,000 people in DR Congo. An infant died of measles in Wisconsin, the state's first measles death since 1990, and researchers reported an AI-designed H5 bird flu vaccine that beat stockpiled vaccines in preclinical tests.",
+    "text": "Quiet day: the main item was a BioProcess International piece arguing UN biosecurity frameworks lag behind today's biopharma industry.",
     "ids": [
-     "feb3abe5b5e0",
-     "e6d4e184a41d",
-     "c8e95611a059"
+     "e80e2ef0ae8e"
     ]
    }
   ]
@@ -9990,9 +9983,6 @@
     }
    }
   },
-  "4d1d4d171e06": {
-   "dup": "f743ef531124"
-  },
   "c6bdfea9fdac": {
    "cat": "clinical",
    "imp": 5,
@@ -10018,9 +10008,6 @@
      "why": "Rare neurological disease pipeline continues under a new owner."
     }
    }
-  },
-  "3126e0dec04e": {
-   "drop": true
   },
   "ccbe5db9876a": {
    "cat": "other",
@@ -11822,15 +11809,6 @@
      "why": "Relevant to understanding musculoskeletal development after neonatal nerve injury."
     }
    }
-  },
-  "27d8e87cb968": {
-   "drop": true
-  },
-  "dae348d48773": {
-   "dup": "9bfa75ccd25f"
-  },
-  "5085989fa43e": {
-   "drop": true
   },
   "57d9f44b9ea4": {
    "cat": "contracts",
@@ -13943,146 +13921,14 @@
     }
    }
   },
-  "131a2e09bf3b": {
-   "drop": true
-  },
-  "36f1999d9af5": {
-   "drop": true
-  },
-  "eae4fe60b4fd": {
-   "drop": true
-  },
   "4d2f68fad468": {
-   "drop": true
-  },
-  "35782cf3b40e": {
-   "drop": true
-  },
-  "53518c6e665c": {
-   "drop": true
-  },
-  "555eb7421b06": {
-   "drop": true
-  },
-  "bc1b85f0ac0f": {
-   "drop": true
-  },
-  "50be197b95d0": {
-   "drop": true
-  },
-  "25314e362238": {
-   "drop": true
-  },
-  "fe0b435f1479": {
-   "drop": true
-  },
-  "39922d9ee3e8": {
-   "drop": true
-  },
-  "46e53c71bcc3": {
-   "drop": true
-  },
-  "9080f33021e1": {
-   "drop": true
-  },
-  "b841e1cd7965": {
-   "drop": true
-  },
-  "82e6bccfa009": {
-   "drop": true
-  },
-  "ce24da375456": {
-   "drop": true
-  },
-  "46af7e6d81bd": {
-   "drop": true
-  },
-  "64d7ad489e5f": {
-   "drop": true
-  },
-  "cf563b1d05f0": {
-   "drop": true
-  },
-  "1476a4aa00dc": {
-   "drop": true
-  },
-  "79e85003ddba": {
-   "drop": true
-  },
-  "217428b790ad": {
-   "drop": true
-  },
-  "69dd84371004": {
-   "drop": true
-  },
-  "c83d53dcefc0": {
-   "drop": true
-  },
-  "daece8236aee": {
-   "drop": true
-  },
-  "eba35999c718": {
-   "drop": true
-  },
-  "82186064e0ee": {
-   "drop": true
-  },
-  "7d67668ea124": {
-   "drop": true
-  },
-  "42487870139f": {
-   "drop": true
-  },
-  "c82a9afaa041": {
-   "drop": true
-  },
-  "4049e4301776": {
-   "drop": true
-  },
-  "069d69b2edd4": {
-   "drop": true
-  },
-  "0174dc0b7fef": {
-   "drop": true
-  },
-  "c485899de855": {
-   "drop": true
-  },
-  "a87e24ade605": {
    "drop": true
   },
   "dc82e6bb9562": {
    "drop": true
   },
-  "b2b7570f6645": {
-   "drop": true
-  },
-  "4e3539a4b955": {
-   "drop": true
-  },
-  "95a1d48a578b": {
-   "drop": true
-  },
-  "28aeaee18289": {
-   "drop": true
-  },
-  "d8255cd6b165": {
-   "drop": true
-  },
   "d29c4fafb615": {
    "dup": "dbf168b752b7"
-  },
-  "7468b7774f33": {
-   "dup": "60bc87ff3caa"
-  },
-  "c1753ddd194b": {
-   "dup": "46cb58fa782b"
-  },
-  "7b8b13a1d7e0": {
-   "dup": "f31e179ef4c9"
-  },
-  "f204071e570b": {
-   "dup": "94a92d994de0"
   },
   "60bc87ff3caa": {
    "cat": "other",
@@ -14147,9 +13993,6 @@
      "why": "Affects when European patients can access the combination."
     }
    }
-  },
-  "1a4060d80628": {
-   "dup": "485137e3ae54"
   },
   "46cb58fa782b": {
    "cat": "deals",
@@ -15303,341 +15146,8 @@
     }
    }
   },
-  "f9064ac08a11": {
-   "drop": true
-  },
-  "6562f44c43d2": {
-   "drop": true
-  },
-  "354eda1e5efd": {
-   "drop": true
-  },
-  "5acc421dca2c": {
-   "drop": true
-  },
   "b4092f3b40c0": {
    "drop": true
-  },
-  "5877bd09da75": {
-   "drop": true
-  },
-  "881af236c58a": {
-   "drop": true
-  },
-  "774ec8069cfc": {
-   "drop": true
-  },
-  "c1913adce1a8": {
-   "drop": true
-  },
-  "9d5b61605102": {
-   "drop": true
-  },
-  "4f5f6a2747d7": {
-   "drop": true
-  },
-  "e4ceb7f8e796": {
-   "drop": true
-  },
-  "95b10d6dc5a9": {
-   "drop": true
-  },
-  "96da148bcf97": {
-   "drop": true
-  },
-  "5a1f12b77707": {
-   "drop": true
-  },
-  "1575a0b2eb23": {
-   "drop": true
-  },
-  "373aa6306d80": {
-   "drop": true
-  },
-  "37736ad17b58": {
-   "drop": true
-  },
-  "e0b54a76b30f": {
-   "drop": true
-  },
-  "bf8ba4ddc6bb": {
-   "drop": true
-  },
-  "dbe5eead42f6": {
-   "drop": true
-  },
-  "9ab8d40a06b5": {
-   "drop": true
-  },
-  "4d08c2386558": {
-   "drop": true
-  },
-  "311d5d697ec2": {
-   "drop": true
-  },
-  "d8df2e46889a": {
-   "drop": true
-  },
-  "dfe0d50d4b2e": {
-   "drop": true
-  },
-  "a1e174b667ae": {
-   "drop": true
-  },
-  "d03242a4d896": {
-   "drop": true
-  },
-  "ded261c0682c": {
-   "drop": true
-  },
-  "7aa1a653c9e8": {
-   "drop": true
-  },
-  "d7c94404c4ed": {
-   "drop": true
-  },
-  "f161733f6285": {
-   "drop": true
-  },
-  "5dcfc2cdd643": {
-   "drop": true
-  },
-  "bfe3480aab24": {
-   "drop": true
-  },
-  "7e271704418c": {
-   "drop": true
-  },
-  "968c4fd8415e": {
-   "drop": true
-  },
-  "3a71fdd0b8ea": {
-   "drop": true
-  },
-  "c6c7fe28c17c": {
-   "drop": true
-  },
-  "bf70e0464023": {
-   "drop": true
-  },
-  "3bbeba40c581": {
-   "drop": true
-  },
-  "feaa356ca571": {
-   "drop": true
-  },
-  "53f6ea991303": {
-   "drop": true
-  },
-  "7f1a29fef0a8": {
-   "drop": true
-  },
-  "9c8127017004": {
-   "drop": true
-  },
-  "05ec2af95a87": {
-   "drop": true
-  },
-  "b5f39fa0c6b4": {
-   "drop": true
-  },
-  "4106f433b843": {
-   "drop": true
-  },
-  "b005a217dde5": {
-   "drop": true
-  },
-  "a9c8715ff6cb": {
-   "drop": true
-  },
-  "723f00177e19": {
-   "drop": true
-  },
-  "58b26d2a2dc3": {
-   "drop": true
-  },
-  "6b25bacd946b": {
-   "drop": true
-  },
-  "924a4ed0f419": {
-   "drop": true
-  },
-  "0f16fda46649": {
-   "drop": true
-  },
-  "4c79b0105e16": {
-   "drop": true
-  },
-  "e441ee3e496e": {
-   "drop": true
-  },
-  "db19dc0a9c0b": {
-   "drop": true
-  },
-  "83ae69f4c818": {
-   "drop": true
-  },
-  "d1ec54f7e6b6": {
-   "drop": true
-  },
-  "a3acf7af600a": {
-   "drop": true
-  },
-  "9f461518eb1b": {
-   "drop": true
-  },
-  "0f77fda8a794": {
-   "drop": true
-  },
-  "ef67169f53c5": {
-   "drop": true
-  },
-  "8afd33ef624c": {
-   "drop": true
-  },
-  "e84fc77bec37": {
-   "drop": true
-  },
-  "47b7da359bfe": {
-   "drop": true
-  },
-  "81cc447b6f23": {
-   "drop": true
-  },
-  "5db2e4edf9c9": {
-   "drop": true
-  },
-  "19a61c179cad": {
-   "drop": true
-  },
-  "b510933ae50e": {
-   "drop": true
-  },
-  "b74c3e24c070": {
-   "drop": true
-  },
-  "7543a1620362": {
-   "drop": true
-  },
-  "ea2b19b26b6a": {
-   "drop": true
-  },
-  "cb84b3934850": {
-   "drop": true
-  },
-  "993af5abba18": {
-   "drop": true
-  },
-  "a4bb5d0dea28": {
-   "drop": true
-  },
-  "ba8c3f3a4ebb": {
-   "drop": true
-  },
-  "416423b0d183": {
-   "drop": true
-  },
-  "e4ac240e1ab9": {
-   "drop": true
-  },
-  "7ce23571f721": {
-   "drop": true
-  },
-  "b89e0f6268cf": {
-   "drop": true
-  },
-  "b483b8248089": {
-   "drop": true
-  },
-  "abd42d574ebe": {
-   "drop": true
-  },
-  "a3ead2ad55be": {
-   "drop": true
-  },
-  "921e42ddee2a": {
-   "drop": true
-  },
-  "087fc81444e0": {
-   "drop": true
-  },
-  "c9b797187742": {
-   "drop": true
-  },
-  "0a7c35532cab": {
-   "drop": true
-  },
-  "567b14aab899": {
-   "drop": true
-  },
-  "7e4c63ae6985": {
-   "drop": true
-  },
-  "fe1c642e4b59": {
-   "drop": true
-  },
-  "d482c20de9cd": {
-   "drop": true
-  },
-  "a37b5493c2cc": {
-   "drop": true
-  },
-  "3f5a15183464": {
-   "drop": true
-  },
-  "c4e455b2cbd6": {
-   "drop": true
-  },
-  "9aeb04704dce": {
-   "dup": "902ff4326f37"
-  },
-  "b54fb9366e43": {
-   "dup": "902ff4326f37"
-  },
-  "406aca246414": {
-   "dup": "94a92d994de0"
-  },
-  "e1f1ef89a897": {
-   "dup": "94a92d994de0"
-  },
-  "4fa1a37a2988": {
-   "dup": "94a92d994de0"
-  },
-  "ee31ef4a7da2": {
-   "dup": "485137e3ae54"
-  },
-  "862e4e85c37e": {
-   "dup": "485137e3ae54"
-  },
-  "39b4724db844": {
-   "dup": "0cfb08e4590f"
-  },
-  "089e7eb33de6": {
-   "dup": "a2566fb9fa79"
-  },
-  "88ba24e53fcf": {
-   "dup": "f31e179ef4c9"
-  },
-  "d72ac1bbe55f": {
-   "dup": "60bc87ff3caa"
-  },
-  "4552c4709551": {
-   "dup": "dbf168b752b7"
-  },
-  "a025b51d22a0": {
-   "dup": "968fa55817bc"
-  },
-  "412365720862": {
-   "dup": "88443e928d44"
-  },
-  "bb755a777770": {
-   "dup": "bc36e1dff8a6"
-  },
-  "6978538190d5": {
-   "dup": "1fbc697a4ce9"
-  },
-  "7a6d68c0341d": {
-   "dup": "d291b98bc11f"
   },
   "4c914e1a8e77": {
    "cat": "clinical",
@@ -16270,9 +15780,6 @@
     }
    }
   },
-  "1ef31cc72eed": {
-   "dup": "68d06e5a1880"
-  },
   "bba62f9188b5": {
    "cat": "clinical",
    "imp": 6,
@@ -16288,27 +15795,6 @@
     }
    }
   },
-  "a28b44840214": {
-   "drop": true
-  },
-  "aa20f4b54bcf": {
-   "drop": true
-  },
-  "ed33244b864b": {
-   "drop": true
-  },
-  "194951348aa8": {
-   "drop": true
-  },
-  "fbdaf94c56a3": {
-   "drop": true
-  },
-  "069c739ea154": {
-   "drop": true
-  },
-  "b1914a1cde22": {
-   "drop": true
-  },
   "4adefc7ac51d": {
    "cat": "science",
    "imp": 4,
@@ -16319,12 +15805,6 @@
      "why": "Commentary on the obesity drug class's expansion into new indications."
     }
    }
-  },
-  "5b75e6344218": {
-   "drop": true
-  },
-  "d7163bd55a11": {
-   "drop": true
   },
   "422f64f06226": {
    "cat": "deals",
@@ -17400,21 +16880,6 @@
     }
    }
   },
-  "2268ac6a4881": {
-   "drop": true
-  },
-  "dc579c09686d": {
-   "drop": true
-  },
-  "195b90dd303a": {
-   "drop": true
-  },
-  "c0750b0d6b8d": {
-   "drop": true
-  },
-  "b29c549d5b59": {
-   "drop": true
-  },
   "bf0901e0f445": {
    "cat": "science",
    "imp": 4,
@@ -17429,27 +16894,6 @@
      "why": "Could ease engineering of non-model production microbes."
     }
    }
-  },
-  "dedfd8c7d98c": {
-   "drop": true
-  },
-  "7e6019854d90": {
-   "drop": true
-  },
-  "088206c40511": {
-   "drop": true
-  },
-  "82862157b7b3": {
-   "drop": true
-  },
-  "ef9f3f09285e": {
-   "drop": true
-  },
-  "67cdea65efb0": {
-   "drop": true
-  },
-  "28b9db48a6d1": {
-   "drop": true
   },
   "53e9299fcc14": {
    "cat": "science",
@@ -17473,9 +16917,6 @@
     }
    }
   },
-  "b2c3e3529658": {
-   "drop": true
-  },
   "46c8905d2153": {
    "cat": "science",
    "imp": 4,
@@ -17490,36 +16931,6 @@
      "why": "Sequencing-based surveillance method."
     }
    }
-  },
-  "ae42461f7fc3": {
-   "drop": true
-  },
-  "e90015fa2c58": {
-   "drop": true
-  },
-  "c193061bf40f": {
-   "drop": true
-  },
-  "3c9997c96fc8": {
-   "drop": true
-  },
-  "01c443b96792": {
-   "drop": true
-  },
-  "5b8b88a7427c": {
-   "drop": true
-  },
-  "96b50ada95d3": {
-   "drop": true
-  },
-  "ef0e1d12e2c5": {
-   "drop": true
-  },
-  "f5da24efba3e": {
-   "drop": true
-  },
-  "49fa3a42ca6f": {
-   "dup": "004dfe9fab63"
   },
   "004dfe9fab63": {
    "cat": "science",
@@ -17550,12 +16961,6 @@
      "why": "Covers climate effects on food security."
     }
    }
-  },
-  "2a4e3d0e5517": {
-   "drop": true
-  },
-  "607f93b2c883": {
-   "dup": "53c4b7f68d10"
   },
   "53c4b7f68d10": {
    "cat": "clinical",
@@ -17644,212 +17049,17 @@
   "4190acca4168": {
    "drop": true
   },
-  "b76c2e527e26": {
-   "drop": true
-  },
-  "8ca356fb5611": {
-   "drop": true
-  },
   "a56648f29dc3": {
    "drop": true
   },
   "dba4957f5c00": {
    "drop": true
   },
-  "0c68afa5ce4b": {
-   "drop": true
-  },
   "c40ce93661fe": {
-   "drop": true
-  },
-  "62041aef2e56": {
-   "drop": true
-  },
-  "7da2ba87bb8c": {
-   "drop": true
-  },
-  "5bf0979b0db7": {
-   "drop": true
-  },
-  "2cf4421a9871": {
-   "drop": true
-  },
-  "759ba645ab4c": {
-   "drop": true
-  },
-  "f8ab24ff69f3": {
-   "drop": true
-  },
-  "71eca52e01d8": {
-   "drop": true
-  },
-  "79aa09795f1f": {
-   "drop": true
-  },
-  "1db02bb84242": {
-   "drop": true
-  },
-  "aec64996a44f": {
-   "drop": true
-  },
-  "c95c22b6d2f1": {
    "drop": true
   },
   "bf2221685f97": {
    "drop": true
-  },
-  "02866995c420": {
-   "drop": true
-  },
-  "40f91ce423e2": {
-   "drop": true
-  },
-  "f3b60d7b1eb8": {
-   "drop": true
-  },
-  "281799db0744": {
-   "drop": true
-  },
-  "9476cd1bccd9": {
-   "drop": true
-  },
-  "380bdc148580": {
-   "drop": true
-  },
-  "cdeed3d071e8": {
-   "drop": true
-  },
-  "280b6971b865": {
-   "drop": true
-  },
-  "bb78c4e08c42": {
-   "drop": true
-  },
-  "bbbbe4de29cb": {
-   "drop": true
-  },
-  "119f813263ad": {
-   "drop": true
-  },
-  "fc41d5897760": {
-   "drop": true
-  },
-  "52a1a41692d3": {
-   "drop": true
-  },
-  "21fb8dc84ead": {
-   "drop": true
-  },
-  "1d3e416b901b": {
-   "drop": true
-  },
-  "1f5a8618fadd": {
-   "drop": true
-  },
-  "ce56a1baac95": {
-   "drop": true
-  },
-  "2007990be77f": {
-   "drop": true
-  },
-  "1e1d7c71001a": {
-   "drop": true
-  },
-  "65a3d15207c3": {
-   "drop": true
-  },
-  "64345550e8c0": {
-   "drop": true
-  },
-  "b474dc8610b2": {
-   "drop": true
-  },
-  "e3272ab7ca7c": {
-   "drop": true
-  },
-  "e30ea1ad7972": {
-   "drop": true
-  },
-  "68ff61d3daa0": {
-   "drop": true
-  },
-  "84934324676b": {
-   "drop": true
-  },
-  "69724cc3cbbc": {
-   "drop": true
-  },
-  "6bdb991e819d": {
-   "drop": true
-  },
-  "e3b77d178a2e": {
-   "drop": true
-  },
-  "0d8ad6439ccc": {
-   "drop": true
-  },
-  "260e5d47fbc8": {
-   "drop": true
-  },
-  "3986a34860d2": {
-   "drop": true
-  },
-  "d873090f37e1": {
-   "drop": true
-  },
-  "35c53b47cfa6": {
-   "drop": true
-  },
-  "bee145658115": {
-   "drop": true
-  },
-  "a1c18472d690": {
-   "drop": true
-  },
-  "0142974eb2ad": {
-   "drop": true
-  },
-  "4042ff57f9b0": {
-   "drop": true
-  },
-  "bfe09f254a31": {
-   "drop": true
-  },
-  "04ab67b848ec": {
-   "drop": true
-  },
-  "d11c7fcd08c1": {
-   "drop": true
-  },
-  "415e222efabe": {
-   "drop": true
-  },
-  "a1c582058388": {
-   "drop": true
-  },
-  "11f3cb257b6b": {
-   "drop": true
-  },
-  "ee3e057cdd8a": {
-   "dup": "29847b25d9e9"
-  },
-  "0bb61616128f": {
-   "dup": "29847b25d9e9"
-  },
-  "4271720be6aa": {
-   "dup": "29847b25d9e9"
-  },
-  "b643280ccef5": {
-   "dup": "29847b25d9e9"
-  },
-  "b6a9c09a65ff": {
-   "dup": "29847b25d9e9"
-  },
-  "1d1d3181dd88": {
-   "dup": "29847b25d9e9"
-  },
-  "6b20e0ff5133": {
-   "dup": "29847b25d9e9"
   },
   "bd26fd74777c": {
    "dup": "fe06643ee011"
@@ -17862,24 +17072,6 @@
   },
   "a57c011ff8db": {
    "dup": "a2d74786959d"
-  },
-  "84989ed6e3be": {
-   "dup": "968fa55817bc"
-  },
-  "fb46ca08dc69": {
-   "dup": "5ec798453c55"
-  },
-  "d96c3d72332f": {
-   "dup": "68d06e5a1880"
-  },
-  "6ba861e8c792": {
-   "dup": "68d06e5a1880"
-  },
-  "74f2728fce92": {
-   "dup": "98f430df60ac"
-  },
-  "568559b0bbf9": {
-   "dup": "d76c5250b63f"
   },
   "0663a51606fc": {
    "cat": "deals",
@@ -18260,9 +17452,6 @@
     }
    }
   },
-  "ab9b25b62f91": {
-   "dup": "8937d08a28c4"
-  },
   "b3710bf97619": {
    "cat": "science",
    "imp": 3,
@@ -18273,6 +17462,699 @@
      "why": "Implantable monitoring and therapy device for spinal cord injury."
     }
    }
+  },
+  "d14473b6c26c": {
+   "drop": true
+  },
+  "c7627b987300": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "George Church has quit as an adviser to AI startup Radical Numerics, alleging it erased its partner Tabula's role in its first AI-designed phage therapy.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "Credit dispute over an AI-designed therapy."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Concerns the AI biology startup scene."
+    }
+   }
+  },
+  "fa83d6c1370a": {
+   "drop": true
+  },
+  "a9c220ca05d1": {
+   "drop": true
+  },
+  "c59c7486eaeb": {
+   "drop": true
+  },
+  "f8f7b7fbbcb0": {
+   "drop": true
+  },
+  "f6d64d821cf1": {
+   "drop": true
+  },
+  "fbc130a12e1b": {
+   "cat": "deals",
+   "imp": 3,
+   "summary": "InMed Pharmaceuticals has closed its merger with Mentari Therapeutics and taken the Mentari name; shares will trade on Nasdaq as MTRI from 9 November.",
+   "rel": {
+    "investment": {
+     "score": 3,
+     "why": "Reverse-merger route to Nasdaq."
+    }
+   }
+  },
+  "dfcb61bfe15e": {
+   "drop": true
+  },
+  "cf1cac40d661": {
+   "drop": true
+  },
+  "228e5f485f11": {
+   "drop": true
+  },
+  "322fe29a32a5": {
+   "drop": true
+  },
+  "d55608393d1d": {
+   "drop": true
+  },
+  "9411962aa615": {
+   "drop": true
+  },
+  "09ff4dc98eb5": {
+   "drop": true
+  },
+  "5b790c4dec3b": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Hengrui and Braveheart Bio say their cardiac myosin inhibitor HRS/BHB-1893 gave durable reductions in LVOT gradient and better exercise capacity at 52 weeks in a phase 2 extension in obstructive hypertrophic cardiomyopathy, presented at AHA.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "A China-originated rival in the myosin inhibitor class."
+    }
+   }
+  },
+  "24952babf34a": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Novo says real-world studies at AASLD linked Wegovy 2.4 mg to lower liver enzymes, weight and blood sugar in MASH, including 8.6 kg mean weight loss versus resmetirom at six months.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Real-world comparison of semaglutide with resmetirom in MASH."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Informs treatment choice in MASH."
+    }
+   }
+  },
+  "5167bff80c00": {
+   "drop": true
+  },
+  "2845a335803d": {
+   "cat": "deals",
+   "imp": 6,
+   "summary": "Contract Pharma reports that AI drug discovery company Chai Discovery and Roche will collaborate on AI drug discovery; terms are not given in the headline.",
+   "rel": {
+    "ai": {
+     "score": 8,
+     "why": "Adds Roche to Chai's growing list of big-pharma partners."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Big pharma keeps buying into AI molecule design."
+    }
+   }
+  },
+  "41b05c9aead1": {
+   "drop": true
+  },
+  "cff0bff0b4b8": {
+   "dup": "c22af8c396d0"
+  },
+  "5eb526a1fdb9": {
+   "dup": "fa98297baefc"
+  },
+  "3bb878301c07": {
+   "dup": "a2566fb9fa79"
+  },
+  "a15fc72e88c1": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "Lilly successfully challenged Good Life Meds' health-benefit and personalisation claims for a compounded tirzepatide product, forcing it to drop them.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Lilly's continuing campaign against compounded GLP-1 copies."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Affects how compounded weight-loss drugs are marketed."
+    }
+   }
+  },
+  "1c0fc22cef82": {
+   "dup": "7eec992bb90f"
+  },
+  "f9ccb888fe64": {
+   "drop": true
+  },
+  "24de8f2187bd": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Generate Biomedicines' CEO says the Flagship company used Anthropic's Claude to shrink the size of CAR-T cell engines, and sees a huge opportunity in AI tools.",
+   "rel": {
+    "ai": {
+     "score": 7,
+     "why": "General-purpose AI models applied to cell therapy design."
+    },
+    "cellgene": {
+     "score": 6,
+     "why": "Smaller CAR constructs can ease delivery and manufacturing."
+    }
+   }
+  },
+  "94c6ae8aa158": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "After its norovirus vaccine missed in phase 3, Moderna has scrapped plans to enrol a new cohort and will meet regulators to decide next steps.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Setback for the only late-stage norovirus vaccine."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Leaves no near-term vaccine for a major outbreak pathogen."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Another mRNA vaccine failure outside Covid."
+    }
+   }
+  },
+  "1ff1f621de94": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Merck has dropped the Sutro Biopharma-partnered IL-2 agonist it was testing in solid tumours, calling it routine pipeline prioritisation.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Another big-pharma exit from engineered IL-2."
+    }
+   }
+  },
+  "2c08d3e6f9e7": {
+   "dup": "7e4ce0537f43"
+  },
+  "6c751d11974f": {
+   "drop": true
+  },
+  "cac485472c39": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Natera unexpectedly named Solomon Moshkevich CEO, a change that set off a stock selloff on Friday, analysts said.",
+   "rel": {
+    "diagnostics": {
+     "score": 7,
+     "why": "Leadership change at a leading genetic testing company."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Shares fell on the surprise."
+    }
+   }
+  },
+  "d13ff9fba277": {
+   "drop": true
+  },
+  "a349a1ed5b93": {
+   "drop": true
+  },
+  "2d6319474529": {
+   "drop": true
+  },
+  "8be06f8b6fa8": {
+   "drop": true
+  },
+  "20d5869ea91e": {
+   "drop": true
+  },
+  "13da868f5b9e": {
+   "drop": true
+  },
+  "499980679da1": {
+   "drop": true
+  },
+  "58925273c203": {
+   "drop": true
+  },
+  "b476d6016e90": {
+   "drop": true
+  },
+  "20d08c65b421": {
+   "drop": true
+  },
+  "0925c29b6192": {
+   "drop": true
+  },
+  "de2d10392480": {
+   "drop": true
+  },
+  "52b28a684b4e": {
+   "drop": true
+  },
+  "197d636f0701": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "At SITC, Immunocore said an estimated 70% of first-line metastatic uveal melanoma patients given its bispecific brenetafusp plus Kimmtrak were alive at two years (17 patients; median survival not reached at 29 months).",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Early test of combining two T-cell engagers in a solid tumour."
+    }
+   }
+  },
+  "cee02846f82b": {
+   "drop": true
+  },
+  "2cce426f3c92": {
+   "drop": true
+  },
+  "76e541758542": {
+   "dup": "197d636f0701"
+  },
+  "5676295a7887": {
+   "dup": "fa98297baefc"
+  },
+  "67122831d9fb": {
+   "dup": "03fead43962c"
+  },
+  "c476b403d5f2": {
+   "dup": "fa98297baefc"
+  },
+  "690ff51bf5c2": {
+   "drop": true
+  },
+  "c57c5a42df62": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A study found women with higher blood levels of two common PFAS chemicals were more likely to develop oestrogen receptor-negative breast cancer, GEN reports.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Adds evidence on environmental cancer risk."
+    },
+    "diagnostics": {
+     "score": 3,
+     "why": "Possible role for PFAS exposure testing."
+    }
+   }
+  },
+  "5246fefac267": {
+   "drop": true
+  },
+  "c2b0309c8458": {
+   "drop": true
+  },
+  "f98db29925f9": {
+   "drop": true
+  },
+  "6ce935e5a3fd": {
+   "drop": true
+  },
+  "55b02cb05aae": {
+   "drop": true
+  },
+  "70594aac9321": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Zydus says 39.1% of MASH patients on saroglitazar 4 mg and 32.4% on 2 mg had steatohepatitis resolution without fibrosis worsening at 52 weeks in phase 2b, versus 13.7% on placebo (AASLD 2026).",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Adds an oral PPAR agonist to the crowded MASH field."
+    }
+   }
+  },
+  "614d38e4bd0e": {
+   "drop": true
+  },
+  "778efc66af45": {
+   "dup": "aec57b25a39d"
+  },
+  "d42a2bfe39d8": {
+   "drop": true
+  },
+  "11f9ab46e224": {
+   "drop": true
+  },
+  "3e8d97d16139": {
+   "dup": "fa98297baefc"
+  },
+  "938062f89f4d": {
+   "drop": true
+  },
+  "5268333210e2": {
+   "drop": true
+  },
+  "4f48ee1dc07a": {
+   "dup": "2a21ff38ff0b"
+  },
+  "92c9de348a7e": {
+   "drop": true
+  },
+  "5536e573e839": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Evaxion says new biomarker data from the phase 2 trial of its AI-designed personalised cancer vaccine EVX-01 in advanced melanoma show strong immune responses.",
+   "rel": {
+    "ai": {
+     "score": 4,
+     "why": "Data from an AI-designed personalised neoantigen vaccine."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Early immunogenicity data only."
+    }
+   }
+  },
+  "94b2ca2afcf7": {
+   "drop": true
+  },
+  "f034209d64ee": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Tandem Diabetes Care named Jeannette Bankes CEO; John Sheridan retires at year end after leading the company since 2019.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "New leader at a major insulin pump maker."
+    }
+   }
+  },
+  "d0a9748a8713": {
+   "dup": "847b4a606960"
+  },
+  "7eec992bb90f": {
+   "cat": "other",
+   "imp": 6,
+   "summary": "Siemens Healthineers will carve out its in vitro diagnostics business, rebranded as Olyrian Diagnostics, as a standalone company by mid-2028.",
+   "rel": {
+    "diagnostics": {
+     "score": 8,
+     "why": "Creates a new standalone IVD company from one of the largest players."
+    },
+    "meddevices": {
+     "score": 5,
+     "why": "Reshapes Siemens Healthineers around imaging."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Possible future listing or sale of the IVD unit."
+    }
+   }
+  },
+  "fd238755ee1a": {
+   "dup": "fa98297baefc"
+  },
+  "a97afda286b5": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "BioSpace reports that the FlowStop haemostatic spray has reached 18,000 units and its maker is seeking FDA clearance.",
+   "rel": {
+    "meddevices": {
+     "score": 4,
+     "why": "A bleeding-control device heading for FDA review."
+    }
+   }
+  },
+  "406efb4ccd97": {
+   "drop": true
+  },
+  "47b9e70be066": {
+   "drop": true
+  },
+  "29f740ab275c": {
+   "cat": "clinical",
+   "imp": 7,
+   "summary": "Sarepta will stop enrolling patients in the phase 3 trial of its Duchenne gene therapy Elevidys that was meant to confirm the benefit behind its approval in older boys.",
+   "rel": {
+    "cellgene": {
+     "score": 9,
+     "why": "Weakens the confirmatory evidence base for the most prominent AAV gene therapy in Duchenne."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Raises questions about how accelerated approvals get confirmed."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Affects evidence available to families and payers for older boys."
+    }
+   }
+  },
+  "e80e2ef0ae8e": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "BioProcess International argues that UN biosecurity frameworks have not kept pace with how the biopharma industry has evolved.",
+   "rel": {
+    "biosecurity": {
+     "score": 6,
+     "why": "Argues international biosecurity governance is out of date."
+    },
+    "bioprocessing": {
+     "score": 3,
+     "why": "Concerns oversight of biomanufacturing."
+    }
+   }
+  },
+  "de378bd9b2f1": {
+   "drop": true
+  },
+  "4b548aae8d53": {
+   "drop": true
+  },
+  "d7def69be5a6": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Immunocore says Kimmtrak brought in $102.2 million in Q3 2026 and $324.8 million over nine months, up 10% year on year.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Commercial track record of the first approved TCR bispecific."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Steady revenue growth for a mid-cap biotech."
+    }
+   }
+  },
+  "becc8d402ead": {
+   "drop": true
+  },
+  "a135316ca550": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Candel presented three SITC posters, including a late-breaker, with clinical and biomarker data for its viral immunotherapy aglatimagene in prostate and lung cancer and linoserpaturev in glioblastoma, the company says.",
+   "rel": {
+    "cellgene": {
+     "score": 4,
+     "why": "Adenoviral and HSV-based immunotherapies."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Supporting data rather than new pivotal results."
+    }
+   }
+  },
+  "dd1b95be282f": {
+   "drop": true
+  },
+  "ebf50607dfc4": {
+   "drop": true
+  },
+  "b1f91e2bed35": {
+   "drop": true
+  },
+  "3508e4922a3d": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "BioCardia says it has completed clinical consultation with Japan's PMDA for its CardiAMP cell therapy system and is moving towards a marketing approval application.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "Japan route for an autologous cardiac cell therapy."
+    },
+    "meddevices": {
+     "score": 4,
+     "why": "CardiAMP is a device-based cell delivery system."
+    }
+   }
+  },
+  "c56bb8489036": {
+   "drop": true
+  },
+  "4f7ecbdfaf73": {
+   "dup": "0663a51606fc"
+  },
+  "622056b24b7c": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "BioSpace previews a busy November of FDA decisions, including verdicts for Summit/Akeso, Capricor and Vertex.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Several high-profile FDA decisions due this month."
+    },
+    "cellgene": {
+     "score": 3,
+     "why": "Capricor's cell therapy is among them."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Binary events for the companies involved."
+    }
+   }
+  },
+  "c22af8c396d0": {
+   "cat": "other",
+   "imp": 6,
+   "summary": "Moderna posted its first profitable quarter in two years, with Q3 revenue of $1.3 billion driven by international Covid-19 vaccine sales, while it prioritises cancer vaccines.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Steadies the leading mRNA company's finances."
+    },
+    "cellgene": {
+     "score": 5,
+     "why": "Funds Moderna's mRNA cancer vaccine push."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Beat analyst estimates and avoided a predicted loss."
+    }
+   }
+  },
+  "3a458770f73e": {
+   "drop": true
+  },
+  "d4c9a67749a4": {
+   "drop": true
+  },
+  "2cb2d21182a3": {
+   "drop": true
+  },
+  "7e07ede11905": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "Science reports that Representative Zoe Lofgren, set to lead the House science committee after the Democrats' midterm win, and microbiologist Jasmine Clark outline a possible science agenda.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Signals US research funding direction under a Democratic House."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Federal science policy affects biomedical research."
+    }
+   }
+  },
+  "9797bb165628": {
+   "drop": true
+  },
+  "65b4a4a0cd15": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "Science reports the first clinical result for a chemogenetic gene therapy: a team in China treated three people with epilepsy with a gene that lets a drug dampen brain cell activity, reducing seizures.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "First human use of drug-switchable gene therapy in the brain."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "New approach for drug-resistant epilepsy."
+    }
+   }
+  },
+  "decf446b0e40": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Nature reports an adhesive that binds strongly even underwater, inspired by a protein made by the cholera bacterium.",
+   "rel": {
+    "industrial": {
+     "score": 5,
+     "why": "Bio-inspired underwater adhesive."
+    },
+    "meddevices": {
+     "score": 3,
+     "why": "Possible use in wet-tissue adhesives."
+    }
+   }
+  },
+  "50ded9b2f1c9": {
+   "drop": true
+  },
+  "ec9682a7bd3b": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A preprint reports building genomic chimeras by expanding a genome at the megabase scale, combining genomic content from different organisms rather than only rebuilding existing genomes. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 6,
+     "why": "Megabase genome engineering for new organism functions."
+    },
+    "tools": {
+     "score": 5,
+     "why": "Large-scale genome synthesis method."
+    }
+   }
+  },
+  "b1d0e83788ae": {
+   "drop": true
+  },
+  "aa08943d58a5": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint describes engineered living materials made of commensal bacteria that continuously secrete therapeutic proteins to help heal chronic wounds. Not yet peer-reviewed.",
+   "rel": {
+    "meddevices": {
+     "score": 4,
+     "why": "Living-material wound dressing concept."
+    },
+    "industrial": {
+     "score": 3,
+     "why": "Engineered living materials."
+    }
+   }
+  },
+  "3ab62b9c52c8": {
+   "drop": true
+  },
+  "100f8608ecc8": {
+   "drop": true
+  },
+  "59975595679e": {
+   "drop": true
+  },
+  "c1f1852b6096": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "STAT reports that a sickle cell gene therapy previously abandoned could make a comeback; details are behind a paywall.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Possible revival of a shelved sickle cell gene therapy."
+    }
+   }
+  },
+  "c16ff4b5b7a3": {
+   "drop": true
+  },
+  "aa410397160b": {
+   "drop": true
+  },
+  "c15950dcb949": {
+   "drop": true
+  },
+  "956c0b233400": {
+   "drop": true
+  },
+  "9af0e287676f": {
+   "drop": true
+  },
+  "528f7d45f5db": {
+   "drop": true
+  },
+  "533254bf72a0": {
+   "drop": true
   }
  },
  "extra": [
@@ -18883,6 +18765,31 @@
     "meddevices": {
      "score": 3,
      "why": "Autoinjector delivery for a less frequently dosed drug."
+    }
+   }
+  },
+  {
+   "id": "2026-11-06-merck-moderna-intismeran-manufacturing",
+   "title": "Merck, Moderna serve 99% of trial patients with mRNA vaccine as personalized shots near market",
+   "url": "https://www.biospace.com/business/merck-moderna-serve-99-of-trial-patients-with-mrna-vaccine-as-personalized-shots-near-market",
+   "source": "BioSpace",
+   "kind": "news",
+   "published": "2026-11-06T12:00:00Z",
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "In the phase 3 INTerpath-001 melanoma trial (1,137 patients, hazard ratio 0.58 for recurrence or death), 99% of patients in the vaccine arm received a manufactured personalised intismeran vaccine, Merck and Moderna said, showing the bespoke shots can be made at global scale.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "Shows individualised mRNA cancer vaccines can be manufactured reliably across many countries."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Clears a practical hurdle before a likely launch with Keytruda."
+    },
+    "bioprocessing": {
+     "score": 5,
+     "why": "Per-patient manufacturing worked for 99% of patients."
     }
    }
   }
