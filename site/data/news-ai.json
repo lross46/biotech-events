@@ -1,50 +1,48 @@
 {
- "updated": "2026-11-07T13:40:19Z",
+ "updated": "2026-11-08T06:42:02Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-07T13:40:19Z",
+  "date": "2026-11-08T06:42:02Z",
   "points": [
    {
     "sec": "results",
-    "text": "Sarepta stopped enrolling the phase 3 trial meant to confirm Elevidys's benefit in older boys with Duchenne, and Moderna shelved plans for a new cohort of its norovirus vaccine after a phase 3 miss. On the positive side, Merck and Moderna said 99% of vaccine-arm patients in the INTerpath-001 melanoma trial got a manufactured personalised mRNA vaccine, and Immunocore reported 70% two-year survival for brenetafusp plus Kimmtrak in first-line uveal melanoma at SITC. AASLD and AHA added MASH and heart data, led by Zydus's saroglitazar phase 2b.",
+    "text": "AHA was a day of cardiovascular failures: full Lp(a)HORIZON data in NEJM showed Novartis's pelacarsen sharply cut Lp(a) without reducing heart attacks, strokes or deaths, putting Amgen's and Lilly's Lp(a) drugs under pressure, and Novo's IL-6 antibody ziltivekimab had almost no effect on events in ZEUS. ISCHEMIA-EXTEND, with up to 13 years of follow-up, found early stenting or bypass did not help stable heart patients live longer. At ACR, J&J's oral Icotyde posted phase 3 psoriatic arthritis data and argenx's efgartigimod won in myositis, with an FDA filing planned for necrotizing myopathy.",
     "ids": [
-     "29f740ab275c",
-     "2026-11-06-merck-moderna-intismeran-manufacturing",
-     "94c6ae8aa158",
-     "197d636f0701"
+     "e099dedaeaba",
+     "0b96a88c4b71",
+     "8c9a6d8b2ff4",
+     "5e2f116d582e"
     ]
    },
    {
     "sec": "science",
-    "text": "Nature published in vivo CRISPR base editing of ANGPTL3 with durable lipid lowering, and Science reported the first clinical result for a chemogenetic gene therapy, in which a team in China cut seizures in three epilepsy patients with a gene that lets a drug dampen brain cell activity. Nature also covered an underwater glue inspired by a cholera protein, and a study linked two PFAS chemicals to ER-negative breast cancer.",
+    "text": "A quiet weekend for new papers. Nature's in vivo base editing of ANGPTL3 with durable lipid lowering remains the standout, alongside Science's first clinical chemogenetic gene therapy for epilepsy, and a bioRxiv preprint described a microfluidic sieve that runs single-molecule assays in minutes.",
     "ids": [
      "e2548616f447",
      "65b4a4a0cd15",
-     "ec9682a7bd3b",
-     "c57c5a42df62"
+     "0dc3dcf79e97"
     ]
    },
    {
     "sec": "approvals",
-    "text": "Fresh coverage of Novartis's nine Zolgensma tumour cases, two with signs of vector integration, widened the debate on AAV safety. BioSpace flagged a crowded November of FDA decisions, including Summit/Akeso, Capricor and Vertex, and BioCardia finished PMDA consultation for its CardiAMP cell therapy in Japan.",
+    "text": "The FDA opened an investigation into a \"serious risk\" of cancer with Novartis's Zolgensma and is weighing action on Zolgensma and Itvisma, a day after Novartis disclosed nine tumour cases, two with signs of vector integration. It is the sharpest regulatory test yet of long-term AAV safety, in a November already crowded with FDA decisions for Summit/Akeso, Capricor and Vertex.",
     "ids": [
+     "2e20b989713e",
      "fa98297baefc",
-     "622056b24b7c",
-     "3508e4922a3d"
+     "622056b24b7c"
     ]
    },
    {
     "sec": "policy",
-    "text": "CMS formally codified the Medicare drug price negotiation framework set up under the Inflation Reduction Act, despite repeated industry court challenges. After the Democrats' midterm win, incoming House science committee leader Zoe Lofgren sketched a science agenda, and Lilly forced a compounder to drop claims for its copied tirzepatide.",
+    "text": "BIO and two California trade groups sued to stop GLOBE, the Medicare pilot that pegs drug prices to peer countries, arguing it exceeds Medicare's authority. It comes a day after CMS codified the IRA drug price negotiation framework despite repeated industry court challenges.",
     "ids": [
-     "b2257b3e76cb",
-     "7e07ede11905",
-     "a15fc72e88c1"
+     "0aa79e991e54",
+     "b2257b3e76cb"
     ]
    },
    {
     "sec": "money",
-    "text": "A light day for deals: Chai Discovery added Roche as an AI drug discovery partner, and InMed closed its merger with Mentari Therapeutics ahead of Nasdaq trading as MTRI.",
+    "text": "Deals stayed quiet into the weekend: Chai Discovery added Roche as an AI drug discovery partner, and InMed closed its merger with Mentari Therapeutics.",
     "ids": [
      "2845a335803d",
      "fbc130a12e1b"
@@ -52,19 +50,11 @@
    },
    {
     "sec": "companies",
-    "text": "Moderna returned to profit with $1.3 billion in Q3 revenue on international Covid vaccine sales, and Siemens Healthineers will spin out its diagnostics arm as Olyrian Diagnostics by mid-2028. Natera's surprise CEO change hit its shares, Merck dropped its Sutro-partnered IL-2 drug, and Generate said Claude helped it shrink CAR-T constructs.",
+    "text": "Moderna returned to profit on $1.31 billion in Q3 revenue and raised its 2026 growth outlook to 15-25%, while Sarepta's new CEO reported Elevidys sales down to $83.5 million and warned of share losses from 2H 2027 as Dyne and Regenxbio close in. Siemens Healthineers' plan to spin out diagnostics as Olyrian also stood out.",
     "ids": [
      "c22af8c396d0",
-     "7eec992bb90f",
-     "cac485472c39",
-     "1ff1f621de94"
-    ]
-   },
-   {
-    "sec": "biodef",
-    "text": "Quiet day: the main item was a BioProcess International piece arguing UN biosecurity frameworks lag behind today's biopharma industry.",
-    "ids": [
-     "e80e2ef0ae8e"
+     "7b6ab0097c4d",
+     "7eec992bb90f"
     ]
    }
   ]
@@ -12036,9 +12026,6 @@
     }
    }
   },
-  "88df81e4bcf8": {
-   "dup": "4bbed7540c17"
-  },
   "b65860dcd2f8": {
    "cat": "deals",
    "imp": 6,
@@ -13931,9 +13918,6 @@
   "d29c4fafb615": {
    "dup": "dbf168b752b7"
   },
-  "60bc87ff3caa": {
-   "dup": "34f0ff0c1608"
-  },
   "5bb40396c401": {
    "cat": "other",
    "imp": 5,
@@ -15164,15 +15148,6 @@
     }
    }
   },
-  "b4f712adc2f6": {
-   "drop": true
-  },
-  "5b685bd519de": {
-   "drop": true
-  },
-  "403c374a5686": {
-   "drop": true
-  },
   "bacd347a6d0e": {
    "cat": "science",
    "imp": 4,
@@ -15188,27 +15163,6 @@
     }
    }
   },
-  "d5cafe950030": {
-   "drop": true
-  },
-  "9983fbeb6597": {
-   "drop": true
-  },
-  "ed1527904dd4": {
-   "drop": true
-  },
-  "c0504ac9062d": {
-   "drop": true
-  },
-  "07e1d0e3e353": {
-   "drop": true
-  },
-  "138e361807d4": {
-   "drop": true
-  },
-  "e8e1ee4ffacb": {
-   "drop": true
-  },
   "b012631c9ac4": {
    "cat": "clinical",
    "imp": 5,
@@ -15223,18 +15177,6 @@
      "why": "Clears the path to pivotal trials after Edgewise's recent muscular dystrophy setback."
     }
    }
-  },
-  "8000b4c674fd": {
-   "drop": true
-  },
-  "610dbac497d2": {
-   "drop": true
-  },
-  "9a456cd46961": {
-   "drop": true
-  },
-  "e00578079f96": {
-   "drop": true
   },
   "ce19a6a8d3e4": {
    "cat": "funding",
@@ -15262,24 +15204,6 @@
     }
    }
   },
-  "0c08bdec4de3": {
-   "drop": true
-  },
-  "f396a013e270": {
-   "drop": true
-  },
-  "3a4fd1f91229": {
-   "drop": true
-  },
-  "46b597f02672": {
-   "drop": true
-  },
-  "20a8a416ccaa": {
-   "drop": true
-  },
-  "d66bcedfec9e": {
-   "drop": true
-  },
   "9a2b317b6a51": {
    "cat": "policy",
    "imp": 5,
@@ -15294,9 +15218,6 @@
      "why": "Raises the profile of single-payer proposals."
     }
    }
-  },
-  "c7fdbfb7791d": {
-   "drop": true
   },
   "226e7f358d72": {
    "cat": "other",
@@ -15328,9 +15249,6 @@
     }
    }
   },
-  "b22a6d81ee96": {
-   "drop": true
-  },
   "1ac268133e22": {
    "cat": "regulatory",
    "imp": 5,
@@ -15345,15 +15263,6 @@
      "why": "Sets a near-term binary decision for Dyne."
     }
    }
-  },
-  "12c5744b774e": {
-   "drop": true
-  },
-  "b4f2975692e5": {
-   "drop": true
-  },
-  "aa6db86a6819": {
-   "drop": true
   },
   "1fa222385523": {
    "cat": "regulatory",
@@ -15381,9 +15290,6 @@
     }
    }
   },
-  "64c3a0f1ddf9": {
-   "drop": true
-  },
   "d30d3f8eada9": {
    "cat": "regulatory",
    "imp": 4,
@@ -15394,9 +15300,6 @@
      "why": "A new mechanism against RAS-driven tumours entering the clinic."
     }
    }
-  },
-  "4da1f3cb27cc": {
-   "drop": true
   },
   "26a3f62ddbf1": {
    "cat": "clinical",
@@ -15424,9 +15327,6 @@
     }
    }
   },
-  "b929e689878e": {
-   "drop": true
-  },
   "b85be3856dde": {
    "cat": "other",
    "imp": 4,
@@ -15437,9 +15337,6 @@
      "why": "Shows Korean biosimilar makers expanding into Latin America."
     }
    }
-  },
-  "70f86e628c89": {
-   "drop": true
   },
   "d22c0c4a7443": {
    "cat": "clinical",
@@ -15467,18 +15364,6 @@
     }
    }
   },
-  "9f4dbe06ef83": {
-   "drop": true
-  },
-  "a7622de8692b": {
-   "drop": true
-  },
-  "518463d70729": {
-   "drop": true
-  },
-  "38fe2ab6b5f3": {
-   "drop": true
-  },
   "3d7a610b67ec": {
    "cat": "policy",
    "imp": 4,
@@ -15493,9 +15378,6 @@
      "why": "Could speed NHS access decisions."
     }
    }
-  },
-  "96fdeedd80a5": {
-   "drop": true
   },
   "1e42da2fb1a0": {
    "cat": "other",
@@ -15531,12 +15413,6 @@
     }
    }
   },
-  "26b11705bd4c": {
-   "drop": true
-  },
-  "1829638aa96a": {
-   "drop": true
-  },
   "8d0c293fe017": {
    "cat": "clinical",
    "imp": 5,
@@ -15566,9 +15442,6 @@
      "why": "A large Series A for a UK university spinout."
     }
    }
-  },
-  "b85679a2123a": {
-   "dup": "eeece3668fba"
   },
   "2f07e95d5e1c": {
    "cat": "policy",
@@ -15607,24 +15480,6 @@
     }
    }
   },
-  "1c61d7de81bf": {
-   "dup": "9e9893d82d86"
-  },
-  "9d19816d8301": {
-   "drop": true
-  },
-  "5d7362f2b053": {
-   "drop": true
-  },
-  "66689dd0ccb5": {
-   "drop": true
-  },
-  "e0127b331db1": {
-   "drop": true
-  },
-  "fbf5a9b971a0": {
-   "drop": true
-  },
   "a90da742718e": {
    "cat": "other",
    "imp": 5,
@@ -15639,9 +15494,6 @@
      "why": "Psychedelic therapy needs new clinic infrastructure and payer buy-in."
     }
    }
-  },
-  "7ab5bf998ed3": {
-   "drop": true
   },
   "e8d1151d856f": {
    "cat": "other",
@@ -15677,18 +15529,6 @@
     }
    }
   },
-  "29ee4dea91e9": {
-   "dup": "5242c89f8c10"
-  },
-  "7e0ead5864ed": {
-   "dup": "e8d1151d856f"
-  },
-  "cbb479b7f46f": {
-   "drop": true
-  },
-  "5c93bcdd21f4": {
-   "drop": true
-  },
   "6088289a42ae": {
    "cat": "deals",
    "imp": 3,
@@ -15704,15 +15544,6 @@
     }
    }
   },
-  "e85489238062": {
-   "drop": true
-  },
-  "aea6ac98fb56": {
-   "drop": true
-  },
-  "edfcf2d46be0": {
-   "drop": true
-  },
   "099deddd2dc1": {
    "cat": "regulatory",
    "imp": 5,
@@ -15727,9 +15558,6 @@
      "why": "Adds to Akeso's and partner Summit's commercial runway in China."
     }
    }
-  },
-  "2e1f9eeb580a": {
-   "dup": "8d0c293fe017"
   },
   "88ca828ec76d": {
    "cat": "science",
@@ -16450,18 +16278,6 @@
     }
    }
   },
-  "9406c42461f4": {
-   "drop": true
-  },
-  "f42b2beb1d7a": {
-   "drop": true
-  },
-  "f3f54c237307": {
-   "drop": true
-  },
-  "47cb7ddf1b79": {
-   "drop": true
-  },
   "5f8931a76a44": {
    "cat": "clinical",
    "imp": 5,
@@ -16476,102 +16292,6 @@
      "why": "Trispecifics compete with CAR-T in myeloma."
     }
    }
-  },
-  "7adc17d280d1": {
-   "drop": true
-  },
-  "27aecf7321a2": {
-   "drop": true
-  },
-  "e123098d83a7": {
-   "drop": true
-  },
-  "b725d176e995": {
-   "drop": true
-  },
-  "90e30210de7e": {
-   "drop": true
-  },
-  "aae7d9ab1a34": {
-   "drop": true
-  },
-  "7eae71491646": {
-   "drop": true
-  },
-  "e431fa28cc02": {
-   "drop": true
-  },
-  "210bb65256bd": {
-   "drop": true
-  },
-  "82b17486fbea": {
-   "drop": true
-  },
-  "71141d2e64ce": {
-   "drop": true
-  },
-  "61255dc70226": {
-   "drop": true
-  },
-  "74714b2894fa": {
-   "drop": true
-  },
-  "52855a478049": {
-   "drop": true
-  },
-  "ded617ebe43d": {
-   "drop": true
-  },
-  "505c20e0cdb6": {
-   "dup": "88443e928d44"
-  },
-  "0eec3074c6e1": {
-   "drop": true
-  },
-  "ce1496233b14": {
-   "dup": "9dc68ad4ae72"
-  },
-  "5afeac059568": {
-   "drop": true
-  },
-  "2750fc92ab0f": {
-   "drop": true
-  },
-  "4f971ad9a1f4": {
-   "drop": true
-  },
-  "522d7c28e311": {
-   "drop": true
-  },
-  "cd3a4b8874b9": {
-   "drop": true
-  },
-  "3c6116163a5c": {
-   "drop": true
-  },
-  "9fe1d4e5be2c": {
-   "drop": true
-  },
-  "ba158eb94679": {
-   "drop": true
-  },
-  "8239a5943df2": {
-   "drop": true
-  },
-  "d37c37ba4691": {
-   "drop": true
-  },
-  "0f4c7fc36042": {
-   "drop": true
-  },
-  "7a814fa3ba3a": {
-   "drop": true
-  },
-  "c62f1bdef772": {
-   "drop": true
-  },
-  "b55e04518f8e": {
-   "drop": true
   },
   "cf7568fc10ae": {
    "cat": "other",
@@ -16595,9 +16315,6 @@
     }
    }
   },
-  "2d639432b9b6": {
-   "dup": "3317678000ad"
-  },
   "3317678000ad": {
    "cat": "policy",
    "imp": 3,
@@ -16617,15 +16334,6 @@
     }
    }
   },
-  "b53c9048dac1": {
-   "drop": true
-  },
-  "7073ad17c928": {
-   "drop": true
-  },
-  "60bfa220f3e5": {
-   "dup": "9dc68ad4ae72"
-  },
   "7438ebf450ee": {
    "cat": "other",
    "imp": 3,
@@ -16641,12 +16349,6 @@
     }
    }
   },
-  "2ccf720c40ff": {
-   "drop": true
-  },
-  "365d3fdbf25a": {
-   "drop": true
-  },
   "866c63244f9b": {
    "cat": "deals",
    "imp": 5,
@@ -16661,9 +16363,6 @@
      "why": "Shows how US startups source assets."
     }
    }
-  },
-  "6f1d851c671b": {
-   "dup": "5242c89f8c10"
   },
   "b6ba4e7aef7d": {
    "cat": "clinical",
@@ -16695,18 +16394,6 @@
     }
    }
   },
-  "39da09cf42ab": {
-   "drop": true
-  },
-  "097c312ddd3f": {
-   "drop": true
-  },
-  "9c3b3b90d515": {
-   "drop": true
-  },
-  "5e0aa87a6b7a": {
-   "drop": true
-  },
   "c62ac319b0da": {
    "cat": "deals",
    "imp": 3,
@@ -16737,48 +16424,6 @@
     }
    }
   },
-  "b2991370c82a": {
-   "drop": true
-  },
-  "f325d3d71f5f": {
-   "drop": true
-  },
-  "f261e2f193be": {
-   "drop": true
-  },
-  "46cf50510419": {
-   "drop": true
-  },
-  "c54d2e15d32d": {
-   "drop": true
-  },
-  "fefe3c61501e": {
-   "drop": true
-  },
-  "7ff11351942c": {
-   "drop": true
-  },
-  "3d95c25a5b6a": {
-   "dup": "5242c89f8c10"
-  },
-  "0bab44666b06": {
-   "drop": true
-  },
-  "f8c1ae3c29ff": {
-   "dup": "9dc68ad4ae72"
-  },
-  "4a9bb134f643": {
-   "drop": true
-  },
-  "0d2daec6f74b": {
-   "dup": "54b4dc9fda93"
-  },
-  "e3eecd60cd61": {
-   "drop": true
-  },
-  "66437dc18ba8": {
-   "dup": "3c0c6cc9b7e9"
-  },
   "6b74d6ad5554": {
    "cat": "science",
    "imp": 5,
@@ -16804,12 +16449,6 @@
      "why": "New mechanism of immune evasion in metastatic cancer."
     }
    }
-  },
-  "3b61ce971316": {
-   "drop": true
-  },
-  "10b7c9853aa8": {
-   "drop": true
   },
   "5b32d3aa2877": {
    "cat": "science",
@@ -16840,15 +16479,6 @@
      "why": "Relevant to long-term GLP-1 use."
     }
    }
-  },
-  "d425b2decfdd": {
-   "drop": true
-  },
-  "8c16361fe1c4": {
-   "drop": true
-  },
-  "addde7e604f0": {
-   "drop": true
   },
   "ac4413a3e10a": {
    "cat": "science",
@@ -18104,27 +17734,6 @@
     }
    }
   },
-  "c16ff4b5b7a3": {
-   "drop": true
-  },
-  "aa410397160b": {
-   "drop": true
-  },
-  "c15950dcb949": {
-   "drop": true
-  },
-  "956c0b233400": {
-   "drop": true
-  },
-  "9af0e287676f": {
-   "drop": true
-  },
-  "528f7d45f5db": {
-   "drop": true
-  },
-  "533254bf72a0": {
-   "drop": true
-  },
   "089e7eb33de6": {
    "dup": "a2566fb9fa79"
   },
@@ -18143,312 +17752,6 @@
   "5877bd09da75": {
    "drop": true
   },
-  "2268ac6a4881": {
-   "drop": true
-  },
-  "b76c2e527e26": {
-   "drop": true
-  },
-  "82862157b7b3": {
-   "drop": true
-  },
-  "f9064ac08a11": {
-   "drop": true
-  },
-  "6562f44c43d2": {
-   "drop": true
-  },
-  "4fa1a37a2988": {
-   "dup": "94a92d994de0"
-  },
-  "131a2e09bf3b": {
-   "drop": true
-  },
-  "9aeb04704dce": {
-   "dup": "902ff4326f37"
-  },
-  "406aca246414": {
-   "dup": "94a92d994de0"
-  },
-  "b54fb9366e43": {
-   "dup": "902ff4326f37"
-  },
-  "c4e455b2cbd6": {
-   "drop": true
-  },
-  "ee31ef4a7da2": {
-   "dup": "485137e3ae54"
-  },
-  "1ef31cc72eed": {
-   "dup": "68d06e5a1880"
-  },
-  "7a6d68c0341d": {
-   "dup": "d291b98bc11f"
-  },
-  "36f1999d9af5": {
-   "drop": true
-  },
-  "a4bb5d0dea28": {
-   "drop": true
-  },
-  "eae4fe60b4fd": {
-   "drop": true
-  },
-  "993af5abba18": {
-   "drop": true
-  },
-  "fe1c642e4b59": {
-   "drop": true
-  },
-  "bc1b85f0ac0f": {
-   "drop": true
-  },
-  "50be197b95d0": {
-   "drop": true
-  },
-  "a28b44840214": {
-   "drop": true
-  },
-  "aa20f4b54bcf": {
-   "drop": true
-  },
-  "ed33244b864b": {
-   "drop": true
-  },
-  "194951348aa8": {
-   "drop": true
-  },
-  "fbdaf94c56a3": {
-   "drop": true
-  },
-  "069c739ea154": {
-   "drop": true
-  },
-  "b1914a1cde22": {
-   "drop": true
-  },
-  "67cdea65efb0": {
-   "drop": true
-  },
-  "5b75e6344218": {
-   "drop": true
-  },
-  "d7163bd55a11": {
-   "drop": true
-  },
-  "ba8c3f3a4ebb": {
-   "drop": true
-  },
-  "c95c22b6d2f1": {
-   "drop": true
-  },
-  "71eca52e01d8": {
-   "drop": true
-  },
-  "6b20e0ff5133": {
-   "dup": "29847b25d9e9"
-  },
-  "ab9b25b62f91": {
-   "dup": "8937d08a28c4"
-  },
-  "759ba645ab4c": {
-   "drop": true
-  },
-  "1d1d3181dd88": {
-   "dup": "29847b25d9e9"
-  },
-  "f8ab24ff69f3": {
-   "drop": true
-  },
-  "b6a9c09a65ff": {
-   "dup": "29847b25d9e9"
-  },
-  "8ca356fb5611": {
-   "drop": true
-  },
-  "b643280ccef5": {
-   "dup": "29847b25d9e9"
-  },
-  "1db02bb84242": {
-   "drop": true
-  },
-  "4271720be6aa": {
-   "dup": "29847b25d9e9"
-  },
-  "aec64996a44f": {
-   "drop": true
-  },
-  "0bb61616128f": {
-   "dup": "29847b25d9e9"
-  },
-  "79aa09795f1f": {
-   "drop": true
-  },
-  "ee3e057cdd8a": {
-   "dup": "29847b25d9e9"
-  },
-  "2cf4421a9871": {
-   "drop": true
-  },
-  "5bf0979b0db7": {
-   "drop": true
-  },
-  "7da2ba87bb8c": {
-   "drop": true
-  },
-  "02866995c420": {
-   "drop": true
-  },
-  "84989ed6e3be": {
-   "dup": "968fa55817bc"
-  },
-  "40f91ce423e2": {
-   "drop": true
-  },
-  "fb46ca08dc69": {
-   "dup": "5ec798453c55"
-  },
-  "f3b60d7b1eb8": {
-   "drop": true
-  },
-  "281799db0744": {
-   "drop": true
-  },
-  "9476cd1bccd9": {
-   "drop": true
-  },
-  "380bdc148580": {
-   "drop": true
-  },
-  "d96c3d72332f": {
-   "dup": "68d06e5a1880"
-  },
-  "280b6971b865": {
-   "drop": true
-  },
-  "cdeed3d071e8": {
-   "drop": true
-  },
-  "bb78c4e08c42": {
-   "drop": true
-  },
-  "bbbbe4de29cb": {
-   "drop": true
-  },
-  "119f813263ad": {
-   "drop": true
-  },
-  "fc41d5897760": {
-   "drop": true
-  },
-  "52a1a41692d3": {
-   "drop": true
-  },
-  "1d3e416b901b": {
-   "drop": true
-  },
-  "1f5a8618fadd": {
-   "drop": true
-  },
-  "2007990be77f": {
-   "drop": true
-  },
-  "ce56a1baac95": {
-   "drop": true
-  },
-  "65a3d15207c3": {
-   "drop": true
-  },
-  "1e1d7c71001a": {
-   "drop": true
-  },
-  "b474dc8610b2": {
-   "drop": true
-  },
-  "64345550e8c0": {
-   "drop": true
-  },
-  "e3272ab7ca7c": {
-   "drop": true
-  },
-  "e30ea1ad7972": {
-   "drop": true
-  },
-  "68ff61d3daa0": {
-   "drop": true
-  },
-  "49fa3a42ca6f": {
-   "dup": "004dfe9fab63"
-  },
-  "84934324676b": {
-   "drop": true
-  },
-  "69724cc3cbbc": {
-   "drop": true
-  },
-  "0d8ad6439ccc": {
-   "drop": true
-  },
-  "e3b77d178a2e": {
-   "drop": true
-  },
-  "6bdb991e819d": {
-   "drop": true
-  },
-  "260e5d47fbc8": {
-   "drop": true
-  },
-  "3986a34860d2": {
-   "drop": true
-  },
-  "d873090f37e1": {
-   "drop": true
-  },
-  "6ba861e8c792": {
-   "dup": "68d06e5a1880"
-  },
-  "bee145658115": {
-   "drop": true
-  },
-  "74f2728fce92": {
-   "dup": "98f430df60ac"
-  },
-  "35c53b47cfa6": {
-   "drop": true
-  },
-  "a1c18472d690": {
-   "drop": true
-  },
-  "4042ff57f9b0": {
-   "drop": true
-  },
-  "568559b0bbf9": {
-   "dup": "d76c5250b63f"
-  },
-  "2a4e3d0e5517": {
-   "drop": true
-  },
-  "0142974eb2ad": {
-   "drop": true
-  },
-  "bfe09f254a31": {
-   "drop": true
-  },
-  "04ab67b848ec": {
-   "drop": true
-  },
-  "607f93b2c883": {
-   "dup": "53c4b7f68d10"
-  },
-  "a1c582058388": {
-   "drop": true
-  },
-  "415e222efabe": {
-   "drop": true
-  },
-  "d11c7fcd08c1": {
-   "drop": true
-  },
   "8a155e7ee571": {
    "drop": true
   },
@@ -18457,9 +17760,6 @@
   },
   "d2ef87f27245": {
    "drop": true
-  },
-  "544223834634": {
-   "dup": "e9a0539daa4c"
   },
   "a1791b921861": {
    "cat": "deals",
@@ -18636,6 +17936,211 @@
      "why": "Identifies a possible new target for TB drugs."
     }
    }
+  },
+  "2e20b989713e": {
+   "cat": "regulatory",
+   "imp": 8,
+   "summary": "The FDA said it is investigating a \"serious risk\" of cancer linked to Novartis's spinal muscular atrophy gene therapy Zolgensma and is weighing regulatory action on Zolgensma and Itvisma, a day after Novartis disclosed new tumour cases.",
+   "rel": {
+    "cellgene": {
+     "score": 9,
+     "why": "A formal FDA safety probe into an approved AAV gene therapy could shape labels and vector-integration scrutiny across the field."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Regulatory action on Novartis's Zolgensma franchise affects a major commercial gene therapy."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Families and clinicians treating SMA face new uncertainty about long-term tumour risk."
+    }
+   }
+  },
+  "e099dedaeaba": {
+   "cat": "clinical",
+   "imp": 8,
+   "summary": "Full Lp(a)HORIZON results presented at AHA and published in NEJM showed Novartis's pelacarsen sharply lowered Lp(a) but did not reduce heart attacks, strokes, urgent revascularisation or deaths versus placebo over almost five years.",
+   "rel": {
+    "pharma": {
+     "score": 9,
+     "why": "The first Lp(a) outcomes trial failing raises doubts over Amgen's and Lilly's late-stage Lp(a) drugs."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Pelacarsen is an antisense drug, and the readout weighs on RNA-targeting cardiovascular programmes."
+    },
+    "investment": {
+     "score": 6,
+     "why": "Investors will reprice the Lp(a) class ahead of Amgen and Lilly readouts."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "It undercuts lowering Lp(a) as a proven route to fewer cardiovascular events."
+    }
+   }
+  },
+  "60e1a105563d": {
+   "dup": "e099dedaeaba"
+  },
+  "f0543f97fe53": {
+   "dup": "e099dedaeaba"
+  },
+  "0b96a88c4b71": {
+   "cat": "clinical",
+   "imp": 7,
+   "summary": "Full ZEUS data at AHA showed Novo Nordisk's IL-6 antibody ziltivekimab had almost no effect on cardiovascular events despite hitting its target, after the July topline miss cut Novo's shares 9%; cardiologists told STAT they will keep pursuing anti-inflammatory approaches.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "A null phase 3 for IL-6 blockade hits Novo's cardiovascular pipeline and the wider anti-inflammatory heart drug strategy."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "It leaves inflammation-targeted prevention for patients with atherosclerosis and kidney disease unproven."
+    },
+    "investment": {
+     "score": 4,
+     "why": "It weighs on valuations of companies developing IL-6 and other inflammation drugs for heart disease."
+    }
+   }
+  },
+  "0aa79e991e54": {
+   "cat": "policy",
+   "imp": 7,
+   "summary": "BIO and two California biotech trade groups sued in federal court in Northern California to halt GLOBE, the Medicare pilot that benchmarks drug prices to peer countries, arguing it oversteps Medicare's statutory authority. The pilot tests Trump's most-favoured-nation pricing approach, though its impact is expected to be limited.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "The suit challenges a federal model that ties Medicare drug prices to international prices."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "The outcome affects how Medicare pays for drugs under the pilot."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Investors track legal challenges to international reference pricing as a drug-revenue risk."
+    }
+   }
+  },
+  "e50d86123a3f": {
+   "dup": "0aa79e991e54"
+  },
+  "8c9a6d8b2ff4": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "NYU Langone says ISCHEMIA-EXTEND, following more than 5,000 patients with stable coronary disease for up to 13 years, found early invasive procedures gave no survival advantage over drug therapy (about 26% vs 27% died). Presented at AHA and published in JAMA.",
+   "rel": {
+    "healthcare": {
+     "score": 7,
+     "why": "Long-term evidence that routine stenting or bypass does not extend life in stable heart disease bears on standard care."
+    },
+    "meddevices": {
+     "score": 6,
+     "why": "It weakens the case for routine use of stents and other invasive cardiology procedures in stable patients."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "It supports medical therapy as the first-line approach."
+    }
+   }
+  },
+  "e0888a81a916": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "J&J says its oral IL-23 receptor peptide Icotyde (icotrokinra) gave ACR20 responses in 58% and ACR50 in 29% of biologic-naive psoriatic arthritis patients at week 16 in a phase 3 study presented at ACR.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Phase 3 data extend J&J's first-in-class oral IL-23R peptide from psoriasis into psoriatic arthritis, a large immunology market."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "A daily pill could offer an alternative to injected biologics for psoriatic arthritis."
+    }
+   }
+  },
+  "5bce5e5bfb83": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "J&J presented patient-experience data at ACR from its phase 2 nipocalimab study in Sjögren's disease, showing mouth dryness was the symptom patients most wanted improved; the company cites a 50% increase in saliva production in the trial.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Supports J&J's FcRn blocker nipocalimab as it moves through development in Sjögren's disease."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Highlights which Sjögren's symptoms matter most to patients."
+    }
+   }
+  },
+  "5e2f116d582e": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "argenx says efgartigimod beat placebo in the phase 3 ALKIVIA trial in idiopathic inflammatory myopathy, with mean Total Improvement Score 48.0 vs 32.6 at week 52 (p=0.0011); it plans an FDA filing for immune-mediated necrotizing myopathy by end-2026, while the dermatomyositis subgroup was not significant.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Opens a new indication for the FcRn blocker Vyvgart in a myositis market with few targeted options."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Could give patients with necrotizing myopathy an approved targeted therapy."
+    }
+   }
+  },
+  "aa9e463af32c": {
+   "drop": true
+  },
+  "7b6ab0097c4d": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "On his first earnings call, Sarepta CEO Michael Severino reported $83.5 million in Q3 Elevidys sales (down from $131.5 million a year earlier), said ENVISION enrolment will not resume and expects market share erosion from 2H 2027 as Dyne's and Regenxbio's Duchenne therapies near the market.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "Falling sales of the leading Duchenne gene therapy and new competition reshape the DMD gene therapy market."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Sarepta's outlook and pipeline shift towards siRNA programmes from Arrowhead."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Analysts are watching whether Elevidys sales stabilise before competitors launch."
+    }
+   }
+  },
+  "7fbf6220ce8f": {
+   "dup": "c22af8c396d0"
+  },
+  "0dc3dcf79e97": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Researchers describe a microfluidic sieve and detector that processes 200 microlitres in one minute and quantifies biomarkers at single-molecule sensitivity, aiming to cut ultrasensitive assay time from hours to minutes. Not yet peer-reviewed.",
+   "rel": {
+    "diagnostics": {
+     "score": 7,
+     "why": "Much faster ultrasensitive assays could bring single-molecule biomarker tests closer to point of care."
+    },
+    "tools": {
+     "score": 6,
+     "why": "A new microfluidic platform for rapid low-abundance protein detection."
+    }
+   }
+  },
+  "67c22518b1bf": {
+   "drop": true
+  },
+  "e835654ee876": {
+   "drop": true
+  },
+  "a5af197cb616": {
+   "drop": true
+  },
+  "a4a49654eea0": {
+   "drop": true
   }
  },
  "extra": [
