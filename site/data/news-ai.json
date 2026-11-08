@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T06:42:02Z",
+ "updated": "2026-11-08T13:40:44Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
   "date": "2026-11-08T06:42:02Z",
@@ -8,8 +8,8 @@
     "sec": "results",
     "text": "AHA was a day of cardiovascular failures: full Lp(a)HORIZON data in NEJM showed Novartis's pelacarsen sharply cut Lp(a) without reducing heart attacks, strokes or deaths, putting Amgen's and Lilly's Lp(a) drugs under pressure, and Novo's IL-6 antibody ziltivekimab had almost no effect on events in ZEUS. ISCHEMIA-EXTEND, with up to 13 years of follow-up, found early stenting or bypass did not help stable heart patients live longer. At ACR, J&J's oral Icotyde posted phase 3 psoriatic arthritis data and argenx's efgartigimod won in myositis, with an FDA filing planned for necrotizing myopathy.",
     "ids": [
-     "e099dedaeaba",
-     "0b96a88c4b71",
+     "fa299b7eef87",
+     "a6d6ddac6cda",
      "8c9a6d8b2ff4",
      "5e2f116d582e"
     ]
@@ -17581,7 +17581,7 @@
    "drop": true
   },
   "4f7ecbdfaf73": {
-   "dup": "0663a51606fc"
+   "dup": "a1791b921861"
   },
   "622056b24b7c": {
    "cat": "regulatory",
@@ -17957,27 +17957,7 @@
    }
   },
   "e099dedaeaba": {
-   "cat": "clinical",
-   "imp": 8,
-   "summary": "Full Lp(a)HORIZON results presented at AHA and published in NEJM showed Novartis's pelacarsen sharply lowered Lp(a) but did not reduce heart attacks, strokes, urgent revascularisation or deaths versus placebo over almost five years.",
-   "rel": {
-    "pharma": {
-     "score": 9,
-     "why": "The first Lp(a) outcomes trial failing raises doubts over Amgen's and Lilly's late-stage Lp(a) drugs."
-    },
-    "cellgene": {
-     "score": 4,
-     "why": "Pelacarsen is an antisense drug, and the readout weighs on RNA-targeting cardiovascular programmes."
-    },
-    "investment": {
-     "score": 6,
-     "why": "Investors will reprice the Lp(a) class ahead of Amgen and Lilly readouts."
-    },
-    "healthcare": {
-     "score": 5,
-     "why": "It undercuts lowering Lp(a) as a proven route to fewer cardiovascular events."
-    }
-   }
+   "dup": "fa299b7eef87"
   },
   "60e1a105563d": {
    "dup": "e099dedaeaba"
@@ -17986,23 +17966,7 @@
    "dup": "e099dedaeaba"
   },
   "0b96a88c4b71": {
-   "cat": "clinical",
-   "imp": 7,
-   "summary": "Full ZEUS data at AHA showed Novo Nordisk's IL-6 antibody ziltivekimab had almost no effect on cardiovascular events despite hitting its target, after the July topline miss cut Novo's shares 9%; cardiologists told STAT they will keep pursuing anti-inflammatory approaches.",
-   "rel": {
-    "pharma": {
-     "score": 8,
-     "why": "A null phase 3 for IL-6 blockade hits Novo's cardiovascular pipeline and the wider anti-inflammatory heart drug strategy."
-    },
-    "healthcare": {
-     "score": 5,
-     "why": "It leaves inflammation-targeted prevention for patients with atherosclerosis and kidney disease unproven."
-    },
-    "investment": {
-     "score": 4,
-     "why": "It weighs on valuations of companies developing IL-6 and other inflammation drugs for heart disease."
-    }
-   }
+   "dup": "a6d6ddac6cda"
   },
   "0aa79e991e54": {
    "cat": "policy",
@@ -18141,6 +18105,566 @@
   },
   "a4a49654eea0": {
    "drop": true
+  },
+  "27aecf7321a2": {
+   "drop": true
+  },
+  "e123098d83a7": {
+   "drop": true
+  },
+  "ce1496233b14": {
+   "dup": "9dc68ad4ae72"
+  },
+  "2d639432b9b6": {
+   "dup": "3317678000ad"
+  },
+  "60bfa220f3e5": {
+   "dup": "9dc68ad4ae72"
+  },
+  "b4f712adc2f6": {
+   "drop": true
+  },
+  "9c3b3b90d515": {
+   "drop": true
+  },
+  "5b685bd519de": {
+   "drop": true
+  },
+  "403c374a5686": {
+   "drop": true
+  },
+  "fefe3c61501e": {
+   "drop": true
+  },
+  "c7fdbfb7791d": {
+   "drop": true
+  },
+  "3d95c25a5b6a": {
+   "dup": "5242c89f8c10"
+  },
+  "0bab44666b06": {
+   "drop": true
+  },
+  "12c5744b774e": {
+   "drop": true
+  },
+  "aa6db86a6819": {
+   "drop": true
+  },
+  "4a9bb134f643": {
+   "drop": true
+  },
+  "0d2daec6f74b": {
+   "dup": "54b4dc9fda93"
+  },
+  "70f86e628c89": {
+   "drop": true
+  },
+  "e3eecd60cd61": {
+   "drop": true
+  },
+  "26b11705bd4c": {
+   "drop": true
+  },
+  "b85679a2123a": {
+   "dup": "eeece3668fba"
+  },
+  "3b61ce971316": {
+   "drop": true
+  },
+  "10b7c9853aa8": {
+   "drop": true
+  },
+  "d425b2decfdd": {
+   "drop": true
+  },
+  "8c16361fe1c4": {
+   "drop": true
+  },
+  "addde7e604f0": {
+   "drop": true
+  },
+  "aea6ac98fb56": {
+   "drop": true
+  },
+  "edfcf2d46be0": {
+   "drop": true
+  },
+  "e85489238062": {
+   "drop": true
+  },
+  "2268ac6a4881": {
+   "drop": true
+  },
+  "b76c2e527e26": {
+   "drop": true
+  },
+  "f9064ac08a11": {
+   "drop": true
+  },
+  "6562f44c43d2": {
+   "drop": true
+  },
+  "4fa1a37a2988": {
+   "dup": "94a92d994de0"
+  },
+  "131a2e09bf3b": {
+   "drop": true
+  },
+  "9aeb04704dce": {
+   "dup": "902ff4326f37"
+  },
+  "406aca246414": {
+   "dup": "94a92d994de0"
+  },
+  "b54fb9366e43": {
+   "dup": "902ff4326f37"
+  },
+  "c4e455b2cbd6": {
+   "drop": true
+  },
+  "ee31ef4a7da2": {
+   "dup": "485137e3ae54"
+  },
+  "1ef31cc72eed": {
+   "dup": "68d06e5a1880"
+  },
+  "7a6d68c0341d": {
+   "dup": "d291b98bc11f"
+  },
+  "36f1999d9af5": {
+   "drop": true
+  },
+  "a4bb5d0dea28": {
+   "drop": true
+  },
+  "eae4fe60b4fd": {
+   "drop": true
+  },
+  "993af5abba18": {
+   "drop": true
+  },
+  "fe1c642e4b59": {
+   "drop": true
+  },
+  "bc1b85f0ac0f": {
+   "drop": true
+  },
+  "50be197b95d0": {
+   "drop": true
+  },
+  "a28b44840214": {
+   "drop": true
+  },
+  "aa20f4b54bcf": {
+   "drop": true
+  },
+  "ed33244b864b": {
+   "drop": true
+  },
+  "194951348aa8": {
+   "drop": true
+  },
+  "fbdaf94c56a3": {
+   "drop": true
+  },
+  "069c739ea154": {
+   "drop": true
+  },
+  "b1914a1cde22": {
+   "drop": true
+  },
+  "67cdea65efb0": {
+   "drop": true
+  },
+  "5b75e6344218": {
+   "drop": true
+  },
+  "d7163bd55a11": {
+   "drop": true
+  },
+  "ba8c3f3a4ebb": {
+   "drop": true
+  },
+  "c95c22b6d2f1": {
+   "drop": true
+  },
+  "71eca52e01d8": {
+   "drop": true
+  },
+  "6b20e0ff5133": {
+   "dup": "29847b25d9e9"
+  },
+  "ab9b25b62f91": {
+   "dup": "8937d08a28c4"
+  },
+  "759ba645ab4c": {
+   "drop": true
+  },
+  "1d1d3181dd88": {
+   "dup": "29847b25d9e9"
+  },
+  "f8ab24ff69f3": {
+   "drop": true
+  },
+  "b6a9c09a65ff": {
+   "dup": "29847b25d9e9"
+  },
+  "8ca356fb5611": {
+   "drop": true
+  },
+  "b643280ccef5": {
+   "dup": "29847b25d9e9"
+  },
+  "1db02bb84242": {
+   "drop": true
+  },
+  "4271720be6aa": {
+   "dup": "29847b25d9e9"
+  },
+  "aec64996a44f": {
+   "drop": true
+  },
+  "0bb61616128f": {
+   "dup": "29847b25d9e9"
+  },
+  "79aa09795f1f": {
+   "drop": true
+  },
+  "ee3e057cdd8a": {
+   "dup": "29847b25d9e9"
+  },
+  "2cf4421a9871": {
+   "drop": true
+  },
+  "5bf0979b0db7": {
+   "drop": true
+  },
+  "7da2ba87bb8c": {
+   "drop": true
+  },
+  "533254bf72a0": {
+   "drop": true
+  },
+  "02866995c420": {
+   "drop": true
+  },
+  "84989ed6e3be": {
+   "dup": "968fa55817bc"
+  },
+  "40f91ce423e2": {
+   "drop": true
+  },
+  "fb46ca08dc69": {
+   "dup": "5ec798453c55"
+  },
+  "f3b60d7b1eb8": {
+   "drop": true
+  },
+  "281799db0744": {
+   "drop": true
+  },
+  "9476cd1bccd9": {
+   "drop": true
+  },
+  "d96c3d72332f": {
+   "dup": "68d06e5a1880"
+  },
+  "380bdc148580": {
+   "drop": true
+  },
+  "280b6971b865": {
+   "drop": true
+  },
+  "cdeed3d071e8": {
+   "drop": true
+  },
+  "bb78c4e08c42": {
+   "drop": true
+  },
+  "bbbbe4de29cb": {
+   "drop": true
+  },
+  "119f813263ad": {
+   "drop": true
+  },
+  "fc41d5897760": {
+   "drop": true
+  },
+  "52a1a41692d3": {
+   "drop": true
+  },
+  "1d3e416b901b": {
+   "drop": true
+  },
+  "1f5a8618fadd": {
+   "drop": true
+  },
+  "2007990be77f": {
+   "drop": true
+  },
+  "ce56a1baac95": {
+   "drop": true
+  },
+  "65a3d15207c3": {
+   "drop": true
+  },
+  "1e1d7c71001a": {
+   "drop": true
+  },
+  "b474dc8610b2": {
+   "drop": true
+  },
+  "64345550e8c0": {
+   "drop": true
+  },
+  "e3272ab7ca7c": {
+   "drop": true
+  },
+  "e30ea1ad7972": {
+   "drop": true
+  },
+  "68ff61d3daa0": {
+   "drop": true
+  },
+  "49fa3a42ca6f": {
+   "dup": "004dfe9fab63"
+  },
+  "84934324676b": {
+   "drop": true
+  },
+  "69724cc3cbbc": {
+   "drop": true
+  },
+  "0d8ad6439ccc": {
+   "drop": true
+  },
+  "6bdb991e819d": {
+   "drop": true
+  },
+  "e3b77d178a2e": {
+   "drop": true
+  },
+  "260e5d47fbc8": {
+   "drop": true
+  },
+  "3986a34860d2": {
+   "drop": true
+  },
+  "d873090f37e1": {
+   "drop": true
+  },
+  "6ba861e8c792": {
+   "dup": "68d06e5a1880"
+  },
+  "bee145658115": {
+   "drop": true
+  },
+  "35c53b47cfa6": {
+   "drop": true
+  },
+  "a1c18472d690": {
+   "drop": true
+  },
+  "4042ff57f9b0": {
+   "drop": true
+  },
+  "568559b0bbf9": {
+   "dup": "d76c5250b63f"
+  },
+  "2a4e3d0e5517": {
+   "drop": true
+  },
+  "0142974eb2ad": {
+   "drop": true
+  },
+  "bfe09f254a31": {
+   "drop": true
+  },
+  "04ab67b848ec": {
+   "drop": true
+  },
+  "607f93b2c883": {
+   "dup": "53c4b7f68d10"
+  },
+  "d11c7fcd08c1": {
+   "drop": true
+  },
+  "a1c582058388": {
+   "drop": true
+  },
+  "415e222efabe": {
+   "drop": true
+  },
+  "e603ac2b0aa1": {
+   "drop": true
+  },
+  "1d5f5f3fb2ec": {
+   "drop": true
+  },
+  "455e9d24c70a": {
+   "drop": true
+  },
+  "c06249d0f1f9": {
+   "drop": true
+  },
+  "0a7727272bd4": {
+   "drop": true
+  },
+  "31f90572bb62": {
+   "drop": true
+  },
+  "90b7738a4dd2": {
+   "drop": true
+  },
+  "6d1395921e8d": {
+   "drop": true
+  },
+  "933556354b05": {
+   "drop": true
+  },
+  "62ece1fb1145": {
+   "dup": "74efa911c983"
+  },
+  "becd505e589e": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "MIT researchers used ligand-directed lipid nanoparticles carrying mRNA to turn natural killer cells into CAR-NK cells inside the body, clearing T cell lymphoma in humanised mice after five injections, putting 3 of 5 mice with melanoma into remission and healing autoimmune hepatitis in mice; published in Nature Biotechnology.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "In vivo CAR-NK engineering with mRNA nanoparticles could remove ex vivo cell manufacturing."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "It adds to in vivo CAR approaches for cancer and autoimmune disease."
+    },
+    "bioprocessing": {
+     "score": 3,
+     "why": "In vivo engineering would bypass cell therapy manufacturing."
+    }
+   }
+  },
+  "20ccb2c8ad8f": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "STAT's Matthew Herper argues that the AHA failures of Novartis's pelacarsen and Novo Nordisk's ziltivekimab, both backed by human genetics, show that hyped technologies promising faster drug development, AI included, can still fall flat.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "It questions how far genetic validation de-risks cardiovascular drug targets."
+    },
+    "ai": {
+     "score": 5,
+     "why": "It cautions against assuming AI will raise drug development success rates."
+    },
+    "investment": {
+     "score": 4,
+     "why": "It challenges a common investment thesis for AI and genetics-led biotechs."
+    }
+   }
+  },
+  "100bfe54c385": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "NEJM published a randomised trial of intensive versus standard blood-pressure lowering in patients with type 2 diabetes, presented at AHA 2026; results are not visible in the feed.",
+   "rel": {
+    "healthcare": {
+     "score": 7,
+     "why": "Blood-pressure targets for people with diabetes drive treatment guidelines."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Tighter targets would raise use of antihypertensive drugs."
+    }
+   }
+  },
+  "de7d4bc706c7": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "NEJM published a randomised trial of intensive versus standard blood-pressure control in patients with a previous ischaemic stroke, presented at AHA 2026; results are not visible in the feed.",
+   "rel": {
+    "healthcare": {
+     "score": 7,
+     "why": "It informs blood-pressure targets for secondary stroke prevention."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Tighter targets would raise use of antihypertensive drugs."
+    }
+   }
+  },
+  "41784520c588": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "NEJM published a randomised trial of stopping statins in older adults without cardiovascular disease, presented at AHA 2026; results are not visible in the feed.",
+   "rel": {
+    "healthcare": {
+     "score": 7,
+     "why": "It bears on deprescribing statins in a large older population."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "It could change long-term statin use in older patients."
+    }
+   }
+  },
+  "74efa911c983": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "NEJM published a trial of starting extracorporeal life support before hospital arrival in refractory out-of-hospital cardiac arrest, with an accompanying editorial on bringing rapid reperfusion to more patients; results are not visible in the feed.",
+   "rel": {
+    "healthcare": {
+     "score": 7,
+     "why": "It tests whether emergency services should deliver ECMO in the field."
+    },
+    "meddevices": {
+     "score": 6,
+     "why": "Prehospital ECMO depends on portable extracorporeal devices."
+    }
+   }
+  },
+  "fa299b7eef87": {
+   "cat": "clinical",
+   "imp": 8,
+   "summary": "Full Lp(a)HORIZON results in NEJM, presented at AHA, showed Novartis's pelacarsen sharply lowered Lp(a) but did not reduce heart attacks, strokes, urgent revascularisation or deaths versus placebo over almost five years.",
+   "rel": {
+    "pharma": {
+     "score": 9,
+     "why": "The first Lp(a) outcomes trial failing raises doubts over Amgen's and Lilly's late-stage Lp(a) drugs."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Pelacarsen is an antisense drug, and the readout weighs on RNA-targeting cardiovascular programmes."
+    },
+    "investment": {
+     "score": 6,
+     "why": "Investors will reprice the Lp(a) class ahead of Amgen and Lilly readouts."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "It undercuts lowering Lp(a) as a proven route to fewer cardiovascular events."
+    }
+   }
+  },
+  "a6d6ddac6cda": {
+   "cat": "clinical",
+   "imp": 7,
+   "summary": "Full ZEUS results in NEJM, presented at AHA, showed Novo Nordisk's IL-6 antibody ziltivekimab had almost no effect on cardiovascular events despite hitting its target, after the July topline miss cut Novo's shares 9%.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "A null phase 3 for IL-6 blockade hits Novo's cardiovascular pipeline and the wider anti-inflammatory heart drug strategy."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "It leaves inflammation-targeted prevention for patients with atherosclerosis and kidney disease unproven."
+    },
+    "investment": {
+     "score": 4,
+     "why": "It weighs on valuations of companies developing IL-6 and other inflammation drugs for heart disease."
+    }
+   }
   }
  },
  "extra": [
