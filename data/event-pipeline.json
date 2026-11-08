@@ -4,7 +4,20 @@
  "lastGapCheck": null,
  "lastOrganiserCheck": null,
  "leads": [],
- "candidates": [],
+ "candidates": [
+  {
+   "name": "Bladder Cancer Vaccine Reduces Risk of Dementia",
+   "start": "2026-11-08",
+   "end": "2026-11-08",
+   "url": "https://www.labroots.com/trending/nocat/31318/bladder-cancer-vaccine-reduces-risk-dementia",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "Labroots virtual events",
+   "seen": "2026-11-08"
+  }
+ ],
  "dismissed": [
   {
    "name": "Novel Mechanism of Wound Healing Helps Tumors Evade Immunity",
@@ -1502,7 +1515,7 @@
    "note": "2027: 17-19 Mar 2027, Seaport Hotel Boston per clocate; confirm on official site"
   }
  ],
- "lastListingScan": "2026-11-06",
+ "lastListingScan": "2026-11-08",
  "listingScanReport": [
   "EuroScienceJobs conferences: HTTP 200, 12 events on page",
   "Labroots virtual events: HTTP 200, 27 events on page",
