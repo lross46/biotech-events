@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T06:41:15Z",
+ "updated": "2026-11-09T13:41:19Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
   "date": "2026-11-09T06:41:15Z",
@@ -41,10 +41,11 @@
    },
    {
     "sec": "money",
-    "text": "Deals were quiet over the weekend. The main recent moves remain Lilly's branded weight-loss tie-up with Hims & Hers and Chai Discovery adding Roche as an AI drug discovery partner.",
+    "text": "Argenx agreed to buy Unnatural Products, a Merck- and Novartis-partnered macrocycle peptide biotech, for $550 million upfront and up to about $1.15 billion, to add oral peptides to its immunology franchise. J&J backed a psychedelic-inspired biotech in a $100 million round and Kyorin licensed Japan rights to Edesa's phase 3 ARDS antibody for $12 million upfront.",
     "ids": [
-     "a1791b921861",
-     "2845a335803d"
+     "433e1288b6db",
+     "a714c0a009b4",
+     "8b365cda67e1"
     ]
    },
    {
@@ -54,6 +55,14 @@
      "c22af8c396d0",
      "7b6ab0097c4d",
      "7eec992bb90f"
+    ]
+   },
+   {
+    "sec": "biodef",
+    "text": "Trump administration officials issued new guidelines aimed at stopping AI design tools from helping bad actors build bioweapons, STAT reports. Nature warned that the coming super El Niño will bring disease outbreaks along with food shortages.",
+    "ids": [
+     "8cb4b02dd465",
+     "14b548b754bf"
     ]
    }
   ]
@@ -18785,6 +18794,756 @@
   },
   "14640d41d6f2": {
    "dup": "33916032645c"
+  },
+  "0e3b045175b7": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "Daewoong Pharmaceutical signed joint development agreements for two drug-delivery platforms from affiliate Daewoong Therapeutics: Thermicra, for turning intravenous biologics into subcutaneous forms, and a dissolving microneedle platform.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Subcutaneous conversion of IV biologics is a lifecycle tool for biologic drugs."
+    },
+    "meddevices": {
+     "score": 4,
+     "why": "Dissolving microneedles are a device-like delivery format."
+    }
+   }
+  },
+  "2916dce6c5c6": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A nationwide Korean study led by CHA University Bundang Medical Center found that better regional sepsis care could substantially cut deaths, and called sepsis a priority for emergency care policy.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Argues for organising sepsis care as a national system."
+    }
+   }
+  },
+  "2a13ea4612ac": {
+   "drop": true
+  },
+  "2fb1a4e4b6dd": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "Gilead has renewed its bid for second-line Korean reimbursement of the CAR-T Yescarta in DLBCL, while Curocell prepares a second-line trial of its domestic CAR-T Rimqarto that could widen patient access.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Covers CAR-T access and reimbursement in a key Asian market."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Reimbursement decides who gets CAR-T in Korea."
+    }
+   }
+  },
+  "26fa8d86f72a": {
+   "drop": true
+  },
+  "3720f05efe82": {
+   "drop": true
+  },
+  "972fbea98f93": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Celltrion says the EMA's CHMP recommended extending its Stelara biosimilar Steqeyma (ustekinumab) to Crohn's disease and ulcerative colitis in children aged two and older.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Paediatric label extension for a major ustekinumab biosimilar in the EU."
+    }
+   }
+  },
+  "5e9e9ce6c743": {
+   "drop": true
+  },
+  "c01f379b3e71": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "More than 60% of Korean children with solid tumours are now enrolled in a national precision medicine platform funded by a 300 billion won ($200 million) donation from the late Samsung chairman's family, according to Seoul National University Hospital.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "National-scale precision oncology programme for paediatric cancer."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "Built on genomic profiling of tumours."
+    }
+   }
+  },
+  "c9b9c587176e": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "Peptron says Mexico's COFEPRIS approved LUPUNIA, its once-monthly leuprorelin injection for prostate cancer and precocious puberty, on bioequivalence to the original product.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Generic long-acting leuprorelin approval in Latin America."
+    }
+   }
+  },
+  "30849f61a197": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "At the Politzer Society meeting, experts said gene therapy for hereditary hearing loss is showing hearing gains but cautioned about limited eligibility, uncertain long-term safety and continued need for rehabilitation.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Expert view on the emerging otoferlin-type gene therapies for deafness."
+    }
+   }
+  },
+  "12221d54892a": {
+   "drop": true
+  },
+  "18f711611536": {
+   "cat": "deals",
+   "imp": 3,
+   "summary": "Sky Labs signed an MOU with Abu Dhabi's SEHA Clinics, part of PureHealth, to evaluate its CART BP ring blood pressure monitor in clinical settings in the UAE.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Clinical evaluation of a wearable cuffless BP monitor abroad."
+    }
+   }
+  },
+  "8b365cda67e1": {
+   "cat": "deals",
+   "imp": 5,
+   "summary": "Kyorin Pharmaceutical is paying $12 million upfront, in a deal worth up to about $140 million, for Japan rights to Edesa Biotech's phase 3 anti-TLR4 antibody for acute respiratory distress syndrome.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Regional licensing of a late-stage ARDS antibody."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Non-dilutive funding for a small-cap biotech."
+    }
+   }
+  },
+  "3e64b8d8ed08": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Faeth Therapeutics says its oral combination therapy for endometrial cancer cleared its phase 2 efficacy bar, and it will push ahead in a field dominated by injectable ADCs.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Oral challenger in an endometrial cancer market targeted by big ADC programmes."
+    }
+   }
+  },
+  "647de12bddd5": {
+   "dup": "7c006886f98e"
+  },
+  "c845bd57ed92": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "Valneva and LimmaTech's tetravalent Shigella vaccine S4V2 reduced intestinal infections and hit the key endpoint in a phase 2 controlled human infection trial, alongside infant safety and immunogenicity data.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Shigella has no licensed vaccine; this is a leading candidate."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Shigella is a major cause of child diarrhoeal deaths in low-income countries."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Vaccine against an enteric pathogen with rising antimicrobial resistance."
+    }
+   }
+  },
+  "1a59633148ca": {
+   "dup": "433e1288b6db"
+  },
+  "433e1288b6db": {
+   "cat": "deals",
+   "imp": 7,
+   "summary": "Argenx will acquire Unnatural Products, a macrocycle peptide biotech partnered with Merck and Novartis, for $550 million upfront in cash plus contingent value rights, up to about $1.15 billion in total, to add oral peptide discovery to its immunology business.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Argenx's biggest buy, aimed at oral alternatives to its injected antibodies."
+    },
+    "investment": {
+     "score": 6,
+     "why": "Billion-dollar private biotech exit."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Acquires a peptide discovery platform."
+    }
+   }
+  },
+  "ff9354728128": {
+   "drop": true
+  },
+  "c1213fb12936": {
+   "drop": true
+  },
+  "ef3786c764da": {
+   "drop": true
+  },
+  "b723bbd95390": {
+   "drop": true
+  },
+  "eaf09ece1a72": {
+   "drop": true
+  },
+  "7935eb16050f": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Aisa Pharma says AISA-021 significantly reduced weekly Raynaud's attack frequency and duration versus placebo in the phase 2 RECONNOITER-1 trial in systemic sclerosis, with data due at ACR Convergence 2026.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Phase 2 data in an underserved rheumatology indication."
+    }
+   }
+  },
+  "7085ec04d79c": {
+   "drop": true
+  },
+  "6f4e91c45788": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Eilean Therapeutics says a single oral dose of its MALT1 degrader ZE66-0205 cut MALT1 by 57% in healthy volunteers, the first human MALT1 degradation, with no adverse findings in three-month primate toxicology.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "First clinical proof of mechanism for a MALT1 degrader."
+    }
+   }
+  },
+  "c8a0dff3c47b": {
+   "drop": true
+  },
+  "9c65b97f8e44": {
+   "drop": true
+  },
+  "2ca9a0d24364": {
+   "drop": true
+  },
+  "b2358ed978f1": {
+   "drop": true
+  },
+  "4275b6740f80": {
+   "drop": true
+  },
+  "08c1b1841f19": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "Adneuris Therapeutics submitted an NDA to the FDA for cebranopadol in moderate-to-severe acute pain; it says the drug would be the first dual NOP/MOP receptor agonist painkiller if approved.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "New analgesic mechanism filing in a market seeking opioid alternatives."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Acute pain treatment options beyond classic opioids."
+    }
+   }
+  },
+  "b348ac5cf770": {
+   "drop": true
+  },
+  "32c74d5a7801": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "BioVie says biomarkers from its phase 2 ADDRESS-LC trial of bezisterim suggest two Long COVID endotypes with different treatment responses, presented at an NIH RECOVER-TLC workshop.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Exploratory biomarker data in Long COVID."
+    }
+   }
+  },
+  "2b78a94ec763": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Humacyte has started a first-in-human study of its acellular engineered vessel as a coronary artery bypass conduit and is about to begin screening patients.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Bioengineered vessel moving into cardiac surgery."
+    },
+    "cellgene": {
+     "score": 3,
+     "why": "Tissue-engineered product grown from human cells."
+    }
+   }
+  },
+  "b1606353a8ed": {
+   "drop": true
+  },
+  "2ab4b0c37b51": {
+   "drop": true
+  },
+  "d7a534ad9abc": {
+   "drop": true
+  },
+  "f61f40e181c3": {
+   "drop": true
+  },
+  "8cb4b02dd465": {
+   "cat": "policy",
+   "imp": 7,
+   "summary": "STAT reports that Trump administration officials issued new guidelines meant to stop AI-enabled design tools from helping bad actors create bioweapons. Details are behind STAT's paywall.",
+   "rel": {
+    "biosecurity": {
+     "score": 9,
+     "why": "New US federal guidance on AI-enabled bioweapon risk."
+    },
+    "ai": {
+     "score": 7,
+     "why": "Targets AI tools used for biological design."
+    },
+    "defence": {
+     "score": 6,
+     "why": "Bioweapon prevention is a national security issue."
+    }
+   }
+  },
+  "91f5713ab968": {
+   "drop": true
+  },
+  "b680b3cfce60": {
+   "cat": "contracts",
+   "imp": 3,
+   "summary": "NAMSA and Advanced Medical Solutions announced a preferred partnership under which NAMSA will provide testing, biological safety, regulatory and clinical research services for AMS's tissue-healing products.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Medtech CRO partnership for wound and tissue-healing devices."
+    }
+   }
+  },
+  "7d27040c83b9": {
+   "drop": true
+  },
+  "514031374e84": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Biond Biologics dosed the first patient with BND-67, an anti-CD28 shedding antibody intended to boost anti-tumour T-cell activity, first alone and then with an anti-PD-1.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "New immuno-oncology mechanism entering the clinic."
+    }
+   }
+  },
+  "3367dbbdc25e": {
+   "drop": true
+  },
+  "d54306471abb": {
+   "cat": "contracts",
+   "imp": 3,
+   "summary": "PharmAla Biotech will supply MDMA to Aalborg University Hospital for a Danish randomised trial of MDMA-assisted treatment for service-related PTSD, in exchange for cash and trial data.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Psychedelic-assisted therapy trial in Europe."
+    },
+    "defence": {
+     "score": 3,
+     "why": "Targets PTSD in military veterans."
+    }
+   }
+  },
+  "b76c0d3c6a37": {
+   "drop": true
+  },
+  "c99e3f6725e8": {
+   "drop": true
+  },
+  "bcd70187581f": {
+   "drop": true
+  },
+  "892101e3b925": {
+   "cat": "funding",
+   "imp": 4,
+   "summary": "Bengaluru biomaterials startup AltM, founded by former Tesla staff, raised $10.3 million to scale technology that converts agricultural waste into bio-based ingredients for cosmetics, packaging and textiles.",
+   "rel": {
+    "industrial": {
+     "score": 6,
+     "why": "Scaling bio-based materials from crop residue."
+    },
+    "agrifood": {
+     "score": 4,
+     "why": "Upcycles farm waste."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Venture round for Indian industrial biotech."
+    }
+   }
+  },
+  "82ea049fbe6c": {
+   "drop": true
+  },
+  "985b20251dee": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Hemab Therapeutics started SOLARA, a pivotal phase 3 trial of once-weekly subcutaneous sutacimig in about 75 people with Glanzmann thrombasthenia, a rare bleeding disorder with no approved preventive therapy.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "First pivotal trial for a prophylactic in this rare bleeding disorder."
+    }
+   }
+  },
+  "348c1658d63b": {
+   "drop": true
+  },
+  "b67d0b0c6707": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Editas Medicine reported Q3 results and received Australian ethics approval to start the phase 1/2 Strive study of its in vivo gene editing candidate EDIT-401 for hyperlipidemia.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "In vivo LDLR-targeted gene editing heading to the clinic."
+    }
+   }
+  },
+  "f32d48d65787": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Nkarta reported initial clinical data at ACR Convergence for its CD19 CAR-NK cell therapy NKX019 in myositis and systemic sclerosis.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Allogeneic CAR-NK in autoimmune disease, part of the cell-therapy reset trend."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Autoimmune pipeline data."
+    }
+   }
+  },
+  "5e3fe1eb729d": {
+   "drop": true
+  },
+  "69283011907d": {
+   "drop": true
+  },
+  "a714c0a009b4": {
+   "cat": "funding",
+   "imp": 5,
+   "summary": "Bloomberg reports that Johnson & Johnson backed a psychedelic-inspired biotech in a $100 million financing round.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Big pharma money into next-generation psychedelic-derived drugs."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Nine-figure private round."
+    }
+   }
+  },
+  "d5c957acb4a5": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Researchers found that gut bacteria starved of fibre feed on the intestinal mucus lining and make potentially harmful compounds, while fibre and plant proteins steer them toward beneficial metabolites.",
+   "rel": {
+    "agrifood": {
+     "score": 4,
+     "why": "Mechanistic case for fibre in diet and food design."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Microbiome link to gut barrier health."
+    }
+   }
+  },
+  "0a904233ad36": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Vaxcellbio says its dual-target CAR-T VCB-1204 produced complete responses in all animals in a liver cancer model, in preclinical data presented at SITC 2026.",
+   "rel": {
+    "cellgene": {
+     "score": 4,
+     "why": "Preclinical CAR-T for solid tumours."
+    }
+   }
+  },
+  "ee2a7cbce449": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "An Asan Medical Center study found AI assistance improved doctors' accuracy in diagnosing middle ear disease from endoscopic images, with junior trainees gaining 32.2 percentage points.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "Clinical evidence for AI decision support in imaging."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Image-based diagnosis aid."
+    }
+   }
+  },
+  "11eb295b0147": {
+   "drop": true
+  },
+  "ff96022f7e79": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A 35-year study found mouse populations, boosted by acorn crops, drive Lyme disease risk more than deer, with mice fuelling a 40% rise in tick numbers the following year.",
+   "rel": {
+    "biosecurity": {
+     "score": 3,
+     "why": "Better forecasting of tick-borne disease risk."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Informs Lyme disease prevention."
+    }
+   }
+  },
+  "08eb904c2fab": {
+   "drop": true
+  },
+  "de2c5f70893a": {
+   "drop": true
+  },
+  "d27a63a451ab": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Samsung Bioepis says its proposed Keytruda biosimilar SB27 met phase 3 equivalence in metastatic NSCLC, with a week-24 response rate of 34.6% versus 37.9% for Keytruda.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Positions one of the first pembrolizumab biosimilars ahead of Keytruda patent expiry."
+    },
+    "bioprocessing": {
+     "score": 3,
+     "why": "Biosimilar manufacturing competition."
+    }
+   }
+  },
+  "46526bfb4f7e": {
+   "drop": true
+  },
+  "757851472eae": {
+   "drop": true
+  },
+  "687acbedaf00": {
+   "drop": true
+  },
+  "c710faf823cd": {
+   "drop": true
+  },
+  "eeb978ceea34": {
+   "drop": true
+  },
+  "b4625a7a7d70": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "STAT examines whether AI chatbots, though imperfect therapists, could help men who avoid traditional mental health care to open up.",
+   "rel": {
+    "ai": {
+     "score": 4,
+     "why": "AI in mental health support."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Access to mental health care for men."
+    }
+   }
+  },
+  "561bb208a4a0": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "The UK MHRA awarded Innovation Passports under its ILAP pathway to Alnylam's siRNA brezosiran for Huntington's disease, BeOne's PRMT5 inhibitor BGB-58067 for NSCLC and Biogen's antisense diranersen for early Alzheimer's.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Faster UK route for three late-stage neuro and oncology drugs."
+    },
+    "cellgene": {
+     "score": 3,
+     "why": "Two are oligonucleotide (RNA) medicines."
+    }
+   }
+  },
+  "9b421fd84966": {
+   "dup": "0ed73982a85d"
+  },
+  "0ed73982a85d": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "BioProcess International's second part argues that better analytics and new modalities justify rethinking how biosimilars and other biologics are developed, with lighter clinical requirements.",
+   "rel": {
+    "bioprocessing": {
+     "score": 5,
+     "why": "Analytical-led biosimilar development."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Biosimilar regulatory thinking."
+    }
+   }
+  },
+  "48fa53a56be3": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "GENFIT highlighted data from earlier studies of nangibotide, a TREM-1 inhibitor, backing its move into acute-on-chronic liver failure, with phase 2 data expected in 2027.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Pipeline update in a liver disease with no approved therapy."
+    }
+   }
+  },
+  "09ea0383fcdd": {
+   "dup": "c845bd57ed92"
+  },
+  "dac5502ed4a0": {
+   "dup": "433e1288b6db"
+  },
+  "d90d13b945d6": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "UCB and Biogen say dapirolizumab pegol produced higher lupus treatment response rates than placebo using a new response measure, in analyses presented at ACR 2026.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Supports a late-stage lupus biologic heading to filing."
+    }
+   }
+  },
+  "df5228a420a1": {
+   "dup": "433e1288b6db"
+  },
+  "066e46572ead": {
+   "drop": true
+  },
+  "f653ed6905d9": {
+   "drop": true
+  },
+  "e7442b30ff5e": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "An analysis suggests plant-based meat and legumes in India can deliver comparable or higher bioavailable protein than meat, an opening for plant protein makers.",
+   "rel": {
+    "agrifood": {
+     "score": 5,
+     "why": "Protein quality case for plant-based foods in India."
+    }
+   }
+  },
+  "0fc7db3fb480": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Researchers found that build-up of the mitochondrial protein Miro1 may drive insulin resistance in type 2 diabetes; removing it restored muscle insulin response in preclinical work, and exercise lowered Miro1 in people.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Possible new target in insulin resistance."
+    }
+   }
+  },
+  "7320ca57e774": {
+   "dup": "902ff4326f37"
+  },
+  "61164f23e3fb": {
+   "drop": true
+  },
+  "62ae8b1c56f0": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "GlycoNex filed its denosumab biosimilar SPD8 with Japan's PMDA, with a decision expected as early as end-2027, and is seeking partners outside Japan.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Another denosumab biosimilar entering Japan."
+    }
+   }
+  },
+  "14b548b754bf": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature editorial warns the developing super El Niño is a health shock as well as a climate one, with food shortages and disease outbreaks expected, and calls for them to be tackled together.",
+   "rel": {
+    "biosecurity": {
+     "score": 5,
+     "why": "Anticipates climate-driven outbreaks."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Public health preparedness."
+    },
+    "agrifood": {
+     "score": 4,
+     "why": "Food shortages from El Niño."
+    }
+   }
+  },
+  "25ceb6beb032": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "UCSF scientists engineered B-SYNC CAR-T cells that switch on only in the brain; they eliminated diffuse midline glioma in every mouse tested.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "Tissue-gated CAR-T design for lethal paediatric brain tumours."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Preclinical oncology."
+    }
+   }
+  },
+  "38f171fe8d85": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "An NEJM trial tested community and emergency medical service interventions to improve survival after out-of-hospital cardiac arrest.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "Evidence on how to organise cardiac arrest response."
+    }
+   }
+  },
+  "11fb62734eb1": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "An NEJM trial compared left bundle-branch pacing with conventional right ventricular pacing in patients with atrioventricular block.",
+   "rel": {
+    "meddevices": {
+     "score": 7,
+     "why": "Head-to-head evidence on pacemaker lead placement."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Affects standard pacing practice."
+    }
+   }
+  },
+  "811ee9cb8ec7": {
+   "drop": true
+  },
+  "54189a74bdb2": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "NEJM published a trial of Lilly's once-weekly retatrutide in adults with knee osteoarthritis pain and obesity.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Extends the triple agonist into osteoarthritis pain."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Obesity-related joint disease is common."
+    }
+   }
   }
  },
  "extra": [
