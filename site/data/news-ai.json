@@ -1,34 +1,33 @@
 {
- "updated": "2026-11-08T13:40:44Z",
+ "updated": "2026-11-09T06:41:15Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-08T06:42:02Z",
+  "date": "2026-11-09T06:41:15Z",
   "points": [
    {
     "sec": "results",
-    "text": "AHA was a day of cardiovascular failures: full Lp(a)HORIZON data in NEJM showed Novartis's pelacarsen sharply cut Lp(a) without reducing heart attacks, strokes or deaths, putting Amgen's and Lilly's Lp(a) drugs under pressure, and Novo's IL-6 antibody ziltivekimab had almost no effect on events in ZEUS. ISCHEMIA-EXTEND, with up to 13 years of follow-up, found early stenting or bypass did not help stable heart patients live longer. At ACR, J&J's oral Icotyde posted phase 3 psoriatic arthritis data and argenx's efgartigimod won in myositis, with an FDA filing planned for necrotizing myopathy.",
+    "text": "Sunday's conference data were mostly positive. Vir's tobevibart plus elebsiran met its primary endpoints in ECLIPSE 1, the first of three pivotal hepatitis D trials, with 44% of patients reaching undetectable virus at week 48. At ACR, T cell resets for autoimmune disease kept coming: CRISPR Therapeutics' off-the-shelf CAR-T zugo-cel got responses in 5 of 6 scleroderma patients and the BCMAxCD3 engager velinotamig produced complete renal responses in lupus, while J&J reported a 73% PSA response with its two-bispecific prostate cancer regimen. This follows AHA's heavy cardiovascular failures for Novartis's pelacarsen and Novo's ziltivekimab.",
     "ids": [
-     "fa299b7eef87",
-     "a6d6ddac6cda",
-     "8c9a6d8b2ff4",
-     "5e2f116d582e"
+     "7c006886f98e",
+     "14f79cbfcb16",
+     "470cf47ba396",
+     "fa299b7eef87"
     ]
    },
    {
     "sec": "science",
-    "text": "A quiet weekend for new papers. Nature's in vivo base editing of ANGPTL3 with durable lipid lowering remains the standout, alongside Science's first clinical chemogenetic gene therapy for epilepsy, and a bioRxiv preprint described a microfluidic sieve that runs single-molecule assays in minutes.",
+    "text": "Nature Medicine published two semaglutide HFpEF papers from AHA showing improved exercise haemodynamics and cardiac structure in obese patients, mechanistic support for GLP-1 drugs in heart failure. Nature's in vivo ANGPTL3 base editing remains the week's standout paper.",
     "ids": [
-     "e2548616f447",
-     "65b4a4a0cd15",
-     "0dc3dcf79e97"
+     "33916032645c",
+     "e2548616f447"
     ]
    },
    {
     "sec": "approvals",
-    "text": "The FDA opened an investigation into a \"serious risk\" of cancer with Novartis's Zolgensma and is weighing action on Zolgensma and Itvisma, a day after Novartis disclosed nine tumour cases, two with signs of vector integration. It is the sharpest regulatory test yet of long-term AAV safety, in a November already crowded with FDA decisions for Summit/Akeso, Capricor and Vertex.",
+    "text": "The FDA gave J&J's subcutaneous Rybrevant Faspro accelerated approval in relapsed head and neck cancer on a 42% response rate, its first use beyond lung cancer. The agency also opened an investigation into a \"serious risk\" of cancer with Novartis's Zolgensma after nine tumour cases, the sharpest test yet of long-term AAV safety, in a November crowded with FDA decisions for Summit/Akeso, Capricor and Vertex.",
     "ids": [
+     "2026-11-05-fda-rybrevant-faspro-head-neck",
      "2e20b989713e",
-     "fa98297baefc",
      "622056b24b7c"
     ]
    },
@@ -42,10 +41,10 @@
    },
    {
     "sec": "money",
-    "text": "Deals stayed quiet into the weekend: Chai Discovery added Roche as an AI drug discovery partner, and InMed closed its merger with Mentari Therapeutics.",
+    "text": "Deals were quiet over the weekend. The main recent moves remain Lilly's branded weight-loss tie-up with Hims & Hers and Chai Discovery adding Roche as an AI drug discovery partner.",
     "ids": [
-     "2845a335803d",
-     "fbc130a12e1b"
+     "a1791b921861",
+     "2845a335803d"
     ]
    },
    {
@@ -18665,6 +18664,127 @@
      "why": "It weighs on valuations of companies developing IL-6 and other inflammation drugs for heart disease."
     }
    }
+  },
+  "dabc4c3d7b09": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Antengene says preclinical data at SITC 2026 for its AnTenGager-D2 costimulatory T cell engager platform showed potent tumour killing with limited off-target T cell activation, led by ATG-109 (KLK2 x CD2 x CD3) for prostate cancer. Animal and cell data only.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Adds a CD2-costimulated design to the crowded T cell engager field, still preclinical."
+    }
+   }
+  },
+  "7d57513f88df": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Immutep says a late-breaking ACR 2026 abstract showed its first-in-class LAG-3 agonist antibody IMP761 produced statistically significant, exposure-dependent inhibition of T-cell-driven immune responses in a phase 1 study.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Early human evidence for LAG-3 agonism as a new route to dampen autoimmune T cells."
+    }
+   }
+  },
+  "a3d82e34179a": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Mineralys says lorundrostat kept office systolic blood pressure 17.8 mmHg below baseline at week 48 in the Transform-HTN open-label extension, which it calls the largest long-term trial of an aldosterone synthase inhibitor, presented at AHA 2026.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Durability data for a drug class (aldosterone synthase inhibitors) competing for resistant hypertension."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Hypertension is common and often uncontrolled despite current drugs."
+    }
+   }
+  },
+  "7c006886f98e": {
+   "cat": "clinical",
+   "imp": 7,
+   "summary": "Vir Biotechnology's once-monthly tobevibart plus elebsiran met its primary endpoints in ECLIPSE 1, the first of three pivotal chronic hepatitis D trials, with 44% of patients reaching undetectable virus at week 48. It sets up competition with Gilead's Hepcludex and Mirum's brelovitug.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "First pivotal win for an antibody plus siRNA combination in hepatitis D, a disease with few options."
+    },
+    "investment": {
+     "score": 6,
+     "why": "A key de-risking event for Vir and a read on the hepatitis D market."
+    }
+   }
+  },
+  "0452c30bba10": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Novo Nordisk says a post hoc analysis presented at AASLD 2026 found semaglutide 2.4 mg improved liver injury, fibrosis and disease activity measures at week 72 versus placebo in adults with MASH and liver scarring whose BMI was below 27.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Supports Wegovy's MASH use beyond obesity, though only as a post hoc subgroup."
+    }
+   }
+  },
+  "04bd3fe62885": {
+   "drop": true
+  },
+  "470cf47ba396": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "Johnson & Johnson says its dual-antigen regimen of two bispecifics, pasritamig (KLK2) and JNJ-9401 (PSMA), produced a 73% PSA response rate with every-six-week dosing in an early study in advanced prostate cancer.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Early sign that combining two T cell engagers can work in prostate cancer, a hard target for immunotherapy."
+    }
+   }
+  },
+  "d0720303897b": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Its developer says the BCMAxCD3 T cell engager velinotamig improved disease activity in 8 of 9 evaluable patients with systemic lupus erythematosus, with complete renal responses, in data presented at ACR 2026.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Adds to evidence that T cell engagers can reset autoimmune disease, rivalling CAR-T in lupus."
+    }
+   }
+  },
+  "14f79cbfcb16": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "CRISPR Therapeutics says 5 of 6 systemic sclerosis patients given its allogeneic CAR-T zugo-cel with standard lymphodepletion had a clinical response at month 3, and all responders kept it, in data presented at ACR 2026.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "Off-the-shelf CAR-T in autoimmune disease is one of the most watched cell therapy bets."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Competition for B cell reset therapies in scleroderma and lupus."
+    }
+   }
+  },
+  "33916032645c": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "A placebo-controlled randomised trial in Nature Medicine, presented at AHA 2026, found semaglutide significantly improved pulmonary artery wedge pressure and other haemodynamics during exercise in obese patients with HFpEF; a companion MRI substudy of CAMEO-SEMA showed improved cardiac structure and function.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Mechanistic evidence for why GLP-1 drugs help HFpEF, supporting the label expansion."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "HFpEF with obesity is common and has few effective treatments."
+    }
+   }
+  },
+  "14640d41d6f2": {
+   "dup": "33916032645c"
   }
  },
  "extra": [
@@ -19300,6 +19420,27 @@
     "bioprocessing": {
      "score": 5,
      "why": "Per-patient manufacturing worked for 99% of patients."
+    }
+   }
+  },
+  {
+   "id": "2026-11-05-fda-rybrevant-faspro-head-neck",
+   "title": "FDA grants accelerated approval to amivantamab and hyaluronidase for previously treated HNSCC",
+   "url": "https://ascopost.com/news/november-2026/fda-grants-accelerated-approval-to-amivantamab-and-hyaluronidase-for-previously-treated-hnscc/",
+   "source": "The ASCO Post",
+   "kind": "news",
+   "published": "2026-11-06T12:00:00Z",
+   "cat": "regulatory",
+   "imp": 7,
+   "summary": "The FDA on 5 November gave accelerated approval to J&J's subcutaneous Rybrevant Faspro (amivantamab) as a single agent for recurrent or metastatic head and neck squamous cell carcinoma that progressed after platinum chemotherapy and a PD-(L)1 antibody, excluding HPV-associated oropharyngeal cancer. In the 102-patient OrigAMI-4 cohort the response rate was 42%, and 56% of responses lasted at least six months.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "First approval for the EGFR-MET bispecific outside lung cancer, in a setting where current options give about 20% response."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "A new option for patients with relapsed head and neck cancer."
     }
    }
   }
