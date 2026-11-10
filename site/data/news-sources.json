@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T06:50:45Z",
+ "updated": "2026-11-10T21:45:00Z",
  "note": "Feeds read by scripts/fetch-news.mjs 4 times a day. kind sets the evidence badge. filter=true keeps only items that mention biotech terms (for broad feeds). status 'trial' = added by Claude, reviewed when trialEnds passes. See NEWS-UPDATING.md.",
  "sources": [
   {
@@ -121,7 +121,7 @@
    "feeds": [],
    "kind": "news",
    "status": "core",
-   "note": "No public feed; covered by Google News and Claude's daily search."
+   "note": "No public feed; the daily review reads its news pages (synbiobeta.com/read and /synthetic-bio-news) when scouting, plus Google News."
   },
   {
    "id": "contractpharma",
@@ -455,7 +455,11 @@
    "biotech funding round OR \"series A\" biotech OR \"series B\" biotech OR biotech IPO",
    "biotech acquisition OR biotech merger OR \"licensing deal\" biotech",
    "biotech policy OR \"national biotechnology strategy\" OR \"bioeconomy\"",
-   "\"protein engineering\" OR \"enzyme engineering\" OR \"directed evolution\" OR \"de novo protein design\""
+   "\"protein engineering\" OR \"enzyme engineering\" OR \"directed evolution\" OR \"de novo protein design\"",
+   "\"industrial biotech\" OR \"industrial biotechnology\" OR biorefinery OR \"bio-based materials\" OR biomaterials startup",
+   "\"engineered microbes\" OR \"metabolic engineering\" OR biofoundry OR \"cell-free\" biomanufacturing",
+   "\"sustainable aviation fuel\" microbes OR \"biological carbon capture\" OR \"enzymatic recycling\" OR \"plastic-eating enzyme\"",
+   "\"precision fermentation\" funding OR plant OR scale-up OR approval"
   ],
   "trustedOutlets": [
    "reuters.com",
@@ -517,7 +521,11 @@
    "fooddive.com",
    "chemistryworld.com",
    "cen.acs.org",
-   "biospectrumasia.com"
+   "biospectrumasia.com",
+   "biofuelsdigest.com",
+   "greenbiz.com",
+   "trellis.net",
+   "canarymedia.com"
   ]
  },
  "log": [
@@ -536,6 +544,10 @@
   {
    "date": "2026-11-01",
    "text": "Added a Google News query for protein and enzyme engineering: the topic was only arriving by chance through The Scientist, GEN and bioRxiv."
+  },
+  {
+   "date": "2026-11-10",
+   "text": "Industrial and sustainable biotech coverage: four new Google News queries (industrial biotech and biomaterials, engineered microbes and biomanufacturing, climate biotech, precision fermentation scale-up), added Biofuels Digest, Trellis (formerly GreenBiz) and Canary Media to the trusted outlets, and SynBioBeta's news pages are now read on every scouting pass."
   }
  ]
 }

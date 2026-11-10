@@ -468,7 +468,7 @@ function filteredNews() {
    first category whose rule it meets. */
 const NSECTIONS = [
   ["results", "Trial results", 2, "Phase 1 to 3 readouts, clinical holds, safety signals and data presented at conferences."],
-  ["science", "Science & discovery", 2, "Journal papers, preprints, lab findings, new mechanisms and research platforms."],
+  ["science", "Science & discovery", 2, "Journal papers, preprints, lab findings, new mechanisms and research platforms. One place is kept for industrial, sustainable, food and bioprocessing work when there is a story worth showing."],
   ["approvals", "Approvals & regulators", 2, "Regulatory decisions, label expansions, recalls, inspections and safety reviews."],
   ["policy", "Policy & pricing", 2, "Legislation, reimbursement and pricing rules, government strategy and trade."],
   ["money", "Deals & money", 2, "Acquisitions, licensing, funding rounds, IPOs and contract awards."],
@@ -476,6 +476,10 @@ const NSECTIONS = [
   ["biodef", "Outbreaks & biosecurity", 2, "Outbreaks, preparedness, biosafety, surveillance and defence programmes."],
 ];
 const relMax = (rel, keys) => Math.max(0, ...keys.map((k) => rel[k]?.score || 0));
+// Non-medical biotech: the story's strongest sector is industrial, fermentation, bioprocessing or agrifood.
+const NONMED = ["industrial", "fermentation", "bioprocessing", "agrifood"];
+const MEDICAL = ["pharma", "healthcare", "meddevices", "cellgene", "diagnostics"];
+const nonMedical = (it) => { const rel = nrel(it); const n = relMax(rel, NONMED); return n >= 5 && n >= relMax(rel, MEDICAL); };
 function nsectionOf(it) {
   const rel = nrel(it), cat = ncat(it);
   if (relMax(rel, ["biosecurity", "defence"]) >= 6) return "biodef";
@@ -498,7 +502,14 @@ function groupedHtml(rows, { capped }) {
   for (const r of rows) if (r.it.reviewed) (by[nsectionOf(r.it)] ||= []).push(r);
   const secs = NSECTIONS.map(([id, name, slots]) => {
     const list = by[id] || [];
-    return { id, name, picks: capped ? list.slice(0, slots) : list, left: capped ? Math.max(0, list.length - slots) : 0 };
+    let picks = capped ? list.slice(0, slots) : list;
+    // Most science in the feed is medical, so one Science & discovery place goes to industrial,
+    // sustainable, food or bioprocessing work when there is a reviewed story worth showing.
+    if (capped && id === "science" && !S.sectors.size && picks.length === slots && !picks.some((r) => nonMedical(r.it))) {
+      const alt = list.slice(slots).find((r) => nonMedical(r.it) && nimp(r.it) >= 3);
+      if (alt) picks = [...picks.slice(0, slots - 1), alt];
+    }
+    return { id, name, picks, left: capped ? Math.max(0, list.length - picks.length) : 0 };
   });
   const shown = secs.reduce((n, sec) => n + sec.picks.length, 0);
   const total = Object.values(by).reduce((n, l) => n + l.length, 0);
@@ -528,7 +539,7 @@ function aboutHtml() {
   return `<div class="panel srcs" style="padding:14px">
     <div><button class="btn" type="button" data-aboutclose>← Back to news</button></div>
     <div><h3>The news screen</h3>
-      <p class="also" style="margin:0 0 8px">Every story is scored by AI for importance to the field and relevance to each sector. Ranking by importance alone gives you mostly drug news, because that is what most of the feed is about. So the news screen sorts stories by what happened to them and gives each category the same two places, filled with its most important stories of the period. Tap a category heading, or its chip in the row above the list, to see every story in that category, ordered by importance or, if you change the order under Filters, newest first. Categories can come up short on a quiet day, which is itself worth knowing, and stories the AI has not reviewed yet are left out until the next review has run.</p>
+      <p class="also" style="margin:0 0 8px">Every story is scored by AI for importance to the field and relevance to each sector. Ranking by importance alone gives you mostly drug news, because that is what most of the feed is about. So the news screen sorts stories by what happened to them and gives each category the same two places, filled with its most important stories of the period. Importance is judged within each story's own field, so a big fermentation or biomanufacturing result can score as high as a big drug result, and one of the two Science &amp; discovery places goes to industrial, sustainable, food or bioprocessing work whenever there is a story worth showing. Tap a category heading, or its chip in the row above the list, to see every story in that category, ordered by importance or, if you change the order under Filters, newest first. Categories can come up short on a quiet day, which is itself worth knowing, and stories the AI has not reviewed yet are left out until the next review has run.</p>
       <p class="also" style="margin:0 0 8px">News categories are what happened, and a story sits in exactly one. Sectors, the chips at the top, are who it matters to, and a story carries as many as apply. A fermentation funding round is in "Deals &amp; money" because that is what happened, and still scores for the fermentation sector because that is who it is about.</p>
       ${NSECTIONS.map(([, name, slots, blurb]) => `<div class="srow"><b>${esc(name)}</b><span class="st">${slots} slot${slots > 1 ? "s" : ""}</span><span class="also">${esc(blurb)}</span></div>`).join("")}
       <div class="srow"><span class="also">A story goes in the first category it fits, with outbreaks and biosecurity taking precedence, so a Lancet paper on an outbreak counts as biosecurity rather than as science.</span></div></div>
