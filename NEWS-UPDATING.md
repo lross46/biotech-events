@@ -83,18 +83,23 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
    Never use content farms, SEO aggregators, anonymous blogs, social media posts or partisan sites. Open the
    page and confirm the facts are there before adding. Skip anything already in `news.json` or `extra`.
 4. **Brief:** set `brief` to `{"date": "<now ISO>", "points": [{"sec": "<section>", "text": "…", "ids": ["<story id>"]}]}`.
-   Write **one point per section**, in the app's order, and leave a section out when nothing in it is worth a
-   paragraph rather than padding it: `results` (trial results), `science` (science & discovery), `approvals`
-   (approvals & regulators), `policy` (policy & pricing), `money` (deals & money), `companies` (companies),
-   `biodef` (outbreaks & biosecurity).
-   Each point is a **summary of that section's day**, not a pointer to its top story: two to four sentences
-   that say what actually happened across the section's stories, led by the most important ones and naming
-   the companies, drugs, regulators and numbers, then folding the rest in as a theme ("a heavy run of deals
-   and financings", "earnings set the tone") instead of listing every headline. Say when a section was quiet.
-   In the `science` point, include an industrial, sustainable, agri-food or bioprocessing finding when there
-   was a notable one, since the app keeps one Science & discovery place for that side of biotech.
-   Put in `ids` the two to four stories the paragraph leans on most, best first; the app turns them into
-   links, so do not add more than four and do not repeat a development in another section's point.
+   The brief is the reader's one-stop summary of the period: someone who reads only the brief should know
+   what happened across the whole field without opening the stories. Write **one point for every section**, in
+   the app's order: `results` (trial results), `science` (science & discovery), `approvals` (approvals &
+   regulators), `policy` (policy & pricing), `money` (deals & money), `companies` (companies), `biodef`
+   (outbreaks & biosecurity). When a section was genuinely quiet, write one short sentence saying so (and what
+   little there was) instead of leaving it out.
+   Each point is a **summary of that section's day**, not a pointer to its top story: three to six sentences
+   (roughly 60–120 words) that say what actually happened across the section's stories. Lead with the most
+   important ones, naming the companies, drugs, regulators and numbers and saying in a clause why each matters
+   or what comes next. Then cover the rest of the section briefly, as short mentions or themes ("a heavy run of
+   China out-licensing deals", "earnings set the tone"), so that nothing notable in the section goes unmentioned.
+   **Spread across sectors:** where a section had notable stories outside drug development (industrial and
+   sustainable biotech, agri-food, fermentation, bioprocessing, research tools, diagnostics, medical devices,
+   AI), mention at least one of them, and in `science` include an industrial, sustainable, agri-food or
+   bioprocessing finding whenever there was a notable one.
+   Put in `ids` the two to six stories the paragraph leans on most, best first; the app turns them into
+   links. Do not repeat a development in another section's point.
 5. **Prune:** delete `items` entries whose id is no longer in `news.json`, and `extra` entries older than 90 days.
 6. **Sources** (`news-sources.json`):
    - Feeds failing: `news.json` → `feeds` shows `error` and `lastOk` per source. For a source failing for 2+ days,
