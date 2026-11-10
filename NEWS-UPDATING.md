@@ -35,9 +35,13 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
      ```json
      {"cat": "deals", "imp": 7, "summary": "…", "rel": {"pharma": {"score": 8, "why": "…"}}}
      ```
-     - `summary`: 1–2 plain sentences on what happened, with the key number (amount, phase, endpoint, date) when
-       there is one. Write only what the source says. If the title and snippet are too thin, open the article
-       (`url`); if it is paywalled, summarise only what is visible and do not guess. For press releases
+     - `summary`: 2–4 plain sentences (about 50–90 words) that let the reader skip the article: what happened
+       and who did it; the key numbers (amount, phase, patients, endpoint and result, dates); and the context
+       that makes it matter (what it follows, how it compares, what happens next, e.g. a decision date or the
+       next trial). Keep a short story short: a minor item can stay at two sentences, and never pad. Write only
+       what the source says. Open the article (`url`) whenever the title and snippet do not carry those facts,
+       which is most of the time for stories you keep; if it is paywalled, summarise only what is visible and
+       do not guess. For press releases
        (`kind: "pr"`) attribute claims ("X says its drug cut…"). For preprints add "Not yet peer-reviewed."
      - `cat`: funding, deals, regulatory, clinical, science, policy, contracts or other.
      - `imp` (0–10): how much this matters **within its own part of biotech**, judged against that field's
