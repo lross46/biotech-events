@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T06:43:05Z",
+ "updated": "2026-11-10T13:41:09Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
   "date": "2026-11-10T06:43:05Z",
@@ -20326,6 +20326,590 @@
      "why": "Points to gait as a multisystem biomarker."
     }
    }
+  },
+  "9c41a513889c": {
+   "drop": true
+  },
+  "39c3eded576e": {
+   "drop": true
+  },
+  "426eb50eff54": {
+   "drop": true
+  },
+  "2cd94d21b408": {
+   "drop": true
+  },
+  "f527076d3597": {
+   "drop": true
+  },
+  "38280df1c81b": {
+   "drop": true
+  },
+  "4190acca4168": {
+   "drop": true
+  },
+  "9797bb165628": {
+   "drop": true
+  },
+  "50ded9b2f1c9": {
+   "drop": true
+  },
+  "44c1147c3507": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "AprilBio's CEO said the Korean company aims to license out three new drug candidates in 2027, before their IND submissions.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Early-stage Korean pipeline being lined up for out-licensing deals."
+    }
+   }
+  },
+  "c7b3710cb8e9": {
+   "drop": true
+  },
+  "cfb1a63e1933": {
+   "drop": true
+  },
+  "c740df8e9aed": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "J2H Biotech says its MASH drug J2H-1702 significantly reduced liver fat versus placebo in a phase 2a trial, presented at The Liver Meeting 2026.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Another mid-stage MASH entrant from Korea in a crowded but valuable field."
+    }
+   }
+  },
+  "c2729f0bfd36": {
+   "drop": true
+  },
+  "d5ba2b8dad2c": {
+   "drop": true
+  },
+  "01461d0ace9e": {
+   "drop": true
+  },
+  "de0cececc0de": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Coherus Oncology is laying off 30% of its workforce again as it narrows its CCR8 antibody programme to oesophageal cancer.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Second deep cut at an oncology biotech refocusing on a single combination."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Signals continued cost-cutting among cash-constrained mid-caps."
+    }
+   }
+  },
+  "963eb6c76738": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "AbCellera has abandoned its OX40-targeting drug, the latest developer to drop the target.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Adds to the list of failed attempts at OX40 in immunology."
+    }
+   }
+  },
+  "d886e03f5af2": {
+   "drop": true
+  },
+  "012d141f1b28": {
+   "drop": true
+  },
+  "59f93cbd8d48": {
+   "cat": "funding",
+   "imp": 3,
+   "summary": "Paulex Bio says it received an NIH Fast-Track grant to advance PAL-119, a candidate designed to regenerate insulin-producing beta cells in type 1 and type 2 diabetes.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Small non-dilutive funding for an early regenerative diabetes programme."
+    }
+   }
+  },
+  "b22977b67d8c": {
+   "drop": true
+  },
+  "3933086b65e1": {
+   "drop": true
+  },
+  "9f9eec2e701c": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "Dyadic Applied BioSolutions, BRIG BIO and Strive Nutrition announced a collaboration to commercialise precision-fermented alpha-lactalbumin for premium nutrition products in the US.",
+   "rel": {
+    "fermentation": {
+     "score": 7,
+     "why": "Precision-fermented dairy protein moving toward US commercial supply."
+    },
+    "agrifood": {
+     "score": 6,
+     "why": "Animal-free whey protein ingredient for nutrition products."
+    }
+   }
+  },
+  "9036d5b562da": {
+   "drop": true
+  },
+  "91be56e235f9": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "iORGANBIO and Mitsui Chemicals announced a collaboration on AI-driven manufacturing of human cells and organoids.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "Scaling organoid production for research and drug testing."
+    },
+    "bioprocessing": {
+     "score": 5,
+     "why": "Automated cell and organoid manufacturing."
+    },
+    "ai": {
+     "score": 4,
+     "why": "AI applied to cell manufacturing processes."
+    }
+   }
+  },
+  "07d73ae36ce1": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "STAT reports PepGen says early trial data show its drug correcting more of the splicing defect behind myotonic dystrophy type 1. Details beyond the headline are paywalled.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Early efficacy signal in a competitive DM1 race."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Oligonucleotide approach to a genetic muscle disease."
+    }
+   }
+  },
+  "5936c0f496a7": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "South Korean cultivated meat startup SeaWith signed an MoU to invest ₩20B ($14.9M) in an industrial-scale Hanwoo beef production facility in Uiseong County's food tech hub.",
+   "rel": {
+    "agrifood": {
+     "score": 7,
+     "why": "Cultivated meat scale-up in Korea."
+    },
+    "bioprocessing": {
+     "score": 5,
+     "why": "Industrial cell-culture production facility."
+    }
+   }
+  },
+  "a9e926fc3173": {
+   "drop": true
+  },
+  "853ab9ae2811": {
+   "drop": true
+  },
+  "864cdb3b2a39": {
+   "drop": true
+  },
+  "44a92b2171a8": {
+   "drop": true
+  },
+  "9af25b7dfa43": {
+   "drop": true
+  },
+  "f05e23fbb1ea": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "Ocugen granted Sydney-based Celairis Therapeutics an exclusive licence to its gene therapy OCU400 for retinitis pigmentosa in Australia, New Zealand and ASEAN.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Regional licensing of a modifier gene therapy for inherited blindness."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Asia-Pacific commercial rights deal."
+    }
+   }
+  },
+  "7a41ab7b5496": {
+   "drop": true
+  },
+  "a7a1b474a443": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "City Therapeutics dosed the first participant in a phase 1 trial of CITY-RBP4 for Stargardt disease.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "New RNAi-based entrant for an inherited retinal disease."
+    }
+   }
+  },
+  "97a1bbdc6bce": {
+   "drop": true
+  },
+  "dfd7416b7850": {
+   "drop": true
+  },
+  "8e8d394f6da8": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Humacyte says third-quarter sales of its bioengineered vessel Symvess were $1.0 million, up 151% on the second quarter.",
+   "rel": {
+    "meddevices": {
+     "score": 4,
+     "why": "Slow but growing uptake of an acellular engineered vessel."
+    }
+   }
+  },
+  "8a23ed946635": {
+   "drop": true
+  },
+  "e0e3f1484b66": {
+   "drop": true
+  },
+  "a4c29fe5164b": {
+   "drop": true
+  },
+  "63604f41f394": {
+   "drop": true
+  },
+  "193da15e099e": {
+   "drop": true
+  },
+  "121bc82fd61d": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Black Diamond says updated phase 2 data for silevertinib in first-line EGFR non-classical-mutation NSCLC were positive and that FDA feedback supports a clear path to potential registration.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Brain-penetrant EGFR inhibitor nearing a registrational plan in lung cancer."
+    }
+   }
+  },
+  "e13a8a540909": {
+   "drop": true
+  },
+  "cd10dbf6af32": {
+   "drop": true
+  },
+  "3ca394c52b7e": {
+   "drop": true
+  },
+  "8c83e9160e9b": {
+   "drop": true
+  },
+  "cd8c832cb0e8": {
+   "drop": true
+  },
+  "0f83e898c321": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "Immunovant's FcRn blocker imeroprubart (IMVT-1402), partnered with HanAll, met the primary endpoint in difficult-to-treat rheumatoid arthritis but missed two secondary disease-activity measures.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Mixed result for a next-generation FcRn antibody in a big autoimmune market."
+    }
+   }
+  },
+  "d441d1d24fad": {
+   "dup": "4db39ac9764e"
+  },
+  "887940c33c6c": {
+   "drop": true
+  },
+  "cef8ee194f82": {
+   "drop": true
+  },
+  "8bfbf230143b": {
+   "drop": true
+  },
+  "bd65063752c7": {
+   "drop": true
+  },
+  "0d77f36830da": {
+   "dup": "7e048cc1e135"
+  },
+  "5e7799f0b2a3": {
+   "dup": "7e048cc1e135"
+  },
+  "5bf7f6a83ec8": {
+   "drop": true
+  },
+  "246f7f7972a1": {
+   "drop": true
+  },
+  "84d30f913752": {
+   "drop": true
+  },
+  "2e57ae234dc0": {
+   "drop": true
+  },
+  "bb508d3394b0": {
+   "dup": "681d9c269d1c"
+  },
+  "2b3dabd970bc": {
+   "cat": "funding",
+   "imp": 5,
+   "summary": "London-based Oyster Therapeutics raised a $60 million series A-2, led by 4BIO Capital, to develop oral degraders that destroy pathogenic forms of the Alzheimer's protein tau.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Targeted protein degradation applied to tau in neurodegeneration."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Sizeable UK early-stage neuroscience round."
+    }
+   }
+  },
+  "a96e38916148": {
+   "dup": "2b3dabd970bc"
+  },
+  "85820de600ff": {
+   "drop": true
+  },
+  "fec5de8b5581": {
+   "cat": "regulatory",
+   "imp": 6,
+   "summary": "Solar Foods received a positive EFSA scientific opinion that its Solein gas-fermented protein is safe, the last step before an EU market authorisation.",
+   "rel": {
+    "agrifood": {
+     "score": 8,
+     "why": "Clears the way for one of the first gas-fermentation proteins in the EU food market."
+    },
+    "fermentation": {
+     "score": 8,
+     "why": "Regulatory milestone for gas fermentation of microbial protein."
+    }
+   }
+  },
+  "672ed3ec5808": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Valneva says its single-dose chikungunya vaccine IXCHIQ kept a 94% seroresponse rate five years after vaccination across the age groups studied.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Long-term durability data for a travel and outbreak vaccine."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Relevant to preparedness for mosquito-borne outbreaks."
+    }
+   }
+  },
+  "cca79901d1c5": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "Korean device maker RF Medical says its Mi-BLATOR microwave ablation system, generator and antennas, received CE marking under the EU MDR.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "EU MDR certification for a minimally invasive ablation device."
+    }
+   }
+  },
+  "bc21dce4d540": {
+   "drop": true
+  },
+  "7e048cc1e135": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "Industry group BIO published a seven-part proposal for keeping the US the global biotech leader, with initiatives to speed drug development and counter China's fast rise; its CEO also argued the case in a STAT opinion piece.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Sets the lobby's agenda for US drug-development policy."
+    },
+    "investment": {
+     "score": 4,
+     "why": "US-China competition shapes where biotech capital goes."
+    },
+    "defence": {
+     "score": 3,
+     "why": "Frames biotech as a strategic national-security race."
+    }
+   }
+  },
+  "3b1ea8dca443": {
+   "drop": true
+  },
+  "a2396903a642": {
+   "drop": true
+  },
+  "4db39ac9764e": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "An Australian-developed therapy intended to halt motor neurone disease progression and repair damaged neural connections is moving into a national phase 2 trial, its developers say.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Early clinical programme in ALS/MND."
+    }
+   }
+  },
+  "b12fb7e81341": {
+   "drop": true
+  },
+  "ce47dabc523b": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "The Scientist reviews research suggesting PFAS contaminating soils worldwide can disrupt microbes and enzymes essential to nutrient cycling, threatening crop productivity.",
+   "rel": {
+    "agrifood": {
+     "score": 5,
+     "why": "Evidence that forever chemicals may harm soil fertility."
+    }
+   }
+  },
+  "e6f6c10d2f89": {
+   "drop": true
+  },
+  "64935e64dbd5": {
+   "drop": true
+  },
+  "eed7a0bd42ef": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "Suzhou Ribo submitted an EU phase 1 trial application for SR122, a dual-targeting GalNAc siRNA for mixed and severe dyslipidaemia.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Chinese siRNA developer expanding cardiometabolic trials into Europe."
+    }
+   }
+  },
+  "02133130c5e8": {
+   "dup": "6bf6f8fa099c"
+  },
+  "b6ede287b2d0": {
+   "dup": "d505f03250cd"
+  },
+  "78d4b6ec0ee0": {
+   "dup": "c4c2c52db28b"
+  },
+  "c4c2c52db28b": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "In Nature Medicine, a blood RNA biomarker called Tu-stroma, tested in 506 people, distinguished early-stage ovarian cancer from benign lesions better than CA125.",
+   "rel": {
+    "diagnostics": {
+     "score": 8,
+     "why": "Candidate liquid-biopsy test for early ovarian cancer that beat the standard marker."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Ovarian cancer is usually caught late."
+    }
+   }
+  },
+  "1ab45fbd1cb4": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature comment argues policymakers should fund the infrastructure needed to deploy mining biotechnologies, such as microbial metal recovery, at scale to secure critical minerals.",
+   "rel": {
+    "industrial": {
+     "score": 7,
+     "why": "Biomining as a route to critical-mineral supply."
+    }
+   }
+  },
+  "c0829aa7c950": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Nature feature on studying people genetically predisposed to Alzheimer's and other dementias who never develop disease, and what their protective genes may reveal.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Resilience genetics as a source of dementia drug targets."
+    }
+   }
+  },
+  "ab3d72baccfa": {
+   "drop": true
+  },
+  "904ab73ad5a6": {
+   "drop": true
+  },
+  "70a34258c5b0": {
+   "drop": true
+  },
+  "3deb7b1d4bee": {
+   "drop": true
+  },
+  "410ca09f4489": {
+   "drop": true
+  },
+  "caadc9523d84": {
+   "drop": true
+  },
+  "fd833d5dd2b4": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "NEJM published a trial of ANGPTL4 inhibition in adults with elevated triglyceride levels. Only the title is visible in the feed.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "New lipid-lowering mechanism tested in humans."
+    }
+   }
+  },
+  "397a63fb3e6a": {
+   "drop": true
+  },
+  "b9d1f57617d4": {
+   "drop": true
+  },
+  "84efd0552499": {
+   "drop": true
+  },
+  "37d9cfd4a55b": {
+   "drop": true
+  },
+  "8a08df9cd676": {
+   "drop": true
+  },
+  "4bf12e40e6af": {
+   "drop": true
+  },
+  "67680c00739f": {
+   "drop": true
+  },
+  "5fb8c04d1a07": {
+   "drop": true
+  },
+  "5ac42c80defb": {
+   "drop": true
+  },
+  "478a890016fe": {
+   "drop": true
+  },
+  "279035c0a6aa": {
+   "drop": true
+  },
+  "829f04874de0": {
+   "drop": true
+  },
+  "11fc0037e315": {
+   "drop": true
+  },
+  "5230c6eb5c03": {
+   "drop": true
+  },
+  "6a9fb5a2dd02": {
+   "drop": true
+  },
+  "9ab3a7718d21": {
+   "drop": true
   }
  },
  "extra": [
