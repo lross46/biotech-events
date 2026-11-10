@@ -159,10 +159,16 @@
    "name": "CIDRAP (University of Minnesota)",
    "home": "https://www.cidrap.umn.edu",
    "feeds": [
-    "https://www.cidrap.umn.edu/rss.xml"
+    "https://www.cidrap.umn.edu/news/50/rss",
+    "https://www.cidrap.umn.edu/news/51/rss",
+    "https://www.cidrap.umn.edu/news/62/rss",
+    "https://www.cidrap.umn.edu/news/49/rss",
+    "https://www.cidrap.umn.edu/news/86/rss",
+    "https://www.cidrap.umn.edu/news/31175/rss"
    ],
    "kind": "news",
-   "status": "core"
+   "status": "core",
+   "note": "Topic feeds: biosecurity issues, bioterrorism, dual-use research, avian flu, pandemic flu, misc emerging topics. The old site-wide rss.xml stopped updating in 2022."
   },
   {
    "id": "defenseone",
@@ -280,6 +286,19 @@
    ],
    "kind": "journal",
    "status": "core"
+  },
+  {
+   "id": "nchembio",
+   "name": "Nature Chemical Biology",
+   "home": "https://www.nature.com/nchembio",
+   "feeds": [
+    "https://www.nature.com/nchembio.rss"
+   ],
+   "kind": "journal",
+   "status": "trial",
+   "added": "2026-11-10",
+   "trialEnds": "2026-11-24",
+   "why": "Enzyme, metabolic-pathway and synthetic-biology papers that rarely arrive through the other journals."
   },
   {
    "id": "natmed",
@@ -548,6 +567,10 @@
   {
    "date": "2026-11-10",
    "text": "Industrial and sustainable biotech coverage: four new Google News queries (industrial biotech and biomaterials, engineered microbes and biomanufacturing, climate biotech, precision fermentation scale-up), added Biofuels Digest, Trellis (formerly GreenBiz) and Canary Media to the trusted outlets, and SynBioBeta's news pages are now read on every scouting pass."
+  },
+  {
+   "date": "2026-11-10",
+   "text": "Fixed CIDRAP: its site-wide feed stopped updating in 2022, so it had been adding nothing; switched to its biosecurity, bioterrorism, dual-use, avian flu, pandemic flu and emerging-topics feeds. Added Nature Chemical Biology on trial for synthetic biology and enzyme engineering papers."
   }
  ]
 }
