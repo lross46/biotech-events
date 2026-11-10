@@ -11,7 +11,7 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
   **Never edit `news.json`**: the fetcher owns it and rewrites it every 6 hours.
 - You own `site/data/news-ai.json` (your review) and maintain `site/data/news-sources.json` (the source list).
 - The readers are the owner and their colleagues: biotech professionals who want to know what changed and why it matters for
-  the 12 sectors below. They asked for **well-evidenced sources only**. Accuracy beats coverage.
+  the 14 sectors below. They asked for **well-evidenced sources only**. Accuracy beats coverage.
 
 ## Steps
 
@@ -40,9 +40,13 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
        (`url`); if it is paywalled, summarise only what is visible and do not guess. For press releases
        (`kind: "pr"`) attribute claims ("X says its drug cut…"). For preprints add "Not yet peer-reviewed."
      - `cat`: funding, deals, regulatory, clinical, science, policy, contracts or other.
-     - `imp` (0–10): how much this matters to the biotech industry as a whole. 9–10: field-changing (major
-       approval or rejection, very large deal, major policy shift, serious outbreak). 7–8: important for a
-       sector. 5–6: notable. 3–4: minor. Below 3: consider dropping.
+     - `imp` (0–10): how much this matters **within its own part of biotech**, judged against that field's
+       own news, not against drug development. A big precision-fermentation scale-up, a biomanufacturing
+       breakthrough or a major synthetic-biology paper scores as high as an equally big drug result would in
+       pharma; do not mark a story down because it is not about medicines, and do not mark a drug story up
+       because pharma is the largest sector. 9–10: field-changing (major approval or rejection, very large
+       deal, major policy shift, serious outbreak, a result that changes what its field can do). 7–8:
+       important for its sector. 5–6: notable. 3–4: minor. Below 3: consider dropping.
      - `rel`: score each sector that applies 0–10 with one specific `why` sentence, exactly as for events
        (9–10 core focus, 7–8 major, 5–6 meaningful, 3–4 some). Omit sectors below 3. Sectors: defence,
        biosecurity, healthcare, meddevices, pharma, cellgene, diagnostics, tools, ai, agrifood, industrial,
@@ -60,6 +64,13 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
 3. **Scout** for important stories from the last 48 hours that the feeds missed. Search the web for each
    sector, and specifically for: Asia-Pacific (China, Japan, Korea, Singapore, India), EU and UK government and
    defence biotech news, biosecurity incidents, company press releases for large deals or trial results.
+   The feeds lean heavily towards drugs, so on every scouting pass also open these news pages and pick up
+   anything important from the last 48 hours on industrial, sustainable and agri-food biotech, synthetic
+   biology and bioprocessing: SynBioBeta (`https://www.synbiobeta.com/read` and
+   `https://www.synbiobeta.com/synthetic-bio-news`; it has no feed), GEN's bioprocessing pages, Green Queen,
+   AgFunderNews and Biofuels Digest. Aim for two or three such stories a day when the news is there.
+   For biosecurity, also check WHO Disease Outbreak News (`https://www.who.int/emergencies/disease-outbreak-news`;
+   its feeds are out of date) and the Bulletin of the Atomic Scientists (its feed blocks automated readers).
    Add at most 15 a day to `extra`, each with every review field plus:
    `id` (lowercase-dashes, e.g. `2026-10-25-acme-buys-bioco`), `title`, `url` (https, the original source),
    `source` (outlet name), `kind`, `published` (ISO date-time).
@@ -76,6 +87,8 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
    that say what actually happened across the section's stories, led by the most important ones and naming
    the companies, drugs, regulators and numbers, then folding the rest in as a theme ("a heavy run of deals
    and financings", "earnings set the tone") instead of listing every headline. Say when a section was quiet.
+   In the `science` point, include an industrial, sustainable, agri-food or bioprocessing finding when there
+   was a notable one, since the app keeps one Science & discovery place for that side of biotech.
    Put in `ids` the two to four stories the paragraph leans on most, best first; the app turns them into
    links, so do not add more than four and do not repeat a development in another section's point.
 5. **Prune:** delete `items` entries whose id is no longer in `news.json`, and `extra` entries older than 90 days.

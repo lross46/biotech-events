@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T06:50:45Z",
+ "updated": "2026-11-10T21:45:00Z",
  "note": "Feeds read by scripts/fetch-news.mjs 4 times a day. kind sets the evidence badge. filter=true keeps only items that mention biotech terms (for broad feeds). status 'trial' = added by Claude, reviewed when trialEnds passes. See NEWS-UPDATING.md.",
  "sources": [
   {
@@ -121,7 +121,7 @@
    "feeds": [],
    "kind": "news",
    "status": "core",
-   "note": "No public feed; covered by Google News and Claude's daily search."
+   "note": "No public feed; the daily review reads its news pages (synbiobeta.com/read and /synthetic-bio-news) when scouting, plus Google News."
   },
   {
    "id": "contractpharma",
@@ -159,10 +159,16 @@
    "name": "CIDRAP (University of Minnesota)",
    "home": "https://www.cidrap.umn.edu",
    "feeds": [
-    "https://www.cidrap.umn.edu/rss.xml"
+    "https://www.cidrap.umn.edu/news/50/rss",
+    "https://www.cidrap.umn.edu/news/51/rss",
+    "https://www.cidrap.umn.edu/news/62/rss",
+    "https://www.cidrap.umn.edu/news/49/rss",
+    "https://www.cidrap.umn.edu/news/86/rss",
+    "https://www.cidrap.umn.edu/news/31175/rss"
    ],
    "kind": "news",
-   "status": "core"
+   "status": "core",
+   "note": "Topic feeds: biosecurity issues, bioterrorism, dual-use research, avian flu, pandemic flu, misc emerging topics. The old site-wide rss.xml stopped updating in 2022."
   },
   {
    "id": "defenseone",
@@ -227,6 +233,36 @@
    "filter": true
   },
   {
+   "id": "ecdc",
+   "name": "European Centre for Disease Prevention and Control (ECDC)",
+   "home": "https://www.ecdc.europa.eu",
+   "feeds": [
+    "https://www.ecdc.europa.eu/en/taxonomy/term/1505/feed",
+    "https://www.ecdc.europa.eu/en/taxonomy/term/1295/feed",
+    "https://www.ecdc.europa.eu/en/taxonomy/term/1310/feed",
+    "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed"
+   ],
+   "kind": "official",
+   "status": "trial",
+   "added": "2026-11-10",
+   "trialEnds": "2026-11-24",
+   "why": "EU outbreak threat reports, risk assessments and epidemiological updates; until now only reached through scouting."
+  },
+  {
+   "id": "cdc",
+   "name": "US Centers for Disease Control and Prevention (CDC)",
+   "home": "https://www.cdc.gov",
+   "feeds": [
+    "https://tools.cdc.gov/api/v2/resources/media/132608.rss"
+   ],
+   "kind": "official",
+   "status": "trial",
+   "added": "2026-11-10",
+   "trialEnds": "2026-11-24",
+   "filter": true,
+   "why": "US outbreak statements and public-health alerts from the CDC newsroom; until now only reached through Google News."
+  },
+  {
    "id": "who",
    "name": "World Health Organization",
    "home": "https://www.who.int",
@@ -234,7 +270,7 @@
    "kind": "official",
    "status": "core",
    "filter": true,
-   "note": "Public feed is out of date; covered by Google News and Claude's daily search."
+   "note": "Public feeds are out of date (news feed stuck in 2020); the daily review checks WHO Disease Outbreak News when scouting, plus Google News."
   },
   {
    "id": "globenewswire",
@@ -280,6 +316,19 @@
    ],
    "kind": "journal",
    "status": "core"
+  },
+  {
+   "id": "nchembio",
+   "name": "Nature Chemical Biology",
+   "home": "https://www.nature.com/nchembio",
+   "feeds": [
+    "https://www.nature.com/nchembio.rss"
+   ],
+   "kind": "journal",
+   "status": "trial",
+   "added": "2026-11-10",
+   "trialEnds": "2026-11-24",
+   "why": "Enzyme, metabolic-pathway and synthetic-biology papers that rarely arrive through the other journals."
   },
   {
    "id": "natmed",
@@ -455,7 +504,11 @@
    "biotech funding round OR \"series A\" biotech OR \"series B\" biotech OR biotech IPO",
    "biotech acquisition OR biotech merger OR \"licensing deal\" biotech",
    "biotech policy OR \"national biotechnology strategy\" OR \"bioeconomy\"",
-   "\"protein engineering\" OR \"enzyme engineering\" OR \"directed evolution\" OR \"de novo protein design\""
+   "\"protein engineering\" OR \"enzyme engineering\" OR \"directed evolution\" OR \"de novo protein design\"",
+   "\"industrial biotech\" OR \"industrial biotechnology\" OR biorefinery OR \"bio-based materials\" OR biomaterials startup",
+   "\"engineered microbes\" OR \"metabolic engineering\" OR biofoundry OR \"cell-free\" biomanufacturing",
+   "\"sustainable aviation fuel\" microbes OR \"biological carbon capture\" OR \"enzymatic recycling\" OR \"plastic-eating enzyme\"",
+   "\"precision fermentation\" funding OR plant OR scale-up OR approval"
   ],
   "trustedOutlets": [
    "reuters.com",
@@ -517,7 +570,11 @@
    "fooddive.com",
    "chemistryworld.com",
    "cen.acs.org",
-   "biospectrumasia.com"
+   "biospectrumasia.com",
+   "biofuelsdigest.com",
+   "greenbiz.com",
+   "trellis.net",
+   "canarymedia.com"
   ]
  },
  "log": [
@@ -536,6 +593,18 @@
   {
    "date": "2026-11-01",
    "text": "Added a Google News query for protein and enzyme engineering: the topic was only arriving by chance through The Scientist, GEN and bioRxiv."
+  },
+  {
+   "date": "2026-11-10",
+   "text": "Industrial and sustainable biotech coverage: four new Google News queries (industrial biotech and biomaterials, engineered microbes and biomanufacturing, climate biotech, precision fermentation scale-up), added Biofuels Digest, Trellis (formerly GreenBiz) and Canary Media to the trusted outlets, and SynBioBeta's news pages are now read on every scouting pass."
+  },
+  {
+   "date": "2026-11-10",
+   "text": "Fixed CIDRAP: its site-wide feed stopped updating in 2022, so it had been adding nothing; switched to its biosecurity, bioterrorism, dual-use, avian flu, pandemic flu and emerging-topics feeds. Added Nature Chemical Biology on trial for synthetic biology and enzyme engineering papers."
+  },
+  {
+   "date": "2026-11-10",
+   "text": "Added ECDC (threat reports, risk assessments, epidemiological updates, news) and the CDC newsroom on trial: official outbreak sources that had only arrived through search."
   }
  ]
 }

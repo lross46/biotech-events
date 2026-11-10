@@ -26,6 +26,12 @@ Live site: https://lross46.github.io/biotech-events/
 - A daily Claude routine follows [NEWS-UPDATING.md](NEWS-UPDATING.md): it summarises and scores new stories,
   drops noise, merges duplicates, finds important stories the feeds missed, writes the daily brief and looks
   after the source list (new sources go on a 2-week trial). Its output is `site/data/news-ai.json`.
+  Importance is scored within each story's own field rather than against drug news, and the review opens
+  SynBioBeta and other industrial-biotech news pages directly because they have no usable feed.
+- The news screen groups stories into seven categories with two places each, ranked by importance. In
+  Science & discovery, one of the two places goes to industrial, sustainable, food or bioprocessing work
+  (a story whose strongest sector is one of those) when a reviewed one is available, because most of the
+  science in the feed is medical.
 - `scripts/build-news.mjs` merges the two at publish time into `news-feed.json` (last 2 weeks, what phones load)
   and `news-feed-archive.json` (up to 90 days). `scripts/check-news.mjs` validates everything first, and the
   daily check fails (emailing the repo owner) if the Claude review hasn't run for more than 2 days.
