@@ -98,8 +98,9 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
    sustainable biotech, agri-food, fermentation, bioprocessing, research tools, diagnostics, medical devices,
    AI), mention at least one of them, and in `science` include an industrial, sustainable, agri-food or
    bioprocessing finding whenever there was a notable one.
-   Put in `ids` the two to six stories the paragraph leans on most, best first; the app turns them into
-   links. Do not repeat a development in another section's point.
+   Put in `ids` the two to six stories the paragraph leans on most, best first. They are kept for reference
+   only: the app does not show links, because the stories are already listed under each category. Do not
+   repeat a development in another section's point.
 5. **Prune:** delete `items` entries whose id is no longer in `news.json`, and `extra` entries older than 90 days.
 6. **Sources** (`news-sources.json`):
    - Feeds failing: `news.json` → `feeds` shows `error` and `lastOk` per source. For a source failing for 2+ days,
