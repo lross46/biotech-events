@@ -160,6 +160,8 @@ function addItem(raw, src, extra = {}) {
   const id = idOf(url);
   const nt = normTitle(raw.title);
   if (byId.has(id) || titles.has(nt)) return false;
+  // Already judged noise or a duplicate and pruned: a feed re-listing it (often undated, so it looks new) must not bring it back.
+  if (ai.items?.[id]?.drop || ai.items?.[id]?.dup) return false;
   const pub = when(raw.date);
   if (now - pub > MAX_AGE_NEW * 864e5) return false;
   const text = `${raw.title} ${raw.body}`;
