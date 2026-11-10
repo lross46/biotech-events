@@ -69,6 +69,8 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
    biology and bioprocessing: SynBioBeta (`https://www.synbiobeta.com/read` and
    `https://www.synbiobeta.com/synthetic-bio-news`; it has no feed), GEN's bioprocessing pages, Green Queen,
    AgFunderNews and Biofuels Digest. Aim for two or three such stories a day when the news is there.
+   For biosecurity, also check WHO Disease Outbreak News (`https://www.who.int/emergencies/disease-outbreak-news`;
+   its feeds are out of date) and the Bulletin of the Atomic Scientists (its feed blocks automated readers).
    Add at most 15 a day to `extra`, each with every review field plus:
    `id` (lowercase-dashes, e.g. `2026-10-25-acme-buys-bioco`), `title`, `url` (https, the original source),
    `source` (outlet name), `kind`, `published` (ISO date-time).

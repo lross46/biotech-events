@@ -233,6 +233,36 @@
    "filter": true
   },
   {
+   "id": "ecdc",
+   "name": "European Centre for Disease Prevention and Control (ECDC)",
+   "home": "https://www.ecdc.europa.eu",
+   "feeds": [
+    "https://www.ecdc.europa.eu/en/taxonomy/term/1505/feed",
+    "https://www.ecdc.europa.eu/en/taxonomy/term/1295/feed",
+    "https://www.ecdc.europa.eu/en/taxonomy/term/1310/feed",
+    "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed"
+   ],
+   "kind": "official",
+   "status": "trial",
+   "added": "2026-11-10",
+   "trialEnds": "2026-11-24",
+   "why": "EU outbreak threat reports, risk assessments and epidemiological updates; until now only reached through scouting."
+  },
+  {
+   "id": "cdc",
+   "name": "US Centers for Disease Control and Prevention (CDC)",
+   "home": "https://www.cdc.gov",
+   "feeds": [
+    "https://tools.cdc.gov/api/v2/resources/media/132608.rss"
+   ],
+   "kind": "official",
+   "status": "trial",
+   "added": "2026-11-10",
+   "trialEnds": "2026-11-24",
+   "filter": true,
+   "why": "US outbreak statements and public-health alerts from the CDC newsroom; until now only reached through Google News."
+  },
+  {
    "id": "who",
    "name": "World Health Organization",
    "home": "https://www.who.int",
@@ -240,7 +270,7 @@
    "kind": "official",
    "status": "core",
    "filter": true,
-   "note": "Public feed is out of date; covered by Google News and Claude's daily search."
+   "note": "Public feeds are out of date (news feed stuck in 2020); the daily review checks WHO Disease Outbreak News when scouting, plus Google News."
   },
   {
    "id": "globenewswire",
@@ -571,6 +601,10 @@
   {
    "date": "2026-11-10",
    "text": "Fixed CIDRAP: its site-wide feed stopped updating in 2022, so it had been adding nothing; switched to its biosecurity, bioterrorism, dual-use, avian flu, pandemic flu and emerging-topics feeds. Added Nature Chemical Biology on trial for synthetic biology and enzyme engineering papers."
+  },
+  {
+   "date": "2026-11-10",
+   "text": "Added ECDC (threat reports, risk assessments, epidemiological updates, news) and the CDC newsroom on trial: official outbreak sources that had only arrived through search."
   }
  ]
 }
