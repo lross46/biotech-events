@@ -3,7 +3,24 @@
  "updated": "2026-11-09",
  "lastGapCheck": null,
  "lastOrganiserCheck": null,
- "leads": [],
+ "leads": [
+  {
+   "name": "Society for Neuro-Oncology (SNO) 2026 Annual Meeting",
+   "dates": null,
+   "city": null,
+   "url": "https://www.prnewswire.com/news-releases/myosin-therapeutics-to-attend-society-for-neuro-oncology-2026-annual-meeting-302933201.html",
+   "source": "PR Newswire",
+   "added": "2026-11-10"
+  },
+  {
+   "name": "Clinical Trials on Alzheimer's Disease (CTAD) 2026",
+   "dates": null,
+   "city": null,
+   "url": "https://www.globenewswire.com/news-release/2026/11/09/3398388/0/en/nkgen-biotech-to-present-long-term-follow-up-of-troculeucel-in-moderate-alzheimer-s-disease-at-ctad-2026.html",
+   "source": "GlobeNewswire",
+   "added": "2026-11-10"
+  }
+ ],
  "candidates": [],
  "dismissed": [
   {
