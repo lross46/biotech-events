@@ -1,30 +1,32 @@
 {
- "updated": "2026-11-11T06:45:26Z",
+ "updated": "2026-11-11T13:41:50Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-11T06:45:26Z",
+  "date": "2026-11-11T13:41:50Z",
   "points": [
    {
     "sec": "results",
-    "text": "Beam Therapeutics' base-edited cell therapy risto-cel met its primary endpoint, freedom from severe pain crises, in the pivotal BEACON trial in 31 sickle cell patients. Beam plans to file by the end of 2026, which would be the first application for a base-editing medicine, setting up a contest with Casgevy and Lyfgenia. PepGen's shares more than doubled after its oligonucleotide corrected splicing by 46.5% on average in six myotonic dystrophy patients, ahead of Novartis' and Dyne's rivals, though the study is tiny. Mirum's brelovitug won a second pivotal hepatitis D trial, putting it in a race with Vir and Gilead. ImmunityBio's Anktiva beat BCG alone in front-line bladder cancer, yet its stock fell 20% because it gave no numbers. J&J's Caplyta won again in bipolar mania. Altimmune is taking its alcohol-use-disorder data to the FDA in December, and Ossium performed the first marrow transplant from a deceased donor for a non-cancer disease.",
+    "text": "Beam Therapeutics' base-edited cell therapy risto-cel met its primary endpoint, freedom from severe pain crises, in the pivotal BEACON trial in 31 sickle cell patients. Beam plans to file by the end of 2026, which would be the first application for a base-editing medicine, setting up a contest with Casgevy and Lyfgenia. PepGen's shares more than doubled after its oligonucleotide corrected splicing by 46.5% on average in six myotonic dystrophy patients, ahead of Novartis' and Dyne's rivals, though the study is tiny. Mirum's brelovitug won a second pivotal hepatitis D trial, putting it in a race with Vir and Gilead. ImmunityBio's Anktiva beat BCG alone in front-line bladder cancer, yet its stock fell 20% because it gave no numbers. J&J's Caplyta won again in bipolar mania. Altimmune is taking its alcohol-use-disorder data to the FDA in December, and Ossium performed the first marrow transplant from a deceased donor for a non-cancer disease. Later in the day Amgen detailed its Phase 3 OASIZ-301 win for dazodalibep in 648 Sjögren's patients at ACR: both doses cut disease activity more than placebo at 48 weeks and the monthly dose eased dryness, setting up a race with Novartis' ianalumab.",
     "ids": [
      "4e101dd3fce5",
      "51dfdd03461e",
      "9e7b52acab20",
      "b7b230bcd6f3",
-     "cbb1f7f741c1"
+     "cbb1f7f741c1",
+     "7ef90733f454"
     ]
    },
    {
     "sec": "science",
-    "text": "Industrial biotech had a good day. Solar Foods' gas-fermented protein Solein got a positive EFSA safety opinion, the last scientific step before EU authorisation. Nature Biotechnology highlighted two papers: proteases designed from scratch, which could serve as biocatalysts as well as drugs, and a two-layer genetic approach to herbicide tolerance in crops. Nature Chemical Biology worked out how polyene antifungals are tailored during biosynthesis, a possible route to safer versions made by fermentation. In bioprocessing, a hybrid model now predicts lactate build-up in cell culture. Science questioned the genetic data of a prolific pathogen-surveillance group, and UK Biobank is adding immune and brain data layers.",
+    "text": "Industrial biotech had a good day. Solar Foods' gas-fermented protein Solein got a positive EFSA safety opinion, the last scientific step before EU authorisation. Nature Biotechnology highlighted two papers: proteases designed from scratch, which could serve as biocatalysts as well as drugs, and a two-layer genetic approach to herbicide tolerance in crops. Nature Chemical Biology worked out how polyene antifungals are tailored during biosynthesis, a possible route to safer versions made by fermentation. In bioprocessing, a hybrid model now predicts lactate build-up in cell culture. Science questioned the genetic data of a prolific pathogen-surveillance group, and UK Biobank is adding immune and brain data layers. A Nature editorial urged using agricultural biotech, from drought-tolerant crops to low-methane rice, against climate change and biodiversity loss.",
     "ids": [
      "fec5de8b5581",
      "e8dbbd1273e1",
      "c623b4c67137",
      "493169b378d2",
      "5f1739f8e15d",
-     "be259c2775a0"
+     "be259c2775a0",
+     "5459c3a70776"
     ]
    },
    {
@@ -21546,6 +21548,901 @@
     "fermentation": {
      "score": 4,
      "why": "Polyenes are made by fermentation."
+    }
+   }
+  },
+  "263a3f3caf04": {
+   "drop": true
+  },
+  "c06249d0f1f9": {
+   "drop": true
+  },
+  "0a7727272bd4": {
+   "drop": true
+  },
+  "31f90572bb62": {
+   "drop": true
+  },
+  "90b7738a4dd2": {
+   "drop": true
+  },
+  "d2ef87f27245": {
+   "drop": true
+  },
+  "62ece1fb1145": {
+   "dup": "74efa911c983"
+  },
+  "6d1395921e8d": {
+   "drop": true
+  },
+  "3732e49884d7": {
+   "dup": "901dde8315bc"
+  },
+  "b9500893b772": {
+   "drop": true
+  },
+  "59eee1a2b0f8": {
+   "drop": true
+  },
+  "823a941e430f": {
+   "drop": true
+  },
+  "ad6ee4ccb870": {
+   "drop": true
+  },
+  "2295e487e6f4": {
+   "drop": true
+  },
+  "ef9ba27c2ff5": {
+   "drop": true
+  },
+  "3a9889930947": {
+   "drop": true
+  },
+  "afd0701cd08f": {
+   "drop": true
+  },
+  "571e78b8fded": {
+   "drop": true
+  },
+  "90ae09a68dbe": {
+   "drop": true
+  },
+  "5246fefac267": {
+   "drop": true
+  },
+  "bf2221685f97": {
+   "drop": true
+  },
+  "a57c011ff8db": {
+   "dup": "a2d74786959d"
+  },
+  "778efc66af45": {
+   "dup": "aec57b25a39d"
+  },
+  "a7585686b1f1": {
+   "drop": true
+  },
+  "3149d03a8533": {
+   "drop": true
+  },
+  "406efb4ccd97": {
+   "drop": true
+  },
+  "0c8b7772aa37": {
+   "drop": true
+  },
+  "de378bd9b2f1": {
+   "drop": true
+  },
+  "b1f91e2bed35": {
+   "drop": true
+  },
+  "c56bb8489036": {
+   "drop": true
+  },
+  "3a458770f73e": {
+   "drop": true
+  },
+  "2d639432b9b6": {
+   "dup": "3317678000ad"
+  },
+  "9c3b3b90d515": {
+   "drop": true
+  },
+  "fefe3c61501e": {
+   "drop": true
+  },
+  "0bab44666b06": {
+   "drop": true
+  },
+  "4a9bb134f643": {
+   "drop": true
+  },
+  "3b61ce971316": {
+   "drop": true
+  },
+  "10b7c9853aa8": {
+   "drop": true
+  },
+  "d425b2decfdd": {
+   "drop": true
+  },
+  "8c16361fe1c4": {
+   "drop": true
+  },
+  "addde7e604f0": {
+   "drop": true
+  },
+  "aea6ac98fb56": {
+   "drop": true
+  },
+  "edfcf2d46be0": {
+   "drop": true
+  },
+  "e85489238062": {
+   "drop": true
+  },
+  "b76c2e527e26": {
+   "drop": true
+  },
+  "f9064ac08a11": {
+   "drop": true
+  },
+  "6562f44c43d2": {
+   "drop": true
+  },
+  "c4e455b2cbd6": {
+   "drop": true
+  },
+  "1ef31cc72eed": {
+   "dup": "68d06e5a1880"
+  },
+  "a4bb5d0dea28": {
+   "drop": true
+  },
+  "993af5abba18": {
+   "drop": true
+  },
+  "fe1c642e4b59": {
+   "drop": true
+  },
+  "a28b44840214": {
+   "drop": true
+  },
+  "aa20f4b54bcf": {
+   "drop": true
+  },
+  "ed33244b864b": {
+   "drop": true
+  },
+  "194951348aa8": {
+   "drop": true
+  },
+  "fbdaf94c56a3": {
+   "drop": true
+  },
+  "069c739ea154": {
+   "drop": true
+  },
+  "b1914a1cde22": {
+   "drop": true
+  },
+  "67cdea65efb0": {
+   "drop": true
+  },
+  "5b75e6344218": {
+   "drop": true
+  },
+  "d7163bd55a11": {
+   "drop": true
+  },
+  "ba8c3f3a4ebb": {
+   "drop": true
+  },
+  "c95c22b6d2f1": {
+   "drop": true
+  },
+  "71eca52e01d8": {
+   "drop": true
+  },
+  "6b20e0ff5133": {
+   "dup": "29847b25d9e9"
+  },
+  "ab9b25b62f91": {
+   "dup": "8937d08a28c4"
+  },
+  "759ba645ab4c": {
+   "drop": true
+  },
+  "1d1d3181dd88": {
+   "dup": "29847b25d9e9"
+  },
+  "f8ab24ff69f3": {
+   "drop": true
+  },
+  "b6a9c09a65ff": {
+   "dup": "29847b25d9e9"
+  },
+  "8ca356fb5611": {
+   "drop": true
+  },
+  "b643280ccef5": {
+   "dup": "29847b25d9e9"
+  },
+  "1db02bb84242": {
+   "drop": true
+  },
+  "4271720be6aa": {
+   "dup": "29847b25d9e9"
+  },
+  "533254bf72a0": {
+   "drop": true
+  },
+  "02866995c420": {
+   "drop": true
+  },
+  "84989ed6e3be": {
+   "dup": "968fa55817bc"
+  },
+  "fb46ca08dc69": {
+   "dup": "5ec798453c55"
+  },
+  "f3b60d7b1eb8": {
+   "drop": true
+  },
+  "281799db0744": {
+   "drop": true
+  },
+  "9476cd1bccd9": {
+   "drop": true
+  },
+  "d96c3d72332f": {
+   "dup": "68d06e5a1880"
+  },
+  "380bdc148580": {
+   "drop": true
+  },
+  "bbbbe4de29cb": {
+   "drop": true
+  },
+  "119f813263ad": {
+   "drop": true
+  },
+  "fc41d5897760": {
+   "drop": true
+  },
+  "52a1a41692d3": {
+   "drop": true
+  },
+  "1d3e416b901b": {
+   "drop": true
+  },
+  "1f5a8618fadd": {
+   "drop": true
+  },
+  "2007990be77f": {
+   "drop": true
+  },
+  "ce56a1baac95": {
+   "drop": true
+  },
+  "65a3d15207c3": {
+   "drop": true
+  },
+  "1e1d7c71001a": {
+   "drop": true
+  },
+  "b474dc8610b2": {
+   "drop": true
+  },
+  "64345550e8c0": {
+   "drop": true
+  },
+  "e3272ab7ca7c": {
+   "drop": true
+  },
+  "68ff61d3daa0": {
+   "drop": true
+  },
+  "49fa3a42ca6f": {
+   "dup": "004dfe9fab63"
+  },
+  "84934324676b": {
+   "drop": true
+  },
+  "69724cc3cbbc": {
+   "drop": true
+  },
+  "0d8ad6439ccc": {
+   "drop": true
+  },
+  "6bdb991e819d": {
+   "drop": true
+  },
+  "e3b77d178a2e": {
+   "drop": true
+  },
+  "260e5d47fbc8": {
+   "drop": true
+  },
+  "3986a34860d2": {
+   "drop": true
+  },
+  "d873090f37e1": {
+   "drop": true
+  },
+  "bee145658115": {
+   "drop": true
+  },
+  "158666c7a795": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "Korea's Ministry of Food and Drug Safety has proposed raising some drug approval fees to 6.1 times their current level, with the extra revenue earmarked for its review staff. Drugmakers have asked for lower fees on simultaneous applications covering several strengths of the same drug.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Higher Korean review fees raise the cost of filing drugs in Korea."
+    }
+   }
+  },
+  "e91f9213b567": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "Korea pledged on Wednesday to raise strategic investment in biotechnology and work more closely with industry to reduce reliance on foreign technology. Officials called the global race for biotech leadership a 'war without gunfire'.",
+   "rel": {
+    "investment": {
+     "score": 4,
+     "why": "Signals more Korean state money for biotech."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Korean industrial policy aimed at domestic drug and bio capacity."
+    }
+   }
+  },
+  "c2e8245dae06": {
+   "drop": true
+  },
+  "ba32f14ce575": {
+   "drop": true
+  },
+  "91c235ffe0b8": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A small study by Korea University Guro Hospital and the University of Auckland found that PET/CT scans and immune-cell analysis may help predict whether lung cancer patients will have residual cancer after preoperative immunotherapy.",
+   "rel": {
+    "diagnostics": {
+     "score": 4,
+     "why": "Imaging and immune markers to predict response to neoadjuvant immunotherapy."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Could guide who benefits from preoperative checkpoint inhibitors."
+    }
+   }
+  },
+  "50491bbcba29": {
+   "drop": true
+  },
+  "661a42a1d9d9": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "KIST researchers built a human muscle-on-chip that combines muscle tissue, motor neurons and blood-vessel cells. It reproduces key muscle responses to repeated nerve stimulation and to high glucose, offering a lab model for exercise and metabolic-disease research.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "Organ-on-chip model for muscle and metabolic disease research."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Possible preclinical model for muscle and metabolic drugs."
+    }
+   }
+  },
+  "9db7b63ddc38": {
+   "drop": true
+  },
+  "e046df29f3cc": {
+   "drop": true
+  },
+  "233c6e7d3173": {
+   "drop": true
+  },
+  "8443cb7a4da9": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Capricor and NextCure disclosed recent layoffs. Capricor is preparing for an FDA decision on its cell therapy deramiocel, and NextCure for a merger.",
+   "rel": {
+    "cellgene": {
+     "score": 3,
+     "why": "Capricor trims staff ahead of a cell-therapy approval decision."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Small-biotech cost cutting."
+    }
+   }
+  },
+  "7ef90733f454": {
+   "cat": "clinical",
+   "imp": 7,
+   "summary": "Amgen presented full Phase 3 OASIZ-301 data for dazodalibep, a CD40L blocker, in 648 Sjögren's patients at ACR. Both doses met the primary endpoint, cutting ESSDAI disease activity by 1.4–1.8 points more than placebo at week 48 (p≤0.01), and the monthly dose also eased dryness. Safety was balanced. The data set up a contest with Novartis's ianalumab; Amgen gave no filing date and a second Phase 3 is ongoing.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Phase 3 win in Sjögren's, a large autoimmune market with no approved disease-modifying drug."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Could give Sjögren's patients a first systemic treatment."
+    }
+   }
+  },
+  "efdcb1e4a391": {
+   "dup": "7ef90733f454"
+  },
+  "7e8e0930474d": {
+   "cat": "funding",
+   "imp": 5,
+   "summary": "VectorY Therapeutics added €74.5 million ($83.5 million) to its Series A. The money funds the PIONEER-ALS trial of VTx-002, an AAV gene therapy that makes a TDP-43-targeting antibody inside the brain. Investors are not named in the visible text.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Vectorised-antibody gene therapy for ALS."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Sizeable Series A extension for a European gene-therapy biotech."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "New ALS approach targeting TDP-43."
+    }
+   }
+  },
+  "50c20297ef64": {
+   "drop": true
+  },
+  "c4d725882ea2": {
+   "drop": true
+  },
+  "ddaccbf8fa57": {
+   "drop": true
+  },
+  "09b7fb8749a0": {
+   "drop": true
+  },
+  "57c7f68c7c0c": {
+   "drop": true
+  },
+  "7ed5b2ecdfec": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Actinium Pharmaceuticals says it has started enrolling the RADIANZ imaging trial of ATNM-400, a radiotherapy targeting HER3, to show the target across several solid tumours beyond prostate cancer.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Radiopharmaceutical expanding beyond prostate cancer."
+    },
+    "diagnostics": {
+     "score": 3,
+     "why": "Imaging study to select patients."
+    }
+   }
+  },
+  "370b32c065e0": {
+   "drop": true
+  },
+  "12d8d58ca412": {
+   "drop": true
+  },
+  "ce8bed622ffe": {
+   "drop": true
+  },
+  "55e477d7650d": {
+   "drop": true
+  },
+  "66d4e3ad762b": {
+   "drop": true
+  },
+  "4008870db04e": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Shanghai's Immunofoco presented at SITC 2026 a way to deliver T-cell engagers in vivo with lentiviral vectors, developed with Renji and Shanghai East hospitals. The company says this lets patients' own cells make the bispecific antibody instead of receiving it by infusion. Preclinical; no patient data given.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "In vivo gene delivery of a T-cell engager."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Alternative to repeated bispecific infusions."
+    }
+   }
+  },
+  "8104916bc151": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "ECDC and Italy's ISS are training 40 national epidemiologists in Rome ahead of next year's rollout of Epi+, a multilingual event-based surveillance platform for detecting emerging public-health threats, in nine pilot countries.",
+   "rel": {
+    "biosecurity": {
+     "score": 5,
+     "why": "New EU early-warning system for outbreaks."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Public-health surveillance infrastructure."
+    }
+   }
+  },
+  "d9624e659f31": {
+   "drop": true
+  },
+  "153d98820b1f": {
+   "drop": true
+  },
+  "467742381bc2": {
+   "drop": true
+  },
+  "b4bb6067f03d": {
+   "drop": true
+  },
+  "570078ed6994": {
+   "drop": true
+  },
+  "87dbe56c7fa4": {
+   "drop": true
+  },
+  "19ec27122fcb": {
+   "drop": true
+  },
+  "6dbce42a1d90": {
+   "drop": true
+  },
+  "45ffe83d9da1": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "NRx Pharmaceuticals says it has started selling its newly FDA-approved, US-made preservative-free ketamine amid a long-running shortage of the drug.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "US-made supply for a drug in shortage."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Eases ketamine shortage for hospitals."
+    }
+   }
+  },
+  "c644d06cae3f": {
+   "drop": true
+  },
+  "38d6dc4588bf": {
+   "drop": true
+  },
+  "396487577b2f": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Nkarta says 40 patients across five autoimmune diseases have received its allogeneic CD19 CAR-NK therapy NKX019, with no cytokine release syndrome, no neurotoxicity and no treatment-related discontinuations. Grade 3+ events (35%) were mostly blood-count drops from lymphodepletion. No efficacy data were given; myositis and systemic sclerosis are the lead indications.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Clean safety for off-the-shelf CAR-NK in autoimmune disease."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Cell therapy moving into autoimmunity."
+    }
+   }
+  },
+  "b3c2cdb97cfd": {
+   "drop": true
+  },
+  "10d62a5b6621": {
+   "drop": true
+  },
+  "f9eeea0a03f3": {
+   "drop": true
+  },
+  "c8eceeb06c46": {
+   "dup": "bc8780b60714"
+  },
+  "217fc130cc6e": {
+   "dup": "bc8780b60714"
+  },
+  "d857bb7865a5": {
+   "drop": true
+  },
+  "be4870686e3e": {
+   "drop": true
+  },
+  "d3f5f096a9bb": {
+   "drop": true
+  },
+  "51877b038b9f": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Korea's MFDS is considering broader safety warnings for 38 GLP-1 obesity and diabetes products after the US FDA required warnings about NAION, a rare eye condition that can cause permanent vision loss.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "GLP-1 label safety changes spreading beyond the US."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Patient safety warning for widely used drugs."
+    }
+   }
+  },
+  "e96cf2cb6400": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "STAT obtained blanket ethics waivers granted to every member of the US Preventive Services Task Force. Waived conflicts include pharma and device stock holdings, two members' private medical practices and university employment, with newer members appearing more conflicted. The panel's recommendations decide which preventive services insurers must cover. Paywalled beyond this.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "Conflicts on the panel that sets US preventive-care coverage."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Members hold pharma stock."
+    }
+   }
+  },
+  "57d44b9dc5b8": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "A European Vegetarian Union report finds 12 of 27 EU states tax at least one plant-based product at a higher VAT rate than its animal equivalent, and none taxes them lower. Gaps are widest in Hungary (27% vs 5%) and Italy (22% vs 4% on plant milks), adding up to about 20% to shelf prices. Retailers pricing at parity saw sales jump, such as Lidl Germany +30%.",
+   "rel": {
+    "agrifood": {
+     "score": 7,
+     "why": "Tax policy directly shaping alternative-protein prices in Europe."
+    },
+    "fermentation": {
+     "score": 4,
+     "why": "Affects demand for fermentation-derived dairy and meat alternatives."
+    }
+   }
+  },
+  "65c5d0bb313f": {
+   "drop": true
+  },
+  "b6e6836113cf": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Abbott won FDA approval and a CE Mark for its UltiSynq defibrillation lead, designed to deliver both conduction-system pacing and defibrillation from a single implanted lead.",
+   "rel": {
+    "meddevices": {
+     "score": 6,
+     "why": "New ICD lead combining physiological pacing and defibrillation."
+    }
+   }
+  },
+  "c01bffaa8bad": {
+   "drop": true
+  },
+  "f319226f7f17": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Elypta says a urine test measuring three glycosaminoglycans, plus standard risk factors, predicted five-year cancer risk in 5,436 adults from the Dutch Lifelines cohort, published in Cancer Epidemiology, Biomarkers & Prevention. The high-risk group (13–23% of people) held 54% of cancers, doing best for unscreened cancers such as pancreatic and kidney. The study was retrospective and company-sponsored; prospective validation is needed.",
+   "rel": {
+    "diagnostics": {
+     "score": 6,
+     "why": "Urine biomarker for multi-cancer risk stratification."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Could target screening at high-risk people."
+    }
+   }
+  },
+  "4f7e295824c9": {
+   "drop": true
+  },
+  "b0d193d4f033": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "BioSpace reports biotech leaders warning that without US action on China's fast-growing biotech innovation, the US industry faces a 'Rust Belt' future. Only the headline was available to review.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "US–China competition for drug innovation."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Shapes where biotech capital flows."
+    }
+   }
+  },
+  "1870a36db372": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "IASO Bio's IASO208, a CD20-directed in vivo CAR-T delivered by lentiviral vector without apheresis or chemotherapy conditioning, won Chinese IND approval via the 30-day fast track, after a US IND cleared in September. IASO says it is the first Chinese lentiviral in vivo CAR-T cleared by the FDA; a Phase Ib in lymphoma will start in the US. 11 patients have been dosed in China, with data due at ASH.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "In vivo CAR-T advancing in both the US and China."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Chinese biotech running trials directly in the US."
+    }
+   }
+  },
+  "810eb696bd16": {
+   "drop": true
+  },
+  "218a62a465dd": {
+   "drop": true
+  },
+  "bf3d564f779c": {
+   "drop": true
+  },
+  "fb60166c51c6": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "The Scientist describes a structure-agnostic AI model that predicts protein–drug interactions across the human proteome without needing protein structures, which could widen the targets open to drug discovery.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "AI model for proteome-wide drug–target prediction."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Could find targets lacking structures."
+    }
+   }
+  },
+  "7877496c3b30": {
+   "drop": true
+  },
+  "69b1b33fe7c4": {
+   "drop": true
+  },
+  "8e2d9cd3d011": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A study summarised by ScienceDaily finds each mosquito species is attracted to its own mix of human skin odours, chemicals and bacteria, rather than to a universal 'mosquito magnet', which could lead to better repellents.",
+   "rel": {
+    "biosecurity": {
+     "score": 3,
+     "why": "Vector control for mosquito-borne disease."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Could improve repellents."
+    }
+   }
+  },
+  "ff78c8038ff9": {
+   "drop": true
+  },
+  "5acb8bb3bf3d": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "In a blind taste test, a blended burger of 42% beef and a clean-label pea-protein texturiser from Israeli start-up Meala was rated no different in flavour from an all-beef burger, Green Queen reports.",
+   "rel": {
+    "agrifood": {
+     "score": 5,
+     "why": "Plant protein ingredient for blended meat products."
+    }
+   }
+  },
+  "832112093f73": {
+   "drop": true
+  },
+  "b91d9f8a828e": {
+   "dup": "5dd773bf975f"
+  },
+  "91df05e9ec11": {
+   "dup": "e7dd0306130a"
+  },
+  "2c43d49ce44e": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature Chemical Biology News & Views highlights work repurposing an FDA-approved small molecule as a ligand for receptor-mediated transport across the blood–brain barrier, an alternative to protein ligands whose receptors are found throughout the body.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "New route for delivering biologics into the brain."
+    }
+   }
+  },
+  "ae34ea1df36e": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Nature Chemical Biology reports FlAsH-ID, a live-cell photoproximity labelling method that uses a short peptide tag instead of the large enzyme fusions of standard proximity labelling, which can disturb protein interactions.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "Smaller-tag method for mapping protein neighbourhoods in live cells."
+    }
+   }
+  },
+  "e7dd0306130a": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Nature Chemical Biology reports a small molecule that selectively blocks complex-bound HDAC1/2 as a product inhibitor, boosting WNT signalling and revealing a new way to make HDAC inhibitors complex-selective.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "New mechanism for selective HDAC inhibition."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Chemical probe for WNT and chromatin biology."
+    }
+   }
+  },
+  "5dd773bf975f": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Using ancestral protein reconstruction, calorimetry and structures, a Nature Chemical Biology study shows that LacI/GalR transcription factors evolved entropy-driven ligand binding under Earth's ancient high temperatures. It links planetary history to proteins' basic thermodynamics, relevant to designing thermostable binders.",
+   "rel": {
+    "industrial": {
+     "score": 4,
+     "why": "Insight into protein thermostability for enzyme and sensor design."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Basic protein-engineering knowledge."
+    }
+   }
+  },
+  "5459c3a70776": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "A Nature editorial argues agricultural biotechnology, once opposed by environmentalists, should now be used to curb climate change and biodiversity loss, with safeguards. It cites drought-tolerant crops approved in Argentina, China and the US, a way to cut rice methane (about 9% of human methane), and the EU's June opening to some gene-edited crops. It warns that the 1990s GM backlash shows public and regulatory readiness matter as much as the technology.",
+   "rel": {
+    "agrifood": {
+     "score": 7,
+     "why": "Major journal backing ag-biotech for climate goals."
+    },
+    "industrial": {
+     "score": 4,
+     "why": "Frames biotech as climate technology."
+    }
+   }
+  },
+  "88ed694fc0b3": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Nature article on cellular agriculture as a route to sustainable and programmable foods. Only the title was available to review.",
+   "rel": {
+    "agrifood": {
+     "score": 6,
+     "why": "Cultivated and cell-based food in a top journal."
+    },
+    "fermentation": {
+     "score": 4,
+     "why": "Cellular agriculture overlaps precision fermentation."
+    }
+   }
+  },
+  "c421b6f8d13b": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A review of more than 350 studies, summarised by ScienceDaily, suggests eating less protein could slow ageing and improve metabolic health, and that many sedentary adults eat too much protein.",
+   "rel": {
+    "healthcare": {
+     "score": 3,
+     "why": "Nutrition evidence on protein intake and ageing."
+    },
+    "agrifood": {
+     "score": 3,
+     "why": "Relevant to protein demand narratives."
+    }
+   }
+  },
+  "a72364880e20": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Researchers found tumours release natural antioxidants that switch off the immune cells meant to kill them; blocking the mechanism in mice restored immune activity and improved responses to immunotherapy, ScienceDaily reports.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Possible new combination target for cancer immunotherapy."
     }
    }
   }
