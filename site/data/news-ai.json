@@ -1,87 +1,83 @@
 {
- "updated": "2026-11-11T13:41:50Z",
+ "updated": "2026-11-12T06:44:46Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-11T13:41:50Z",
+  "date": "2026-11-12T06:44:46Z",
   "points": [
    {
     "sec": "results",
-    "text": "Beam Therapeutics' base-edited cell therapy risto-cel met its primary endpoint, freedom from severe pain crises, in the pivotal BEACON trial in 31 sickle cell patients. Beam plans to file by the end of 2026, which would be the first application for a base-editing medicine, setting up a contest with Casgevy and Lyfgenia. PepGen's shares more than doubled after its oligonucleotide corrected splicing by 46.5% on average in six myotonic dystrophy patients, ahead of Novartis' and Dyne's rivals, though the study is tiny. Mirum's brelovitug won a second pivotal hepatitis D trial, putting it in a race with Vir and Gilead. ImmunityBio's Anktiva beat BCG alone in front-line bladder cancer, yet its stock fell 20% because it gave no numbers. J&J's Caplyta won again in bipolar mania. Altimmune is taking its alcohol-use-disorder data to the FDA in December, and Ossium performed the first marrow transplant from a deceased donor for a non-cancer disease. Later in the day Amgen detailed its Phase 3 OASIZ-301 win for dazodalibep in 648 Sjögren's patients at ACR: both doses cut disease activity more than placebo at 48 weeks and the monthly dose eased dryness, setting up a race with Novartis' ianalumab.",
     "ids": [
-     "4e101dd3fce5",
-     "51dfdd03461e",
-     "9e7b52acab20",
-     "b7b230bcd6f3",
-     "cbb1f7f741c1",
-     "7ef90733f454"
-    ]
+     "244d5140b0b3",
+     "7ef90733f454",
+     "396487577b2f"
+    ],
+    "text": "ACR Convergence was the day's stage for trial results. Beeline Medicines says afimetoran, an oral TLR7/8 blocker it took over from Bristol Myers, beat placebo at all three doses in a 248-patient Phase 2 lupus trial, with 64–68% of patients responding versus 34% on placebo at 48 weeks and fewer serious side effects. Phase 3 starts in 2027, which would bring a pill into a field of injected biologics. Amgen's Phase 3 data for dazodalibep in Sjögren's, out the day before, remain the biggest readout, setting up a contest with Novartis. Nkarta also showed early safety data for its NK cell therapy across five autoimmune diseases."
    },
    {
     "sec": "science",
-    "text": "Industrial biotech had a good day. Solar Foods' gas-fermented protein Solein got a positive EFSA safety opinion, the last scientific step before EU authorisation. Nature Biotechnology highlighted two papers: proteases designed from scratch, which could serve as biocatalysts as well as drugs, and a two-layer genetic approach to herbicide tolerance in crops. Nature Chemical Biology worked out how polyene antifungals are tailored during biosynthesis, a possible route to safer versions made by fermentation. In bioprocessing, a hybrid model now predicts lactate build-up in cell culture. Science questioned the genetic data of a prolific pathogen-surveillance group, and UK Biobank is adding immune and brain data layers. A Nature editorial urged using agricultural biotech, from drought-tolerant crops to low-methane rice, against climate change and biodiversity loss.",
     "ids": [
-     "fec5de8b5581",
-     "e8dbbd1273e1",
-     "c623b4c67137",
-     "493169b378d2",
-     "5f1739f8e15d",
-     "be259c2775a0",
-     "5459c3a70776"
-    ]
+     "c84c27340ede",
+     "5f8987910ac7",
+     "3fdb4fcc5212",
+     "36bf377417cd",
+     "3f67fbc7a4ea",
+     "30ab2595451f"
+    ],
+    "text": "Google DeepMind's AlphaGenome 2 drew praise in Nature for predicting the cell types in which a DNA variant acts, a step towards linking disease variants to targets. In agricultural biotech, a Nature feature reported that engineered soil bacteria are starting to replace part of farms' synthetic nitrogen fertiliser, and a preprint mapped the genes Bacillus subtilis needs to colonise roots, useful for designing crop inoculants. A large Nature study validated a new obesity diagnosis based on body shape and organ damage rather than BMI, which would reclassify millions and change who qualifies for GLP-1 drugs. An All of Us study of nearly 100,000 Americans found thousands of new drug-response variants, and a Nature paper showed that correcting UNC13A splicing rescues neurons in an ALS model. A Nature Medicine biomarker read by AI predicted benefit from the TROP2 ADC Datroway."
    },
    {
     "sec": "approvals",
-    "text": "The FDA gave de novo authorisation to Virtuoso Surgical's robot, which removes bladder tumours in one piece through the urethra without incisions. It is the first device in a new class of endoluminal surgical systems and launches in the US in 2027. The FDA also approved Merck KGaA's pimicotinib, licensed from China, for tenosynovial giant cell tumour, where it will compete with Daiichi and Ono. Metagenomi's gene editor MGX-001 for haemophilia A was cleared to enter the clinic, and Vittoria's CD5-targeted CAR-T won RMAT status. Separately, the White House is pushing to confirm Heidi Overton as FDA commissioner before the new Congress sits.",
     "ids": [
-     "3d196ea7d2e9",
-     "bc8780b60714",
-     "034b06874325",
-     "b8de3aa90318",
-     "097a52023065"
-    ]
+     "98e97f17b885",
+     "25907bd3519a",
+     "85a2224ced1f",
+     "51877b038b9f",
+     "b6e6836113cf"
+    ],
+    "text": "Tandem Diabetes Care is recalling more than 80,000 Mobi insulin pumps after false blockage alarms that halt insulin delivery were linked to 230 adverse events needing medical care. No deaths were reported, and users must keep backup insulin. The UK MHRA approved Incyte's PD-1 antibody retifanlimab with chemotherapy for advanced anal cancer, based on a 308-patient trial. The FDA issued warning letters to three API makers that failed to hand over requested records. Korea is weighing eye-risk warnings on 38 GLP-1 products after the FDA's action, and Abbott won US and EU approval for a single lead that both paces and defibrillates the heart."
    },
    {
     "sec": "policy",
-    "text": "US-China tension shaped policy news. Nature Biotechnology reported that China has proposed banning foreign acquisitions of its biotech platforms in cell and gene therapy, siRNA and gain-of-function research. That could choke the out-licensing pipeline that supplied 56% of this year's licensing deal value. Meanwhile, in Washington, BIO pitched a 'space race' plan with a White House biotech office, faster trials and a domestic CDMO network. Lawyers warned that the Treasury's COINS Act rules on China joint ventures leave dealmakers 'flying blind'. House Democrats asked every company with a most-favoured-nation pricing deal for the unredacted terms ahead of January subpoena power. Dutch regulators opened an antitrust probe into whether Biogen withholds a safety test to fend off a Tysabri biosimilar. An IQ Consortium survey also mapped where PFAS are used in drug manufacturing and packaging ahead of possible restrictions.",
     "ids": [
-     "89dfba0ab414",
-     "7e048cc1e135",
-     "3da84523b925",
-     "843b6b5261ca",
-     "a4ea02383677"
-    ]
+     "0d1a2b75d08c",
+     "6bb9c3f2d29f",
+     "e6e33c8f7942",
+     "5869afd5a4f5",
+     "57d44b9dc5b8",
+     "b51f561ffc21"
+    ],
+    "text": "The fallout from US most-favoured-nation pricing dominated policy news. STAT reports that drugmakers are rethinking or delaying launches abroad to protect US prices. A Harvard study funded by German insurers found that a 25% rise in German drug prices would cost Germany about $6.2 billion and add about $300 million to US Medicaid spending, undercutting the policy's logic. A Nature Medicine comment said deaths in Chinese investigator-led gene-editing trials expose oversight gaps and called for independent review of high-risk therapies. Cassidy set a committee vote on FDA nominee Heidi Overton while still undecided, and the UK science minister asked drugmakers to invest in Britain. In food biotech, 12 EU countries tax plant-based foods more heavily than meat or dairy."
    },
    {
     "sec": "money",
-    "text": "Oura is paying $625 million in cash for AI primary-care startup Counsel Health, weeks after shelving its IPO. It is one of the largest bets yet by a wearables maker on AI-delivered care. AstraZeneca bought its partner Omniose to bring bacterial conjugate-vaccine technology in-house, and Deerfield teamed up with AWS to scale the AI-native startups in its portfolio. Smaller deals included SRTD Biotech's €31.5 million seed round and a London tau-degrader startup's $60 million raise. In industrial biotech, India's AltM raised $10.3 million to turn crop waste into fossil-free materials.",
     "ids": [
-     "5eff4a69f044",
-     "9671dafe8bfa",
-     "50680e3ffeb8",
-     "8b9a2b1f516b",
-     "892101e3b925"
-    ]
+     "06154a0bd725",
+     "4311c148a692",
+     "c5873e8e2938",
+     "b1485102228d",
+     "7e8e0930474d",
+     "b4e1f8014a45"
+    ],
+    "text": "Neurosterix, an Addex spin-out, raised $105 million for an M4 muscarinic schizophrenia drug and brought in Karuna's Andrew Miller, one of the people behind Cobenfy, as chair. Flagship is merging its AI drug discovery companies Valo Health and Montai. BioNTech paid Scholar Rock $205 million for an FDA priority review voucher, a sign that a late-stage cancer filing is coming. In precision fermentation, Strive Nutrition teamed up with Dyadic and Brig Bio to scale up cow-free whey protein, aiming for regulatory clearance in 2028 and eventually over 200 tonnes a year. VectorY added $83.5 million for an antibody gene therapy in ALS, and China's Eli Radiopharma raised nearly RMB 400 million."
    },
    {
     "sec": "companies",
-    "text": "Ionis lost more than $1 billion in market value after cutting sales forecasts for its triglyceride drug because the launch has been slow. Summit Therapeutics lost its chief commercial officer just before the FDA decides on ivonescimab. Restructuring continued: Vertex is cutting 78 jobs at Crinetics after its $10 billion buyout, and Coherus is cutting 30% of its staff. In industrial and food biotech, Kraig Labs began shipping spider silk made by engineered silkworms, and South Korea's SeaWith will build a $15 million cultivated-meat plant.",
     "ids": [
-     "6bf6f8fa099c",
-     "36cff576cbe7",
-     "187dbcaf23a4",
-     "f78c504d1b62",
-     "5936c0f496a7"
-    ]
+     "a8a18486a196",
+     "01dadd6efd19",
+     "f531c37ea475",
+     "d3abd7ac8604"
+    ],
+    "text": "Legend Biotech shares fell 16% after its first quarter under new CEO Ingrid Zhang. Carvykti sales rose 36% to about $710 million, but revenue slightly missed estimates. Alvotech now expects to land at the low end of its guidance, although the FDA accepted its Entyvio biosimilar and approved new manufacturing capacity in Reykjavik. Fierce reported Chinese executives predicting up to ten Chinese big pharmas within a decade, and Hims & Hers is rebuilding around branded GLP-1 drugs."
    },
    {
     "sec": "biodef",
-    "text": "Avian flu kept up a steady drumbeat. China has now confirmed 23 human H9N2 cases in six months. In Washington state, a patient who had contact with infected dairy cattle died of avian flu, and outbreaks hit large turkey farms in the Midwest and on the West Coast as migration season began. In Europe, ECDC's first emergency-preparedness assessments found strong commitment across countries but recurring gaps, and the agency backed universal RSV protection for newborns.",
     "ids": [
+     "ce6082fa6fad",
      "992b1ef80012",
-     "0532414c1734",
-     "939eebe79361",
-     "3af1e1a4fa51"
-    ]
+     "8104916bc151"
+    ],
+    "text": "A fairly quiet day. The NIH awarded $57.5 million to Boston University's high-containment National Emerging Infectious Diseases Laboratories, despite cuts elsewhere. China's tally of human H9N2 bird flu cases stands at 23 in six months, and ECDC is training epidemiologists from nine pilot countries ahead of next year's launch of its Epi+ outbreak-detection platform."
    }
   ]
  },
@@ -15962,9 +15958,6 @@
     }
    }
   },
-  "47ad39bfde0d": {
-   "drop": true
-  },
   "c30fa5cbf5bf": {
    "cat": "other",
    "imp": 5,
@@ -16017,9 +16010,6 @@
     }
    }
   },
-  "f7d2b05d1053": {
-   "dup": "9dc68ad4ae72"
-  },
   "145d7ea180e7": {
    "cat": "deals",
    "imp": 5,
@@ -16034,12 +16024,6 @@
      "why": "Deal size and upfront benchmark for China licensing."
     }
    }
-  },
-  "e04720cdbe69": {
-   "dup": "5242c89f8c10"
-  },
-  "a55dbc0fea09": {
-   "dup": "eeece3668fba"
   },
   "85101ab8f79e": {
    "cat": "deals",
@@ -17505,17 +17489,8 @@
     }
    }
   },
-  "e099dedaeaba": {
-   "dup": "fa299b7eef87"
-  },
   "60e1a105563d": {
    "dup": "fa299b7eef87"
-  },
-  "f0543f97fe53": {
-   "dup": "e099dedaeaba"
-  },
-  "0b96a88c4b71": {
-   "dup": "a6d6ddac6cda"
   },
   "0aa79e991e54": {
    "cat": "policy",
@@ -17535,9 +17510,6 @@
      "why": "Investors track legal challenges to international reference pricing as a drug-revenue risk."
     }
    }
-  },
-  "e50d86123a3f": {
-   "dup": "0aa79e991e54"
   },
   "8c9a6d8b2ff4": {
    "cat": "clinical",
@@ -17636,15 +17608,6 @@
      "why": "A new microfluidic platform for rapid low-abundance protein detection."
     }
    }
-  },
-  "e603ac2b0aa1": {
-   "drop": true
-  },
-  "1d5f5f3fb2ec": {
-   "drop": true
-  },
-  "455e9d24c70a": {
-   "drop": true
   },
   "becd505e589e": {
    "cat": "science",
@@ -17903,9 +17866,6 @@
      "why": "HFpEF with obesity is common and has few effective treatments."
     }
    }
-  },
-  "14640d41d6f2": {
-   "dup": "33916032645c"
   },
   "0e3b045175b7": {
    "cat": "deals",
@@ -18639,9 +18599,6 @@
     }
    }
   },
-  "811ee9cb8ec7": {
-   "drop": true
-  },
   "54189a74bdb2": {
    "cat": "clinical",
    "imp": 6,
@@ -18865,9 +18822,6 @@
    "drop": true
   },
   "2b55887078c7": {
-   "drop": true
-  },
-  "b82aec4c86d0": {
    "drop": true
   },
   "d54d89ae56b0": {
@@ -19784,19 +19738,7 @@
    "drop": true
   },
   "9f9eec2e701c": {
-   "cat": "deals",
-   "imp": 4,
-   "summary": "Dyadic Applied BioSolutions, BRIG BIO and Strive Nutrition announced a collaboration to commercialise precision-fermented alpha-lactalbumin for premium nutrition products in the US.",
-   "rel": {
-    "fermentation": {
-     "score": 7,
-     "why": "Precision-fermented dairy protein moving toward US commercial supply."
-    },
-    "agrifood": {
-     "score": 6,
-     "why": "Animal-free whey protein ingredient for nutrition products."
-    }
-   }
+   "dup": "b1485102228d"
   },
   "9036d5b562da": {
    "drop": true
@@ -22445,6 +22387,962 @@
      "why": "Possible new combination target for cancer immunotherapy."
     }
    }
+  },
+  "85a2224ced1f": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "The FDA has published warning letters to three active pharmaceutical ingredient makers, each faulted for failing to hand over records the agency requested. Record-request refusals and delays are treated as a quality-system failure and can lead to import alerts on the plants' products. Fierce Pharma's full report was not accessible, so the companies are not named here.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "API supply and manufacturing compliance for drugmakers."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "FDA expectations on manufacturing records and inspections."
+    }
+   }
+  },
+  "b1485102228d": {
+   "cat": "deals",
+   "imp": 5,
+   "summary": "US food-tech startup Strive Nutrition has teamed up with Dyadic Applied BioSolutions and Brig Bio to make alpha-lactalbumin, a cow-free whey protein, by precision fermentation. Dyadic supplies its Dapibus microbial platform, strain optimisation and scale-up; Brig Bio brings commercialisation and regulatory capabilities. The partners target regulatory clearance in 2028, with more than 10 tonnes at launch and over 200 tonnes a year in the long run; extracting the protein conventionally takes about 1,000 litres of milk per kilogram.",
+   "rel": {
+    "fermentation": {
+     "score": 8,
+     "why": "Precision-fermentation dairy protein moving towards commercial scale."
+    },
+    "agrifood": {
+     "score": 7,
+     "why": "Animal-free whey ingredient for food and nutrition products."
+    },
+    "bioprocessing": {
+     "score": 5,
+     "why": "Strain optimisation and scale-up on a fungal expression platform."
+    }
+   }
+  },
+  "b4e1f8014a45": {
+   "cat": "funding",
+   "imp": 4,
+   "summary": "Hangzhou-based Eli Radiopharma closed a Series A of nearly RMB 400 million (about $55 million), led by Huagai Capital with Bayland Capital co-leading and Boyu Ventures and Delian Capital joining. The company develops radiopharmaceuticals for cancer and neurological diseases, with several programmes nearing IND filing. The money funds preclinical work, trial applications and early clinical studies, part of a wave of Chinese radioligand start-ups.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Funds a Chinese radiopharmaceutical pipeline approaching the clinic."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Sizeable Chinese Series A in radiopharma."
+    }
+   }
+  },
+  "36bf377417cd": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "A Science Translational Medicine study of nearly 100,000 participants in the NIH's All of Us programme found thousands of previously unknown variants in 16 genes that shape responses to prescription drugs. Every participant carried at least one such variant, and one in four had taken a drug those variants could affect. The cohort's ancestral diversity revealed variants missed by UK Biobank-based studies, though routine use depends on wider sequencing and clinician awareness, and the programme faces funding cuts.",
+   "rel": {
+    "diagnostics": {
+     "score": 7,
+     "why": "Expands the variant catalogue behind pharmacogenomic testing."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Supports personalised prescribing across diverse populations."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Drug-response variation relevant to dosing and trial design."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Large diverse genomic cohort as a research resource."
+    }
+   }
+  },
+  "b8d2befbe683": {
+   "dup": "06154a0bd725"
+  },
+  "01dadd6efd19": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Alvotech reported nine-month results and said full-year guidance stands but is now expected at the low end. The FDA accepted its application for AVT80, a biosimilar to Takeda's Entyvio, and an Eylea HD biosimilar was submitted to the EMA. It signed a Lotus deal for AVT34 and AVT87, LOTTE Biologics will make drug substance in Syracuse, and the FDA approved a new Simlandi process and a second production suite in Reykjavik.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Biosimilar pipeline progress for Entyvio and Eylea HD."
+    },
+    "bioprocessing": {
+     "score": 5,
+     "why": "New FDA-approved manufacturing capacity and contract drug-substance supply."
+    }
+   }
+  },
+  "fc8205fa430e": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "CPC Biotech launched the Quattroflow HTX, an all-in-one pump drive for bioprocessing. The release gives no further detail in the feed.",
+   "rel": {
+    "bioprocessing": {
+     "score": 5,
+     "why": "New pump hardware for biomanufacturing fluid handling."
+    }
+   }
+  },
+  "06154a0bd725": {
+   "cat": "funding",
+   "imp": 6,
+   "summary": "Neurosterix, spun out of Addex, raised a $105 million Series B for NTX-253, a muscarinic M4 positive allosteric modulator for schizophrenia. Karuna's Andrew Miller, one of the people behind the muscarinic drug Cobenfy that Bristol Myers bought with Karuna, joins as executive chair, with Fred Callori as CEO. The round adds to investor appetite for next-generation muscarinic drugs after setbacks for some Cobenfy rivals; trial timing was not visible.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Large round for a next-generation muscarinic schizophrenia drug."
+    },
+    "investment": {
+     "score": 6,
+     "why": "$105M Series B in neuropsychiatry."
+    }
+   }
+  },
+  "d3abd7ac8604": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Endpoints looks at how Hims & Hers plans to rebuild its business after moving from compounded GLP-1 drugs to branded ones, following its deal with Eli Lilly to offer branded weight-loss medicines. The telehealth company is now relying on brand-name treatments and pharma partnerships rather than personalised compounding. Details beyond the opening were paywalled.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Telehealth distribution of branded obesity drugs."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Shift away from compounded GLP-1 copies."
+    }
+   }
+  },
+  "dbf33a9d1fc4": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Argá Medtech says it has completed enrolment of the paroxysmal atrial fibrillation cohort in COHERENT-AF, its pivotal IDE study. The multicentre trial tests its Coherent Sine Burst Electroporation platform, a sine-wave form of pulsed field ablation, in drug-refractory patients, entering a crowded field led by Boston Scientific and Medtronic.",
+   "rel": {
+    "meddevices": {
+     "score": 6,
+     "why": "Pivotal study of a new pulsed field ablation system."
+    }
+   }
+  },
+  "0d1a2b75d08c": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "STAT reports that drugmakers are rethinking launches outside the US to protect US prices under the Trump administration's most-favoured-nation policy, which ties US prices to those paid abroad. Companies appear to be looking for workarounds such as delaying or skipping launches in lower-priced markets. The full analysis is paywalled; it follows similar moves reported at Roche and Novartis in Europe.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "MFN pricing is reshaping global launch sequencing."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Fewer or later launches could reduce access outside the US."
+    }
+   }
+  },
+  "c1472cd38436": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "In a Gallup survey, 56% of US adults said they are comfortable with artificial intelligence making diagnosis and treatment decisions as long as providers can override them. Respondents want clinicians to stay involved, a signal for how AI tools are deployed in care.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "Public acceptance of clinical AI with human oversight."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Patient attitudes to AI-assisted care."
+    }
+   }
+  },
+  "15fca4670221": {
+   "dup": "3fdb4fcc5212"
+  },
+  "2b35b36381b5": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Swiss clinical data company Rivia launched an AI-powered module for reviewing clinical trial data, aimed at speeding up data cleaning. UK cancer vaccine developer Scancell is an early adopter.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "AI applied to clinical data management."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Faster trial data cleaning for sponsors."
+    }
+   }
+  },
+  "5fc3f64b0195": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Start Center for Cancer Research, a network of early-phase oncology trial sites, opened its first Italian site in partnership with Istituti Fisioterapici Ospitalieri in Rome. The expansion adds Phase 1 capacity in Europe for cancer drug developers.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "More early-phase oncology trial capacity in Europe."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Patient access to Phase 1 cancer trials in Italy."
+    }
+   }
+  },
+  "4311c148a692": {
+   "cat": "deals",
+   "imp": 6,
+   "summary": "Flagship Pioneering is merging two of its AI drug discovery companies, Valo Health and Montai Therapeutics, into one company to advance their pipelines. Valo built its OPAL platform on human health data and has a Novo Nordisk partnership; Montai works on molecules drawn from food and natural sources. Terms were not disclosed, and it is another Flagship consolidation in AI biotech.",
+   "rel": {
+    "ai": {
+     "score": 7,
+     "why": "Consolidation among AI-first drug discovery companies."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Combines two discovery pipelines."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Flagship restructuring its AI portfolio."
+    }
+   }
+  },
+  "6dd73733a7d5": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "Eugia, a unit of India's Aurobindo, voluntarily recalled one lot of vancomycin hydrochloride for injection because it may contain glass particles. The recall adds to manufacturing-quality scrutiny of injectable generics makers.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Sterile injectable quality issue at a major generics maker."
+    }
+   }
+  },
+  "c5873e8e2938": {
+   "cat": "deals",
+   "imp": 5,
+   "summary": "BioNTech agreed to buy an FDA priority review voucher from Scholar Rock for $205 million in cash, according to its SEC filing. It will use the voucher, which cuts FDA review to about six months, for a future filing from its late-stage oncology pipeline. The price is among the highest paid for a voucher and gives Scholar Rock non-dilutive cash; closing needs antitrust clearance.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Signals a near-term BioNTech oncology filing."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Voucher prices and non-dilutive funding for Scholar Rock."
+    }
+   }
+  },
+  "f531c37ea475": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Fierce Pharma spoke to executives at Chinese drug developers who aim for a seat among the world's big pharma companies, some predicting up to ten Chinese big pharmas within a decade. The ambition follows years of record out-licensing deals with Western companies and rising Chinese innovation.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "China's drugmakers aiming to compete globally."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Outlook for China biotech valuations and deals."
+    }
+   }
+  },
+  "a8a18486a196": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Legend Biotech shares fell 16% after its first quarterly report under new CEO Ingrid Zhang. Its filing shows Carvykti net trade sales of about $710 million, up 36% year on year, and net income of $51.7 million, but revenue slightly missed analyst estimates and the company gave no formal guidance. The CAR-T maker shares Carvykti with J&J.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "Commercial trajectory of a leading CAR-T therapy."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Multiple myeloma market."
+    },
+    "investment": {
+     "score": 5,
+     "why": "16% share drop on a revenue miss."
+    }
+   }
+  },
+  "92327d0b52ef": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "UKHSA published its annual national HIV statistics to the end of 2025, covering HIV testing, PrEP and PEP use, diagnoses, care and outcomes. The release is the UK's reference data on progress towards ending HIV transmission by 2030.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "National HIV prevention and care data."
+    }
+   }
+  },
+  "25907bd3519a": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "The UK MHRA approved Incyte's retifanlimab (Zynyz), a PD-1 antibody, with carboplatin and paclitaxel for adults with inoperable, metastatic or locally recurrent squamous cell carcinoma of the anal canal. In a 308-patient trial the combination extended the time before the cancer worsened compared with chemotherapy alone. The approval came via the International Recognition Procedure and is the drug's second UK approval, after Merkel cell carcinoma.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "New immunotherapy option for advanced anal cancer in the UK."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Treatment access for a rare cancer."
+    }
+   }
+  },
+  "e1cffb18c651": {
+   "dup": "5eff4a69f044"
+  },
+  "5f558bb52b01": {
+   "dup": "3fdb4fcc5212"
+  },
+  "31a56d7bac04": {
+   "dup": "7e048cc1e135"
+  },
+  "98e97f17b885": {
+   "cat": "regulatory",
+   "imp": 6,
+   "summary": "Tandem Diabetes Care is recalling more than 80,000 Mobi insulin pumps because friction in the drive module can trigger false occlusion alarms that suspend insulin delivery. As of 29 October there were 230 adverse events needing medical help or hospital care and no deaths. Users can keep using the pumps but must respond to alarms and keep backup insulin; pumps with frequent false alarms will be swapped.",
+   "rel": {
+    "meddevices": {
+     "score": 8,
+     "why": "Large recall of a widely used insulin pump."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Patient safety risk from interrupted insulin delivery."
+    }
+   }
+  },
+  "eabd17d36f3a": {
+   "dup": "4311c148a692"
+  },
+  "b3b9fccf23ae": {
+   "dup": "8443cb7a4da9"
+  },
+  "034de54f9b50": {
+   "dup": "8443cb7a4da9"
+  },
+  "5869afd5a4f5": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "Senate health committee chair Bill Cassidy scheduled the committee vote on Heidi Overton, the White House's nominee for FDA commissioner, even though he and other Republican senators say they are still undecided. The vote will show whether the administration can get its pick to lead the FDA confirmed.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Leadership of the FDA."
+    },
+    "meddevices": {
+     "score": 4,
+     "why": "FDA leadership affects device policy too."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "US regulatory leadership."
+    }
+   }
+  },
+  "244d5140b0b3": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "Beeline Medicines detailed Phase 2 data for afimetoran, an oral TLR7/8 inhibitor originally from Bristol Myers Squibb, in 248 adults with moderate-to-severe lupus. The company says all three doses met the primary endpoint, with SRI-4 response rates of 64–68% versus 34% on placebo at 48 weeks (p<0.001), and fewer severe adverse events than placebo. Beeline plans Phase 3 in 2027, adding an oral option to a field dominated by injected biologics.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Strong mid-stage data for an oral lupus drug."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Potential oral therapy for lupus patients."
+    }
+   }
+  },
+  "31fdf9817a4f": {
+   "dup": "244d5140b0b3"
+  },
+  "01a24032f4d5": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "23andMe Research Institute will recruit participants for Scripps Research's Alzheimer's prevention study using genetics, drawing on its 11-million-person consented research community. The partnership tests genetics-based recruitment for prevention trials.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Recruitment for Alzheimer's prevention research."
+    },
+    "diagnostics": {
+     "score": 3,
+     "why": "Consumer genetics used to identify at-risk people."
+    }
+   }
+  },
+  "b51f561ffc21": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "UK science minister Chris McDonald told life sciences companies the government wants them to invest in Britain now that it has raised its medicines spending under its tariff deal with the US. A UK watchdog is reviewing the cost of that deal, and several big drugmakers had paused UK investments over pricing.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "UK pressure on drugmakers to invest in return for higher spending."
+    },
+    "investment": {
+     "score": 3,
+     "why": "UK life sciences investment climate."
+    }
+   }
+  },
+  "475fb32eb3a1": {
+   "dup": "9671dafe8bfa"
+  },
+  "24dbfecdedf2": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Scientists report that the patterns of hair follicles in mammals may arise from a simple process in which cells follow chemical signals, according to ScienceDaily. The finding addresses a long-standing question in developmental biology.",
+   "rel": {
+    "tools": {
+     "score": 3,
+     "why": "Basic developmental biology of tissue patterning."
+    }
+   }
+  },
+  "806cc78ecb23": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Researchers recovered DNA traces of a deadly sheep virus from ancient manuscripts, including the 1,000-year-old York Gospels, written on animal skin. The genomes extend the virus's history back more than 3,700 years, showing parchment can serve as an archive of livestock disease.",
+   "rel": {
+    "agrifood": {
+     "score": 4,
+     "why": "History of a livestock pathogen."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Ancient DNA recovered from parchment."
+    }
+   }
+  },
+  "e6e33c8f7942": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "A Nature Medicine comment argues that several deaths in investigator-initiated trials of experimental cell and gene therapies in China reveal gaps in governance and oversight. It cites studies including HuidaGene's HG302-1 and RiboX's RXIM002 and calls for an extra layer of independent external review for high-risk therapies. China's investigator-initiated route has become a fast path to first-in-human data for many Western licensing deals.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "Safety oversight of early gene-editing and cell therapy trials in China."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Affects reliance on Chinese early clinical data in deals."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Patient protection in experimental trials."
+    }
+   }
+  },
+  "76f0c76adf97": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Researchers developed and validated a computational pathology biomarker, the normalised membrane ratio of TROP2, that predicted outcomes in lung cancer patients treated with AstraZeneca and Daiichi Sankyo's ADC datopotamab deruxtecan, published in Nature Medicine. An AI-read biomarker could help select patients for TROP2 ADCs, where standard staining has not predicted benefit.",
+   "rel": {
+    "diagnostics": {
+     "score": 7,
+     "why": "AI pathology biomarker for patient selection."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Could steer use of TROP2 antibody-drug conjugates."
+    },
+    "ai": {
+     "score": 5,
+     "why": "Computational pathology method."
+    }
+   }
+  },
+  "497d17aafdc3": {
+   "drop": true
+  },
+  "b9d36816ea30": {
+   "drop": true
+  },
+  "c84c27340ede": {
+   "cat": "science",
+   "imp": 7,
+   "summary": "Google DeepMind's AlphaGenome 2 can predict the types of cells in which a DNA variant is likely to act, Nature reports, and scientists described it as ultra-powerful. The model extends the original AlphaGenome, which predicts how variants in non-coding DNA change gene regulation. Cell-type resolution matters for linking disease-associated variants to mechanisms and drug targets.",
+   "rel": {
+    "ai": {
+     "score": 8,
+     "why": "Major advance in genomic AI models."
+    },
+    "tools": {
+     "score": 7,
+     "why": "New resource for interpreting genetic variants."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Variant-to-target interpretation for drug discovery."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Could aid interpretation of variants in genetic testing."
+    }
+   }
+  },
+  "e9a8d30bc638": {
+   "dup": "c30ec60c5df6"
+  },
+  "b6298a542777": {
+   "drop": true
+  },
+  "9aab97f6a1fc": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A Nature editorial argues that as technology makes biology more powerful, funders must protect space for curiosity-driven research and the people doing it, not only invest in better tools. It is a comment on research funding priorities.",
+   "rel": {
+    "tools": {
+     "score": 3,
+     "why": "Research funding balance between tools and people."
+    }
+   }
+  },
+  "c22d547ecdb7": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Nature News & Views piece describes work showing that the blood–brain barrier blocks crucial proteins that maintain neurons, a disruption seen early in Alzheimer's disease. The finding points to the barrier itself as a possible early cause and therapeutic target.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "New early mechanism and possible target in Alzheimer's."
+    }
+   }
+  },
+  "9d30cf92582e": {
+   "dup": "3fdb4fcc5212"
+  },
+  "77be7737d3e0": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Two Nature papers show how human cells restart stalled DNA replication: the CMG helicase directly recruits the primase PRIMPOL to reprime the leading strand. Structural and biochemical work explains this repriming route, which matters for cancer cells' tolerance of DNA damage and for drugs that target it.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "DNA damage tolerance mechanism relevant to cancer drug targets."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Structural biology of replication."
+    }
+   }
+  },
+  "3037cc9b3d33": {
+   "dup": "77be7737d3e0"
+  },
+  "3fdb4fcc5212": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "A large Nature analysis across global cohorts tested the Lancet Commission's 2025 framework, which diagnoses obesity using waist measures and signs of organ dysfunction rather than BMI alone and splits it into clinical and preclinical obesity. The framework identified health risks and mortality better than BMI, and STAT reports it would flip the diagnosis for millions of people. It could change who qualifies for obesity treatment, including GLP-1 drugs.",
+   "rel": {
+    "healthcare": {
+     "score": 7,
+     "why": "Could redefine obesity diagnosis in clinical practice."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Changes eligibility for obesity drugs."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "New diagnostic criteria beyond BMI."
+    }
+   }
+  },
+  "3f67fbc7a4ea": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "Researchers show in Nature that loss of TDP-43, a hallmark of ALS and frontotemporal dementia, first puts neurons into a predegenerative state with synaptic dysfunction, and that correcting the mis-splicing of UNC13A rescues it. The result supports splice-correcting drugs such as antisense oligonucleotides against UNC13A, a target several companies are pursuing.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Validates UNC13A splice correction for ALS/FTD."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Supports oligonucleotide splice-correcting approaches."
+    }
+   }
+  },
+  "b8b994fde194": {
+   "drop": true
+  },
+  "7f9f7a199f36": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Single-cell epigenetic analyses of breast tumours reveal a conserved epigenetic signature across patients that informs diagnosis and prognosis, reported in Nature. The signature could become a basis for new diagnostic tests.",
+   "rel": {
+    "diagnostics": {
+     "score": 6,
+     "why": "Epigenetic signature for breast cancer diagnosis and prognosis."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Single-cell epigenomics method."
+    }
+   }
+  },
+  "1ced8b7eba70": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Researchers found that the rice RNA-binding protein NIB1 detects cyclic nucleotides produced by insect effector proteins, triggering plant defence, Nature reports. The sensor reveals a new way crops recognise pests and could guide breeding or engineering of insect-resistant rice.",
+   "rel": {
+    "agrifood": {
+     "score": 6,
+     "why": "New pest-recognition mechanism in rice."
+    }
+   }
+  },
+  "69f2e40bbfa6": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Mouse embryos briefly soften their nuclei at the start of life, a physical state that supports zygotic gene activation, according to a Nature study. It links nuclear mechanics to the first switch-on of the embryo's genes.",
+   "rel": {
+    "tools": {
+     "score": 3,
+     "why": "Basic embryology and nuclear mechanics."
+    }
+   }
+  },
+  "8cc172a1d09d": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Mouse experiments in Nature show that immunoglobulin A in the gut lumen suppresses epithelial proliferation and tumour formation. The finding gives antibodies in the gut a direct role in preventing intestinal cancer.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "New mechanism in gut cancer prevention."
+    }
+   }
+  },
+  "834245db61be": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature study traces the somatic evolution of blood cells in the years before acute myeloid leukaemia is diagnosed. Knowing how pre-leukaemic clones expand could support earlier detection and interception.",
+   "rel": {
+    "diagnostics": {
+     "score": 5,
+     "why": "Basis for early detection of leukaemia."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Windows for intercepting AML."
+    }
+   }
+  },
+  "79d083170584": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Researchers describe in Nature a new therapeutic modality, domain-alteration chimeras, that forces the androgen receptor into non-native interactions with p300/CBP and rewires oncogenic complexes in prostate cancer. It extends the induced-proximity approach behind protein degraders to reprogramming cancer drivers.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "New induced-proximity drug modality in prostate cancer."
+    }
+   }
+  },
+  "c30ec60c5df6": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature study measured nuclear pore proteins in live cells and found that glycosylation and importins keep the FG barrier fluid and spatially organised. It explains how the barrier controlling traffic into the nucleus works, relevant to nuclear delivery of drugs and gene therapies.",
+   "rel": {
+    "tools": {
+     "score": 4,
+     "why": "Basic cell biology of nuclear transport."
+    },
+    "cellgene": {
+     "score": 3,
+     "why": "Nuclear entry is a barrier for gene delivery."
+    }
+   }
+  },
+  "4768421ea5fd": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Blocking mitochondrial protein import makes tumours more visible to the immune system, a Nature study reports. The work suggests a new way to sensitise cancers to immunotherapy.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Possible target to boost immunotherapy."
+    }
+   }
+  },
+  "5b450e013749": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A bioRxiv preprint reports that the leukaemia drug clofarabine kills enteropathogenic and enterohaemorrhagic E. coli by metabolic starvation, suggesting it could be repurposed against diarrhoeal pathogens amid rising antibiotic resistance. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Drug repurposing against resistant gut pathogens."
+    }
+   }
+  },
+  "cf9fdb6ab474": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A bioRxiv preprint reports isolating moderately acid-tolerant Nitrospira strains as pure cultures by plating single colonies, a much faster route than the usual dilution methods. Nitrospira drive nitrification in soils and wastewater plants, so easier cultivation helps engineering of nitrogen removal. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 4,
+     "why": "Nitrifying bacteria used in wastewater treatment."
+    },
+    "agrifood": {
+     "score": 3,
+     "why": "Soil nitrogen cycling."
+    }
+   }
+  },
+  "3d57a5498cd3": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "A Nature feature examines Anthropic's purchase of a one-person, AI-powered biotech that developed a new approach to a rare disease, and asks whether tiny AI-run companies are the future of drug discovery. The deal, first reported in October, is one of the clearest bets by an AI lab on doing biotech itself.",
+   "rel": {
+    "ai": {
+     "score": 7,
+     "why": "AI labs entering drug discovery directly."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "New model for small-team drug development."
+    }
+   }
+  },
+  "5f8987910ac7": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "A Nature news feature reports that scientists are editing soil microbes to supply more nitrogen to staple crops such as maize and wheat, and that engineered bacteria are starting to replace part of farms' synthetic fertiliser use. Synthetic nitrogen fertiliser is a major source of emissions and water pollution, so biological alternatives are one of agricultural biotech's biggest opportunities.",
+   "rel": {
+    "agrifood": {
+     "score": 8,
+     "why": "Engineered microbes reducing synthetic fertiliser on farms."
+    },
+    "industrial": {
+     "score": 5,
+     "why": "Synthetic biology for sustainable agriculture."
+    },
+    "fermentation": {
+     "score": 3,
+     "why": "Microbial products made at scale."
+    }
+   }
+  },
+  "ce6082fa6fad": {
+   "cat": "funding",
+   "imp": 5,
+   "summary": "The NIH awarded $57.5 million to Boston University's National Emerging Infectious Diseases Laboratories, one of the US's high-containment (BSL-4) labs for studying dangerous pathogens. The funding supports the lab's work on emerging infectious diseases at a time of cuts elsewhere in NIH budgets.",
+   "rel": {
+    "biosecurity": {
+     "score": 6,
+     "why": "Funding for a national high-containment pathogen lab."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Emerging infectious disease preparedness."
+    }
+   }
+  },
+  "30ab2595451f": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A bioRxiv preprint uses genome-wide CRISPRi-seq to map the genes that Bacillus subtilis, a plant growth-promoting bacterium, needs to colonise plant roots. The map could help engineer better biological inoculants for crops. Not yet peer-reviewed.",
+   "rel": {
+    "agrifood": {
+     "score": 6,
+     "why": "Genetic basis for engineering crop biostimulant microbes."
+    },
+    "tools": {
+     "score": 3,
+     "why": "CRISPRi-seq screening in bacteria."
+    }
+   }
+  },
+  "a00ea38bb1bb": {
+   "drop": true
+  },
+  "ee6985512ed5": {
+   "drop": true
+  },
+  "8516efb54dd8": {
+   "drop": true
+  },
+  "5598735a8c55": {
+   "drop": true
+  },
+  "fcd198ba917e": {
+   "drop": true
+  },
+  "e303922b7758": {
+   "drop": true
+  },
+  "2eab3da6b155": {
+   "drop": true
+  },
+  "f9f9a2d8b59b": {
+   "drop": true
+  },
+  "8a8ccb6d7e59": {
+   "drop": true
+  },
+  "464ced6173e4": {
+   "drop": true
+  },
+  "feecbd19f3de": {
+   "drop": true
+  },
+  "316a47d8464f": {
+   "drop": true
+  },
+  "a82e4cbeed03": {
+   "drop": true
+  },
+  "e1404c05d59d": {
+   "drop": true
+  },
+  "f7ef45a2ec3b": {
+   "drop": true
+  },
+  "5ad8f89a6daf": {
+   "drop": true
+  },
+  "03c1286b100d": {
+   "drop": true
+  },
+  "e09aac535e4f": {
+   "drop": true
+  },
+  "6bb9c3f2d29f": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "A Harvard Medical School study led by Thomas Hwang, funded by Germany's statutory health insurers, estimates that a 25% rise in German drug prices would add about $6.2 billion to German insurance spending and about $300 million to US Medicaid costs. That undercuts the aim of the Trump administration's most-favoured-nation policy of pushing other countries to pay more. The report lands amid a US trade probe into German drug underpayment, with Lilly, Boehringer Ingelheim and Roche cutting or pausing German investments.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Evidence on how MFN pricing pressure plays out between the US and Europe."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Drug spending impact for German insurers and US Medicaid."
+    }
+   }
+  },
+  "46824b146253": {
+   "drop": true
+  },
+  "5e41b06b7241": {
+   "drop": true
+  },
+  "e43984d82d30": {
+   "drop": true
+  },
+  "be94a40fce11": {
+   "drop": true
+  },
+  "3c2b802556be": {
+   "drop": true
+  },
+  "94b9fea68c42": {
+   "drop": true
+  },
+  "1ad48335d9bc": {
+   "drop": true
+  },
+  "1f1bcbd4f6cc": {
+   "drop": true
+  },
+  "ebd01cb9f5ef": {
+   "drop": true
+  },
+  "6027101a6c10": {
+   "drop": true
+  },
+  "d78f59e7700f": {
+   "drop": true
+  },
+  "e712f1cb0489": {
+   "drop": true
+  },
+  "5cd209a6225d": {
+   "drop": true
+  },
+  "28d564710255": {
+   "drop": true
+  },
+  "a776695d67c7": {
+   "drop": true
+  },
+  "7ed29136794b": {
+   "drop": true
+  },
+  "ed9aacb89d29": {
+   "drop": true
+  },
+  "5ff563eca24a": {
+   "drop": true
+  },
+  "303b5224db44": {
+   "drop": true
+  },
+  "5aafe74ce1bb": {
+   "drop": true
+  },
+  "c8f4a6d56dcf": {
+   "drop": true
+  },
+  "6e25d0b137f9": {
+   "drop": true
+  },
+  "f1ebf7d892c0": {
+   "drop": true
+  },
+  "87bc3483c109": {
+   "drop": true
+  },
+  "474b22473592": {
+   "drop": true
+  },
+  "7791292f8e32": {
+   "drop": true
+  },
+  "10305e3fdcc5": {
+   "drop": true
+  },
+  "a2b8faae9634": {
+   "drop": true
+  },
+  "3a3c16f09978": {
+   "drop": true
+  },
+  "048264ed85af": {
+   "drop": true
+  },
+  "1f5413637abf": {
+   "drop": true
+  },
+  "3c6f5d449b42": {
+   "drop": true
+  },
+  "c0b08fa1a415": {
+   "drop": true
+  },
+  "e1e7d202cbcd": {
+   "drop": true
+  },
+  "8196d2066151": {
+   "drop": true
   }
  },
  "extra": [
