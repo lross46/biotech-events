@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-12T06:44:46Z",
+ "updated": "2026-11-12T13:43:07Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-12T06:44:46Z",
+  "date": "2026-11-12T13:43:07Z",
   "points": [
    {
     "sec": "results",
@@ -40,44 +40,46 @@
     "sec": "policy",
     "ids": [
      "0d1a2b75d08c",
+     "cd8640b32f54",
      "6bb9c3f2d29f",
      "e6e33c8f7942",
      "5869afd5a4f5",
-     "57d44b9dc5b8",
-     "b51f561ffc21"
+     "57d44b9dc5b8"
     ],
-    "text": "The fallout from US most-favoured-nation pricing dominated policy news. STAT reports that drugmakers are rethinking or delaying launches abroad to protect US prices. A Harvard study funded by German insurers found that a 25% rise in German drug prices would cost Germany about $6.2 billion and add about $300 million to US Medicaid spending, undercutting the policy's logic. A Nature Medicine comment said deaths in Chinese investigator-led gene-editing trials expose oversight gaps and called for independent review of high-risk therapies. Cassidy set a committee vote on FDA nominee Heidi Overton while still undecided, and the UK science minister asked drugmakers to invest in Britain. In food biotech, 12 EU countries tax plant-based foods more heavily than meat or dairy."
+    "text": "The fallout from US most-favoured-nation pricing dominated policy news. STAT reports that drugmakers are rethinking or delaying launches abroad to protect US prices. A Harvard study funded by German insurers found that a 25% rise in German drug prices would cost Germany about $6.2 billion and add about $300 million to US Medicaid spending, undercutting the policy's logic. The American Cancer Society reversed its 2010 stance and now recommends routine PSA screening every two years for men aged 50–69, and yearly from 45 for Black men and those with a family history, with MRI or biomarker tests before biopsy. A Nature Medicine comment said deaths in Chinese investigator-led gene-editing trials expose oversight gaps and called for independent review of high-risk therapies. Cassidy set a committee vote on FDA nominee Heidi Overton while still undecided, and the UK science minister asked drugmakers to invest in Britain. In food biotech, 12 EU countries tax plant-based foods more heavily than meat or dairy."
    },
    {
     "sec": "money",
     "ids": [
+     "83fdd3696db3",
      "06154a0bd725",
      "4311c148a692",
      "c5873e8e2938",
      "b1485102228d",
-     "7e8e0930474d",
-     "b4e1f8014a45"
+     "7e8e0930474d"
     ],
-    "text": "Neurosterix, an Addex spin-out, raised $105 million for an M4 muscarinic schizophrenia drug and brought in Karuna's Andrew Miller, one of the people behind Cobenfy, as chair. Flagship is merging its AI drug discovery companies Valo Health and Montai. BioNTech paid Scholar Rock $205 million for an FDA priority review voucher, a sign that a late-stage cancer filing is coming. In precision fermentation, Strive Nutrition teamed up with Dyadic and Brig Bio to scale up cow-free whey protein, aiming for regulatory clearance in 2028 and eventually over 200 tonnes a year. VectorY added $83.5 million for an antibody gene therapy in ALS, and China's Eli Radiopharma raised nearly RMB 400 million."
+    "text": "Pfizer secured up to $1.5 billion from Blackstone Life Sciences, through 2028, to co-fund its ex-Metsera monthly obesity drug berobenatide, with Blackstone earning milestones and sales payouts, which shifts part of Pfizer's catch-up cost in obesity to a financial partner. Neurosterix, an Addex spin-out, also raised $105 million for an M4 muscarinic schizophrenia drug and brought in Karuna's Andrew Miller, one of the people behind Cobenfy, as chair. Flagship is merging its AI drug discovery companies Valo Health and Montai. BioNTech paid Scholar Rock $205 million for an FDA priority review voucher, a sign that a late-stage cancer filing is coming. In precision fermentation, Strive Nutrition teamed up with Dyadic and Brig Bio to scale up cow-free whey protein, aiming for regulatory clearance in 2028 and eventually over 200 tonnes a year. VectorY added $83.5 million for an antibody gene therapy in ALS, and China's Eli Radiopharma raised nearly RMB 400 million."
    },
    {
     "sec": "companies",
     "ids": [
+     "00493552aff7",
      "a8a18486a196",
      "01dadd6efd19",
      "f531c37ea475",
      "d3abd7ac8604"
     ],
-    "text": "Legend Biotech shares fell 16% after its first quarter under new CEO Ingrid Zhang. Carvykti sales rose 36% to about $710 million, but revenue slightly missed estimates. Alvotech now expects to land at the low end of its guidance, although the FDA accepted its Entyvio biosimilar and approved new manufacturing capacity in Reykjavik. Fierce reported Chinese executives predicting up to ten Chinese big pharmas within a decade, and Hims & Hers is rebuilding around branded GLP-1 drugs."
+    "text": "Bristol Myers Squibb is merging research and development under chief medical officer Cristian Massacesi, with research head Robert Plenge leaving, as it defends its pipeline after doubts over Cobenfy. Legend Biotech shares fell 16% after its first quarter under new CEO Ingrid Zhang. Carvykti sales rose 36% to about $710 million, but revenue slightly missed estimates. Alvotech now expects to land at the low end of its guidance, although the FDA accepted its Entyvio biosimilar and approved new manufacturing capacity in Reykjavik. Fierce reported Chinese executives predicting up to ten Chinese big pharmas within a decade, and Hims & Hers is rebuilding around branded GLP-1 drugs."
    },
    {
     "sec": "biodef",
     "ids": [
+     "1975cb524bc7",
      "ce6082fa6fad",
      "992b1ef80012",
      "8104916bc151"
     ],
-    "text": "A fairly quiet day. The NIH awarded $57.5 million to Boston University's high-containment National Emerging Infectious Diseases Laboratories, despite cuts elsewhere. China's tally of human H9N2 bird flu cases stands at 23 in six months, and ECDC is training epidemiologists from nine pilot countries ahead of next year's launch of its Epi+ outbreak-detection platform."
+    "text": "UKHSA counted 21,129 antibiotic-resistant bloodstream infections in England in 2025, about 400 a week and up 3.2% on 2024, with an estimated 2,318 deaths, a slower rise than the year before. The NIH awarded $57.5 million to Boston University's high-containment National Emerging Infectious Diseases Laboratories, despite cuts elsewhere. China's tally of human H9N2 bird flu cases stands at 23 in six months, and ECDC is training epidemiologists from nine pilot countries ahead of next year's launch of its Epi+ outbreak-detection platform."
    }
   ]
  },
@@ -18979,19 +18981,7 @@
    }
   },
   "9b4925183e31": {
-   "cat": "deals",
-   "imp": 5,
-   "summary": "PharmaLogic agreed to buy Lantheus' CDMO business and its Springfield, New Jersey manufacturing site, which it says creates the first transatlantic CDMO with a commercial record in radioligand therapies. Terms not in the excerpt.",
-   "rel": {
-    "bioprocessing": {
-     "score": 7,
-     "why": "Consolidates scarce radiopharmaceutical manufacturing capacity."
-    },
-    "pharma": {
-     "score": 5,
-     "why": "Radioligand developers depend on this kind of specialised CDMO capacity."
-    }
-   }
+   "dup": "e185c5bae2ef"
   },
   "6ee28da3aa7f": {
    "cat": "clinical",
@@ -20458,7 +20448,7 @@
    "dup": "b2b2b2114b70"
   },
   "974f41ea64bb": {
-   "dup": "9b4925183e31"
+   "dup": "e185c5bae2ef"
   },
   "61d689c232f9": {
    "dup": "4e101dd3fce5"
@@ -23342,6 +23332,775 @@
    "drop": true
   },
   "8196d2066151": {
+   "drop": true
+  },
+  "a55dbc0fea09": {
+   "dup": "eeece3668fba"
+  },
+  "e603ac2b0aa1": {
+   "drop": true
+  },
+  "1d5f5f3fb2ec": {
+   "drop": true
+  },
+  "811ee9cb8ec7": {
+   "drop": true
+  },
+  "455e9d24c70a": {
+   "drop": true
+  },
+  "b82aec4c86d0": {
+   "drop": true
+  },
+  "a7622de8692b": {
+   "drop": true
+  },
+  "83fdd3696db3": {
+   "cat": "funding",
+   "imp": 7,
+   "summary": "Pfizer secured up to $1.5 billion from Blackstone Life Sciences, committed through 2028, to co-fund development of berobenatide, the monthly obesity candidate it acquired with Metsera. Blackstone earns milestone and sales-based payouts in return; the full terms are paywalled. The deal shifts part of the cost of Pfizer's late push into obesity, where it trails Novo Nordisk and Lilly, onto a financial partner.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Big-pharma obesity programme funded off balance sheet by a private investor."
+    },
+    "investment": {
+     "score": 8,
+     "why": "One of the largest royalty-style R&D funding deals of the year for Blackstone Life Sciences."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Could speed another monthly obesity drug towards market."
+    }
+   }
+  },
+  "ca8c028c2e3f": {
+   "dup": "83fdd3696db3"
+  },
+  "1900fb3b1e97": {
+   "dup": "06154a0bd725"
+  },
+  "e185c5bae2ef": {
+   "cat": "deals",
+   "imp": 5,
+   "summary": "Radiopharmaceutical company PharmaLogic is buying Lantheus' CDMO business and its Springfield, New Jersey manufacturing plant, as Lantheus is itself being acquired by Curium. PharmaLogic says the deal creates the first transatlantic CDMO with a commercial record in radioligand therapies. Financial terms were not in the visible text.",
+   "rel": {
+    "bioprocessing": {
+     "score": 7,
+     "why": "Consolidates scarce radiopharmaceutical manufacturing capacity."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Radioligand developers depend on this kind of specialised CDMO capacity."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Carve-out tied to the Curium takeover of Lantheus."
+    }
+   }
+  },
+  "8fb5745fade5": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Mount Sinai study tested a dozen AI models from major tech companies, including Google and Anthropic, and found they were more likely to recommend a drug when an advertisement for it appeared alongside a clinician's treatment question. The finding raises concerns as chatbots start carrying ads and are used for clinical advice.",
+   "rel": {
+    "ai": {
+     "score": 7,
+     "why": "Shows large language models can be swayed by drug promotion placed in their context."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Clinicians using chatbots could be steered towards advertised treatments."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Bears on how drug advertising in AI tools may be regulated."
+    }
+   }
+  },
+  "61e54a803af5": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Kamau Therapeutics says the FDA granted RMAT designation to nula-cel, its gene-corrected stem cell therapy for sickle cell disease, based on early evidence from the Phase 1/2 RESTORE trial. The therapy already holds Fast Track and Orphan Drug status; Kamau recently reported that its first three patients had no pain crises so far and targets a 2028 US launch.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "Gene-corrected autologous stem cell therapy gains an expedited FDA pathway."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Adds a challenger in sickle cell gene therapy alongside Casgevy and Lyfgenia."
+    }
+   }
+  },
+  "de91ad291046": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Vivani Medical says its first-in-human Phase 1 SLIM-1 trial of NPM-139, a semaglutide implant meant to last six to twelve months, produced weight loss comparable to weekly Wegovy injections, with no nausea or vomiting reported. The small early study compared the implant against Wegovy controls in people with obesity or overweight; detailed numbers were not in the release summary.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Twice- or once-yearly GLP-1 delivery could address adherence and side effects."
+    },
+    "meddevices": {
+     "score": 5,
+     "why": "Drug-delivery implant approach for chronic obesity treatment."
+    }
+   }
+  },
+  "9ce7f1365bec": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Biolexis Therapeutics presented Phase 1a data at ObesityWeek for BLX-7006, an oral small-molecule GLP-1 receptor agonist that it says binds a distinct allosteric site. The company says the drug was generally well tolerated at oral doses up to 150 mg. Efficacy details were not in the release summary.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Another entrant in the crowded oral small-molecule GLP-1 race."
+    }
+   }
+  },
+  "9552bfe7b0e1": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Vasa Therapeutics says its oral drug VS-041, a narrow-spectrum matrix metalloproteinase inhibitor aimed at cardiac fibroinflammation, significantly reduced NT-proBNP after 28 days versus placebo in a randomised Phase 1c trial in heart failure with preserved ejection fraction, and was safe. NT-proBNP is a biomarker, not a clinical outcome.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Early biomarker signal for a new mechanism in HFpEF."
+    }
+   }
+  },
+  "cd8640b32f54": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "The American Cancer Society now recommends routine PSA screening for prostate cancer, replacing 2010 guidance that left testing to individual discussion. Average-risk men aged 50–69 should be tested every two years, and Black men and those with a strong family history yearly from 45; a PSA of 3.0 ng/mL or more counts as high. After two high readings, MRI or biomarker tests should come before any biopsy. The US Preventive Services Task Force still advises against routine screening but plans an update.",
+   "rel": {
+    "diagnostics": {
+     "score": 7,
+     "why": "Expands routine PSA testing and steers follow-up towards MRI and biomarker tests."
+    },
+    "healthcare": {
+     "score": 7,
+     "why": "Changes screening practice for millions of US men."
+    },
+    "meddevices": {
+     "score": 3,
+     "why": "More pre-biopsy MRI demand."
+    }
+   }
+  },
+  "a67276977b8c": {
+   "dup": "cd8640b32f54"
+  },
+  "cd6f874fb743": {
+   "drop": true
+  },
+  "1dacd39bdd8b": {
+   "drop": true
+  },
+  "8b8970dd9abf": {
+   "drop": true
+  },
+  "fdaa8c5818ab": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Dyadic says RSV and malaria antibodies produced in its C1 fungal expression system passed independent evaluations and are moving into animal studies. The company pitches C1 as a cheaper, faster microbial alternative to mammalian cell lines for making biologics. Not yet clinical data.",
+   "rel": {
+    "bioprocessing": {
+     "score": 6,
+     "why": "Tests a fungal production host for therapeutic antibodies."
+    },
+    "fermentation": {
+     "score": 5,
+     "why": "C1 is a Thermothelomyces fermentation platform."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Could lower antibody costs for global-health uses."
+    }
+   }
+  },
+  "1ed6c22fdbbf": {
+   "cat": "deals",
+   "imp": 5,
+   "summary": "Vor Bio expanded its partnership with China's RemeGen, adding RC298, a next-generation long-acting molecule, to the BAFF/APRIL franchise it built around RemeGen's telitacicept for autoimmune disease. Financial terms were not in the release summary.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Extends a China-sourced autoimmune franchise with a longer-acting follow-on."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Another China in-licensing deal."
+    }
+   }
+  },
+  "c9e3858993d4": {
+   "cat": "deals",
+   "imp": 3,
+   "summary": "Immuneering will collaborate with Astellas on clinical studies combining Astellas' CLDN18.2 programmes with Immuneering's MEK inhibitor atebimetinib in pancreatic cancer. Terms were not disclosed in the release summary.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Combination study in pancreatic cancer with a large partner."
+    }
+   }
+  },
+  "4f3ca481119c": {
+   "drop": true
+  },
+  "ffad721c5024": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Biolojic Design says the FDA cleared its IND for BD200, a multibody drug conjugate whose antibody arms can each bind either Nectin-4 or Trop2, two validated cancer targets. The company calls it the first multibody to enter clinical trials; the design aims to cover tumours with mixed antigen expression.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "New ADC format hitting two validated oncology antigens."
+    },
+    "ai": {
+     "score": 3,
+     "why": "Biolojic uses computational antibody design."
+    }
+   }
+  },
+  "00493552aff7": {
+   "cat": "other",
+   "imp": 6,
+   "summary": "Bristol Myers Squibb is merging research and development under chief medical officer Cristian Massacesi, and head of research Robert Plenge is leaving. The shake-up follows questions over Cobenfy sales and the company's push to defend its pipeline; the reasons and timing were not in the visible text.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Leadership change at the top of a top-10 pharma's R&D."
+    }
+   }
+  },
+  "f3cd67a33790": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "C2N Diagnostics and Japan's LSI Medience are bringing C2N's PrecivityAD2 blood test for Alzheimer's disease to Japan. The test measures amyloid-related markers in blood to help identify brain amyloid, which is needed before starting anti-amyloid drugs.",
+   "rel": {
+    "diagnostics": {
+     "score": 7,
+     "why": "Expands access to an Alzheimer's blood test in a major market."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Could ease the bottleneck of PET and spinal-fluid testing for Leqembi and Kisunla."
+    }
+   }
+  },
+  "c1a4aae155dc": {
+   "drop": true
+  },
+  "1975cb524bc7": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "UKHSA reports 21,129 antibiotic-resistant bloodstream infections in England in 2025, about 406 a week, up 3.2% from 2024 and 16.8% from 2019, though the rise slowed from 9.3% the year before. An estimated 2,318 people with resistant Gram-negative bloodstream infections died, roughly level with 2024. The figures come from the annual ESPAUR surveillance report.",
+   "rel": {
+    "healthcare": {
+     "score": 7,
+     "why": "National data on the growing burden of resistant infections."
+    },
+    "biosecurity": {
+     "score": 6,
+     "why": "Antimicrobial resistance is a core long-term biothreat."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Underlines the need for new antibiotics."
+    }
+   }
+  },
+  "fd559bd6fc0d": {
+   "dup": "1975cb524bc7"
+  },
+  "27c429527603": {
+   "drop": true
+  },
+  "caf035761570": {
+   "drop": true
+  },
+  "b955383b8b69": {
+   "drop": true
+  },
+  "21eaad55829b": {
+   "drop": true
+  },
+  "5be14caa3e96": {
+   "drop": true
+  },
+  "321612aee56b": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "BioSpace's layoff tracker shows biopharma job cuts rose year on year in October, but the overall trend for 2026 is sharply down. Details were not visible beyond the headline.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Gauge of employment health across biopharma."
+    }
+   }
+  },
+  "9d24d6831dad": {
+   "cat": "deals",
+   "imp": 3,
+   "summary": "Santhera signed an exclusive deal with SteinCares to distribute Agamree (vamorolone) for Duchenne muscular dystrophy in 31 countries across Latin America and the Caribbean.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Extends a Duchenne steroid into new markets."
+    }
+   }
+  },
+  "22df8feda637": {
+   "cat": "funding",
+   "imp": 5,
+   "summary": "Montreal's Good Protein, which makes plant-based protein shakes, raised C$128 million ($90 million) from investors including Semcap and Del Monte, to develop new products and enter new markets. It is one of the larger plant-based food rounds this year, at a time when funding for alternative proteins has dried up.",
+   "rel": {
+    "agrifood": {
+     "score": 7,
+     "why": "Large plant-protein round with a food major investing."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Rare sizeable alt-protein financing in a weak market."
+    }
+   }
+  },
+  "d1a6cf67df84": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "BioMap, which develops AI foundation models for the life sciences, announced collaborations with 11 partners at its Hong Kong bio-computing summit, extending its models into drug R&D and agricultural breeding. Partner names and terms were not in the release summary.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "Chinese life-science foundation-model company signing up partners."
+    },
+    "agrifood": {
+     "score": 4,
+     "why": "Applies AI models to crop breeding."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Drug-discovery collaborations."
+    }
+   }
+  },
+  "be79e42bd462": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Research reported by The Scientist finds that crosstalk between subpopulations of pancreatic cancer cells, macrophages and fibroblasts drives cachexia, the wasting syndrome that affects most pancreatic cancer patients. The cell trio may yield biomarkers and treatment targets for the condition.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "New targets for cancer cachexia, an area with few drugs."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Single-cell mapping of tumour microenvironment."
+    }
+   }
+  },
+  "b99fdb6d0f58": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "A Nature news report says new data show RSV vaccines and long-acting monoclonal antibody injections are sharply cutting hospitalisations from the virus, describing their success as staggering. The article itself could not be opened, so the specific figures and countries are not given here.",
+   "rel": {
+    "healthcare": {
+     "score": 7,
+     "why": "Real-world evidence that RSV immunisation is reducing hospital burden."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Supports demand for RSV vaccines and nirsevimab-type antibodies."
+    }
+   }
+  },
+  "b623b764d74b": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A prespecified Nature Medicine companion study to the Phase 3 BMT CTN 1703 trial compared how two common graft-versus-host disease prophylaxis regimens affect the gut microbiome after stem cell transplant. Microbiome diversity at engraftment was not associated with non-relapse mortality, challenging an assumption from earlier observational studies.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Informs microbiome-guided transplant care."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Relevant to microbiome-based GVHD therapies."
+    }
+   }
+  },
+  "e6232c17dc82": {
+   "dup": "e8dbbd1273e1"
+  },
+  "a06577c073fa": {
+   "drop": true
+  },
+  "c0f9704d35ce": {
+   "drop": true
+  },
+  "6471675c5328": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "FDA reviewers analysed AAV gene therapy IND submissions to CBER from 1995 to 2025 in Nature Biotechnology. Filings grew rapidly, mostly from small biotechs (about 30 sponsors in 2024); ophthalmology (25%) and neurology (22%) lead, and AAV9 and AAV2 are the most used serotypes. Clinical holds rose from 2018, with manufacturing (CMC) issues now the biggest cause; partial holds lasted a median 6.4 months versus 4.2 for full holds.",
+   "rel": {
+    "cellgene": {
+     "score": 9,
+     "why": "Regulator's own data on where AAV programmes stumble."
+    },
+    "bioprocessing": {
+     "score": 6,
+     "why": "CMC is the leading cause of AAV holds."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Guides IND preparation for gene therapy developers."
+    }
+   }
+  },
+  "a144b79be7fb": {
+   "drop": true
+  },
+  "1e470a047f45": {
+   "drop": true
+  },
+  "159ecb1ff190": {
+   "drop": true
+  },
+  "d02b0cb1ccc6": {
+   "drop": true
+  },
+  "cb8e1813ce87": {
+   "drop": true
+  },
+  "19faad1b893f": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "NEJM published an original trial on preventing venous thromboembolism after total hip or knee replacement, with an accompanying editorial asking whether aspirin is enough after arthroplasty. Only the titles were available, so the design and results are not given here.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "Could change routine anticoagulation after joint replacement."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Bears on anticoagulant use in orthopaedics."
+    }
+   }
+  },
+  "0ee6a3e65fce": {
+   "dup": "19faad1b893f"
+  },
+  "30e66e82dad7": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "An NEJM editorial, published alongside the intismeran melanoma trial, discusses cancer vaccines moving from treating established disease towards preventing recurrence and possibly cancer itself. Only the title was available.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "Frames the outlook for personalised mRNA cancer vaccines."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Sets the field's view on where cancer vaccines go next."
+    }
+   }
+  },
+  "e3a9cd27fc0f": {
+   "cat": "clinical",
+   "imp": 7,
+   "summary": "NEJM published the trial of Merck and Moderna's personalised mRNA cancer vaccine intismeran autogene plus Keytruda after surgery in stage IIB–IV melanoma. At ESMO the companies reported that the combination cut the risk of relapse or death by 42% versus Keytruda alone, though a key secondary measure was weaker than hoped. Peer-reviewed publication strengthens the case for regulatory filings.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "First large peer-reviewed trial of a personalised mRNA cancer vaccine."
+    },
+    "pharma": {
+     "score": 8,
+     "why": "Potential first approval for individualised neoantigen therapy."
+    }
+   }
+  },
+  "577dbfb9a87d": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Nature interviewed founders of climate biotech start-ups about their work and the challenges of building such companies. Only the headline was available.",
+   "rel": {
+    "industrial": {
+     "score": 5,
+     "why": "Founders' view on the climate biotech sector."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Touches on financing climate biotech."
+    }
+   }
+  },
+  "6174be19849a": {
+   "dup": "2b3dabd970bc"
+  },
+  "41f27efa0dd9": {
+   "drop": true
+  },
+  "7c0b0cb14eb4": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A small study of 11 Korean children with OTOF-related hearing loss found that some cochlear cells remained functional for years after early cochlear implantation. Researchers at Seoul National University Bundang Hospital say gene therapy may therefore still be an option for children who already have implants.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "Widens the eligible population for OTOF gene therapies."
+    },
+    "meddevices": {
+     "score": 3,
+     "why": "Relevant to cochlear implant patients."
+    }
+   }
+  },
+  "ae9bf10f6672": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "In Korea's insurance review, Daehwa's oral paclitaxel Liporaxel and Gilead's CAR-T therapy Yescarta cleared an initial hurdle towards wider coverage, while BeOne's Tevimbra failed to advance for extensive-stage small cell lung cancer.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Korean reimbursement decisions for cancer drugs."
+    },
+    "cellgene": {
+     "score": 3,
+     "why": "Wider CAR-T coverage in Korea."
+    }
+   }
+  },
+  "42dfc99e76d0": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Boryung broke ground on a second cancer injectable plant at its Yesan campus in Korea, investing 50 billion won ($37 million) to more than double capacity for its overseas supply business.",
+   "rel": {
+    "bioprocessing": {
+     "score": 4,
+     "why": "Adds oncology injectable manufacturing capacity."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Supports export supply of cancer drugs."
+    }
+   }
+  },
+  "6406c9780390": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "HLB Pharmaceutical began building a 55 billion won ($38 million) plant in Hwaseong, Korea, aiming to nearly triple its annual tablet production capacity.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Korean generic and tablet capacity expansion."
+    }
+   }
+  },
+  "b3dabfef3e1f": {
+   "drop": true
+  },
+  "4549a7ceb7e9": {
+   "drop": true
+  },
+  "bf742f5046bf": {
+   "drop": true
+  },
+  "9bb7039a9380": {
+   "drop": true
+  },
+  "e1f4cfa7ccc5": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "A study at Ewha Womans University Seoul Hospital found single-port robotic colon cancer surgery led to less postoperative pain and faster recovery than conventional laparoscopy, with no significant difference in three-year survival.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Supports single-port surgical robots in colorectal surgery."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Recovery benefit for colon cancer patients."
+    }
+   }
+  },
+  "94c1b606678e": {
+   "drop": true
+  },
+  "7beab15dbe93": {
+   "drop": true
+  },
+  "9e25e0d2222d": {
+   "drop": true
+  },
+  "78a9b549dafe": {
+   "drop": true
+  },
+  "c3514005dfe4": {
+   "drop": true
+  },
+  "a1459402b2ea": {
+   "drop": true
+  },
+  "e2d6c6e3d328": {
+   "drop": true
+  },
+  "8b6ae825060d": {
+   "drop": true
+  },
+  "adb8be648bad": {
+   "drop": true
+  },
+  "ff9f9ce86337": {
+   "drop": true
+  },
+  "c4a4ed33e758": {
+   "drop": true
+  },
+  "a16ad29f4dc7": {
+   "drop": true
+  },
+  "6635abc85752": {
+   "drop": true
+  },
+  "f6df686bccb1": {
+   "drop": true
+  },
+  "f879b25a3f01": {
+   "drop": true
+  },
+  "a012172d1016": {
+   "drop": true
+  },
+  "0a7f28926baa": {
+   "drop": true
+  },
+  "9a02604403d6": {
+   "drop": true
+  },
+  "ec5050dff493": {
+   "drop": true
+  },
+  "7cd0d00b160a": {
+   "drop": true
+  },
+  "e5471b7013d5": {
+   "drop": true
+  },
+  "24f97d77c501": {
+   "drop": true
+  },
+  "71c035ed6768": {
+   "drop": true
+  },
+  "e3a406374171": {
+   "drop": true
+  },
+  "081959f7dea0": {
+   "drop": true
+  },
+  "8b8f418a2d39": {
+   "drop": true
+  },
+  "9e587fcd3e6c": {
+   "drop": true
+  },
+  "c7cc5cff2391": {
+   "drop": true
+  },
+  "d74a97973847": {
+   "drop": true
+  },
+  "a7af5adb1c29": {
+   "drop": true
+  },
+  "063ab147fafa": {
+   "drop": true
+  },
+  "bf770d5aab0f": {
+   "drop": true
+  },
+  "9511bd1ddfe1": {
+   "drop": true
+  },
+  "d32ffd5fde3f": {
+   "drop": true
+  },
+  "4406ec1ce80f": {
+   "drop": true
+  },
+  "1b64da20fe36": {
+   "drop": true
+  },
+  "64b40fbc1059": {
+   "drop": true
+  },
+  "8976f29ad74a": {
+   "drop": true
+  },
+  "c9a98acc49b5": {
+   "drop": true
+  },
+  "c8974525569d": {
+   "drop": true
+  },
+  "c7755b170259": {
+   "drop": true
+  },
+  "323b14b6367b": {
+   "drop": true
+  },
+  "33e11879e0bb": {
+   "drop": true
+  },
+  "0dbd4a07e868": {
+   "drop": true
+  },
+  "20742d34c882": {
+   "drop": true
+  },
+  "2c360f189cc1": {
+   "drop": true
+  },
+  "cfbb313ea461": {
+   "drop": true
+  },
+  "2fffa3cee7a3": {
+   "drop": true
+  },
+  "c749caf55161": {
+   "drop": true
+  },
+  "8c4270b55306": {
+   "drop": true
+  },
+  "b356d408369e": {
+   "drop": true
+  },
+  "e4cb46dceb12": {
+   "drop": true
+  },
+  "67851fd4fdd3": {
+   "drop": true
+  },
+  "6055f2362228": {
+   "drop": true
+  },
+  "29c7d27c9159": {
+   "drop": true
+  },
+  "5d69305e3090": {
+   "drop": true
+  },
+  "9109d61aa2bf": {
+   "drop": true
+  },
+  "abc7ad074ffe": {
+   "drop": true
+  },
+  "87e29a3bfcfe": {
    "drop": true
   }
  },
