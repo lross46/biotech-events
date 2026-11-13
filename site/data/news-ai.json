@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T06:45:16Z",
+ "updated": "2026-11-13T15:36:15Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
   "date": "2026-11-13T06:45:16Z",
@@ -23736,6 +23736,928 @@
     "tools": {
      "score": 4,
      "why": "New optogenetic tool for GPCR research."
+    }
+   }
+  },
+  "df7f238757e6": {
+   "dup": "4e101dd3fce5"
+  },
+  "778bf4e7de19": {
+   "dup": "5eff4a69f044"
+  },
+  "1811d4bad33a": {
+   "dup": "51dfdd03461e"
+  },
+  "46eae4845471": {
+   "dup": "9671dafe8bfa"
+  },
+  "5bf5138f629f": {
+   "dup": "9e7b52acab20"
+  },
+  "5acc421dca2c": {
+   "drop": true
+  },
+  "e491624d5a42": {
+   "dup": "8552ce0917bd"
+  },
+  "01461d0ace9e": {
+   "drop": true
+  },
+  "a659788aee8e": {
+   "dup": "7e8f29071e0a"
+  },
+  "b5baf020fa05": {
+   "drop": true
+  },
+  "e5ffcfbcf6a5": {
+   "dup": "a64723aee7da"
+  },
+  "50c1da5da67f": {
+   "drop": true
+  },
+  "b91d9f8a828e": {
+   "dup": "5dd773bf975f"
+  },
+  "91df05e9ec11": {
+   "dup": "e7dd0306130a"
+  },
+  "497d17aafdc3": {
+   "drop": true
+  },
+  "b9d36816ea30": {
+   "drop": true
+  },
+  "e9a8d30bc638": {
+   "dup": "c30ec60c5df6"
+  },
+  "b6298a542777": {
+   "drop": true
+  },
+  "9d30cf92582e": {
+   "dup": "3fdb4fcc5212"
+  },
+  "b8b994fde194": {
+   "drop": true
+  },
+  "3037cc9b3d33": {
+   "dup": "77be7737d3e0"
+  },
+  "3a3c16f09978": {
+   "drop": true
+  },
+  "048264ed85af": {
+   "drop": true
+  },
+  "3c6f5d449b42": {
+   "drop": true
+  },
+  "c7b3710cb8e9": {
+   "drop": true
+  },
+  "4a88ca73f8fb": {
+   "drop": true
+  },
+  "7f5ae653d5e6": {
+   "dup": "433e1288b6db"
+  },
+  "dda9e2b12cf0": {
+   "drop": true
+  },
+  "61d689c232f9": {
+   "dup": "4e101dd3fce5"
+  },
+  "cfb1a63e1933": {
+   "drop": true
+  },
+  "fe79a8ef5fab": {
+   "dup": "51dfdd03461e"
+  },
+  "d25eaf07ccfb": {
+   "drop": true
+  },
+  "3ee8389392f8": {
+   "drop": true
+  },
+  "16dca8e14763": {
+   "drop": true
+  },
+  "f434ead58b0c": {
+   "drop": true
+  },
+  "722514534472": {
+   "drop": true
+  },
+  "1fc62ab1b005": {
+   "drop": true
+  },
+  "c2729f0bfd36": {
+   "drop": true
+  },
+  "1c259bcff970": {
+   "drop": true
+  },
+  "8fcf391a3c7a": {
+   "drop": true
+  },
+  "88081c32dac2": {
+   "drop": true
+  },
+  "d5ba2b8dad2c": {
+   "drop": true
+  },
+  "e13a8a540909": {
+   "drop": true
+  },
+  "cd10dbf6af32": {
+   "drop": true
+  },
+  "3ca394c52b7e": {
+   "drop": true
+  },
+  "b7ac293989fe": {
+   "drop": true
+  },
+  "263a3f3caf04": {
+   "drop": true
+  },
+  "a96e38916148": {
+   "dup": "2b3dabd970bc"
+  },
+  "b12fb7e81341": {
+   "drop": true
+  },
+  "e6f6c10d2f89": {
+   "drop": true
+  },
+  "64935e64dbd5": {
+   "drop": true
+  },
+  "4e7f3ed79ffa": {
+   "drop": true
+  },
+  "b6ede287b2d0": {
+   "dup": "d505f03250cd"
+  },
+  "45574f4d7c55": {
+   "drop": true
+  },
+  "78d4b6ec0ee0": {
+   "dup": "c4c2c52db28b"
+  },
+  "a8bb24acef05": {
+   "dup": "00e98a1f3070"
+  },
+  "b53266c9f5cd": {
+   "drop": true
+  },
+  "4fd2cd0b533c": {
+   "drop": true
+  },
+  "fa1c048137e1": {
+   "drop": true
+  },
+  "0ee2253d7d7f": {
+   "drop": true
+  },
+  "066e46572ead": {
+   "drop": true
+  },
+  "f653ed6905d9": {
+   "drop": true
+  },
+  "61164f23e3fb": {
+   "drop": true
+  },
+  "e603ac2b0aa1": {
+   "drop": true
+  },
+  "1d5f5f3fb2ec": {
+   "drop": true
+  },
+  "811ee9cb8ec7": {
+   "drop": true
+  },
+  "455e9d24c70a": {
+   "drop": true
+  },
+  "c06249d0f1f9": {
+   "drop": true
+  },
+  "0a7727272bd4": {
+   "drop": true
+  },
+  "31f90572bb62": {
+   "drop": true
+  },
+  "90b7738a4dd2": {
+   "drop": true
+  },
+  "d2ef87f27245": {
+   "drop": true
+  },
+  "62ece1fb1145": {
+   "dup": "74efa911c983"
+  },
+  "6d1395921e8d": {
+   "drop": true
+  },
+  "90ae09a68dbe": {
+   "drop": true
+  },
+  "5246fefac267": {
+   "drop": true
+  },
+  "778efc66af45": {
+   "dup": "aec57b25a39d"
+  },
+  "b82aec4c86d0": {
+   "drop": true
+  },
+  "406efb4ccd97": {
+   "drop": true
+  },
+  "de378bd9b2f1": {
+   "drop": true
+  },
+  "c56bb8489036": {
+   "drop": true
+  },
+  "3a458770f73e": {
+   "drop": true
+  },
+  "9c41a513889c": {
+   "drop": true
+  },
+  "2cd94d21b408": {
+   "drop": true
+  },
+  "9797bb165628": {
+   "drop": true
+  },
+  "4190acca4168": {
+   "drop": true
+  },
+  "38280df1c81b": {
+   "drop": true
+  },
+  "8196d2066151": {
+   "drop": true
+  },
+  "5800990f05f9": {
+   "drop": true
+  },
+  "f08128be7c5c": {
+   "drop": true
+  },
+  "9c3b3b90d515": {
+   "drop": true
+  },
+  "fefe3c61501e": {
+   "drop": true
+  },
+  "0bab44666b06": {
+   "drop": true
+  },
+  "4a9bb134f643": {
+   "drop": true
+  },
+  "aea6ac98fb56": {
+   "drop": true
+  },
+  "edfcf2d46be0": {
+   "drop": true
+  },
+  "e85489238062": {
+   "drop": true
+  },
+  "f9064ac08a11": {
+   "drop": true
+  },
+  "6562f44c43d2": {
+   "drop": true
+  },
+  "c4e455b2cbd6": {
+   "drop": true
+  },
+  "1ef31cc72eed": {
+   "dup": "68d06e5a1880"
+  },
+  "a4bb5d0dea28": {
+   "drop": true
+  },
+  "fe1c642e4b59": {
+   "drop": true
+  },
+  "ba8c3f3a4ebb": {
+   "drop": true
+  },
+  "533254bf72a0": {
+   "drop": true
+  },
+  "02866995c420": {
+   "drop": true
+  },
+  "84989ed6e3be": {
+   "dup": "968fa55817bc"
+  },
+  "fb46ca08dc69": {
+   "dup": "5ec798453c55"
+  },
+  "f3b60d7b1eb8": {
+   "drop": true
+  },
+  "281799db0744": {
+   "drop": true
+  },
+  "9476cd1bccd9": {
+   "drop": true
+  },
+  "d96c3d72332f": {
+   "dup": "68d06e5a1880"
+  },
+  "380bdc148580": {
+   "drop": true
+  },
+  "bbbbe4de29cb": {
+   "drop": true
+  },
+  "119f813263ad": {
+   "drop": true
+  },
+  "fc41d5897760": {
+   "drop": true
+  },
+  "1d3e416b901b": {
+   "drop": true
+  },
+  "1f5a8618fadd": {
+   "drop": true
+  },
+  "2007990be77f": {
+   "drop": true
+  },
+  "ce56a1baac95": {
+   "drop": true
+  },
+  "65a3d15207c3": {
+   "drop": true
+  },
+  "1e1d7c71001a": {
+   "drop": true
+  },
+  "e3272ab7ca7c": {
+   "drop": true
+  },
+  "6fff7d6f0fe9": {
+   "drop": true
+  },
+  "9aa6dfc26093": {
+   "drop": true
+  },
+  "97c4c87b9ecf": {
+   "drop": true
+  },
+  "24f15f81e679": {
+   "drop": true
+  },
+  "77a1ada7be59": {
+   "drop": true
+  },
+  "2b2a0b321511": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Korean vaccine maker EuBiologics posted record Q3 sales, up 20.6% year on year, and a 15.6% rise in operating profit with a 44.1% operating margin, driven by oral cholera vaccine shipments, Korea Biomedical Review reports.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Main global supplier of oral cholera vaccine."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Cholera vaccine supply matters for outbreak response."
+    }
+   }
+  },
+  "c9645d028491": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "An Asan Medical Center study found AI support raised pathologists' accuracy in diagnosing a rare kidney cancer from 60.0% to 73.3%, but doctors who relied more heavily on the tool were also more likely to accept its wrong suggestions, Korea Biomedical Review reports. The authors warn of automation bias as AI enters pathology.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "Quantifies both benefit and overreliance risk of AI in pathology."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "Digital pathology accuracy in rare cancers."
+    }
+   }
+  },
+  "abf94fafc866": {
+   "drop": true
+  },
+  "63e8a476a40d": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "SK Biopharmaceuticals' partner Ono Pharmaceutical launched the epilepsy drug cenobamate in Japan, following approval in September, completing its rollout in Northeast Asia after launches in China in March and Korea this month.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Korean-discovered drug reaches all major Northeast Asian markets."
+    }
+   }
+  },
+  "22c11fd47708": {
+   "drop": true
+  },
+  "1938d6820484": {
+   "drop": true
+  },
+  "868bcdee3350": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Regeneron reported positive Phase 2 data for its antibody baloncibart in postural orthostatic tachycardia syndrome (POTS), a nervous-system disorder with no approved therapy, and plans to start a potentially pivotal trial in the first half of 2027, Fierce Biotech reports. Detailed efficacy numbers were not in the visible text.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Rare big-pharma programme in POTS moving towards a pivotal study."
+    }
+   }
+  },
+  "3d7ec19b909e": {
+   "dup": "3d196ea7d2e9"
+  },
+  "7e747818f844": {
+   "dup": "54c7a153242d"
+  },
+  "e0f204e084a1": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "The UK Food Standards Agency and Food Standards Scotland published a nine-step guide for exporting cell-cultivated products from Great Britain to non-EU countries, covering market access checks, export health certificates, customs, cold chain and labelling. It is part of the FSA sandbox running to February 2027. No cultivated meat is yet approved for UK human consumption, with at least six applications under review, and a UK-EU food trade deal due on 20 November may exempt novel foods.",
+   "rel": {
+    "agrifood": {
+     "score": 7,
+     "why": "First UK export pathway for cultivated meat companies."
+    },
+    "fermentation": {
+     "score": 3,
+     "why": "Relevant to the wider UK novel-food regime."
+    }
+   }
+  },
+  "55b374bdccf6": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "PAVmed says its Lucid Diagnostics unit's EsoGuard oesophageal precancer test is now fully reimbursed by Medicare nationwide, and its Veris Health implantable monitor reached design freeze ahead of an early-2027 FDA submission, in its preliminary Q3 update.",
+   "rel": {
+    "diagnostics": {
+     "score": 5,
+     "why": "Nationwide Medicare coverage for a non-endoscopic oesophageal test."
+    },
+    "meddevices": {
+     "score": 3,
+     "why": "Implantable monitor heading to FDA."
+    }
+   }
+  },
+  "3ad305e04e82": {
+   "drop": true
+  },
+  "bffd71f47cf5": {
+   "drop": true
+  },
+  "6fdf2fa1aacd": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Gubra, the Danish obesity-drug partner of AbbVie and Boehringer Ingelheim, moved to a co-CEO arrangement after the abrupt departure of CEO Markus Rohrwild, and former HHS official Brett Giroir became CEO of a cancer biotech, Endpoints News reports.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Leadership change at a notable obesity-drug partner."
+    }
+   }
+  },
+  "31b1feca4d62": {
+   "drop": true
+  },
+  "8f2139ea42a5": {
+   "drop": true
+  },
+  "5a77d95f8957": {
+   "drop": true
+  },
+  "45a9fd17b02c": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "MetaVia, a US affiliate of Dong-A ST, says its GLP-1/glucagon dual agonist DA-1726 significantly lowered blood uric acid in an interim analysis of Part 3B of its Phase 1 trial, which earlier showed reductions in body weight and liver fat.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Early obesity-drug data from a Korean developer."
+    }
+   }
+  },
+  "1d75dfd2ba00": {
+   "drop": true
+  },
+  "7fa54db7476b": {
+   "cat": "funding",
+   "imp": 4,
+   "summary": "Rezolute priced an underwritten offering of common stock and pre-funded warrants worth about $100 million, led by Frazier Life Sciences with new and existing funds. It came the same day the company reported positive preliminary Phase 3 upLIFT results for ersodetug in tumor hyperinsulinism, ahead of planned BLA filings in 2027.",
+   "rel": {
+    "investment": {
+     "score": 6,
+     "why": "Follow-on raise timed to a positive pivotal readout."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Funds the path to filing for ersodetug."
+    }
+   }
+  },
+  "562d918c85d8": {
+   "cat": "clinical",
+   "imp": 7,
+   "summary": "Rezolute says its insulin-receptor antibody ersodetug met the primary endpoint of the single-arm Phase 3 upLIFT study in tumor hyperinsulinism, based on preliminary data: 13 of 16 patients with insulinomas or non-islet cell tumors cut their glucose infusion rate by at least 50% (9 responders were needed), and 12 stopped IV glucose entirely. No drug-related safety findings were reported; one patient died of cancer progression. Full topline data are due by mid-December, an FDA meeting in Q1 2027 and BLA filings in 2027. The company also priced a ~$100M stock offering.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Pivotal success for a first-in-class antibody in a rare hypoglycaemia disorder with no approved drug."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Readout paired with a $100M financing led by Frazier."
+    }
+   }
+  },
+  "1fc1c71701ec": {
+   "cat": "regulatory",
+   "imp": 6,
+   "summary": "The EMA's human medicines committee (CHMP) recommended seven new medicines for EU approval at its 9–12 November 2026 meeting, according to the agency's meeting highlights. The full list of products, extensions of indication and any negative opinions is on the EMA page, which could not be opened for this summary. The European Commission usually issues final decisions about two months after a CHMP opinion.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Monthly CHMP opinions set which new medicines reach the EU market next."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Determines new treatment options for European health systems."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Positive opinions are value milestones for the sponsors."
+    }
+   }
+  },
+  "85945d302fc1": {
+   "cat": "regulatory",
+   "imp": 6,
+   "summary": "Novo Nordisk has submitted etavopivat, a once-daily oral activator of red-cell pyruvate kinase, to the FDA and EMA for sickle cell disease in patients aged 12 and over. The filings rest on the ~440-patient Phase 3 HIBISCUS trial, which in April showed a 27% reduction in vaso-occlusive crises versus placebo and a roughly four-month delay to the first crisis; full data are not yet published. Decisions are expected in 2027. Novo got the drug through its 2022 Forma Therapeutics buyout.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Potential new oral disease-modifying option in sickle cell disease from a big-pharma sponsor."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Sickle cell disease affects about 8 million people worldwide."
+    }
+   }
+  },
+  "95607cb3cb3d": {
+   "drop": true
+  },
+  "f2ab31a92655": {
+   "drop": true
+  },
+  "d645ada19977": {
+   "drop": true
+  },
+  "4e633e7159e9": {
+   "cat": "contracts",
+   "imp": 6,
+   "summary": "Indian drugmaker Symbiotec Pharmalabs signed a 10-year take-or-pay deal to contract-manufacture a precision-fermented protein for an unnamed European alternative-protein company, Green Queen reports. Production starts at its Ujjain campus, which has four 100,000-litre fermenters, and a new dedicated plant with several hundred thousand litres is planned, with options to expand towards millions of litres. Terms were not disclosed. It is a sign that pharma-grade fermentation capacity in India is being turned to food proteins.",
+   "rel": {
+    "fermentation": {
+     "score": 8,
+     "why": "Long-term large-scale capacity deal for precision-fermented protein."
+    },
+    "bioprocessing": {
+     "score": 7,
+     "why": "Pharma CDMO repurposing 100,000-litre fermenters for food proteins."
+    },
+    "agrifood": {
+     "score": 6,
+     "why": "Secures supply for a European alternative-protein brand."
+    }
+   }
+  },
+  "3fb92ed2d1f2": {
+   "drop": true
+  },
+  "68a63dfa4122": {
+   "drop": true
+  },
+  "ebbe9a0437b5": {
+   "drop": true
+  },
+  "7557e64348a0": {
+   "drop": true
+  },
+  "53db8c469c41": {
+   "dup": "f9294da111d9"
+  },
+  "08560adbc112": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "A 25-year follow-up of the landmark COURAGE trial, published in JAMA and presented at AHA 2026, found no significant difference in death or heart attack between 959 stable coronary patients given a stent plus medical therapy and those on medical therapy alone (93.3% vs 91% cumulative incidence). The researchers say stents still relieve symptoms and save lives in emergencies, but do not cut long-term risk in stable disease.",
+   "rel": {
+    "meddevices": {
+     "score": 7,
+     "why": "Long-term evidence on the value of elective stenting."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Supports medical therapy first in stable coronary disease."
+    }
+   }
+  },
+  "7d9e46d2ecfa": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Bracco and Avicenna.AI say the FDA cleared, via two 510(k)s, their UPTUNITY Aneurysm software, which flags suspected brain aneurysms larger than 3 mm on head CT angiography and measures known aneurysms over time. It is the first product in Bracco's new AI decision-support portfolio. The release gives no accuracy figures.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "Cleared AI imaging tool for aneurysm detection and follow-up."
+    },
+    "meddevices": {
+     "score": 5,
+     "why": "Adds to radiology AI software cleared as devices."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Supports aneurysm diagnosis on CTA."
+    }
+   }
+  },
+  "3c3aec627561": {
+   "drop": true
+  },
+  "109afdb950e7": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Bavarian Nordic says Q3 revenue was DKK 1.81 billion, flat year on year, as travel-health sales rose 22% (rabies vaccine +37%, chikungunya vaccine Vimkunya +146%) and public-preparedness sales fell. Nine-month EBITDA margin was 34.9%; it kept 2026 guidance of about DKK 6.1 billion revenue and a ~32% margin. It also started a new share buyback tranche and said its CFO will step down in 2027.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Mid-size vaccine maker shifting towards travel vaccines."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Public-preparedness (mpox/smallpox) sales declining."
+    }
+   }
+  },
+  "e126fd6da560": {
+   "drop": true
+  },
+  "8b800c4a8f35": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "Copenhagen's 21st.Bio has filed with the European Food Safety Authority for approval of BLG+ Essential, a beta-lactoglobulin whey protein made by precision fermentation in Aspergillus oryzae, and is asking for a faster pathway for nature-identical proteins. The product has been sold in the US for about two years; rivals Perfect Day, Remilk, Vivici and others are cleared in the US but none yet in the EU. Whey prices have risen fivefold in a year, Green Queen notes.",
+   "rel": {
+    "fermentation": {
+     "score": 8,
+     "why": "EU novel-food filing for a precision-fermented dairy protein."
+    },
+    "agrifood": {
+     "score": 7,
+     "why": "Tests how fast the EU can approve animal-free dairy ingredients."
+    }
+   }
+  },
+  "13b9ccaeb373": {
+   "drop": true
+  },
+  "ed5fd96a8c94": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A team led by Stanford bioengineer Jan Liphardt linked cultured human iPSC-derived cortical neurons on electrode arrays to a humanoid robot, which used their signals to react to social cues in real time, The Scientist reports. 2D cultures decoded signals with up to 94% accuracy within 150–240 ms and survived over 100 days; 3D spheroids were slower and lasted only days. Outside experts called it a humble first step towards biological computing.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "Early demonstration of living neurons as a computing substrate for robotics."
+    },
+    "tools": {
+     "score": 5,
+     "why": "Advances neuron-on-electrode culture platforms."
+    }
+   }
+  },
+  "71c5a02835e1": {
+   "drop": true
+  },
+  "9378de37e088": {
+   "drop": true
+  },
+  "775b2e75cc64": {
+   "dup": "54c7a153242d"
+  },
+  "0164a600e6f5": {
+   "drop": true
+  },
+  "1f8f4093501b": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature Biotechnology comment proposes a 2 x 2 taxonomy for false discovery rate (FDR) control in omics, sorting the different procedures by their assumptions so that sequencing and mass-spectrometry researchers can pick and report the right one. Mismatched FDR methods are a common source of irreproducible omics findings.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "Practical statistics guidance for sequencing and proteomics pipelines."
+    },
+    "ai": {
+     "score": 3,
+     "why": "Relevant to data-analysis standards in computational biology."
+    }
+   }
+  },
+  "b7d01eff061a": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature Chemical Biology study identifies the nuclear receptor coactivators NCOA1, NCOA2 and NCOA3 as the main histone succinyltransferases in mammals, and shows that histone succinylation recruits the Mediator complex to support global transcription. It adds a new link between metabolism and gene regulation.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "New epigenetic mechanism involving known oncology-linked coactivators."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Basic epigenetics finding."
+    }
+   }
+  },
+  "5bd8dcfffd0a": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature Medicine commentary argues that KRAS-targeting vaccines could become a new way to prevent pancreatic cancer recurrence, as therapeutic and technological advances converge, while noting that many hurdles remain. It follows recent randomized data on a lymph-node-targeted mutant-KRAS vaccine in pancreatic cancer.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Frames cancer vaccines as a complement to KRAS inhibitors."
+    },
+    "cellgene": {
+     "score": 3,
+     "why": "Covers mRNA and peptide vaccine platforms."
+    }
+   }
+  },
+  "cb55532328ec": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "A BioProcess International article, based on a BPI Europe 2026 panel, argues that drug developers should analyse manufacturing cost of goods much earlier, since process decisions that fix cost are made long before cost is usually measured, and suggests tools beyond traditional COGS models.",
+   "rel": {
+    "bioprocessing": {
+     "score": 6,
+     "why": "Practical guidance on early cost-of-goods planning."
+    }
+   }
+  },
+  "b99b3bf0ad66": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Nature reports a study in which aged mice engineered to lack the protease granzyme K had better heart and liver function and less kidney damage, suggesting granzyme K drives ageing-related tissue decline without triggering broad inflammation. It points to granzyme K as a possible target for therapies against age-related organ damage. Details beyond the summary were not accessible.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Identifies a candidate target for age-related organ decline."
+    }
+   }
+  },
+  "0590b2dab2c4": {
+   "drop": true
+  },
+  "299e128db50e": {
+   "drop": true
+  },
+  "54f086316cdd": {
+   "drop": true
+  },
+  "ee4619131aca": {
+   "drop": true
+  },
+  "f03612cb6d20": {
+   "drop": true
+  },
+  "069a8993b9ac": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A bioRxiv preprint reports engineering the thumb loop of T7 RNA polymerase to reduce incomplete transcripts, improving the integrity of long RNAs such as self-amplifying RNA, a key quality attribute in therapeutic mRNA manufacturing. Not yet peer-reviewed.",
+   "rel": {
+    "bioprocessing": {
+     "score": 6,
+     "why": "Enzyme improvement for mRNA and saRNA manufacturing quality."
+    },
+    "cellgene": {
+     "score": 5,
+     "why": "Relevant to mRNA medicine production."
+    }
+   }
+  },
+  "db6a56c36da6": {
+   "drop": true
+  },
+  "9e9ed482d12d": {
+   "drop": true
+  },
+  "7efdaef5dbfb": {
+   "drop": true
+  },
+  "405ec4363292": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A bioRxiv preprint couples environmental biosensors to inverter (NOT) gene circuits in soil bacteria, moving genetic logic gates beyond lab-standard inputs towards signals engineered microbes meet in the field. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 5,
+     "why": "Synthetic biology circuits for real-world environmental chassis."
+    },
+    "agrifood": {
+     "score": 4,
+     "why": "Relevant to engineered soil microbes."
+    }
+   }
+  },
+  "d06824f5e2ed": {
+   "drop": true
+  },
+  "add4254d9fce": {
+   "drop": true
+  },
+  "0041ff893028": {
+   "drop": true
+  },
+  "564ff755be28": {
+   "drop": true
+  },
+  "ba9ab7cb8a2a": {
+   "drop": true
+  },
+  "5597da3a8750": {
+   "drop": true
+  },
+  "f9d838511591": {
+   "drop": true
+  },
+  "e2555a51e0c7": {
+   "drop": true
+  },
+  "3b5865f23f10": {
+   "drop": true
+  },
+  "718c9532ba81": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A bioRxiv preprint applies sparse autoencoders to the protein design model ProteinMPNN to extract interpretable features, aiming to make its designed sequences easier to understand and customise. Not yet peer-reviewed.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "Interpretability work on a widely used protein design model."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Protein engineering method."
+    }
+   }
+  },
+  "3025a1685368": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A bioRxiv preprint reports tuning a single residue in aromatic prenyltransferases to switch their chemo- and regioselectivity, creating a high-efficiency enzymatic geranylation platform for modifying molecules sustainably. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 5,
+     "why": "Biocatalysis route for sustainable chemical modification."
+    }
+   }
+  },
+  "ae4396286c72": {
+   "drop": true
+  },
+  "a3ce00064fec": {
+   "drop": true
+  },
+  "024fe732c753": {
+   "drop": true
+  },
+  "80d179cd6c2c": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A bioRxiv preprint describes TriMic, a culture collection and synthetic microbial community from wheat, built to study how microbes interact with this major crop. Not yet peer-reviewed.",
+   "rel": {
+    "agrifood": {
+     "score": 5,
+     "why": "Open resource for wheat microbiome research."
     }
    }
   }
