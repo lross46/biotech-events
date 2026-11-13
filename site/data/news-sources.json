@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T21:45:00Z",
+ "updated": "2026-11-13T06:45:16Z",
  "note": "Feeds read by scripts/fetch-news.mjs 4 times a day. kind sets the evidence badge. filter=true keeps only items that mention biotech terms (for broad feeds). status 'trial' = added by Claude, reviewed when trialEnds passes. See NEWS-UPDATING.md.",
  "sources": [
   {
@@ -66,7 +66,7 @@
   },
   {
    "id": "gen",
-   "name": "GEN \u2013 Genetic Engineering & Biotechnology News",
+   "name": "GEN – Genetic Engineering & Biotechnology News",
    "home": "https://www.genengnews.com",
    "feeds": [
     "https://www.genengnews.com/feed/"
@@ -482,9 +482,8 @@
     "https://www.koreabiomed.com/rss/allArticle.xml"
    ],
    "kind": "news",
-   "status": "trial",
+   "status": "core",
    "added": "2026-10-30",
-   "trialEnds": "2026-11-13",
    "why": "English-language Korean pharma, biotech and medtech trade press: approvals, reimbursement and licensing deals the current sources miss.",
    "filter": true
   }
@@ -605,6 +604,10 @@
   {
    "date": "2026-11-10",
    "text": "Added ECDC (threat reports, risk assessments, epidemiological updates, news) and the CDC newsroom on trial: official outbreak sources that had only arrived through search."
+  },
+  {
+   "date": "2026-11-13",
+   "text": "Kept Korea Biomedical Review (trial ended): 75 of 87 stories kept, mostly Korean approvals, reimbursement and licensing deals no other source carries."
   }
  ]
 }
