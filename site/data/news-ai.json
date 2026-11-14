@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-14T06:47:01Z",
+ "updated": "2026-11-14T13:40:24Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-14T06:47:01Z",
+  "date": "2026-11-14T13:40:24Z",
   "points": [
    {
     "sec": "results",
@@ -38,12 +38,14 @@
    },
    {
     "sec": "policy",
-    "text": "Three bipartisan bills in Congress would curb the president's tariff powers, which medtech firms hit by component tariffs are watching closely. The American Society of Addiction Medicine issued the first national guidance for treating withdrawal from medetomidine, a veterinary sedative spreading through the illicit drug supply. In alternative proteins, the UK Food Standards Agency set out a route for exporting cultivated meat to non-EU markets, and 21st.Bio filed for EU approval of animal-free whey while calling for faster novel-food reviews. HHS's new psychedelics funding, including ibogaine work for veterans, remained in the background.",
+    "text": "Three bipartisan bills in Congress would curb the president's tariff powers, which medtech firms hit by component tariffs are watching closely. The American Society of Addiction Medicine issued the first national guidance for treating withdrawal from medetomidine, a veterinary sedative spreading through the illicit drug supply. In alternative proteins, the UK Food Standards Agency set out a route for exporting cultivated meat to non-EU markets, and 21st.Bio filed for EU approval of animal-free whey while calling for faster novel-food reviews. China published its 2026 reimbursement lists, effective January 2027: Innovent placed seven products including GLP-1 dual agonist mazdutide on the national list, and CARsgen's satri-cel became the first solid-tumour CAR-T on the new commercial-insurance list for high-cost drugs.",
     "ids": [
      "a5dc98c82cd2",
      "004316cafe17",
      "e0f204e084a1",
-     "8b800c4a8f35"
+     "8b800c4a8f35",
+     "eb4ff293359a",
+     "547038a27d40"
     ]
    },
    {
@@ -24715,6 +24717,601 @@
     "tools": {
      "score": 4,
      "why": "Improves a cell-patterning research technique."
+    }
+   }
+  },
+  "c0f9704d35ce": {
+   "drop": true
+  },
+  "e6232c17dc82": {
+   "dup": "e8dbbd1273e1"
+  },
+  "a06577c073fa": {
+   "drop": true
+  },
+  "aff3854ff21f": {
+   "drop": true
+  },
+  "8f3afd9fc180": {
+   "drop": true
+  },
+  "2e3f80054252": {
+   "dup": "e2cafcde1028"
+  },
+  "265653d7b9bf": {
+   "dup": "e2cafcde1028"
+  },
+  "ca2ed490825b": {
+   "dup": "e2cafcde1028"
+  },
+  "f27f4d48861b": {
+   "drop": true
+  },
+  "04dece2018da": {
+   "dup": "e2cafcde1028"
+  },
+  "ae74d69d83e6": {
+   "dup": "e2cafcde1028"
+  },
+  "892adc2c0cab": {
+   "dup": "2edfbc93beea"
+  },
+  "a1b840745438": {
+   "dup": "e2cafcde1028"
+  },
+  "481fe61974be": {
+   "dup": "e2cafcde1028"
+  },
+  "a0c401d92443": {
+   "dup": "e2cafcde1028"
+  },
+  "c63f3f2ed16c": {
+   "dup": "e2cafcde1028"
+  },
+  "3d501a7292cb": {
+   "dup": "e2cafcde1028"
+  },
+  "aeba9e181d3f": {
+   "dup": "e2cafcde1028"
+  },
+  "2a6023271c12": {
+   "dup": "e2cafcde1028"
+  },
+  "bb8a9917d1ce": {
+   "dup": "e2cafcde1028"
+  },
+  "79afcfd5b9b3": {
+   "dup": "e2cafcde1028"
+  },
+  "29d30ce24704": {
+   "dup": "e2cafcde1028"
+  },
+  "3760e3f0dad9": {
+   "dup": "e2cafcde1028"
+  },
+  "281b3c26a669": {
+   "dup": "e2cafcde1028"
+  },
+  "d262ff8ce531": {
+   "dup": "e2cafcde1028"
+  },
+  "655ef3bea388": {
+   "dup": "e2cafcde1028"
+  },
+  "3b84d42954cc": {
+   "dup": "e2cafcde1028"
+  },
+  "f33e18e6f968": {
+   "drop": true
+  },
+  "fe495c4cef0d": {
+   "drop": true
+  },
+  "e1cffb18c651": {
+   "dup": "5eff4a69f044"
+  },
+  "c2e8245dae06": {
+   "drop": true
+  },
+  "ba32f14ce575": {
+   "drop": true
+  },
+  "50491bbcba29": {
+   "drop": true
+  },
+  "9db7b63ddc38": {
+   "drop": true
+  },
+  "eabd17d36f3a": {
+   "dup": "4311c148a692"
+  },
+  "c8f4a6d56dcf": {
+   "drop": true
+  },
+  "6e25d0b137f9": {
+   "drop": true
+  },
+  "e046df29f3cc": {
+   "drop": true
+  },
+  "475fb32eb3a1": {
+   "dup": "9671dafe8bfa"
+  },
+  "c8eceeb06c46": {
+   "dup": "bc8780b60714"
+  },
+  "cb8e1813ce87": {
+   "drop": true
+  },
+  "d02b0cb1ccc6": {
+   "drop": true
+  },
+  "159ecb1ff190": {
+   "drop": true
+  },
+  "1e470a047f45": {
+   "drop": true
+  },
+  "20742d34c882": {
+   "drop": true
+  },
+  "a144b79be7fb": {
+   "drop": true
+  },
+  "0ee6a3e65fce": {
+   "dup": "19faad1b893f"
+  },
+  "2c360f189cc1": {
+   "drop": true
+  },
+  "cfbb313ea461": {
+   "drop": true
+  },
+  "2fffa3cee7a3": {
+   "drop": true
+  },
+  "264dfd89a557": {
+   "drop": true
+  },
+  "810eb696bd16": {
+   "drop": true
+  },
+  "bf3d564f779c": {
+   "drop": true
+  },
+  "218a62a465dd": {
+   "drop": true
+  },
+  "b91d9f8a828e": {
+   "dup": "5dd773bf975f"
+  },
+  "91df05e9ec11": {
+   "dup": "e7dd0306130a"
+  },
+  "497d17aafdc3": {
+   "drop": true
+  },
+  "b9d36816ea30": {
+   "drop": true
+  },
+  "e9a8d30bc638": {
+   "dup": "c30ec60c5df6"
+  },
+  "b6298a542777": {
+   "drop": true
+  },
+  "9d30cf92582e": {
+   "dup": "3fdb4fcc5212"
+  },
+  "b8b994fde194": {
+   "drop": true
+  },
+  "3037cc9b3d33": {
+   "dup": "77be7737d3e0"
+  },
+  "c7b3710cb8e9": {
+   "drop": true
+  },
+  "4a88ca73f8fb": {
+   "drop": true
+  },
+  "dda9e2b12cf0": {
+   "drop": true
+  },
+  "cfb1a63e1933": {
+   "drop": true
+  },
+  "3ee8389392f8": {
+   "drop": true
+  },
+  "16dca8e14763": {
+   "drop": true
+  },
+  "f434ead58b0c": {
+   "drop": true
+  },
+  "722514534472": {
+   "drop": true
+  },
+  "1fc62ab1b005": {
+   "drop": true
+  },
+  "1c259bcff970": {
+   "drop": true
+  },
+  "8fcf391a3c7a": {
+   "drop": true
+  },
+  "88081c32dac2": {
+   "drop": true
+  },
+  "e13a8a540909": {
+   "drop": true
+  },
+  "cd10dbf6af32": {
+   "drop": true
+  },
+  "3ca394c52b7e": {
+   "drop": true
+  },
+  "b7ac293989fe": {
+   "drop": true
+  },
+  "263a3f3caf04": {
+   "drop": true
+  },
+  "b12fb7e81341": {
+   "drop": true
+  },
+  "e6f6c10d2f89": {
+   "drop": true
+  },
+  "64935e64dbd5": {
+   "drop": true
+  },
+  "4e7f3ed79ffa": {
+   "drop": true
+  },
+  "b6ede287b2d0": {
+   "dup": "d505f03250cd"
+  },
+  "45574f4d7c55": {
+   "drop": true
+  },
+  "a8bb24acef05": {
+   "dup": "00e98a1f3070"
+  },
+  "b53266c9f5cd": {
+   "drop": true
+  },
+  "4fd2cd0b533c": {
+   "drop": true
+  },
+  "fa1c048137e1": {
+   "drop": true
+  },
+  "0ee2253d7d7f": {
+   "drop": true
+  },
+  "066e46572ead": {
+   "drop": true
+  },
+  "f653ed6905d9": {
+   "drop": true
+  },
+  "61164f23e3fb": {
+   "drop": true
+  },
+  "e603ac2b0aa1": {
+   "drop": true
+  },
+  "1d5f5f3fb2ec": {
+   "drop": true
+  },
+  "811ee9cb8ec7": {
+   "drop": true
+  },
+  "455e9d24c70a": {
+   "drop": true
+  },
+  "c06249d0f1f9": {
+   "drop": true
+  },
+  "0a7727272bd4": {
+   "drop": true
+  },
+  "31f90572bb62": {
+   "drop": true
+  },
+  "90b7738a4dd2": {
+   "drop": true
+  },
+  "d2ef87f27245": {
+   "drop": true
+  },
+  "62ece1fb1145": {
+   "dup": "74efa911c983"
+  },
+  "6d1395921e8d": {
+   "drop": true
+  },
+  "90ae09a68dbe": {
+   "drop": true
+  },
+  "5246fefac267": {
+   "drop": true
+  },
+  "778efc66af45": {
+   "dup": "aec57b25a39d"
+  },
+  "b82aec4c86d0": {
+   "drop": true
+  },
+  "de378bd9b2f1": {
+   "drop": true
+  },
+  "c56bb8489036": {
+   "drop": true
+  },
+  "9c41a513889c": {
+   "drop": true
+  },
+  "2cd94d21b408": {
+   "drop": true
+  },
+  "9797bb165628": {
+   "drop": true
+  },
+  "4190acca4168": {
+   "drop": true
+  },
+  "38280df1c81b": {
+   "drop": true
+  },
+  "8196d2066151": {
+   "drop": true
+  },
+  "5800990f05f9": {
+   "drop": true
+  },
+  "f08128be7c5c": {
+   "drop": true
+  },
+  "9c3b3b90d515": {
+   "drop": true
+  },
+  "fefe3c61501e": {
+   "drop": true
+  },
+  "0bab44666b06": {
+   "drop": true
+  },
+  "4a9bb134f643": {
+   "drop": true
+  },
+  "aea6ac98fb56": {
+   "drop": true
+  },
+  "edfcf2d46be0": {
+   "drop": true
+  },
+  "e85489238062": {
+   "drop": true
+  },
+  "f9064ac08a11": {
+   "drop": true
+  },
+  "6562f44c43d2": {
+   "drop": true
+  },
+  "c4e455b2cbd6": {
+   "drop": true
+  },
+  "1ef31cc72eed": {
+   "dup": "68d06e5a1880"
+  },
+  "a4bb5d0dea28": {
+   "drop": true
+  },
+  "fe1c642e4b59": {
+   "drop": true
+  },
+  "ba8c3f3a4ebb": {
+   "drop": true
+  },
+  "533254bf72a0": {
+   "drop": true
+  },
+  "02866995c420": {
+   "drop": true
+  },
+  "84989ed6e3be": {
+   "dup": "968fa55817bc"
+  },
+  "f3b60d7b1eb8": {
+   "drop": true
+  },
+  "281799db0744": {
+   "drop": true
+  },
+  "9476cd1bccd9": {
+   "drop": true
+  },
+  "d96c3d72332f": {
+   "dup": "68d06e5a1880"
+  },
+  "380bdc148580": {
+   "drop": true
+  },
+  "bbbbe4de29cb": {
+   "drop": true
+  },
+  "119f813263ad": {
+   "drop": true
+  },
+  "fc41d5897760": {
+   "drop": true
+  },
+  "1d3e416b901b": {
+   "drop": true
+  },
+  "1f5a8618fadd": {
+   "drop": true
+  },
+  "2007990be77f": {
+   "drop": true
+  },
+  "ce56a1baac95": {
+   "drop": true
+  },
+  "65a3d15207c3": {
+   "drop": true
+  },
+  "1e1d7c71001a": {
+   "drop": true
+  },
+  "54eca4a3f4f0": {
+   "dup": "433e1288b6db"
+  },
+  "bcde512458b9": {
+   "drop": true
+  },
+  "4676dc464514": {
+   "dup": "54c7a153242d"
+  },
+  "8406f3c60a53": {
+   "drop": true
+  },
+  "952464803bb5": {
+   "drop": true
+  },
+  "a5ecfd19400f": {
+   "drop": true
+  },
+  "ff7da05b7bf5": {
+   "drop": true
+  },
+  "a429e2c82082": {
+   "drop": true
+  },
+  "eb4ff293359a": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "Innovent says seven of its products made China's updated 2026 National Reimbursement Drug List, effective 1 January 2027. New entries are mazdutide (GCG/GLP-1 dual agonist) for type 2 diabetes, IL-23 antibody picankibart for plaque psoriasis, ipilimumab N01 with sintilimab for MSI-H/dMMR colon cancer, and quizartinib for FLT3-ITD AML; sintilimab and pirtobrutinib gained indications and the PCSK9 antibody tafolecimab was renewed. Innovent now has 17 NRDL-listed innovative drugs.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "National reimbursement listing opens China's public-insurance market for a GLP-1 class obesity/diabetes drug and several oncology products."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Shows which new medicines China's basic insurance will pay for from 2027."
+    },
+    "investment": {
+     "score": 3,
+     "why": "NRDL listings drive sales expectations for Hong Kong-listed Innovent."
+    }
+   }
+  },
+  "547038a27d40": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "CARsgen says its CAR-T satri-cel, approved by China's NMPA in June 2026 as the world's first CAR-T for a solid tumour (Claudin18.2-positive, HER2-negative gastric or GEJ cancer after two prior lines), was added to China's first Commercial Health Insurance Innovative Drug List, published 14 November and effective 1 January 2027. The new list covers high-value innovative drugs outside basic national insurance and gives commercial insurers a payment basis. It is the first solid-tumour CAR-T on the list.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "A payment route for the first approved solid-tumour CAR-T, in a market where cell therapy prices exceed basic insurance."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "China's new commercial-insurance list is a second reimbursement channel for expensive innovative drugs."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "New tier of coverage for high-cost therapies outside the NRDL."
+    }
+   }
+  },
+  "039cee599bd7": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Olympus CEO Bob White said the endoscope maker is making strides on FDA quality concerns, after an October 2026 warning letter citing quality-system violations at six sites and five more devices added to an import block that already covered 58 endoscope models since June 2025. Olympus has hired quality leaders and expanded its regulatory staff. Fiscal Q2 revenue rose 9% to 269.2 billion yen and full-year guidance was raised.",
+   "rel": {
+    "meddevices": {
+     "score": 7,
+     "why": "The world's largest endoscope maker remains under FDA import restrictions and repeated warning letters."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Import blocks affect endoscope supply to US hospitals."
+    }
+   }
+  },
+  "c27a761f915e": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "The FDA posted early alerts for two device removals. Teleflex's Arrow International told customers on 5 November to quarantine spring wire guides whose hydrophilic coating can clump and detach, risking vessel blockage; Intersurgical told users on 3 November to stop using some 22mm Smoothbore breathing tubes whose connectors may detach and cut off ventilation. No injuries or deaths were reported.",
+   "rel": {
+    "meddevices": {
+     "score": 6,
+     "why": "Safety recalls of vascular access and ventilation components."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Hospitals must pull affected breathing circuits and guidewires."
+    }
+   }
+  },
+  "ae509095a43b": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "The MitoCarta Tree of Life consortium (Broad Institute, HHMI; senior author Vamsi Mootha) reports in Cell that mitochondrial protein counts vary 28-fold across eight organisms, from 59 in Giardia, whose mitochondrion makes no energy, to 1,666 in Trypanosoma brucei, versus 1,136 in humans. Over half the newly catalogued proteins in six newly profiled species have no known function, and about a third of Acanthamoeba's lack human or yeast equivalents, flagging possible drug targets. Inventories for 198 of 206 eukaryotes are machine-learning predictions.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "A large proteomic reference atlas of mitochondria across eukaryotes for researchers."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Parasite-specific mitochondrial proteins are candidate antiparasitic drug targets."
+    },
+    "ai": {
+     "score": 3,
+     "why": "Most of the 206 inventories are machine-learning predictions."
+    }
+   }
+  },
+  "4f90b7710f6c": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Researchers present 'Metal Mers', structural units that map protein backbone to likely metal-binding geometry, as a strategy for de novo design of metalloenzymes for new-to-nature reactions, aiming to broaden substrate scope and cut the experimental optimisation such designs usually need. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 6,
+     "why": "Designed metalloenzymes could catalyse new chemistry for biocatalytic manufacturing."
+    },
+    "ai": {
+     "score": 4,
+     "why": "Computational protein design method."
+    },
+    "tools": {
+     "score": 4,
+     "why": "A design approach for enzyme engineering labs."
+    }
+   }
+  },
+  "c68660d8ed6a": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Researchers show switchable DNA triplexes that let electrical signals turn cell-free transcription on and off, an electrochemical control layer for engineered genetic programs that make useful products. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 4,
+     "why": "Electrical control of cell-free expression could link biosynthesis to electronics."
+    },
+    "tools": {
+     "score": 4,
+     "why": "New control method for cell-free synthetic biology systems."
     }
    }
   }
