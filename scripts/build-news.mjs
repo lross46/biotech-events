@@ -5,7 +5,6 @@ import { readFileSync, writeFileSync } from "node:fs";
 
 const DIR = new URL("../site/data/", import.meta.url);
 const RECENT_DAYS = 14;
-const PREPRINT_MIN = 7;  // preprints are shown only once Claude scores them this high somewhere
 const read = (f) => JSON.parse(readFileSync(new URL(f, DIR), "utf8"));
 const news = read("news.json"), ai = read("news-ai.json");
 
@@ -24,9 +23,8 @@ for (const it of byId.values()) {
   const p = it.dup && byId.get(it.dup);
   if (p && !p.dup) (p.also ||= []).push({ source: it.source, url: it.url });
 }
-const best = (it) => Math.max(it.imp || 0, ...Object.values(it.rel || {}).map((v) => v.score || 0));
 const items = [...byId.values()]
-  .filter((it) => !it.drop && !(it.dup && byId.has(it.dup)) && (it.kind !== "preprint" || (it.reviewed && best(it) >= PREPRINT_MIN)))
+  .filter((it) => !it.drop && !(it.dup && byId.has(it.dup)) && (it.kind !== "preprint" || it.reviewed))  // preprints appear once the review has kept them
   .map(({ drop, dup, ...it }) => it)
   .sort((a, b) => b.published.localeCompare(a.published));
 
@@ -36,4 +34,4 @@ const recent = items.filter((i) => i.published >= cut), older = items.filter((i)
 const write = (f, o) => writeFileSync(new URL(f, DIR), JSON.stringify(o));
 write("news-feed.json", { ...head, archived: older.length, items: recent });
 write("news-feed-archive.json", { items: older });
-console.log(`News feed built: ${recent.length} recent + ${older.length} archived stories (${byId.size - items.length} hidden as noise, duplicates or unscored preprints)`);
+console.log(`News feed built: ${recent.length} recent + ${older.length} archived stories (${byId.size - items.length} hidden as noise, duplicates or unreviewed preprints)`);
