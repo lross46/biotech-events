@@ -45,7 +45,104 @@
    "added": "2026-11-11"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "name": "Vitamin D Derivative Shows Promise for Psoriasis",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "url": "https://www.labroots.com/trending/nocat/31363/vitamin-derivative-promise-psoriasis",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "Labroots virtual events",
+   "seen": "2026-11-15"
+  },
+  {
+   "name": "New Bacterial Infection Emerging in America",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "url": "https://www.labroots.com/trending/nocat/31392/bacterial-infection-emerging-america",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "Labroots virtual events",
+   "seen": "2026-11-15"
+  },
+  {
+   "name": "Body Composition Correlates with Biological Aging in Men",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "url": "https://www.labroots.com/trending/nocat/31333/body-composition-correlates-biological-aging",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "Labroots virtual events",
+   "seen": "2026-11-15"
+  },
+  {
+   "name": "Physics Loophole Suggests Rapid Black Holes Might Divide",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "url": "https://www.labroots.com/trending/nocat/31337/physics-loophole-suggests-rapid-black-holes-divide",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "Labroots virtual events",
+   "seen": "2026-11-15"
+  },
+  {
+   "name": "Vitamin D improves IBD immune and gut bacteria communication",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "url": "https://www.labroots.com/trending/nocat/31354/vitamin-improves-ibd-immune-gut-bacteria-communication",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "Labroots virtual events",
+   "seen": "2026-11-15"
+  },
+  {
+   "name": "The Deceptive Nature of Mold Related to Detection, Recovery, and Identification",
+   "start": "2026-11-17",
+   "end": "2026-11-17",
+   "url": "https://www.labroots.com/webinar/deceptive-nature-mold-related-detection-recovery-identification",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "Labroots virtual events",
+   "seen": "2026-11-15"
+  },
+  {
+   "name": "How to resolve impurities and variants in oligo and protein therapeutics using MDi column technology",
+   "start": "2026-11-17",
+   "end": "2026-11-17",
+   "url": "https://www.labroots.com/webinar/resolve-impurities-variants-oligo-protein-therapeutics-using-mdi-column-technology",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "Labroots virtual events",
+   "seen": "2026-11-15"
+  },
+  {
+   "name": "Beyond Method Transfer: How Opella Is Modernizing and Harmonizing LC Methods",
+   "start": "2026-11-18",
+   "end": "2026-11-18",
+   "url": "https://www.labroots.com/webinar/beyond-method-transfer-opella-modernizing-harmonizing-lc-methods",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "Labroots virtual events",
+   "seen": "2026-11-15"
+  }
+ ],
  "dismissed": [
   {
    "name": "Novel Mechanism of Wound Healing Helps Tumors Evade Immunity",
@@ -1809,14 +1906,14 @@
    "nextKnown": false
   }
  ],
- "lastListingScan": "2026-11-08",
+ "lastListingScan": "2026-11-15",
  "listingScanReport": [
   "EuroScienceJobs conferences: HTTP 200, 12 events on page",
   "Labroots virtual events: HTTP 200, 27 events on page",
   "Showsbee Basel: HTTP 200, 0 events on page",
   "Tradefairdates Basel: HTTP 200, 0 events on page",
   "Messe Basel calendar: HTTP 200, 0 events on page",
-  "ExCeL London calendar: HTTP 200, 3 events on page",
+  "ExCeL London calendar: HTTP 200, 2 events on page",
   "Olympia London calendar: HTTP 200, 1 events on page",
   "NEC Birmingham calendar: HTTP 200, 4 events on page",
   "Moscone Center calendar: HTTP 200, 0 events on page",
