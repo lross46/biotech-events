@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T06:39:23Z",
+ "updated": "2026-11-15T13:39:53Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
   "date": "2026-11-15T06:39:23Z",
@@ -24407,6 +24407,667 @@
     "healthcare": {
      "score": 4,
      "why": "Lower doses with similar weight loss could ease side effects and cost for health systems."
+    }
+   }
+  },
+  "1900fb3b1e97": {
+   "dup": "06154a0bd725"
+  },
+  "a55dbc0fea09": {
+   "dup": "eeece3668fba"
+  },
+  "ca8c028c2e3f": {
+   "dup": "83fdd3696db3"
+  },
+  "2d356bb6adee": {
+   "drop": true
+  },
+  "f6a0b60059d4": {
+   "drop": true
+  },
+  "83af5351fedb": {
+   "drop": true
+  },
+  "db1f60795938": {
+   "drop": true
+  },
+  "f303b2e4d6c4": {
+   "drop": true
+  },
+  "26fcff821bc1": {
+   "drop": true
+  },
+  "a5ecfd19400f": {
+   "drop": true
+  },
+  "ff7da05b7bf5": {
+   "drop": true
+  },
+  "a429e2c82082": {
+   "drop": true
+  },
+  "cc4ae6e2bc66": {
+   "dup": "36bf377417cd"
+  },
+  "cd6c0db22f25": {
+   "dup": "c22d547ecdb7"
+  },
+  "b3dabfef3e1f": {
+   "drop": true
+  },
+  "4549a7ceb7e9": {
+   "drop": true
+  },
+  "d92ade9f9821": {
+   "dup": "83fdd3696db3"
+  },
+  "bf742f5046bf": {
+   "drop": true
+  },
+  "4d7f81f5df14": {
+   "drop": true
+  },
+  "c928342f4d1a": {
+   "drop": true
+  },
+  "f59f5bb408bc": {
+   "drop": true
+  },
+  "6edc1b8c6e8e": {
+   "drop": true
+  },
+  "5691fc63beca": {
+   "drop": true
+  },
+  "9740fdd6f797": {
+   "drop": true
+  },
+  "807dad8c653e": {
+   "drop": true
+  },
+  "668ba6194c70": {
+   "drop": true
+  },
+  "46916dde4eb1": {
+   "drop": true
+  },
+  "d854fc6d7824": {
+   "drop": true
+  },
+  "691fa932b59a": {
+   "drop": true
+  },
+  "d3f76420bc79": {
+   "drop": true
+  },
+  "495d4a0e4f60": {
+   "drop": true
+  },
+  "c81271f70d0e": {
+   "dup": "c5873e8e2938"
+  },
+  "8601f69c2dc1": {
+   "dup": "00493552aff7"
+  },
+  "61e1e39b1d4d": {
+   "dup": "e2cafcde1028"
+  },
+  "5808043873d9": {
+   "dup": "e2cafcde1028"
+  },
+  "852412c96dc9": {
+   "dup": "b6e6836113cf"
+  },
+  "9bb7039a9380": {
+   "drop": true
+  },
+  "063ab147fafa": {
+   "drop": true
+  },
+  "6f227a931927": {
+   "drop": true
+  },
+  "94c1b606678e": {
+   "drop": true
+  },
+  "7beab15dbe93": {
+   "drop": true
+  },
+  "d32ffd5fde3f": {
+   "drop": true
+  },
+  "12558db2eceb": {
+   "drop": true
+  },
+  "be8577cc31f1": {
+   "drop": true
+  },
+  "fac4ac003e06": {
+   "drop": true
+  },
+  "0bb7e1ea4378": {
+   "drop": true
+  },
+  "891aa95ad5c3": {
+   "drop": true
+  },
+  "323b14b6367b": {
+   "drop": true
+  },
+  "c0f9704d35ce": {
+   "drop": true
+  },
+  "e6232c17dc82": {
+   "dup": "e8dbbd1273e1"
+  },
+  "a06577c073fa": {
+   "drop": true
+  },
+  "aff3854ff21f": {
+   "drop": true
+  },
+  "8f3afd9fc180": {
+   "drop": true
+  },
+  "2e3f80054252": {
+   "dup": "e2cafcde1028"
+  },
+  "265653d7b9bf": {
+   "dup": "e2cafcde1028"
+  },
+  "ca2ed490825b": {
+   "dup": "e2cafcde1028"
+  },
+  "f27f4d48861b": {
+   "drop": true
+  },
+  "04dece2018da": {
+   "dup": "e2cafcde1028"
+  },
+  "ae74d69d83e6": {
+   "dup": "e2cafcde1028"
+  },
+  "892adc2c0cab": {
+   "dup": "2edfbc93beea"
+  },
+  "a1b840745438": {
+   "dup": "e2cafcde1028"
+  },
+  "481fe61974be": {
+   "dup": "e2cafcde1028"
+  },
+  "a0c401d92443": {
+   "dup": "e2cafcde1028"
+  },
+  "c63f3f2ed16c": {
+   "dup": "e2cafcde1028"
+  },
+  "3d501a7292cb": {
+   "dup": "e2cafcde1028"
+  },
+  "aeba9e181d3f": {
+   "dup": "e2cafcde1028"
+  },
+  "2a6023271c12": {
+   "dup": "e2cafcde1028"
+  },
+  "bb8a9917d1ce": {
+   "dup": "e2cafcde1028"
+  },
+  "79afcfd5b9b3": {
+   "dup": "e2cafcde1028"
+  },
+  "29d30ce24704": {
+   "dup": "e2cafcde1028"
+  },
+  "3760e3f0dad9": {
+   "dup": "e2cafcde1028"
+  },
+  "281b3c26a669": {
+   "dup": "e2cafcde1028"
+  },
+  "d262ff8ce531": {
+   "dup": "e2cafcde1028"
+  },
+  "655ef3bea388": {
+   "dup": "e2cafcde1028"
+  },
+  "3b84d42954cc": {
+   "dup": "e2cafcde1028"
+  },
+  "e1cffb18c651": {
+   "dup": "5eff4a69f044"
+  },
+  "c2e8245dae06": {
+   "drop": true
+  },
+  "ba32f14ce575": {
+   "drop": true
+  },
+  "50491bbcba29": {
+   "drop": true
+  },
+  "9db7b63ddc38": {
+   "drop": true
+  },
+  "eabd17d36f3a": {
+   "dup": "4311c148a692"
+  },
+  "c8f4a6d56dcf": {
+   "drop": true
+  },
+  "6e25d0b137f9": {
+   "drop": true
+  },
+  "e046df29f3cc": {
+   "drop": true
+  },
+  "475fb32eb3a1": {
+   "dup": "9671dafe8bfa"
+  },
+  "cb8e1813ce87": {
+   "drop": true
+  },
+  "d02b0cb1ccc6": {
+   "drop": true
+  },
+  "159ecb1ff190": {
+   "drop": true
+  },
+  "1e470a047f45": {
+   "drop": true
+  },
+  "20742d34c882": {
+   "drop": true
+  },
+  "a144b79be7fb": {
+   "drop": true
+  },
+  "0ee6a3e65fce": {
+   "dup": "19faad1b893f"
+  },
+  "2c360f189cc1": {
+   "drop": true
+  },
+  "cfbb313ea461": {
+   "drop": true
+  },
+  "2fffa3cee7a3": {
+   "drop": true
+  },
+  "264dfd89a557": {
+   "drop": true
+  },
+  "bf3d564f779c": {
+   "drop": true
+  },
+  "218a62a465dd": {
+   "drop": true
+  },
+  "810eb696bd16": {
+   "drop": true
+  },
+  "b91d9f8a828e": {
+   "dup": "5dd773bf975f"
+  },
+  "91df05e9ec11": {
+   "dup": "e7dd0306130a"
+  },
+  "497d17aafdc3": {
+   "drop": true
+  },
+  "b9d36816ea30": {
+   "drop": true
+  },
+  "e9a8d30bc638": {
+   "dup": "c30ec60c5df6"
+  },
+  "b6298a542777": {
+   "drop": true
+  },
+  "9d30cf92582e": {
+   "dup": "3fdb4fcc5212"
+  },
+  "b8b994fde194": {
+   "drop": true
+  },
+  "3037cc9b3d33": {
+   "dup": "77be7737d3e0"
+  },
+  "acfdbc6071d2": {
+   "drop": true
+  },
+  "c7b3710cb8e9": {
+   "drop": true
+  },
+  "4a88ca73f8fb": {
+   "drop": true
+  },
+  "dda9e2b12cf0": {
+   "drop": true
+  },
+  "cfb1a63e1933": {
+   "drop": true
+  },
+  "3ee8389392f8": {
+   "drop": true
+  },
+  "16dca8e14763": {
+   "drop": true
+  },
+  "f434ead58b0c": {
+   "drop": true
+  },
+  "722514534472": {
+   "drop": true
+  },
+  "1fc62ab1b005": {
+   "drop": true
+  },
+  "1c259bcff970": {
+   "drop": true
+  },
+  "88081c32dac2": {
+   "drop": true
+  },
+  "8fcf391a3c7a": {
+   "drop": true
+  },
+  "e13a8a540909": {
+   "drop": true
+  },
+  "cd10dbf6af32": {
+   "drop": true
+  },
+  "3ca394c52b7e": {
+   "drop": true
+  },
+  "b7ac293989fe": {
+   "drop": true
+  },
+  "263a3f3caf04": {
+   "drop": true
+  },
+  "b12fb7e81341": {
+   "drop": true
+  },
+  "e6f6c10d2f89": {
+   "drop": true
+  },
+  "64935e64dbd5": {
+   "drop": true
+  },
+  "4e7f3ed79ffa": {
+   "drop": true
+  },
+  "b6ede287b2d0": {
+   "dup": "d505f03250cd"
+  },
+  "45574f4d7c55": {
+   "drop": true
+  },
+  "4bc586235e9e": {
+   "drop": true
+  },
+  "a8bb24acef05": {
+   "dup": "00e98a1f3070"
+  },
+  "b53266c9f5cd": {
+   "drop": true
+  },
+  "4fd2cd0b533c": {
+   "drop": true
+  },
+  "fa1c048137e1": {
+   "drop": true
+  },
+  "0ee2253d7d7f": {
+   "drop": true
+  },
+  "066e46572ead": {
+   "drop": true
+  },
+  "f653ed6905d9": {
+   "drop": true
+  },
+  "61164f23e3fb": {
+   "drop": true
+  },
+  "e603ac2b0aa1": {
+   "drop": true
+  },
+  "1d5f5f3fb2ec": {
+   "drop": true
+  },
+  "811ee9cb8ec7": {
+   "drop": true
+  },
+  "455e9d24c70a": {
+   "drop": true
+  },
+  "c06249d0f1f9": {
+   "drop": true
+  },
+  "0a7727272bd4": {
+   "drop": true
+  },
+  "31f90572bb62": {
+   "drop": true
+  },
+  "90b7738a4dd2": {
+   "drop": true
+  },
+  "d2ef87f27245": {
+   "drop": true
+  },
+  "62ece1fb1145": {
+   "dup": "74efa911c983"
+  },
+  "6d1395921e8d": {
+   "drop": true
+  },
+  "90ae09a68dbe": {
+   "drop": true
+  },
+  "5246fefac267": {
+   "drop": true
+  },
+  "778efc66af45": {
+   "dup": "aec57b25a39d"
+  },
+  "b82aec4c86d0": {
+   "drop": true
+  },
+  "de378bd9b2f1": {
+   "drop": true
+  },
+  "c56bb8489036": {
+   "drop": true
+  },
+  "9c41a513889c": {
+   "drop": true
+  },
+  "2cd94d21b408": {
+   "drop": true
+  },
+  "9797bb165628": {
+   "drop": true
+  },
+  "4190acca4168": {
+   "drop": true
+  },
+  "38280df1c81b": {
+   "drop": true
+  },
+  "8196d2066151": {
+   "drop": true
+  },
+  "5800990f05f9": {
+   "drop": true
+  },
+  "f08128be7c5c": {
+   "drop": true
+  },
+  "9c3b3b90d515": {
+   "drop": true
+  },
+  "fefe3c61501e": {
+   "drop": true
+  },
+  "0bab44666b06": {
+   "drop": true
+  },
+  "4a9bb134f643": {
+   "drop": true
+  },
+  "aea6ac98fb56": {
+   "drop": true
+  },
+  "edfcf2d46be0": {
+   "drop": true
+  },
+  "e85489238062": {
+   "drop": true
+  },
+  "f9064ac08a11": {
+   "drop": true
+  },
+  "6562f44c43d2": {
+   "drop": true
+  },
+  "c4e455b2cbd6": {
+   "drop": true
+  },
+  "1ef31cc72eed": {
+   "dup": "68d06e5a1880"
+  },
+  "a4bb5d0dea28": {
+   "drop": true
+  },
+  "fe1c642e4b59": {
+   "drop": true
+  },
+  "ba8c3f3a4ebb": {
+   "drop": true
+  },
+  "533254bf72a0": {
+   "drop": true
+  },
+  "02866995c420": {
+   "drop": true
+  },
+  "84989ed6e3be": {
+   "dup": "968fa55817bc"
+  },
+  "f3b60d7b1eb8": {
+   "drop": true
+  },
+  "281799db0744": {
+   "drop": true
+  },
+  "9476cd1bccd9": {
+   "drop": true
+  },
+  "380bdc148580": {
+   "drop": true
+  },
+  "d96c3d72332f": {
+   "dup": "68d06e5a1880"
+  },
+  "bbbbe4de29cb": {
+   "drop": true
+  },
+  "119f813263ad": {
+   "drop": true
+  },
+  "fc41d5897760": {
+   "drop": true
+  },
+  "1d3e416b901b": {
+   "drop": true
+  },
+  "1f5a8618fadd": {
+   "drop": true
+  },
+  "2007990be77f": {
+   "drop": true
+  },
+  "ce56a1baac95": {
+   "drop": true
+  },
+  "65a3d15207c3": {
+   "drop": true
+  },
+  "1e1d7c71001a": {
+   "drop": true
+  },
+  "c91d1568bf96": {
+   "drop": true
+  },
+  "1cbad7fb196b": {
+   "dup": "00493552aff7"
+  },
+  "213837b0c62b": {
+   "dup": "c971c00c6e72"
+  },
+  "7e8ed7480155": {
+   "drop": true
+  },
+  "5d68172d63ea": {
+   "drop": true
+  },
+  "e11cde29ba2c": {
+   "drop": true
+  },
+  "ef6a19346e4b": {
+   "drop": true
+  },
+  "49768b19c745": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "The US National Library of Medicine has paused MEDLINE indexing and PubMed Central archiving of new Scientific Reports papers while it re-evaluates the Springer Nature journal; the newest articles in PubMed date from 15 September. Scientific Reports is the largest journal in PubMed, with 28,593 articles indexed so far in 2026 and 41,122 published. NLM has not said why, but its policy triggers reviews after big changes in output, and such reviews usually take 7 to 10 months. The editor expects indexing to resume, including for interim papers.",
+   "rel": {
+    "tools": {
+     "score": 4,
+     "why": "Affects the visibility of a huge share of published life-science methods and data papers in PubMed."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Clinical researchers relying on PubMed searches will miss new Scientific Reports papers during the review."
+    }
+   }
+  },
+  "c483ec2db561": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Johns Hopkins researchers report that the entorhinal cortex and amygdala lose tissue faster than the hippocampus in early Alzheimer's disease, possibly up to a decade before memory symptoms. The team analysed hundreds of MRI and PET scans from the ADNI and BIOCARD cohorts and linked the loss to tau using PET and digital pathology; the work appears in NeuroImage: Reports. The regions could become early imaging biomarkers for timing treatment, though no predictive clinical test exists yet.",
+   "rel": {
+    "diagnostics": {
+     "score": 5,
+     "why": "Points to two brain regions as candidate early imaging biomarkers for Alzheimer's risk."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Could help identify people for earlier Alzheimer's treatment years before symptoms."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Earlier detection would widen the window for disease-modifying Alzheimer's drugs."
+    }
+   }
+  },
+  "c4df381f4f21": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A bioRxiv preprint describes a 3D bioprinted skin melanoma model designed to mimic the tumour microenvironment for high-throughput drug screening, aimed at the lack of scalable preclinical models that reflect treatment resistance in advanced melanoma. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "A bioprinted tumour model built as a scalable screening platform for drug discovery."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Could give oncology teams a more realistic melanoma model for testing resistance-breaking drugs."
     }
    }
   }
