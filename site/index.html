@@ -18,13 +18,13 @@
 <style>
 /* Layout: phone-first (search, sector chips, results; filters in a bottom sheet); filters become a sidebar from 900px */
 :root{
-  --bg:#EEF2F1; --surface:#FFFFFF; --ink:#0F1A1C; --muted:#56656A; --line:#D2DBDA; --accent:#0B8A6F; --accent-ink:#FFFFFF; --soft:#F5F8F7; --warn:#B4441C; --bg-events:#DCE7F5; --bg-news:#DAEEE2;
+  --bg:#EEF2F1; --surface:#FFFFFF; --ink:#0F1A1C; --muted:#56656A; --line:#D2DBDA; --accent:#0B8A6F; --accent-ink:#FFFFFF; --soft:#F5F8F7; --warn:#B4441C; --bg-events:#DCE7F5; --bg-news:#DAEEE2; --fav:#E8B21C;
   --f-display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
   --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0C1314;--surface:#152022;--ink:#E4ECEB;--muted:#93A4A6;--line:#26363A;--accent:#35C9A5;--accent-ink:#06211B;--soft:#111B1D;--warn:#FF8A5C;--bg-events:#0B1728;--bg-news:#0A1F17;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#0C1314;--surface:#152022;--ink:#E4ECEB;--muted:#93A4A6;--line:#26363A;--accent:#35C9A5;--accent-ink:#06211B;--soft:#111B1D;--warn:#FF8A5C;--bg-events:#0B1728;--bg-news:#0A1F17;color-scheme:dark}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0C1314;--surface:#152022;--ink:#E4ECEB;--muted:#93A4A6;--line:#26363A;--accent:#35C9A5;--accent-ink:#06211B;--soft:#111B1D;--warn:#FF8A5C;--bg-events:#0B1728;--bg-news:#0A1F17;--fav:#D9A514;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0C1314;--surface:#152022;--ink:#E4ECEB;--muted:#93A4A6;--line:#26363A;--accent:#35C9A5;--accent-ink:#06211B;--soft:#111B1D;--warn:#FF8A5C;--bg-events:#0B1728;--bg-news:#0A1F17;--fav:#D9A514;color-scheme:dark}
 /* Each tab has its own pastel page colour (blue Events, green News) so you always know where you are. */
 :root[data-tab="events"]{--bg:var(--bg-events)}
 :root[data-tab="news"]{--bg:var(--bg-news)}
@@ -121,6 +121,18 @@ h1 span{color:var(--accent)}
 .star{flex:none;border:0;background:none;padding:2px;width:34px;height:34px;display:grid;place-items:center;border-radius:8px}
 .star svg{width:22px;height:22px;stroke:var(--muted);stroke-width:1.8;fill:none}
 .star[aria-pressed="true"] svg{fill:#E8B21C;stroke:#C99410}
+/* Favourites: a star button opens a favourites page; saved cards get a soft gold tint in both themes. */
+.card.fav{background:color-mix(in srgb,var(--fav) 12%,var(--surface));border-color:color-mix(in srgb,var(--fav) 45%,var(--line))}
+.favbtn{border:1.5px solid var(--line);background:var(--surface);border-radius:10px;padding:0 11px;font-weight:600;display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.favbtn svg{width:20px;height:20px;stroke:#C99410;stroke-width:1.8;fill:none}
+.favbtn .n{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.favbtn[aria-pressed="true"]{border-color:var(--fav);background:color-mix(in srgb,var(--fav) 22%,var(--surface))}
+.favbtn[aria-pressed="true"] svg{fill:#E8B21C}
+.favhead{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:color-mix(in srgb,var(--fav) 16%,var(--surface));border:1px solid color-mix(in srgb,var(--fav) 50%,var(--line));border-radius:12px;padding:10px 14px}
+.favhead h2{margin:0;font-family:var(--f-display);font-size:20px;flex:1;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;min-width:0}
+.favhead h2 svg{align-self:center}
+.favhead h2 svg{width:20px;height:20px;fill:#E8B21C;stroke:#C99410;stroke-width:1.8}
+.favhead small{font-family:var(--f-mono);font-size:11.5px;font-weight:500;color:var(--muted)}
 .tags{display:flex;flex-wrap:wrap;gap:5px}
 .tag{font-size:11.5px;font-weight:600;border-radius:5px;padding:1px 7px;background:var(--soft);border:1px solid var(--line);color:var(--muted)}
 .tag.free{color:var(--accent);border-color:color-mix(in srgb,var(--accent) 40%,transparent)}
@@ -231,9 +243,11 @@ html{overscroll-behavior-y:contain}
       <input id="q" type="search" placeholder="Search events, topics, places…" autocomplete="off" aria-label="Search events">
       <button class="x" id="qx" type="button" aria-label="Clear search" hidden>×</button>
     </label>
+    <button class="favbtn" id="favbtn" type="button" aria-pressed="false" aria-label="Favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z" stroke-linejoin="round"/></svg><span class="n" id="favn"></span></button>
     <button class="fbtn" id="fopen" type="button">Filters <span class="n" id="fcount" hidden></span></button>
   </div>
 
+  <div class="favhead" id="favhead" hidden></div>
   <div class="chiplab">Sectors</div>
   <div class="chips" id="chips" role="group" aria-label="Sectors"></div>
   <div class="hint" id="hint"></div>
@@ -313,7 +327,7 @@ const S = {
   regions: new Set(saved.regions || []),
   when: saved.when || "all",
   from: saved.from || "", to: saved.to || "",
-  favOnly: !!saved.favOnly, freeOnly: !!saved.freeOnly, past: !!saved.past,
+  favOnly: false, freeOnly: !!saved.freeOnly, past: !!saved.past,
   sort: saved.sort || "rel",
   view: saved.view || "list",
   tab: location.hash === "#news" ? "news" : saved.tab || "events",
@@ -322,7 +336,7 @@ const S = {
 };
 const nsaved = store.get("br-news", {});
 const N = {
-  kinds: new Set(nsaved.kinds || []), when: nsaved.when || "d3", favOnly: !!nsaved.favOnly,
+  kinds: new Set(nsaved.kinds || []), when: nsaved.when || "d3",
   sort: nsaved.sort === "latest" ? "latest" : "imp",
   briefOpen: !!nsaved.briefOpen,
   sources: false, about: false, section: null,
@@ -335,9 +349,9 @@ let NEWS = { items: [], feeds: {} }, ARCHIVE = null, NSRC = { sources: [] }, STO
 function persist() {
   store.set("br-state", {
     sectors: [...S.sectors], types: [...S.types], formats: [...S.formats], regions: [...S.regions],
-    when: S.when, from: S.from, to: S.to, favOnly: S.favOnly, freeOnly: S.freeOnly, past: S.past, sort: S.sort, view: S.view, tab: S.tab,
+    when: S.when, from: S.from, to: S.to, freeOnly: S.freeOnly, past: S.past, sort: S.sort, view: S.view, tab: S.tab,
   });
-  store.set("br-news", { kinds: [...N.kinds], when: N.when, favOnly: N.favOnly, sort: N.sort, briefOpen: N.briefOpen });
+  store.set("br-news", { kinds: [...N.kinds], when: N.when, sort: N.sort, briefOpen: N.briefOpen });
 }
 
 /* ---------- matching ---------- */
@@ -447,7 +461,7 @@ function filteredNews() {
   const out = [];
   for (const it of STORIES) {
     const t = new Date(it.published);
-    if (N.favOnly ? !NFAV[it.id] : t < cutoff) continue;
+    if (S.favOnly ? !NFAV[it.id] : t < cutoff) continue;
     if (N.kinds.size && !N.kinds.has(it.kind)) continue;
     const rel = nrel(it);
     let ss = 0;
@@ -492,7 +506,7 @@ function nsectionOf(it) {
 // One news view: the news-category digest. A narrow filter (favourites, evidence type) lifts the
 // per-category cap instead of switching to a flat list; everything else is one tap into a category.
 const digestOn = () => !S.q;
-const digestCapped = () => !N.favOnly && !N.kinds.size;
+const digestCapped = () => !S.favOnly && !N.kinds.size;
 function groupedHtml(rows, { capped }) {
   // Unreviewed stories have no category and no score, so they are left out of both views
   // and appear once the next review has run.
@@ -516,7 +530,7 @@ function groupedHtml(rows, { capped }) {
     : `${esc(sec.name)}<small>${sec.picks.length}</small>`;
   // A filter narrows the feed hard, so empty categories are just noise then; in the unfiltered
   // digest an empty category is worth seeing, because it says the day was quiet there.
-  const narrowed = S.sectors.size || N.kinds.size || N.favOnly;
+  const narrowed = S.sectors.size || N.kinds.size || S.favOnly;
   const shownSecs = narrowed ? secs.filter((sec) => sec.picks.length) : secs;
   const html = shownSecs.map((sec) => `<section class="nsec" id="sec-${esc(sec.id)}"><h3>${head(sec)}</h3>${
     sec.picks.length ? sec.picks.map(ncard).join("") : `<p class="nsec-empty">Nothing scored here in ${NWHEN[N.when].toLowerCase()}.</p>`}</section>`).join("");
@@ -576,7 +590,7 @@ function ncard({ it, t }) {
   const top = [...rel.filter(([k]) => S.sectors.has(k)), ...rel.filter(([k]) => !S.sectors.has(k))].slice(0, 3);
   const badge = (k, v) => v.guess ? `<span class="sc" style="--c:${SEC[k].c}">${esc(SEC[k].name)}?</span>` : scoreBadge(k, v);
   const fav = !!NFAV[it.id];
-  return `<article class="card ncard${open ? " open" : ""}" id="nw-${esc(it.id)}">
+  return `<article class="card ncard${open ? " open" : ""}${fav ? " fav" : ""}" id="nw-${esc(it.id)}">
     <div class="ctop">
       <div class="ttl"><h4><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a></h4><div class="meta">${esc(it.source)}${it.via ? ` · via ${esc(it.via)}` : ""} · ${ago(t)}</div></div>
       <button class="star" type="button" data-nfav="${esc(it.id)}" aria-pressed="${fav}" aria-label="${fav ? "Remove from" : "Add to"} favourites">${STAR}</button>
@@ -590,6 +604,7 @@ function ncard({ it, t }) {
   </article>`;
 }
 function briefHtml() {
+  if (S.favOnly) return "";
   const b = NEWS.brief, d = b && new Date(b.date);
   if (!b?.points?.length || isNaN(d) || Date.now() - d > 3 * 864e5) return "";
   const byId = new Map(STORIES.map((it) => [it.id, it]));
@@ -623,20 +638,19 @@ function sourcesHtml() {
 }
 const NSORTS = { imp: "Most important", latest: "Latest first" };
 const narrowing = () => S.sectors.size + (S.q ? 1 : 0);
-const newsFilterCount = () => N.kinds.size + (N.when !== "d3") + N.favOnly + (N.sort !== "imp") + narrowing();
+const newsFilterCount = () => N.kinds.size + (N.when !== "d3") + (N.sort !== "imp") + narrowing();
 function renderNewsFilters() {
   const group = (title, key, map) => `<div class="fgroup"><b>${title}</b><div class="opts">${Object.entries(map).map(([k, v]) => `<button type="button" class="opt" data-nset="${key}" data-v="${k}" aria-pressed="${N[key].has(k)}">${esc(v)}</button>`).join("")}</div></div>`;
   $("#filters").innerHTML = `<h3>Filters</h3>
     <div class="fgroup"><b>Published</b><div class="opts">${Object.entries(NWHEN).map(([k, v]) => `<button type="button" class="opt" data-nwhen="${k}" aria-pressed="${N.when === k}">${v}</button>`).join("")}</div></div>
     <div class="fgroup"><b>Order</b><div class="opts">${Object.entries(NSORTS).map(([k, v]) => `<button type="button" class="opt" data-nsort="${k}" aria-pressed="${N.sort === k}">${v}</button>`).join("")}</div></div>
     ${group("Evidence", "kinds", KINDS)}
-    <div class="fgroup"><button type="button" class="tog" data-ntog="favOnly" aria-pressed="${N.favOnly}"><span>Favourites only</span><span class="sw"></span></button></div>
     <div class="factions"><button type="button" class="reset" data-reset>Clear all</button><button type="button" class="done" data-close>Show results</button></div>`;
 }
 function renderNews() {
   if (N.sources) { $("#count").innerHTML = ""; $("#out").innerHTML = sourcesHtml(); return; }
   if (N.about) { $("#count").innerHTML = ""; $("#out").innerHTML = aboutHtml(); return; }
-  const needArchive = (N.when === "d30" || N.when === "d90" || N.favOnly) && !ARCHIVE && NEWS.archived > 0;
+  const needArchive = (N.when === "d30" || N.when === "d90" || S.favOnly) && !ARCHIVE && NEWS.archived > 0;
   if (needArchive) loadArchive();
   const rows = filteredNews();
   if (N.section && digestOn()) {
@@ -664,7 +678,7 @@ function openStory(id) {
   if (!STORIES.some((s) => s.id === id)) return;
   S.tab = "news"; N.sources = N.about = false; N.section = null;
   if (!document.getElementById("nw-" + id)) {
-    S.q = ""; $("#q").value = ""; S.sectors.clear(); N.kinds.clear(); N.favOnly = false; N.when = "d90";
+    S.q = ""; $("#q").value = ""; S.sectors.clear(); N.kinds.clear(); S.favOnly = false; N.when = "d90";
   }
   S.open.add(id);
   renderFilters(); render();
@@ -689,7 +703,8 @@ function card({ e, st, en }) {
   // Collapsed: selected sectors first, then the strongest others; three at most.
   const top = [...rel.filter(([k]) => S.sectors.has(k)), ...rel.filter(([k]) => !S.sectors.has(k))].slice(0, 3);
   const days = Math.round((en - st) / 864e5) + 1;
-  return `<article class="card${open ? " open" : ""}" id="ev-${esc(e.id)}" data-id="${esc(e.id)}">
+  const fav = FAV.has(e.id);
+  return `<article class="card${open ? " open" : ""}${fav ? " fav" : ""}" id="ev-${esc(e.id)}" data-id="${esc(e.id)}">
     <div class="ctop">
       <div class="date"><b>${st.getDate()}</b><small>${MON[st.getMonth()]} ${String(st.getFullYear()).slice(2)}</small></div>
       <div class="ttl"><h4>${esc(e.name)}</h4><div class="meta">${fmtRange(st, en)}${days > 1 ? ` · ${days} days` : ""}${e.time ? ` · ${esc(e.time)}` : ""}<br>${esc(place(e))}${e.organiser ? ` · ${esc(e.organiser)}` : ""}</div></div>
@@ -744,7 +759,7 @@ function renderMonth() {
 }
 
 function activeFilterCount() {
-  return S.types.size + S.formats.size + S.regions.size + (S.when !== "all") + S.favOnly + S.freeOnly + S.past + narrowing();
+  return S.types.size + S.formats.size + S.regions.size + (S.when !== "all") + S.freeOnly + S.past + narrowing();
 }
 
 function renderFilters() {
@@ -757,7 +772,7 @@ function renderFilters() {
     ${group("Event type", "types", TYPES)}
     ${group("Format", "formats", FORMATS)}
     ${group("Region", "regions", REGIONS)}
-    <div class="fgroup">${tog("favOnly", "Favourites only")}${tog("freeOnly", "Free only")}${tog("past", "Include past events")}</div>
+    <div class="fgroup">${tog("freeOnly", "Free only")}${tog("past", "Include past events")}</div>
     <div class="factions"><button type="button" class="reset" data-reset>Clear all</button><button type="button" class="done" data-close>Show results</button></div>`;
 }
 
@@ -772,6 +787,17 @@ const FOOT = {
   events: "Summaries and relevance scores are written by AI from each event's website and checked weekly. Dates and details can change: always confirm on the official site before booking.",
   news: "Headlines come from the listed sources 4 times a day. Summaries, scores and the brief are written by AI once a day from the source articles and can contain mistakes: read the original before relying on a story. \"Company claim\" means a company's own press release; preprints have not been peer-reviewed.",
 };
+function renderFavHead() {
+  const news = S.tab === "news";
+  const saved = news ? Object.keys(NFAV).length : FAV.size;
+  const b = $("#favbtn");
+  b.setAttribute("aria-pressed", S.favOnly);
+  b.setAttribute("aria-label", S.favOnly ? "Close favourites" : `Favourites, ${saved} saved`);
+  $("#favn").textContent = saved || "";
+  const h = $("#favhead");
+  h.hidden = !S.favOnly;
+  if (S.favOnly) h.innerHTML = `<h2>${STAR}Favourites<small>${saved} saved ${news ? "stor" + (saved === 1 ? "y" : "ies") : "event" + (saved === 1 ? "" : "s")}</small></h2><button class="btn" type="button" data-favclose>← All ${news ? "news" : "events"}</button>`;
+}
 function render() {
   const news = S.tab === "news";
   document.documentElement.dataset.tab = S.tab;
@@ -780,6 +806,7 @@ function render() {
   $("#foot").textContent = FOOT[S.tab];
   renderChips();
   showUpdated();
+  renderFavHead();
   const n = news ? newsFilterCount() : activeFilterCount();
   $("#fcount").hidden = !n; $("#fcount").textContent = n;
   $("#sort").innerHTML = Object.entries(SORTS.events).map(([k, v]) => `<option value="${k}">${v}</option>`).join("");
@@ -852,10 +879,11 @@ document.addEventListener("click", (ev) => {
   else if (d.tog) S[d.tog] = !S[d.tog];
   else if (d.ntog) N[d.ntog] = !N[d.ntog];
   else if (d.reset !== undefined) {
-    if (S.tab === "news") { N.kinds.clear(); N.when = "d3"; N.favOnly = false; N.sort = "imp"; }
-    else { S.types.clear(); S.formats.clear(); S.regions.clear(); S.when = "all"; S.from = S.to = ""; S.favOnly = S.freeOnly = S.past = false; }
+    if (S.tab === "news") { N.kinds.clear(); N.when = "d3"; N.sort = "imp"; }
+    else { S.types.clear(); S.formats.clear(); S.regions.clear(); S.when = "all"; S.from = S.to = ""; S.freeOnly = S.past = false; }
     S.sectors.clear(); S.q = ""; $("#q").value = ""; $("#qx").hidden = true; renderFilters();
   }
+  else if (t.id === "favbtn" || d.favclose !== undefined) { S.favOnly = t.id === "favbtn" ? !S.favOnly : false; N.section = null; N.sources = N.about = false; window.scrollTo(0, 0); }
   else if (t.id === "srcbtn") { N.sources = true; N.section = null; window.scrollTo(0, 0); }
   else if (d.brieftog !== undefined) N.briefOpen = !N.briefOpen;
   else if (d.nsort) N.sort = d.nsort;
