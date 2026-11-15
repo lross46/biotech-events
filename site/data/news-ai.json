@@ -1,15 +1,16 @@
 {
- "updated": "2026-11-14T13:40:24Z",
+ "updated": "2026-11-15T06:39:23Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-14T13:40:24Z",
+  "date": "2026-11-15T06:39:23Z",
   "points": [
    {
     "sec": "results",
-    "text": "Rezolute's phase 3 upLIFT win in tumour hyperinsulinism carried the day: ersodetug hit its primary endpoint, the company raised about $100 million on the back of it and now heads into an FDA meeting about a filing. Obesity data from ObesityWeek kept coming, led by Wave Life Sciences, whose INHBE siRNA WVE-007 cut Activin E by up to 88% and reduced visceral and total fat while sparing muscle a year after one dose, supporting once- or twice-yearly dosing. Regeneron's baloncibart lowered standing heart rate in a phase 2 POTS trial and moves to phase 3. In devices, Synchron paused trials of its second-generation wireless brain-computer interface, citing FDA submission delays rather than safety.",
+    "text": "Rezolute's phase 3 upLIFT win in tumour hyperinsulinism carried the day: ersodetug hit its primary endpoint, the company raised about $100 million on the back of it and now heads into an FDA meeting about a filing. Obesity data from ObesityWeek kept coming, led by Wave Life Sciences, whose INHBE siRNA WVE-007 cut Activin E by up to 88% and reduced visceral and total fat while sparing muscle a year after one dose, supporting once- or twice-yearly dosing. Novo Nordisk added REDEFINE 9 data showing lower CagriSema doses still gave about 21% weight loss at 68 weeks versus 2% on placebo, published in The Lancet Diabetes & Endocrinology. Regeneron's baloncibart lowered standing heart rate in a phase 2 POTS trial and moves to phase 3. In devices, Synchron paused trials of its second-generation wireless brain-computer interface, citing FDA submission delays rather than safety.",
     "ids": [
      "562d918c85d8",
      "99052f7915e9",
+     "095b54ba4796",
      "868bcdee3350",
      "cb841d705c26"
     ]
@@ -21586,9 +21587,6 @@
     }
    }
   },
-  "a00ea38bb1bb": {
-   "drop": true
-  },
   "6bb9c3f2d29f": {
    "cat": "policy",
    "imp": 5,
@@ -21603,12 +21601,6 @@
      "why": "Drug spending impact for German insurers and US Medicaid."
     }
    }
-  },
-  "a55dbc0fea09": {
-   "dup": "eeece3668fba"
-  },
-  "a7622de8692b": {
-   "drop": true
   },
   "83fdd3696db3": {
    "cat": "funding",
@@ -21628,12 +21620,6 @@
      "why": "Could speed another monthly obesity drug towards market."
     }
    }
-  },
-  "ca8c028c2e3f": {
-   "dup": "83fdd3696db3"
-  },
-  "1900fb3b1e97": {
-   "dup": "06154a0bd725"
   },
   "e185c5bae2ef": {
    "cat": "deals",
@@ -21744,18 +21730,6 @@
     }
    }
   },
-  "a67276977b8c": {
-   "dup": "cd8640b32f54"
-  },
-  "cd6f874fb743": {
-   "drop": true
-  },
-  "1dacd39bdd8b": {
-   "drop": true
-  },
-  "8b8970dd9abf": {
-   "drop": true
-  },
   "fdaa8c5818ab": {
    "cat": "science",
    "imp": 4,
@@ -21775,9 +21749,6 @@
     }
    }
   },
-  "1ed6c22fdbbf": {
-   "dup": "b760edbd54e9"
-  },
   "c9e3858993d4": {
    "cat": "deals",
    "imp": 3,
@@ -21788,9 +21759,6 @@
      "why": "Combination study in pancreatic cancer with a large partner."
     }
    }
-  },
-  "4f3ca481119c": {
-   "drop": true
   },
   "ffad721c5024": {
    "cat": "regulatory",
@@ -21833,9 +21801,6 @@
     }
    }
   },
-  "c1a4aae155dc": {
-   "drop": true
-  },
   "1975cb524bc7": {
    "cat": "policy",
    "imp": 6,
@@ -21854,24 +21819,6 @@
      "why": "Underlines the need for new antibiotics."
     }
    }
-  },
-  "fd559bd6fc0d": {
-   "dup": "1975cb524bc7"
-  },
-  "27c429527603": {
-   "drop": true
-  },
-  "caf035761570": {
-   "drop": true
-  },
-  "b955383b8b69": {
-   "drop": true
-  },
-  "21eaad55829b": {
-   "drop": true
-  },
-  "5be14caa3e96": {
-   "drop": true
   },
   "321612aee56b": {
    "cat": "other",
@@ -22053,9 +22000,6 @@
     }
    }
   },
-  "41f27efa0dd9": {
-   "drop": true
-  },
   "7c0b0cb14eb4": {
    "cat": "science",
    "imp": 4,
@@ -22112,18 +22056,6 @@
     }
    }
   },
-  "b3dabfef3e1f": {
-   "drop": true
-  },
-  "4549a7ceb7e9": {
-   "drop": true
-  },
-  "bf742f5046bf": {
-   "drop": true
-  },
-  "9bb7039a9380": {
-   "drop": true
-  },
   "e1f4cfa7ccc5": {
    "cat": "clinical",
    "imp": 3,
@@ -22139,316 +22071,7 @@
     }
    }
   },
-  "94c1b606678e": {
-   "drop": true
-  },
-  "7beab15dbe93": {
-   "drop": true
-  },
-  "9e25e0d2222d": {
-   "drop": true
-  },
-  "78a9b549dafe": {
-   "drop": true
-  },
-  "c3514005dfe4": {
-   "drop": true
-  },
-  "a1459402b2ea": {
-   "drop": true
-  },
-  "e2d6c6e3d328": {
-   "drop": true
-  },
-  "8b6ae825060d": {
-   "drop": true
-  },
-  "adb8be648bad": {
-   "drop": true
-  },
-  "ff9f9ce86337": {
-   "drop": true
-  },
-  "c4a4ed33e758": {
-   "drop": true
-  },
-  "a16ad29f4dc7": {
-   "drop": true
-  },
-  "6635abc85752": {
-   "drop": true
-  },
-  "f6df686bccb1": {
-   "drop": true
-  },
-  "f879b25a3f01": {
-   "drop": true
-  },
-  "a012172d1016": {
-   "drop": true
-  },
-  "0a7f28926baa": {
-   "drop": true
-  },
-  "9a02604403d6": {
-   "drop": true
-  },
-  "ec5050dff493": {
-   "drop": true
-  },
-  "7cd0d00b160a": {
-   "drop": true
-  },
-  "e5471b7013d5": {
-   "drop": true
-  },
-  "24f97d77c501": {
-   "drop": true
-  },
-  "71c035ed6768": {
-   "drop": true
-  },
-  "e3a406374171": {
-   "drop": true
-  },
-  "081959f7dea0": {
-   "drop": true
-  },
-  "8b8f418a2d39": {
-   "drop": true
-  },
-  "9e587fcd3e6c": {
-   "drop": true
-  },
-  "c7cc5cff2391": {
-   "drop": true
-  },
-  "d74a97973847": {
-   "drop": true
-  },
-  "a7af5adb1c29": {
-   "drop": true
-  },
-  "063ab147fafa": {
-   "drop": true
-  },
-  "bf770d5aab0f": {
-   "drop": true
-  },
-  "9511bd1ddfe1": {
-   "drop": true
-  },
-  "d32ffd5fde3f": {
-   "drop": true
-  },
-  "4406ec1ce80f": {
-   "drop": true
-  },
-  "1b64da20fe36": {
-   "drop": true
-  },
-  "64b40fbc1059": {
-   "drop": true
-  },
-  "8976f29ad74a": {
-   "drop": true
-  },
-  "c9a98acc49b5": {
-   "drop": true
-  },
-  "c8974525569d": {
-   "drop": true
-  },
-  "c7755b170259": {
-   "drop": true
-  },
-  "323b14b6367b": {
-   "drop": true
-  },
-  "33e11879e0bb": {
-   "drop": true
-  },
-  "0dbd4a07e868": {
-   "drop": true
-  },
-  "a72a032e35f0": {
-   "drop": true
-  },
-  "c3a84a2e707e": {
-   "drop": true
-  },
-  "e26066b6dfa0": {
-   "drop": true
-  },
-  "bb4351e9829a": {
-   "drop": true
-  },
-  "d72fd4a7d24b": {
-   "drop": true
-  },
-  "92cf3c26eb83": {
-   "drop": true
-  },
-  "667e0966072d": {
-   "drop": true
-  },
-  "6d4e5871c040": {
-   "drop": true
-  },
-  "5e590d232214": {
-   "drop": true
-  },
-  "3cf839e44285": {
-   "drop": true
-  },
-  "f1b8b9862f52": {
-   "drop": true
-  },
-  "2e941d11b589": {
-   "drop": true
-  },
-  "66e4aae17bb4": {
-   "drop": true
-  },
-  "5976e950d988": {
-   "drop": true
-  },
-  "0b1d36dde8da": {
-   "drop": true
-  },
-  "5ed7e03e779d": {
-   "drop": true
-  },
-  "e6eedff7f59d": {
-   "drop": true
-  },
-  "8b262024e0ff": {
-   "drop": true
-  },
-  "03537353a7d0": {
-   "drop": true
-  },
-  "b857cba17504": {
-   "drop": true
-  },
-  "b26d91a359cc": {
-   "drop": true
-  },
-  "d37759a4b8a1": {
-   "drop": true
-  },
-  "81d7d5617e32": {
-   "drop": true
-  },
-  "0d6c10ebcada": {
-   "drop": true
-  },
-  "e342a867408c": {
-   "drop": true
-  },
-  "a28083673059": {
-   "drop": true
-  },
-  "eda9ab283778": {
-   "drop": true
-  },
-  "bebec906d140": {
-   "drop": true
-  },
-  "122eac34a030": {
-   "drop": true
-  },
-  "98c753921177": {
-   "drop": true
-  },
-  "2ce3114df410": {
-   "drop": true
-  },
-  "e654e4225ab6": {
-   "drop": true
-  },
-  "144b693b7d47": {
-   "drop": true
-  },
-  "1f5cdbfd784a": {
-   "drop": true
-  },
-  "5eba442f331d": {
-   "drop": true
-  },
-  "9913af5ce77a": {
-   "drop": true
-  },
-  "2a760abf6ff9": {
-   "drop": true
-  },
-  "ef76a356a25d": {
-   "drop": true
-  },
-  "1c22fd1c3c5d": {
-   "drop": true
-  },
-  "3541e6a31141": {
-   "drop": true
-  },
   "98973894282c": {
-   "drop": true
-  },
-  "27ec21595fe7": {
-   "drop": true
-  },
-  "ec8cd3888c47": {
-   "drop": true
-  },
-  "d59f1be7c324": {
-   "drop": true
-  },
-  "1e48ae5c8a8e": {
-   "drop": true
-  },
-  "95dbe668be16": {
-   "drop": true
-  },
-  "b699056f8698": {
-   "drop": true
-  },
-  "d3a1f922722b": {
-   "drop": true
-  },
-  "244903cb8033": {
-   "drop": true
-  },
-  "0319aa3f56d2": {
-   "drop": true
-  },
-  "e4be029b8c81": {
-   "drop": true
-  },
-  "149052ad3d77": {
-   "drop": true
-  },
-  "05d25c0559d4": {
-   "drop": true
-  },
-  "95e4a59e2373": {
-   "drop": true
-  },
-  "6f144892df8e": {
-   "drop": true
-  },
-  "891aa95ad5c3": {
-   "drop": true
-  },
-  "0bb7e1ea4378": {
-   "drop": true
-  },
-  "fac4ac003e06": {
-   "drop": true
-  },
-  "be8577cc31f1": {
-   "drop": true
-  },
-  "12558db2eceb": {
    "drop": true
   },
   "5b16e28bdab9": {
@@ -22481,57 +22104,6 @@
   "433e0e42bf3b": {
    "drop": true
   },
-  "495d4a0e4f60": {
-   "drop": true
-  },
-  "d3f76420bc79": {
-   "drop": true
-  },
-  "691fa932b59a": {
-   "drop": true
-  },
-  "d854fc6d7824": {
-   "drop": true
-  },
-  "46916dde4eb1": {
-   "drop": true
-  },
-  "668ba6194c70": {
-   "drop": true
-  },
-  "807dad8c653e": {
-   "drop": true
-  },
-  "9740fdd6f797": {
-   "drop": true
-  },
-  "5691fc63beca": {
-   "drop": true
-  },
-  "6edc1b8c6e8e": {
-   "drop": true
-  },
-  "f59f5bb408bc": {
-   "drop": true
-  },
-  "c928342f4d1a": {
-   "drop": true
-  },
-  "4d7f81f5df14": {
-   "drop": true
-  },
-  "34cc34b2b8c4": {
-   "dup": "0c7ddf6efb5f"
-  },
-  "8601f69c2dc1": {
-   "dup": "00493552aff7"
-  },
-  "d92ade9f9821": {
-   "dup": "83fdd3696db3"
-  },
-  "c81271f70d0e": {
-   "dup": "c5873e8e2938"
-  },
   "67e16e374893": {
    "dup": "b3f398fb4fc0"
   },
@@ -22544,32 +22116,11 @@
   "91592a4276bd": {
    "dup": "00493552aff7"
   },
-  "cd6c0db22f25": {
-   "dup": "c22d547ecdb7"
-  },
-  "cc4ae6e2bc66": {
-   "dup": "36bf377417cd"
-  },
-  "c998fa60bc18": {
-   "dup": "54c7a153242d"
-  },
-  "852412c96dc9": {
-   "dup": "b6e6836113cf"
-  },
-  "a141f91ee2a9": {
-   "dup": "0c7ddf6efb5f"
-  },
-  "61e1e39b1d4d": {
-   "dup": "e2cafcde1028"
-  },
   "d8d0f779e124": {
    "dup": "937741bb980e"
   },
   "8cba99fe8a8c": {
    "dup": "937741bb980e"
-  },
-  "5808043873d9": {
-   "dup": "e2cafcde1028"
   },
   "7b91b66047cb": {
    "cat": "policy",
@@ -24001,51 +23552,6 @@
   "f05a6aebf962": {
    "drop": true
   },
-  "2d356bb6adee": {
-   "drop": true
-  },
-  "75d335ae071b": {
-   "drop": true
-  },
-  "daa27e1ea28b": {
-   "drop": true
-  },
-  "83af5351fedb": {
-   "drop": true
-  },
-  "6f6df5732844": {
-   "drop": true
-  },
-  "9f2a0a3d39fb": {
-   "drop": true
-  },
-  "db1f60795938": {
-   "drop": true
-  },
-  "f303b2e4d6c4": {
-   "drop": true
-  },
-  "26fcff821bc1": {
-   "drop": true
-  },
-  "797ce84133f6": {
-   "drop": true
-  },
-  "a3d436425901": {
-   "drop": true
-  },
-  "6f227a931927": {
-   "drop": true
-  },
-  "acfdbc6071d2": {
-   "drop": true
-  },
-  "4bc586235e9e": {
-   "drop": true
-  },
-  "f6a0b60059d4": {
-   "drop": true
-  },
   "5a2a77491076": {
    "dup": "54c7a153242d"
   },
@@ -24720,456 +24226,6 @@
     }
    }
   },
-  "c0f9704d35ce": {
-   "drop": true
-  },
-  "e6232c17dc82": {
-   "dup": "e8dbbd1273e1"
-  },
-  "a06577c073fa": {
-   "drop": true
-  },
-  "aff3854ff21f": {
-   "drop": true
-  },
-  "8f3afd9fc180": {
-   "drop": true
-  },
-  "2e3f80054252": {
-   "dup": "e2cafcde1028"
-  },
-  "265653d7b9bf": {
-   "dup": "e2cafcde1028"
-  },
-  "ca2ed490825b": {
-   "dup": "e2cafcde1028"
-  },
-  "f27f4d48861b": {
-   "drop": true
-  },
-  "04dece2018da": {
-   "dup": "e2cafcde1028"
-  },
-  "ae74d69d83e6": {
-   "dup": "e2cafcde1028"
-  },
-  "892adc2c0cab": {
-   "dup": "2edfbc93beea"
-  },
-  "a1b840745438": {
-   "dup": "e2cafcde1028"
-  },
-  "481fe61974be": {
-   "dup": "e2cafcde1028"
-  },
-  "a0c401d92443": {
-   "dup": "e2cafcde1028"
-  },
-  "c63f3f2ed16c": {
-   "dup": "e2cafcde1028"
-  },
-  "3d501a7292cb": {
-   "dup": "e2cafcde1028"
-  },
-  "aeba9e181d3f": {
-   "dup": "e2cafcde1028"
-  },
-  "2a6023271c12": {
-   "dup": "e2cafcde1028"
-  },
-  "bb8a9917d1ce": {
-   "dup": "e2cafcde1028"
-  },
-  "79afcfd5b9b3": {
-   "dup": "e2cafcde1028"
-  },
-  "29d30ce24704": {
-   "dup": "e2cafcde1028"
-  },
-  "3760e3f0dad9": {
-   "dup": "e2cafcde1028"
-  },
-  "281b3c26a669": {
-   "dup": "e2cafcde1028"
-  },
-  "d262ff8ce531": {
-   "dup": "e2cafcde1028"
-  },
-  "655ef3bea388": {
-   "dup": "e2cafcde1028"
-  },
-  "3b84d42954cc": {
-   "dup": "e2cafcde1028"
-  },
-  "f33e18e6f968": {
-   "drop": true
-  },
-  "fe495c4cef0d": {
-   "drop": true
-  },
-  "e1cffb18c651": {
-   "dup": "5eff4a69f044"
-  },
-  "c2e8245dae06": {
-   "drop": true
-  },
-  "ba32f14ce575": {
-   "drop": true
-  },
-  "50491bbcba29": {
-   "drop": true
-  },
-  "9db7b63ddc38": {
-   "drop": true
-  },
-  "eabd17d36f3a": {
-   "dup": "4311c148a692"
-  },
-  "c8f4a6d56dcf": {
-   "drop": true
-  },
-  "6e25d0b137f9": {
-   "drop": true
-  },
-  "e046df29f3cc": {
-   "drop": true
-  },
-  "475fb32eb3a1": {
-   "dup": "9671dafe8bfa"
-  },
-  "c8eceeb06c46": {
-   "dup": "bc8780b60714"
-  },
-  "cb8e1813ce87": {
-   "drop": true
-  },
-  "d02b0cb1ccc6": {
-   "drop": true
-  },
-  "159ecb1ff190": {
-   "drop": true
-  },
-  "1e470a047f45": {
-   "drop": true
-  },
-  "20742d34c882": {
-   "drop": true
-  },
-  "a144b79be7fb": {
-   "drop": true
-  },
-  "0ee6a3e65fce": {
-   "dup": "19faad1b893f"
-  },
-  "2c360f189cc1": {
-   "drop": true
-  },
-  "cfbb313ea461": {
-   "drop": true
-  },
-  "2fffa3cee7a3": {
-   "drop": true
-  },
-  "264dfd89a557": {
-   "drop": true
-  },
-  "810eb696bd16": {
-   "drop": true
-  },
-  "bf3d564f779c": {
-   "drop": true
-  },
-  "218a62a465dd": {
-   "drop": true
-  },
-  "b91d9f8a828e": {
-   "dup": "5dd773bf975f"
-  },
-  "91df05e9ec11": {
-   "dup": "e7dd0306130a"
-  },
-  "497d17aafdc3": {
-   "drop": true
-  },
-  "b9d36816ea30": {
-   "drop": true
-  },
-  "e9a8d30bc638": {
-   "dup": "c30ec60c5df6"
-  },
-  "b6298a542777": {
-   "drop": true
-  },
-  "9d30cf92582e": {
-   "dup": "3fdb4fcc5212"
-  },
-  "b8b994fde194": {
-   "drop": true
-  },
-  "3037cc9b3d33": {
-   "dup": "77be7737d3e0"
-  },
-  "c7b3710cb8e9": {
-   "drop": true
-  },
-  "4a88ca73f8fb": {
-   "drop": true
-  },
-  "dda9e2b12cf0": {
-   "drop": true
-  },
-  "cfb1a63e1933": {
-   "drop": true
-  },
-  "3ee8389392f8": {
-   "drop": true
-  },
-  "16dca8e14763": {
-   "drop": true
-  },
-  "f434ead58b0c": {
-   "drop": true
-  },
-  "722514534472": {
-   "drop": true
-  },
-  "1fc62ab1b005": {
-   "drop": true
-  },
-  "1c259bcff970": {
-   "drop": true
-  },
-  "8fcf391a3c7a": {
-   "drop": true
-  },
-  "88081c32dac2": {
-   "drop": true
-  },
-  "e13a8a540909": {
-   "drop": true
-  },
-  "cd10dbf6af32": {
-   "drop": true
-  },
-  "3ca394c52b7e": {
-   "drop": true
-  },
-  "b7ac293989fe": {
-   "drop": true
-  },
-  "263a3f3caf04": {
-   "drop": true
-  },
-  "b12fb7e81341": {
-   "drop": true
-  },
-  "e6f6c10d2f89": {
-   "drop": true
-  },
-  "64935e64dbd5": {
-   "drop": true
-  },
-  "4e7f3ed79ffa": {
-   "drop": true
-  },
-  "b6ede287b2d0": {
-   "dup": "d505f03250cd"
-  },
-  "45574f4d7c55": {
-   "drop": true
-  },
-  "a8bb24acef05": {
-   "dup": "00e98a1f3070"
-  },
-  "b53266c9f5cd": {
-   "drop": true
-  },
-  "4fd2cd0b533c": {
-   "drop": true
-  },
-  "fa1c048137e1": {
-   "drop": true
-  },
-  "0ee2253d7d7f": {
-   "drop": true
-  },
-  "066e46572ead": {
-   "drop": true
-  },
-  "f653ed6905d9": {
-   "drop": true
-  },
-  "61164f23e3fb": {
-   "drop": true
-  },
-  "e603ac2b0aa1": {
-   "drop": true
-  },
-  "1d5f5f3fb2ec": {
-   "drop": true
-  },
-  "811ee9cb8ec7": {
-   "drop": true
-  },
-  "455e9d24c70a": {
-   "drop": true
-  },
-  "c06249d0f1f9": {
-   "drop": true
-  },
-  "0a7727272bd4": {
-   "drop": true
-  },
-  "31f90572bb62": {
-   "drop": true
-  },
-  "90b7738a4dd2": {
-   "drop": true
-  },
-  "d2ef87f27245": {
-   "drop": true
-  },
-  "62ece1fb1145": {
-   "dup": "74efa911c983"
-  },
-  "6d1395921e8d": {
-   "drop": true
-  },
-  "90ae09a68dbe": {
-   "drop": true
-  },
-  "5246fefac267": {
-   "drop": true
-  },
-  "778efc66af45": {
-   "dup": "aec57b25a39d"
-  },
-  "b82aec4c86d0": {
-   "drop": true
-  },
-  "de378bd9b2f1": {
-   "drop": true
-  },
-  "c56bb8489036": {
-   "drop": true
-  },
-  "9c41a513889c": {
-   "drop": true
-  },
-  "2cd94d21b408": {
-   "drop": true
-  },
-  "9797bb165628": {
-   "drop": true
-  },
-  "4190acca4168": {
-   "drop": true
-  },
-  "38280df1c81b": {
-   "drop": true
-  },
-  "8196d2066151": {
-   "drop": true
-  },
-  "5800990f05f9": {
-   "drop": true
-  },
-  "f08128be7c5c": {
-   "drop": true
-  },
-  "9c3b3b90d515": {
-   "drop": true
-  },
-  "fefe3c61501e": {
-   "drop": true
-  },
-  "0bab44666b06": {
-   "drop": true
-  },
-  "4a9bb134f643": {
-   "drop": true
-  },
-  "aea6ac98fb56": {
-   "drop": true
-  },
-  "edfcf2d46be0": {
-   "drop": true
-  },
-  "e85489238062": {
-   "drop": true
-  },
-  "f9064ac08a11": {
-   "drop": true
-  },
-  "6562f44c43d2": {
-   "drop": true
-  },
-  "c4e455b2cbd6": {
-   "drop": true
-  },
-  "1ef31cc72eed": {
-   "dup": "68d06e5a1880"
-  },
-  "a4bb5d0dea28": {
-   "drop": true
-  },
-  "fe1c642e4b59": {
-   "drop": true
-  },
-  "ba8c3f3a4ebb": {
-   "drop": true
-  },
-  "533254bf72a0": {
-   "drop": true
-  },
-  "02866995c420": {
-   "drop": true
-  },
-  "84989ed6e3be": {
-   "dup": "968fa55817bc"
-  },
-  "f3b60d7b1eb8": {
-   "drop": true
-  },
-  "281799db0744": {
-   "drop": true
-  },
-  "9476cd1bccd9": {
-   "drop": true
-  },
-  "d96c3d72332f": {
-   "dup": "68d06e5a1880"
-  },
-  "380bdc148580": {
-   "drop": true
-  },
-  "bbbbe4de29cb": {
-   "drop": true
-  },
-  "119f813263ad": {
-   "drop": true
-  },
-  "fc41d5897760": {
-   "drop": true
-  },
-  "1d3e416b901b": {
-   "drop": true
-  },
-  "1f5a8618fadd": {
-   "drop": true
-  },
-  "2007990be77f": {
-   "drop": true
-  },
-  "ce56a1baac95": {
-   "drop": true
-  },
-  "65a3d15207c3": {
-   "drop": true
-  },
-  "1e1d7c71001a": {
-   "drop": true
-  },
   "54eca4a3f4f0": {
    "dup": "433e1288b6db"
   },
@@ -25183,15 +24239,6 @@
    "drop": true
   },
   "952464803bb5": {
-   "drop": true
-  },
-  "a5ecfd19400f": {
-   "drop": true
-  },
-  "ff7da05b7bf5": {
-   "drop": true
-  },
-  "a429e2c82082": {
    "drop": true
   },
   "eb4ff293359a": {
@@ -25312,6 +24359,54 @@
     "tools": {
      "score": 4,
      "why": "New control method for cell-free synthetic biology systems."
+    }
+   }
+  },
+  "e51c153ed08d": {
+   "drop": true
+  },
+  "820560a91233": {
+   "drop": true
+  },
+  "989950bb7c7b": {
+   "drop": true
+  },
+  "bf22c9c0e0b3": {
+   "drop": true
+  },
+  "43fab536c657": {
+   "dup": "0c7ddf6efb5f"
+  },
+  "4c8c3576893a": {
+   "dup": "0c7ddf6efb5f"
+  },
+  "b1546556319d": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A bioRxiv preprint presents bofasa, a tool for inferring orthologous genes across large, highly diverse bacterial genome sets, built to handle horizontal gene transfer that eukaryote-oriented methods treat as contamination and to rely less on a species phylogeny. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "A new comparative-genomics tool for researchers working across many bacterial genomes."
+    },
+    "industrial": {
+     "score": 3,
+     "why": "Better orthology calls help mine bacterial genomes for enzymes and pathways."
+    }
+   }
+  },
+  "095b54ba4796": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "Novo Nordisk says lower doses of its GLP-1/amylin combination CagriSema still produced about 21% weight loss in the phase 3 REDEFINE 9 trial: 20.7% at 1.7 mg/1.7 mg and 21.0% at 1.0 mg/1.0 mg after 68 weeks, versus 2.0% on placebo, if all patients stayed on treatment. The results were presented at ObesityWeek 2026 and published in The Lancet Diabetes & Endocrinology. Lower effective doses could help tolerability and supply as Novo prepares CagriSema against Lilly's tirzepatide.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Supports flexible lower dosing for Novo's next-generation obesity drug in a market dominated by GLP-1 competition."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Lower doses with similar weight loss could ease side effects and cost for health systems."
     }
    }
   }
