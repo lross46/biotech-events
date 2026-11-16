@@ -1,40 +1,42 @@
 {
- "updated": "2026-11-15T13:39:53Z",
+ "updated": "2026-11-16T06:41:48Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-15T06:39:23Z",
+  "date": "2026-11-16T06:41:48Z",
   "points": [
    {
     "sec": "results",
-    "text": "Rezolute's phase 3 upLIFT win in tumour hyperinsulinism carried the day: ersodetug hit its primary endpoint, the company raised about $100 million on the back of it and now heads into an FDA meeting about a filing. Obesity data from ObesityWeek kept coming, led by Wave Life Sciences, whose INHBE siRNA WVE-007 cut Activin E by up to 88% and reduced visceral and total fat while sparing muscle a year after one dose, supporting once- or twice-yearly dosing. Novo Nordisk added REDEFINE 9 data showing lower CagriSema doses still gave about 21% weight loss at 68 weeks versus 2% on placebo, published in The Lancet Diabetes & Endocrinology. Regeneron's baloncibart lowered standing heart rate in a phase 2 POTS trial and moves to phase 3. In devices, Synchron paused trials of its second-generation wireless brain-computer interface, citing FDA submission delays rather than safety.",
+    "text": "Rezolute's phase 3 upLIFT win in tumour hyperinsulinism still leads: ersodetug hit its primary endpoint, the company raised about $100 million and heads into an FDA meeting about a filing. ObesityWeek data kept coming, led by Wave Life Sciences, whose one-dose INHBE siRNA WVE-007 cut visceral fat while sparing muscle a year on. Novo Nordisk showed lower CagriSema doses still gave about 21% weight loss in REDEFINE 9, plus a post hoc REDEFINE 1 analysis where early responders lost 25%, and Viking added exploratory VK2735 data. Regeneron's baloncibart moves to phase 3 in POTS, Synchron paused its second-generation brain implant trials over FDA filing delays, and this week's CTAD conference in Boston brings phase 3 AR1001 results and tau data from Biogen.",
     "ids": [
      "562d918c85d8",
      "99052f7915e9",
      "095b54ba4796",
-     "868bcdee3350",
-     "cb841d705c26"
+     "d1ef9cdfcc9d",
+     "2026-11-16-ctad-2026-alzheimers-beyond-amyloid",
+     "868bcdee3350"
     ]
    },
    {
     "sec": "science",
-    "text": "A Fierce-reported study found a 10-protein blood panel that improves ALS detection, a step towards diagnosing the disease before irreversible damage. Computational biology was strong in preprints: Germinal Multi designs antibodies that keep binding as viral targets evolve, and RNAtomy adds structure to RNA foundation models. On the industrial side, a bacterial co-culture broke down paracetamol and its toxic by-product 4-aminophenol, a template for cleaning drug residues from wastewater, while a German preprint documented the first major Newcastle disease outbreaks in decades in vaccinated poultry. A cell atlas of DCIS breast lesions and a genomic history of VRE in Danish hospitals rounded out the day.",
+    "text": "A Rockefeller study in Cell found that low arginine stalls production of MHC-I antigen-display proteins; in mice, extra arginine meant fewer colon tumours and milder flu and COVID infections, though human data are lacking. A 10-protein blood panel improved ALS detection, and preprints were strong in computational biology, with Germinal Multi designing antibodies that keep binding as viruses evolve. On the industrial side, a bacterial co-culture broke down paracetamol and its toxic by-product 4-aminophenol, a template for cleaning drug residues from wastewater. Smaller items included Newcastle disease breaking through poultry vaccination in Germany, a zebrafish study where a bisphosphonate blocked spinal mineral build-up, and IDEAYA's new CDKN2A-targeted candidate IDE101.",
     "ids": [
+     "5de1690213dc",
      "44d60aa1c086",
      "97c74a787f66",
      "d00fe2275f76",
-     "7912e5e7ea77",
-     "f4aa42354bb1"
+     "fcba369e63e0"
     ]
    },
    {
     "sec": "approvals",
-    "text": "AstraZeneca won a US approval for Imfinzi plus Padcev around surgery in cisplatin-ineligible muscle-invasive bladder cancer, setting up a direct fight with Merck's Keytruda-Padcev regimen. In Europe, the CHMP backed seven new medicines including AstraZeneca's blood-pressure drug Baxfendy (baxdrostat) and Roche's Gazyvaro in lupus, while AstraZeneca withdrew its EU filing for anselamimab in AL amyloidosis after two failed late-stage trials. Kyverna completed its BLA for miv-cel in stiff person syndrome, which would be the first autoimmune CAR-T, and Novo filed etavopivat for sickle cell disease. The fallout from reports that FDA has shelved its priority-voucher programme continued, and Molecular Designs won its first 510(k) for a flu/RSV PCR panel.",
+    "text": "The FDA rejected Summit and Akeso's PD-1xVEGF bispecific ivonescimab in EGFR-mutant lung cancer because the HARMONi trial showed no significant survival benefit, delaying the US debut of the industry's most hyped new immuno-oncology class. Bayer's Sunharbo (asundexian), approved last week, became the first approved factor XIa inhibitor, for secondary stroke prevention, after a 26% cut in ischaemic stroke without more major bleeding. Innovent's sintilimab won a positive CHMP opinion in first-line lung cancer, and the CHMP backed seven medicines including AstraZeneca's baxdrostat. AstraZeneca also won US approval for Imfinzi plus Padcev in bladder cancer, Kyverna completed its BLA for the first autoimmune CAR-T and Novo filed etavopivat for sickle cell disease.",
     "ids": [
-     "166f36c5a7ff",
+     "185db75349bb",
+     "c4abe83562b1",
+     "4af1b72c8203",
      "1fc1c71701ec",
-     "5b2419bd47be",
-     "ab8eae668d31",
-     "85945d302fc1"
+     "166f36c5a7ff",
+     "ab8eae668d31"
     ]
    },
    {
@@ -51,13 +53,13 @@
    },
    {
     "sec": "money",
-    "text": "Windward Bio, a Swiss respiratory biotech with China-licensed drugs, raised $175 million in its Nasdaq IPO plus $50 million from Sanofi and rose about 68% on debut, taking it to a roughly $1 billion valuation and 2026 biotech IPOs to 35. Charles River agreed to pay $470 million upfront for Tigermed-owned Frontage's bioanalysis and DMPK labs. In agri-food and climate, Applied Carbon raised $72 million from Citi for biochar, Just Climate closed a $540 million agriculture decarbonisation fund, redalpine closed $250 million, and Biomatter raised $18 million for AI-designed enzymes; India's Symbiotec also signed a 10-year deal to make precision-fermented protein for a European partner. Neurology startups have raised about $450 million in recent weeks, and Surrozen priced a $60 million offering.",
+    "text": "Johnson & Johnson is in advanced talks to buy Ollin Biosciences for up to $3.4 billion ($2.2 billion upfront) to gain a late-stage-bound drug for wet AMD and diabetic macular edema, the FT reports. Windward Bio raised $175 million in its Nasdaq IPO plus $50 million from Sanofi and rose about 68% on debut, taking 2026 biotech IPOs to 35, and Charles River agreed to pay $470 million for Frontage's bioanalysis labs. In agri-food and climate, Applied Carbon raised $72 million for biochar, Just Climate closed a $540 million agriculture decarbonisation fund and Biomatter raised $18 million for AI-designed enzymes. India's Symbiotec signed a 10-year precision-fermentation supply deal, and Blackstone's $1.5 billion Pfizer obesity deal kept attention on investors funding late-stage R&D directly.",
     "ids": [
+     "ce569e8f9b5e",
      "54c7a153242d",
      "e4e6ec5a6c0c",
      "9c4f7e3e2e0a",
-     "4e633e7159e9",
-     "83621e1cb7a9"
+     "83fdd3696db3"
     ]
    },
    {
@@ -22071,57 +22073,6 @@
     }
    }
   },
-  "98973894282c": {
-   "drop": true
-  },
-  "5b16e28bdab9": {
-   "drop": true
-  },
-  "0f6744fe2dc1": {
-   "drop": true
-  },
-  "43a4026ca37f": {
-   "drop": true
-  },
-  "f8380d3d0838": {
-   "drop": true
-  },
-  "e0945a784a35": {
-   "drop": true
-  },
-  "86a8de83922b": {
-   "drop": true
-  },
-  "4109d8f99d0a": {
-   "drop": true
-  },
-  "6f0955bf3fef": {
-   "drop": true
-  },
-  "48919b000ac0": {
-   "drop": true
-  },
-  "433e0e42bf3b": {
-   "drop": true
-  },
-  "67e16e374893": {
-   "dup": "b3f398fb4fc0"
-  },
-  "95c593beca7a": {
-   "dup": "843b6b5261ca"
-  },
-  "a46684143cc2": {
-   "dup": "c971c00c6e72"
-  },
-  "91592a4276bd": {
-   "dup": "00493552aff7"
-  },
-  "d8d0f779e124": {
-   "dup": "937741bb980e"
-  },
-  "8cba99fe8a8c": {
-   "dup": "937741bb980e"
-  },
   "7b91b66047cb": {
    "cat": "policy",
    "imp": 6,
@@ -22870,57 +22821,6 @@
     }
    }
   },
-  "df7f238757e6": {
-   "dup": "4e101dd3fce5"
-  },
-  "778bf4e7de19": {
-   "dup": "5eff4a69f044"
-  },
-  "1811d4bad33a": {
-   "dup": "51dfdd03461e"
-  },
-  "46eae4845471": {
-   "dup": "9671dafe8bfa"
-  },
-  "5bf5138f629f": {
-   "dup": "9e7b52acab20"
-  },
-  "5acc421dca2c": {
-   "drop": true
-  },
-  "e491624d5a42": {
-   "dup": "8552ce0917bd"
-  },
-  "01461d0ace9e": {
-   "drop": true
-  },
-  "a659788aee8e": {
-   "dup": "7e8f29071e0a"
-  },
-  "b5baf020fa05": {
-   "drop": true
-  },
-  "e5ffcfbcf6a5": {
-   "dup": "a64723aee7da"
-  },
-  "50c1da5da67f": {
-   "drop": true
-  },
-  "6fff7d6f0fe9": {
-   "drop": true
-  },
-  "9aa6dfc26093": {
-   "drop": true
-  },
-  "97c4c87b9ecf": {
-   "drop": true
-  },
-  "24f15f81e679": {
-   "drop": true
-  },
-  "77a1ada7be59": {
-   "drop": true
-  },
   "2b2a0b321511": {
    "cat": "other",
    "imp": 3,
@@ -22951,9 +22851,6 @@
     }
    }
   },
-  "abf94fafc866": {
-   "drop": true
-  },
   "63e8a476a40d": {
    "cat": "other",
    "imp": 4,
@@ -22965,12 +22862,6 @@
     }
    }
   },
-  "22c11fd47708": {
-   "drop": true
-  },
-  "1938d6820484": {
-   "drop": true
-  },
   "868bcdee3350": {
    "cat": "clinical",
    "imp": 5,
@@ -22981,12 +22872,6 @@
      "why": "Rare big-pharma programme in POTS moving towards a pivotal study."
     }
    }
-  },
-  "3d7ec19b909e": {
-   "dup": "3d196ea7d2e9"
-  },
-  "7e747818f844": {
-   "dup": "54c7a153242d"
   },
   "e0f204e084a1": {
    "cat": "policy",
@@ -23018,12 +22903,6 @@
     }
    }
   },
-  "3ad305e04e82": {
-   "drop": true
-  },
-  "bffd71f47cf5": {
-   "drop": true
-  },
   "6fdf2fa1aacd": {
    "cat": "other",
    "imp": 3,
@@ -23035,15 +22914,6 @@
     }
    }
   },
-  "31b1feca4d62": {
-   "drop": true
-  },
-  "8f2139ea42a5": {
-   "drop": true
-  },
-  "5a77d95f8957": {
-   "drop": true
-  },
   "45a9fd17b02c": {
    "cat": "clinical",
    "imp": 3,
@@ -23054,9 +22924,6 @@
      "why": "Early obesity-drug data from a Korean developer."
     }
    }
-  },
-  "1d75dfd2ba00": {
-   "drop": true
   },
   "7fa54db7476b": {
    "cat": "funding",
@@ -23122,15 +22989,6 @@
     }
    }
   },
-  "95607cb3cb3d": {
-   "drop": true
-  },
-  "f2ab31a92655": {
-   "drop": true
-  },
-  "d645ada19977": {
-   "drop": true
-  },
   "4e633e7159e9": {
    "cat": "contracts",
    "imp": 6,
@@ -23149,21 +23007,6 @@
      "why": "Secures supply for a European alternative-protein brand."
     }
    }
-  },
-  "3fb92ed2d1f2": {
-   "drop": true
-  },
-  "68a63dfa4122": {
-   "drop": true
-  },
-  "ebbe9a0437b5": {
-   "drop": true
-  },
-  "7557e64348a0": {
-   "drop": true
-  },
-  "53db8c469c41": {
-   "dup": "f9294da111d9"
   },
   "08560adbc112": {
    "cat": "clinical",
@@ -23199,9 +23042,6 @@
     }
    }
   },
-  "3c3aec627561": {
-   "drop": true
-  },
   "109afdb950e7": {
    "cat": "other",
    "imp": 4,
@@ -23216,9 +23056,6 @@
      "why": "Public-preparedness (mpox/smallpox) sales declining."
     }
    }
-  },
-  "e126fd6da560": {
-   "drop": true
   },
   "8b800c4a8f35": {
    "cat": "regulatory",
@@ -23235,9 +23072,6 @@
     }
    }
   },
-  "13b9ccaeb373": {
-   "drop": true
-  },
   "ed5fd96a8c94": {
    "cat": "science",
    "imp": 5,
@@ -23252,18 +23086,6 @@
      "why": "Advances neuron-on-electrode culture platforms."
     }
    }
-  },
-  "71c5a02835e1": {
-   "drop": true
-  },
-  "9378de37e088": {
-   "drop": true
-  },
-  "775b2e75cc64": {
-   "dup": "54c7a153242d"
-  },
-  "0164a600e6f5": {
-   "drop": true
   },
   "1f8f4093501b": {
    "cat": "science",
@@ -23398,192 +23220,6 @@
      "why": "Open resource for wheat microbiome research."
     }
    }
-  },
-  "cb47db807ff8": {
-   "drop": true
-  },
-  "55b6bfb517d4": {
-   "drop": true
-  },
-  "ce116059d241": {
-   "drop": true
-  },
-  "f271cfa09240": {
-   "drop": true
-  },
-  "be85fc5ea31e": {
-   "drop": true
-  },
-  "8d352fc5cec0": {
-   "drop": true
-  },
-  "8b68a52f33a5": {
-   "drop": true
-  },
-  "fba018b0cdb6": {
-   "drop": true
-  },
-  "0cb552822661": {
-   "drop": true
-  },
-  "c46ea745ef1f": {
-   "drop": true
-  },
-  "234192c2f911": {
-   "drop": true
-  },
-  "987ecec804f3": {
-   "drop": true
-  },
-  "43e4ddb6097a": {
-   "drop": true
-  },
-  "7cd0d5045500": {
-   "drop": true
-  },
-  "974797d409f7": {
-   "drop": true
-  },
-  "0bc8a89477a5": {
-   "drop": true
-  },
-  "27bd65aa84e6": {
-   "drop": true
-  },
-  "855f248e3fc2": {
-   "drop": true
-  },
-  "b22560193bd4": {
-   "drop": true
-  },
-  "716e9025adf0": {
-   "drop": true
-  },
-  "da92fd8808dd": {
-   "drop": true
-  },
-  "ae00cc4e4366": {
-   "drop": true
-  },
-  "ae64fe44d53d": {
-   "drop": true
-  },
-  "47ac8333ccbb": {
-   "drop": true
-  },
-  "2b49ee2e9551": {
-   "drop": true
-  },
-  "0dc71714fe6f": {
-   "drop": true
-  },
-  "d477f8d510da": {
-   "drop": true
-  },
-  "2b581c358cf5": {
-   "drop": true
-  },
-  "455fbc447aa8": {
-   "drop": true
-  },
-  "b1231c4342f9": {
-   "drop": true
-  },
-  "f59092bcce63": {
-   "drop": true
-  },
-  "d08121cb9aae": {
-   "drop": true
-  },
-  "29651cabfc75": {
-   "drop": true
-  },
-  "684aa132e35a": {
-   "drop": true
-  },
-  "7bf39b99d2df": {
-   "drop": true
-  },
-  "a0a30aeff514": {
-   "drop": true
-  },
-  "e68218fadc00": {
-   "drop": true
-  },
-  "bbc01b31d3a6": {
-   "drop": true
-  },
-  "4982a0b933a8": {
-   "drop": true
-  },
-  "d3acb5219cf6": {
-   "drop": true
-  },
-  "3e31367629f6": {
-   "drop": true
-  },
-  "dd64035a6475": {
-   "drop": true
-  },
-  "3b7d0242a810": {
-   "drop": true
-  },
-  "8d7ea4b2e715": {
-   "drop": true
-  },
-  "bbe004f2d913": {
-   "drop": true
-  },
-  "e7ae12c18510": {
-   "drop": true
-  },
-  "d20007eef150": {
-   "drop": true
-  },
-  "d57e6a576b07": {
-   "drop": true
-  },
-  "f759814e5e17": {
-   "drop": true
-  },
-  "2f58203cf8eb": {
-   "drop": true
-  },
-  "f05a6aebf962": {
-   "drop": true
-  },
-  "5a2a77491076": {
-   "dup": "54c7a153242d"
-  },
-  "efe345328e73": {
-   "dup": "54c7a153242d"
-  },
-  "c2e1aaa9ab6a": {
-   "dup": "54c7a153242d"
-  },
-  "7cb3f261f371": {
-   "dup": "54c7a153242d"
-  },
-  "d31ae769f379": {
-   "dup": "562d918c85d8"
-  },
-  "c325b9dd1fe2": {
-   "dup": "cd8640b32f54"
-  },
-  "af332d8be45b": {
-   "dup": "00493552aff7"
-  },
-  "312a2f01d1ad": {
-   "dup": "1fc1c71701ec"
-  },
-  "318d4432a465": {
-   "dup": "e185c5bae2ef"
-  },
-  "943562df7af5": {
-   "dup": "85945d302fc1"
-  },
-  "d335b86b1ebe": {
-   "dup": "109afdb950e7"
   },
   "166f36c5a7ff": {
    "cat": "regulatory",
@@ -24235,12 +23871,6 @@
   "4676dc464514": {
    "dup": "54c7a153242d"
   },
-  "8406f3c60a53": {
-   "drop": true
-  },
-  "952464803bb5": {
-   "drop": true
-  },
   "eb4ff293359a": {
    "cat": "policy",
    "imp": 5,
@@ -24368,18 +23998,6 @@
   "820560a91233": {
    "drop": true
   },
-  "989950bb7c7b": {
-   "drop": true
-  },
-  "bf22c9c0e0b3": {
-   "drop": true
-  },
-  "43fab536c657": {
-   "dup": "0c7ddf6efb5f"
-  },
-  "4c8c3576893a": {
-   "dup": "0c7ddf6efb5f"
-  },
   "b1546556319d": {
    "cat": "science",
    "imp": 3,
@@ -24418,588 +24036,6 @@
   },
   "ca8c028c2e3f": {
    "dup": "83fdd3696db3"
-  },
-  "2d356bb6adee": {
-   "drop": true
-  },
-  "f6a0b60059d4": {
-   "drop": true
-  },
-  "83af5351fedb": {
-   "drop": true
-  },
-  "db1f60795938": {
-   "drop": true
-  },
-  "f303b2e4d6c4": {
-   "drop": true
-  },
-  "26fcff821bc1": {
-   "drop": true
-  },
-  "a5ecfd19400f": {
-   "drop": true
-  },
-  "ff7da05b7bf5": {
-   "drop": true
-  },
-  "a429e2c82082": {
-   "drop": true
-  },
-  "cc4ae6e2bc66": {
-   "dup": "36bf377417cd"
-  },
-  "cd6c0db22f25": {
-   "dup": "c22d547ecdb7"
-  },
-  "b3dabfef3e1f": {
-   "drop": true
-  },
-  "4549a7ceb7e9": {
-   "drop": true
-  },
-  "d92ade9f9821": {
-   "dup": "83fdd3696db3"
-  },
-  "bf742f5046bf": {
-   "drop": true
-  },
-  "4d7f81f5df14": {
-   "drop": true
-  },
-  "c928342f4d1a": {
-   "drop": true
-  },
-  "f59f5bb408bc": {
-   "drop": true
-  },
-  "6edc1b8c6e8e": {
-   "drop": true
-  },
-  "5691fc63beca": {
-   "drop": true
-  },
-  "9740fdd6f797": {
-   "drop": true
-  },
-  "807dad8c653e": {
-   "drop": true
-  },
-  "668ba6194c70": {
-   "drop": true
-  },
-  "46916dde4eb1": {
-   "drop": true
-  },
-  "d854fc6d7824": {
-   "drop": true
-  },
-  "691fa932b59a": {
-   "drop": true
-  },
-  "d3f76420bc79": {
-   "drop": true
-  },
-  "495d4a0e4f60": {
-   "drop": true
-  },
-  "c81271f70d0e": {
-   "dup": "c5873e8e2938"
-  },
-  "8601f69c2dc1": {
-   "dup": "00493552aff7"
-  },
-  "61e1e39b1d4d": {
-   "dup": "e2cafcde1028"
-  },
-  "5808043873d9": {
-   "dup": "e2cafcde1028"
-  },
-  "852412c96dc9": {
-   "dup": "b6e6836113cf"
-  },
-  "9bb7039a9380": {
-   "drop": true
-  },
-  "063ab147fafa": {
-   "drop": true
-  },
-  "6f227a931927": {
-   "drop": true
-  },
-  "94c1b606678e": {
-   "drop": true
-  },
-  "7beab15dbe93": {
-   "drop": true
-  },
-  "d32ffd5fde3f": {
-   "drop": true
-  },
-  "12558db2eceb": {
-   "drop": true
-  },
-  "be8577cc31f1": {
-   "drop": true
-  },
-  "fac4ac003e06": {
-   "drop": true
-  },
-  "0bb7e1ea4378": {
-   "drop": true
-  },
-  "891aa95ad5c3": {
-   "drop": true
-  },
-  "323b14b6367b": {
-   "drop": true
-  },
-  "c0f9704d35ce": {
-   "drop": true
-  },
-  "e6232c17dc82": {
-   "dup": "e8dbbd1273e1"
-  },
-  "a06577c073fa": {
-   "drop": true
-  },
-  "aff3854ff21f": {
-   "drop": true
-  },
-  "8f3afd9fc180": {
-   "drop": true
-  },
-  "2e3f80054252": {
-   "dup": "e2cafcde1028"
-  },
-  "265653d7b9bf": {
-   "dup": "e2cafcde1028"
-  },
-  "ca2ed490825b": {
-   "dup": "e2cafcde1028"
-  },
-  "f27f4d48861b": {
-   "drop": true
-  },
-  "04dece2018da": {
-   "dup": "e2cafcde1028"
-  },
-  "ae74d69d83e6": {
-   "dup": "e2cafcde1028"
-  },
-  "892adc2c0cab": {
-   "dup": "2edfbc93beea"
-  },
-  "a1b840745438": {
-   "dup": "e2cafcde1028"
-  },
-  "481fe61974be": {
-   "dup": "e2cafcde1028"
-  },
-  "a0c401d92443": {
-   "dup": "e2cafcde1028"
-  },
-  "c63f3f2ed16c": {
-   "dup": "e2cafcde1028"
-  },
-  "3d501a7292cb": {
-   "dup": "e2cafcde1028"
-  },
-  "aeba9e181d3f": {
-   "dup": "e2cafcde1028"
-  },
-  "2a6023271c12": {
-   "dup": "e2cafcde1028"
-  },
-  "bb8a9917d1ce": {
-   "dup": "e2cafcde1028"
-  },
-  "79afcfd5b9b3": {
-   "dup": "e2cafcde1028"
-  },
-  "29d30ce24704": {
-   "dup": "e2cafcde1028"
-  },
-  "3760e3f0dad9": {
-   "dup": "e2cafcde1028"
-  },
-  "281b3c26a669": {
-   "dup": "e2cafcde1028"
-  },
-  "d262ff8ce531": {
-   "dup": "e2cafcde1028"
-  },
-  "655ef3bea388": {
-   "dup": "e2cafcde1028"
-  },
-  "3b84d42954cc": {
-   "dup": "e2cafcde1028"
-  },
-  "e1cffb18c651": {
-   "dup": "5eff4a69f044"
-  },
-  "c2e8245dae06": {
-   "drop": true
-  },
-  "ba32f14ce575": {
-   "drop": true
-  },
-  "50491bbcba29": {
-   "drop": true
-  },
-  "9db7b63ddc38": {
-   "drop": true
-  },
-  "eabd17d36f3a": {
-   "dup": "4311c148a692"
-  },
-  "c8f4a6d56dcf": {
-   "drop": true
-  },
-  "6e25d0b137f9": {
-   "drop": true
-  },
-  "e046df29f3cc": {
-   "drop": true
-  },
-  "475fb32eb3a1": {
-   "dup": "9671dafe8bfa"
-  },
-  "cb8e1813ce87": {
-   "drop": true
-  },
-  "d02b0cb1ccc6": {
-   "drop": true
-  },
-  "159ecb1ff190": {
-   "drop": true
-  },
-  "1e470a047f45": {
-   "drop": true
-  },
-  "20742d34c882": {
-   "drop": true
-  },
-  "a144b79be7fb": {
-   "drop": true
-  },
-  "0ee6a3e65fce": {
-   "dup": "19faad1b893f"
-  },
-  "2c360f189cc1": {
-   "drop": true
-  },
-  "cfbb313ea461": {
-   "drop": true
-  },
-  "2fffa3cee7a3": {
-   "drop": true
-  },
-  "264dfd89a557": {
-   "drop": true
-  },
-  "bf3d564f779c": {
-   "drop": true
-  },
-  "218a62a465dd": {
-   "drop": true
-  },
-  "810eb696bd16": {
-   "drop": true
-  },
-  "b91d9f8a828e": {
-   "dup": "5dd773bf975f"
-  },
-  "91df05e9ec11": {
-   "dup": "e7dd0306130a"
-  },
-  "497d17aafdc3": {
-   "drop": true
-  },
-  "b9d36816ea30": {
-   "drop": true
-  },
-  "e9a8d30bc638": {
-   "dup": "c30ec60c5df6"
-  },
-  "b6298a542777": {
-   "drop": true
-  },
-  "9d30cf92582e": {
-   "dup": "3fdb4fcc5212"
-  },
-  "b8b994fde194": {
-   "drop": true
-  },
-  "3037cc9b3d33": {
-   "dup": "77be7737d3e0"
-  },
-  "acfdbc6071d2": {
-   "drop": true
-  },
-  "c7b3710cb8e9": {
-   "drop": true
-  },
-  "4a88ca73f8fb": {
-   "drop": true
-  },
-  "dda9e2b12cf0": {
-   "drop": true
-  },
-  "cfb1a63e1933": {
-   "drop": true
-  },
-  "3ee8389392f8": {
-   "drop": true
-  },
-  "16dca8e14763": {
-   "drop": true
-  },
-  "f434ead58b0c": {
-   "drop": true
-  },
-  "722514534472": {
-   "drop": true
-  },
-  "1fc62ab1b005": {
-   "drop": true
-  },
-  "1c259bcff970": {
-   "drop": true
-  },
-  "88081c32dac2": {
-   "drop": true
-  },
-  "8fcf391a3c7a": {
-   "drop": true
-  },
-  "e13a8a540909": {
-   "drop": true
-  },
-  "cd10dbf6af32": {
-   "drop": true
-  },
-  "3ca394c52b7e": {
-   "drop": true
-  },
-  "b7ac293989fe": {
-   "drop": true
-  },
-  "263a3f3caf04": {
-   "drop": true
-  },
-  "b12fb7e81341": {
-   "drop": true
-  },
-  "e6f6c10d2f89": {
-   "drop": true
-  },
-  "64935e64dbd5": {
-   "drop": true
-  },
-  "4e7f3ed79ffa": {
-   "drop": true
-  },
-  "b6ede287b2d0": {
-   "dup": "d505f03250cd"
-  },
-  "45574f4d7c55": {
-   "drop": true
-  },
-  "4bc586235e9e": {
-   "drop": true
-  },
-  "a8bb24acef05": {
-   "dup": "00e98a1f3070"
-  },
-  "b53266c9f5cd": {
-   "drop": true
-  },
-  "4fd2cd0b533c": {
-   "drop": true
-  },
-  "fa1c048137e1": {
-   "drop": true
-  },
-  "0ee2253d7d7f": {
-   "drop": true
-  },
-  "066e46572ead": {
-   "drop": true
-  },
-  "f653ed6905d9": {
-   "drop": true
-  },
-  "61164f23e3fb": {
-   "drop": true
-  },
-  "e603ac2b0aa1": {
-   "drop": true
-  },
-  "1d5f5f3fb2ec": {
-   "drop": true
-  },
-  "811ee9cb8ec7": {
-   "drop": true
-  },
-  "455e9d24c70a": {
-   "drop": true
-  },
-  "c06249d0f1f9": {
-   "drop": true
-  },
-  "0a7727272bd4": {
-   "drop": true
-  },
-  "31f90572bb62": {
-   "drop": true
-  },
-  "90b7738a4dd2": {
-   "drop": true
-  },
-  "d2ef87f27245": {
-   "drop": true
-  },
-  "62ece1fb1145": {
-   "dup": "74efa911c983"
-  },
-  "6d1395921e8d": {
-   "drop": true
-  },
-  "90ae09a68dbe": {
-   "drop": true
-  },
-  "5246fefac267": {
-   "drop": true
-  },
-  "778efc66af45": {
-   "dup": "aec57b25a39d"
-  },
-  "b82aec4c86d0": {
-   "drop": true
-  },
-  "de378bd9b2f1": {
-   "drop": true
-  },
-  "c56bb8489036": {
-   "drop": true
-  },
-  "9c41a513889c": {
-   "drop": true
-  },
-  "2cd94d21b408": {
-   "drop": true
-  },
-  "9797bb165628": {
-   "drop": true
-  },
-  "4190acca4168": {
-   "drop": true
-  },
-  "38280df1c81b": {
-   "drop": true
-  },
-  "8196d2066151": {
-   "drop": true
-  },
-  "5800990f05f9": {
-   "drop": true
-  },
-  "f08128be7c5c": {
-   "drop": true
-  },
-  "9c3b3b90d515": {
-   "drop": true
-  },
-  "fefe3c61501e": {
-   "drop": true
-  },
-  "0bab44666b06": {
-   "drop": true
-  },
-  "4a9bb134f643": {
-   "drop": true
-  },
-  "aea6ac98fb56": {
-   "drop": true
-  },
-  "edfcf2d46be0": {
-   "drop": true
-  },
-  "e85489238062": {
-   "drop": true
-  },
-  "f9064ac08a11": {
-   "drop": true
-  },
-  "6562f44c43d2": {
-   "drop": true
-  },
-  "c4e455b2cbd6": {
-   "drop": true
-  },
-  "1ef31cc72eed": {
-   "dup": "68d06e5a1880"
-  },
-  "a4bb5d0dea28": {
-   "drop": true
-  },
-  "fe1c642e4b59": {
-   "drop": true
-  },
-  "ba8c3f3a4ebb": {
-   "drop": true
-  },
-  "533254bf72a0": {
-   "drop": true
-  },
-  "02866995c420": {
-   "drop": true
-  },
-  "84989ed6e3be": {
-   "dup": "968fa55817bc"
-  },
-  "f3b60d7b1eb8": {
-   "drop": true
-  },
-  "281799db0744": {
-   "drop": true
-  },
-  "9476cd1bccd9": {
-   "drop": true
-  },
-  "380bdc148580": {
-   "drop": true
-  },
-  "d96c3d72332f": {
-   "dup": "68d06e5a1880"
-  },
-  "bbbbe4de29cb": {
-   "drop": true
-  },
-  "119f813263ad": {
-   "drop": true
-  },
-  "fc41d5897760": {
-   "drop": true
-  },
-  "1d3e416b901b": {
-   "drop": true
-  },
-  "1f5a8618fadd": {
-   "drop": true
-  },
-  "2007990be77f": {
-   "drop": true
-  },
-  "ce56a1baac95": {
-   "drop": true
-  },
-  "65a3d15207c3": {
-   "drop": true
-  },
-  "1e1d7c71001a": {
-   "drop": true
   },
   "c91d1568bf96": {
    "drop": true
@@ -25068,6 +24104,211 @@
     "pharma": {
      "score": 4,
      "why": "Could give oncology teams a more realistic melanoma model for testing resistance-breaking drugs."
+    }
+   }
+  },
+  "57dc16a04d53": {
+   "drop": true
+  },
+  "c8378a3077ae": {
+   "drop": true
+  },
+  "4913ddaaea06": {
+   "drop": true
+  },
+  "49b01fc1fb95": {
+   "dup": "83fdd3696db3"
+  },
+  "7caddd570a50": {
+   "dup": "185db75349bb"
+  },
+  "0368da2e3da9": {
+   "dup": "185db75349bb"
+  },
+  "f6b0274dab6c": {
+   "dup": "185db75349bb"
+  },
+  "60f16f2b8cda": {
+   "dup": "185db75349bb"
+  },
+  "1a7b772e56e2": {
+   "dup": "185db75349bb"
+  },
+  "0673391ce453": {
+   "dup": "185db75349bb"
+  },
+  "322483d0ad60": {
+   "dup": "185db75349bb"
+  },
+  "185db75349bb": {
+   "cat": "regulatory",
+   "imp": 8,
+   "summary": "The FDA issued a complete response letter rejecting Summit Therapeutics and Akeso's PD-1xVEGF bispecific ivonescimab with chemotherapy for EGFR-mutant non-small cell lung cancer after EGFR TKI treatment. The phase 3 HARMONi trial met its progression-free survival endpoint, but overall survival showed only a non-significant trend (post hoc hazard ratio 0.76 with longer follow-up), and the FDA said PFS alone did not establish a positive benefit-risk balance. The decision, which analysts largely expected, delays the first US entry of the PD-1xVEGF class; ivonescimab has been sold in China since 2024 and Summit's first-line HARMONi-3 trial continues.",
+   "rel": {
+    "pharma": {
+     "score": 9,
+     "why": "Rejection of the lead PD-1xVEGF bispecific shapes the most crowded new class in immuno-oncology, including rival programmes from BioNTech and Merck."
+    },
+    "investment": {
+     "score": 7,
+     "why": "A major blow to Summit and to sentiment around China-originated assets licensed by US biotechs."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Signals the FDA still demands a survival benefit for lung cancer approvals in later-line settings."
+    }
+   }
+  },
+  "ce569e8f9b5e": {
+   "cat": "deals",
+   "imp": 7,
+   "summary": "The Financial Times reports that Johnson & Johnson is in advanced talks to buy privately held Ollin Biosciences, an eye disease drug developer backed by Arch Venture Partners and Mubadala Capital, for up to $3.4 billion: $2.2 billion upfront and up to $1.2 billion in milestones. Ollin's lead drug OLN324 targets wet age-related macular degeneration and diabetic macular edema and is expected to enter late-stage trials. The deal would expand J&J's small retinal business; no agreement has been announced and talks could still fail.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "A multibillion-dollar bet by J&J on retinal disease, a market led by Regeneron's Eylea and Roche's Vabysmo."
+    },
+    "investment": {
+     "score": 7,
+     "why": "A large exit for a private, VC-backed biotech, with most of the value paid upfront."
+    }
+   }
+  },
+  "c4abe83562b1": {
+   "cat": "regulatory",
+   "imp": 8,
+   "summary": "Bayer says the FDA approved Sunharbo (asundexian, 50 mg once daily), the first factor XIa inhibitor, to reduce the risk of stroke in adults with a recent non-cardioembolic ischaemic stroke or high-risk TIA who take antiplatelet therapy; Bayer announced the approval on 9 November. In the phase 3 OCEANIC-STROKE trial it cut ischaemic stroke by a relative 26% (2.2 percentage points) over two years without increasing ISTH major bleeding. It follows China's approval in October and is under review in Europe and Japan; the list price is $748.50 a month.",
+   "rel": {
+    "pharma": {
+     "score": 9,
+     "why": "First approval of a factor XIa inhibitor, a new anticoagulant class that BMS/J&J's milvexian and others are also chasing."
+    },
+    "healthcare": {
+     "score": 7,
+     "why": "Adds a new option for secondary stroke prevention, where up to 20% of patients have another stroke within five years."
+    }
+   }
+  },
+  "4af1b72c8203": {
+   "cat": "regulatory",
+   "imp": 6,
+   "summary": "Innovent says the EMA's CHMP recommended approval of Zybrivo (sintilimab) with pemetrexed and platinum chemotherapy as first-line treatment for advanced non-squamous NSCLC without EGFR or ALK alterations, its first European regulatory milestone. In the phase 3 ORIENT-11 trial (397 patients) sintilimab cut the risk of progression or death by 52% (median PFS 8.9 vs 5.0 months) and of death by 35% (median OS 24.2 vs 16.8 months). A European Commission decision is expected in the coming months.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "A Chinese-developed PD-1 inhibitor nearing EU approval after the FDA rejected it in 2022."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Shows China-originated drugs can win Western approval with largely Chinese trial data."
+    }
+   }
+  },
+  "df395de2c613": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "GEN's StockWatch column looks at what turmoil in Nvidia's share price could mean for its life sciences collaborations. Nvidia develops no therapies, instruments or reagents, but its AI chips and software underpin numerous partnerships with biopharma and lab-tools companies going back at least five years.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "Nvidia is the main compute supplier behind AI drug discovery and lab-tools partnerships."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Several lab-tools giants rely on Nvidia collaborations."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Market commentary on AI-exposed life sciences stocks."
+    }
+   }
+  },
+  "2de26430b5ff": {
+   "drop": true
+  },
+  "40611da93377": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "IDEAYA Biosciences nominated IDE101, a dual CDK inhibitor it calls potentially first-in-class, as a development candidate for solid tumours that have lost the CDKN2A tumour suppressor, which happens in about 10-15% of solid tumours and about 70% of pancreatic cancers. The company says it showed encouraging preclinical activity alone and with RAS inhibitors and its PRMT5 inhibitor IDE892, but gives no figures. An IND filing is planned for the first half of 2027.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "A new precision-oncology candidate for a large, hard-to-treat genetic subgroup including pancreatic cancer."
+    },
+    "ai": {
+     "score": 3,
+     "why": "Discovered with IDEAYA's physics-based computational design platform."
+    }
+   }
+  },
+  "5da9b770642e": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Viking Therapeutics presented an exploratory analysis of its phase 2 VENTURE trial at ObesityWeek: 74% of people on weekly injected VK2735 moved down at least one BMI category after 13 weeks, versus 15% on placebo, and those who did had larger falls in waist size, glucose, triglycerides, blood pressure and LDL. The headline weight-loss results were reported earlier; placebo subgroups were small. Phase 3 VANQUISH trials are running, with completion expected in 2027.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Supporting data for one of the more advanced independent GLP-1/GIP obesity challengers."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Viking is a closely watched obesity takeover candidate."
+    }
+   }
+  },
+  "d1ef9cdfcc9d": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Novo Nordisk says a post hoc analysis of the phase 3 REDEFINE 1 trial found that 67.8% of adults on CagriSema 2.4/2.4 mg were early responders (at least 5% weight loss by week 8) and went on to lose 25.4% of body weight on average by week 68, versus 17.8% for slower responders. The analysis is hypothesis-generating; gastrointestinal side effects hit 79.6% of patients versus 39.9% on placebo. CagriSema is under FDA review with a decision expected in Q4 2026.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Adds detail to Novo's next-generation obesity drug ahead of its US decision."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Early response could help clinicians predict who benefits most."
+    }
+   }
+  },
+  "c7ae22c51c38": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Ambrosia Biosciences presented preclinical posters at ObesityWeek on two oral small molecules: AMB-895, a GLP-1 receptor agonist designed for once-weekly dosing, and AMB-131, a GIP receptor antagonist. The company says both showed differentiated pharmacokinetics and strong efficacy in animal models; no human data yet.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Another entrant in the race for oral and long-acting obesity pills, still preclinical."
+    }
+   }
+  },
+  "fcba369e63e0": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "University of Edinburgh and Bristol researchers report in Communications Biology that zebrafish lacking the collagen IX gene col9a1b develop abnormal mineral deposits and spinal fusion with age, resembling degenerative spine disease. A bisphosphonate osteoporosis drug blocked the mineral build-up, and less food or suppressed fat metabolism reduced fusions. Results are in fish only and have not been tested in people.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Points to repurposing an existing osteoporosis drug class for spinal degeneration."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Back and disc degeneration is a very common cause of disability."
+    }
+   }
+  },
+  "5de1690213dc": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Rockefeller University researchers report in Cell that low arginine makes ribosomes stall while producing MHC-I proteins, so cells display fewer antigens to T cells. In mice, low-arginine diets led to more colon tumours, while extra arginine reduced tumours and made influenza and SARS-CoV-2 infections less severe, even when given after flu infection. The work is in mice and cells; human studies are needed before any supplement claims.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Links a nutrient to antigen presentation, relevant to cancer immunotherapy and antiviral strategies."
+    },
+    "agrifood": {
+     "score": 3,
+     "why": "Suggests dietary amino acid levels can shape immune surveillance."
     }
    }
   }
@@ -25776,6 +25017,27 @@
     "pharma": {
      "score": 4,
      "why": "Raises urgency for Bundibugyo vaccines and therapeutics in trials."
+    }
+   }
+  },
+  {
+   "id": "2026-11-16-ctad-2026-alzheimers-beyond-amyloid",
+   "title": "Alzheimer's field looks beyond amyloid as biopharma converges at CTAD 2026",
+   "url": "https://www.biospace.com/drug-development/alzheimers-field-looks-beyond-amyloid-as-biopharma-converges-at-ctad-2026",
+   "source": "BioSpace",
+   "kind": "news",
+   "published": "2026-11-16T05:00:00Z",
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "BioSpace previews the CTAD Alzheimer's conference in Boston, starting Monday, where the focus is shifting from amyloid to tau and symptoms. AriBio/Fosun present the first phase 3 POLARIS-AD results for the PDE5 inhibitor AR1001, Biogen shows more phase 2 data for its anti-tau ASO diranersen after a missed dose-response endpoint, and Roche updates trontinemab ahead of a phase 3 prevention study starting this month. Biogen also has five-year Leqembi extension data, and BMS presents Cobenfy data in Alzheimer's psychosis.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Sets up a week of readouts across tau, amyloid and psychosis programmes from Biogen, Roche, BMS and others."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Long-term Leqembi data and lower-ARIA drugs bear on how Alzheimer's treatment is delivered."
     }
    }
   }
