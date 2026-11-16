@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T05:50:23Z",
+ "updated": "2026-11-16T05:48:51Z",
  "horizon": "Events from now to about 18 months ahead",
  "events": [
   {
@@ -633,6 +633,43 @@
   },
   {
    "free": null,
+   "id": "ctad-2026",
+   "name": "Clinical Trials on Alzheimer's Disease (CTAD) 2026",
+   "start": "2026-11-16",
+   "end": "2026-11-19",
+   "type": "conference",
+   "format": "hybrid",
+   "region": "namerica",
+   "city": "Boston",
+   "country": "USA",
+   "organiser": "CTAD",
+   "url": "https://www.ctad-alzheimer.com/",
+   "summary": "The 19th CTAD conference, the main meeting for Alzheimer's clinical trial results, held at the Boston Marriott Copley Place with remote attendance. Clinical researchers, drug developers and regulators attend.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Late-stage Alzheimer's drug trial readouts are presented here."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Clinicians and trial investigators in dementia care."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "Blood and imaging biomarkers for trial enrolment and diagnosis."
+    }
+   },
+   "keywords": [
+    "Alzheimer's",
+    "dementia",
+    "neurology",
+    "CTAD26"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
+  },
+  {
+   "free": null,
    "id": "lsx-investival-showcase-2026",
    "name": "LSX Investival Showcase 2026",
    "start": "2026-11-16",
@@ -704,6 +741,47 @@
    },
    "added": "2026-10-25",
    "checked": "2026-11-09"
+  },
+  {
+   "free": null,
+   "id": "pegs-europe-2026",
+   "name": "PEGS Europe 2026: Protein & Antibody Engineering Summit",
+   "start": "2026-11-16",
+   "end": "2026-11-19",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Lisbon",
+   "country": "Portugal",
+   "organiser": "Cambridge Healthtech Institute",
+   "url": "https://www.pegsummiteurope.com/",
+   "summary": "The 18th European edition of CHI's protein and antibody engineering summit at the Lisbon Congress Center, with tracks on bispecifics, ADCs, immunotherapy and protein expression.",
+   "rel": {
+    "pharma": {
+     "score": 9,
+     "why": "Biologics discovery and engineering is the core topic."
+    },
+    "tools": {
+     "score": 5,
+     "why": "Protein expression and analytics platforms exhibit."
+    },
+    "ai": {
+     "score": 5,
+     "why": "Machine-learning protein design sessions."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "Developability and expression tracks."
+    }
+   },
+   "keywords": [
+    "antibody engineering",
+    "bispecifics",
+    "ADC",
+    "biologics"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
   },
   {
    "id": "bioprocessuk-2026",
@@ -810,6 +888,69 @@
    "checked": "2026-11-09"
   },
   {
+   "free": null,
+   "id": "og-target-id-nov-2026",
+   "name": "Novel Approaches to Target Identification & Validation (Oxford Global online)",
+   "start": "2026-11-17",
+   "end": "2026-11-17",
+   "type": "webinar",
+   "format": "online",
+   "region": "global",
+   "organiser": "Oxford Global",
+   "url": "https://oxfordglobal.com/discovery-development/events/rd-showcase/target-identification-validation",
+   "summary": "Online R&D showcase on new methods for identifying and validating drug targets.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Early drug discovery teams."
+    },
+    "tools": {
+     "score": 5,
+     "why": "Screening, omics and functional genomics methods."
+    },
+    "ai": {
+     "score": 4,
+     "why": "Computational target discovery."
+    }
+   },
+   "keywords": [
+    "drug targets"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
+  },
+  {
+   "free": null,
+   "id": "veith-2026",
+   "name": "VEITHsymposium 2026",
+   "start": "2026-11-17",
+   "end": "2026-11-21",
+   "type": "symposium",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "New York",
+   "country": "USA",
+   "organiser": "VEITHsymposium",
+   "url": "https://veithsymposium.org/",
+   "summary": "The 53rd annual symposium on vascular and endovascular techniques, with rapid-fire talks for vascular surgeons, interventional radiologists and cardiologists.",
+   "rel": {
+    "meddevices": {
+     "score": 7,
+     "why": "Endovascular devices, stents and engineered vessels are presented."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Vascular specialists discuss treatment and patient management."
+    }
+   },
+   "keywords": [
+    "vascular surgery",
+    "endovascular"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
+  },
+  {
    "id": "bia-investor-summit-2026",
    "name": "BIA International Investor Summit 2026",
    "start": "2026-11-18",
@@ -903,6 +1044,39 @@
    "checked": "2026-11-09"
   },
   {
+   "free": null,
+   "id": "og-proteomic-biomarkers-nov-2026",
+   "name": "Proteomic Biomarker Insights (Oxford Global online)",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "type": "webinar",
+   "format": "online",
+   "region": "global",
+   "organiser": "Oxford Global",
+   "url": "https://oxfordglobal.com/precision-medicine/events/technology-showcase/proteomic-biomarkers-insights",
+   "summary": "Online technology showcase on proteomics for biomarker discovery and precision medicine.",
+   "rel": {
+    "tools": {
+     "score": 7,
+     "why": "Proteomics platforms and workflows."
+    },
+    "diagnostics": {
+     "score": 6,
+     "why": "Protein biomarkers for diagnosis and stratification."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Translational biomarker teams."
+    }
+   },
+   "keywords": [
+    "proteomics",
+    "biomarkers"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
+  },
+  {
    "id": "cphi-india-2026",
    "name": "CPHI & PMEC India 2026",
    "start": "2026-11-23",
@@ -935,7 +1109,7 @@
     "API"
    ],
    "added": "2026-10-26",
-   "checked": "2026-11-09"
+   "checked": "2026-11-16"
   },
   {
    "id": "cbrne-summit-asia-2026",
@@ -1232,7 +1406,7 @@
     "tech transfer"
    ],
    "added": "2026-10-26",
-   "checked": "2026-10-26"
+   "checked": "2026-11-16"
   },
   {
    "id": "ash-2026",
@@ -1275,7 +1449,7 @@
     }
    },
    "added": "2026-10-25",
-   "checked": "2026-11-09"
+   "checked": "2026-11-16"
   },
   {
    "id": "arablab-ksa-2026",
@@ -1307,46 +1481,7 @@
     "ARABLAB"
    ],
    "added": "2026-11-09",
-   "checked": "2026-11-09"
-  },
-  {
-   "free": null,
-   "id": "bio-middle-east-2026",
-   "name": "BIO Middle East 2026",
-   "start": "2026-12-14",
-   "end": "2026-12-16",
-   "type": "partnering",
-   "format": "inperson",
-   "region": "mena",
-   "city": "Riyadh",
-   "country": "Saudi Arabia",
-   "organiser": "Informa Connect / BIO",
-   "url": "https://informaconnect.com/bio-middle-east/",
-   "summary": "First edition of a biotech conference and partnering event at the Riyadh Exhibition & Convention Center (Malham), co-located with CPHI Middle East, on the Gulf's push into life sciences.",
-   "rel": {
-    "investment": {
-     "score": 8,
-     "why": "Partnering and Gulf investment in biotech."
-    },
-    "pharma": {
-     "score": 8,
-     "why": "CPHI Middle East pharma show alongside."
-    },
-    "healthcare": {
-     "score": 5,
-     "why": "Saudi health system and localisation plans."
-    },
-    "bioprocessing": {
-     "score": 4,
-     "why": "Local manufacturing ambitions."
-    }
-   },
-   "keywords": [
-    "Saudi Arabia",
-    "CPHI Middle East"
-   ],
-   "added": "2026-11-06",
-   "checked": "2026-11-06"
+   "checked": "2026-11-16"
   },
   {
    "id": "biotech-showcase-2027",
@@ -1895,6 +2030,46 @@
    "checked": "2026-11-02"
   },
   {
+   "free": null,
+   "id": "car-tcr-europe-2027",
+   "name": "10th CAR-TCR Summit Europe",
+   "start": "2027-02-09",
+   "end": "2027-02-10",
+   "type": "conference",
+   "format": "inperson",
+   "region": "uk",
+   "city": "London",
+   "country": "UK",
+   "organiser": "Hanson Wade",
+   "url": "https://cartcr-europe.com/",
+   "summary": "Two-day meeting at the Novotel London West for Europe's CAR-T and TCR cell therapy community, covering in vivo and solid tumour approaches, manufacturing and trial costs.",
+   "rel": {
+    "cellgene": {
+     "score": 10,
+     "why": "CAR-T and TCR cell therapies are the focus."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Biotech and pharma developers attend."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "Scalable cell therapy manufacturing sessions."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Investors in cell therapy attend."
+    }
+   },
+   "keywords": [
+    "CAR-T",
+    "TCR",
+    "cell therapy"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
+  },
+  {
    "id": "mdm-west-2027",
    "name": "MD&M West 2027",
    "start": "2027-02-09",
@@ -2061,6 +2236,38 @@
    ],
    "added": "2026-11-06",
    "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "cgt-manufacturing-dach-2027",
+   "name": "CGT Manufacturing DACH 2027",
+   "start": "2027-02-17",
+   "end": "2027-02-18",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Munich",
+   "country": "Germany",
+   "organiser": "IMAPAC",
+   "url": "https://www.imapac.com/events/cgt-manufacturing-dach-2027",
+   "summary": "Conference on cell and gene therapy manufacturing in Germany, Austria and Switzerland: scale-up, tech transfer, automation, quality and supply.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "Advanced therapy manufacturing is the subject."
+    },
+    "bioprocessing": {
+     "score": 8,
+     "why": "Manufacturing, CDMO and process teams attend."
+    }
+   },
+   "keywords": [
+    "ATMP",
+    "DACH",
+    "CDMO"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
   },
   {
    "id": "labroots-drug-discovery-2027",
@@ -2326,6 +2533,38 @@
    "checked": "2026-11-09"
   },
   {
+   "free": null,
+   "id": "biologics-manufacturing-ireland-2027",
+   "name": "Biologics Manufacturing Ireland 2027",
+   "start": "2027-02-24",
+   "end": "2027-02-25",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Dublin",
+   "country": "Ireland",
+   "organiser": "IMAPAC",
+   "url": "https://www.imapac.com/events/biologics-manufacturing-ireland-2027",
+   "summary": "Two-day conference and exhibition on Ireland's biopharma manufacturing sector, co-located with OPX Oligos & Peptides and an ADC manufacturing meeting.",
+   "rel": {
+    "bioprocessing": {
+     "score": 9,
+     "why": "Biologics manufacturing and CDMO growth are the focus."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Pharma manufacturing site leaders attend."
+    }
+   },
+   "keywords": [
+    "Ireland",
+    "CDMO",
+    "biomanufacturing"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
+  },
+  {
    "id": "grc-chem-bio-defense-2027",
    "name": "Chemical and Biological Defense Gordon Research Conference 2027",
    "start": "2027-02-28",
@@ -2571,6 +2810,46 @@
    "checked": "2026-10-26"
   },
   {
+   "free": null,
+   "id": "bioket-2027",
+   "name": "BIOKET 2027",
+   "start": "2027-03-09",
+   "end": "2027-03-11",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Strasbourg",
+   "country": "France",
+   "organiser": "BIOKET",
+   "url": "https://bioket.tech/",
+   "summary": "Eighth edition of the international conference and exhibition on key enabling technologies for the bioeconomy, with B2B matchmaking, start-up showcases and site visits.",
+   "rel": {
+    "industrial": {
+     "score": 9,
+     "why": "Bio-based chemicals and materials are the core theme."
+    },
+    "fermentation": {
+     "score": 6,
+     "why": "Fermentation and bioconversion technologies feature."
+    },
+    "bioprocessing": {
+     "score": 5,
+     "why": "Scale-up and biorefinery processes."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Investors and start-up showcases."
+    }
+   },
+   "keywords": [
+    "bioeconomy",
+    "bio-based",
+    "biorefinery"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
+  },
+  {
    "id": "joint-cbrn-symposium-2027",
    "name": "Joint CBRN Symposium 2027",
    "start": "2027-03-09",
@@ -2751,6 +3030,38 @@
    },
    "added": "2026-10-25",
    "checked": "2026-10-25"
+  },
+  {
+   "free": null,
+   "id": "east-west-summit-2027",
+   "name": "BioCentury-BayHelix East-West Biopharma Summit 2027",
+   "start": "2027-03-15",
+   "end": "2027-03-17",
+   "type": "partnering",
+   "format": "inperson",
+   "region": "apac",
+   "city": "Seoul",
+   "country": "South Korea",
+   "organiser": "BioCentury & BayHelix",
+   "url": "https://conferences.biocentury.com/east-west-summit-2027",
+   "summary": "Sixth East-West summit at the Conrad Seoul, bringing Asian biotech CEOs and investors together with Western peers on licensing, NewCo deals and cross-border partnering, with virtual partnering on 23-24 March.",
+   "rel": {
+    "investment": {
+     "score": 9,
+     "why": "Cross-border licensing and investment are the focus."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Pharma business development leaders attend."
+    }
+   },
+   "keywords": [
+    "licensing",
+    "Asia",
+    "BayHelix"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
   },
   {
    "id": "bpi-us-west-2027",
@@ -3124,6 +3435,41 @@
    "checked": "2026-10-26"
   },
   {
+   "free": null,
+   "id": "biosupply-chain-asia-2027",
+   "name": "BioSupply Chain Asia 2027",
+   "start": "2027-03-23",
+   "end": "2027-03-24",
+   "type": "conference",
+   "format": "inperson",
+   "region": "apac",
+   "city": "Singapore",
+   "country": "Singapore",
+   "organiser": "IMAPAC",
+   "url": "https://www.imapac.com/events/biosupply-chain-asia-2027",
+   "summary": "Conference on biopharma supply chains at Sands Expo, covering cold chain, AI in logistics and clinical trial supply, co-located with Biologics Manufacturing Asia.",
+   "rel": {
+    "bioprocessing": {
+     "score": 6,
+     "why": "Manufacturing operations and supply teams attend."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Biopharma supply chain leaders."
+    },
+    "cellgene": {
+     "score": 3,
+     "why": "Logistics for advanced therapies."
+    }
+   },
+   "keywords": [
+    "cold chain",
+    "logistics"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
+  },
+  {
    "id": "cgt-world-asia-2027",
    "name": "Cell & Gene Therapy World Asia 2027",
    "start": "2027-03-23",
@@ -3191,6 +3537,41 @@
    ],
    "added": "2026-11-09",
    "checked": "2026-11-09"
+  },
+  {
+   "free": null,
+   "id": "medtech-world-middle-east-2027",
+   "name": "MedTech World Middle East 2027",
+   "start": "2027-03-23",
+   "end": "2027-03-25",
+   "type": "conference",
+   "format": "inperson",
+   "region": "mena",
+   "city": "Dubai",
+   "country": "UAE",
+   "organiser": "MedTech World",
+   "url": "https://med-tech.world/",
+   "summary": "Medtech conference with a pitch competition and awards, linking device companies, start-ups and investors in the Gulf.",
+   "rel": {
+    "meddevices": {
+     "score": 9,
+     "why": "Medical device innovation is the core theme."
+    },
+    "investment": {
+     "score": 6,
+     "why": "Start-up pitches and investor meetings."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Health systems in the region attend."
+    }
+   },
+   "keywords": [
+    "medtech",
+    "Dubai"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
   },
   {
    "id": "oligos-peptides-asia-2027",
@@ -3445,6 +3826,41 @@
    ],
    "added": "2026-11-06",
    "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "american-biomanufacturing-summit-2027",
+   "name": "American Biomanufacturing Summit 2027",
+   "start": "2027-04-06",
+   "end": "2027-04-07",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Oakland",
+   "country": "USA",
+   "organiser": "Generis Group",
+   "url": "https://biomanamerica.com/",
+   "summary": "Thirteenth annual executive meeting at the Marriott Oakland City Center for about 250 biomanufacturing leaders, covering manufacturing technology, quality and supply chain with a cell and gene therapy focus.",
+   "rel": {
+    "bioprocessing": {
+     "score": 9,
+     "why": "Biomanufacturing executives are the audience."
+    },
+    "cellgene": {
+     "score": 5,
+     "why": "Cell and gene therapy manufacturing focus."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Biopharma operations leaders."
+    }
+   },
+   "keywords": [
+    "biomanufacturing",
+    "CMC"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
   },
   {
    "free": null,
@@ -3864,6 +4280,45 @@
    "checked": "2026-11-02"
   },
   {
+   "free": null,
+   "id": "bio-middle-east-2027",
+   "name": "BIO Middle East 2027",
+   "start": "2027-04-26",
+   "end": "2027-04-28",
+   "type": "partnering",
+   "format": "inperson",
+   "region": "mena",
+   "city": "Riyadh",
+   "country": "Saudi Arabia",
+   "organiser": "Informa Connect / BIO",
+   "url": "https://informaconnect.com/bio-middle-east/",
+   "summary": "First edition of a biotech conference and partnering event at the Riyadh Exhibition & Convention Center (Malham), on the Gulf's push into life sciences. Moved from December 2026; earlier registrations stay valid.",
+   "rel": {
+    "investment": {
+     "score": 8,
+     "why": "Partnering and Gulf investment in biotech."
+    },
+    "pharma": {
+     "score": 8,
+     "why": "Pharma companies building a presence in Saudi Arabia attend."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Saudi health system and localisation plans."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "Local manufacturing ambitions."
+    }
+   },
+   "keywords": [
+    "Saudi Arabia",
+    "CPHI Middle East"
+   ],
+   "added": "2026-11-06",
+   "checked": "2026-11-16"
+  },
+  {
    "id": "swiss-biotech-day-2027",
    "name": "Swiss Biotech Day 2027",
    "start": "2027-04-26",
@@ -4200,6 +4655,37 @@
    ],
    "added": "2026-11-09",
    "checked": "2026-11-09"
+  },
+  {
+   "free": null,
+   "id": "medtech-world-north-america-2027",
+   "name": "MedTech World North America 2027",
+   "start": "2027-05-05",
+   "end": "2027-05-07",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "West Palm Beach",
+   "country": "USA",
+   "organiser": "MedTech World",
+   "url": "https://med-tech.world/",
+   "summary": "North American edition of the MedTech World conference series, with a pitch competition, awards and investor networking for device companies.",
+   "rel": {
+    "meddevices": {
+     "score": 9,
+     "why": "Medical device innovation is the core theme."
+    },
+    "investment": {
+     "score": 6,
+     "why": "Start-up pitches and investor meetings."
+    }
+   },
+   "keywords": [
+    "medtech",
+    "Florida"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
   },
   {
    "id": "bioequity-europe-2027",
@@ -4590,6 +5076,41 @@
    ],
    "added": "2026-11-02",
    "checked": "2026-11-02"
+  },
+  {
+   "free": null,
+   "id": "biologics-world-taiwan-2027",
+   "name": "Biologics World Taiwan 2027",
+   "start": "2027-05-26",
+   "end": "2027-05-27",
+   "type": "conference",
+   "format": "inperson",
+   "region": "apac",
+   "city": "Taipei",
+   "country": "Taiwan",
+   "organiser": "IMAPAC",
+   "url": "https://www.imapac.com/events/biologics-world-taiwan-2027",
+   "summary": "Fourteenth edition of a Taipei summit on biologics R&D, manufacturing and clinical trials, with about 300 attendees and an exhibition.",
+   "rel": {
+    "bioprocessing": {
+     "score": 7,
+     "why": "Upstream, downstream and CDMO sessions."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Biologics and vaccine developers attend."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "CAR-T and stem cell therapy sessions."
+    }
+   },
+   "keywords": [
+    "Taiwan",
+    "biologics"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
   },
   {
    "id": "labroots-microscopy-2027",
@@ -5497,6 +6018,38 @@
    "checked": "2026-10-26"
   },
   {
+   "free": null,
+   "id": "fierce-pharma-week-europe-2027",
+   "name": "Fierce Pharma Week Europe 2027",
+   "start": "2027-06-28",
+   "end": "2027-06-30",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Basel",
+   "country": "Switzerland",
+   "organiser": "Questex / MCH Group",
+   "url": "https://www.mch-group.com/en/media/news/2026/questex-fierce-pharma-and-mch-group-launch-fierce-pharma-week-europe-in-basel",
+   "summary": "First European edition of Questex's Fierce Pharma Week, for pharma leaders in marketing, medical affairs, market access and communications.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Commercial, medical affairs and market access leaders."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Pricing and access policy in Europe."
+    }
+   },
+   "keywords": [
+    "market access",
+    "medical affairs",
+    "commercial"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
+  },
+  {
    "id": "world-agritech-south-america-2027",
    "name": "World Agri-Tech South America 2027",
    "start": "2027-06-29",
@@ -5952,6 +6505,46 @@
    "checked": "2026-11-09"
   },
   {
+   "free": null,
+   "id": "ecce-ecab-2027",
+   "name": "ECCE & ECAB 2027: European Congress of Chemical Engineering and Applied Biotechnology",
+   "start": "2027-09-12",
+   "end": "2027-09-16",
+   "type": "conference",
+   "format": "inperson",
+   "region": "uk",
+   "city": "Edinburgh",
+   "country": "UK",
+   "organiser": "ECCE-ECAB 2027",
+   "url": "https://www.ecce-ecab2027.org/",
+   "summary": "Joint European congress of chemical engineering and applied biotechnology on the theme 'Engineering a Sustainable World', expecting over 1,000 researchers and industry engineers.",
+   "rel": {
+    "industrial": {
+     "score": 8,
+     "why": "Applied and industrial biotechnology congress."
+    },
+    "bioprocessing": {
+     "score": 7,
+     "why": "Bioprocess engineering is a core strand."
+    },
+    "fermentation": {
+     "score": 5,
+     "why": "Microbial production processes."
+    },
+    "agrifood": {
+     "score": 3,
+     "why": "Food and water sustainability themes."
+    }
+   },
+   "keywords": [
+    "chemical engineering",
+    "applied biotechnology",
+    "EFB"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
+  },
+  {
    "id": "world-epa-usa-2027",
    "name": "World EPA Congress USA 2027",
    "start": "2027-09-14",
@@ -6127,6 +6720,37 @@
    ],
    "added": "2026-11-09",
    "checked": "2026-11-09"
+  },
+  {
+   "free": null,
+   "id": "lsx-congress-usa-2027",
+   "name": "LSX Congress USA 2027",
+   "start": "2027-09-21",
+   "end": "2027-09-23",
+   "type": "partnering",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Boston",
+   "country": "USA",
+   "organiser": "Informa Connect",
+   "url": "https://informaconnect.com/lsx-congress-usa/",
+   "summary": "Executive partnering congress held during Biotech Week Boston, focused on investment, pharma partnering and growth for biotech leadership teams.",
+   "rel": {
+    "investment": {
+     "score": 8,
+     "why": "Investor and partnering meetings are the focus."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Pharma business development attends."
+    }
+   },
+   "keywords": [
+    "Biotech Week Boston",
+    "partnering"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
   },
   {
    "id": "world-agritech-london-2027",
@@ -6371,6 +6995,77 @@
    "checked": "2026-10-26"
   },
   {
+   "free": null,
+   "id": "precision-medicine-west-2027",
+   "name": "Precision Medicine West 2027",
+   "start": "2027-10-07",
+   "end": "2027-10-08",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "San Diego",
+   "country": "USA",
+   "organiser": "Oxford Global",
+   "url": "https://oxfordglobal.com/precision-medicine/events/pmwest",
+   "summary": "Oxford Global's San Diego meeting on omics, spatial biology, biomarkers and data for precision medicine.",
+   "rel": {
+    "tools": {
+     "score": 8,
+     "why": "Omics and spatial biology platforms."
+    },
+    "diagnostics": {
+     "score": 7,
+     "why": "Biomarkers and companion diagnostics."
+    },
+    "ai": {
+     "score": 5,
+     "why": "Data and AI in precision medicine."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Translational teams from pharma."
+    }
+   },
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
+  },
+  {
+   "free": null,
+   "id": "arablab-live-2027",
+   "name": "ARABLAB LIVE 2027",
+   "start": "2027-10-11",
+   "end": "2027-10-13",
+   "type": "tradeshow",
+   "format": "inperson",
+   "region": "mena",
+   "city": "Dubai",
+   "country": "UAE",
+   "organiser": "Terrapinn",
+   "url": "https://www.terrapinn.com/exhibition/arablab-live",
+   "summary": "The largest laboratory exhibition in the Middle East and Africa, at Dubai World Trade Centre, covering analytical, life science and clinical lab equipment.",
+   "rel": {
+    "tools": {
+     "score": 9,
+     "why": "Lab instruments and analytical equipment are the show's core."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "Clinical and testing lab suppliers exhibit."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Pharma QC labs attend."
+    }
+   },
+   "keywords": [
+    "laboratory",
+    "Dubai",
+    "lab equipment"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
+  },
+  {
    "id": "biotechx-europe-2027",
    "name": "BioTechX Europe 2027",
    "start": "2027-10-11",
@@ -6419,6 +7114,41 @@
    ],
    "added": "2026-11-06",
    "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "drug-discovery-us-2027",
+   "name": "Drug Discovery US 2027",
+   "start": "2027-10-13",
+   "end": "2027-10-14",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "San Diego",
+   "country": "USA",
+   "organiser": "Oxford Global",
+   "url": "https://oxfordglobal.com/discovery-development/events/discovery-development-us/drug-discovery-us",
+   "summary": "Oxford Global's San Diego drug discovery meeting, co-located with Neuroscience US and Formulation & Drug Delivery US 2027.",
+   "rel": {
+    "pharma": {
+     "score": 9,
+     "why": "Drug discovery scientists from pharma and biotech."
+    },
+    "ai": {
+     "score": 5,
+     "why": "AI and computational discovery sessions."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Screening and assay technology."
+    }
+   },
+   "keywords": [
+    "neuroscience",
+    "formulation"
+   ],
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
   },
   {
    "id": "labroots-cgt-2027",
@@ -6930,6 +7660,41 @@
    },
    "added": "2026-11-06",
    "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "precision-medicine-europe-2027",
+   "name": "Precision Medicine Europe 2027",
+   "start": "2027-11-30",
+   "end": "2027-12-01",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Basel",
+   "country": "Switzerland",
+   "organiser": "Oxford Global",
+   "url": "https://oxfordglobal.com/precision-medicine/events/pmeurope",
+   "summary": "Oxford Global's European precision medicine meeting on omics, spatial biology, biomarkers and diagnostics.",
+   "rel": {
+    "tools": {
+     "score": 8,
+     "why": "Omics and spatial biology platforms."
+    },
+    "diagnostics": {
+     "score": 7,
+     "why": "Biomarkers and companion diagnostics."
+    },
+    "ai": {
+     "score": 5,
+     "why": "Data and AI in precision medicine."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Translational teams from pharma."
+    }
+   },
+   "added": "2026-11-16",
+   "checked": "2026-11-16"
   },
   {
    "free": null,

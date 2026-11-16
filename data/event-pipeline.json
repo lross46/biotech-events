@@ -1,148 +1,10 @@
 {
  "about": "Working file for the weekly event update (see UPDATING.md). Not shown in the app.",
- "updated": "2026-11-09",
- "lastGapCheck": null,
+ "updated": "2026-11-16",
+ "lastGapCheck": "2026-11-16",
  "lastOrganiserCheck": null,
- "leads": [
-  {
-   "name": "Society for Neuro-Oncology (SNO) 2026 Annual Meeting",
-   "dates": null,
-   "city": null,
-   "url": "https://www.prnewswire.com/news-releases/myosin-therapeutics-to-attend-society-for-neuro-oncology-2026-annual-meeting-302933201.html",
-   "source": "PR Newswire",
-   "added": "2026-11-10"
-  },
-  {
-   "name": "Clinical Trials on Alzheimer's Disease (CTAD) 2026",
-   "dates": null,
-   "city": null,
-   "url": "https://www.globenewswire.com/news-release/2026/11/09/3398388/0/en/nkgen-biotech-to-present-long-term-follow-up-of-troculeucel-in-moderate-alzheimer-s-disease-at-ctad-2026.html",
-   "source": "GlobeNewswire",
-   "added": "2026-11-10"
-  },
-  {
-   "name": "PEGS Europe 2026 (18th Annual Protein & Antibody Engineering Summit)",
-   "dates": null,
-   "city": null,
-   "url": "https://www.prnewswire.com/news-releases/compugen-to-present-unigenx-platform-at-the-18th-annual-pegs-europe-summit-302934740.html",
-   "source": "PR Newswire",
-   "added": "2026-11-10"
-  },
-  {
-   "name": "VEITH Symposium 2026",
-   "dates": null,
-   "city": null,
-   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400652/0/en/five-presentations-one-leading-innovation-humacyte-s-acellular-tissue-engineered-vessel-takes-center-stage-at-veith-2026.html",
-   "source": "GlobeNewswire",
-   "added": "2026-11-11"
-  },
-  {
-   "name": "Future of Cell and Gene Therapy Symposium",
-   "dates": null,
-   "city": null,
-   "url": "https://www.prnewswire.com/news-releases/genprex-to-highlight-dual-delivery-strategy-for-diabetes-gene-therapy-at-future-of-cell-and-gene-therapy-symposium-302935830.html",
-   "source": "PR Newswire",
-   "added": "2026-11-11"
-  }
- ],
- "candidates": [
-  {
-   "name": "Vitamin D Derivative Shows Promise for Psoriasis",
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "url": "https://www.labroots.com/trending/nocat/31363/vitamin-derivative-promise-psoriasis",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-15"
-  },
-  {
-   "name": "New Bacterial Infection Emerging in America",
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "url": "https://www.labroots.com/trending/nocat/31392/bacterial-infection-emerging-america",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-15"
-  },
-  {
-   "name": "Body Composition Correlates with Biological Aging in Men",
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "url": "https://www.labroots.com/trending/nocat/31333/body-composition-correlates-biological-aging",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-15"
-  },
-  {
-   "name": "Physics Loophole Suggests Rapid Black Holes Might Divide",
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "url": "https://www.labroots.com/trending/nocat/31337/physics-loophole-suggests-rapid-black-holes-divide",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-15"
-  },
-  {
-   "name": "Vitamin D improves IBD immune and gut bacteria communication",
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "url": "https://www.labroots.com/trending/nocat/31354/vitamin-improves-ibd-immune-gut-bacteria-communication",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-15"
-  },
-  {
-   "name": "The Deceptive Nature of Mold Related to Detection, Recovery, and Identification",
-   "start": "2026-11-17",
-   "end": "2026-11-17",
-   "url": "https://www.labroots.com/webinar/deceptive-nature-mold-related-detection-recovery-identification",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-15"
-  },
-  {
-   "name": "How to resolve impurities and variants in oligo and protein therapeutics using MDi column technology",
-   "start": "2026-11-17",
-   "end": "2026-11-17",
-   "url": "https://www.labroots.com/webinar/resolve-impurities-variants-oligo-protein-therapeutics-using-mdi-column-technology",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-15"
-  },
-  {
-   "name": "Beyond Method Transfer: How Opella Is Modernizing and Harmonizing LC Methods",
-   "start": "2026-11-18",
-   "end": "2026-11-18",
-   "url": "https://www.labroots.com/webinar/beyond-method-transfer-opella-modernizing-harmonizing-lc-methods",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-15"
-  }
- ],
+ "leads": [],
+ "candidates": [],
  "dismissed": [
   {
    "name": "Novel Mechanism of Wound Healing Helps Tumors Evade Immunity",
@@ -247,18 +109,54 @@
   {
    "name": "Bladder Cancer Vaccine Reduces Risk of Dementia",
    "reason": "not an event (news article)"
+  },
+  {
+   "name": "Vitamin D Derivative Shows Promise for Psoriasis",
+   "reason": "not an event (news article)"
+  },
+  {
+   "name": "New Bacterial Infection Emerging in America",
+   "reason": "not an event (news article)"
+  },
+  {
+   "name": "Body Composition Correlates with Biological Aging in Men",
+   "reason": "not an event (news article)"
+  },
+  {
+   "name": "Physics Loophole Suggests Rapid Black Holes Might Divide",
+   "reason": "not an event (news article)"
+  },
+  {
+   "name": "Vitamin D improves IBD immune and gut bacteria communication",
+   "reason": "not an event (news article)"
+  },
+  {
+   "name": "The Deceptive Nature of Mold Related to Detection, Recovery, and Identification",
+   "reason": "too small (single sponsored webinar)"
+  },
+  {
+   "name": "How to resolve impurities and variants in oligo and protein therapeutics using MDi column technology",
+   "reason": "too small (single sponsored webinar)"
+  },
+  {
+   "name": "Beyond Method Transfer: How Opella Is Modernizing and Harmonizing LC Methods",
+   "reason": "too small (single sponsored webinar)"
   }
  ],
  "organisers": [
   {
    "name": "Terrapinn",
    "url": "https://www.terrapinn.com/",
-   "kind": "conferences"
+   "kind": "conferences",
+   "checked": "2026-11-16",
+   "note": "1 added (ARABLAB LIVE Dubai)"
   },
   {
    "name": "Informa Connect (life sciences)",
    "url": "https://informaconnect.com/life-sciences/",
-   "kind": "conferences"
+   "kind": "conferences",
+   "checked": "2026-11-16",
+   "note": "page fetch failed; LSX Congress USA added via search"
   },
   {
    "name": "Informa Markets: CPHI",
@@ -268,37 +166,51 @@
   {
    "name": "Oxford Global",
    "url": "https://oxfordglobal.com/",
-   "kind": "conferences"
+   "kind": "conferences",
+   "checked": "2026-11-16",
+   "note": "5 added (2 webinars, PM West, DD US, PM Europe)"
   },
   {
    "name": "Kisaco Research",
    "url": "https://www.kisacoresearch.com/",
-   "kind": "conferences"
+   "kind": "conferences",
+   "checked": "2026-11-16",
+   "note": "no dates on events page"
   },
   {
    "name": "Hanson Wade",
    "url": "https://www.hansonwade.com/",
-   "kind": "conferences"
+   "kind": "conferences",
+   "checked": "2026-11-16",
+   "note": "partial: 1 added (CAR-TCR Europe), 5 series to watch; ~130 niche summits mostly month-only"
   },
   {
    "name": "SelectBio",
    "url": "https://www.selectbio.com/",
-   "kind": "conferences"
+   "kind": "conferences",
+   "checked": "2026-11-16",
+   "note": "2026 only, all listed"
   },
   {
    "name": "Cambridge Healthtech Institute",
    "url": "https://www.healthtech.com/",
-   "kind": "conferences"
+   "kind": "conferences",
+   "checked": "2026-11-16",
+   "note": "upcoming page JS-rendered; PEGS Europe added from lead"
   },
   {
    "name": "SMi Group",
    "url": "https://www.smi-online.co.uk/",
-   "kind": "conferences incl. defence/CBRN"
+   "kind": "conferences incl. defence/CBRN",
+   "checked": "2026-11-16",
+   "note": "site blocks fetch"
   },
   {
    "name": "Fleming Conferences",
    "url": "https://fleming.events/",
-   "kind": "conferences"
+   "kind": "conferences",
+   "checked": "2026-11-16",
+   "note": "no events shown"
   },
   {
    "name": "BioCentury",
@@ -308,7 +220,9 @@
   {
    "name": "EBD Group",
    "url": "https://www.ebdgroup.com/",
-   "kind": "partnering"
+   "kind": "partnering",
+   "checked": "2026-11-16",
+   "note": "all listed"
   },
   {
    "name": "BIO",
@@ -453,7 +367,9 @@
   {
    "name": "IMAPAC",
    "url": "https://www.imapac.com/events",
-   "kind": "conferences"
+   "kind": "conferences",
+   "checked": "2026-11-16",
+   "note": "5 added via sector sweep"
   }
  ],
  "watch": [
@@ -1581,9 +1497,9 @@
   },
   {
    "series": "BIO Middle East",
-   "lastYear": 2026,
-   "lastStart": "2026-12-14",
-   "lastId": "bio-middle-east-2026",
+   "lastYear": 2027,
+   "lastStart": "2027-04-26",
+   "lastId": "bio-middle-east-2027",
    "url": "https://informaconnect.com/bio-middle-east/",
    "nextKnown": false
   },
@@ -1903,6 +1819,278 @@
    "lastStart": "2027-06-29",
    "lastId": "world-agritech-south-america-2027",
    "url": "https://worldagritechusa.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "Clinical Trials on Alzheimer's Disease (CTAD)",
+   "lastYear": 2026,
+   "lastStart": "2026-11-16",
+   "lastId": "ctad-2026",
+   "url": "https://www.ctad-alzheimer.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "PEGS Europe",
+   "lastYear": 2026,
+   "lastStart": "2026-11-16",
+   "lastId": "pegs-europe-2026",
+   "url": "https://www.pegsummiteurope.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "VEITHsymposium",
+   "lastYear": 2026,
+   "lastStart": "2026-11-17",
+   "lastId": "veith-2026",
+   "url": "https://veithsymposium.org/",
+   "nextKnown": false
+  },
+  {
+   "series": "Society for Neuro-Oncology Annual Meeting",
+   "lastYear": 2026,
+   "lastStart": "2026-11-12",
+   "lastId": null,
+   "url": "https://www.soc-neuro-onc.org/meetings-education/sno-conferences",
+   "nextKnown": false
+  },
+  {
+   "series": "CAR-TCR Summit Europe",
+   "lastYear": 2027,
+   "lastStart": "2027-02-09",
+   "lastId": "car-tcr-europe-2027",
+   "url": "https://cartcr-europe.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "CAR-TCR Summit (Boston)",
+   "lastYear": 2026,
+   "lastStart": "2026-09-15",
+   "lastId": null,
+   "url": "https://car-tcr-summit.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "World Bispecific Summit US",
+   "lastYear": 2026,
+   "lastStart": null,
+   "lastId": null,
+   "url": "https://bispecific.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "mRNA-Based Therapeutics Summit",
+   "lastYear": 2026,
+   "lastStart": null,
+   "lastId": null,
+   "url": "https://mrnabased-therapeutics.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "Microbiome AgBioTech Summit",
+   "lastYear": 2026,
+   "lastStart": "2026-06-08",
+   "lastId": null,
+   "url": "https://microbiome-agbiotech.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "CGT Manufacturing DACH",
+   "lastYear": 2027,
+   "lastStart": "2027-02-17",
+   "lastId": "cgt-manufacturing-dach-2027",
+   "url": "https://www.imapac.com/events/cgt-manufacturing-dach-2027",
+   "nextKnown": false
+  },
+  {
+   "series": "Biologics Manufacturing Ireland",
+   "lastYear": 2027,
+   "lastStart": "2027-02-24",
+   "lastId": "biologics-manufacturing-ireland-2027",
+   "url": "https://www.imapac.com/events/biologics-manufacturing-ireland-2027",
+   "nextKnown": false
+  },
+  {
+   "series": "BIOKET",
+   "lastYear": 2027,
+   "lastStart": "2027-03-09",
+   "lastId": "bioket-2027",
+   "url": "https://bioket.tech/",
+   "nextKnown": false
+  },
+  {
+   "series": "East-West Biopharma Summit",
+   "lastYear": 2027,
+   "lastStart": "2027-03-15",
+   "lastId": "east-west-summit-2027",
+   "url": "https://conferences.biocentury.com/east-west-summit-2027",
+   "nextKnown": false
+  },
+  {
+   "series": "MedTech World Middle East",
+   "lastYear": 2027,
+   "lastStart": "2027-03-23",
+   "lastId": "medtech-world-middle-east-2027",
+   "url": "https://med-tech.world/",
+   "nextKnown": false
+  },
+  {
+   "series": "MedTech World North America",
+   "lastYear": 2027,
+   "lastStart": "2027-05-05",
+   "lastId": "medtech-world-north-america-2027",
+   "url": "https://med-tech.world/",
+   "nextKnown": false
+  },
+  {
+   "series": "MedTech World Europe",
+   "lastYear": 2026,
+   "lastStart": "2026-11-11",
+   "lastId": null,
+   "url": "https://med-tech.world/",
+   "nextKnown": false
+  },
+  {
+   "series": "BioSupply Chain Asia",
+   "lastYear": 2027,
+   "lastStart": "2027-03-23",
+   "lastId": "biosupply-chain-asia-2027",
+   "url": "https://www.imapac.com/events/biosupply-chain-asia-2027",
+   "nextKnown": false
+  },
+  {
+   "series": "American Biomanufacturing Summit",
+   "lastYear": 2027,
+   "lastStart": "2027-04-06",
+   "lastId": "american-biomanufacturing-summit-2027",
+   "url": "https://biomanamerica.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "Biologics World Taiwan",
+   "lastYear": 2027,
+   "lastStart": "2027-05-26",
+   "lastId": "biologics-world-taiwan-2027",
+   "url": "https://www.imapac.com/events/biologics-world-taiwan-2027",
+   "nextKnown": false
+  },
+  {
+   "series": "Fierce Pharma Week Europe",
+   "lastYear": 2027,
+   "lastStart": "2027-06-28",
+   "lastId": "fierce-pharma-week-europe-2027",
+   "url": "https://www.mch-group.com/en/media/news/2026/questex-fierce-pharma-and-mch-group-launch-fierce-pharma-week-europe-in-basel",
+   "nextKnown": false
+  },
+  {
+   "series": "LSX Congress USA",
+   "lastYear": 2027,
+   "lastStart": "2027-09-21",
+   "lastId": "lsx-congress-usa-2027",
+   "url": "https://informaconnect.com/lsx-congress-usa/",
+   "nextKnown": false
+  },
+  {
+   "series": "Precision Medicine West",
+   "lastYear": 2027,
+   "lastStart": "2027-10-07",
+   "lastId": "precision-medicine-west-2027",
+   "url": "https://oxfordglobal.com/precision-medicine/events/pmwest",
+   "nextKnown": false
+  },
+  {
+   "series": "Drug Discovery US (Oxford Global)",
+   "lastYear": 2027,
+   "lastStart": "2027-10-13",
+   "lastId": "drug-discovery-us-2027",
+   "url": "https://oxfordglobal.com/discovery-development/events/discovery-development-us/drug-discovery-us",
+   "nextKnown": false
+  },
+  {
+   "series": "Precision Medicine Europe",
+   "lastYear": 2027,
+   "lastStart": "2027-11-30",
+   "lastId": "precision-medicine-europe-2027",
+   "url": "https://oxfordglobal.com/precision-medicine/events/pmeurope",
+   "nextKnown": false
+  },
+  {
+   "series": "ARABLAB LIVE (Dubai)",
+   "lastYear": 2027,
+   "lastStart": "2027-10-11",
+   "lastId": "arablab-live-2027",
+   "url": "https://www.terrapinn.com/exhibition/arablab-live",
+   "nextKnown": true
+  },
+  {
+   "series": "BioEquity Europe",
+   "lastYear": 2027,
+   "lastStart": "2027-05-10",
+   "lastId": "bioequity-europe-2027",
+   "url": "https://informaconnect.com/bioequity-europe-2027/",
+   "nextKnown": false
+  },
+  {
+   "series": "Bioprocessing Summit Europe (CHI, Barcelona)",
+   "lastYear": 2026,
+   "lastStart": "2026-03-10",
+   "lastId": null,
+   "url": "https://www.bioprocessingeurope.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "Precision Med TRI-CON",
+   "lastYear": 2026,
+   "lastStart": "2026-05-04",
+   "lastId": null,
+   "url": "https://www.triconference.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "CACLP (China IVD Expo)",
+   "lastYear": 2026,
+   "lastStart": null,
+   "lastId": null,
+   "url": "https://en.caclp.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "BioJapan",
+   "lastYear": 2026,
+   "lastStart": null,
+   "lastId": null,
+   "url": "https://jcd-expo.jp/en/",
+   "nextKnown": false
+  },
+  {
+   "series": "Korea Life Science Week",
+   "lastYear": 2026,
+   "lastStart": null,
+   "lastId": null,
+   "url": "https://www.lifescienceweek.com/eng/",
+   "nextKnown": false
+  },
+  {
+   "series": "Festival of Biologics Basel",
+   "lastYear": 2026,
+   "lastStart": null,
+   "lastId": null,
+   "url": "https://www.terrapinn.com/conference/festival-of-biologics/",
+   "nextKnown": false
+  },
+  {
+   "series": "DIA Middle East & Africa Conference",
+   "lastYear": 2026,
+   "lastStart": null,
+   "lastId": null,
+   "url": "https://connect.diaglobal.org/90126-mea-conference",
+   "nextKnown": false
+  },
+  {
+   "series": "Future of Cell and Gene Therapy Symposium",
+   "lastYear": 2026,
+   "lastStart": null,
+   "lastId": null,
+   "url": "https://www.prnewswire.com/news-releases/genprex-to-highlight-dual-delivery-strategy-for-diabetes-gene-therapy-at-future-of-cell-and-gene-therapy-symposium-302935830.html",
    "nextKnown": false
   }
  ],
