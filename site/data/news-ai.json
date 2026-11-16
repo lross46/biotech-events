@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T06:41:48Z",
+ "updated": "2026-11-16T13:41:59Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
   "date": "2026-11-16T06:41:48Z",
@@ -53,13 +53,14 @@
    },
    {
     "sec": "money",
-    "text": "Johnson & Johnson is in advanced talks to buy Ollin Biosciences for up to $3.4 billion ($2.2 billion upfront) to gain a late-stage-bound drug for wet AMD and diabetic macular edema, the FT reports. Windward Bio raised $175 million in its Nasdaq IPO plus $50 million from Sanofi and rose about 68% on debut, taking 2026 biotech IPOs to 35, and Charles River agreed to pay $470 million for Frontage's bioanalysis labs. In agri-food and climate, Applied Carbon raised $72 million for biochar, Just Climate closed a $540 million agriculture decarbonisation fund and Biomatter raised $18 million for AI-designed enzymes. India's Symbiotec signed a 10-year precision-fermentation supply deal, and Blackstone's $1.5 billion Pfizer obesity deal kept attention on investors funding late-stage R&D directly.",
+    "text": "Johnson & Johnson is in advanced talks to buy Ollin Biosciences for up to $3.4 billion ($2.2 billion upfront) for a wet AMD and diabetic macular edema drug, the FT reports. In Europe, Sofinnova Partners closed its largest fund, a €725 million crossover vehicle for about 15 late-stage drug and medtech companies, and Flagship Pioneering committed £100 million to a London lab building AI-native companies, its first outside the US. Windward Bio raised $175 million in its Nasdaq IPO plus $50 million from Sanofi, the 35th biotech IPO of 2026, and Charles River agreed to pay $470 million for Frontage's bioanalysis labs. In agri-food and climate, Applied Carbon raised $72 million for biochar, Just Climate closed a $540 million agriculture decarbonisation fund and Biomatter raised $18 million for AI-designed enzymes. India's Symbiotec signed a 10-year precision-fermentation supply deal.",
     "ids": [
      "ce569e8f9b5e",
+     "a513032ac634",
+     "44d9a66b8250",
      "54c7a153242d",
      "e4e6ec5a6c0c",
-     "9c4f7e3e2e0a",
-     "83fdd3696db3"
+     "9c4f7e3e2e0a"
     ]
    },
    {
@@ -24309,6 +24310,1109 @@
     "agrifood": {
      "score": 3,
      "why": "Suggests dietary amino acid levels can shape immune surveillance."
+    }
+   }
+  },
+  "312a2f01d1ad": {
+   "dup": "1fc1c71701ec"
+  },
+  "d335b86b1ebe": {
+   "dup": "109afdb950e7"
+  },
+  "234192c2f911": {
+   "drop": true
+  },
+  "1938d6820484": {
+   "drop": true
+  },
+  "22c11fd47708": {
+   "drop": true
+  },
+  "95c593beca7a": {
+   "dup": "843b6b5261ca"
+  },
+  "7557e64348a0": {
+   "drop": true
+  },
+  "50c1da5da67f": {
+   "drop": true
+  },
+  "7e747818f844": {
+   "dup": "54c7a153242d"
+  },
+  "5acc421dca2c": {
+   "drop": true
+  },
+  "3d7ec19b909e": {
+   "dup": "3d196ea7d2e9"
+  },
+  "67e16e374893": {
+   "dup": "b3f398fb4fc0"
+  },
+  "af332d8be45b": {
+   "dup": "00493552aff7"
+  },
+  "c325b9dd1fe2": {
+   "dup": "cd8640b32f54"
+  },
+  "c46ea745ef1f": {
+   "drop": true
+  },
+  "d31ae769f379": {
+   "dup": "562d918c85d8"
+  },
+  "8cba99fe8a8c": {
+   "dup": "937741bb980e"
+  },
+  "d8d0f779e124": {
+   "dup": "937741bb980e"
+  },
+  "433e0e42bf3b": {
+   "drop": true
+  },
+  "48919b000ac0": {
+   "drop": true
+  },
+  "6f0955bf3fef": {
+   "drop": true
+  },
+  "4109d8f99d0a": {
+   "drop": true
+  },
+  "86a8de83922b": {
+   "drop": true
+  },
+  "e0945a784a35": {
+   "drop": true
+  },
+  "f8380d3d0838": {
+   "drop": true
+  },
+  "43a4026ca37f": {
+   "drop": true
+  },
+  "0f6744fe2dc1": {
+   "drop": true
+  },
+  "5b16e28bdab9": {
+   "drop": true
+  },
+  "952464803bb5": {
+   "drop": true
+  },
+  "55b6bfb517d4": {
+   "drop": true
+  },
+  "ce116059d241": {
+   "drop": true
+  },
+  "f271cfa09240": {
+   "drop": true
+  },
+  "8d352fc5cec0": {
+   "drop": true
+  },
+  "fba018b0cdb6": {
+   "drop": true
+  },
+  "974797d409f7": {
+   "drop": true
+  },
+  "27bd65aa84e6": {
+   "drop": true
+  },
+  "6fff7d6f0fe9": {
+   "drop": true
+  },
+  "855f248e3fc2": {
+   "drop": true
+  },
+  "9aa6dfc26093": {
+   "drop": true
+  },
+  "97c4c87b9ecf": {
+   "drop": true
+  },
+  "24f15f81e679": {
+   "drop": true
+  },
+  "c2e1aaa9ab6a": {
+   "dup": "54c7a153242d"
+  },
+  "716e9025adf0": {
+   "drop": true
+  },
+  "da92fd8808dd": {
+   "drop": true
+  },
+  "ae00cc4e4366": {
+   "drop": true
+  },
+  "ae64fe44d53d": {
+   "drop": true
+  },
+  "47ac8333ccbb": {
+   "drop": true
+  },
+  "2b49ee2e9551": {
+   "drop": true
+  },
+  "0dc71714fe6f": {
+   "drop": true
+  },
+  "d477f8d510da": {
+   "drop": true
+  },
+  "2b581c358cf5": {
+   "drop": true
+  },
+  "455fbc447aa8": {
+   "drop": true
+  },
+  "b1231c4342f9": {
+   "drop": true
+  },
+  "f59092bcce63": {
+   "drop": true
+  },
+  "d08121cb9aae": {
+   "drop": true
+  },
+  "29651cabfc75": {
+   "drop": true
+  },
+  "77a1ada7be59": {
+   "drop": true
+  },
+  "d3acb5219cf6": {
+   "drop": true
+  },
+  "3e31367629f6": {
+   "drop": true
+  },
+  "dd64035a6475": {
+   "drop": true
+  },
+  "943562df7af5": {
+   "dup": "85945d302fc1"
+  },
+  "3b7d0242a810": {
+   "drop": true
+  },
+  "bbe004f2d913": {
+   "drop": true
+  },
+  "8d7ea4b2e715": {
+   "drop": true
+  },
+  "abf94fafc866": {
+   "drop": true
+  },
+  "e7ae12c18510": {
+   "drop": true
+  },
+  "d20007eef150": {
+   "drop": true
+  },
+  "d57e6a576b07": {
+   "drop": true
+  },
+  "f759814e5e17": {
+   "drop": true
+  },
+  "2f58203cf8eb": {
+   "drop": true
+  },
+  "31b1feca4d62": {
+   "drop": true
+  },
+  "1d75dfd2ba00": {
+   "drop": true
+  },
+  "95607cb3cb3d": {
+   "drop": true
+  },
+  "f2ab31a92655": {
+   "drop": true
+  },
+  "f05a6aebf962": {
+   "drop": true
+  },
+  "71c5a02835e1": {
+   "drop": true
+  },
+  "13b9ccaeb373": {
+   "drop": true
+  },
+  "775b2e75cc64": {
+   "dup": "54c7a153242d"
+  },
+  "98973894282c": {
+   "drop": true
+  },
+  "2d356bb6adee": {
+   "drop": true
+  },
+  "cc4ae6e2bc66": {
+   "dup": "36bf377417cd"
+  },
+  "cd6c0db22f25": {
+   "dup": "c22d547ecdb7"
+  },
+  "4c8c3576893a": {
+   "dup": "0c7ddf6efb5f"
+  },
+  "b3dabfef3e1f": {
+   "drop": true
+  },
+  "4549a7ceb7e9": {
+   "drop": true
+  },
+  "d92ade9f9821": {
+   "dup": "83fdd3696db3"
+  },
+  "bf742f5046bf": {
+   "drop": true
+  },
+  "4d7f81f5df14": {
+   "drop": true
+  },
+  "c928342f4d1a": {
+   "drop": true
+  },
+  "f59f5bb408bc": {
+   "drop": true
+  },
+  "6edc1b8c6e8e": {
+   "drop": true
+  },
+  "5691fc63beca": {
+   "drop": true
+  },
+  "9740fdd6f797": {
+   "drop": true
+  },
+  "807dad8c653e": {
+   "drop": true
+  },
+  "668ba6194c70": {
+   "drop": true
+  },
+  "46916dde4eb1": {
+   "drop": true
+  },
+  "d854fc6d7824": {
+   "drop": true
+  },
+  "691fa932b59a": {
+   "drop": true
+  },
+  "d3f76420bc79": {
+   "drop": true
+  },
+  "495d4a0e4f60": {
+   "drop": true
+  },
+  "c81271f70d0e": {
+   "dup": "c5873e8e2938"
+  },
+  "8601f69c2dc1": {
+   "dup": "00493552aff7"
+  },
+  "61e1e39b1d4d": {
+   "dup": "e2cafcde1028"
+  },
+  "5808043873d9": {
+   "dup": "e2cafcde1028"
+  },
+  "852412c96dc9": {
+   "dup": "b6e6836113cf"
+  },
+  "9bb7039a9380": {
+   "drop": true
+  },
+  "063ab147fafa": {
+   "drop": true
+  },
+  "6f227a931927": {
+   "drop": true
+  },
+  "94c1b606678e": {
+   "drop": true
+  },
+  "7beab15dbe93": {
+   "drop": true
+  },
+  "d32ffd5fde3f": {
+   "drop": true
+  },
+  "12558db2eceb": {
+   "drop": true
+  },
+  "be8577cc31f1": {
+   "drop": true
+  },
+  "fac4ac003e06": {
+   "drop": true
+  },
+  "0bb7e1ea4378": {
+   "drop": true
+  },
+  "891aa95ad5c3": {
+   "drop": true
+  },
+  "323b14b6367b": {
+   "drop": true
+  },
+  "c0f9704d35ce": {
+   "drop": true
+  },
+  "e6232c17dc82": {
+   "dup": "e8dbbd1273e1"
+  },
+  "a06577c073fa": {
+   "drop": true
+  },
+  "aff3854ff21f": {
+   "drop": true
+  },
+  "8f3afd9fc180": {
+   "drop": true
+  },
+  "2e3f80054252": {
+   "dup": "e2cafcde1028"
+  },
+  "265653d7b9bf": {
+   "dup": "e2cafcde1028"
+  },
+  "ca2ed490825b": {
+   "dup": "e2cafcde1028"
+  },
+  "f27f4d48861b": {
+   "drop": true
+  },
+  "04dece2018da": {
+   "dup": "e2cafcde1028"
+  },
+  "ae74d69d83e6": {
+   "dup": "e2cafcde1028"
+  },
+  "892adc2c0cab": {
+   "dup": "2edfbc93beea"
+  },
+  "a1b840745438": {
+   "dup": "e2cafcde1028"
+  },
+  "481fe61974be": {
+   "dup": "e2cafcde1028"
+  },
+  "a0c401d92443": {
+   "dup": "e2cafcde1028"
+  },
+  "c63f3f2ed16c": {
+   "dup": "e2cafcde1028"
+  },
+  "3d501a7292cb": {
+   "dup": "e2cafcde1028"
+  },
+  "aeba9e181d3f": {
+   "dup": "e2cafcde1028"
+  },
+  "2a6023271c12": {
+   "dup": "e2cafcde1028"
+  },
+  "bb8a9917d1ce": {
+   "dup": "e2cafcde1028"
+  },
+  "79afcfd5b9b3": {
+   "dup": "e2cafcde1028"
+  },
+  "29d30ce24704": {
+   "dup": "e2cafcde1028"
+  },
+  "3760e3f0dad9": {
+   "dup": "e2cafcde1028"
+  },
+  "281b3c26a669": {
+   "dup": "e2cafcde1028"
+  },
+  "d262ff8ce531": {
+   "dup": "e2cafcde1028"
+  },
+  "655ef3bea388": {
+   "dup": "e2cafcde1028"
+  },
+  "3b84d42954cc": {
+   "dup": "e2cafcde1028"
+  },
+  "e1cffb18c651": {
+   "dup": "5eff4a69f044"
+  },
+  "c2e8245dae06": {
+   "drop": true
+  },
+  "ba32f14ce575": {
+   "drop": true
+  },
+  "50491bbcba29": {
+   "drop": true
+  },
+  "eabd17d36f3a": {
+   "dup": "4311c148a692"
+  },
+  "c8f4a6d56dcf": {
+   "drop": true
+  },
+  "6e25d0b137f9": {
+   "drop": true
+  },
+  "475fb32eb3a1": {
+   "dup": "9671dafe8bfa"
+  },
+  "cb8e1813ce87": {
+   "drop": true
+  },
+  "d02b0cb1ccc6": {
+   "drop": true
+  },
+  "159ecb1ff190": {
+   "drop": true
+  },
+  "1e470a047f45": {
+   "drop": true
+  },
+  "20742d34c882": {
+   "drop": true
+  },
+  "a144b79be7fb": {
+   "drop": true
+  },
+  "0ee6a3e65fce": {
+   "dup": "19faad1b893f"
+  },
+  "2c360f189cc1": {
+   "drop": true
+  },
+  "cfbb313ea461": {
+   "drop": true
+  },
+  "2fffa3cee7a3": {
+   "drop": true
+  },
+  "810eb696bd16": {
+   "drop": true
+  },
+  "bf3d564f779c": {
+   "drop": true
+  },
+  "218a62a465dd": {
+   "drop": true
+  },
+  "b91d9f8a828e": {
+   "dup": "5dd773bf975f"
+  },
+  "91df05e9ec11": {
+   "dup": "e7dd0306130a"
+  },
+  "497d17aafdc3": {
+   "drop": true
+  },
+  "b9d36816ea30": {
+   "drop": true
+  },
+  "e9a8d30bc638": {
+   "dup": "c30ec60c5df6"
+  },
+  "b6298a542777": {
+   "drop": true
+  },
+  "9d30cf92582e": {
+   "dup": "3fdb4fcc5212"
+  },
+  "b8b994fde194": {
+   "drop": true
+  },
+  "3037cc9b3d33": {
+   "dup": "77be7737d3e0"
+  },
+  "acfdbc6071d2": {
+   "drop": true
+  },
+  "4a88ca73f8fb": {
+   "drop": true
+  },
+  "dda9e2b12cf0": {
+   "drop": true
+  },
+  "3ee8389392f8": {
+   "drop": true
+  },
+  "16dca8e14763": {
+   "drop": true
+  },
+  "f434ead58b0c": {
+   "drop": true
+  },
+  "722514534472": {
+   "drop": true
+  },
+  "1fc62ab1b005": {
+   "drop": true
+  },
+  "1c259bcff970": {
+   "drop": true
+  },
+  "88081c32dac2": {
+   "drop": true
+  },
+  "8fcf391a3c7a": {
+   "drop": true
+  },
+  "e13a8a540909": {
+   "drop": true
+  },
+  "cd10dbf6af32": {
+   "drop": true
+  },
+  "3ca394c52b7e": {
+   "drop": true
+  },
+  "b7ac293989fe": {
+   "drop": true
+  },
+  "263a3f3caf04": {
+   "drop": true
+  },
+  "e6f6c10d2f89": {
+   "drop": true
+  },
+  "b12fb7e81341": {
+   "drop": true
+  },
+  "64935e64dbd5": {
+   "drop": true
+  },
+  "b6ede287b2d0": {
+   "dup": "d505f03250cd"
+  },
+  "45574f4d7c55": {
+   "drop": true
+  },
+  "4e7f3ed79ffa": {
+   "drop": true
+  },
+  "4bc586235e9e": {
+   "drop": true
+  },
+  "a8bb24acef05": {
+   "dup": "00e98a1f3070"
+  },
+  "b53266c9f5cd": {
+   "drop": true
+  },
+  "4fd2cd0b533c": {
+   "drop": true
+  },
+  "fa1c048137e1": {
+   "drop": true
+  },
+  "0ee2253d7d7f": {
+   "drop": true
+  },
+  "066e46572ead": {
+   "drop": true
+  },
+  "f653ed6905d9": {
+   "drop": true
+  },
+  "61164f23e3fb": {
+   "drop": true
+  },
+  "e603ac2b0aa1": {
+   "drop": true
+  },
+  "1d5f5f3fb2ec": {
+   "drop": true
+  },
+  "811ee9cb8ec7": {
+   "drop": true
+  },
+  "455e9d24c70a": {
+   "drop": true
+  },
+  "c06249d0f1f9": {
+   "drop": true
+  },
+  "0a7727272bd4": {
+   "drop": true
+  },
+  "31f90572bb62": {
+   "drop": true
+  },
+  "90b7738a4dd2": {
+   "drop": true
+  },
+  "d2ef87f27245": {
+   "drop": true
+  },
+  "62ece1fb1145": {
+   "dup": "74efa911c983"
+  },
+  "6d1395921e8d": {
+   "drop": true
+  },
+  "5246fefac267": {
+   "drop": true
+  },
+  "778efc66af45": {
+   "dup": "aec57b25a39d"
+  },
+  "b82aec4c86d0": {
+   "drop": true
+  },
+  "de378bd9b2f1": {
+   "drop": true
+  },
+  "c56bb8489036": {
+   "drop": true
+  },
+  "9c41a513889c": {
+   "drop": true
+  },
+  "2cd94d21b408": {
+   "drop": true
+  },
+  "9797bb165628": {
+   "drop": true
+  },
+  "38280df1c81b": {
+   "drop": true
+  },
+  "4190acca4168": {
+   "drop": true
+  },
+  "8196d2066151": {
+   "drop": true
+  },
+  "5800990f05f9": {
+   "drop": true
+  },
+  "f08128be7c5c": {
+   "drop": true
+  },
+  "9c3b3b90d515": {
+   "drop": true
+  },
+  "fefe3c61501e": {
+   "drop": true
+  },
+  "0bab44666b06": {
+   "drop": true
+  },
+  "4a9bb134f643": {
+   "drop": true
+  },
+  "aea6ac98fb56": {
+   "drop": true
+  },
+  "edfcf2d46be0": {
+   "drop": true
+  },
+  "e85489238062": {
+   "drop": true
+  },
+  "f9064ac08a11": {
+   "drop": true
+  },
+  "6562f44c43d2": {
+   "drop": true
+  },
+  "c4e455b2cbd6": {
+   "drop": true
+  },
+  "1ef31cc72eed": {
+   "dup": "68d06e5a1880"
+  },
+  "a4bb5d0dea28": {
+   "drop": true
+  },
+  "fe1c642e4b59": {
+   "drop": true
+  },
+  "ba8c3f3a4ebb": {
+   "drop": true
+  },
+  "533254bf72a0": {
+   "drop": true
+  },
+  "02866995c420": {
+   "drop": true
+  },
+  "84989ed6e3be": {
+   "dup": "968fa55817bc"
+  },
+  "f3b60d7b1eb8": {
+   "drop": true
+  },
+  "281799db0744": {
+   "drop": true
+  },
+  "9476cd1bccd9": {
+   "drop": true
+  },
+  "380bdc148580": {
+   "drop": true
+  },
+  "d96c3d72332f": {
+   "dup": "68d06e5a1880"
+  },
+  "bbbbe4de29cb": {
+   "drop": true
+  },
+  "119f813263ad": {
+   "drop": true
+  },
+  "fc41d5897760": {
+   "drop": true
+  },
+  "4becd5c750ed": {
+   "drop": true
+  },
+  "f800d4ebc0d0": {
+   "drop": true
+  },
+  "d191bc7d4d30": {
+   "drop": true
+  },
+  "6f96c4021936": {
+   "drop": true
+  },
+  "c569ef36d11b": {
+   "drop": true
+  },
+  "4aba252f51a2": {
+   "drop": true
+  },
+  "35d40721973d": {
+   "drop": true
+  },
+  "a7bdd456b78d": {
+   "drop": true
+  },
+  "9d77a96a63fe": {
+   "drop": true
+  },
+  "b04bce038039": {
+   "drop": true
+  },
+  "8fe599d3b4bd": {
+   "drop": true
+  },
+  "ec173136c468": {
+   "dup": "4af1b72c8203"
+  },
+  "70d5f9be6d4e": {
+   "dup": "a513032ac634"
+  },
+  "e2e62add457b": {
+   "dup": "a513032ac634"
+  },
+  "e1f5b1232af5": {
+   "dup": "b75922534908"
+  },
+  "a513032ac634": {
+   "cat": "funding",
+   "imp": 6,
+   "summary": "Sofinnova Partners closed Sofinnova Crossover II at €725 million (about $815 million), its largest fund, to back about 15 drug and medical device companies close to bringing their own products to market, mostly in Europe. Early bets include CellCentric and Hemab Therapeutics. The firm, with about €4 billion under management, backed Abivax, argenx and Verona Pharma; partners say Europe has a scale-up financing problem rather than an innovation one. Biotech VCs raised over $13 billion in 2026 through October, per William Blair.",
+   "rel": {
+    "investment": {
+     "score": 9,
+     "why": "One of the largest European life-science fundraises, aimed at the late-stage financing gap."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Will fund late-stage European drug developers through to commercialisation."
+    },
+    "meddevices": {
+     "score": 4,
+     "why": "Medtech companies near commercialisation are also in scope."
+    }
+   }
+  },
+  "44d9a66b8250": {
+   "cat": "funding",
+   "imp": 6,
+   "summary": "Flagship Pioneering, the Moderna creator, is committing an initial £100 million to a Flagship Origination Lab in London, its first company-creation unit outside the US, and says it hopes partners will add another £500 million. The lab will conceive and build AI-native platform companies for human and planetary health and hire about 50 scientist-entrepreneurs and operators. It follows Flagship's 2023 UK government MOU and London office; the UK science minister welcomed the move.",
+   "rel": {
+    "investment": {
+     "score": 8,
+     "why": "A top US venture creator committing £100M, aiming for £600M, to company creation in the UK."
+    },
+    "ai": {
+     "score": 7,
+     "why": "The lab will build only AI-native platform companies."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Flagship's new companies typically feed drug discovery pipelines."
+    },
+    "industrial": {
+     "score": 3,
+     "why": "Its remit covers planetary health as well as medicine."
+    }
+   }
+  },
+  "eb5facdf32d8": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "Tandem Diabetes Care won FDA clearance for a tubeless version of its Tandem Mobi automated insulin delivery system, cleared for up to seven days of wear. The clearance puts Tandem into the tubeless patch-pump segment of automated insulin delivery.",
+   "rel": {
+    "meddevices": {
+     "score": 8,
+     "why": "New FDA-cleared tubeless automated insulin delivery device from a major diabetes-tech maker."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Adds a longer-wear tubeless option for people with diabetes."
+    }
+   }
+  },
+  "b75922534908": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "The UK MHRA launched a 2026-2030 Women's Health Programme to close evidence gaps on how the benefits and risks of medicines and devices differ for women and to support women's health innovation. Its own review of 4,616 UK trial applications from 2019-2023 found pregnant women in just 1.1% of trials and breastfeeding women in 0.6%. It is the first part of a wider MHRA health-inequalities push and its contribution to England's renewed Women's Health Strategy; a webinar follows on 9 December.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Regulator signals more scrutiny of sex-specific evidence and inclusion of pregnant women in trials."
+    },
+    "meddevices": {
+     "score": 5,
+     "why": "Covers device evidence and the UK's roughly £300M FemTech sector."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Aims to improve how treatments are evaluated for women."
+    }
+   }
+  },
+  "1c6e1bb6a3f6": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "Akeso says China's NMPA approved its IL-17A antibody gumokimab for active ankylosing spondylitis, the drug's second indication after plaque psoriasis in June 2026. Akeso says the phase 3 AK111-303 trial met all pre-specified endpoints including ASAS20 and ASAS40, but gave no figures. Akeso now has eight marketed innovative drugs.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Adds a domestic IL-17A option in China's autoimmune market."
+    }
+   }
+  },
+  "21cc1ce6eb5d": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "Korean hospitals and pharmacies could enter 2027 with about 900 billion won ($675 million) in unpaid claims because enrolment in the government-funded coverage programme grew faster than budgeted: beneficiaries reached 1.712 million by October, up 117,000 against about 50,000 planned. The 2027 budget proposal of 12.3 trillion won (+25%) covers 582.9 billion won of this year's gap; the rest awaits the National Assembly, and the ministry promises prompt payment in January.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "Funding gap delays payments to Korean hospitals and pharmacies."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Pharmacies face delayed reimbursement."
+    }
+   }
+  },
+  "5f6ab3e9c17d": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "The Korean Headache Society said unexplained insurance denials of MRI claims for potentially life-threatening headaches, such as thunderclap headache, and strict coverage criteria for newer migraine drugs are limiting patient access in Korea.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Specialist society flags reimbursement barriers to headache diagnosis and care."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Tight criteria restrict use of newer migraine drugs in Korea."
+    }
+   }
+  },
+  "5a2f414c19c8": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Seoul National University Hospital researchers linked the GLP1R R131Q variant, carried by about four in ten East Asians, to stronger blood-sugar responses to GLP-1 drugs. Among 177 people with type 2 diabetes, HbA1c fell 0.57, 1.05 and 1.30 points with zero, one or two copies, and 43% of two-copy carriers reached HbA1c of 7% or lower versus 8.4% of non-carriers. Lab work showed the variant boosts receptor signalling, supporting genotype-guided GLP-1 prescribing.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Pharmacogenomic marker for response to the biggest drug class."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Points to a genetic test to guide GLP-1 therapy."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Could help target GLP-1 drugs in East Asian patients."
+    }
+   }
+  },
+  "828fce248fc3": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Ascletis presented preclinical obesity data at ObesityWeek. It says its oral GLP-1/GIP combination ASC30_48 cut weight 10.5% in 8 days in monkeys versus 6.9% for ASC30 alone (5 per group), and its injectable triple agonist ASC37 had a monkey half-life about 6.4 times retatrutide's, aiming at monthly to quarterly dosing. All data are small animal studies; ASC30 is in two global phase 3 obesity trials.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Early-stage oral and long-acting incretin candidates from a Chinese developer."
+    }
+   }
+  },
+  "3c80a8d82f11": {
+   "cat": "deals",
+   "imp": 3,
+   "summary": "SAS and Posit (formerly RStudio) partnered to combine SAS and open-source R and Python tools for governed AI and analytics in clinical development and regulatory submissions.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "Governed AI and open-source analytics for regulated clinical work."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Targets the statistical programming used in drug submissions."
+    }
+   }
+  },
+  "77a2774954c9": {
+   "cat": "funding",
+   "imp": 3,
+   "summary": "Evotec says it received a three-year, $2.9 million Gates Foundation grant extending a 2023 project that uses its human stem-cell platform to predict fetal development risks of new drug candidates for global health researchers.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "Funds a human stem-cell assay for developmental toxicity screening."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Earlier safety signals for global health drug candidates."
+    }
+   }
+  },
+  "d754793c780f": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Lakefront Biotherapeutics started a new share buyback of up to €50 million after completing its first €50 million programme announced in June 2026.",
+   "rel": {
+    "investment": {
+     "score": 4,
+     "why": "Capital return by a dual-listed biotech."
+    }
+   }
+  },
+  "fe4cc7544085": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "In an opinion piece, two Indian proponents of non-animal methods argue that India's draft 2026 laboratory-animal rules would weaken oversight: the draft does not mention new approach methodologies, softens the duty to use fewest animals and lowest species, and lets institutional committees clear mild and moderate experiments on larger species. They warn this could slow India's advanced-therapy ambitions and call for a NAMs-first clause; the rules are still a draft.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Draft rules shape preclinical testing requirements in India."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Affects demand for non-animal testing methods in India."
+    },
+    "cellgene": {
+     "score": 3,
+     "why": "Authors tie the rules to India's advanced-therapy development."
+    }
+   }
+  },
+  "252edb5ac907": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "Researchers present RFD4-Proteina, a deep-learning model for biomolecular design that uses latent reasoning to explore chemically and geometrically compatible arrangements of interacting atoms and molecules, aiming to tackle harder design problems than current models. Not yet peer-reviewed.",
+   "rel": {
+    "ai": {
+     "score": 8,
+     "why": "New generative model in the RFdiffusion/Proteina line for molecular design."
+    },
+    "tools": {
+     "score": 6,
+     "why": "Protein and molecule design platform."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Applicable to designing binders and drug candidates."
+    }
+   }
+  },
+  "533ff1652ea3": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Researchers built DNA origami force clamps that apply up to about 40 pN and used them with simple gel electrophoresis to measure restriction-enzyme activity under force, a scalable alternative to specialised force spectroscopy. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "Cheap, scalable force spectroscopy method."
+    }
+   }
+  },
+  "9d3c31460f29": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Researchers describe a highly multiplexed fluorescence imaging method that uses rapid plasmonic heating to exchange DNA probe signals without fluidics, overcoming the usual 3-5 target limit of spectral channels for spatial profiling of cells and tissues. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "Simpler multiplexed spatial imaging for cell and tissue profiling."
+    }
+   }
+  },
+  "893351c33f54": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Using in vitro and ex vivo infection models, researchers implicate NAD-dependent ADP-ribosylation in influenza A virus infection, a possible host-directed antiviral target for a virus causing an estimated 650,000 deaths a year. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Possible host target for flu antivirals."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Basic biology of influenza infection."
+    }
+   }
+  },
+  "3146172ada38": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A study tested combining the plant-growth bacterium Azospirillum brasilense with cytidine, a seedling-exudate chemoattractant, or pea seedling exudate to improve pea drought resilience, reporting better drought tolerance with the cytidine combination. Not yet peer-reviewed.",
+   "rel": {
+    "agrifood": {
+     "score": 6,
+     "why": "Microbial biostimulant approach to drought-resilient legumes."
+    }
+   }
+  },
+  "c30102a77b82": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Researchers identify SroA as a link between SigS-dependent stress signalling and metabolic remodelling in Staphylococcus aureus, helping explain how the pathogen adapts to nutrient, oxidative and oxygen stress during infection. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Basic pathogen biology relevant to antibacterial targets."
+    }
+   }
+  },
+  "f772439508f5": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Researchers report that losing riboflavin biosynthesis in Mycobacterium tuberculosis leads to build-up of select aromatic amino acids and loss of infectivity, supporting the pathway as a TB drug target even though the bacterium can take up riboflavin in vitro. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Validates riboflavin synthesis as a potential TB drug target."
     }
    }
   }
