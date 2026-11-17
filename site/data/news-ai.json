@@ -1,14 +1,15 @@
 {
- "updated": "2026-11-17T06:49:01Z",
+ "updated": "2026-11-17T13:40:53Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-17T07:10:00Z",
+  "date": "2026-11-17T13:41:06Z",
   "points": [
    {
     "sec": "results",
-    "text": "CG Oncology dominated the day: its oncolytic immunotherapy cretostimogene cut recurrence risk by 68% (hazard ratio 0.32) in the 367-patient phase 3 PIVOT-006 trial in intermediate-risk and high-grade Ta bladder cancer, with no grade 3 or worse treatment-related side effects, and a filing is planned for the second quarter of 2027. Helus Pharma's deuterated psilocin met its phase 3 endpoint in depression, cutting symptom scores by 19.5 points against 11.9 for placebo, but three treatment-related serious adverse events, including a suicide attempt, pushed the shares down about 17%. Eisai's five-year Clarity AD extension at CTAD showed a 2.05-point CDR-SB gap against external controls and 36% lower risk of progressing a disease stage, while AriBio's repurposed PDE5 inhibitor was tepid in Alzheimer's and Aclaris dropped its anti-TSLP antibody after a phase 2 eczema miss. Obesity readouts continued, with Corxel reporting 9.3% to 11.5% weight loss at 36 weeks.",
+    "text": "CG Oncology dominated the day: its oncolytic immunotherapy cretostimogene cut recurrence risk by 68% (hazard ratio 0.32) in the 367-patient phase 3 PIVOT-006 trial in intermediate-risk and high-grade Ta bladder cancer, with no grade 3 or worse treatment-related side effects, and a filing is planned for the second quarter of 2027. Helus Pharma's deuterated psilocin met its phase 3 endpoint in depression, cutting symptom scores by 19.5 points against 11.9 for placebo, but three treatment-related serious adverse events, including a suicide attempt, pushed the shares down about 17%. Later in the day Sellas said its peptide vaccine galinpepimut-S met the primary goal of its phase 3 trial in acute myeloid leukaemia, cutting the risk of death by 41% versus standard care, a rare survival win for a cancer vaccine. Eisai's five-year Clarity AD extension at CTAD showed a 2.05-point CDR-SB gap against external controls and 36% lower risk of progressing a disease stage, while AriBio's repurposed PDE5 inhibitor was tepid in Alzheimer's and Aclaris dropped its anti-TSLP antibody after a phase 2 eczema miss. Obesity readouts continued, with Corxel reporting 9.3% to 11.5% weight loss at 36 weeks.",
     "ids": [
      "622d9c8ee0b1",
+     "0112ef453ad8",
      "4475a56988b4",
      "9a2c5c7a40e4",
      "35a63f6bdece",
@@ -52,14 +53,15 @@
    },
    {
     "sec": "money",
-    "text": "Johnson & Johnson agreed to buy Ollin Biosciences for $2.2 billion upfront plus $1.1 billion in milestones for OLN324, an Innovent-originated VEGF and Ang2 bispecific in four phase 3 eye trials, with Blackstone putting up $750 million for the trial costs to challenge Roche's Vabysmo. Eli Lilly made two more bets: up to $1.5 billion for Calytrix Bio's biparatopic antibody in CALR-mutant myeloproliferative neoplasms, its 15th acquisition of the year, and up to $5.9 billion in milestones with Stipple Bio on tumour-surface targets. Seawolf Therapeutics launched with $100 million and a Sanofi deal worth up to $1.2 billion for redosable non-viral DNA medicines, Biogen paid up to $411 million for TrimTech's protein degraders and Medtronic bought Contego Medical for $380 million. Against that, Leo Pharma shelved its IPO on market volatility, and an IQVIA analysis found about 90% of 2016-2020 US launches will never cover their costs, with break-even sales now $11.9 billion.",
+    "text": "Johnson & Johnson agreed to buy Ollin Biosciences for $2.2 billion upfront plus $1.1 billion in milestones for OLN324, an Innovent-originated VEGF and Ang2 bispecific in four phase 3 eye trials, with Blackstone putting up $750 million for the trial costs to challenge Roche's Vabysmo. Eli Lilly made two more bets: up to $1.5 billion for Calytrix Bio's biparatopic antibody in CALR-mutant myeloproliferative neoplasms, its 15th acquisition of the year, and up to $5.9 billion in milestones with Stipple Bio on tumour-surface targets. Marrow Therapeutics launched with $173 million from OrbiMed, venBio and others for an injectable antibody-siRNA conjugate that aims to rival gene therapy in sickle cell disease, and Seawolf Therapeutics launched with $100 million and a Sanofi deal worth up to $1.2 billion for redosable non-viral DNA medicines, Biogen paid up to $411 million for TrimTech's protein degraders and Medtronic bought Contego Medical for $380 million. Against that, Leo Pharma shelved its IPO on market volatility, and an IQVIA analysis found about 90% of 2016-2020 US launches will never cover their costs, with break-even sales now $11.9 billion.",
     "ids": [
      "ea1ef609a1d0",
      "9eca729af1ba",
      "394eb5b4dbbb",
      "ad750220947e",
      "2026-11-16-iqvia-nine-in-ten-launches-unprofitable",
-     "834e8e8e8693"
+     "834e8e8e8693",
+     "8a68d368fcde"
     ]
    },
    {
@@ -26181,6 +26183,1134 @@
     "agrifood": {
      "score": 3,
      "why": "Biodiversity baselines underpin agricultural and ecosystem policy."
+    }
+   }
+  },
+  "b3dabfef3e1f": {
+   "drop": true
+  },
+  "4549a7ceb7e9": {
+   "drop": true
+  },
+  "bf742f5046bf": {
+   "drop": true
+  },
+  "9bb7039a9380": {
+   "drop": true
+  },
+  "063ab147fafa": {
+   "drop": true
+  },
+  "d32ffd5fde3f": {
+   "drop": true
+  },
+  "323b14b6367b": {
+   "drop": true
+  },
+  "98973894282c": {
+   "drop": true
+  },
+  "891aa95ad5c3": {
+   "drop": true
+  },
+  "0bb7e1ea4378": {
+   "drop": true
+  },
+  "fac4ac003e06": {
+   "drop": true
+  },
+  "be8577cc31f1": {
+   "drop": true
+  },
+  "12558db2eceb": {
+   "drop": true
+  },
+  "5b16e28bdab9": {
+   "drop": true
+  },
+  "0f6744fe2dc1": {
+   "drop": true
+  },
+  "43a4026ca37f": {
+   "drop": true
+  },
+  "f8380d3d0838": {
+   "drop": true
+  },
+  "e0945a784a35": {
+   "drop": true
+  },
+  "86a8de83922b": {
+   "drop": true
+  },
+  "4109d8f99d0a": {
+   "drop": true
+  },
+  "6f0955bf3fef": {
+   "drop": true
+  },
+  "48919b000ac0": {
+   "drop": true
+  },
+  "433e0e42bf3b": {
+   "drop": true
+  },
+  "495d4a0e4f60": {
+   "drop": true
+  },
+  "d3f76420bc79": {
+   "drop": true
+  },
+  "691fa932b59a": {
+   "drop": true
+  },
+  "d854fc6d7824": {
+   "drop": true
+  },
+  "46916dde4eb1": {
+   "drop": true
+  },
+  "668ba6194c70": {
+   "drop": true
+  },
+  "807dad8c653e": {
+   "drop": true
+  },
+  "9740fdd6f797": {
+   "drop": true
+  },
+  "5691fc63beca": {
+   "drop": true
+  },
+  "6edc1b8c6e8e": {
+   "drop": true
+  },
+  "f59f5bb408bc": {
+   "drop": true
+  },
+  "c928342f4d1a": {
+   "drop": true
+  },
+  "4d7f81f5df14": {
+   "drop": true
+  },
+  "a46684143cc2": {
+   "dup": "c971c00c6e72"
+  },
+  "91592a4276bd": {
+   "dup": "00493552aff7"
+  },
+  "cc4ae6e2bc66": {
+   "dup": "36bf377417cd"
+  },
+  "852412c96dc9": {
+   "dup": "b6e6836113cf"
+  },
+  "d8d0f779e124": {
+   "dup": "937741bb980e"
+  },
+  "8cba99fe8a8c": {
+   "dup": "937741bb980e"
+  },
+  "5808043873d9": {
+   "dup": "e2cafcde1028"
+  },
+  "6fff7d6f0fe9": {
+   "drop": true
+  },
+  "9aa6dfc26093": {
+   "drop": true
+  },
+  "97c4c87b9ecf": {
+   "drop": true
+  },
+  "24f15f81e679": {
+   "drop": true
+  },
+  "77a1ada7be59": {
+   "drop": true
+  },
+  "abf94fafc866": {
+   "drop": true
+  },
+  "1d75dfd2ba00": {
+   "drop": true
+  },
+  "95607cb3cb3d": {
+   "drop": true
+  },
+  "f2ab31a92655": {
+   "drop": true
+  },
+  "13b9ccaeb373": {
+   "drop": true
+  },
+  "71c5a02835e1": {
+   "drop": true
+  },
+  "855f248e3fc2": {
+   "drop": true
+  },
+  "3e31367629f6": {
+   "drop": true
+  },
+  "f05a6aebf962": {
+   "drop": true
+  },
+  "2d356bb6adee": {
+   "drop": true
+  },
+  "6f227a931927": {
+   "drop": true
+  },
+  "acfdbc6071d2": {
+   "drop": true
+  },
+  "4bc586235e9e": {
+   "drop": true
+  },
+  "c2e1aaa9ab6a": {
+   "dup": "54c7a153242d"
+  },
+  "943562df7af5": {
+   "dup": "85945d302fc1"
+  },
+  "c0f9704d35ce": {
+   "drop": true
+  },
+  "e6232c17dc82": {
+   "dup": "e8dbbd1273e1"
+  },
+  "a06577c073fa": {
+   "drop": true
+  },
+  "aff3854ff21f": {
+   "drop": true
+  },
+  "8f3afd9fc180": {
+   "drop": true
+  },
+  "2e3f80054252": {
+   "dup": "e2cafcde1028"
+  },
+  "265653d7b9bf": {
+   "dup": "e2cafcde1028"
+  },
+  "ca2ed490825b": {
+   "dup": "e2cafcde1028"
+  },
+  "f27f4d48861b": {
+   "drop": true
+  },
+  "04dece2018da": {
+   "dup": "e2cafcde1028"
+  },
+  "ae74d69d83e6": {
+   "dup": "e2cafcde1028"
+  },
+  "892adc2c0cab": {
+   "dup": "2edfbc93beea"
+  },
+  "a1b840745438": {
+   "dup": "e2cafcde1028"
+  },
+  "481fe61974be": {
+   "dup": "e2cafcde1028"
+  },
+  "a0c401d92443": {
+   "dup": "e2cafcde1028"
+  },
+  "c63f3f2ed16c": {
+   "dup": "e2cafcde1028"
+  },
+  "3d501a7292cb": {
+   "dup": "e2cafcde1028"
+  },
+  "aeba9e181d3f": {
+   "dup": "e2cafcde1028"
+  },
+  "2a6023271c12": {
+   "dup": "e2cafcde1028"
+  },
+  "bb8a9917d1ce": {
+   "dup": "e2cafcde1028"
+  },
+  "79afcfd5b9b3": {
+   "dup": "e2cafcde1028"
+  },
+  "29d30ce24704": {
+   "dup": "e2cafcde1028"
+  },
+  "3760e3f0dad9": {
+   "dup": "e2cafcde1028"
+  },
+  "281b3c26a669": {
+   "dup": "e2cafcde1028"
+  },
+  "d262ff8ce531": {
+   "dup": "e2cafcde1028"
+  },
+  "655ef3bea388": {
+   "dup": "e2cafcde1028"
+  },
+  "3b84d42954cc": {
+   "dup": "e2cafcde1028"
+  },
+  "e1cffb18c651": {
+   "dup": "5eff4a69f044"
+  },
+  "c8f4a6d56dcf": {
+   "drop": true
+  },
+  "6e25d0b137f9": {
+   "drop": true
+  },
+  "cb8e1813ce87": {
+   "drop": true
+  },
+  "d02b0cb1ccc6": {
+   "drop": true
+  },
+  "159ecb1ff190": {
+   "drop": true
+  },
+  "1e470a047f45": {
+   "drop": true
+  },
+  "20742d34c882": {
+   "drop": true
+  },
+  "a144b79be7fb": {
+   "drop": true
+  },
+  "0ee6a3e65fce": {
+   "dup": "19faad1b893f"
+  },
+  "2c360f189cc1": {
+   "drop": true
+  },
+  "cfbb313ea461": {
+   "drop": true
+  },
+  "2fffa3cee7a3": {
+   "drop": true
+  },
+  "810eb696bd16": {
+   "drop": true
+  },
+  "bf3d564f779c": {
+   "drop": true
+  },
+  "218a62a465dd": {
+   "drop": true
+  },
+  "b91d9f8a828e": {
+   "dup": "5dd773bf975f"
+  },
+  "91df05e9ec11": {
+   "dup": "e7dd0306130a"
+  },
+  "497d17aafdc3": {
+   "drop": true
+  },
+  "b9d36816ea30": {
+   "drop": true
+  },
+  "e9a8d30bc638": {
+   "dup": "c30ec60c5df6"
+  },
+  "b6298a542777": {
+   "drop": true
+  },
+  "9d30cf92582e": {
+   "dup": "3fdb4fcc5212"
+  },
+  "b8b994fde194": {
+   "drop": true
+  },
+  "4a88ca73f8fb": {
+   "drop": true
+  },
+  "dda9e2b12cf0": {
+   "drop": true
+  },
+  "3ee8389392f8": {
+   "drop": true
+  },
+  "16dca8e14763": {
+   "drop": true
+  },
+  "f434ead58b0c": {
+   "drop": true
+  },
+  "722514534472": {
+   "drop": true
+  },
+  "1fc62ab1b005": {
+   "drop": true
+  },
+  "1c259bcff970": {
+   "drop": true
+  },
+  "8fcf391a3c7a": {
+   "drop": true
+  },
+  "88081c32dac2": {
+   "drop": true
+  },
+  "e13a8a540909": {
+   "drop": true
+  },
+  "cd10dbf6af32": {
+   "drop": true
+  },
+  "3ca394c52b7e": {
+   "drop": true
+  },
+  "263a3f3caf04": {
+   "drop": true
+  },
+  "b12fb7e81341": {
+   "drop": true
+  },
+  "e6f6c10d2f89": {
+   "drop": true
+  },
+  "64935e64dbd5": {
+   "drop": true
+  },
+  "4e7f3ed79ffa": {
+   "drop": true
+  },
+  "a8bb24acef05": {
+   "dup": "00e98a1f3070"
+  },
+  "b53266c9f5cd": {
+   "drop": true
+  },
+  "fa1c048137e1": {
+   "drop": true
+  },
+  "0ee2253d7d7f": {
+   "drop": true
+  },
+  "066e46572ead": {
+   "drop": true
+  },
+  "f653ed6905d9": {
+   "drop": true
+  },
+  "61164f23e3fb": {
+   "drop": true
+  },
+  "e603ac2b0aa1": {
+   "drop": true
+  },
+  "1d5f5f3fb2ec": {
+   "drop": true
+  },
+  "811ee9cb8ec7": {
+   "drop": true
+  },
+  "455e9d24c70a": {
+   "drop": true
+  },
+  "c06249d0f1f9": {
+   "drop": true
+  },
+  "0a7727272bd4": {
+   "drop": true
+  },
+  "31f90572bb62": {
+   "drop": true
+  },
+  "90b7738a4dd2": {
+   "drop": true
+  },
+  "d2ef87f27245": {
+   "drop": true
+  },
+  "62ece1fb1145": {
+   "dup": "74efa911c983"
+  },
+  "6d1395921e8d": {
+   "drop": true
+  },
+  "5246fefac267": {
+   "drop": true
+  },
+  "778efc66af45": {
+   "dup": "aec57b25a39d"
+  },
+  "b82aec4c86d0": {
+   "drop": true
+  },
+  "de378bd9b2f1": {
+   "drop": true
+  },
+  "c56bb8489036": {
+   "drop": true
+  },
+  "9c41a513889c": {
+   "drop": true
+  },
+  "2cd94d21b408": {
+   "drop": true
+  },
+  "9797bb165628": {
+   "drop": true
+  },
+  "4190acca4168": {
+   "drop": true
+  },
+  "38280df1c81b": {
+   "drop": true
+  },
+  "8196d2066151": {
+   "drop": true
+  },
+  "5800990f05f9": {
+   "drop": true
+  },
+  "f08128be7c5c": {
+   "drop": true
+  },
+  "9c3b3b90d515": {
+   "drop": true
+  },
+  "fefe3c61501e": {
+   "drop": true
+  },
+  "0bab44666b06": {
+   "drop": true
+  },
+  "4a9bb134f643": {
+   "drop": true
+  },
+  "aea6ac98fb56": {
+   "drop": true
+  },
+  "edfcf2d46be0": {
+   "drop": true
+  },
+  "e85489238062": {
+   "drop": true
+  },
+  "f9064ac08a11": {
+   "drop": true
+  },
+  "6562f44c43d2": {
+   "drop": true
+  },
+  "c4e455b2cbd6": {
+   "drop": true
+  },
+  "1ef31cc72eed": {
+   "dup": "68d06e5a1880"
+  },
+  "a4bb5d0dea28": {
+   "drop": true
+  },
+  "fe1c642e4b59": {
+   "drop": true
+  },
+  "ba8c3f3a4ebb": {
+   "drop": true
+  },
+  "533254bf72a0": {
+   "drop": true
+  },
+  "02866995c420": {
+   "drop": true
+  },
+  "84989ed6e3be": {
+   "dup": "968fa55817bc"
+  },
+  "f3b60d7b1eb8": {
+   "drop": true
+  },
+  "281799db0744": {
+   "drop": true
+  },
+  "9476cd1bccd9": {
+   "drop": true
+  },
+  "bcde512458b9": {
+   "drop": true
+  },
+  "820560a91233": {
+   "drop": true
+  },
+  "4c8c3576893a": {
+   "dup": "0c7ddf6efb5f"
+  },
+  "7e8ed7480155": {
+   "drop": true
+  },
+  "5d68172d63ea": {
+   "drop": true
+  },
+  "e11cde29ba2c": {
+   "drop": true
+  },
+  "ef6a19346e4b": {
+   "drop": true
+  },
+  "5b40dfca0eea": {
+   "drop": true
+  },
+  "c5bec2dde01c": {
+   "drop": true
+  },
+  "ef81c16703f1": {
+   "drop": true
+  },
+  "0edd48eee5bb": {
+   "drop": true
+  },
+  "297c5f0cd31b": {
+   "drop": true
+  },
+  "78aef5df9718": {
+   "drop": true
+  },
+  "d776df43a674": {
+   "drop": true
+  },
+  "d495266731dd": {
+   "drop": true
+  },
+  "95c7f36fd1dc": {
+   "drop": true
+  },
+  "59856f92e14d": {
+   "drop": true
+  },
+  "e99b7a3d97e7": {
+   "drop": true
+  },
+  "bce0ca8e2c9c": {
+   "drop": true
+  },
+  "2c8ba8eca084": {
+   "drop": true
+  },
+  "65b4bb3e99fc": {
+   "drop": true
+  },
+  "8172e0600b81": {
+   "drop": true
+  },
+  "1a25394e3e62": {
+   "drop": true
+  },
+  "97289befd28e": {
+   "drop": true
+  },
+  "ea051a07d8f9": {
+   "drop": true
+  },
+  "ba8a8a11c9dd": {
+   "drop": true
+  },
+  "f4b734f18be8": {
+   "drop": true
+  },
+  "acc634d69128": {
+   "drop": true
+  },
+  "b0f1b35b37a5": {
+   "drop": true
+  },
+  "2087df9ad045": {
+   "drop": true
+  },
+  "a306108416f9": {
+   "drop": true
+  },
+  "20e9bf79da08": {
+   "drop": true
+  },
+  "ba6f72e2bd9c": {
+   "drop": true
+  },
+  "b349a32f989d": {
+   "drop": true
+  },
+  "466cc9da0e0a": {
+   "drop": true
+  },
+  "dfb9c73f449f": {
+   "drop": true
+  },
+  "3b4551361fd6": {
+   "drop": true
+  },
+  "0317554e28ed": {
+   "drop": true
+  },
+  "d6b2b51d3fe4": {
+   "drop": true
+  },
+  "68c7bbf11dfb": {
+   "drop": true
+  },
+  "4cea5cfaa9e1": {
+   "drop": true
+  },
+  "95c97e5d4ee0": {
+   "drop": true
+  },
+  "3454e413c6cf": {
+   "drop": true
+  },
+  "81545b0965dc": {
+   "drop": true
+  },
+  "9010867c084c": {
+   "drop": true
+  },
+  "cf8630d40b0b": {
+   "drop": true
+  },
+  "e1784aa1cbbb": {
+   "drop": true
+  },
+  "8e151014e4bd": {
+   "drop": true
+  },
+  "2607b5855da4": {
+   "drop": true
+  },
+  "3d0de634616e": {
+   "drop": true
+  },
+  "a01d186d2521": {
+   "drop": true
+  },
+  "f51f13c7c8f3": {
+   "drop": true
+  },
+  "6c22f0de4353": {
+   "drop": true
+  },
+  "470a4573ac9a": {
+   "drop": true
+  },
+  "3c9230d3be2c": {
+   "drop": true
+  },
+  "42ef2db13f72": {
+   "dup": "35a63f6bdece"
+  },
+  "472ba79c8957": {
+   "dup": "35a63f6bdece"
+  },
+  "4e30eeda8c94": {
+   "dup": "ad750220947e"
+  },
+  "88bb9976e0b6": {
+   "dup": "3b2f71ed99fb"
+  },
+  "268722c2f9cd": {
+   "dup": "3b2f71ed99fb"
+  },
+  "7dc1729a16dc": {
+   "dup": "622d9c8ee0b1"
+  },
+  "76f29281f457": {
+   "dup": "9a2c5c7a40e4"
+  },
+  "83b2e75efb5b": {
+   "dup": "099deddd2dc1"
+  },
+  "c560619cc4a0": {
+   "dup": "8a68d368fcde"
+  },
+  "579b3462c061": {
+   "dup": "8a68d368fcde"
+  },
+  "a638167e64d9": {
+   "dup": "8a68d368fcde"
+  },
+  "eb0bf545437a": {
+   "dup": "0112ef453ad8"
+  },
+  "29487622070b": {
+   "dup": "84cf11a52fb2"
+  },
+  "8a68d368fcde": {
+   "cat": "funding",
+   "imp": 7,
+   "summary": "Marrow Therapeutics launched with $173 million in combined Series A and B financing from 11 investors including founder Scion Life Sciences, OrbiMed and venBio. Its preclinical lead, MAR-101, is a transferrin-receptor antibody carrying an siRNA that is taken up in bone marrow and switches fetal haemoglobin production back on, for sickle cell disease and beta thalassaemia. It is pitched as a repeatable, dose-adjustable injection that avoids the ex vivo process of the approved gene therapies; no clinic start date was given. Part of the money goes on manufacturing, aimed at global access.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Large venture round for an antibody-siRNA conjugate in haemoglobinopathies."
+    },
+    "cellgene": {
+     "score": 7,
+     "why": "Positions an injectable RNA drug as an alternative to approved CRISPR and gene therapies for sickle cell."
+    },
+    "investment": {
+     "score": 7,
+     "why": "$173M combined A/B for a preclinical company led by OrbiMed and venBio."
+    }
+   }
+  },
+  "0112ef453ad8": {
+   "cat": "clinical",
+   "imp": 7,
+   "summary": "Sellas Life Sciences says its cancer vaccine galinpepimut-S met the primary goal of its phase 3 trial in advanced acute myeloid leukaemia, cutting the risk of death by 41% versus standard treatment, with a more than nine-month overall survival improvement reported. Full trial data were not in the visible text. STAT's Adam Feuerstein, who had predicted in September that the drug would fail, says he was wrong.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Rare phase 3 overall-survival win for a peptide cancer vaccine in AML."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Could add a maintenance option for AML patients in remission."
+    }
+   }
+  },
+  "84cf11a52fb2": {
+   "cat": "other",
+   "imp": 6,
+   "summary": "French precision-fermentation startup Verley has opened a San Francisco branch and hired former Perfect Day executive Shayri Roychoudhury as COO ahead of launching its animal-free whey (beta-lactoglobulin) in the US. It says it now holds an FDA letter covering its whole FermWhey line, runs at 50,000-litre scale through co-manufacturers and targets 1,000 tonnes, later 5,000 tonnes a year. The US launch slipped from end-2026 to Q2-Q3 2027 because customers want larger volumes; Verley claims price parity at about $45/kg and raised a €32M Series A in February.",
+   "rel": {
+    "fermentation": {
+     "score": 8,
+     "why": "Precision-fermented dairy protein scaling to commercial volumes with FDA clearance for its range."
+    },
+    "agrifood": {
+     "score": 7,
+     "why": "Animal-free whey heading to the US food market in 2027 at claimed price parity."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "Asset-light co-manufacturing model at 50,000-litre scale."
+    }
+   }
+  },
+  "74659456f8f7": {
+   "cat": "contracts",
+   "imp": 5,
+   "summary": "Lotte Biologics signed its first major commercial manufacturing agreement for Songdo Plant 1 in Incheon, providing drug substance and drug product services to an undisclosed global pharma company; the value and products were not disclosed. The plant has 120,000 litres of capacity in eight 15,000-litre stainless-steel bioreactors and is the first of three planned plants totalling 360,000 litres. Commercial production is expected to start in 2027.",
+   "rel": {
+    "bioprocessing": {
+     "score": 7,
+     "why": "First commercial anchor customer for a new 120,000-litre Korean biologics CDMO plant."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Adds Korean CDMO capacity for big-pharma biologics."
+    }
+   }
+  },
+  "ec1ddea89442": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "Cognito Therapeutics says its phase 3 HOPE study of Spectris AD, an at-home headset delivering light and sound stimulation to drive gamma-frequency brain activity, did not meet its primary endpoint in Alzheimer's disease (presented at CTAD on 16 November). A prespecified analysis in mild Alzheimer's showed nominally significant slowing on CDR-SB and daily function; no patient numbers or effect sizes were given. Cognito still plans to discuss a possible authorisation path with the FDA for early symptomatic disease.",
+   "rel": {
+    "meddevices": {
+     "score": 7,
+     "why": "Pivotal failure for the leading non-invasive neuromodulation device for Alzheimer's."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Tests whether devices can sit alongside anti-amyloid drugs in Alzheimer's care."
+    }
+   }
+  },
+  "23c94059e859": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "STAT reports that Capsida Biotherapeutics researchers presented their investigation into a patient death last year in its trial of a gene therapy engineered to cross the blood-brain barrier. They did not pin down exactly what caused the death but proposed experiments, potentially testable in monkeys, to screen future brain-targeting capsids for the same risk. The case had rattled developers of CNS gene therapies.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "Safety framework for blood-brain-barrier-crossing AAV capsids after a trial death."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Relevant to CNS drug developers using engineered delivery vectors."
+    }
+   }
+  },
+  "825e070bb2f8": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "The New England Journal of Medicine published a trial of semaglutide for obesity in children aged 6 to under 12. Only the title was available in the feed, so results are not summarised here. It extends GLP-1 evidence below the adolescent age group where Wegovy is already approved.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Peer-reviewed data pushing GLP-1 obesity treatment into younger children."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Bears on paediatric obesity treatment guidelines."
+    }
+   }
+  },
+  "2e6b2f11d0dd": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "The New York Times reports that US biotech companies, fearing Chinese competitors who move fast on disclosed targets and molecules, are increasingly withholding scientific details from conferences and publications. Only the headline was accessible, so specifics are not summarised. It fits a wider shift as China supplies a growing share of licensed drug candidates.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Changes how US biotechs disclose science amid Chinese fast-follower competition."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Less disclosure affects how investors judge early programmes."
+    }
+   }
+  },
+  "399b90bebf86": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "Karyopharm says the FDA accepted its supplemental application for Xpovio (selinexor) plus ruxolitinib in myelofibrosis, based mainly on the phase 3 SENTRY trial, with a decision date of 28 June 2027. If approved it could be the first combination with ruxolitinib for the disease. The company is being sold through bankruptcy.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Sets a 2027 FDA decision for a first-line myelofibrosis combination."
+    }
+   }
+  },
+  "cadd19bbbadc": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "ProMIS Neurosciences licensed Ossianix's TXP1 brain-shuttle technology to build next versions of its Alzheimer's antibody PMN310. ProMIS says TXP1 raised antibody delivery to the brain more than 65-fold in Ossianix's preclinical studies; terms were not in the snippet.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Adds brain-shuttle delivery to an anti-amyloid oligomer antibody."
+    }
+   }
+  },
+  "fff3d61cf220": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "Cradle says argenx is widening use of its AI protein-engineering platform for autoimmune antibody discovery to more scientists and programmes after successful initial projects. Financial terms were not disclosed.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "Big-pharma expansion of a generative AI antibody design platform."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Software platform adopted across discovery teams."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Used in argenx autoimmune antibody discovery."
+    }
+   }
+  },
+  "5a04f66d9dce": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "GC Biopharma signed a memorandum of understanding with Dongbang FTL to explore producing ionizable lipids, the key component of lipid nanoparticles for mRNA vaccines and therapies, in Korea. The aim is to reduce reliance on imported lipids for its mRNA programmes.",
+   "rel": {
+    "cellgene": {
+     "score": 4,
+     "why": "Local supply of LNP lipids for mRNA medicines."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "Builds domestic raw-material supply chain for mRNA manufacturing."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Supports pandemic-preparedness mRNA capacity in Korea."
+    }
+   }
+  },
+  "cfab7d466ab8": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "At a Korea Biomedical Review forum, speakers argued that China's rapid rise in global drug development is eroding Korea's position as a clinical trial destination. They called for faster regulatory reviews and approvals and more competitive development strategies.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Korean industry debate on trial and approval speed versus China."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Touches Korean regulatory policy."
+    }
+   }
+  },
+  "8203d7da0022": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "A University of Chile paediatrics professor describes how Chile moved within nine months of a deadly RSV winter to protect all infants, leaving paediatric wards and ICUs with empty beds the following season. The interview presents Chile's rapid national rollout as a model for other countries weighing infant RSV immunisation.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Real-world impact of a national infant RSV immunisation programme."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Demand signal for infant RSV antibodies."
+    }
+   }
+  },
+  "0cc069a2ffa4": {
+   "cat": "contracts",
+   "imp": 3,
+   "summary": "Korean diagnostics company Noul was selected for a $2.3 million project in Panama to deploy its AI-based diagnostics. Details beyond the headline were not in the feed.",
+   "rel": {
+    "diagnostics": {
+     "score": 4,
+     "why": "Overseas public-health contract for AI microscopy diagnostics."
+    },
+    "ai": {
+     "score": 3,
+     "why": "AI image-based diagnostics deployment."
+    }
+   }
+  },
+  "b779ee3760dd": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Novo Nordisk relaunched its NovoCare programme as a free membership linking people to Wegovy, with home delivery coming soon for eligible commercially and government-insured members including Medicare, plus support, wellness partners and rewards. It is Novo's latest direct-to-patient push in the competitive US obesity market.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Direct-to-consumer channel expansion in the GLP-1 obesity market."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Changes how US patients access Wegovy."
+    }
+   }
+  },
+  "07bb588c690e": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "MiniMed launched MiniMed Flex in Europe, which it calls its smallest insulin pump, controlled from a phone app. The company pitches it as easier day-to-day diabetes management with its established clinical performance.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "New smaller app-controlled insulin pump entering the European market."
+    }
+   }
+  },
+  "5b3991772a47": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "Eikon Therapeutics received clearance to start a first-in-human phase 1/2 study of EIK1006, a new androgen receptor antagonist, in advanced metastatic prostate cancer.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "New AR antagonist entering the clinic in prostate cancer."
+    }
+   }
+  },
+  "3fb2c3f3a4a4": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Scientific American reports on evidence that colorectal cancer in people under 50, now the deadliest cancer in that age group, may have a distinct and more dangerous biology than in older patients. Why early-onset cases are rising remains unknown.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Bears on screening and treatment of early-onset colorectal cancer."
+    },
+    "diagnostics": {
+     "score": 3,
+     "why": "Could inform screening of younger adults."
+    }
+   }
+  },
+  "84951736b2da": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Rakuten Medical started a first-in-human phase 1 trial in Japan of RM-0256, a photoimmunotherapy that targets PD-L1. The company says preclinical work suggests it can kill PD-L1-expressing tumour and immunosuppressive cells and block PD-L1/PD-1 signalling.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "New light-activated antibody conjugate entering the clinic."
+    }
+   }
+  },
+  "fafba13ee862": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "A Nature Medicine study of longitudinal cohorts from Europe and the United States spanning 30 years found later-born generations had better cognitive capacity and lower dementia incidence than earlier ones. The results support the idea that age-specific dementia risk is falling in Western countries even as ageing raises total case numbers.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "Changes projections of dementia burden in ageing Western populations."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Context for sizing the dementia drug market."
+    }
+   }
+  },
+  "7d9e08b491de": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "BioProcess International reports experts' surprise that the University of Southern Denmark gave ethical approval to a controversial vaccine study despite major red flags, including concerns raised by one of the lead reviewers. Only the snippet was available.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Questions research-ethics oversight of a vaccine trial."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Vaccine research governance."
+    }
+   }
+  },
+  "02c260aa471b": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Nature reports that a genetic variant inherited from Neanderthals appears to make parts of the human brain smaller and may protect against schizophrenia. Only the summary line was available.",
+   "rel": {
+    "tools": {
+     "score": 3,
+     "why": "Population-genomics finding linking archaic DNA to brain structure."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Possible genetic insight into schizophrenia risk."
+    }
+   }
+  },
+  "cec7a28bccdd": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A preprint reports that the SARS-CoV-2 spike receptor-binding domain has evolved lower inherent antigenicity in humans, beyond simply escaping existing neutralising antibodies. That could make the domain harder for immune systems to target and matters for vaccine antigen design. Not yet peer-reviewed.",
+   "rel": {
+    "biosecurity": {
+     "score": 4,
+     "why": "Viral evolution that may blunt immune responses to future variants."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Relevant to COVID vaccine antigen selection."
+    }
+   }
+  },
+  "11d162516895": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Researchers describe RDiffusion, a diffusion-based generative model for programmable RNA sequence design, aimed at creating new functional non-coding RNAs beyond those found in nature. Not yet peer-reviewed.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "Generative AI model for designing RNA sequences."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Design platform for synthetic RNA research."
+    },
+    "industrial": {
+     "score": 3,
+     "why": "Could aid design of RNA parts for synthetic biology."
     }
    }
   }
