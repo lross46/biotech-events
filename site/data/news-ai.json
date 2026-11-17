@@ -1,86 +1,85 @@
 {
- "updated": "2026-11-16T13:41:59Z",
+ "updated": "2026-11-17T06:49:01Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-16T06:41:48Z",
+  "date": "2026-11-17T07:10:00Z",
   "points": [
    {
     "sec": "results",
-    "text": "Rezolute's phase 3 upLIFT win in tumour hyperinsulinism still leads: ersodetug hit its primary endpoint, the company raised about $100 million and heads into an FDA meeting about a filing. ObesityWeek data kept coming, led by Wave Life Sciences, whose one-dose INHBE siRNA WVE-007 cut visceral fat while sparing muscle a year on. Novo Nordisk showed lower CagriSema doses still gave about 21% weight loss in REDEFINE 9, plus a post hoc REDEFINE 1 analysis where early responders lost 25%, and Viking added exploratory VK2735 data. Regeneron's baloncibart moves to phase 3 in POTS, Synchron paused its second-generation brain implant trials over FDA filing delays, and this week's CTAD conference in Boston brings phase 3 AR1001 results and tau data from Biogen.",
+    "text": "CG Oncology dominated the day: its oncolytic immunotherapy cretostimogene cut recurrence risk by 68% (hazard ratio 0.32) in the 367-patient phase 3 PIVOT-006 trial in intermediate-risk and high-grade Ta bladder cancer, with no grade 3 or worse treatment-related side effects, and a filing is planned for the second quarter of 2027. Helus Pharma's deuterated psilocin met its phase 3 endpoint in depression, cutting symptom scores by 19.5 points against 11.9 for placebo, but three treatment-related serious adverse events, including a suicide attempt, pushed the shares down about 17%. Eisai's five-year Clarity AD extension at CTAD showed a 2.05-point CDR-SB gap against external controls and 36% lower risk of progressing a disease stage, while AriBio's repurposed PDE5 inhibitor was tepid in Alzheimer's and Aclaris dropped its anti-TSLP antibody after a phase 2 eczema miss. Obesity readouts continued, with Corxel reporting 9.3% to 11.5% weight loss at 36 weeks.",
     "ids": [
-     "562d918c85d8",
-     "99052f7915e9",
-     "095b54ba4796",
-     "d1ef9cdfcc9d",
-     "2026-11-16-ctad-2026-alzheimers-beyond-amyloid",
-     "868bcdee3350"
+     "622d9c8ee0b1",
+     "4475a56988b4",
+     "9a2c5c7a40e4",
+     "35a63f6bdece",
+     "2ef43587eaa3",
+     "76526fb4fb01"
     ]
    },
    {
     "sec": "science",
-    "text": "A Rockefeller study in Cell found that low arginine stalls production of MHC-I antigen-display proteins; in mice, extra arginine meant fewer colon tumours and milder flu and COVID infections, though human data are lacking. A 10-protein blood panel improved ALS detection, and preprints were strong in computational biology, with Germinal Multi designing antibodies that keep binding as viruses evolve. On the industrial side, a bacterial co-culture broke down paracetamol and its toxic by-product 4-aminophenol, a template for cleaning drug residues from wastewater. Smaller items included Newcastle disease breaking through poultry vaccination in Germany, a zebrafish study where a bisphosphonate blocked spinal mineral build-up, and IDEAYA's new CDKN2A-targeted candidate IDE101.",
+    "text": "Two papers pushed cell engineering past its manufacturing bottleneck: Nature Biotechnology described a CD7-targeted AAV variant that engineers T and NK cells inside the body, and GEN reported Superb-seq, which pairs Cas9 editing with single-cell RNA sequencing to show which edits, including off-target ones, occurred in each cell and what they did to gene expression. Enhancer-targeted CRISPR raised the healthy gene copy in CHD8 and SCN2A autism organoids, reducing overgrowth and normalising electrical activity. Nature Medicine published an open agentic AI co-scientist for biomedical discovery, and a preprint called SEA-Lab tested AI self-improvement grounded in experiments that actually ran. On the industrial side, work on gut microbes that modify bile acids tied a specific microbial chemistry to exceptional human longevity and reproduced the effect with engineered bacteria, and a bone-on-a-chip reproduced the full remodelling cycle for drug and metastasis studies.",
     "ids": [
-     "5de1690213dc",
-     "44d60aa1c086",
-     "97c74a787f66",
-     "d00fe2275f76",
-     "fcba369e63e0"
+     "315491639184",
+     "badcbc7d118f",
+     "aa2416bdf15b",
+     "8c92f5ac5627",
+     "04a77a794238",
+     "7ab95df42d70"
     ]
    },
    {
     "sec": "approvals",
-    "text": "The FDA rejected Summit and Akeso's PD-1xVEGF bispecific ivonescimab in EGFR-mutant lung cancer because the HARMONi trial showed no significant survival benefit, delaying the US debut of the industry's most hyped new immuno-oncology class. Bayer's Sunharbo (asundexian), approved last week, became the first approved factor XIa inhibitor, for secondary stroke prevention, after a 26% cut in ischaemic stroke without more major bleeding. Innovent's sintilimab won a positive CHMP opinion in first-line lung cancer, and the CHMP backed seven medicines including AstraZeneca's baxdrostat. AstraZeneca also won US approval for Imfinzi plus Padcev in bladder cancer, Kyverna completed its BLA for the first autoimmune CAR-T and Novo filed etavopivat for sickle cell disease.",
+    "text": "The FDA approved Roche's Wilserdly (giredestrant), an oral SERD for ESR1-mutated HR-positive, HER2-negative advanced breast cancer, a drug Roche has said could become its biggest seller ever. AstraZeneca and Alexion won US and EU approval for Klygefa (gefurulimab), a once-weekly self-administered C5 inhibitor for generalised myasthenia gravis, defending the Soliris and Ultomiris franchise in a market now crowded with FcRn blockers. Roche's Gazyva took its first approval in primary membranous nephropathy, a third immune indication as the antibody fades in blood cancer. In devices, MiniMed won clearance for MiniMed Fit, a seven-day tubeless patch pump launching in spring 2027 against Insulet's Omnipod and Tandem's newly cleared tubeless Mobi. Apotex launched the first generic of Pfizer's kidney cancer drug Inlyta, and HK inno.N's K-CAB was approved in Brazil.",
     "ids": [
-     "185db75349bb",
-     "c4abe83562b1",
-     "4af1b72c8203",
-     "1fc1c71701ec",
-     "166f36c5a7ff",
-     "ab8eae668d31"
+     "3b2f71ed99fb",
+     "f979ed6691c6",
+     "0f839850067a",
+     "cf6e0472969b",
+     "f739bafbf597"
     ]
    },
    {
     "sec": "policy",
-    "text": "Three bipartisan bills in Congress would curb the president's tariff powers, which medtech firms hit by component tariffs are watching closely. The American Society of Addiction Medicine issued the first national guidance for treating withdrawal from medetomidine, a veterinary sedative spreading through the illicit drug supply. In alternative proteins, the UK Food Standards Agency set out a route for exporting cultivated meat to non-EU markets, and 21st.Bio filed for EU approval of animal-free whey while calling for faster novel-food reviews. China published its 2026 reimbursement lists, effective January 2027: Innovent placed seven products including GLP-1 dual agonist mazdutide on the national list, and CARsgen's satri-cel became the first solid-tumour CAR-T on the new commercial-insurance list for high-cost drugs.",
+    "text": "Shanghai dismissed two researchers after an investigation into the death of a child given an experimental brain gene-editing injection in March 2025, finding the team had not promptly shared a primate safety report and that a Nature paper omitted liver and kidney damage seen in animals; both are barred from state science programmes for five years and the hospital was penalised. The FDA proposed a new regulatory category for dietary ingredients, with N-acetylcysteine as the first entry, resolving a grey area created by its approval as a drug in the 1960s and 1970s. Science reported that John Powers III will become permanent NIAID director as the institute shifts away from HIV and biodefence, and the MHRA published a strategy to 2030 promising new evidence and manufacturing frameworks for AI, cell and gene therapies. STAT reported warnings that access to newer GLP-1 obesity drugs is becoming the next global medicines access battleground.",
     "ids": [
-     "a5dc98c82cd2",
-     "004316cafe17",
-     "e0f204e084a1",
-     "8b800c4a8f35",
-     "eb4ff293359a",
-     "547038a27d40"
+     "11f32c2292d2",
+     "0e6410a5e44d",
+     "e73e97b426e6",
+     "0d85fb477707",
+     "a154fecb9ba9"
     ]
    },
    {
     "sec": "money",
-    "text": "Johnson & Johnson is in advanced talks to buy Ollin Biosciences for up to $3.4 billion ($2.2 billion upfront) for a wet AMD and diabetic macular edema drug, the FT reports. In Europe, Sofinnova Partners closed its largest fund, a €725 million crossover vehicle for about 15 late-stage drug and medtech companies, and Flagship Pioneering committed £100 million to a London lab building AI-native companies, its first outside the US. Windward Bio raised $175 million in its Nasdaq IPO plus $50 million from Sanofi, the 35th biotech IPO of 2026, and Charles River agreed to pay $470 million for Frontage's bioanalysis labs. In agri-food and climate, Applied Carbon raised $72 million for biochar, Just Climate closed a $540 million agriculture decarbonisation fund and Biomatter raised $18 million for AI-designed enzymes. India's Symbiotec signed a 10-year precision-fermentation supply deal.",
+    "text": "Johnson & Johnson agreed to buy Ollin Biosciences for $2.2 billion upfront plus $1.1 billion in milestones for OLN324, an Innovent-originated VEGF and Ang2 bispecific in four phase 3 eye trials, with Blackstone putting up $750 million for the trial costs to challenge Roche's Vabysmo. Eli Lilly made two more bets: up to $1.5 billion for Calytrix Bio's biparatopic antibody in CALR-mutant myeloproliferative neoplasms, its 15th acquisition of the year, and up to $5.9 billion in milestones with Stipple Bio on tumour-surface targets. Seawolf Therapeutics launched with $100 million and a Sanofi deal worth up to $1.2 billion for redosable non-viral DNA medicines, Biogen paid up to $411 million for TrimTech's protein degraders and Medtronic bought Contego Medical for $380 million. Against that, Leo Pharma shelved its IPO on market volatility, and an IQVIA analysis found about 90% of 2016-2020 US launches will never cover their costs, with break-even sales now $11.9 billion.",
     "ids": [
-     "ce569e8f9b5e",
-     "a513032ac634",
-     "44d9a66b8250",
-     "54c7a153242d",
-     "e4e6ec5a6c0c",
-     "9c4f7e3e2e0a"
+     "ea1ef609a1d0",
+     "9eca729af1ba",
+     "394eb5b4dbbb",
+     "ad750220947e",
+     "2026-11-16-iqvia-nine-in-ten-launches-unprofitable",
+     "834e8e8e8693"
     ]
    },
    {
     "sec": "companies",
-    "text": "Cellectis will cut about 70% of staff as it drops allogeneic CAR-T for in vivo gene editing, one of the deepest retreats yet from off-the-shelf cell therapy. Moderna says its Marlborough plant is ready to make thousands of doses of its personalised cancer vaccine with Merck ahead of an FDA filing by year-end. Eli Lilly broke ground on a $3.5 billion, digitally integrated GLP-1 plant in Pennsylvania that will make retatrutide and employ about 850 people. AstraZeneca cut about 600 US sales jobs under its $1.5 billion savings plan, Milestone cut 20% of staff after a $1 million first quarter for Cardamyst, and Teva and argenx laid out pipeline-expansion strategies.",
+    "text": "Quiet, with attention on manufacturing and platform build-out rather than restructuring. AGC Biologics said three cell therapy projects have moved into its new Yokohama site, positioning it as a base for Japan's cell and gene therapy sector, and 10x Genomics opened collaborations with Charité, the DRFZ and Seoul National University to hunt blood-based autoimmune biomarkers on its Flex Apex platform. Apple and OpenEvidence launched a study and app on trust and accuracy in conversational health AI, while Photon put prescribing inside ChatGPT with clinician review. A new STAT-WireScreen index ranked BeOne Medicines and Jiangsu Hengrui as China's most valuable listed drugmakers, and STAT argued biotech's rebound is narrow, rewarding large caps while small-cap data goes unrewarded.",
     "ids": [
-     "6262af3c40fb",
-     "3c6432983a8a",
-     "af03706ee8d4",
-     "174f1ea90a4e",
-     "ed2ce9936009"
+     "d271ab329ac1",
+     "4b6ef68fbe2e",
+     "047d7302cafd",
+     "6dba4e54459e",
+     "f428fc926a08"
     ]
    },
    {
     "sec": "biodef",
-    "text": "The Bundibugyo Ebola outbreak in DR Congo has passed 11,000 infections and 5,387 deaths, the country's deadliest ever; North Kivu now drives new transmission, more than 1,000 contacts are lost to follow-up, and cases have reached Uganda, Kenya and Nigeria, with no licensed vaccine or treatment. In the US, Oregon logged its first H5N1 detection in dairy cows as farmworker groups warn human cases are under-counted. Animal health also featured, with Germany's Newcastle disease outbreaks breaking through poultry vaccination.",
+    "text": "Little new outbreak activity. Asimov and Emergent BioSolutions announced a cell line development partnership for two monoclonal antibodies against Ebola, using Asimov's CHO Edge system, as part of Emergent's preparedness work on medical countermeasures. The UK Health Security Agency published its week 47 norovirus and rotavirus surveillance for England, covering enteric virus outbreaks as the winter season builds. A preprint also reported that the extensive variation SARS-CoV-2 accumulated in its spike protein maps onto a bounded, low-dimensional set of physical properties, which would narrow the range of plausible future variants.",
     "ids": [
-     "2026-11-11-congo-ebola-tops-11000-cases",
-     "4ca4e6c54fc6",
-     "7912e5e7ea77"
+     "897ffd9b7195",
+     "e9180bbc2c71",
+     "a1a8814ed946"
     ]
    }
   ]
@@ -23863,15 +23862,6 @@
     }
    }
   },
-  "54eca4a3f4f0": {
-   "dup": "433e1288b6db"
-  },
-  "bcde512458b9": {
-   "drop": true
-  },
-  "4676dc464514": {
-   "dup": "54c7a153242d"
-  },
   "eb4ff293359a": {
    "cat": "policy",
    "imp": 5,
@@ -23993,12 +23983,6 @@
     }
    }
   },
-  "e51c153ed08d": {
-   "drop": true
-  },
-  "820560a91233": {
-   "drop": true
-  },
   "b1546556319d": {
    "cat": "science",
    "imp": 3,
@@ -24046,18 +24030,6 @@
   },
   "213837b0c62b": {
    "dup": "c971c00c6e72"
-  },
-  "7e8ed7480155": {
-   "drop": true
-  },
-  "5d68172d63ea": {
-   "drop": true
-  },
-  "e11cde29ba2c": {
-   "drop": true
-  },
-  "ef6a19346e4b": {
-   "drop": true
   },
   "49768b19c745": {
    "cat": "policy",
@@ -24116,9 +24088,6 @@
   },
   "4913ddaaea06": {
    "drop": true
-  },
-  "49b01fc1fb95": {
-   "dup": "83fdd3696db3"
   },
   "7caddd570a50": {
    "dup": "185db75349bb"
@@ -24360,720 +24329,6 @@
   },
   "d31ae769f379": {
    "dup": "562d918c85d8"
-  },
-  "8cba99fe8a8c": {
-   "dup": "937741bb980e"
-  },
-  "d8d0f779e124": {
-   "dup": "937741bb980e"
-  },
-  "433e0e42bf3b": {
-   "drop": true
-  },
-  "48919b000ac0": {
-   "drop": true
-  },
-  "6f0955bf3fef": {
-   "drop": true
-  },
-  "4109d8f99d0a": {
-   "drop": true
-  },
-  "86a8de83922b": {
-   "drop": true
-  },
-  "e0945a784a35": {
-   "drop": true
-  },
-  "f8380d3d0838": {
-   "drop": true
-  },
-  "43a4026ca37f": {
-   "drop": true
-  },
-  "0f6744fe2dc1": {
-   "drop": true
-  },
-  "5b16e28bdab9": {
-   "drop": true
-  },
-  "952464803bb5": {
-   "drop": true
-  },
-  "55b6bfb517d4": {
-   "drop": true
-  },
-  "ce116059d241": {
-   "drop": true
-  },
-  "f271cfa09240": {
-   "drop": true
-  },
-  "8d352fc5cec0": {
-   "drop": true
-  },
-  "fba018b0cdb6": {
-   "drop": true
-  },
-  "974797d409f7": {
-   "drop": true
-  },
-  "27bd65aa84e6": {
-   "drop": true
-  },
-  "6fff7d6f0fe9": {
-   "drop": true
-  },
-  "855f248e3fc2": {
-   "drop": true
-  },
-  "9aa6dfc26093": {
-   "drop": true
-  },
-  "97c4c87b9ecf": {
-   "drop": true
-  },
-  "24f15f81e679": {
-   "drop": true
-  },
-  "c2e1aaa9ab6a": {
-   "dup": "54c7a153242d"
-  },
-  "716e9025adf0": {
-   "drop": true
-  },
-  "da92fd8808dd": {
-   "drop": true
-  },
-  "ae00cc4e4366": {
-   "drop": true
-  },
-  "ae64fe44d53d": {
-   "drop": true
-  },
-  "47ac8333ccbb": {
-   "drop": true
-  },
-  "2b49ee2e9551": {
-   "drop": true
-  },
-  "0dc71714fe6f": {
-   "drop": true
-  },
-  "d477f8d510da": {
-   "drop": true
-  },
-  "2b581c358cf5": {
-   "drop": true
-  },
-  "455fbc447aa8": {
-   "drop": true
-  },
-  "b1231c4342f9": {
-   "drop": true
-  },
-  "f59092bcce63": {
-   "drop": true
-  },
-  "d08121cb9aae": {
-   "drop": true
-  },
-  "29651cabfc75": {
-   "drop": true
-  },
-  "77a1ada7be59": {
-   "drop": true
-  },
-  "d3acb5219cf6": {
-   "drop": true
-  },
-  "3e31367629f6": {
-   "drop": true
-  },
-  "dd64035a6475": {
-   "drop": true
-  },
-  "943562df7af5": {
-   "dup": "85945d302fc1"
-  },
-  "3b7d0242a810": {
-   "drop": true
-  },
-  "bbe004f2d913": {
-   "drop": true
-  },
-  "8d7ea4b2e715": {
-   "drop": true
-  },
-  "abf94fafc866": {
-   "drop": true
-  },
-  "e7ae12c18510": {
-   "drop": true
-  },
-  "d20007eef150": {
-   "drop": true
-  },
-  "d57e6a576b07": {
-   "drop": true
-  },
-  "f759814e5e17": {
-   "drop": true
-  },
-  "2f58203cf8eb": {
-   "drop": true
-  },
-  "31b1feca4d62": {
-   "drop": true
-  },
-  "1d75dfd2ba00": {
-   "drop": true
-  },
-  "95607cb3cb3d": {
-   "drop": true
-  },
-  "f2ab31a92655": {
-   "drop": true
-  },
-  "f05a6aebf962": {
-   "drop": true
-  },
-  "71c5a02835e1": {
-   "drop": true
-  },
-  "13b9ccaeb373": {
-   "drop": true
-  },
-  "775b2e75cc64": {
-   "dup": "54c7a153242d"
-  },
-  "98973894282c": {
-   "drop": true
-  },
-  "2d356bb6adee": {
-   "drop": true
-  },
-  "cc4ae6e2bc66": {
-   "dup": "36bf377417cd"
-  },
-  "cd6c0db22f25": {
-   "dup": "c22d547ecdb7"
-  },
-  "4c8c3576893a": {
-   "dup": "0c7ddf6efb5f"
-  },
-  "b3dabfef3e1f": {
-   "drop": true
-  },
-  "4549a7ceb7e9": {
-   "drop": true
-  },
-  "d92ade9f9821": {
-   "dup": "83fdd3696db3"
-  },
-  "bf742f5046bf": {
-   "drop": true
-  },
-  "4d7f81f5df14": {
-   "drop": true
-  },
-  "c928342f4d1a": {
-   "drop": true
-  },
-  "f59f5bb408bc": {
-   "drop": true
-  },
-  "6edc1b8c6e8e": {
-   "drop": true
-  },
-  "5691fc63beca": {
-   "drop": true
-  },
-  "9740fdd6f797": {
-   "drop": true
-  },
-  "807dad8c653e": {
-   "drop": true
-  },
-  "668ba6194c70": {
-   "drop": true
-  },
-  "46916dde4eb1": {
-   "drop": true
-  },
-  "d854fc6d7824": {
-   "drop": true
-  },
-  "691fa932b59a": {
-   "drop": true
-  },
-  "d3f76420bc79": {
-   "drop": true
-  },
-  "495d4a0e4f60": {
-   "drop": true
-  },
-  "c81271f70d0e": {
-   "dup": "c5873e8e2938"
-  },
-  "8601f69c2dc1": {
-   "dup": "00493552aff7"
-  },
-  "61e1e39b1d4d": {
-   "dup": "e2cafcde1028"
-  },
-  "5808043873d9": {
-   "dup": "e2cafcde1028"
-  },
-  "852412c96dc9": {
-   "dup": "b6e6836113cf"
-  },
-  "9bb7039a9380": {
-   "drop": true
-  },
-  "063ab147fafa": {
-   "drop": true
-  },
-  "6f227a931927": {
-   "drop": true
-  },
-  "94c1b606678e": {
-   "drop": true
-  },
-  "7beab15dbe93": {
-   "drop": true
-  },
-  "d32ffd5fde3f": {
-   "drop": true
-  },
-  "12558db2eceb": {
-   "drop": true
-  },
-  "be8577cc31f1": {
-   "drop": true
-  },
-  "fac4ac003e06": {
-   "drop": true
-  },
-  "0bb7e1ea4378": {
-   "drop": true
-  },
-  "891aa95ad5c3": {
-   "drop": true
-  },
-  "323b14b6367b": {
-   "drop": true
-  },
-  "c0f9704d35ce": {
-   "drop": true
-  },
-  "e6232c17dc82": {
-   "dup": "e8dbbd1273e1"
-  },
-  "a06577c073fa": {
-   "drop": true
-  },
-  "aff3854ff21f": {
-   "drop": true
-  },
-  "8f3afd9fc180": {
-   "drop": true
-  },
-  "2e3f80054252": {
-   "dup": "e2cafcde1028"
-  },
-  "265653d7b9bf": {
-   "dup": "e2cafcde1028"
-  },
-  "ca2ed490825b": {
-   "dup": "e2cafcde1028"
-  },
-  "f27f4d48861b": {
-   "drop": true
-  },
-  "04dece2018da": {
-   "dup": "e2cafcde1028"
-  },
-  "ae74d69d83e6": {
-   "dup": "e2cafcde1028"
-  },
-  "892adc2c0cab": {
-   "dup": "2edfbc93beea"
-  },
-  "a1b840745438": {
-   "dup": "e2cafcde1028"
-  },
-  "481fe61974be": {
-   "dup": "e2cafcde1028"
-  },
-  "a0c401d92443": {
-   "dup": "e2cafcde1028"
-  },
-  "c63f3f2ed16c": {
-   "dup": "e2cafcde1028"
-  },
-  "3d501a7292cb": {
-   "dup": "e2cafcde1028"
-  },
-  "aeba9e181d3f": {
-   "dup": "e2cafcde1028"
-  },
-  "2a6023271c12": {
-   "dup": "e2cafcde1028"
-  },
-  "bb8a9917d1ce": {
-   "dup": "e2cafcde1028"
-  },
-  "79afcfd5b9b3": {
-   "dup": "e2cafcde1028"
-  },
-  "29d30ce24704": {
-   "dup": "e2cafcde1028"
-  },
-  "3760e3f0dad9": {
-   "dup": "e2cafcde1028"
-  },
-  "281b3c26a669": {
-   "dup": "e2cafcde1028"
-  },
-  "d262ff8ce531": {
-   "dup": "e2cafcde1028"
-  },
-  "655ef3bea388": {
-   "dup": "e2cafcde1028"
-  },
-  "3b84d42954cc": {
-   "dup": "e2cafcde1028"
-  },
-  "e1cffb18c651": {
-   "dup": "5eff4a69f044"
-  },
-  "c2e8245dae06": {
-   "drop": true
-  },
-  "ba32f14ce575": {
-   "drop": true
-  },
-  "50491bbcba29": {
-   "drop": true
-  },
-  "eabd17d36f3a": {
-   "dup": "4311c148a692"
-  },
-  "c8f4a6d56dcf": {
-   "drop": true
-  },
-  "6e25d0b137f9": {
-   "drop": true
-  },
-  "475fb32eb3a1": {
-   "dup": "9671dafe8bfa"
-  },
-  "cb8e1813ce87": {
-   "drop": true
-  },
-  "d02b0cb1ccc6": {
-   "drop": true
-  },
-  "159ecb1ff190": {
-   "drop": true
-  },
-  "1e470a047f45": {
-   "drop": true
-  },
-  "20742d34c882": {
-   "drop": true
-  },
-  "a144b79be7fb": {
-   "drop": true
-  },
-  "0ee6a3e65fce": {
-   "dup": "19faad1b893f"
-  },
-  "2c360f189cc1": {
-   "drop": true
-  },
-  "cfbb313ea461": {
-   "drop": true
-  },
-  "2fffa3cee7a3": {
-   "drop": true
-  },
-  "810eb696bd16": {
-   "drop": true
-  },
-  "bf3d564f779c": {
-   "drop": true
-  },
-  "218a62a465dd": {
-   "drop": true
-  },
-  "b91d9f8a828e": {
-   "dup": "5dd773bf975f"
-  },
-  "91df05e9ec11": {
-   "dup": "e7dd0306130a"
-  },
-  "497d17aafdc3": {
-   "drop": true
-  },
-  "b9d36816ea30": {
-   "drop": true
-  },
-  "e9a8d30bc638": {
-   "dup": "c30ec60c5df6"
-  },
-  "b6298a542777": {
-   "drop": true
-  },
-  "9d30cf92582e": {
-   "dup": "3fdb4fcc5212"
-  },
-  "b8b994fde194": {
-   "drop": true
-  },
-  "3037cc9b3d33": {
-   "dup": "77be7737d3e0"
-  },
-  "acfdbc6071d2": {
-   "drop": true
-  },
-  "4a88ca73f8fb": {
-   "drop": true
-  },
-  "dda9e2b12cf0": {
-   "drop": true
-  },
-  "3ee8389392f8": {
-   "drop": true
-  },
-  "16dca8e14763": {
-   "drop": true
-  },
-  "f434ead58b0c": {
-   "drop": true
-  },
-  "722514534472": {
-   "drop": true
-  },
-  "1fc62ab1b005": {
-   "drop": true
-  },
-  "1c259bcff970": {
-   "drop": true
-  },
-  "88081c32dac2": {
-   "drop": true
-  },
-  "8fcf391a3c7a": {
-   "drop": true
-  },
-  "e13a8a540909": {
-   "drop": true
-  },
-  "cd10dbf6af32": {
-   "drop": true
-  },
-  "3ca394c52b7e": {
-   "drop": true
-  },
-  "b7ac293989fe": {
-   "drop": true
-  },
-  "263a3f3caf04": {
-   "drop": true
-  },
-  "e6f6c10d2f89": {
-   "drop": true
-  },
-  "b12fb7e81341": {
-   "drop": true
-  },
-  "64935e64dbd5": {
-   "drop": true
-  },
-  "b6ede287b2d0": {
-   "dup": "d505f03250cd"
-  },
-  "45574f4d7c55": {
-   "drop": true
-  },
-  "4e7f3ed79ffa": {
-   "drop": true
-  },
-  "4bc586235e9e": {
-   "drop": true
-  },
-  "a8bb24acef05": {
-   "dup": "00e98a1f3070"
-  },
-  "b53266c9f5cd": {
-   "drop": true
-  },
-  "4fd2cd0b533c": {
-   "drop": true
-  },
-  "fa1c048137e1": {
-   "drop": true
-  },
-  "0ee2253d7d7f": {
-   "drop": true
-  },
-  "066e46572ead": {
-   "drop": true
-  },
-  "f653ed6905d9": {
-   "drop": true
-  },
-  "61164f23e3fb": {
-   "drop": true
-  },
-  "e603ac2b0aa1": {
-   "drop": true
-  },
-  "1d5f5f3fb2ec": {
-   "drop": true
-  },
-  "811ee9cb8ec7": {
-   "drop": true
-  },
-  "455e9d24c70a": {
-   "drop": true
-  },
-  "c06249d0f1f9": {
-   "drop": true
-  },
-  "0a7727272bd4": {
-   "drop": true
-  },
-  "31f90572bb62": {
-   "drop": true
-  },
-  "90b7738a4dd2": {
-   "drop": true
-  },
-  "d2ef87f27245": {
-   "drop": true
-  },
-  "62ece1fb1145": {
-   "dup": "74efa911c983"
-  },
-  "6d1395921e8d": {
-   "drop": true
-  },
-  "5246fefac267": {
-   "drop": true
-  },
-  "778efc66af45": {
-   "dup": "aec57b25a39d"
-  },
-  "b82aec4c86d0": {
-   "drop": true
-  },
-  "de378bd9b2f1": {
-   "drop": true
-  },
-  "c56bb8489036": {
-   "drop": true
-  },
-  "9c41a513889c": {
-   "drop": true
-  },
-  "2cd94d21b408": {
-   "drop": true
-  },
-  "9797bb165628": {
-   "drop": true
-  },
-  "38280df1c81b": {
-   "drop": true
-  },
-  "4190acca4168": {
-   "drop": true
-  },
-  "8196d2066151": {
-   "drop": true
-  },
-  "5800990f05f9": {
-   "drop": true
-  },
-  "f08128be7c5c": {
-   "drop": true
-  },
-  "9c3b3b90d515": {
-   "drop": true
-  },
-  "fefe3c61501e": {
-   "drop": true
-  },
-  "0bab44666b06": {
-   "drop": true
-  },
-  "4a9bb134f643": {
-   "drop": true
-  },
-  "aea6ac98fb56": {
-   "drop": true
-  },
-  "edfcf2d46be0": {
-   "drop": true
-  },
-  "e85489238062": {
-   "drop": true
-  },
-  "f9064ac08a11": {
-   "drop": true
-  },
-  "6562f44c43d2": {
-   "drop": true
-  },
-  "c4e455b2cbd6": {
-   "drop": true
-  },
-  "1ef31cc72eed": {
-   "dup": "68d06e5a1880"
-  },
-  "a4bb5d0dea28": {
-   "drop": true
-  },
-  "fe1c642e4b59": {
-   "drop": true
-  },
-  "ba8c3f3a4ebb": {
-   "drop": true
-  },
-  "533254bf72a0": {
-   "drop": true
-  },
-  "02866995c420": {
-   "drop": true
-  },
-  "84989ed6e3be": {
-   "dup": "968fa55817bc"
-  },
-  "f3b60d7b1eb8": {
-   "drop": true
-  },
-  "281799db0744": {
-   "drop": true
-  },
-  "9476cd1bccd9": {
-   "drop": true
-  },
-  "380bdc148580": {
-   "drop": true
-  },
-  "d96c3d72332f": {
-   "dup": "68d06e5a1880"
-  },
-  "bbbbe4de29cb": {
-   "drop": true
-  },
-  "119f813263ad": {
-   "drop": true
-  },
-  "fc41d5897760": {
-   "drop": true
   },
   "4becd5c750ed": {
    "drop": true
@@ -25413,6 +24668,1519 @@
     "pharma": {
      "score": 4,
      "why": "Validates riboflavin synthesis as a potential TB drug target."
+    }
+   }
+  },
+  "ea1ef609a1d0": {
+   "cat": "deals",
+   "imp": 8,
+   "summary": "Johnson & Johnson agreed to buy Ollin Biosciences for $2.2 billion upfront plus up to $1.1 billion in milestones, about a year after Ollin launched. Ollin's lead drug OLN324, licensed from China's Innovent, blocks both VEGF and Ang2 and is in four phase 3 trials against Lucentis or Eylea in wet AMD and diabetic macular edema. Blackstone Life Sciences is providing $750 million to fund the phase 3 work. The drug would compete directly with Roche's blockbuster Vabysmo, which uses the same dual mechanism.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Big-pharma buyout of a phase 3 ophthalmology asset aimed at Roche's Vabysmo."
+    },
+    "investment": {
+     "score": 7,
+     "why": "$3.3B exit for a one-year-old startup, with Blackstone royalty-style trial funding."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Adds another dual-mechanism option for common causes of vision loss."
+    }
+   }
+  },
+  "6e30317a4c86": {
+   "dup": "ea1ef609a1d0"
+  },
+  "9d607929ca13": {
+   "dup": "ea1ef609a1d0"
+  },
+  "6777b049c18f": {
+   "dup": "ea1ef609a1d0"
+  },
+  "9eca729af1ba": {
+   "cat": "deals",
+   "imp": 6,
+   "summary": "Eli Lilly will buy Calytrix Bio for up to $1.5 billion, its 15th announced company acquisition of 2026 and more than $30 billion in deals this year. Calytrix's unnamed biparatopic antibody targets a cell-surface protein that appears in myeloproliferative neoplasms driven by CALR mutations, aiming to hit diseased cells while sparing healthy ones. The target indications are myelofibrosis and essential thrombocythemia; the upfront amount and clinical stage were not disclosed.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Another early-stage oncology buyout in Lilly's record acquisition run."
+    },
+    "investment": {
+     "score": 6,
+     "why": "$1.5B exit for a young startup underlines Lilly as the sector's main buyer."
+    }
+   }
+  },
+  "4b4ad5ef0da3": {
+   "dup": "9eca729af1ba"
+  },
+  "5339724283ee": {
+   "dup": "9eca729af1ba"
+  },
+  "394eb5b4dbbb": {
+   "cat": "funding",
+   "imp": 7,
+   "summary": "San Diego's Seawolf Therapeutics emerged from stealth with $100 million from Versant Ventures, MPM BioImpact, Alexandria, Eli Lilly, CRISPR Therapeutics and Novartis's venture arm. Its TRIDENT platform uses lipid nanoparticles to deliver DNA into cell nuclei without a virus, and doses can be repeated, addressing one of gene therapy's hardest delivery problems. It also disclosed a multi-target collaboration with Sanofi worth up to $1.2 billion in milestones, covering bleeding disorders and other indications; its own lead focus is metabolic disease.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "Redosable non-viral DNA delivery could sidestep AAV's one-shot and immunity limits."
+    },
+    "investment": {
+     "score": 7,
+     "why": "$100M launch round backed by three pharma venture arms plus a $1.2B Sanofi pact."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Sanofi bets on non-viral gene medicines for bleeding disorders."
+    }
+   }
+  },
+  "5e00f8ee933c": {
+   "dup": "394eb5b4dbbb"
+  },
+  "3608615ca030": {
+   "dup": "394eb5b4dbbb"
+  },
+  "f5ab02dd588e": {
+   "dup": "394eb5b4dbbb"
+  },
+  "adc28778ff74": {
+   "dup": "394eb5b4dbbb"
+  },
+  "c0fbaef28d5f": {
+   "dup": "185db75349bb"
+  },
+  "dcb8de0cc12d": {
+   "drop": true
+  },
+  "cba31091895b": {
+   "drop": true
+  },
+  "c5f89f1f0888": {
+   "drop": true
+  },
+  "0824280d3925": {
+   "drop": true
+  },
+  "f01f1c9f27ef": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "A BioProcess International survey found supply-chain resilience gaining weight in biopharma manufacturing decisions, with 66% of respondents placing more emphasis on it. Cost nevertheless remains the leading manufacturing consideration.",
+   "rel": {
+    "bioprocessing": {
+     "score": 5,
+     "why": "Survey of how manufacturers trade off resilience against cost."
+    }
+   }
+  },
+  "ce0762c5a393": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Researchers describe QuickXL, an open-source ultraviolet irradiation device with programmable exposure and active cooling, built for psoralen-mediated RNA photocrosslinking and similar nucleic-acid work. It aims to make UV exposure cheaper and more reproducible between labs. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "Low-cost open hardware for RNA structure and interaction assays."
+    }
+   }
+  },
+  "2a2ed3fb8e11": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A magnetic actuator-sensor assembly applies dynamic mechanical loading to engineered heart tissues in culture while measuring their function. The setup is meant to make stem-cell-derived cardiac tissues more realistic for disease modelling and drug testing. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "Instrumentation for functional testing of engineered heart tissue."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Could improve cardiac safety and efficacy screening."
+    }
+   }
+  },
+  "a9da4837f0d3": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Transfer learning on pre-trained convolutional neural networks identified filamentous fungi from culture and microscopy images, a task that normally needs specialist mycologists. Not yet peer-reviewed.",
+   "rel": {
+    "diagnostics": {
+     "score": 5,
+     "why": "Automated mould identification for clinical microbiology labs."
+    },
+    "ai": {
+     "score": 4,
+     "why": "Applies image classification models to routine lab identification."
+    }
+   }
+  },
+  "643d77d6940a": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "An antibiotic-treated mouse model tracks how intestinal botulism develops after the gut is colonised, giving researchers a way to study a rare but life-threatening infant illness that has lacked a good animal model. Not yet peer-reviewed.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Model for a rare paediatric gut infection with no good prior model."
+    }
+   }
+  },
+  "a4c997635979": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Using cues inferred from the human embryo niche, the authors bioprinted undifferentiated human iPSCs that stay pluripotent after printing and can then be expanded and specialised inside defined geometries. That combination has been hard to achieve and matters for building structured tissue models. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "Bioprinting method for stem-cell tissue models."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Relevant to manufacturing structured cell-therapy and tissue products."
+    }
+   }
+  },
+  "a71c058614b0": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Part II of a methods pair evaluates Circular-Arc Modal Migration reconstruction in compact semicircular and convex ultrasound arrays, in simulation and experiment, measuring how it changes point-response width and image quality. Not yet peer-reviewed.",
+   "rel": {
+    "meddevices": {
+     "score": 4,
+     "why": "Image reconstruction for curved ultrasound probes."
+    }
+   }
+  },
+  "e845b633ff50": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "CUSTOM-Muscle is a set of customisable, shape-tuneable PDMS scaffolds for growing oriented three-dimensional skeletal muscle in vitro, letting labs vary architecture and mechanics for disease modelling. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 4,
+     "why": "Scaffold platform for 3D muscle disease models."
+    }
+   }
+  },
+  "b901c86b33d1": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "The authors built Coli-Painting, a combinatorial staining assay, to map how E. coli cells reorganise in stationary phase, when bacteria are not growing. A genetic screen identified the genes shaping that remodelling, a state relevant to persistence and antibiotic tolerance. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 4,
+     "why": "Stationary-phase physiology matters for fermentation yields."
+    },
+    "tools": {
+     "score": 4,
+     "why": "New imaging assay for bacterial cell biology."
+    }
+   }
+  },
+  "a1a8814ed946": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Despite extensive amino-acid variation in the SARS-CoV-2 spike protein during the pandemic, the authors find the sequence changes map onto a bounded, low-dimensional physicochemical space, suggesting the virus explores a limited set of property combinations. That would help constrain which future variants are plausible. Not yet peer-reviewed.",
+   "rel": {
+    "biosecurity": {
+     "score": 4,
+     "why": "Bounds on spike variation inform variant forecasting."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Relevant to designing durable vaccines and antibodies."
+    }
+   }
+  },
+  "cc4040f288cd": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Extracellular lactate reduced HIV infection of dendritic cells by lowering CD4 expression, extending the group's earlier work on IL-27-treated dendritic cells. The finding links the metabolic microenvironment to susceptibility to infection. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Metabolic route to blocking HIV entry in immune cells."
+    }
+   }
+  },
+  "7ab95df42d70": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "SEA-Lab reports recursive self-improvement in an automated laboratory: AI-generated hypotheses and protocols are adapted to the local equipment using feedback from the experiments that actually run, closing the loop between planning and bench reality. It is an early test of whether AI scientists can work in real labs rather than on paper. Not yet peer-reviewed.",
+   "rel": {
+    "ai": {
+     "score": 7,
+     "why": "Experiment-grounded self-improvement is the hard part of AI-run labs."
+    },
+    "tools": {
+     "score": 6,
+     "why": "Lab automation tied to AI experiment design."
+    }
+   }
+  },
+  "f1ec90b34bde": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A programmable imaging approach follows DNA double-strand break repair at chosen genomic loci in live cells, showing that local chromatin state controls repair dynamics and contributes to cancer therapy resistance. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "Locus-specific imaging of repair dynamics."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Chromatin-dependent repair bears on DNA-damaging cancer drugs."
+    }
+   }
+  },
+  "9c675cde3607": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "In the bacterium Sphingopyxis granuli TFA, a kinase-phosphatase pair acts differently on two related PhyR regulators, tuning which stresses trigger the general stress response. The work refines how Alphaproteobacteria set the specificity of that response. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 3,
+     "why": "Stress-response wiring matters for robustness in industrial strains."
+    }
+   }
+  },
+  "f6bfabc0a14e": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "The transcription factor Bcr1, long seen as required for Candida albicans biofilms, turns out to act negatively on hypha-associated gene expression, complicating the picture of how this fungal pathogen switches on its invasive programme. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Antifungal target biology in a major hospital pathogen."
+    }
+   }
+  },
+  "23f17594a7e9": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A global analysis of cave microbiomes finds caves host distinctive and often endemic viral diversity that shapes nutrient cycling underground, a habitat largely missing from virus surveys. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 3,
+     "why": "Expands reference viral diversity for metagenomics."
+    }
+   }
+  },
+  "7e64c036d70e": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "O-antigen on the surface of gram-negative bacteria helps them outcompete gut microbes and evade complement during natural spread from the gut into the bloodstream, with the effect depending on the host's age. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Virulence factor biology relevant to vaccine and antibacterial design."
+    }
+   }
+  },
+  "30ec83382316": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Working in a natural mainland-island microbial system, the authors show that identifying the right metacommunity scale reconciles deterministic selection with apparently random assembly, a long-running dispute in microbial ecology. Not yet peer-reviewed.",
+   "rel": {
+    "agrifood": {
+     "score": 3,
+     "why": "Assembly rules underpin soil and plant microbiome engineering."
+    }
+   }
+  },
+  "fd8e1d202675": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Apicomplexan parasites pull host ceramide into their vacuole by inducing contacts between the host endoplasmic reticulum and the vacuole membrane and hijacking the CERT transport protein. The mechanism explains how these parasites tap host lipids to replicate. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Host lipid transport is a candidate target in malaria and toxoplasmosis."
+    }
+   }
+  },
+  "951aa23977a8": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A bone-on-a-chip with nanoscale-mineralised matrix supports signalling between osteoblasts, osteocytes and osteoclasts, reproducing bone remodelling, drug responses and cancer invasion in vitro. It gives a human model for bone diseases and metastasis that animal work has dominated. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "Organ-on-chip model reproducing full bone remodelling cycle."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Platform for bone-targeted and anti-metastatic drug testing."
+    }
+   }
+  },
+  "a53b3e8a8852": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "GradeBins assesses the quality of genomes assembled from metagenomes, judging how much of the genome was recovered and how much foreign sequence crept in, tested on synthetic and real datasets. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "Quality control for metagenome-assembled genomes."
+    }
+   }
+  },
+  "d271ab329ac1": {
+   "cat": "contracts",
+   "imp": 4,
+   "summary": "AGC Biologics said three cell therapy projects, from academic groups through to biotech companies, have moved into its new Yokohama site, which it is positioning as a development and manufacturing base for Japan's cell and gene therapy sector.",
+   "rel": {
+    "bioprocessing": {
+     "score": 6,
+     "why": "New Japanese CDMO capacity filling with cell therapy work."
+    },
+    "cellgene": {
+     "score": 5,
+     "why": "Manufacturing capacity is the main bottleneck for cell therapies in Asia."
+    }
+   }
+  },
+  "fa297f4a1610": {
+   "drop": true
+  },
+  "b5cf690b9809": {
+   "drop": true
+  },
+  "308867edb0cb": {
+   "drop": true
+  },
+  "e57e68bec779": {
+   "drop": true
+  },
+  "caba4c8d575d": {
+   "drop": true
+  },
+  "89881df47518": {
+   "drop": true
+  },
+  "1ce99f6ffb6e": {
+   "drop": true
+  },
+  "29e18ff5cf32": {
+   "drop": true
+  },
+  "d56ddc8531d9": {
+   "drop": true
+  },
+  "799ccd929f02": {
+   "drop": true
+  },
+  "18db122b2e59": {
+   "drop": true
+  },
+  "32f2dad06d3b": {
+   "drop": true
+  },
+  "18e69c1dac01": {
+   "drop": true
+  },
+  "481d530cb2f6": {
+   "drop": true
+  },
+  "3500dab1a722": {
+   "drop": true
+  },
+  "6af7ccd8098a": {
+   "drop": true
+  },
+  "d03055c45d66": {
+   "drop": true
+  },
+  "ceba78846138": {
+   "drop": true
+  },
+  "bf23f454bc60": {
+   "drop": true
+  },
+  "8a0612e51464": {
+   "drop": true
+  },
+  "74785cb5a34f": {
+   "drop": true
+  },
+  "d4686d7458bf": {
+   "drop": true
+  },
+  "d05094dc8a28": {
+   "drop": true
+  },
+  "eca11d5e6736": {
+   "drop": true
+  },
+  "94f9d6ba1416": {
+   "drop": true
+  },
+  "b32d380b259e": {
+   "drop": true
+  },
+  "204703fe0392": {
+   "drop": true
+  },
+  "5bcb330d21b5": {
+   "drop": true
+  },
+  "470b6279d235": {
+   "drop": true
+  },
+  "bbdb436d36af": {
+   "drop": true
+  },
+  "11f7898d0cc2": {
+   "drop": true
+  },
+  "84fce521c8a5": {
+   "drop": true
+  },
+  "983a01aea59d": {
+   "drop": true
+  },
+  "c69df7f6c540": {
+   "drop": true
+  },
+  "2529d14f139e": {
+   "drop": true
+  },
+  "bd1c81be5369": {
+   "drop": true
+  },
+  "b0aa389dd4ad": {
+   "drop": true
+  },
+  "ddab4739a7b3": {
+   "drop": true
+  },
+  "3bc5b33bbaa0": {
+   "drop": true
+  },
+  "99dbf87335e5": {
+   "drop": true
+  },
+  "dea4e3e031ef": {
+   "drop": true
+  },
+  "4527e5bba52f": {
+   "drop": true
+  },
+  "b0e3749fe111": {
+   "drop": true
+  },
+  "c40e30ab6bff": {
+   "drop": true
+  },
+  "58b2e336fdd9": {
+   "drop": true
+  },
+  "c387b73fabef": {
+   "drop": true
+  },
+  "8bb7437d1934": {
+   "drop": true
+  },
+  "a6b3c4b7b043": {
+   "drop": true
+  },
+  "a73792be4a06": {
+   "drop": true
+  },
+  "4023bf84522d": {
+   "drop": true
+  },
+  "89b4af15b0ab": {
+   "drop": true
+  },
+  "c1b371f2b74f": {
+   "drop": true
+  },
+  "b8439c4f9c50": {
+   "drop": true
+  },
+  "8bd69f54b683": {
+   "drop": true
+  },
+  "e499ee7d6008": {
+   "drop": true
+  },
+  "5d026a2b6800": {
+   "drop": true
+  },
+  "a761496582d4": {
+   "drop": true
+  },
+  "0305379012cf": {
+   "drop": true
+  },
+  "37d761227c71": {
+   "drop": true
+  },
+  "a5eed8ec11da": {
+   "drop": true
+  },
+  "8bd15359ae3d": {
+   "drop": true
+  },
+  "622d9c8ee0b1": {
+   "cat": "clinical",
+   "imp": 8,
+   "summary": "CG Oncology's oncolytic immunotherapy cretostimogene cut the risk of tumour recurrence by 68% in the phase 3 PIVOT-006 trial, which randomised 367 patients with intermediate-risk or high-grade Ta non-muscle invasive bladder cancer to the drug or surveillance after complete resection. The hazard ratio for recurrence-free survival was 0.32 (p<0.0001) at a median 17 months, with no grade 3 or higher treatment-related side effects and no treatment-related discontinuations. The company plans a BLA in the second quarter of 2027 and says the result could change practice in a group usually managed with watchful waiting.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Large recurrence benefit in a bladder cancer group with no standard drug therapy."
+    },
+    "cellgene": {
+     "score": 5,
+     "why": "Oncolytic viral immunotherapy delivered into the bladder."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Could replace surveillance after resection for intermediate-risk patients."
+    }
+   }
+  },
+  "50add9f6cc5c": {
+   "dup": "622d9c8ee0b1"
+  },
+  "6e0cf7fdc9e3": {
+   "dup": "622d9c8ee0b1"
+  },
+  "4475a56988b4": {
+   "cat": "clinical",
+   "imp": 7,
+   "summary": "Helus Pharma's HLP003, a chemically modified (deuterated) psilocin given on top of a stable antidepressant, met the primary endpoint of the 222-patient phase 3 APPROACH trial, cutting depression scores by 19.5 points against 11.9 for placebo at six weeks. Investors focused on safety: three treatment-related serious adverse events were reported, two of worsening depression and one suicide attempt, and the shares fell about 17%. A second pivotal trial, EMBRACE, reports in the fourth quarter of 2027.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "First phase 3 win for a modified psychedelic in major depression, shadowed by safety."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Would add an adjunctive option for treatment-resistant depression."
+    }
+   }
+  },
+  "b7d79c188912": {
+   "dup": "4475a56988b4"
+  },
+  "f15cd77d1664": {
+   "dup": "4475a56988b4"
+  },
+  "3b2f71ed99fb": {
+   "cat": "regulatory",
+   "imp": 8,
+   "summary": "The FDA approved Roche's Wilserdly (giredestrant), an oral selective estrogen receptor degrader, for adults with HR-positive, HER2-negative advanced breast cancer carrying an ESR1 mutation. Approval rests on the evERA trial, where the drug lengthened the time before tumours progressed. Roche has said giredestrant could become its biggest-selling product ever, and the company is also seeking approval in early-stage disease.",
+   "rel": {
+    "pharma": {
+     "score": 9,
+     "why": "Approval of an oral SERD Roche expects to be its top-selling medicine."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "New oral option for the most common form of advanced breast cancer."
+    }
+   }
+  },
+  "f979ed6691c6": {
+   "cat": "regulatory",
+   "imp": 7,
+   "summary": "AstraZeneca and Alexion won FDA approval for Klygefa (gefurulimab), a once-weekly, self-administered C5 inhibitor for adults with anti-acetylcholine receptor antibody positive generalised myasthenia gravis, alongside approval in Europe. It extends AstraZeneca's complement franchise beyond the infused Soliris and Ultomiris, but enters a market now crowded with FcRn blockers and other complement drugs.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Self-administered C5 inhibitor defends AstraZeneca's complement franchise."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Weekly self-injection instead of infusions for gMG patients."
+    }
+   }
+  },
+  "abdf9dfd7e0d": {
+   "dup": "f979ed6691c6"
+  },
+  "0f839850067a": {
+   "cat": "regulatory",
+   "imp": 6,
+   "summary": "Roche's anti-CD20 antibody Gazyva won the first FDA approval in primary membranous nephropathy, a leading cause of nephrotic syndrome in adults, adding a third immune indication as the drug loses ground in blood cancer. The expansion continues Roche's push to redeploy Gazyva in autoimmune kidney disease.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Extends an ageing oncology antibody into autoimmune kidney disease."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "First approved therapy specifically for primary membranous nephropathy."
+    }
+   }
+  },
+  "0e6410a5e44d": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "The FDA proposed a new regulatory category, \"Dietary Ingredient Not Excluded from the Dietary Supplement Definition\", with N-acetyl-L-cysteine as the first entry. NAC has been sold widely for years but sat in a legal grey area because the FDA approved it as a drug in 1963 and 1974 and its rules bar approved drugs from being sold as supplements. STAT frames the move as a win for the Make America Healthy Again camp, and the category could be used for other contested ingredients.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Changes how a widely used supplement ingredient is regulated."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Creates a route around the rule separating approved drugs from supplements."
+    }
+   }
+  },
+  "11f32c2292d2": {
+   "cat": "policy",
+   "imp": 8,
+   "summary": "Shanghai authorities dismissed two researchers, from Shanghai Jiao Tong University and Xinhua Hospital, after an investigation into the death of a child who received an experimental brain gene-editing injection for Snijders Blok-Campeau syndrome in March 2025. Investigators found the team did not promptly pass a primate safety report to the trial's lead investigator, and that a Nature paper omitted liver and kidney damage seen in animals. Both are barred from state science programmes and awards for five years, the lead investigator and an official were demoted, and the hospital was penalised.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "Sanctions over a fatal in-vivo brain gene-editing attempt set a precedent for the field."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Raises the bar for preclinical disclosure in first-in-human editing studies."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Oversight failures in a fatal paediatric trial affect patient protection rules."
+    }
+   }
+  },
+  "8c502298e280": {
+   "dup": "11f32c2292d2"
+  },
+  "b24c437c3dc8": {
+   "dup": "11f32c2292d2"
+  },
+  "ad750220947e": {
+   "cat": "deals",
+   "imp": 6,
+   "summary": "Eli Lilly signed a multi-target, multi-modality oncology research collaboration with Cambridge, Massachusetts startup Stipple Bio worth up to $5.9 billion in milestones plus royalties, with an undisclosed upfront payment and equity investment. Stipple's Pointillist platform finds tumour-specific cell-surface epitopes, which Lilly would pair with its own antibody, ADC and engager technologies. It is another large early-stage bet in Lilly's unusually heavy dealmaking year.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Multibillion-dollar biobucks deal for tumour-specific surface targets."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Equity plus milestones for a young platform company."
+    }
+   }
+  },
+  "408fae5d7e7e": {
+   "dup": "ad750220947e"
+  },
+  "3df5cb5d8f04": {
+   "cat": "deals",
+   "imp": 5,
+   "summary": "Biogen and Cambridge, UK-based TrimTech Therapeutics agreed a collaboration worth up to $411 million in milestones to develop targeted protein degraders for neurodegenerative diseases. The deal adds to Biogen's neurology pipeline and to a run of pharma interest in degrader approaches for proteins that conventional drugs cannot reach.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Degrader deal aimed at hard neurodegeneration targets."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Validation for a UK degrader startup."
+    }
+   }
+  },
+  "bd2b816d7892": {
+   "cat": "deals",
+   "imp": 5,
+   "summary": "Medtronic agreed to buy privately held Contego Medical for $380 million plus potential post-closing payments. Contego brings the Neuroguard IEP carotid stent system, which has built-in embolic protection, and the Excipio thrombectomy device, expanding Medtronic's carotid and peripheral vascular range. The deal is expected to close in Medtronic's fiscal third quarter.",
+   "rel": {
+    "meddevices": {
+     "score": 7,
+     "why": "Adds carotid stenting with integrated embolic protection to Medtronic's portfolio."
+    },
+    "investment": {
+     "score": 4,
+     "why": "$380M medtech acquisition with earnouts."
+    }
+   }
+  },
+  "896863663a9f": {
+   "dup": "44d9a66b8250"
+  },
+  "6370d0a0ffb9": {
+   "dup": "44d9a66b8250"
+  },
+  "25e22c5496e2": {
+   "dup": "0c7ddf6efb5f"
+  },
+  "834e8e8e8693": {
+   "cat": "funding",
+   "imp": 5,
+   "summary": "Bloomberg reported that Leo Pharma's owners have delayed the Danish dermatology company's planned 2026 initial public offering because of market volatility. The postponement is a counterpoint to a run of successful biotech listings, including Windward Bio's $251 million IPO closing this week.",
+   "rel": {
+    "investment": {
+     "score": 6,
+     "why": "A large planned listing pulled while smaller biotech IPOs price."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Leaves Leo Pharma privately held for longer."
+    }
+   }
+  },
+  "469bf919c6fa": {
+   "dup": "54c7a153242d"
+  },
+  "f428fc926a08": {
+   "cat": "funding",
+   "imp": 5,
+   "summary": "STAT examined why biotech's strong year is not lifting the whole sector: investors are rewarding large caps and selected deals while often shrugging at positive clinical data from smaller companies. The piece argues the rebound is narrow, which matters for small-cap financing.",
+   "rel": {
+    "investment": {
+     "score": 7,
+     "why": "Analysis of how narrow the 2026 biotech rebound is."
+    }
+   }
+  },
+  "6dba4e54459e": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "A new STAT-WireScreen index ranking China's most valuable listed biotech companies put BeOne Medicines and Jiangsu Hengrui at the top. The list is a snapshot of how far Chinese drugmakers have risen as licensing deals with Western pharma multiply.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Ranks the Chinese companies now supplying much of Western pharma's pipeline."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Market-value view of China's biotech leaders."
+    }
+   }
+  },
+  "3b213305e4bb": {
+   "dup": "6dba4e54459e"
+  },
+  "09d96905405d": {
+   "dup": "547038a27d40"
+  },
+  "cf6e0472969b": {
+   "cat": "regulatory",
+   "imp": 6,
+   "summary": "The FDA cleared MiniMed Fit, the company's first tubeless insulin patch pump, for type 1 and type 2 diabetes from age seven. It can be worn up to seven days with no charging or cartridge changes, holds 300 units of insulin and includes a meal detection algorithm. A phased US launch is planned for spring 2027, putting it against Insulet's Omnipod and Tandem's newly cleared tubeless Mobi option.",
+   "rel": {
+    "meddevices": {
+     "score": 8,
+     "why": "Medtronic's spun-out diabetes unit finally enters the tubeless pump market."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Seven-day wear without charging changes the routine for pump users."
+    }
+   }
+  },
+  "850dc37a31fc": {
+   "dup": "cf6e0472969b"
+  },
+  "eed34d317196": {
+   "dup": "eb5facdf32d8"
+  },
+  "9a2c5c7a40e4": {
+   "cat": "clinical",
+   "imp": 7,
+   "summary": "Eisai presented five-year data at CTAD 2026 from the Clarity AD long-term extension, in which 351 early Alzheimer's patients stayed on lecanemab. Against the external ADNI comparison, the difference in CDR-SB reached 2.05 points at five years (2.54 points versus BioFINDER), with a 36% lower relative risk of progressing to the next disease stage and 49% lower risk of reaching moderate or severe disease. Among low-tau patients, 62% improved on CDR-SB. Brain swelling (ARIA-E) ran at 13.5% in the first year and 0.6% by the final interval.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Longest continuous data yet for an approved anti-amyloid antibody."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Supports treating early and continuing for years, against external controls."
+    }
+   }
+  },
+  "35a63f6bdece": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "AriBio's AR1001, a repurposed phosphodiesterase-5 inhibitor of the same class as sildenafil, produced only tepid results in Alzheimer's disease, Endpoints reported from CTAD. Observational data had suggested men taking erectile dysfunction drugs develop Alzheimer's less often, and the readout tests that idea directly in a trial.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Weak result for a much-discussed drug repurposing hypothesis in Alzheimer's."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Dampens hopes for a cheap generic-class Alzheimer's option."
+    }
+   }
+  },
+  "2ef43587eaa3": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Aclaris Therapeutics dropped bosakitug from its pipeline after the anti-TSLP antibody missed the primary endpoint of a phase 2 trial in atopic dermatitis. It adds to a run of disappointments for TSLP-blocking antibodies in eczema, where the pathway has worked far less well than in asthma.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Another TSLP antibody failure narrows the pathway's use in eczema."
+    }
+   }
+  },
+  "c8f638dc7b70": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "IDEAYA Biosciences said a Type C meeting with the FDA cleared the design of its registrational programme for IDE849, a DLL3-targeted TOP1 antibody-drug conjugate in neuroendocrine carcinomas. A single-arm extension cohort of about 90 refractory GEP-NEC patients, with response rate by blinded review as the primary endpoint, would support possible accelerated approval, followed by a randomised phase 3 across refractory NEC subtypes for full approval.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Agreed accelerated-approval path for a DLL3 ADC in a rare cancer."
+    }
+   }
+  },
+  "76526fb4fb01": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Corxel presented full phase 2 results for CX11 at ObesityWeek 2026: all four dose regimens produced mean weight loss of 9.3% to 11.5% at 36 weeks against 3.1% for placebo, with the company saying no weight plateau was seen. Corxel says the data support moving into late-stage testing in a field dominated by Lilly and Novo Nordisk.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Mid-stage obesity data from a China-linked challenger, by company account."
+    }
+   }
+  },
+  "d4a0f0683578": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Corbus Pharmaceuticals presented phase 1b CANYON-1 data for CRB-913, its peripherally restricted CB1 inverse agonist for obesity, at ObesityWeek 2026. The company is positioning the drug as a mechanism that avoids the central nervous system effects that sank earlier CB1 drugs.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Early data for a non-incretin obesity mechanism."
+    }
+   }
+  },
+  "46fe260fe1ca": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "IN8bio reported updated SNO 2026 data for its gamma-delta T cell therapy in newly diagnosed glioblastoma, with median overall survival of 20.9 months and 50% of patients alive at two years in its small trial, against historical survival of around 15 to 16 months. The company presents the results as support for further development; the numbers come from an uncontrolled study.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Gamma-delta T cells show a survival signal in a solid tumour."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Glioblastoma has had almost no survival gains in two decades."
+    }
+   }
+  },
+  "be519d9b9b48": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Diakonos Oncology presented phase 1 data for DOC1021, a dendritic cell vaccine, showing what it calls an encouraging survival signal in newly diagnosed glioblastoma at SNO 2026. The study is small and single-arm.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "Dendritic cell vaccine data in glioblastoma."
+    }
+   }
+  },
+  "ca5a0a2aa5da": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Rein Therapeutics reported preliminary blinded phase 2 RENEW data that it says show encouraging lung function trends for its treatment in idiopathic pulmonary fibrosis, alongside third-quarter results. The data are blinded and preliminary, so no comparison with placebo can be drawn yet.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Early signal in a fibrosis field where most drugs have failed."
+    }
+   }
+  },
+  "b6177a114c82": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Humacyte reported long-term data on its acellular tissue-engineered vessel from 52 patients across five trials, some implanted for more than five years, finding minimal lipid build-up and no evidence of vulnerable plaques. The company argues this makes its bioengineered vessel less prone to atherosclerosis than synthetic grafts.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Durability data for an engineered vascular conduit."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Tissue-engineered implant with multi-year follow-up."
+    }
+   }
+  },
+  "c6312a4a7e6d": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "BioVie presented biomarker data from its phase 2 ADDRESS-LC trial identifying two biomarker-defined long COVID subtypes that it says responded differently to bezisterim, with neuropeptide Y among the markers. The analysis is exploratory.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Subtyping attempt in long COVID drug development."
+    }
+   }
+  },
+  "61ceafb44f70": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "NKGen Biotech reported long-term observations of its natural killer cell therapy troculeucel in Alzheimer's disease, centred on a single patient whose CDR-SB score improved from 11 to 7 within three months and stayed in the mild range. A single case cannot establish benefit.",
+   "rel": {
+    "cellgene": {
+     "score": 4,
+     "why": "NK cell therapy tried in neurodegeneration."
+    }
+   }
+  },
+  "04db903dc6ef": {
+   "cat": "funding",
+   "imp": 4,
+   "summary": "Allarta Life Science received a Breakthrough T1D award to push its Canadian-developed cell therapy for type 1 diabetes towards the clinic. Its approach encapsulates insulin-producing cells to avoid lifelong immunosuppression, the main hurdle for islet replacement.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "Encapsulated islet cell therapy moving toward trials."
+    }
+   }
+  },
+  "1d3f815395c7": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Precision Neuroscience and Team Gleason set up a partnership to channel feedback from people living with ALS into brain-computer interface development, along with joint education for patients and clinicians.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Patient input channel for a leading BCI developer."
+    }
+   }
+  },
+  "4b6ef68fbe2e": {
+   "cat": "contracts",
+   "imp": 4,
+   "summary": "10x Genomics announced two research collaborations, with Charité and the DRFZ in Berlin and with Seoul National University, to look for blood-based biomarkers of autoimmune disease activity and treatment response using its Flex Apex platform. The work extends single-cell profiling from tissue biopsies to routine blood samples.",
+   "rel": {
+    "tools": {
+     "score": 7,
+     "why": "Flagship single-cell platform pushed into blood-based autoimmune profiling."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "Aimed at blood tests for disease activity and drug response."
+    }
+   }
+  },
+  "047d7302cafd": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Apple and clinical AI company OpenEvidence launched a study and app to examine what drives consumer trust in conversational health AI and how accurate its answers are. Apple could use the findings in its own health products, which would bring medical question-answering to a very large consumer base.",
+   "rel": {
+    "ai": {
+     "score": 7,
+     "why": "Apple enters consumer medical question-answering with a clinical AI firm."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Tests whether patients trust and act on AI health answers."
+    }
+   }
+  },
+  "8c92f5ac5627": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "Nature Medicine published an open agentic AI co-scientist built for clinical and biomedical discovery, which plans and runs research steps rather than only answering questions. Publishing it openly lets other groups test how far such systems can take real biomedical projects.",
+   "rel": {
+    "ai": {
+     "score": 8,
+     "why": "Peer-reviewed, openly available agentic co-scientist for biomedicine."
+    },
+    "tools": {
+     "score": 5,
+     "why": "Research automation layered on existing data and literature."
+    }
+   }
+  },
+  "315491639184": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "A Nature Biotechnology paper describes an adeno-associated virus variant targeted to CD7 that engineers T cells and NK cells inside the body. In-vivo engineering would avoid the cost and delay of harvesting, modifying and reinfusing a patient's own cells, the main constraint on CAR-T access.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "In-vivo CAR delivery is the field's main route past manufacturing bottlenecks."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Could widen access to cell therapy if it holds up in humans."
+    }
+   }
+  },
+  "aa2416bdf15b": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Researchers used CRISPR tools aimed at enhancers to raise expression of the healthy copy of a gene in human neurons and organoids carrying CHD8 or SCN2A mutations, two of the strongest autism-linked genes. Treated organoids overgrew less and neuronal electrical activity moved closer to normal, supporting dosage correction rather than gene replacement as a strategy.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "Enhancer-targeted editing to tune gene dosage in neurodevelopmental disease."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Points to a tractable approach for single-gene autism syndromes."
+    }
+   }
+  },
+  "badcbc7d118f": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A method called Superb-seq pairs Cas9 editing with single-cell RNA sequencing, revealing in each cell which edits happened, including off-target ones, and how they changed gene expression. It gives a clearer read on the consequences of genome editing than bulk sequencing of the DNA alone.",
+   "rel": {
+    "tools": {
+     "score": 7,
+     "why": "Single-cell readout of on- and off-target edit consequences."
+    },
+    "cellgene": {
+     "score": 6,
+     "why": "Safety assessment tool for edited cell products."
+    }
+   }
+  },
+  "04a77a794238": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Researchers studying how gut microbes modify bile acids found that particular metabolic activity in the microbiome tracks with exceptional human longevity, and that boosting the same activity with engineered bacteria reproduced effects in models. The work ties a specific microbial chemistry to healthy ageing rather than to microbiome composition alone.",
+   "rel": {
+    "industrial": {
+     "score": 5,
+     "why": "Engineered bacteria used to amplify a beneficial metabolic activity."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Bile acid modification as a target for ageing-related intervention."
+    },
+    "agrifood": {
+     "score": 3,
+     "why": "Relevant to probiotic and dietary strategies."
+    }
+   }
+  },
+  "c2761a4a606b": {
+   "drop": true
+  },
+  "13b634271601": {
+   "drop": true
+  },
+  "91fb89d008f6": {
+   "drop": true
+  },
+  "83578b4124e7": {
+   "drop": true
+  },
+  "4fef4ca2dd25": {
+   "drop": true
+  },
+  "5b5ff6ba0501": {
+   "drop": true
+  },
+  "c4df69205a5d": {
+   "drop": true
+  },
+  "6c146078475b": {
+   "drop": true
+  },
+  "f31a3caa058a": {
+   "drop": true
+  },
+  "5f62583ea23f": {
+   "drop": true
+  },
+  "c966c5be5115": {
+   "drop": true
+  },
+  "6c0931c75480": {
+   "drop": true
+  },
+  "7722e0c6afa2": {
+   "drop": true
+  },
+  "29ef082dc83b": {
+   "drop": true
+  },
+  "6a7679923926": {
+   "drop": true
+  },
+  "5bf8c6957bb1": {
+   "drop": true
+  },
+  "45b32d3a5caf": {
+   "drop": true
+  },
+  "d67c5537108b": {
+   "drop": true
+  },
+  "3261cdc51561": {
+   "drop": true
+  },
+  "2901e43c737e": {
+   "drop": true
+  },
+  "52202ed72011": {
+   "drop": true
+  },
+  "cc031e7d82ba": {
+   "drop": true
+  },
+  "2899d369c9c4": {
+   "drop": true
+  },
+  "527021790ec4": {
+   "drop": true
+  },
+  "3fbf724d59c0": {
+   "drop": true
+  },
+  "fa0dceed502f": {
+   "drop": true
+  },
+  "11d932dac091": {
+   "drop": true
+  },
+  "5d77b1ce96b0": {
+   "drop": true
+  },
+  "e459650e8bf9": {
+   "drop": true
+  },
+  "ce3841ad3f77": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "HK inno.N said its GERD drug K-CAB (tegoprazan) has been approved in Brazil, where partner Eurofarma will sell it as TREV. Brazil is one of the larger markets for the Korean potassium-competitive acid blocker, which the company has been licensing out country by country.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Latin American approval extends a Korean drug's export footprint."
+    }
+   }
+  },
+  "d704e6447783": {
+   "cat": "contracts",
+   "imp": 4,
+   "summary": "Celltrion won a Brazilian federal government tender to supply about one million vials of Herzuma, its trastuzumab biosimilar for breast and gastric cancer. Public tenders are the main route into Brazil for biosimilars, and the volume adds to Celltrion's recent portfolio expansion there.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Large public-tender biosimilar supply win in Brazil."
+    }
+   }
+  },
+  "f739bafbf597": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Apotex launched axitinib tablets in the United States, the first generic version of Pfizer's Inlyta, a kinase inhibitor used in advanced kidney cancer. Generic entry typically cuts the price of the branded drug sharply.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "First generic of Inlyta opens price competition in kidney cancer."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Lower-cost access to a targeted kidney cancer therapy."
+    }
+   }
+  },
+  "49c7cdb82069": {
+   "cat": "contracts",
+   "imp": 3,
+   "summary": "Volition expanded its contract with Fujifilm to include the Nu.Q Vet test for cats, extending its blood-based cancer screening into Japan's roughly nine million cat population. The company says it would be the first simple blood-based liquid biopsy test for feline cancer.",
+   "rel": {
+    "diagnostics": {
+     "score": 5,
+     "why": "Veterinary liquid biopsy expanded to cats via a Fujifilm deal."
+    }
+   }
+  },
+  "8830ea2d8abf": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Vitamin B12 largely reversed developmental abnormalities in worms carrying a mutation linked to Verheij syndrome, a rare disorder causing growth problems and developmental delay, and similar metabolic signs appeared in related models. If it holds in patients, an inexpensive vitamin could treat part of the syndrome, but the work is in model organisms.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Cheap intervention candidate for a rare developmental disorder."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Metabolic route into a genetic syndrome with no treatment."
+    }
+   }
+  },
+  "0baf2c27ca6a": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "New research reported that biological sex, genetics and menopause shape Alzheimer's risk, treatment response and chronic pain conditions such as fibromyalgia, with differences the authors argue are large enough to affect how trials are designed and read.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Sex differences in drug response affect Alzheimer's and pain trials."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Supports sex-specific risk assessment and treatment."
+    }
+   }
+  },
+  "96fc81785713": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Lund University researchers reported that an ancient retrovirus which infected chimpanzees millions of years ago left sequences that help shape how human brains develop, offering one explanation for differences from our closest relatives. The work adds to evidence that domesticated viral elements regulate human neurodevelopment.",
+   "rel": {
+    "tools": {
+     "score": 3,
+     "why": "Endogenous retroviral elements as regulators in neural models."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Background biology for human brain development."
+    }
+   }
+  },
+  "8828f64bf323": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A gene variant inherited from Neanderthals, carried by about 20% of people with European ancestry, is linked to lower odds of schizophrenia and to differences in brain structure, Science reported. It is one of the clearer examples of archaic human DNA affecting present-day disease risk.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Ancient variant linked to schizophrenia risk and brain structure."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Points to a biological pathway in psychiatric risk."
+    }
+   }
+  },
+  "571177f7dce0": {
+   "dup": "8828f64bf323"
+  },
+  "a5635efae4f6": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Scientific American reported that hormone therapy may improve cognition after menopause, with the size of any benefit depending on a woman's genetics and on which type of hormone therapy is prescribed. The nuance matters in a field where blanket conclusions have repeatedly been revised.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Bears on prescribing hormone therapy for cognitive outcomes."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Genotype-dependent response in a very widely used therapy class."
+    }
+   }
+  },
+  "e73e97b426e6": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "Science reported that John Powers III, a physician and longtime NIH contractor who has been acting director of the National Institute of Allergy and Infectious Diseases since June, will become its permanent director. The appointment comes as the institute shifts priorities away from HIV and biodefence, a change with wide consequences for US infectious disease and biosecurity funding.",
+   "rel": {
+    "biosecurity": {
+     "score": 7,
+     "why": "NIAID's biodefence portfolio is being deprioritised under the new director."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "NIAID funding shapes vaccine and antiviral pipelines."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Leadership and priorities of the main US infectious disease funder."
+    }
+   }
+  },
+  "e9180bbc2c71": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "The UK Health Security Agency published its week 47 national norovirus and rotavirus report, summarising laboratory surveillance and enteric virus outbreaks in England for the 2026-27 season, with data up to 15 November.",
+   "rel": {
+    "biosecurity": {
+     "score": 5,
+     "why": "Routine national surveillance of winter enteric viruses."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Tracks outbreak pressure on hospitals and care homes."
+    }
+   }
+  },
+  "0d85fb477707": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "The MHRA published its Strategy to 2030, setting out how the UK regulator intends to support health and economic growth through what it calls scientific excellence. It says AI, cell and gene therapies and precision medicine need new approaches to evidence, trial design, manufacturing oversight and post-market safety monitoring, and frames the agency's role in keeping the UK competitive in life sciences.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Signals how UK trials and approvals will be handled."
+    },
+    "cellgene": {
+     "score": 5,
+     "why": "Promises new evidence and manufacturing frameworks for advanced therapies."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Sets how UK medicines and devices will be regulated to 2030."
+    }
+   }
+  },
+  "897ffd9b7195": {
+   "cat": "contracts",
+   "imp": 5,
+   "summary": "Asimov and Emergent BioSolutions announced a cell line development partnership covering two monoclonal antibodies against Ebola, part of Emergent's health preparedness work on medical countermeasures. Asimov will use its CHO Edge system, which combines a GS knock-out CHO host, a hyperactive transposase, a parts library and AI-driven design software.",
+   "rel": {
+    "biosecurity": {
+     "score": 7,
+     "why": "Cell line work for Ebola countermeasure antibodies."
+    },
+    "bioprocessing": {
+     "score": 6,
+     "why": "Designed CHO expression system applied to countermeasure manufacturing."
+    },
+    "tools": {
+     "score": 4,
+     "why": "AI-assisted genetic design in cell line development."
+    }
+   }
+  },
+  "1bd4b1097e63": {
+   "cat": "other",
+   "imp": 6,
+   "summary": "Swedish agricultural cooperative Lantmännen launched NordPea, a premium pea protein isolate developed with Ingredion, two years after the partners teamed up. It will be made at Lantmännen's upcoming 100 million euro biorefinery, giving Europe another large domestic plant protein source as food makers look to cut reliance on imports.",
+   "rel": {
+    "agrifood": {
+     "score": 8,
+     "why": "New European pea protein isolate tied to a 100 million euro plant."
+    },
+    "industrial": {
+     "score": 6,
+     "why": "Biorefinery capacity for plant protein fractionation."
+    },
+    "fermentation": {
+     "score": 3,
+     "why": "Adds a feedstock option alongside fermented proteins."
+    }
+   }
+  },
+  "ae1a48945b21": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Green Queen set out how India's alternative protein sector has shifted from making substitutes to building scale across a broader protein story, and argues new funding mechanisms are the main thing needed for its next phase. India combines large domestic demand with low-cost manufacturing, so the sector matters beyond its current size.",
+   "rel": {
+    "agrifood": {
+     "score": 7,
+     "why": "State of India's smart protein industry and its financing gap."
+    },
+    "fermentation": {
+     "score": 5,
+     "why": "Covers fermentation-derived protein capacity in India."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Identifies funding mechanisms as the binding constraint."
+    }
+   }
+  },
+  "09992a3789c6": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Labiotech reviewed the TL1A antibody class, where late-stage trials in inflammatory bowel disease are accumulating and the first candidates are approaching the market. The class has drawn multibillion-dollar deals from large pharma, so the readouts carry weight beyond the companies involved.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Overview of a late-stage immunology class with heavy pharma investment."
+    }
+   }
+  },
+  "509bd0feb026": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "The Scientist interviewed EXIT071's Yuliya Shakalisava on a microfluidic chip that separates exosome subpopulations by electrophoretic mobility, and on why sample preparation, not detection, is the limiting step in liquid biopsy. Sorting extracellular vesicle subtypes is a prerequisite for using them as diagnostic markers.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "Microfluidic separation of exosome subpopulations."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "Sample prep is the bottleneck for liquid biopsy using vesicles."
+    }
+   }
+  },
+  "31e17712a86f": {
+   "cat": "funding",
+   "imp": 3,
+   "summary": "Yale School of Medicine received a $10 million gift funding a five-year, multi-investigator programme aimed at reversing and ultimately curing type 1 diabetes.",
+   "rel": {
+    "cellgene": {
+     "score": 4,
+     "why": "Philanthropic funding for type 1 diabetes reversal research."
+    }
+   }
+  },
+  "ce1f971703f2": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Photon launched a prescribing integration for ChatGPT, letting clinicians draft, review and send prescriptions from the chatbot while patients compare pharmacies on price and convenience. Putting prescribing inside a general-purpose chatbot raises obvious oversight questions, and the company says clinician review stays in the loop.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "Prescription workflow placed inside a consumer chatbot."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Changes where prescriptions are written and how pharmacies are chosen."
+    }
+   }
+  },
+  "740c191ffb87": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Sempre Health launched Atlas, an AI voice service for life science hub programmes, payers and pharmacy benefit managers, handling the calls that delay patients getting their medicines. The company says it builds on relationships with 19 health plans and PBMs.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "Voice agents applied to medication access calls."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Targets administrative delays in getting prescriptions filled."
+    }
+   }
+  },
+  "a154fecb9ba9": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "STAT reported a warning that access to newer GLP-1 obesity drugs is becoming the next major global access battleground, following the pattern of HIV and hepatitis C medicines, as low- and middle-income countries face prices far above local health budgets while obesity rises fastest there. Patents on the newer agents run well beyond the semaglutide generics due in some markets.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Pricing and licensing pressure on the industry's biggest franchise."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Access gap where obesity burden is growing fastest."
+    }
+   }
+  },
+  "da58dfc8e9b8": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature comment argues that researchers assessing whether a sixth mass extinction is under way must draw on natural history collections, because weak crosstalk between disciplines is limiting how well scientists can measure human alteration of biodiversity.",
+   "rel": {
+    "agrifood": {
+     "score": 3,
+     "why": "Biodiversity baselines underpin agricultural and ecosystem policy."
     }
    }
   }
@@ -26142,6 +26910,56 @@
     "healthcare": {
      "score": 4,
      "why": "Long-term Leqembi data and lower-ARIA drugs bear on how Alzheimer's treatment is delivered."
+    }
+   }
+  },
+  {
+   "id": "2026-11-16-iqvia-nine-in-ten-launches-unprofitable",
+   "title": "Rising costs leave 9 in 10 new medicines unprofitable, IQVIA finds",
+   "url": "https://www.biospace.com/business/rising-costs-leave-9-in-10-new-medicines-unprofitable-iqvia-finds",
+   "source": "BioSpace",
+   "kind": "news",
+   "published": "2026-11-16T12:00:00Z",
+   "cat": "other",
+   "imp": 7,
+   "summary": "An IQVIA analysis of 825 novel medicines launched in the United States between 1991 and 2020 projects that about 90% of those launched in 2016-2020 will never cover their costs, against roughly half of early-1990s launches that earned positive returns. Break-even sales have risen from $1.4 billion for 1991-1995 launches to $11.9 billion for 2016-2020, as capitalised R&D cost per medicine went from about $366 million to $3.2 billion while median lifetime sales fell from $1.5 billion to $1 billion. Around 10% of launches make $10 billion or more and account for 56% of industry revenue.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Quantifies how far launch economics have deteriorated across three decades."
+    },
+    "investment": {
+     "score": 7,
+     "why": "Concentration of returns in a tenth of launches shapes how pipelines are financed."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Launch economics shape which medicines reach patients and at what price."
+    }
+   }
+  },
+  {
+   "id": "2026-11-16-zya-series-a-enzyme-sugar-fibre",
+   "title": "Zya raises $15m Series A to turn food sugar into prebiotic fibre with a precision-fermented enzyme",
+   "url": "https://agfundernews.com/exclusive-zya-raises-15-5m-to-rethink-sugar-reduction-no-reformulation-required",
+   "source": "AgFunderNews",
+   "kind": "news",
+   "published": "2026-11-16T09:00:00Z",
+   "cat": "funding",
+   "imp": 6,
+   "summary": "UK startup Zya closed a $15 million (£11.5 million) Series A led by Astanor, with Ahren Innovation Capital, Red Bull Ventures, Zubi Capital, Phase Change and Meach Cove Capital joining. Its product Convero is a precision-fermented enzyme that converts roughly 30% of the sugar in a food into prebiotic fibre after it is eaten, so manufacturers can cut sugar impact without reformulating recipes. Founded in 2018 by Oxford biochemists, the company is targeting US launches by the end of 2027.",
+   "rel": {
+    "fermentation": {
+     "score": 8,
+     "why": "Precision-fermented enzyme sold as a drop-in ingredient rather than a replacement."
+    },
+    "agrifood": {
+     "score": 7,
+     "why": "Offers sugar reduction without reformulation, the industry's main obstacle."
+    },
+    "investment": {
+     "score": 5,
+     "why": "$15M Series A led by a specialist agrifood fund."
     }
    }
   }
