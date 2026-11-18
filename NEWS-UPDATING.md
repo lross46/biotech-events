@@ -54,7 +54,9 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
      - `rel`: score each sector that applies 0–10 with one specific `why` sentence, exactly as for events
        (9–10 core focus, 7–8 major, 5–6 meaningful, 3–4 some). Omit sectors below 3. Sectors: defence,
        biosecurity, healthcare, meddevices, pharma, cellgene, diagnostics, tools, ai, agrifood, industrial,
-       bioprocessing, fermentation, investment. `cellgene` is cell and gene therapy specifically (gene
+       synbio, bioprocessing, fermentation, investment. `synbio` is synthetic biology itself (engineering
+       organisms and DNA: strain and circuit design, DNA synthesis, cell-free systems, biofoundries, synbio
+       companies), scored alongside `industrial`, `fermentation`, `agrifood` or `pharma` for where it is applied. `cellgene` is cell and gene therapy specifically (gene
        editing, CAR-T, AAV, mRNA medicines) and `tools` is research tools and platforms (instruments,
        sequencing, omics, reagents, lab automation); score them alongside `pharma`, not instead of it.
    Work in batches; there are usually 100–300 new stories a day. Be brief but never vague.
@@ -95,7 +97,7 @@ prompt is "Follow NEWS-UPDATING.md in the biotech-events repo", then delete the 
    or what comes next. Then cover the rest of the section briefly, as short mentions or themes ("a heavy run of
    China out-licensing deals", "earnings set the tone"), so that nothing notable in the section goes unmentioned.
    **Spread across sectors:** where a section had notable stories outside drug development (industrial and
-   sustainable biotech, agri-food, fermentation, bioprocessing, research tools, diagnostics, medical devices,
+   sustainable biotech, synthetic biology, agri-food, fermentation, bioprocessing, research tools, diagnostics, medical devices,
    AI), mention at least one of them, and in `science` include an industrial, sustainable, agri-food or
    bioprocessing finding whenever there was a notable one.
    Put in `ids` the two to six stories the paragraph leans on most, best first. They are kept for reference

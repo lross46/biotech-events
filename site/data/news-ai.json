@@ -814,6 +814,10 @@
     "defence": {
      "score": 4,
      "why": "Early warning for novel biological threats."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "Mirror life is a hypothetical synthetic organism the field is debating how to prevent."
     }
    }
   },
@@ -881,6 +885,10 @@
     "agrifood": {
      "score": 3,
      "why": "Environmental applications."
+    },
+    "synbio": {
+     "score": 7,
+     "why": "Engineered fungi designed with synthetic biology tools for carbon capture."
     }
    }
   },
@@ -1816,6 +1824,10 @@
     "industrial": {
      "score": 3,
      "why": "Synthetic biology recording tool."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "Engineered DNA recording system that writes cell history into the genome."
     }
    }
   },
@@ -1831,6 +1843,10 @@
     "industrial": {
      "score": 6,
      "why": "Bio-based fatty alcohols."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "Metabolic engineering of a yeast chassis for chemical production."
     }
    }
   },
@@ -2579,6 +2595,10 @@
     "industrial": {
      "score": 4,
      "why": "Synthetic biology recording tool."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "Synthetic organelle-like recorders engineered into human cells."
     }
    }
   },
@@ -2887,6 +2907,10 @@
     "fermentation": {
      "score": 5,
      "why": "Enzymes for bioprocesses."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "Faster enzyme engineering for synthetic biology pipelines."
     }
    }
   },
@@ -3033,6 +3057,10 @@
     "biosecurity": {
      "score": 5,
      "why": "Raises screening questions for protein design tools."
+    },
+    "synbio": {
+     "score": 4,
+     "why": "Language-to-protein design expands what can be engineered."
     }
    }
   },
@@ -3296,6 +3324,10 @@
     "biosecurity": {
      "score": 4,
      "why": "Built-in control of engineered organisms."
+    },
+    "synbio": {
+     "score": 7,
+     "why": "Genetic code expansion lets plants switch engineered bacteria on and off."
     }
    }
   },
@@ -3490,6 +3522,10 @@
     "ai": {
      "score": 3,
      "why": "Screening data for model training."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "A display platform for engineering proteins in bacteria."
     }
    }
   },
@@ -4277,6 +4313,10 @@
     "fermentation": {
      "score": 4,
      "why": "Microbial production."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "Engineered 'switchable' microbes for biofertilisers, partnered with Bayer."
     }
    }
   },
@@ -4680,6 +4720,10 @@
     "fermentation": {
      "score": 5,
      "why": "Assesses formate as a feedstock for engineered microbes."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "Sets limits for engineering microbes to grow on electricity-derived formate."
     }
    }
   },
@@ -6048,6 +6092,10 @@
     "industrial": {
      "score": 3,
      "why": "Synthetic biology recording tool."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "Engineered RNA recorders in human cells, a new synthetic biology tool."
     }
    }
   },
@@ -6119,6 +6167,10 @@
     "industrial": {
      "score": 3,
      "why": "Synthetic biology lineage recording."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "Engineered DNA recording traces cell lineage."
     }
    }
   },
@@ -7968,6 +8020,10 @@
     "industrial": {
      "score": 6,
      "why": "Enzymatic plastic recycling."
+    },
+    "synbio": {
+     "score": 4,
+     "why": "Directed evolution of engineered plastic-degrading enzymes."
     }
    }
   },
@@ -9085,6 +9141,10 @@
     "biosecurity": {
      "score": 3,
      "why": "New approach to a hard-to-treat infection."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "Engineered probiotic bacteria as living therapeutics."
     }
    }
   },
@@ -9167,6 +9227,10 @@
     "fermentation": {
      "score": 5,
      "why": "Engineering a thermophilic fermentation chassis."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "New genome-editing toolkit opens an extremophile as a synbio chassis."
     }
    }
   },
@@ -9212,6 +9276,10 @@
     "fermentation": {
      "score": 4,
      "why": "Programmable control of microbial hosts."
+    },
+    "synbio": {
+     "score": 7,
+     "why": "Compact CRISPR genetic circuits for programming cells."
     }
    }
   },
@@ -9703,6 +9771,10 @@
     "bioprocessing": {
      "score": 4,
      "why": "Microbial production optimisation."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "Engineered E. coli producing single-stranded DNA."
     }
    }
   },
@@ -10282,6 +10354,10 @@
     "pharma": {
      "score": 4,
      "why": "Upstream input to drug discovery."
+    },
+    "synbio": {
+     "score": 7,
+     "why": "Investment in gene synthesis, a core supply for synthetic biology."
     }
    }
   },
@@ -11310,6 +11386,10 @@
     "industrial": {
      "score": 4,
      "why": "Offers a simpler route to building logic circuits for synthetic biology."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "Programmable protein logic for building cellular computation."
     }
    }
   },
@@ -12583,6 +12663,10 @@
     "tools": {
      "score": 4,
      "why": "Useful parts for synthetic biology and gene regulation."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "Designed genetic parts for controlling gene expression."
     }
    }
   },
@@ -14285,6 +14369,10 @@
     "tools": {
      "score": 4,
      "why": "Sequence design method for synthetic biology."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "AI design of regulatory DNA, a synthetic biology part."
     }
    }
   },
@@ -14446,6 +14534,10 @@
     "fermentation": {
      "score": 5,
      "why": "Engineered microbial production of a new chemical."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "New biosynthetic pathway engineered into microbes."
     }
    }
   },
@@ -14967,6 +15059,10 @@
     "pharma": {
      "score": 4,
      "why": "Possible oncology targeting strategy."
+    },
+    "synbio": {
+     "score": 7,
+     "why": "Synthetic gene circuits that act only in cancer cells."
     }
    }
   },
@@ -15516,6 +15612,10 @@
     "agrifood": {
      "score": 6,
      "why": "Food, feed and agricultural biosolutions are a large part of its sales."
+    },
+    "synbio": {
+     "score": 4,
+     "why": "Novonesis supplies engineered microbes and enzymes used across synbio."
     }
    }
   },
@@ -17233,6 +17333,10 @@
     "industrial": {
      "score": 3,
      "why": "Engineered living materials."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "Engineered living materials built from commensal bacteria."
     }
    }
   },
@@ -18795,6 +18899,10 @@
     "industrial": {
      "score": 3,
      "why": "Relevant to engineered-organism developers."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "Tracks biosafety trends across synthetic biology patents."
     }
    }
   },
@@ -19026,6 +19134,10 @@
     "industrial": {
      "score": 4,
      "why": "Synthetic biology companies rely on synthetic DNA orders."
+    },
+    "synbio": {
+     "score": 8,
+     "why": "New US screening rules for ordering synthetic DNA hit the whole synbio supply chain."
     }
    }
   },
@@ -19846,6 +19958,10 @@
     "pharma": {
      "score": 3,
      "why": "Potential protease therapeutics."
+    },
+    "synbio": {
+     "score": 4,
+     "why": "De novo enzyme design adds parts for engineered biology."
     }
    }
   },
@@ -19861,6 +19977,10 @@
     "industrial": {
      "score": 3,
      "why": "Plant synthetic biology."
+    },
+    "synbio": {
+     "score": 4,
+     "why": "Engineered herbicide resistance in crops."
     }
    }
   },
@@ -21554,6 +21674,10 @@
     "fermentation": {
      "score": 3,
      "why": "Microbial products made at scale."
+    },
+    "synbio": {
+     "score": 7,
+     "why": "Engineered nitrogen-fixing bacteria are a leading synbio product in farming."
     }
    }
   },
@@ -22448,6 +22572,10 @@
     "industrial": {
      "score": 5,
      "why": "Shows Amyris rebuilding as a contract biomanufacturer."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "Amyris, a synthetic biology company, acquires a sweet-protein start-up."
     }
    }
   },
@@ -23179,6 +23307,10 @@
     "agrifood": {
      "score": 4,
      "why": "Relevant to engineered soil microbes."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "Biosensor-driven genetic circuits in soil bacteria."
     }
    }
   },
@@ -23626,6 +23758,10 @@
     "fermentation": {
      "score": 3,
      "why": "Designing co-cultures with complementary metabolism."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "Engineered bacterial co-culture for pollutant degradation."
     }
    }
   },
@@ -23963,6 +24099,10 @@
     "tools": {
      "score": 4,
      "why": "A design approach for enzyme engineering labs."
+    },
+    "synbio": {
+     "score": 4,
+     "why": "Designed metalloenzymes for new biocatalytic functions."
     }
    }
   },
@@ -23978,6 +24118,10 @@
     "tools": {
      "score": 4,
      "why": "New control method for cell-free synthetic biology systems."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "Controlling cell-free transcription, a synthetic biology platform."
     }
    }
   },
@@ -25982,6 +26126,10 @@
     "tools": {
      "score": 4,
      "why": "AI-assisted genetic design in cell line development."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "Asimov, a synthetic biology platform company, partners on cell line development."
     }
    }
   },
@@ -26668,6 +26816,10 @@
     "industrial": {
      "score": 3,
      "why": "Could aid design of RNA parts for synthetic biology."
+    },
+    "synbio": {
+     "score": 4,
+     "why": "Programmable RNA sequence design for engineered systems."
     }
    }
   },
@@ -27267,6 +27419,10 @@
     "industrial": {
      "score": 4,
      "why": "Synthetic biology companies rely on ordered DNA constructs."
+    },
+    "synbio": {
+     "score": 7,
+     "why": "DNA-order screening rules affect synthetic biology companies and labs."
     }
    }
   },

@@ -1,8 +1,8 @@
 # Bio Radar
 
 Biotech conferences, symposia, webinars, trade shows and investor events worldwide, plus a News tab of biotech
-news from vetted sources, with AI-written summaries and relevance scores for 14 sectors (defence, biosecurity, healthcare, medical devices, pharma,
-cell & gene therapy, diagnostics, research tools & platforms, AI & data, agri & food, industrial biotech, bioprocessing,
+news from vetted sources, with AI-written summaries and relevance scores for 15 sectors (defence, biosecurity, healthcare, medical devices, pharma,
+cell & gene therapy, diagnostics, research tools & platforms, AI & data, agri & food, industrial biotech, synthetic biology, bioprocessing,
 fermentation, investment).
 
 Live site: https://lross46.github.io/biotech-events/
