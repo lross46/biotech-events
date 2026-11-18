@@ -1,18 +1,19 @@
 {
- "updated": "2026-11-18T06:44:30Z",
+ "updated": "2026-11-18T13:40:59Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-18T06:44:30Z",
+  "date": "2026-11-18T13:40:59Z",
   "points": [
    {
     "sec": "results",
-    "text": "Alzheimer's data from CTAD set the tone. Biogen's tau-lowering antisense drug diranersen showed 38% slowing on CDR-SB at two years in Phase 2 CELIA, up from 26% at 18 months, and Biogen now plans Phase 3, though the two-year comparison is open-label. Cognito's light-and-sound headset showed no cognitive benefit in its long-awaited trial, Nature reports, yet the company still plans an FDA filing; Priavoid's oral amyloid pill failed Phase 2 and AriBio's repurposed PDE5 inhibitor was tepid. In cancer, Sellas' vaccine galinpepimut-S cut the risk of death by 41% in Phase 3 AML, and Inhibrx reported a 62.7% response rate for ozekibart in relapsed Ewing sarcoma. Servier added longer INDIGO follow-up for vorasidenib in glioma.",
+    "text": "Alzheimer's data from CTAD set the tone. Biogen's tau-lowering antisense drug diranersen showed 38% slowing on CDR-SB at two years in Phase 2 CELIA, up from 26% at 18 months, and Biogen now plans Phase 3, though the two-year comparison is open-label. Cognito's light-and-sound headset showed no cognitive benefit in its long-awaited trial, Nature reports, yet the company still plans an FDA filing; Priavoid's oral amyloid pill failed Phase 2 and AriBio's repurposed PDE5 inhibitor was tepid. In cancer, Sellas' vaccine galinpepimut-S cut the risk of death by 41% in Phase 3 AML, and Inhibrx reported a 62.7% response rate for ozekibart in relapsed Ewing sarcoma. Servier added longer INDIGO follow-up for vorasidenib in glioma. Merck stopped three Phase 3 trials of its BTK inhibitor nemtabrutinib after one suggested the benefits may not outweigh the risks, writing off the main asset of its $2.7 billion ArQule purchase.",
     "ids": [
      "3422b7bb5403",
      "e241a0a77298",
      "0112ef453ad8",
      "39843a41c1eb",
-     "b2c912d09005"
+     "b2c912d09005",
+     "17fe26c99d65"
     ]
    },
    {
@@ -28,7 +29,7 @@
    },
    {
     "sec": "approvals",
-    "text": "Cultivated meat and animal-free dairy had a landmark day. Upside Foods launched its second cultivated chicken with FDA and USDA clearance, claiming a 10,000-fold scale-up to over 20,000 litres of bioreactors and premium-organic pricing, and California approved New Culture's precision-fermented casein mozzarella for sale to pizzerias. In drugs, GSK won accelerated approval for ALK lung cancer drug Nelkarmi, its second from the $10.6B Nuvalent deal, and Beren's Lembaz became the first therapy shown to extend survival in infantile-onset Niemann-Pick type C. The FDA's letter rejecting Summit and Akeso's ivonescimab flagged a VEGF-related safety concern that could shadow the whole PD-1/VEGF class. Medtronic's Hugo robot was cleared for general surgery, the FDA launched a programme letting foreign regulators rely on its reviews, and the EMA issued its first flu-strain guidance for mRNA vaccines.",
+    "text": "Cultivated meat and animal-free dairy had a landmark day. Upside Foods launched its second cultivated chicken with FDA and USDA clearance, claiming a 10,000-fold scale-up to over 20,000 litres of bioreactors and premium-organic pricing, and California approved New Culture's precision-fermented casein mozzarella for sale to pizzerias. In drugs, GSK won accelerated approval for ALK lung cancer drug Nelkarmi, its second from the $10.6B Nuvalent deal, and Beren's Lembaz became the first therapy shown to extend survival in infantile-onset Niemann-Pick type C. The FDA's letter rejecting Summit and Akeso's ivonescimab flagged a VEGF-related safety concern that could shadow the whole PD-1/VEGF class. Medtronic's Hugo robot was cleared for general surgery, the FDA launched a programme letting foreign regulators rely on its reviews, and the EMA issued its first flu-strain guidance for mRNA vaccines. Australia's All G self-affirmed US GRAS status for precision-fermented human lactoferrin, a breast-milk protein for adult nutrition.",
     "ids": [
      "2d75e27c9a10",
      "f30c5bc49c9b",
@@ -51,13 +52,14 @@
    },
    {
     "sec": "money",
-    "text": "Isomorphic Labs raised $5 billion in a Series C led by Greenoaks and Sequoia, the largest private biotech round on record and its second multibillion raise in six months, as it moves AI-designed drugs toward the clinic. Marrow Therapeutics launched with $173 million for an siRNA approach to sickle cell disease that avoids ex vivo gene therapy, and Galvanize raised $130 million for pulsed-field soft-tissue ablation. In agri-food, Carlsberg spinout Traitomic raised €20 million led by Sofinnova for non-GM trait discovery in crops and microbes. Smaller moves included Verismo licensing Stanford's in vivo CAR-T technology, Erasca's combination pact with BMS, and Lotte Biologics' first commercial manufacturing deal for its Songdo plant.",
+    "text": "Isomorphic Labs raised $5 billion in a Series C led by Greenoaks and Sequoia, the largest private biotech round on record and its second multibillion raise in six months, as it moves AI-designed drugs toward the clinic. Pfizer entered in vivo CAR-T, paying Starna Therapeutics $330 million upfront for three pre-IND autoimmune programmes, and AI structure-model startup Boltz raised a $110 million Series A. Marrow Therapeutics launched with $173 million for an siRNA approach to sickle cell disease that avoids ex vivo gene therapy, and Galvanize raised $130 million for pulsed-field soft-tissue ablation. In agri-food, Carlsberg spinout Traitomic raised €20 million led by Sofinnova for non-GM trait discovery in crops and microbes. Smaller moves included Verismo licensing Stanford's in vivo CAR-T technology, Erasca's combination pact with BMS, and Lotte Biologics' first commercial manufacturing deal for its Songdo plant.",
     "ids": [
      "07388c8349e9",
+     "f91b2a032d04",
+     "8979d8712d40",
      "8a68d368fcde",
      "483304f63de0",
-     "2026-11-17-carlsberg-spinout-traitomic-raises-22m",
-     "47bb43cba48d"
+     "2026-11-17-carlsberg-spinout-traitomic-raises-22m"
     ]
    },
    {
@@ -27644,6 +27646,1021 @@
      "why": "Raises throughput for high-sensitivity mass-spec proteomics."
     }
    }
+  },
+  "93fbc7f9ae64": {
+   "dup": "185db75349bb"
+  },
+  "8fcb314eedcf": {
+   "dup": "185db75349bb"
+  },
+  "4c0e1583c24a": {
+   "dup": "ded3924cb0a7"
+  },
+  "58d488ce93f6": {
+   "dup": "39843a41c1eb"
+  },
+  "0cd0befd227f": {
+   "dup": "cf6e0472969b"
+  },
+  "463f48990e56": {
+   "dup": "b779ee3760dd"
+  },
+  "ba13dda78621": {
+   "dup": "35a63f6bdece"
+  },
+  "aa360d73c03c": {
+   "dup": "47bb43cba48d"
+  },
+  "141b590d7ace": {
+   "dup": "17fe26c99d65"
+  },
+  "2a3d8bf8a6c2": {
+   "dup": "3422b7bb5403"
+  },
+  "223ab8ff8733": {
+   "dup": "ec1ddea89442"
+  },
+  "bdf2dec44415": {
+   "dup": "6f8406223f58"
+  },
+  "99ca8a37c241": {
+   "drop": true
+  },
+  "1cd2908beb99": {
+   "drop": true
+  },
+  "0051ea2c302f": {
+   "drop": true
+  },
+  "a607144e53b2": {
+   "drop": true
+  },
+  "8556196e1647": {
+   "drop": true
+  },
+  "5ee3242616cb": {
+   "drop": true
+  },
+  "7b6b14201ee5": {
+   "drop": true
+  },
+  "32338cc8518b": {
+   "drop": true
+  },
+  "80fed3c1aa13": {
+   "drop": true
+  },
+  "60600eb6eabb": {
+   "drop": true
+  },
+  "21c1e2b0bcb3": {
+   "drop": true
+  },
+  "1ba504485c27": {
+   "drop": true
+  },
+  "4a3c0a8f3dfa": {
+   "drop": true
+  },
+  "e1be469f1156": {
+   "drop": true
+  },
+  "9948b07814e2": {
+   "drop": true
+  },
+  "1b2183e27892": {
+   "drop": true
+  },
+  "a23722565c82": {
+   "drop": true
+  },
+  "bb7b3758714b": {
+   "drop": true
+  },
+  "5ce38337f869": {
+   "drop": true
+  },
+  "6bd6356bd916": {
+   "drop": true
+  },
+  "c17a20dadfa9": {
+   "drop": true
+  },
+  "442b0da9d965": {
+   "drop": true
+  },
+  "ff34280a9cf5": {
+   "drop": true
+  },
+  "f561162d763b": {
+   "drop": true
+  },
+  "d2faf0d73100": {
+   "drop": true
+  },
+  "449322c44572": {
+   "drop": true
+  },
+  "f6b02b8a412a": {
+   "drop": true
+  },
+  "e976d78ff5fb": {
+   "drop": true
+  },
+  "b7603e2873d1": {
+   "drop": true
+  },
+  "5082c3b059d2": {
+   "drop": true
+  },
+  "ce1bb47f7520": {
+   "drop": true
+  },
+  "71dcfb7fdab5": {
+   "drop": true
+  },
+  "e293f9adf685": {
+   "drop": true
+  },
+  "4353b5e04973": {
+   "drop": true
+  },
+  "ad4c25ee9d03": {
+   "drop": true
+  },
+  "db32a0258035": {
+   "drop": true
+  },
+  "02a0256fa016": {
+   "dup": "7c181adcb866"
+  },
+  "17fe26c99d65": {
+   "cat": "clinical",
+   "imp": 7,
+   "summary": "Merck has stopped three Phase 3 blood cancer trials of its BTK inhibitor nemtabrutinib (MK-1026) after data from one study suggested the benefits may not outweigh the risks. The drug was the main reason Merck bought ArQule for $2.7 billion in 2019, so the decision effectively writes off that acquisition. It leaves the crowded BTK field in CLL and other B-cell cancers to approved drugs such as ibrutinib, acalabrutinib, zanubrutinib and pirtobrutinib.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "A late-stage failure that ends a $2.7B acquisition's lead asset in a crowded BTK market."
+    },
+    "investment": {
+     "score": 5,
+     "why": "A clear example of a big-pharma takeover thesis failing at Phase 3."
+    }
+   }
+  },
+  "f91b2a032d04": {
+   "cat": "deals",
+   "imp": 8,
+   "summary": "Pfizer will pay Starna Therapeutics $330 million upfront for exclusive rights, outside Greater China, to three pre-IND in vivo CAR-T programmes for autoimmune disease, Endpoints reports. It is Pfizer's entry into in vivo CAR-T, where cells are engineered inside the body instead of being manufactured outside it. The deal follows a wave of big-pharma moves into the field, including Lilly's $7 billion Kelonia buyout, and is unusually rich for assets not yet in the clinic.",
+   "rel": {
+    "cellgene": {
+     "score": 9,
+     "why": "A large upfront for in vivo CAR-T, the hottest approach in cell therapy."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Pfizer enters in vivo CAR-T for autoimmune disease through a China-origin licensing deal."
+    },
+    "investment": {
+     "score": 6,
+     "why": "A $330M upfront for pre-IND assets shows how highly pharma prices this modality."
+    }
+   }
+  },
+  "8979d8712d40": {
+   "cat": "funding",
+   "imp": 7,
+   "summary": "AI biology startup Boltz has raised a $110 million Series A, less than a year after launching from stealth with $28 million, Endpoints reports. Boltz grew out of the open-source Boltz protein-structure and binding-affinity models, which compete with DeepMind's AlphaFold 3. The round comes a day after Isomorphic Labs' $5 billion raise, underlining investor appetite for AI models of molecular structure.",
+   "rel": {
+    "ai": {
+     "score": 9,
+     "why": "A large round for the team behind leading open-source biomolecular structure models."
+    },
+    "tools": {
+     "score": 6,
+     "why": "Its models are widely used research tools for structure and binding prediction."
+    },
+    "investment": {
+     "score": 7,
+     "why": "Big early-stage AI-bio round as capital floods into the space."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Drug discovery is the main commercial use of its models."
+    }
+   }
+  },
+  "e4506e0ad083": {
+   "cat": "regulatory",
+   "imp": 7,
+   "summary": "Sydney startup All G has self-affirmed GRAS status in the US for its precision-fermented recombinant human lactoferrin, letting it sell the breast-milk protein to adult nutrition and supplement brands, Green Queen reports. It follows an FDA 'no questions' letter for All G's bovine lactoferrin, launched earlier this year. Human lactoferrin is the first of several breast-milk proteins in its pipeline, alongside beta-casein and alpha-lactalbumin aimed at infant formula. All G has raised $36 million and is fundraising.",
+   "rel": {
+    "fermentation": {
+     "score": 9,
+     "why": "A precision-fermented human milk protein reaches the US market."
+    },
+    "agrifood": {
+     "score": 8,
+     "why": "Opens adult nutrition uses for recombinant human lactoferrin, a step towards animal-free infant formula ingredients."
+    },
+    "industrial": {
+     "score": 5,
+     "why": "Commercialisation of a high-value recombinant food protein."
+    }
+   }
+  },
+  "7c181adcb866": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "The UK MHRA is building AdvanceGxP, a service giving developers earlier practical advice on good-practice and quality requirements for advanced manufacturing technologies, to reduce costly redesigns and delays. It will start with point-of-care manufacturing of personalised treatments, manufacturing in space, and AI, robotics and automation. Funding comes from the Office for Life Sciences; no launch date is given and capacity will be limited at first.",
+   "rel": {
+    "bioprocessing": {
+     "score": 7,
+     "why": "Earlier regulatory support for novel and point-of-care medicine manufacturing."
+    },
+    "cellgene": {
+     "score": 5,
+     "why": "Point-of-care manufacturing matters most for personalised cell and gene therapies."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "A new UK route to de-risk manufacturing innovation."
+    }
+   }
+  },
+  "b60c9cfc78ed": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "On European Antibiotic Awareness Day, ECDC warned that antibiotic-resistant bacteria are still spreading in Europe and treatment options are narrowing, and called for urgent action to protect antibiotics. The call accompanies its annual surveillance update and stresses prudent use, infection prevention and new antibiotics. It follows UKHSA figures last week of over 400 antibiotic-resistant infections a week in England in 2025.",
+   "rel": {
+    "healthcare": {
+     "score": 7,
+     "why": "EU agency warning on rising resistance and shrinking treatment options."
+    },
+    "biosecurity": {
+     "score": 5,
+     "why": "AMR is a slow-moving public-health threat tracked by ECDC."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Underlines the need for new antibiotics."
+    }
+   }
+  },
+  "bf7b491a14e0": {
+   "cat": "deals",
+   "imp": 5,
+   "summary": "Vertex has renewed its discovery partnership with UK genetics company Genomics in a deal worth up to $220 million, adding four years to an eight-year collaboration. Genomics uses large-scale human genetic data to find and validate drug targets for Vertex. The renewal signals continued pharma demand for population-genetics-driven target discovery.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "Large-scale genetics as a target-discovery platform."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Vertex extends its genetics-led discovery pipeline."
+    },
+    "ai": {
+     "score": 3,
+     "why": "Statistical and computational genetics underpin the platform."
+    }
+   }
+  },
+  "510e00658283": {
+   "cat": "regulatory",
+   "imp": 6,
+   "summary": "The FDA approved Novartis' Cosentyx (secukinumab) for polymyalgia rheumatica, its 11th indication and the first IL-17 inhibitor approved for the disease, Fierce Pharma reports. Cosentyx is one of Novartis' biggest sellers, and new indications help shore up revenue before its 2029 patent expiry.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Label expansion for a blockbuster ahead of its patent cliff."
+    }
+   }
+  },
+  "46458e275d31": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "HLB Therapeutics says its eye drug RGN-259 (thymosin beta 4) missed the primary endpoint in the US Phase 3 SEER-2 trial in neurotrophic keratitis, a rare corneal disease. Topline results came to its US subsidiary ReGenTree from the trial CRO. The miss adds to setbacks for the HLB group, whose liver cancer drug is back under FDA review with a decision due in April.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "A Phase 3 miss for a Korean company's US-registered ophthalmology asset."
+    }
+   }
+  },
+  "2bd0088cc282": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Paulex Bio says a Mount Sinai-led study in Diabetologia showed its oral drug PAL-119 stimulated human insulin-producing beta cells to proliferate and improved markers of their function. The company is developing PAL-119 as a disease-modifying oral therapy for type 1 and type 2 diabetes and recently won an NIH fast-track grant for it. The data are preclinical.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Preclinical support for an oral beta-cell regeneration drug."
+    }
+   }
+  },
+  "89dc6204edf6": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Researchers have produced a detailed structural map of an enzyme whose failure lets toxic molecules build up in a rare inherited metabolic disease, Fierce Biotech reports. The structure points to ways to design drugs that restore or bypass the enzyme. The article's details were not accessible; this summary relies on the headline and snippet.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "A structural target for rare metabolic disease drugs."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Structural biology enabling drug design."
+    }
+   }
+  },
+  "b5128f6cb027": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Researchers report that boosting the protein SORLA in Alzheimer's disease models markedly reduced toxic tau tangles, protected synapses and prevented some brain shrinkage, according to ScienceDaily. SORLA, encoded by a known Alzheimer's risk gene, helps route proteins inside neurons. The work is in animal models and points to SORLA as a possible therapeutic target.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "A potential new target against tau pathology in Alzheimer's."
+    }
+   }
+  },
+  "fe68e4ee0cec": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Scribe Therapeutics presented new preclinical data at AHA 2026 for its CRISPR-based, ultra-long-acting genetic medicines for cardiovascular disease, aiming for a one-time treatment that durably lowers cholesterol. The release gives no new clinical results.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "In vivo gene editing for common cardiovascular disease."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "One-time alternatives to chronic lipid-lowering drugs."
+    }
+   }
+  },
+  "8b10120eb9cc": {
+   "cat": "contracts",
+   "imp": 4,
+   "summary": "Fresenius-owned mAbxience will manufacture OncoPrecision's antibody-drug conjugate candidate ONC001 and invest in the company, the two said. OncoPrecision combines patient-derived tumour biology with AI to develop cancer therapies. Financial terms were not disclosed.",
+   "rel": {
+    "bioprocessing": {
+     "score": 5,
+     "why": "A CDMO taking an equity stake alongside an ADC manufacturing deal."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Manufacturing and funding for an early ADC."
+    }
+   }
+  },
+  "849f26ce8463": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Konkuk University Medical Center team reports that a blood test measuring a small RNA molecule may predict how fast cognition declines in people with Alzheimer's disease. The study is early and the test is not yet validated for clinical use.",
+   "rel": {
+    "diagnostics": {
+     "score": 6,
+     "why": "A candidate blood biomarker for Alzheimer's progression."
+    }
+   }
+  },
+  "71a7b6cb6f0d": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "GC MS received export approval from Korea's MFDS for a rapid and a PCR-based hantavirus test kit, the company said, with the rapid test cleared on 30 October. The kits add to its infectious-disease diagnostics range for export markets.",
+   "rel": {
+    "diagnostics": {
+     "score": 6,
+     "why": "New export-cleared hantavirus tests."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Diagnostics for a zoonotic pathogen."
+    }
+   }
+  },
+  "a08ba3a438cf": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "The CEO of a Hong Kong biotech preparing to list told the South China Morning Post that the city's biotech sector needs more patient, long-term capital. The article was not accessible; this relies on the headline only.",
+   "rel": {
+    "investment": {
+     "score": 4,
+     "why": "Funding conditions for Hong Kong biotech IPOs."
+    }
+   }
+  },
+  "c75828d75c17": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature reporter sent her stool to two at-home microbiome testing companies and compared what they told her, in a feature on whether the fast-growing consumer tests can be trusted. The piece weighs the science behind the reports against their health claims.",
+   "rel": {
+    "diagnostics": {
+     "score": 5,
+     "why": "Scrutiny of direct-to-consumer microbiome tests."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Consumer health testing claims."
+    }
+   }
+  },
+  "96d6c96ef57b": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Researchers describe VINCIT, a biomaterial niche loaded with viral vectors that is implanted to engineer CAR-T cells inside the body only at that site, avoiding systemic gene delivery and off-target exposure. It is offered as a way to make in vivo CAR-T more controlled. Not yet peer-reviewed.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "A localised approach to in vivo CAR-T engineering."
+    }
+   }
+  },
+  "4365e039bce9": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A preprint uses machine learning on resistance-gene profiles to attribute Acinetobacter baumannii isolates to their likely source, such as humans or animals, helping trace how the superbug spreads. Not yet peer-reviewed.",
+   "rel": {
+    "biosecurity": {
+     "score": 4,
+     "why": "Source tracing for a priority drug-resistant pathogen."
+    },
+    "ai": {
+     "score": 4,
+     "why": "Machine learning applied to genomic surveillance."
+    }
+   }
+  },
+  "d2b1a64838d7": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A preprint reports nanocomplexes that pair the antibiotic tobramycin with a biofilm-degrading enzyme, DNase I, which overcame biofilm tolerance and treated Pseudomonas aeruginosa infections in models. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "A delivery approach against hard-to-treat biofilm infections."
+    }
+   }
+  },
+  "ca2eb0f0430d": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "An analysis of English cancer records finds body weight is the strongest explanation for rising rates of 11 cancers in under-50s, but obesity does not fully explain the rise in early-onset bowel cancer, The Scientist reports. Other causes remain unidentified.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Evidence on the drivers of early-onset cancers."
+    }
+   }
+  },
+  "350494fb335b": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Iambic presented preclinical data at the EORTC-NCI-AACR symposium for two AI-designed cancer drugs: CDK2/4 inhibitor IAM-C1 and brain-penetrant KIF18A inhibitor IAM217. Both are wholly owned candidates from its AI discovery platform.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "Preclinical candidates from an AI drug-design platform."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Early oncology pipeline."
+    }
+   }
+  },
+  "ab54d4ba4827": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Can-Fite says all patients in the interim-analysis cohort of its pivotal Phase 3 psoriasis trial of oral piclidenoson, run under an FDA- and EMA-agreed protocol, have completed dosing. It expects the interim analysis in the first quarter of 2027.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Timeline for a Phase 3 oral psoriasis readout."
+    }
+   }
+  },
+  "cc6987db376b": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Biostream received FDA Breakthrough Device designation for a urine protein test meant to help distinguish idiopathic normal pressure hydrocephalus, a treatable cause of walking, memory and bladder problems, from Alzheimer's and other neurodegenerative diseases.",
+   "rel": {
+    "diagnostics": {
+     "score": 6,
+     "why": "Breakthrough designation for a non-invasive differential diagnostic."
+    },
+    "meddevices": {
+     "score": 4,
+     "why": "FDA device pathway."
+    }
+   }
+  },
+  "0a2d4d9f0d59": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Oracle Life Sciences launched AI agents for clinical trial operations that flag operational risks across a portfolio and recommend next actions, the company says.",
+   "rel": {
+    "ai": {
+     "score": 4,
+     "why": "AI agents for trial operations."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Clinical operations software."
+    }
+   }
+  },
+  "bc86890ddc73": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Ahead of Dayvigo's Korean launch, a Korean sleep specialist highlighted trial data showing Eisai's insomnia drug lemborexant kept working for up to a year without tolerance, positioning it against older sleeping pills.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Market launch of an orexin antagonist in Korea."
+    }
+   }
+  },
+  "9cf5889a0555": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Immuneering presented more data on its MEK inhibitor atebimetinib as a backbone for combination therapy in pancreatic cancer, and separately said data support testing it in anaplastic thyroid cancer, the company says.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Combination data for a pancreatic cancer drug."
+    }
+   }
+  },
+  "c91d1568bf96": {
+   "drop": true
+  },
+  "cd10dbf6af32": {
+   "drop": true
+  },
+  "e13a8a540909": {
+   "drop": true
+  },
+  "f6b0274dab6c": {
+   "dup": "185db75349bb"
+  },
+  "57dc16a04d53": {
+   "drop": true
+  },
+  "cc031e7d82ba": {
+   "drop": true
+  },
+  "f51f13c7c8f3": {
+   "drop": true
+  },
+  "b24c437c3dc8": {
+   "dup": "11f32c2292d2"
+  },
+  "820560a91233": {
+   "drop": true
+  },
+  "7e8ed7480155": {
+   "drop": true
+  },
+  "5d68172d63ea": {
+   "drop": true
+  },
+  "e11cde29ba2c": {
+   "drop": true
+  },
+  "ef6a19346e4b": {
+   "drop": true
+  },
+  "8cba99fe8a8c": {
+   "dup": "937741bb980e"
+  },
+  "d8d0f779e124": {
+   "dup": "937741bb980e"
+  },
+  "433e0e42bf3b": {
+   "drop": true
+  },
+  "48919b000ac0": {
+   "drop": true
+  },
+  "6f0955bf3fef": {
+   "drop": true
+  },
+  "4109d8f99d0a": {
+   "drop": true
+  },
+  "86a8de83922b": {
+   "drop": true
+  },
+  "e0945a784a35": {
+   "drop": true
+  },
+  "f8380d3d0838": {
+   "drop": true
+  },
+  "43a4026ca37f": {
+   "drop": true
+  },
+  "0f6744fe2dc1": {
+   "drop": true
+  },
+  "5b16e28bdab9": {
+   "drop": true
+  },
+  "855f248e3fc2": {
+   "drop": true
+  },
+  "1d75dfd2ba00": {
+   "drop": true
+  },
+  "f05a6aebf962": {
+   "drop": true
+  },
+  "13b9ccaeb373": {
+   "drop": true
+  },
+  "71c5a02835e1": {
+   "drop": true
+  },
+  "98973894282c": {
+   "drop": true
+  },
+  "2d356bb6adee": {
+   "drop": true
+  },
+  "4c8c3576893a": {
+   "dup": "0c7ddf6efb5f"
+  },
+  "4d7f81f5df14": {
+   "drop": true
+  },
+  "c928342f4d1a": {
+   "drop": true
+  },
+  "f59f5bb408bc": {
+   "drop": true
+  },
+  "6edc1b8c6e8e": {
+   "drop": true
+  },
+  "5808043873d9": {
+   "dup": "e2cafcde1028"
+  },
+  "852412c96dc9": {
+   "dup": "b6e6836113cf"
+  },
+  "063ab147fafa": {
+   "drop": true
+  },
+  "6f227a931927": {
+   "drop": true
+  },
+  "d32ffd5fde3f": {
+   "drop": true
+  },
+  "12558db2eceb": {
+   "drop": true
+  },
+  "be8577cc31f1": {
+   "drop": true
+  },
+  "fac4ac003e06": {
+   "drop": true
+  },
+  "0bb7e1ea4378": {
+   "drop": true
+  },
+  "891aa95ad5c3": {
+   "drop": true
+  },
+  "323b14b6367b": {
+   "drop": true
+  },
+  "c0f9704d35ce": {
+   "drop": true
+  },
+  "e6232c17dc82": {
+   "dup": "e8dbbd1273e1"
+  },
+  "a06577c073fa": {
+   "drop": true
+  },
+  "aff3854ff21f": {
+   "drop": true
+  },
+  "265653d7b9bf": {
+   "dup": "e2cafcde1028"
+  },
+  "ca2ed490825b": {
+   "dup": "e2cafcde1028"
+  },
+  "f27f4d48861b": {
+   "drop": true
+  },
+  "04dece2018da": {
+   "dup": "e2cafcde1028"
+  },
+  "ae74d69d83e6": {
+   "dup": "e2cafcde1028"
+  },
+  "892adc2c0cab": {
+   "dup": "2edfbc93beea"
+  },
+  "a1b840745438": {
+   "dup": "e2cafcde1028"
+  },
+  "481fe61974be": {
+   "dup": "e2cafcde1028"
+  },
+  "a0c401d92443": {
+   "dup": "e2cafcde1028"
+  },
+  "c63f3f2ed16c": {
+   "dup": "e2cafcde1028"
+  },
+  "3d501a7292cb": {
+   "dup": "e2cafcde1028"
+  },
+  "aeba9e181d3f": {
+   "dup": "e2cafcde1028"
+  },
+  "2a6023271c12": {
+   "dup": "e2cafcde1028"
+  },
+  "bb8a9917d1ce": {
+   "dup": "e2cafcde1028"
+  },
+  "79afcfd5b9b3": {
+   "dup": "e2cafcde1028"
+  },
+  "29d30ce24704": {
+   "dup": "e2cafcde1028"
+  },
+  "3760e3f0dad9": {
+   "dup": "e2cafcde1028"
+  },
+  "281b3c26a669": {
+   "dup": "e2cafcde1028"
+  },
+  "d262ff8ce531": {
+   "dup": "e2cafcde1028"
+  },
+  "655ef3bea388": {
+   "dup": "e2cafcde1028"
+  },
+  "3b84d42954cc": {
+   "dup": "e2cafcde1028"
+  },
+  "8f3afd9fc180": {
+   "drop": true
+  },
+  "2e3f80054252": {
+   "dup": "e2cafcde1028"
+  },
+  "3fbf724d59c0": {
+   "drop": true
+  },
+  "c8f4a6d56dcf": {
+   "drop": true
+  },
+  "6e25d0b137f9": {
+   "drop": true
+  },
+  "cb8e1813ce87": {
+   "drop": true
+  },
+  "d02b0cb1ccc6": {
+   "drop": true
+  },
+  "159ecb1ff190": {
+   "drop": true
+  },
+  "1e470a047f45": {
+   "drop": true
+  },
+  "20742d34c882": {
+   "drop": true
+  },
+  "a144b79be7fb": {
+   "drop": true
+  },
+  "0ee6a3e65fce": {
+   "dup": "19faad1b893f"
+  },
+  "2c360f189cc1": {
+   "drop": true
+  },
+  "cfbb313ea461": {
+   "drop": true
+  },
+  "2fffa3cee7a3": {
+   "drop": true
+  },
+  "810eb696bd16": {
+   "drop": true
+  },
+  "bf3d564f779c": {
+   "drop": true
+  },
+  "218a62a465dd": {
+   "drop": true
+  },
+  "b91d9f8a828e": {
+   "dup": "5dd773bf975f"
+  },
+  "91df05e9ec11": {
+   "dup": "e7dd0306130a"
+  },
+  "497d17aafdc3": {
+   "drop": true
+  },
+  "b9d36816ea30": {
+   "drop": true
+  },
+  "e9a8d30bc638": {
+   "dup": "c30ec60c5df6"
+  },
+  "acfdbc6071d2": {
+   "drop": true
+  },
+  "4a88ca73f8fb": {
+   "drop": true
+  },
+  "dda9e2b12cf0": {
+   "drop": true
+  },
+  "3ee8389392f8": {
+   "drop": true
+  },
+  "16dca8e14763": {
+   "drop": true
+  },
+  "f434ead58b0c": {
+   "drop": true
+  },
+  "722514534472": {
+   "drop": true
+  },
+  "1fc62ab1b005": {
+   "drop": true
+  },
+  "1c259bcff970": {
+   "drop": true
+  },
+  "8fcf391a3c7a": {
+   "drop": true
+  },
+  "88081c32dac2": {
+   "drop": true
+  },
+  "3ca394c52b7e": {
+   "drop": true
+  },
+  "263a3f3caf04": {
+   "drop": true
+  },
+  "e6f6c10d2f89": {
+   "drop": true
+  },
+  "b12fb7e81341": {
+   "drop": true
+  },
+  "4e7f3ed79ffa": {
+   "drop": true
+  },
+  "4bc586235e9e": {
+   "drop": true
+  },
+  "fa1c048137e1": {
+   "drop": true
+  },
+  "0ee2253d7d7f": {
+   "drop": true
+  },
+  "066e46572ead": {
+   "drop": true
+  },
+  "f653ed6905d9": {
+   "drop": true
+  },
+  "61164f23e3fb": {
+   "drop": true
+  },
+  "1d5f5f3fb2ec": {
+   "drop": true
+  },
+  "811ee9cb8ec7": {
+   "drop": true
+  },
+  "455e9d24c70a": {
+   "drop": true
+  },
+  "c06249d0f1f9": {
+   "drop": true
+  },
+  "0a7727272bd4": {
+   "drop": true
+  },
+  "31f90572bb62": {
+   "drop": true
+  },
+  "90b7738a4dd2": {
+   "drop": true
+  },
+  "d2ef87f27245": {
+   "drop": true
+  },
+  "62ece1fb1145": {
+   "dup": "74efa911c983"
+  },
+  "6d1395921e8d": {
+   "drop": true
+  },
+  "5246fefac267": {
+   "drop": true
+  },
+  "778efc66af45": {
+   "dup": "aec57b25a39d"
+  },
+  "b82aec4c86d0": {
+   "drop": true
+  },
+  "de378bd9b2f1": {
+   "drop": true
+  },
+  "c56bb8489036": {
+   "drop": true
+  },
+  "9c41a513889c": {
+   "drop": true
+  },
+  "2cd94d21b408": {
+   "drop": true
+  },
+  "9797bb165628": {
+   "drop": true
+  },
+  "4190acca4168": {
+   "drop": true
+  },
+  "38280df1c81b": {
+   "drop": true
+  },
+  "8196d2066151": {
+   "drop": true
+  },
+  "5800990f05f9": {
+   "drop": true
+  },
+  "f08128be7c5c": {
+   "drop": true
+  },
+  "9c3b3b90d515": {
+   "drop": true
+  },
+  "fefe3c61501e": {
+   "drop": true
+  },
+  "0bab44666b06": {
+   "drop": true
+  },
+  "4a9bb134f643": {
+   "drop": true
+  },
+  "aea6ac98fb56": {
+   "drop": true
+  },
+  "edfcf2d46be0": {
+   "drop": true
+  },
+  "e85489238062": {
+   "drop": true
+  },
+  "f9064ac08a11": {
+   "drop": true
+  },
+  "6562f44c43d2": {
+   "drop": true
+  },
+  "c4e455b2cbd6": {
+   "drop": true
+  },
+  "1ef31cc72eed": {
+   "dup": "68d06e5a1880"
+  },
+  "a4bb5d0dea28": {
+   "drop": true
+  },
+  "fe1c642e4b59": {
+   "drop": true
+  },
+  "ba8c3f3a4ebb": {
+   "drop": true
+  },
+  "4fd2cd0b533c": {
+   "drop": true
   }
  },
  "extra": [
