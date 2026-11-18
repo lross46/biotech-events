@@ -221,6 +221,10 @@
     "agrifood": {
      "score": 3,
      "why": "Applications in crops and food."
+    },
+    "synbio": {
+     "score": 10,
+     "why": "The UK's main academic synthetic biology meeting: engineered organisms, genetic circuits and biofoundries."
     }
    },
    "added": "2026-10-25",
@@ -1180,6 +1184,10 @@
     "agrifood": {
      "score": 4,
      "why": "Food and agriculture applications."
+    },
+    "synbio": {
+     "score": 10,
+     "why": "Dedicated synthetic biology industry conference for start-ups, investors and corporates."
     }
    },
    "added": "2026-10-25",
@@ -1919,6 +1927,10 @@
     "industrial": {
      "score": 6,
      "why": "Industrial production of fermentation-derived proteins."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "Precision fermentation relies on engineered production strains."
     }
    },
    "added": "2026-10-25",
@@ -2193,6 +2205,10 @@
     "fermentation": {
      "score": 4,
      "why": "Microbial production and microbiomes."
+    },
+    "synbio": {
+     "score": 10,
+     "why": "A focused synthetic biology meeting on tools, microbiomes and engineered biomanufacturing."
     }
    },
    "keywords": [
@@ -2839,6 +2855,10 @@
     "investment": {
      "score": 3,
      "why": "Investors and start-up showcases."
+    },
+    "synbio": {
+     "score": 4,
+     "why": "Bioeconomy enabling technologies include synthetic biology platforms."
     }
    },
    "keywords": [
@@ -3026,6 +3046,10 @@
     "industrial": {
      "score": 5,
      "why": "Scale-up of novel ingredient production."
+    },
+    "synbio": {
+     "score": 4,
+     "why": "Synbio food start-ups pitch engineered-strain ingredients to investors."
     }
    },
    "added": "2026-10-25",
@@ -4532,6 +4556,10 @@
     "ai": {
      "score": 5,
      "why": "AI for protein and strain design."
+    },
+    "synbio": {
+     "score": 10,
+     "why": "The flagship synthetic biology business conference."
     }
    },
    "added": "2026-10-25",
@@ -5281,6 +5309,10 @@
     "biosecurity": {
      "score": 3,
      "why": "Some sessions on responsible synthetic biology."
+    },
+    "synbio": {
+     "score": 10,
+     "why": "Core technical synthetic biology conference on engineering, evolution and design."
     }
    },
    "keywords": [
@@ -5334,6 +5366,10 @@
     "healthcare": {
      "score": 5,
      "why": "Health policy and access."
+    },
+    "synbio": {
+     "score": 4,
+     "why": "Has industrial and synthetic biology tracks alongside therapeutics."
     }
    },
    "added": "2026-10-25",
@@ -5468,6 +5504,10 @@
     "ai": {
      "score": 3,
      "why": "AI for strain design and process optimisation."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "Engineered strains and synbio platforms behind bio-based chemicals and materials."
     }
    },
    "keywords": [
@@ -7489,6 +7529,10 @@
     "tools": {
      "score": 6,
      "why": "CRISPR screening and editing tools."
+    },
+    "synbio": {
+     "score": 4,
+     "why": "CRISPR is a core tool for engineering organisms."
     }
    },
    "added": "2026-10-25",

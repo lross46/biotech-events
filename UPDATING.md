@@ -34,10 +34,10 @@ short summary and per-sector relevance scores. Aim for 100–250 upcoming events
 3. **Re-check:** for upcoming events whose `checked` date is more than 60 days old, or which start in the next
    30 days, confirm dates, place and URL on the official site. Fix anything that changed (cancelled →
    delete; postponed → new dates). Set `checked` to today.
-4. **Find new events.** First run a fixed per-sector sweep, every week, for all 14 sectors in step 8. For each
+4. **Find new events.** First run a fixed per-sector sweep, every week, for all 15 sectors in step 8. For each
    sector run at least these searches (use the sector's plain-English name and 1–2 common synonyms, e.g.
    cellgene → "cell and gene therapy", "ATMP"; tools → "lab automation", "omics"; fermentation →
-   "precision fermentation"), with the current and next year:
+   "precision fermentation"; synbio → "synthetic biology", "synbio", "biofoundry"), with the current and next year:
    - "<sector> conference <year>", "<sector> summit <year>", "<sector> congress <year>",
    - "<sector> trade show OR expo <year>", "<sector> partnering OR investor event <year>",
    - "<sector> webinar" (next 2–3 months).
@@ -79,10 +79,13 @@ short summary and per-sector relevance scores. Aim for 100–250 upcoming events
    - 5–6: meaningful sessions, exhibitors or attendees
    - 3–4: some relevance
    Sectors: defence, biosecurity, healthcare, meddevices, pharma, cellgene, diagnostics, tools, ai, agrifood,
-   industrial, bioprocessing, fermentation, investment. Cellgene covers cell and gene therapy specifically;
+   industrial, synbio, bioprocessing, fermentation, investment. Cellgene covers cell and gene therapy specifically;
    tools covers research tools and platforms (instruments, sequencing, omics, reagents, lab automation);
    fermentation covers precision, biomass and traditional fermentation; bioprocessing covers upstream/downstream manufacturing and CDMOs; industrial covers
-   synthetic biology for chemicals, materials and biomanufacturing.
+   bio-based chemicals, materials, enzymes, biofuels and biomanufacturing; synbio covers synthetic biology itself
+   (engineering organisms and DNA: strain and circuit design, DNA synthesis, cell-free systems, biofoundries,
+   synbio companies and events such as SynBioBeta, iGEM and SB-series conferences). A synbio event usually also
+   scores industrial, fermentation or agrifood for its applications; score each sector on its own.
 9. Set the top-level `updated` in `events.json` to the current UTC time (ISO 8601), and `updated` in
    `data/event-pipeline.json` to today's date.
 10. Run `node scripts/check-data.mjs` and fix every error it reports.

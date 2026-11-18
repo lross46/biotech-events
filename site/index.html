@@ -288,6 +288,7 @@ const SECTORS = [
   ["ai", "AI & data", "#4A5BD4"],
   ["agrifood", "Agri & food", "#5C9A2E"],
   ["industrial", "Industrial biotech", "#A86E12"],
+  ["synbio", "Synthetic biology", "#0F7A5C"],
   ["bioprocessing", "Bioprocessing", "#8A5A3C"],
   ["fermentation", "Fermentation", "#C98A10"],
   ["investment", "Investment & business", "#3D6B6B"],
@@ -488,8 +489,8 @@ const NSECTIONS = [
   ["biodef", "Outbreaks & biosecurity", 2, "Outbreaks, preparedness, biosafety, surveillance and defence programmes."],
 ];
 const relMax = (rel, keys) => Math.max(0, ...keys.map((k) => rel[k]?.score || 0));
-// Non-medical biotech: the story's strongest sector is industrial, fermentation, bioprocessing or agrifood.
-const NONMED = ["industrial", "fermentation", "bioprocessing", "agrifood"];
+// Non-medical biotech: the story's strongest sector is industrial, synthetic biology, fermentation, bioprocessing or agrifood.
+const NONMED = ["industrial", "synbio", "fermentation", "bioprocessing", "agrifood"];
 const MEDICAL = ["pharma", "healthcare", "meddevices", "cellgene", "diagnostics"];
 const nonMedical = (it) => { const rel = nrel(it); const n = relMax(rel, NONMED); return n >= 5 && n >= relMax(rel, MEDICAL); };
 function nsectionOf(it) {
@@ -571,7 +572,8 @@ const SECTOR_ABOUT = {
   tools: "Research tools and platforms: instruments, sequencing, omics, reagents and lab automation.",
   ai: "AI, machine learning and computation applied to biology and medicine.",
   agrifood: "Crops, livestock, food and alternative proteins.",
-  industrial: "Industrial biotech, synthetic biology, biomaterials and biofuels.",
+  industrial: "Industrial biotech: bio-based chemicals, biomaterials, enzymes and biofuels.",
+  synbio: "Synthetic biology: engineering organisms and DNA, from strain and circuit design to DNA synthesis, cell-free systems and biofoundries.",
   bioprocessing: "Manufacturing: CDMOs, bioreactors, fill-finish, scale-up and GMP capacity.",
   fermentation: "Precision, biomass and traditional fermentation.",
   investment: "Funding, valuations, markets and the business of the industry.",

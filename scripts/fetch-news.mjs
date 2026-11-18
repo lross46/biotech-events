@@ -28,6 +28,7 @@ const SECTOR_KW = {
   diagnostics: /\b(diagnos\w*|assay\w*|test(s|ing)?|biomarker\w*|screening|sequencing|liquid biops\w*|pcr)\b/i,
   ai: /\b(ai|artificial intelligence|machine learning|deep learning|algorithm\w*|alphafold|language model\w*|llm\w*|computational)\b/i,
   agrifood: /\b(food|crops?|agri\w*|farm\w*|livestock|cultivated meat|plant-based|alt[- ]protein|dairy|seed\w*)\b/i,
+  synbio: /\b(synthetic biology|synbio\w*|engineered (microbes?|yeast|bacteria|organisms?|strains?)|strain engineering|metabolic engineering|genetic circuits?|gene circuits?|dna synthesis|synthetic (dna|genomes?|cells?)|cell-free|biofoundr\w*|xenobot\w*|mirror life|mirror bacteria)\b/i,
   industrial: /\b(synthetic biology|synbio|biomanufactur\w*|bio-?based|biofuel\w*|biomaterial\w*|chemicals?|enzym\w*|industrial biotech\w*)\b/i,
   bioprocessing: /\b(bioprocess\w*|cdmo\w*|cmo|manufactur\w*|bioreactor\w*|upstream|downstream|fill[- ]finish|scale[- ]up|gmp)\b/i,
   fermentation: /\b(ferment\w*|yeast|precision fermentation|biomass)\b/i,
