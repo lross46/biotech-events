@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-19T06:45:08Z",
+ "updated": "2026-11-19T13:42:44Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-19T06:45:08Z",
+  "date": "2026-11-19T13:42:44Z",
   "points": [
    {
     "sec": "results",
@@ -42,26 +42,26 @@
    },
    {
     "sec": "policy",
-    "text": "Washington's science leadership is in disarray. The White House pulled Heidi Overton's FDA nomination hours before a committee vote, and Senator Cassidy then refused to advance Jim O'Neill for the National Science Foundation, saying he failed to stand up to Kennedy. NIH director Bhattacharya asked Nature Medicine to probe whether former NIH leaders ghostwrote a COVID-origin paper, and Sanders previewed Democratic investigations of Kennedy as measles spreads after the US lost elimination status. The preventive services task force will meet for the first time in over a year. A Cassel Salpeter report says tariffs and an $18B NIH cut hit small biotechs hardest, and BioPharma Dive details the compounded GLP-1 fight as FDA weighs barring large compounders.",
+    "text": "Washington's science leadership is in disarray. The White House pulled Heidi Overton's FDA nomination hours before a committee vote, and Senator Cassidy then refused to advance Jim O'Neill for the National Science Foundation, saying he failed to stand up to Kennedy. NIH director Bhattacharya asked Nature Medicine to probe whether former NIH leaders ghostwrote a COVID-origin paper, and Sanders previewed Democratic investigations of Kennedy as measles spreads after the US lost elimination status. The preventive services task force will meet for the first time in over a year. A Cassel Salpeter report says tariffs and an $18B NIH cut hit small biotechs hardest, and BioPharma Dive details the compounded GLP-1 fight as FDA weighs barring large compounders. In the UK, the government confirmed it will widen the legal definition of gene therapies to cover certain synthetic nucleic-acid and genome-editing products.",
     "ids": [
      "ded3924cb0a7",
      "65d8f40ba93a",
      "6b2bca73772d",
      "84cd714b0375",
      "2026-11-18-cassel-salpeter-government-actions-hit-small-biotechs",
-     "150403e701d0"
+     "13cada26f502"
     ]
    },
    {
     "sec": "money",
-    "text": "Isomorphic Labs' record $5B Series C still sets the tone for AI drug discovery, joined by a $200M Oman-backed round for a Chinese AI biotech and Chugai signing up for Ten63's generative chemistry programme. Pfizer entered in vivo CAR-T with a deal worth up to $2.6B for three Starna programmes. In devices, Science Corporation raised $400M to commercialise its Prima vision-restoring retinal implant, already CE-marked, and Remedy Robotics raised $62M for remote stroke intervention. Outside pharma, Lithuanian AI enzyme designer Biomatter raised $18M with customers including Thermo Fisher, REPLOID agreed terms to buy US insect farmer Chapul for about $12M, and Marudai Food teamed with NoMy on fermented koji protein.",
+    "text": "Isomorphic Labs' record $5B Series C still sets the tone for AI drug discovery, joined by a $200M Oman-backed round for a Chinese AI biotech and Chugai signing up for Ten63's generative chemistry programme. Merck added an Isomorphic oncology collaboration, and AbbVie agreed to pay Germany's preclinical Disco Pharmaceuticals $40M upfront and up to $2.5B for new solid-tumour targets for its ADCs and T-cell engagers. Pfizer entered in vivo CAR-T with a deal worth up to $2.6B for three Starna programmes. In devices, Science Corporation raised $400M to commercialise its Prima vision-restoring retinal implant, already CE-marked, and Remedy Robotics raised $62M for remote stroke intervention. Outside pharma, Lithuanian AI enzyme designer Biomatter raised $18M with customers including Thermo Fisher, REPLOID agreed terms to buy US insect farmer Chapul for about $12M, and Marudai Food teamed with NoMy on fermented koji protein.",
     "ids": [
      "07388c8349e9",
+     "5d7950f90599",
      "f91b2a032d04",
      "594e9f214b3b",
      "6e9b2618a8a8",
-     "2026-11-18-reploid-eyes-12m-chapul-acquisition",
-     "bc7df0209499"
+     "2026-11-18-reploid-eyes-12m-chapul-acquisition"
     ]
    },
    {
@@ -28773,6 +28773,1343 @@
     "healthcare": {
      "score": 3,
      "why": "Clinical guidance for UK clinicians."
+    }
+   }
+  },
+  "83578b4124e7": {
+   "drop": true
+  },
+  "4fef4ca2dd25": {
+   "drop": true
+  },
+  "3261cdc51561": {
+   "drop": true
+  },
+  "5339724283ee": {
+   "dup": "9eca729af1ba"
+  },
+  "b7d79c188912": {
+   "dup": "4475a56988b4"
+  },
+  "6e0cf7fdc9e3": {
+   "dup": "622d9c8ee0b1"
+  },
+  "0824280d3925": {
+   "drop": true
+  },
+  "1b2183e27892": {
+   "drop": true
+  },
+  "de0e7114799a": {
+   "dup": "84cd714b0375"
+  },
+  "a01d186d2521": {
+   "drop": true
+  },
+  "3c9230d3be2c": {
+   "drop": true
+  },
+  "2535a70aa5de": {
+   "drop": true
+  },
+  "571177f7dce0": {
+   "dup": "8828f64bf323"
+  },
+  "4becd5c750ed": {
+   "drop": true
+  },
+  "c0fbaef28d5f": {
+   "dup": "185db75349bb"
+  },
+  "7dc1729a16dc": {
+   "dup": "622d9c8ee0b1"
+  },
+  "fa0dceed502f": {
+   "drop": true
+  },
+  "e1f5b1232af5": {
+   "dup": "b75922534908"
+  },
+  "8fe599d3b4bd": {
+   "drop": true
+  },
+  "b04bce038039": {
+   "drop": true
+  },
+  "57dc16a04d53": {
+   "drop": true
+  },
+  "cc031e7d82ba": {
+   "drop": true
+  },
+  "820560a91233": {
+   "drop": true
+  },
+  "7e8ed7480155": {
+   "drop": true
+  },
+  "5d68172d63ea": {
+   "drop": true
+  },
+  "e11cde29ba2c": {
+   "drop": true
+  },
+  "ef6a19346e4b": {
+   "drop": true
+  },
+  "8cba99fe8a8c": {
+   "dup": "937741bb980e"
+  },
+  "d8d0f779e124": {
+   "dup": "937741bb980e"
+  },
+  "433e0e42bf3b": {
+   "drop": true
+  },
+  "48919b000ac0": {
+   "drop": true
+  },
+  "6f0955bf3fef": {
+   "drop": true
+  },
+  "4109d8f99d0a": {
+   "drop": true
+  },
+  "86a8de83922b": {
+   "drop": true
+  },
+  "e0945a784a35": {
+   "drop": true
+  },
+  "f8380d3d0838": {
+   "drop": true
+  },
+  "0f6744fe2dc1": {
+   "drop": true
+  },
+  "43a4026ca37f": {
+   "drop": true
+  },
+  "5b16e28bdab9": {
+   "drop": true
+  },
+  "855f248e3fc2": {
+   "drop": true
+  },
+  "1d75dfd2ba00": {
+   "drop": true
+  },
+  "f05a6aebf962": {
+   "drop": true
+  },
+  "13b9ccaeb373": {
+   "drop": true
+  },
+  "71c5a02835e1": {
+   "drop": true
+  },
+  "98973894282c": {
+   "drop": true
+  },
+  "2d356bb6adee": {
+   "drop": true
+  },
+  "4c8c3576893a": {
+   "dup": "0c7ddf6efb5f"
+  },
+  "5808043873d9": {
+   "dup": "e2cafcde1028"
+  },
+  "063ab147fafa": {
+   "drop": true
+  },
+  "6f227a931927": {
+   "drop": true
+  },
+  "d32ffd5fde3f": {
+   "drop": true
+  },
+  "12558db2eceb": {
+   "drop": true
+  },
+  "be8577cc31f1": {
+   "drop": true
+  },
+  "fac4ac003e06": {
+   "drop": true
+  },
+  "0bb7e1ea4378": {
+   "drop": true
+  },
+  "891aa95ad5c3": {
+   "drop": true
+  },
+  "323b14b6367b": {
+   "drop": true
+  },
+  "aff3854ff21f": {
+   "drop": true
+  },
+  "265653d7b9bf": {
+   "dup": "e2cafcde1028"
+  },
+  "ca2ed490825b": {
+   "dup": "e2cafcde1028"
+  },
+  "f27f4d48861b": {
+   "drop": true
+  },
+  "04dece2018da": {
+   "dup": "e2cafcde1028"
+  },
+  "ae74d69d83e6": {
+   "dup": "e2cafcde1028"
+  },
+  "892adc2c0cab": {
+   "dup": "2edfbc93beea"
+  },
+  "a1b840745438": {
+   "dup": "e2cafcde1028"
+  },
+  "481fe61974be": {
+   "dup": "e2cafcde1028"
+  },
+  "a0c401d92443": {
+   "dup": "e2cafcde1028"
+  },
+  "c63f3f2ed16c": {
+   "dup": "e2cafcde1028"
+  },
+  "3d501a7292cb": {
+   "dup": "e2cafcde1028"
+  },
+  "aeba9e181d3f": {
+   "dup": "e2cafcde1028"
+  },
+  "2a6023271c12": {
+   "dup": "e2cafcde1028"
+  },
+  "bb8a9917d1ce": {
+   "dup": "e2cafcde1028"
+  },
+  "79afcfd5b9b3": {
+   "dup": "e2cafcde1028"
+  },
+  "29d30ce24704": {
+   "dup": "e2cafcde1028"
+  },
+  "3760e3f0dad9": {
+   "dup": "e2cafcde1028"
+  },
+  "281b3c26a669": {
+   "dup": "e2cafcde1028"
+  },
+  "d262ff8ce531": {
+   "dup": "e2cafcde1028"
+  },
+  "655ef3bea388": {
+   "dup": "e2cafcde1028"
+  },
+  "3b84d42954cc": {
+   "dup": "e2cafcde1028"
+  },
+  "c0f9704d35ce": {
+   "drop": true
+  },
+  "e6232c17dc82": {
+   "dup": "e8dbbd1273e1"
+  },
+  "a06577c073fa": {
+   "drop": true
+  },
+  "c8f4a6d56dcf": {
+   "drop": true
+  },
+  "6e25d0b137f9": {
+   "drop": true
+  },
+  "cb8e1813ce87": {
+   "drop": true
+  },
+  "d02b0cb1ccc6": {
+   "drop": true
+  },
+  "159ecb1ff190": {
+   "drop": true
+  },
+  "1e470a047f45": {
+   "drop": true
+  },
+  "20742d34c882": {
+   "drop": true
+  },
+  "a144b79be7fb": {
+   "drop": true
+  },
+  "0ee6a3e65fce": {
+   "dup": "19faad1b893f"
+  },
+  "2c360f189cc1": {
+   "drop": true
+  },
+  "cfbb313ea461": {
+   "drop": true
+  },
+  "2fffa3cee7a3": {
+   "drop": true
+  },
+  "bf3d564f779c": {
+   "drop": true
+  },
+  "218a62a465dd": {
+   "drop": true
+  },
+  "b91d9f8a828e": {
+   "dup": "5dd773bf975f"
+  },
+  "91df05e9ec11": {
+   "dup": "e7dd0306130a"
+  },
+  "acfdbc6071d2": {
+   "drop": true
+  },
+  "4a88ca73f8fb": {
+   "drop": true
+  },
+  "dda9e2b12cf0": {
+   "drop": true
+  },
+  "3ee8389392f8": {
+   "drop": true
+  },
+  "16dca8e14763": {
+   "drop": true
+  },
+  "f434ead58b0c": {
+   "drop": true
+  },
+  "1c259bcff970": {
+   "drop": true
+  },
+  "8fcf391a3c7a": {
+   "drop": true
+  },
+  "88081c32dac2": {
+   "drop": true
+  },
+  "e6f6c10d2f89": {
+   "drop": true
+  },
+  "b12fb7e81341": {
+   "drop": true
+  },
+  "4bc586235e9e": {
+   "drop": true
+  },
+  "fa1c048137e1": {
+   "drop": true
+  },
+  "0ee2253d7d7f": {
+   "drop": true
+  },
+  "066e46572ead": {
+   "drop": true
+  },
+  "f653ed6905d9": {
+   "drop": true
+  },
+  "61164f23e3fb": {
+   "drop": true
+  },
+  "1d5f5f3fb2ec": {
+   "drop": true
+  },
+  "811ee9cb8ec7": {
+   "drop": true
+  },
+  "455e9d24c70a": {
+   "drop": true
+  },
+  "c06249d0f1f9": {
+   "drop": true
+  },
+  "0a7727272bd4": {
+   "drop": true
+  },
+  "31f90572bb62": {
+   "drop": true
+  },
+  "90b7738a4dd2": {
+   "drop": true
+  },
+  "d2ef87f27245": {
+   "drop": true
+  },
+  "62ece1fb1145": {
+   "dup": "74efa911c983"
+  },
+  "6d1395921e8d": {
+   "drop": true
+  },
+  "5246fefac267": {
+   "drop": true
+  },
+  "778efc66af45": {
+   "dup": "aec57b25a39d"
+  },
+  "b82aec4c86d0": {
+   "drop": true
+  },
+  "de378bd9b2f1": {
+   "drop": true
+  },
+  "c56bb8489036": {
+   "drop": true
+  },
+  "9c41a513889c": {
+   "drop": true
+  },
+  "2cd94d21b408": {
+   "drop": true
+  },
+  "9797bb165628": {
+   "drop": true
+  },
+  "4190acca4168": {
+   "drop": true
+  },
+  "38280df1c81b": {
+   "drop": true
+  },
+  "8196d2066151": {
+   "drop": true
+  },
+  "5800990f05f9": {
+   "drop": true
+  },
+  "f08128be7c5c": {
+   "drop": true
+  },
+  "89b9a4b4d38d": {
+   "drop": true
+  },
+  "9c3b3b90d515": {
+   "drop": true
+  },
+  "fefe3c61501e": {
+   "drop": true
+  },
+  "0bab44666b06": {
+   "drop": true
+  },
+  "4a9bb134f643": {
+   "drop": true
+  },
+  "a55dbc0fea09": {
+   "dup": "eeece3668fba"
+  },
+  "a7622de8692b": {
+   "drop": true
+  },
+  "4d61012e4fca": {
+   "drop": true
+  },
+  "028fa0b99cbe": {
+   "drop": true
+  },
+  "05197608e723": {
+   "drop": true
+  },
+  "0f80ac30ee81": {
+   "drop": true
+  },
+  "3ff430487071": {
+   "drop": true
+  },
+  "96045f891974": {
+   "drop": true
+  },
+  "8b22ce2b3f1b": {
+   "drop": true
+  },
+  "99a6cd9c316c": {
+   "drop": true
+  },
+  "24963abd96df": {
+   "drop": true
+  },
+  "6e3c0d64eb8a": {
+   "drop": true
+  },
+  "20374824a364": {
+   "drop": true
+  },
+  "345d76925811": {
+   "drop": true
+  },
+  "087cf2a7e76c": {
+   "drop": true
+  },
+  "55265bb25d24": {
+   "drop": true
+  },
+  "ab017708860a": {
+   "drop": true
+  },
+  "0d564d1c0700": {
+   "drop": true
+  },
+  "15560957ff99": {
+   "drop": true
+  },
+  "4c48887451e1": {
+   "drop": true
+  },
+  "a63af0de9807": {
+   "drop": true
+  },
+  "9ce2170ded38": {
+   "drop": true
+  },
+  "3b4c312c2a5b": {
+   "drop": true
+  },
+  "5e2063c7550e": {
+   "drop": true
+  },
+  "a6de4324d2d1": {
+   "drop": true
+  },
+  "26508ae8c367": {
+   "drop": true
+  },
+  "1f8c0a9153a5": {
+   "drop": true
+  },
+  "04e0fad4ae22": {
+   "drop": true
+  },
+  "ef4229e9b1d9": {
+   "drop": true
+  },
+  "72036ece514d": {
+   "drop": true
+  },
+  "93ab3d7e268b": {
+   "drop": true
+  },
+  "3d94e8dac93e": {
+   "drop": true
+  },
+  "c983dfd0a249": {
+   "drop": true
+  },
+  "cf75faf489ec": {
+   "drop": true
+  },
+  "7cd35bb869fd": {
+   "drop": true
+  },
+  "714f193c3b85": {
+   "drop": true
+  },
+  "62350a95df5d": {
+   "drop": true
+  },
+  "73c78aa6eff9": {
+   "drop": true
+  },
+  "7a5cd2f12175": {
+   "drop": true
+  },
+  "06295a98e103": {
+   "drop": true
+  },
+  "a1a36cadb31e": {
+   "drop": true
+  },
+  "e4bf6cde5e7a": {
+   "drop": true
+  },
+  "6a80f725e27e": {
+   "drop": true
+  },
+  "5af1b5fd9716": {
+   "drop": true
+  },
+  "21a58a21c872": {
+   "drop": true
+  },
+  "60ca96c60af5": {
+   "drop": true
+  },
+  "0331ad607814": {
+   "drop": true
+  },
+  "59cdef306571": {
+   "drop": true
+  },
+  "4fc1ed043b8d": {
+   "drop": true
+  },
+  "49246272d061": {
+   "drop": true
+  },
+  "2a110add8e50": {
+   "drop": true
+  },
+  "09bf2498a0d9": {
+   "drop": true
+  },
+  "17ea685a4bd5": {
+   "drop": true
+  },
+  "dd559578e9d3": {
+   "drop": true
+  },
+  "851f18ebfcbf": {
+   "drop": true
+  },
+  "fd564f4108d2": {
+   "drop": true
+  },
+  "34a812f26474": {
+   "drop": true
+  },
+  "9bf2501acd96": {
+   "drop": true
+  },
+  "67cdcd91b729": {
+   "drop": true
+  },
+  "f0a1b500bd65": {
+   "drop": true
+  },
+  "af5154e22cb0": {
+   "drop": true
+  },
+  "f4b0bf61956e": {
+   "drop": true
+  },
+  "e34bac0ffe65": {
+   "drop": true
+  },
+  "343660491977": {
+   "drop": true
+  },
+  "92d3c39737f0": {
+   "drop": true
+  },
+  "12357da410f9": {
+   "drop": true
+  },
+  "311da730119a": {
+   "drop": true
+  },
+  "9f8958287b74": {
+   "drop": true
+  },
+  "ddb58a2dc6f0": {
+   "drop": true
+  },
+  "98bd31631bd2": {
+   "dup": "5d7950f90599"
+  },
+  "508808d66a0a": {
+   "dup": "5d7950f90599"
+  },
+  "3da6f1aa6366": {
+   "dup": "2026-11-19-nine-biotechs-cut-half-california-workforces"
+  },
+  "c246e5523961": {
+   "dup": "92c4030a1d83"
+  },
+  "589593d3e165": {
+   "dup": "13cada26f502"
+  },
+  "93aa0cf86ec7": {
+   "drop": true
+  },
+  "bb874638bcd3": {
+   "drop": true
+  },
+  "e1d85ba21f9a": {
+   "drop": true
+  },
+  "300cc615e318": {
+   "drop": true
+  },
+  "4e01e0f73fb3": {
+   "drop": true
+  },
+  "5d7950f90599": {
+   "cat": "deals",
+   "imp": 7,
+   "summary": "AbbVie agreed to pay Cologne-based, preclinical Disco Pharmaceuticals $40 million upfront and up to about $2.5 billion in total to find new solid-tumour targets for its antibody-drug conjugate and T-cell engager programmes. Disco's platform maps the surface proteins of cancer cells to find targets that set tumours apart from healthy tissue. It is one of the largest discovery deals this year for a European preclinical biotech.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Big Pharma paying heavily for new oncology targets for ADCs and bispecifics."
+    },
+    "tools": {
+     "score": 5,
+     "why": "Built on a cancer surfaceome-mapping discovery platform."
+    },
+    "investment": {
+     "score": 6,
+     "why": "Large biobucks deal for a private European preclinical company."
+    }
+   }
+  },
+  "e056a5a9d8fd": {
+   "cat": "deals",
+   "imp": 6,
+   "summary": "Merck and Alphabet's Isomorphic Labs began a research collaboration to discover small-molecule drugs against an undisclosed oncology target, pairing Isomorphic's AI design engine with Merck's lab data. Merck will run development, manufacturing and sales; Isomorphic gets an undisclosed upfront, milestones and tiered royalties, plus an option to co-fund development for higher royalties. It comes days after Isomorphic's record $5 billion Series C.",
+   "rel": {
+    "ai": {
+     "score": 8,
+     "why": "Another Big Pharma deal for AI-led small-molecule design."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Merck adds an AI-designed oncology discovery programme."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Adds to Isomorphic's commercial momentum after its $5B raise."
+    }
+   }
+  },
+  "7ae5ee6fdedb": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "Actinogen says its pivotal trial of oral Xanamem in mild to moderate Alzheimer's disease showed benefit only in a subgroup: in patients over 75, 40% had stable, non-progressive disease versus 22% on placebo (p=0.02), linked to about 30% slower progression. In the overall population the company reports only trends towards benefit. Safety was described as favourable. The company has not yet set out its regulatory path.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Mixed pivotal readout for a non-amyloid oral Alzheimer's drug."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Oral option for older Alzheimer's patients if the subgroup signal holds."
+    }
+   }
+  },
+  "d1366746b088": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "Johnson & Johnson filed a supplemental application with the FDA for Caplyta (lumateperone) in manic or mixed episodes of bipolar I disorder in adults, which would be its fifth indication. The filing rests on two Phase 3 placebo-controlled studies (451 and 452) of 42 mg once daily, both of which met primary and key secondary endpoints, with manic symptoms reduced from Day 3. J&J gave no decision date.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Label expansion for one of J&J's growing neuroscience brands."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Would add a treatment option for bipolar mania."
+    }
+   }
+  },
+  "0789aaa45b25": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "Humacyte filed a supplemental BLA for Symvess, its acellular tissue-engineered vessel, as hemodialysis access in end-stage kidney disease, and asked for priority review. The filing draws on three Phase 3 trials, V007, V006 and V012; interim V012 data in women showed usable access more than three months sooner than with fistulas. Symvess has been approved for extremity vascular trauma since December 2024; the FDA has 60 days to accept the filing.",
+   "rel": {
+    "meddevices": {
+     "score": 6,
+     "why": "Engineered vessel competing with fistulas and grafts for dialysis access."
+    },
+    "cellgene": {
+     "score": 5,
+     "why": "Bioengineered, cell-grown tissue product seeking a much larger indication."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "Commercial-scale tissue-engineering manufacturing."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Dialysis access is a large unmet need."
+    }
+   }
+  },
+  "a61a9346774f": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Remix Therapeutics says its oral MYB mRNA degrader REM-422 produced a 57% response rate (4 of 7) at the 24 mg recommended Phase 2 dose in biomarker-positive adenoid cystic carcinoma, with responses lasting up to 19 months, in a Phase 1 that enrolled 69 patients. There were no dose-limiting toxicities. A registrational Phase 2 at 24 mg should finish enrolling by year end.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Early proof for an RNA-targeting small molecule in a rare cancer with no approved drugs."
+    }
+   }
+  },
+  "fdc77ae40e12": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Biohaven says its FGFR3-directed antibody-drug conjugate BHV-1530, carrying its own topoisomerase-inhibitor payload, produced confirmed and durable responses in FGFR3-altered urothelial and head and neck cancers in Phase 1 data presented in an oral plenary at the EORTC-NCI-AACR symposium in Barcelona. The release headline gives no response rates.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Early clinical activity for a new ADC target-payload pairing."
+    }
+   }
+  },
+  "e3c9f659ddc9": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "Evotec says the FDA cleared a second IND from its molecular-glue protein degradation partnership with Bristol Myers Squibb, which began with Celgene in 2018 and was expanded in 2022. The milestone payment was not disclosed in the release.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Progress in a long-running molecular-glue discovery alliance."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Milestone income for Evotec."
+    }
+   }
+  },
+  "481df16a1693": {
+   "cat": "contracts",
+   "imp": 4,
+   "summary": "Germany's ITM will supply non-carrier-added lutetium-177 to Canadian radiopharmaceutical CDMO AtomVie, which uses it to make radioligand therapies for drug developers. The duration and value were not disclosed. Isotope supply is a known bottleneck as radiopharma pipelines grow.",
+   "rel": {
+    "bioprocessing": {
+     "score": 5,
+     "why": "Secures isotope supply for contract radiopharmaceutical manufacturing."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Lu-177 supply underpins radioligand therapy programmes."
+    }
+   }
+  },
+  "92c4030a1d83": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "Korean medical AI firm Coreline Soft won FDA 510(k) clearance for AVIEW Aorta Metrics, AI software that measures aortic diameter on chest CT, its 13th US clearance. The company is showcasing its chest CT portfolio at RSNA 2026.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "Cleared AI imaging software for cardiovascular measurement."
+    },
+    "meddevices": {
+     "score": 5,
+     "why": "Software as a medical device clearance."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Imaging-based screening tool."
+    }
+   }
+  },
+  "13cada26f502": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "The UK government confirmed it will modernise the legal definition of gene therapy medicinal products so that certain synthetic nucleic-acid products and sequence-specific genome-editing treatments fall under the advanced therapies framework. Approval standards stay the same and licensed medicines will not be reclassified. The MHRA consultation (May to June 2026) drew 83% support; the change still needs international notification and parliamentary approval.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "Changes which gene-editing and synthetic nucleic-acid products are regulated as gene therapies in the UK."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Affects UK regulatory routes for nucleic-acid medicines."
+    },
+    "synbio": {
+     "score": 4,
+     "why": "Covers products built on synthetic DNA and RNA."
+    }
+   }
+  },
+  "5b4ded5b2fb6": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "Novartis CEO Vas Narasimhan told Fierce that most shareholders remain behind the company's strategy despite recent clinical setbacks, and called for adjustments to the proposed US COINS Act, which would restrict deals with Chinese biotechs. Novartis is among the most active in-licensers of Chinese assets.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Big Pharma pushback on US limits to China biotech deals."
+    },
+    "investment": {
+     "score": 4,
+     "why": "COINS Act could reshape cross-border licensing."
+    }
+   }
+  },
+  "7a7035a265a9": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "A Bloomberg column argues that a recent setback for China's biotech sector, described as a black eye for its boom, may fade quickly as Western drugmakers keep licensing Chinese assets. Only the headline was available to check.",
+   "rel": {
+    "investment": {
+     "score": 5,
+     "why": "Sentiment on China biotech, a major source of licensed assets."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Affects in-licensing from China."
+    }
+   }
+  },
+  "f50e81829e75": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "Axios reports renewed alarm in Washington over China's control of drug supply chains, including active ingredients and generic inputs that US medicines depend on. Only the headline was available to check; the story adds to pressure for onshoring and supply-chain rules.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Drug supply-chain dependence on China is a live policy issue."
+    },
+    "defence": {
+     "score": 4,
+     "why": "Medicine supply is treated as a national-security question."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "Onshoring pressure affects API and drug manufacturing."
+    }
+   }
+  },
+  "4fcc128cacb3": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "President Trump said Iran has been looking at chemical and biological weapons but played down the threat, according to The Straits Times. Only the headline was available to check, so the basis for the claim is unclear.",
+   "rel": {
+    "biosecurity": {
+     "score": 7,
+     "why": "Head-of-state claim about a state bioweapons interest."
+    },
+    "defence": {
+     "score": 7,
+     "why": "Chemical and biological weapons threat assessment."
+    }
+   }
+  },
+  "9f4dbe06ef83": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "UKHSA published a statistical release on Salmonella cases in England linked to an outbreak likely associated with imported eggs. Case numbers were not in the notice.",
+   "rel": {
+    "biosecurity": {
+     "score": 6,
+     "why": "Ongoing foodborne outbreak tracked by UKHSA."
+    },
+    "agrifood": {
+     "score": 5,
+     "why": "Linked to imported eggs."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Public health surveillance of a national outbreak."
+    }
+   }
+  },
+  "c0da3943c3c4": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Lotte Biologics says its first Songdo, Korea, plant reached GMP readiness ahead of schedule and it targets commercial production in 2028, after signing its first commercial manufacturing deal for the site.",
+   "rel": {
+    "bioprocessing": {
+     "score": 7,
+     "why": "New large Asian biologics CDMO capacity coming online."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "More contract biologics capacity for drug makers."
+    }
+   }
+  },
+  "5e759c4043dc": {
+   "cat": "funding",
+   "imp": 4,
+   "summary": "Korean biotech ADEL plans a December Kosdaq listing, pitching its selective Alzheimer's antibodies and a licensing deal worth up to $1.04 billion with Sanofi to investors despite a weak IPO market.",
+   "rel": {
+    "investment": {
+     "score": 5,
+     "why": "Test of Korea's IPO window for biotech."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Alzheimer's antibody developer partnered with Sanofi."
+    }
+   }
+  },
+  "b70a5505bf2e": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "Korean medical societies called for tighter oversight of GLP-1 obesity drugs brought into Korea for personal use after being prescribed abroad, along with lower domestic prices and insurance coverage. The call followed Korea's decision to let travellers bring in the drugs.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Access and safety of obesity drugs in Korea."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "GLP-1 pricing pressure."
+    }
+   }
+  },
+  "45bd45392778": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "Korea began reimbursing Lynparza plus bevacizumab for some advanced ovarian cancer patients on Nov. 1, cutting their share of the cost to 5%. But the HRD test needed to qualify is not covered, leaving patients about 2 million won ($1,500) out of pocket.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Reimbursement gap between a drug and its companion test."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Companion diagnostic left out of coverage."
+    }
+   }
+  },
+  "4cc4552c30c5": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Korea's NEXT BIOMEDICAL finished treating all 126 patients in a US trial of Nexsphere-F, an embolization device for knee osteoarthritis, and continues follow-up ahead of a planned FDA submission.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "US pivotal-stage device trial for knee osteoarthritis."
+    }
+   }
+  },
+  "fbd6eb6ff57f": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Onconic Therapeutics is expanding OCN-501, an experimental muscle-metabolism drug first studied with GLP-1 obesity drugs, into cancer cachexia after three preclinical studies were accepted for a US conference in December.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Muscle-preserving drug moving into cachexia."
+    }
+   }
+  },
+  "01c24fe90cee": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "Daewoong Pharmaceutical and Tionlab Therapeutics won Korean approval to start a Phase 1 trial of TION-L002, a once-monthly injectable formulation of semaglutide for obesity.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Long-acting GLP-1 reformulation enters the clinic."
+    }
+   }
+  },
+  "f64665d650b2": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "A large multicentre case series in Nature Medicine describes immune effector cell-associated enterocolitis after BCMA-directed CAR-T therapy for myeloma. Only 32% of affected patients had resolved at last follow-up, and some died. The findings define a serious, often persistent late toxicity of BCMA CAR-T cells.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "Characterises a serious late toxicity of approved BCMA CAR-T products."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Safety signal relevant to Carvykti and Abecma."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Guides monitoring of CAR-T patients."
+    }
+   }
+  },
+  "bfddc1b97522": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A companion Nature Medicine study profiled patients with biopsy-confirmed enterocolitis after ciltacabtagene autoleucel (Carvykti) and found CAR-T cell infiltrates concentrated in the duodenum, more cytotoxic and expanded than in blood. It points to direct CAR-T attack in the gut as the mechanism.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "Mechanism for a CAR-T gut toxicity."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Informs Carvykti safety management."
+    }
+   }
+  },
+  "1f8998382a42": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Nature Medicine news piece reports a prospective clinical study in which a consumer smartwatch, with AI analysis, performed similarly to office-based measurement at detecting hypertension, suggesting a route to population-wide opportunistic screening.",
+   "rel": {
+    "meddevices": {
+     "score": 6,
+     "why": "Consumer wearable validated for hypertension screening."
+    },
+    "ai": {
+     "score": 5,
+     "why": "AI analysis of wearable signals."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "New screening route for undiagnosed hypertension."
+    }
+   }
+  },
+  "e569dfb3796a": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Nature Chemical Biology paper used yeast surface display to screen for substrates of active cancer proteases and engineered yeast that specifically measure them, aiming at sensitive early cancer detection.",
+   "rel": {
+    "synbio": {
+     "score": 6,
+     "why": "Engineered yeast as a biosensing platform."
+    },
+    "diagnostics": {
+     "score": 6,
+     "why": "New protease-activity biomarkers for early cancer detection."
+    }
+   }
+  },
+  "64f12bca91c8": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Nature Biotechnology published RhoAgent, an AI 'virtual scientist' that designs functional RNA molecules by constraining secondary structure, base interactions and functional motifs.",
+   "rel": {
+    "ai": {
+     "score": 7,
+     "why": "Agentic AI for RNA design."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "Programmable design of functional RNA parts."
+    },
+    "tools": {
+     "score": 4,
+     "why": "New computational design tool."
+    }
+   }
+  },
+  "a08d3aa9586d": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature Chemical Biology paper engineered nanobodies that selectively block opioid receptor signalling in living neurons and mice, giving precise control of receptor activity across cell types and subcellular compartments.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "New protein tool to dissect opioid signalling."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Insight into opioid receptor pharmacology."
+    }
+   }
+  },
+  "2ecc608c0c2b": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A Nature feature explores evidence that the brain decodes pathogens, stores memories of past illnesses and shapes how sick we feel, priming the body for future threats.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Neuro-immune research could open new targets."
+    }
+   }
+  },
+  "0c8642d08c1c": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A mouse study found a high-fat diet early in life altered epigenetic controls in T cells, reducing antibody production and raising vulnerability to infection.",
+   "rel": {
+    "healthcare": {
+     "score": 3,
+     "why": "Links childhood obesity to weaker immunity."
+    }
+   }
+  },
+  "50076c839f44": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Researchers identified a rare inherited CDK12 mutation linked to aggressive prostate cancer; all five carriers found developed metastatic disease between ages 44 and 62. It could expand genetic testing for families.",
+   "rel": {
+    "diagnostics": {
+     "score": 5,
+     "why": "Candidate for inherited prostate cancer gene panels."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Earlier screening for carrier families."
+    }
+   }
+  },
+  "7e999fa02cf5": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Preprint: a head-to-head comparison of four oligo-dT affinity chromatography formats (monolith, porous bead, membrane and fibre) for capturing in vitro transcribed mRNA, the most common capture step in mRNA manufacturing. Not yet peer-reviewed.",
+   "rel": {
+    "bioprocessing": {
+     "score": 7,
+     "why": "Directly compares mRNA purification matrices."
+    },
+    "cellgene": {
+     "score": 3,
+     "why": "Relevant to mRNA medicine manufacturing."
+    }
+   }
+  },
+  "059031f28c05": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Preprint: researchers retargeted a bacterial thiosulfate two-component system to sense perchlorate, a route to programmable whole-cell biosensors for environmental contaminants. Not yet peer-reviewed.",
+   "rel": {
+    "synbio": {
+     "score": 6,
+     "why": "Method for retargeting membrane sensors in engineered bacteria."
+    },
+    "industrial": {
+     "score": 3,
+     "why": "Environmental monitoring biosensor."
+    }
+   }
+  },
+  "5d2e76f88ab6": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Preprint: a temperature-based method allows repeated markerless gene integration in the cyanobacterium Synechococcus elongatus PCC 7942, easing multi-step engineering of photosynthetic chassis. Not yet peer-reviewed.",
+   "rel": {
+    "synbio": {
+     "score": 5,
+     "why": "Genome engineering tool for a cyanobacterial chassis."
+    },
+    "industrial": {
+     "score": 3,
+     "why": "Supports photosynthetic production strains."
+    }
+   }
+  },
+  "bb27f832335b": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Preprint: a study of how RNA-containing lipid nanoparticles self-assemble during micromixing describes the kinetics and regimes that control RNA encapsulation. Not yet peer-reviewed.",
+   "rel": {
+    "bioprocessing": {
+     "score": 5,
+     "why": "Process understanding for LNP formulation."
+    },
+    "cellgene": {
+     "score": 3,
+     "why": "Relevant to mRNA medicine delivery."
+    }
+   }
+  },
+  "02acd9207fce": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Preprint: researchers boosted production of the bioactive pigment violacein in an Antarctic Janthinobacterium strain. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 4,
+     "why": "Microbial production of a high-value metabolite."
+    },
+    "fermentation": {
+     "score": 3,
+     "why": "Strain and process optimisation."
+    }
+   }
+  },
+  "680a80523c46": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Preprint: a benchmark dataset and metrics for predicting the catalytic performance of medium-chain dehydrogenase/reductase enzymes, aimed at machine-learning enzyme engineering. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 4,
+     "why": "Supports engineering of industrial oxidoreductases."
+    },
+    "ai": {
+     "score": 4,
+     "why": "Benchmark for ML enzyme models."
+    }
+   }
+  },
+  "b816fd3ca91c": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "STAT reports that new pancreatic cancer data have put Erasca's pan-RAS drug in the spotlight, raising the question of whether it is more potent and better tolerated than Revolution Medicines' leading RAS inhibitor. The article is paywalled; only the summary was visible.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Competition in the RAS inhibitor class."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Investor focus on RAS challengers."
+    }
+   }
+  },
+  "05aad942183a": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Adagene dosed the first patient in a Phase 1 study of ADG138, a HER2xCD3 bispecific T-cell engager masked at both arms, in HER2-positive advanced solid tumours.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Masked T-cell engager enters the clinic."
+    }
+   }
+  },
+  "f45ead97b572": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Opus Genetics dosed the first participant in a Phase 1/2 trial of OPGx-RDH12, a gene therapy for a rare inherited childhood blindness caused by RDH12 mutations.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "Ocular gene therapy enters the clinic."
+    }
+   }
+  },
+  "a128807d2c1f": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Tvardi Therapeutics says FDA pre-IND feedback and new analysis of Phase 1 exposure data support moving its oral STAT3 inhibitor TTI-109 towards an IND in inflammatory bowel disease.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Early oral STAT3 programme in IBD."
+    }
+   }
+  },
+  "e8992c057dcc": {
+   "cat": "funding",
+   "imp": 3,
+   "summary": "Asgard Therapeutics won a €2.5 million EIC Accelerator grant to take its lead programme AT-108 towards the clinic.",
+   "rel": {
+    "cellgene": {
+     "score": 4,
+     "why": "EU grant for a preclinical immunotherapy programme."
+    },
+    "investment": {
+     "score": 3,
+     "why": "EU non-dilutive grant."
+    }
+   }
+  },
+  "65ffd42e230e": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "Innovative Health received FDA clearance to reprocess the OCTARAY cardiac mapping catheter, allowing hospitals to reuse it at lower cost.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Device reprocessing clearance for electrophysiology catheters."
+    }
+   }
+  },
+  "b83ff04a2bf6": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "BioSpace profiles three biotechs hiring after Series C raises, a contrast with this week's wave of layoffs.",
+   "rel": {
+    "investment": {
+     "score": 3,
+     "why": "Signs of growth among well-funded private biotechs."
     }
    }
   }
