@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T06:47:07Z",
+ "updated": "2026-11-20T13:41:09Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
   "date": "2026-11-20T06:47:07Z",
@@ -30412,6 +30412,758 @@
   },
   "8d8fd1cdb044": {
    "drop": true
+  },
+  "39eb5060a225": {
+   "dup": "3b2f71ed99fb"
+  },
+  "5ce19e241f1c": {
+   "drop": true
+  },
+  "42ef2db13f72": {
+   "dup": "35a63f6bdece"
+  },
+  "106ba0b9bf52": {
+   "drop": true
+  },
+  "3f4c0b00b077": {
+   "dup": "bd2b816d7892"
+  },
+  "a3317e48311e": {
+   "drop": true
+  },
+  "d8c229de0c81": {
+   "dup": "0bb010f05d26"
+  },
+  "a3e05ae2188c": {
+   "drop": true
+  },
+  "100a1fa06864": {
+   "dup": "53c1ee613370"
+  },
+  "93ea7bac68c7": {
+   "dup": "53c1ee613370"
+  },
+  "2ac94b7e2b7b": {
+   "drop": true
+  },
+  "cef9f252e444": {
+   "drop": true
+  },
+  "f6b02b8a412a": {
+   "drop": true
+  },
+  "d2faf0d73100": {
+   "drop": true
+  },
+  "91dfb0443288": {
+   "dup": "c3a714070ba0"
+  },
+  "94c13de16cc8": {
+   "dup": "5972d72477d9"
+  },
+  "3c2e55f07dfe": {
+   "drop": true
+  },
+  "5b40dfca0eea": {
+   "drop": true
+  },
+  "843785d32d84": {
+   "drop": true
+  },
+  "a6d4116f5e52": {
+   "dup": "3b2f71ed99fb"
+  },
+  "c5bec2dde01c": {
+   "drop": true
+  },
+  "883d272d1a0e": {
+   "drop": true
+  },
+  "ef81c16703f1": {
+   "drop": true
+  },
+  "a5723dd009f2": {
+   "dup": "84cd714b0375"
+  },
+  "90ae09a68dbe": {
+   "drop": true
+  },
+  "a836c0e24b4b": {
+   "dup": "2d75e27c9a10"
+  },
+  "64639c5eec3a": {
+   "drop": true
+  },
+  "cd10dbf6af32": {
+   "drop": true
+  },
+  "e13a8a540909": {
+   "drop": true
+  },
+  "cf8630d40b0b": {
+   "drop": true
+  },
+  "e1784aa1cbbb": {
+   "drop": true
+  },
+  "9010867c084c": {
+   "drop": true
+  },
+  "1b2183e27892": {
+   "drop": true
+  },
+  "571177f7dce0": {
+   "dup": "8828f64bf323"
+  },
+  "fa0dceed502f": {
+   "drop": true
+  },
+  "e1f5b1232af5": {
+   "dup": "b75922534908"
+  },
+  "8fe599d3b4bd": {
+   "drop": true
+  },
+  "b04bce038039": {
+   "drop": true
+  },
+  "57dc16a04d53": {
+   "drop": true
+  },
+  "cc031e7d82ba": {
+   "drop": true
+  },
+  "7e8ed7480155": {
+   "drop": true
+  },
+  "5d68172d63ea": {
+   "drop": true
+  },
+  "e11cde29ba2c": {
+   "drop": true
+  },
+  "ef6a19346e4b": {
+   "drop": true
+  },
+  "855f248e3fc2": {
+   "drop": true
+  },
+  "1d75dfd2ba00": {
+   "drop": true
+  },
+  "f05a6aebf962": {
+   "drop": true
+  },
+  "13b9ccaeb373": {
+   "drop": true
+  },
+  "71c5a02835e1": {
+   "drop": true
+  },
+  "2d356bb6adee": {
+   "drop": true
+  },
+  "4c8c3576893a": {
+   "dup": "0c7ddf6efb5f"
+  },
+  "5808043873d9": {
+   "dup": "e2cafcde1028"
+  },
+  "063ab147fafa": {
+   "drop": true
+  },
+  "6f227a931927": {
+   "drop": true
+  },
+  "d32ffd5fde3f": {
+   "drop": true
+  },
+  "323b14b6367b": {
+   "drop": true
+  },
+  "c0f9704d35ce": {
+   "drop": true
+  },
+  "e6232c17dc82": {
+   "dup": "e8dbbd1273e1"
+  },
+  "a06577c073fa": {
+   "drop": true
+  },
+  "265653d7b9bf": {
+   "dup": "e2cafcde1028"
+  },
+  "ca2ed490825b": {
+   "dup": "e2cafcde1028"
+  },
+  "f27f4d48861b": {
+   "drop": true
+  },
+  "04dece2018da": {
+   "dup": "e2cafcde1028"
+  },
+  "ae74d69d83e6": {
+   "dup": "e2cafcde1028"
+  },
+  "892adc2c0cab": {
+   "dup": "2edfbc93beea"
+  },
+  "a1b840745438": {
+   "dup": "e2cafcde1028"
+  },
+  "481fe61974be": {
+   "dup": "e2cafcde1028"
+  },
+  "a0c401d92443": {
+   "dup": "e2cafcde1028"
+  },
+  "c63f3f2ed16c": {
+   "dup": "e2cafcde1028"
+  },
+  "3d501a7292cb": {
+   "dup": "e2cafcde1028"
+  },
+  "aeba9e181d3f": {
+   "dup": "e2cafcde1028"
+  },
+  "2a6023271c12": {
+   "dup": "e2cafcde1028"
+  },
+  "bb8a9917d1ce": {
+   "dup": "e2cafcde1028"
+  },
+  "79afcfd5b9b3": {
+   "dup": "e2cafcde1028"
+  },
+  "29d30ce24704": {
+   "dup": "e2cafcde1028"
+  },
+  "3760e3f0dad9": {
+   "dup": "e2cafcde1028"
+  },
+  "281b3c26a669": {
+   "dup": "e2cafcde1028"
+  },
+  "d262ff8ce531": {
+   "dup": "e2cafcde1028"
+  },
+  "655ef3bea388": {
+   "dup": "e2cafcde1028"
+  },
+  "3b84d42954cc": {
+   "dup": "e2cafcde1028"
+  },
+  "6e25d0b137f9": {
+   "drop": true
+  },
+  "bf3d564f779c": {
+   "drop": true
+  },
+  "218a62a465dd": {
+   "drop": true
+  },
+  "b91d9f8a828e": {
+   "dup": "5dd773bf975f"
+  },
+  "91df05e9ec11": {
+   "dup": "e7dd0306130a"
+  },
+  "acfdbc6071d2": {
+   "drop": true
+  },
+  "4a88ca73f8fb": {
+   "drop": true
+  },
+  "dda9e2b12cf0": {
+   "drop": true
+  },
+  "1c259bcff970": {
+   "drop": true
+  },
+  "8fcf391a3c7a": {
+   "drop": true
+  },
+  "88081c32dac2": {
+   "drop": true
+  },
+  "b12fb7e81341": {
+   "drop": true
+  },
+  "e6f6c10d2f89": {
+   "drop": true
+  },
+  "4bc586235e9e": {
+   "drop": true
+  },
+  "fa1c048137e1": {
+   "drop": true
+  },
+  "0ee2253d7d7f": {
+   "drop": true
+  },
+  "066e46572ead": {
+   "drop": true
+  },
+  "f653ed6905d9": {
+   "drop": true
+  },
+  "61164f23e3fb": {
+   "drop": true
+  },
+  "1d5f5f3fb2ec": {
+   "drop": true
+  },
+  "811ee9cb8ec7": {
+   "drop": true
+  },
+  "455e9d24c70a": {
+   "drop": true
+  },
+  "d2ef87f27245": {
+   "drop": true
+  },
+  "62ece1fb1145": {
+   "dup": "74efa911c983"
+  },
+  "6d1395921e8d": {
+   "drop": true
+  },
+  "5246fefac267": {
+   "drop": true
+  },
+  "778efc66af45": {
+   "dup": "aec57b25a39d"
+  },
+  "b82aec4c86d0": {
+   "drop": true
+  },
+  "de378bd9b2f1": {
+   "drop": true
+  },
+  "c56bb8489036": {
+   "drop": true
+  },
+  "9c41a513889c": {
+   "drop": true
+  },
+  "2cd94d21b408": {
+   "drop": true
+  },
+  "9797bb165628": {
+   "drop": true
+  },
+  "4e13c6ea513e": {
+   "drop": true
+  },
+  "891798a4ff51": {
+   "drop": true
+  },
+  "2f384c736c8e": {
+   "drop": true
+  },
+  "515994686693": {
+   "drop": true
+  },
+  "7af711d0e46f": {
+   "drop": true
+  },
+  "b8646a12ae0a": {
+   "drop": true
+  },
+  "d1e9e97f95e8": {
+   "drop": true
+  },
+  "fbf2ef6bb608": {
+   "drop": true
+  },
+  "181f3e972bf9": {
+   "drop": true
+  },
+  "118f13fb2d37": {
+   "drop": true
+  },
+  "2a72036b0a26": {
+   "drop": true
+  },
+  "417355d7a27b": {
+   "drop": true
+  },
+  "70251bedd588": {
+   "drop": true
+  },
+  "af975a9fa899": {
+   "drop": true
+  },
+  "f86bbfc03474": {
+   "drop": true
+  },
+  "014d637ddbd6": {
+   "drop": true
+  },
+  "a9f672b4d736": {
+   "drop": true
+  },
+  "4fe5da0376db": {
+   "drop": true
+  },
+  "7e1841113022": {
+   "drop": true
+  },
+  "e6b4cba648b7": {
+   "drop": true
+  },
+  "ab332c62e4ee": {
+   "drop": true
+  },
+  "4561c5b354f2": {
+   "drop": true
+  },
+  "9d4d3a1f22a7": {
+   "drop": true
+  },
+  "9a0408e9696f": {
+   "drop": true
+  },
+  "aa22478d7aa1": {
+   "drop": true
+  },
+  "84be18700b64": {
+   "drop": true
+  },
+  "5b3cf754352b": {
+   "drop": true
+  },
+  "db5574c92a74": {
+   "drop": true
+  },
+  "dad70e06131a": {
+   "drop": true
+  },
+  "7a75a19a8a1f": {
+   "drop": true
+  },
+  "34a5777202ff": {
+   "drop": true
+  },
+  "dd28de888c59": {
+   "drop": true
+  },
+  "4e1635a2723d": {
+   "drop": true
+  },
+  "dc5734db95fc": {
+   "drop": true
+  },
+  "6a8bd0c80b00": {
+   "dup": "35a63f6bdece"
+  },
+  "730f5e8702ed": {
+   "dup": "fd508915f3e8"
+  },
+  "0b9f2a97106a": {
+   "dup": "d96e2a548d73"
+  },
+  "676a4280a0f7": {
+   "dup": "fb67f898dc23"
+  },
+  "16e13a0893d0": {
+   "dup": "87767322f59f"
+  },
+  "8bc065337a86": {
+   "dup": "230e7e657a55"
+  },
+  "1899a4aef379": {
+   "dup": "f17afb070bb8"
+  },
+  "87c9791b7ad4": {
+   "dup": "7ae5ee6fdedb"
+  },
+  "ce43626e7626": {
+   "dup": "68110f7dd02f"
+  },
+  "26673a2ee900": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Flu hospitalisations among Koreans aged 65 and older have already passed last season's peak, after nationwide flu hospitalisations jumped 45% in a week. The Korea Disease Control and Prevention Agency issued an urgent appeal for vaccination as severe cases rise early in the season.",
+   "rel": {
+    "healthcare": {
+     "score": 7,
+     "why": "An early, severe flu season is straining care for older patients in Korea."
+    },
+    "biosecurity": {
+     "score": 4,
+     "why": "Seasonal influenza surge tracked by national surveillance."
+    }
+   }
+  },
+  "fd508915f3e8": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Bausch + Lomb and Celldex each reported failed phase 2 trials. Celldex is ending development of its antibody barzolvolimab in eczema after it failed to reduce itch versus placebo, while Bausch + Lomb pointed to numerical improvements and exploratory analyses to argue for talks with regulators about moving into phase 3.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Two mid-stage failures, one ending an indication for Celldex's lead antibody."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Setbacks for two listed companies' pipelines."
+    }
+   }
+  },
+  "66412e1be940": {
+   "cat": "funding",
+   "imp": 3,
+   "summary": "General Proximity says it won a $9 million grant from the Cancer Prevention and Research Institute of Texas to advance the lead oncology programme from its OmniTAC induced-proximity platform, which it says finds effector proteins able to act on targets long considered undruggable.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Grant funding for an induced-proximity cancer drug programme."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Non-dilutive state funding for a startup."
+    }
+   }
+  },
+  "6747358c19b5": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Circular Genomics says an NIH-funded study of nearly 2,400 participants, presented at CTAD 2026, supports its circular RNA blood test for early Alzheimer's detection, reporting a hazard ratio of 2.92 for predicting progression. Company-reported data, not yet peer-reviewed.",
+   "rel": {
+    "diagnostics": {
+     "score": 6,
+     "why": "A blood-based circular RNA biomarker test for early Alzheimer's risk."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Could support earlier identification of people at risk of decline."
+    }
+   }
+  },
+  "270f4273c9d3": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Johnson & Johnson says a phase 4 study in psoriatic arthritis with spinal involvement found Tremfya (guselkumab) improved disease activity on the BASDAI score versus placebo and cut MRI-assessed spinal inflammation by more than twice as much, which it says makes it the only advanced therapy with MRI-confirmed improvements in spinal pain and stiffness.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Label-supporting data for a major immunology brand."
+    }
+   }
+  },
+  "9e5782fbb8e4": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Annovis Bio says the FDA agreed to its plan for an integrated summary of safety for buntanetap that pools four studies in Alzheimer's and Parkinson's disease, with more than 1,600 people expected to have received the drug by the six-month readout of its phase 3 DUET-AD trial. The company plans to file its NDA after that readout and notes the agreement is not an approval.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "A regulatory step toward an NDA for an oral neurodegeneration drug."
+    }
+   }
+  },
+  "dcd793d82098": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Insight Molecular Diagnostics says the first patients have enrolled in GALACTIC, a prospective multi-centre registry study to validate its GraftAssure test for monitoring transplant rejection.",
+   "rel": {
+    "diagnostics": {
+     "score": 5,
+     "why": "Clinical validation study for a transplant rejection test."
+    }
+   }
+  },
+  "788cc89b2203": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "The FDA extended its review of Belite Bio's NDA for tinlarebant in Stargardt disease type 1 by three months, moving the decision date to May 12, 2027, to review additional information the company submitted. Belite says the agency plans to share proposed labelling by April 12, 2027 if no major problems are found; tinlarebant's phase 3 DRAGON trial met its primary endpoint and there is no approved Stargardt treatment.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Delays a possible first approval in an inherited retinal disease."
+    },
+    "investment": {
+     "score": 4,
+     "why": "A three-month slip for a company's lead asset."
+    }
+   }
+  },
+  "565da8c7917f": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Teva's global R&D head and chief medical officer Eric Hughes has stepped down, with David Gardiner taking over on an interim basis while Teva searches for a replacement. Hughes joined Teva from Vertex in 2022.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Leadership change at the top of a large drugmaker's R&D."
+    }
+   }
+  },
+  "76bf5fdfe266": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "PAQ Therapeutics says first clinical data for its selective KRAS G12D degrader PT0253, presented at ENA 2026, showed no dose-limiting toxicities from 10 to 750 mg and antitumour activity on its own in colorectal and pancreatic cancers, including a partial response in a patient previously treated with another KRAS drug.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Early human data for a degrader against a hard cancer target."
+    }
+   }
+  },
+  "553de215b795": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "Erasca says its pan-RAS molecular glue ERAS-0015 produced a 44% confirmed response rate in 25 heavily pretreated patients with KRAS G12X pancreatic cancer at 32 mg daily, 69% in 13 with G12D or G12V mutations and 60% in five lung cancer patients, with no discontinuations for side effects. It plans a phase 3 in first-line pancreatic cancer and a potentially registrational second-line lung trial in the first half of 2027; one pneumonitis death at 24 mg was reported earlier this year.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Strong early responses for a pan-RAS drug in pancreatic cancer, a field with few options."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Sets up phase 3 plans for a listed company's lead asset."
+    }
+   }
+  },
+  "8558314b838a": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Daewoong Pharmaceutical says its acid blocker Fexuclue (fexuprazan) healed 90.2% of gastric ulcers eight weeks after endoscopic resection, versus 75.0% with esomeprazole, in a head-to-head trial.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Head-to-head win for a Korean acid blocker over a standard PPI."
+    }
+   }
+  },
+  "74b694fd0c61": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "HLB's and HLB Life Science's boards approved a revived plan for HLB to absorb HLB Life Science, consolidating drug development and commercialisation ahead of a potential cancer drug launch. It is the second attempt at the merger.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Restructures a Korean group preparing a cancer drug launch."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Merger affecting two listed Korean biotech companies."
+    }
+   }
+  },
+  "4ab01b323cad": {
+   "cat": "deals",
+   "imp": 5,
+   "summary": "China's Adicon has abandoned its planned $204 million acquisition of preclinical contract research firm Crown Bioscience, leaving Crown without a buyer for now.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "A collapsed deal for a preclinical research services provider."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Crown supplies preclinical models to drug developers."
+    },
+    "investment": {
+     "score": 4,
+     "why": "A cross-border China services deal fell through."
+    }
+   }
+  },
+  "0ece99370dde": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "BioVersys says its 14-day phase 2a ENABLE study of alpibectir plus ethionamide in newly diagnosed drug-sensitive tuberculosis showed early bactericidal activity in all regimens, with the combination plus rifampicin, pyrazinamide and ethambutol numerically similar to standard therapy. The study, part of the EU's UNITE4TB project, was not designed to compare arms; a phase 2b is ongoing.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Early activity data for a new TB drug combination."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Aims to improve tuberculosis treatment regimens."
+    }
+   }
+  },
+  "9324021a8c8c": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "Caliway says China's drug regulator cleared a clinical trial of its fat-reduction injection CBL-514 earlier than expected, opening development in the body contouring market there.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "A Chinese trial clearance for an aesthetic injectable."
+    }
+   }
+  },
+  "87767322f59f": {
+   "cat": "other",
+   "imp": 6,
+   "summary": "Danish startup Matr Foods has opened an industrial-scale factory in West Jutland that uses mycelium (solid-state) fermentation of vegetable ingredients to make clean-label meat alternatives.",
+   "rel": {
+    "fermentation": {
+     "score": 8,
+     "why": "Industrial-scale solid-state fungal fermentation plant opening."
+    },
+    "agrifood": {
+     "score": 7,
+     "why": "Scales up a fungi-based meat alternative in Europe."
+    },
+    "bioprocessing": {
+     "score": 5,
+     "why": "A rare commercial facility for solid-state fermentation."
+    }
+   }
+  },
+  "b64052a283d0": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Illumina says its AI lab won the 2026 Virtual Cell Challenge run by the Arc Institute, beating about 1,500 competitors at predicting how unseen cell lines respond to gene knockdowns. The entry used its Billion Cell Atlas of CRISPR perturbations across more than 200 cell lines and a new algorithm, CellularAI, which it released as open source the same day.",
+   "rel": {
+    "ai": {
+     "score": 7,
+     "why": "A leading result in predicting cell responses with AI 'virtual cell' models."
+    },
+    "tools": {
+     "score": 6,
+     "why": "Showcases a large perturbation dataset from a major sequencing company."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Virtual cell models aim to speed target discovery."
+    }
+   }
+  },
+  "f17afb070bb8": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "In Nature Medicine correspondence, authors raise ethical concerns about using placebo controls in trials of obinutuzumab β for aquaporin-4 antibody-positive neuromyelitis optica spectrum disorder; the trial authors reply in a companion letter.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Questions trial design for a rare autoimmune disease."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Concerns the ethics of placebo use in trials."
+    }
+   }
+  },
+  "68110f7dd02f": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "NEJM published a trial assessing several new treatment regimens for tuberculosis, with an accompanying editorial on improving antituberculosis therapy. Details beyond the title were not available.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Trial evidence on new TB drug regimens in a top journal."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Bears on how tuberculosis is treated."
+    }
+   }
   }
  },
  "extra": [
