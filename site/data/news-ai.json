@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T06:43:16Z",
+ "updated": "2026-11-21T13:40:05Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
   "date": "2026-11-21T06:43:16Z",
@@ -31047,6 +31047,590 @@
     "cellgene": {
      "score": 4,
      "why": "Manufacturing cost is a key barrier for cell therapies."
+    }
+   }
+  },
+  "463f48990e56": {
+   "dup": "b779ee3760dd"
+  },
+  "223ab8ff8733": {
+   "dup": "ec1ddea89442"
+  },
+  "0cd0befd227f": {
+   "dup": "cf6e0472969b"
+  },
+  "f561162d763b": {
+   "drop": true
+  },
+  "58d488ce93f6": {
+   "dup": "39843a41c1eb"
+  },
+  "7a2eb6497a3e": {
+   "dup": "f91b2a032d04"
+  },
+  "3a16edb8157a": {
+   "drop": true
+  },
+  "62350a95df5d": {
+   "drop": true
+  },
+  "fcc72f4a4df8": {
+   "drop": true
+  },
+  "4e1635a2723d": {
+   "drop": true
+  },
+  "dc5734db95fc": {
+   "drop": true
+  },
+  "57e70ea29526": {
+   "dup": "14e3d2bd0ea3"
+  },
+  "43299e8ea368": {
+   "dup": "ded3924cb0a7"
+  },
+  "def738bbfb60": {
+   "dup": "44d9a66b8250"
+  },
+  "5e7a69dbc6d9": {
+   "dup": "ded3924cb0a7"
+  },
+  "0125d422b80e": {
+   "dup": "ef17373869c7"
+  },
+  "bf86288b5bd7": {
+   "drop": true
+  },
+  "ba13dda78621": {
+   "dup": "35a63f6bdece"
+  },
+  "7f75e5571ae8": {
+   "dup": "f91b2a032d04"
+  },
+  "77ac102a5759": {
+   "dup": "65d8f40ba93a"
+  },
+  "9fb32ca8d6d7": {
+   "drop": true
+  },
+  "4353b5e04973": {
+   "drop": true
+  },
+  "e293f9adf685": {
+   "drop": true
+  },
+  "ad4c25ee9d03": {
+   "drop": true
+  },
+  "5ce38337f869": {
+   "drop": true
+  },
+  "f75660b0eba2": {
+   "drop": true
+  },
+  "bb7b3758714b": {
+   "drop": true
+  },
+  "a23722565c82": {
+   "drop": true
+  },
+  "4fd2cd0b533c": {
+   "drop": true
+  },
+  "73c78aa6eff9": {
+   "drop": true
+  },
+  "6bd6356bd916": {
+   "drop": true
+  },
+  "71dcfb7fdab5": {
+   "drop": true
+  },
+  "9948b07814e2": {
+   "drop": true
+  },
+  "0331ad607814": {
+   "drop": true
+  },
+  "60ca96c60af5": {
+   "drop": true
+  },
+  "5af1b5fd9716": {
+   "drop": true
+  },
+  "21a58a21c872": {
+   "drop": true
+  },
+  "6a80f725e27e": {
+   "drop": true
+  },
+  "e4bf6cde5e7a": {
+   "drop": true
+  },
+  "a1a36cadb31e": {
+   "drop": true
+  },
+  "06295a98e103": {
+   "drop": true
+  },
+  "7a5cd2f12175": {
+   "drop": true
+  },
+  "02a0256fa016": {
+   "dup": "7c181adcb866"
+  },
+  "e1be469f1156": {
+   "drop": true
+  },
+  "b7603e2873d1": {
+   "drop": true
+  },
+  "e976d78ff5fb": {
+   "drop": true
+  },
+  "a3317e48311e": {
+   "drop": true
+  },
+  "d8c229de0c81": {
+   "dup": "0bb010f05d26"
+  },
+  "a3e05ae2188c": {
+   "drop": true
+  },
+  "100a1fa06864": {
+   "dup": "53c1ee613370"
+  },
+  "93ea7bac68c7": {
+   "dup": "53c1ee613370"
+  },
+  "2ac94b7e2b7b": {
+   "drop": true
+  },
+  "bf41f0a6347c": {
+   "drop": true
+  },
+  "3c2e55f07dfe": {
+   "drop": true
+  },
+  "5b40dfca0eea": {
+   "drop": true
+  },
+  "843785d32d84": {
+   "drop": true
+  },
+  "883d272d1a0e": {
+   "drop": true
+  },
+  "a5723dd009f2": {
+   "dup": "84cd714b0375"
+  },
+  "90ae09a68dbe": {
+   "drop": true
+  },
+  "a836c0e24b4b": {
+   "dup": "2d75e27c9a10"
+  },
+  "64639c5eec3a": {
+   "drop": true
+  },
+  "cd10dbf6af32": {
+   "drop": true
+  },
+  "e13a8a540909": {
+   "drop": true
+  },
+  "cf8630d40b0b": {
+   "drop": true
+  },
+  "e1784aa1cbbb": {
+   "drop": true
+  },
+  "9010867c084c": {
+   "drop": true
+  },
+  "1b2183e27892": {
+   "drop": true
+  },
+  "1fb975e5f71e": {
+   "drop": true
+  },
+  "571177f7dce0": {
+   "dup": "8828f64bf323"
+  },
+  "fa0dceed502f": {
+   "drop": true
+  },
+  "e1f5b1232af5": {
+   "dup": "b75922534908"
+  },
+  "8fe599d3b4bd": {
+   "drop": true
+  },
+  "b04bce038039": {
+   "drop": true
+  },
+  "57dc16a04d53": {
+   "drop": true
+  },
+  "cc031e7d82ba": {
+   "drop": true
+  },
+  "7e8ed7480155": {
+   "drop": true
+  },
+  "5d68172d63ea": {
+   "drop": true
+  },
+  "e11cde29ba2c": {
+   "drop": true
+  },
+  "ef6a19346e4b": {
+   "drop": true
+  },
+  "23db4f95cb9a": {
+   "drop": true
+  },
+  "a270600798e7": {
+   "drop": true
+  },
+  "855f248e3fc2": {
+   "drop": true
+  },
+  "1d75dfd2ba00": {
+   "drop": true
+  },
+  "f05a6aebf962": {
+   "drop": true
+  },
+  "13b9ccaeb373": {
+   "drop": true
+  },
+  "71c5a02835e1": {
+   "drop": true
+  },
+  "2d356bb6adee": {
+   "drop": true
+  },
+  "4c8c3576893a": {
+   "dup": "0c7ddf6efb5f"
+  },
+  "5808043873d9": {
+   "dup": "e2cafcde1028"
+  },
+  "063ab147fafa": {
+   "drop": true
+  },
+  "6f227a931927": {
+   "drop": true
+  },
+  "d32ffd5fde3f": {
+   "drop": true
+  },
+  "323b14b6367b": {
+   "drop": true
+  },
+  "265653d7b9bf": {
+   "dup": "e2cafcde1028"
+  },
+  "ca2ed490825b": {
+   "dup": "e2cafcde1028"
+  },
+  "f27f4d48861b": {
+   "drop": true
+  },
+  "04dece2018da": {
+   "dup": "e2cafcde1028"
+  },
+  "ae74d69d83e6": {
+   "dup": "e2cafcde1028"
+  },
+  "892adc2c0cab": {
+   "dup": "2edfbc93beea"
+  },
+  "a1b840745438": {
+   "dup": "e2cafcde1028"
+  },
+  "481fe61974be": {
+   "dup": "e2cafcde1028"
+  },
+  "a0c401d92443": {
+   "dup": "e2cafcde1028"
+  },
+  "c63f3f2ed16c": {
+   "dup": "e2cafcde1028"
+  },
+  "3d501a7292cb": {
+   "dup": "e2cafcde1028"
+  },
+  "aeba9e181d3f": {
+   "dup": "e2cafcde1028"
+  },
+  "2a6023271c12": {
+   "dup": "e2cafcde1028"
+  },
+  "bb8a9917d1ce": {
+   "dup": "e2cafcde1028"
+  },
+  "79afcfd5b9b3": {
+   "dup": "e2cafcde1028"
+  },
+  "29d30ce24704": {
+   "dup": "e2cafcde1028"
+  },
+  "3760e3f0dad9": {
+   "dup": "e2cafcde1028"
+  },
+  "281b3c26a669": {
+   "dup": "e2cafcde1028"
+  },
+  "d262ff8ce531": {
+   "dup": "e2cafcde1028"
+  },
+  "655ef3bea388": {
+   "dup": "e2cafcde1028"
+  },
+  "3b84d42954cc": {
+   "dup": "e2cafcde1028"
+  },
+  "c0f9704d35ce": {
+   "drop": true
+  },
+  "e6232c17dc82": {
+   "dup": "e8dbbd1273e1"
+  },
+  "a06577c073fa": {
+   "drop": true
+  },
+  "6e25d0b137f9": {
+   "drop": true
+  },
+  "bf3d564f779c": {
+   "drop": true
+  },
+  "218a62a465dd": {
+   "drop": true
+  },
+  "b91d9f8a828e": {
+   "dup": "5dd773bf975f"
+  },
+  "91df05e9ec11": {
+   "dup": "e7dd0306130a"
+  },
+  "acfdbc6071d2": {
+   "drop": true
+  },
+  "4a88ca73f8fb": {
+   "drop": true
+  },
+  "dda9e2b12cf0": {
+   "drop": true
+  },
+  "1c259bcff970": {
+   "drop": true
+  },
+  "8fcf391a3c7a": {
+   "drop": true
+  },
+  "88081c32dac2": {
+   "drop": true
+  },
+  "e6f6c10d2f89": {
+   "drop": true
+  },
+  "b12fb7e81341": {
+   "drop": true
+  },
+  "4bc586235e9e": {
+   "drop": true
+  },
+  "fa1c048137e1": {
+   "drop": true
+  },
+  "0ee2253d7d7f": {
+   "drop": true
+  },
+  "066e46572ead": {
+   "drop": true
+  },
+  "f653ed6905d9": {
+   "drop": true
+  },
+  "61164f23e3fb": {
+   "drop": true
+  },
+  "1d5f5f3fb2ec": {
+   "drop": true
+  },
+  "811ee9cb8ec7": {
+   "drop": true
+  },
+  "455e9d24c70a": {
+   "drop": true
+  },
+  "c77ea2f2c058": {
+   "drop": true
+  },
+  "09bb9ca12b02": {
+   "drop": true
+  },
+  "a3163a208e84": {
+   "drop": true
+  },
+  "900db8730271": {
+   "drop": true
+  },
+  "84421435e193": {
+   "drop": true
+  },
+  "4f8249bc9cee": {
+   "drop": true
+  },
+  "6713ef2b8d05": {
+   "drop": true
+  },
+  "f6d1cb772182": {
+   "dup": "07c17088cc0d"
+  },
+  "e6208657a6a2": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "Salk Institute researchers report Superb-seq in Nature Methods, a method that tags Cas9 edits with a trackable DNA sequence and reads their effects with single-cell RNA sequencing. Tested on 35,000 cells in three cell lines, it recorded edits in 5,761 of 10,000 K562 cells; aimed at seven sites, Cas9 also cut 36 off-target locations, and one off-target cut lowered USP9X, shifting 152 other genes including MYC. The team is seeking a patent and says the tool could reveal off-target effects across many published CRISPR studies.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "Off-target detection with functional readout bears directly on gene-editing safety."
+    },
+    "tools": {
+     "score": 7,
+     "why": "A new single-cell sequencing method for profiling CRISPR edits."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Relevant to safety packages for gene-editing medicines."
+    }
+   }
+  },
+  "dae334a4972b": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "A Labiotech in-depth piece argues that Germany's biotech sector has strong science and many of the ingredients to be a global powerhouse but is held back by scarce capital. The article could not be opened, so details beyond the headline and teaser are not available.",
+   "rel": {
+    "investment": {
+     "score": 5,
+     "why": "Focuses on the funding gap facing German biotech companies."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Context on Europe's largest economy as a biotech base."
+    }
+   }
+  },
+  "ffc7849ade08": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A pilot study profiles the litter microbiome in three commercial broiler houses under different litter-amendment management, aiming to show how amendments change resident microbes linked to bird health, performance and environmental impact. Not yet peer-reviewed.",
+   "rel": {
+    "agrifood": {
+     "score": 5,
+     "why": "Poultry-farm microbiome management affects bird health and output."
+    }
+   }
+  },
+  "f54c89428102": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Researchers report that deleting the furin protease from producer cells makes coronavirus spike-pseudotyped particles easier and more versatile to generate. Such particles are standard tools for studying viral entry and testing neutralising antibodies and entry inhibitors. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "Improves a widely used virology assay platform."
+    },
+    "biosecurity": {
+     "score": 4,
+     "why": "Safer pseudovirus systems support coronavirus countermeasure testing."
+    }
+   }
+  },
+  "5b82d3459cb9": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A genomic study characterises a typical enteropathogenic E. coli (EPEC) isolate from an Egyptian fruit bat in coastal Kenya, a rare report of this child-diarrhoea pathogen type in a wild animal host. Not yet peer-reviewed.",
+   "rel": {
+    "biosecurity": {
+     "score": 4,
+     "why": "Documents a human enteric pathogen in a wildlife reservoir."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "EPEC is a major cause of illness in young children in low-income countries."
+    }
+   }
+  },
+  "44e7218214c1": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A meta-analysis of three UK blood transcriptomic datasets tests whether a 50-gene interferon signature for active pulmonary tuberculosis reproduces across platforms and benchmarks a 4-gene classifier against published signatures. Not yet peer-reviewed.",
+   "rel": {
+    "diagnostics": {
+     "score": 6,
+     "why": "Benchmarks host-response blood signatures for TB diagnosis."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Better TB triage tests matter for public health."
+    }
+   }
+  },
+  "626a49e5b0b3": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Researchers report that agricultural fungicides that inhibit the electron transport chain increase fungal resistance to azole antifungals, the first-line treatment for human fungal infections and also widely used on crops. The finding adds a new route by which farm chemical use may drive clinical antifungal resistance. Not yet peer-reviewed.",
+   "rel": {
+    "agrifood": {
+     "score": 6,
+     "why": "Links common crop fungicides to resistance in fungal pathogens."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Azole resistance threatens treatment of human fungal infections."
+    },
+    "biosecurity": {
+     "score": 4,
+     "why": "Antifungal resistance is a recognised One Health threat."
+    }
+   }
+  },
+  "0e0f0395d427": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Researchers report the first genomic evidence of plasmid-borne fosA3 and blaCTX-M-65 together with colistin (mcr-1.1) and tigecycline (tet(X4)) resistance genes on conjugative plasmids in E. coli from healthy broilers in industrial poultry farms in Pakistan, meaning resistance to last-resort antibiotics can spread between bacteria. Not yet peer-reviewed.",
+   "rel": {
+    "biosecurity": {
+     "score": 5,
+     "why": "Mobile resistance to last-resort antibiotics in food animals."
+    },
+    "agrifood": {
+     "score": 5,
+     "why": "Highlights antimicrobial resistance in industrial poultry production."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Colistin and tigecycline resistance threatens human treatment options."
+    }
+   }
+  },
+  "e104577affdd": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Researchers use deep mutational learning, combining large mutant libraries with machine learning, to generatively design antibody Fc domains with tuned interactions with immune receptors, the part of an antibody that decides how the immune system acts on a target. Not yet peer-reviewed.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "Machine-learning-guided generative protein design."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Fc engineering shapes the effector function of antibody drugs."
     }
    }
   }
