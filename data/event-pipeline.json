@@ -29,7 +29,128 @@
    "added": "2026-11-17"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "name": "Alternative Treatment for Kidney Failure Could Replace Dialysis in Older Patients",
+   "start": "2026-11-22",
+   "end": "2026-11-22",
+   "url": "https://www.labroots.com/trending/nocat/31396/alternative-treatment-kidney-failure-replace-dialysis-patients",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "Labroots virtual events",
+   "seen": "2026-11-22"
+  },
+  {
+   "name": "Smart POCT Management: AQURE Middleware for Connected Care - (AQURE - Ask the Experts)",
+   "start": "2026-11-23",
+   "end": "2026-11-23",
+   "url": "https://www.labroots.com/webinar/smart-poct-management-aqure-middleware-connected-care-aqure-experts",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "Labroots virtual events",
+   "seen": "2026-11-22"
+  },
+  {
+   "name": "18th GenerationAI Conference",
+   "start": "2026-12-01",
+   "end": "2026-12-01",
+   "url": "https://www.eurosciencejobs.com/conferences/2836/18th_generationai_conference",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "EuroScienceJobs conferences",
+   "seen": "2026-11-22"
+  },
+  {
+   "name": "Optimizing Pre-formed Fibril (PFF) Sonication for Robust and Reproducible Neurodegenerative Disease Models",
+   "start": "2026-12-02",
+   "end": "2026-12-02",
+   "url": "https://www.labroots.com/webinar/optimizing-pff-sonication-robust-reproducible-neurodegenerative-disease-models",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "Labroots virtual events",
+   "seen": "2026-11-22"
+  },
+  {
+   "name": "Cystatin C in Pediatric Kidney Care: From Measurement to Clinical Practice",
+   "start": "2026-12-02",
+   "end": "2026-12-02",
+   "url": "https://www.labroots.com/webinar/cystatin-pediatric-kidney-care-measurement-clinical-practice",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "Labroots virtual events",
+   "seen": "2026-11-22"
+  },
+  {
+   "name": "Design, Analytics and Manufacturing of Multi-Payload Targeted LNPs",
+   "start": "2026-12-08",
+   "end": "2026-12-08",
+   "url": "https://www.labroots.com/webinar/design-analytics-manufacturing-multi-payload-targeted-lnps",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "Labroots virtual events",
+   "seen": "2026-11-22"
+  },
+  {
+   "name": "View trainings",
+   "start": "2026-12-31",
+   "end": "2026-12-31",
+   "url": "https://fleming.events/events/",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "Fleming events",
+   "seen": "2026-11-22"
+  },
+  {
+   "name": "17th Edition R&D Controlling and Performance Management",
+   "start": "2027-02-25",
+   "end": "2027-02-25",
+   "url": "https://www.eurosciencejobs.com/conferences/2824/17th_edition_rd_controlling_and_performance_management",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "EuroScienceJobs conferences",
+   "seen": "2026-11-22"
+  },
+  {
+   "name": "Health & Wellbeing @ Work",
+   "start": "2027-03-09",
+   "end": "2027-03-09",
+   "url": "https://www.thenec.co.uk/events/health-and-wellbeing-at-work/",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "NEC Birmingham calendar",
+   "seen": "2026-11-22"
+  },
+  {
+   "name": "RNA Leaders Europe - Shaping the Future of RNA Innovation Through Strategic Partnerships",
+   "start": "2027-06-01",
+   "end": "2027-06-01",
+   "url": "https://www.eurosciencejobs.com/conferences/2835/rna_leaders_europe_shaping_the_future_of_rna_innovation_through_strategic_partnerships",
+   "city": "",
+   "country": "",
+   "online": false,
+   "guessed": true,
+   "source": "EuroScienceJobs conferences",
+   "seen": "2026-11-22"
+  }
+ ],
  "dismissed": [
   {
    "name": "Novel Mechanism of Wound Healing Helps Tumors Evade Immunity",
@@ -2119,22 +2240,22 @@
    "nextKnown": false
   }
  ],
- "lastListingScan": "2026-11-15",
+ "lastListingScan": "2026-11-22",
  "listingScanReport": [
-  "EuroScienceJobs conferences: HTTP 200, 12 events on page",
-  "Labroots virtual events: HTTP 200, 27 events on page",
+  "EuroScienceJobs conferences: HTTP 200, 13 events on page",
+  "Labroots virtual events: HTTP 200, 26 events on page",
   "Showsbee Basel: HTTP 200, 0 events on page",
   "Tradefairdates Basel: HTTP 200, 0 events on page",
   "Messe Basel calendar: HTTP 200, 0 events on page",
-  "ExCeL London calendar: HTTP 200, 2 events on page",
+  "ExCeL London calendar: HTTP 200, 1 events on page",
   "Olympia London calendar: HTTP 200, 1 events on page",
-  "NEC Birmingham calendar: HTTP 200, 4 events on page",
+  "NEC Birmingham calendar: HTTP 200, 5 events on page",
   "Moscone Center calendar: HTTP 200, 0 events on page",
   "Marina Bay Sands Expo calendar: HTTP timeout, 0 events on page",
   "Terrapinn events: HTTP 200, 1 events on page",
   "Kisaco Research events: HTTP 200, 0 events on page",
   "Cambridge Healthtech events: HTTP 200, 3 events on page",
-  "Fleming events: HTTP 200, 0 events on page",
+  "Fleming events: HTTP 200, 1 events on page",
   "Easyfairs events: HTTP 200, 0 events on page",
   "Wellcome Connecting Science: HTTP 200, 0 events on page"
  ]
