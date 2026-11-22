@@ -1,71 +1,62 @@
 {
- "updated": "2026-11-21T13:40:05Z",
+ "updated": "2026-11-22T06:40:17Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-21T06:43:16Z",
+  "date": "2026-11-22T06:40:17Z",
   "points": [
    {
     "sec": "results",
-    "text": "Merck and Kelun-Biotech's TROP2 antibody-drug conjugate sac-TMT improved overall survival in a pivotal gastroesophageal cancer trial, its second global phase 3 win after lung cancer and a key piece of Merck's plan for life after Keytruda's patents. The KRAS field got more crowded at the triple meeting: Erasca's molecular glue ERAS-0015 reported a 44% response rate in 122 heavily pretreated pancreatic cancer patients, against 32% for Revolution Medicines' newly launched Rasonque (cross-trial caveats apply), while Alterome and PAQ Therapeutics showed early data for their own KRAS drugs. Celldex dropped barzolvolimab in eczema and Bausch + Lomb missed in phase 2. In devices, Abbott began a 300-patient European and Australian trial of its balloon-expandable Encantor heart valve, and BioVersys reported early TB data from the EU's UNITE4TB project.",
+    "text": "Merck and Kelun-Biotech's TROP2 antibody-drug conjugate sac-TMT improved overall survival in a pivotal gastroesophageal cancer trial, its second global phase 3 win after lung cancer and a key piece of Merck's plan for life after Keytruda's patents. The KRAS field got more crowded: Erasca's molecular glue ERAS-0015 reported a 44% response rate in 122 heavily pretreated pancreatic cancer patients, against 32% for Revolution Medicines' newly launched Rasonque (cross-trial caveats apply), while Revolution added early first-line data and Alterome and PAQ showed early results for their own KRAS drugs. Celldex dropped barzolvolimab in eczema and Bausch + Lomb missed in phase 2. In devices, Abbott began a 300-patient trial of its Encantor heart valve, and BioVersys reported early TB data from the EU's UNITE4TB project.",
     "ids": [
      "7b06d3ef5b9b",
      "cbf56606dadf",
-     "86663b8ddd09",
-     "fd508915f3e8",
-     "48a65595b25e"
+     "fd508915f3e8"
     ]
    },
    {
     "sec": "science",
-    "text": "A quiet day for primary research. The most consequential finding was the discovery of micro- and nanoplastics in post-mortem brains of people with dementia, which researchers say may force a rethink of disease theories. Nature reported that a research-integrity sleuth has found 'impossible proteins' in hundreds of papers, prompting retractions, a warning for anyone, including AI model builders, who relies on published protein data. GEN covered brain DNA methylation patterns linked to PTSD and chromatin changes behind ageing T cells in mice, and The Lancet ran comments on remibrutinib in multiple sclerosis and on ADCs after EGFR inhibitors in lung cancer. No notable industrial or agri-food research appeared.",
+    "text": "A Columbia-led Nature paper found that microplastics in water spontaneously generate hydroxyl radicals at their surface, more so as particles shrink, a possible chemical route to tissue damage that the authors stress is not yet linked to human disease. It lands alongside the discovery of micro- and nanoplastics in post-mortem brains of people with dementia. In evolution, a University of Bath study in PLOS Biology of the largest set of spontaneous mutations yet in E. coli and yeast found essential genes mutate no less often than others, overturning a 1972 idea and relevant to strain engineers. Nature also reported a sleuth finding 'impossible proteins' in hundreds of papers, and The Lancet ran comments on remibrutinib in MS and ADCs in lung cancer.",
     "ids": [
+     "6c107b5d2c92",
      "68e56f66f557",
-     "468e40505965",
-     "fcce39dd9eda",
-     "e12269e68473",
-     "1aa93e5d7aa9"
+     "f025afeb57c9",
+     "e6208657a6a2"
     ]
    },
    {
     "sec": "approvals",
-    "text": "The FDA rejected Capricor's deramiocel cell therapy for Duchenne muscular dystrophy for a second time, saying the data did not establish substantial evidence of effectiveness; Capricor, with about $198.5M in cash, will discuss next steps on Monday. CBER is creating a new council to oversee the safety of vaccines and cell and gene therapies after approval. Novo Nordisk won approval for weekly Sogroya in children with Turner syndrome, Belite Bio's Stargardt drug decision slipped three months to May 2027, and Annovis agreed a safety-data plan with the FDA ahead of an Alzheimer's filing. In devices, Zimmer Biomet filed its autonomous Monogram orthopaedic robot for FDA clearance, hoping for a 2027 decision.",
+    "text": "The FDA rejected Capricor's deramiocel cell therapy for Duchenne muscular dystrophy for a second time and, unusually, issued a public statement accusing the company of serious data integrity violations, including blinding breaches and after-the-fact changes to its statistical plan; Capricor says it stands behind its trials and will discuss next steps on Monday. CBER is creating a council to oversee the safety of vaccines and cell and gene therapies after approval. Novo Nordisk won approval for weekly Sogroya in children with Turner syndrome, Belite Bio's Stargardt decision slipped to May 2027, and in devices Zimmer Biomet filed its autonomous Monogram orthopaedic robot for clearance.",
     "ids": [
-     "07c17088cc0d",
+     "cce1e8a0867c",
      "94e8ebc0ac20",
      "2d09f1666cd7",
-     "788cc89b2203",
-     "30656373d70a"
+     "788cc89b2203"
     ]
    },
    {
     "sec": "policy",
-    "text": "US-China biotech ties dominated: more lawmakers from both parties are staking out positions on restricting US investment in Chinese biotech ahead of a Democrat-led Congress, and Novartis's chief executive warned that such curbs risk slowing drug development. Separately, HHS launched the MAHA ELEVATE pilot, in which 15 groups will test whether food-is-medicine and other lifestyle programmes improve Medicare patients' health and save money, as a path to future coverage.",
+    "text": "US-China biotech ties dominated: more lawmakers from both parties are staking out positions on restricting US investment in Chinese biotech ahead of a Democrat-led Congress, and Novartis's chief executive warned that such curbs risk slowing drug development. South Korea launched a national public-hospital AI network, with AI agents handling transfers and referrals between hospitals, aiming to reach all 72 public hospitals by 2029. HHS also launched the MAHA ELEVATE pilot to test food-is-medicine and lifestyle programmes in Medicare.",
     "ids": [
      "9613042f009e",
      "7b865fc78bf5",
-     "fb68780367b3"
+     "2026-11-20-korea-public-healthcare-ai-network"
     ]
    },
    {
     "sec": "money",
-    "text": "A thin day for deals and funding. China's Adicon abandoned its planned $204M purchase of preclinical contract researcher Crown Bioscience, HLB made a second attempt to absorb HLB Life Science ahead of a possible cancer drug launch, VitriVax raised an $87M series C for a single-dose Lyme vaccine, and General Proximity won a $9M Texas cancer grant for its induced-proximity platform.",
+    "text": "A thin stretch for deals and funding. China's Adicon abandoned its planned $204M purchase of preclinical contract researcher Crown Bioscience, HLB made a second attempt to absorb HLB Life Science ahead of a possible cancer drug launch, VitriVax raised an $87M series C for a single-dose Lyme vaccine, and General Proximity won a $9M Texas cancer grant for its induced-proximity platform.",
     "ids": [
-     "4ab01b323cad",
-     "74b694fd0c61",
-     "801664c84660",
-     "66412e1be940"
+     "4ab01b323cad"
     ]
    },
    {
     "sec": "companies",
-    "text": "Merck won patent rulings against Halozyme in the US and Germany, clearing the way for subcutaneous Keytruda Qlex, the formulation it is counting on as the intravenous drug loses protection. Abivax rejected a short-seller report from Scorpion Capital and reaffirmed plans to file obefazimod for ulcerative colitis by year-end. Novo Nordisk is cutting 215 more US sales jobs in New Jersey and Teva's R&D chief left. Outside pharma, Denmark's Matr Foods opened an industrial-scale mycelium fermentation factory for clean-label meat alternatives, ACROBiosystems expanded its Suzhou GMP raw-materials plant for cell and gene therapy makers, and J&J installed its first commercial Ottava surgical robot in Houston. Analysts weighed whether Compass or Usona's psilocybin will be the first psychedelic blockbuster, and London Life Sciences Week found investors upbeat on M&A but wary of China.",
+    "text": "Merck won patent rulings against Halozyme in the US and Germany, clearing the way for subcutaneous Keytruda Qlex as the intravenous drug loses protection. Abivax rejected a short-seller report from Scorpion Capital and reaffirmed plans to file obefazimod by year-end. Novo Nordisk is cutting 215 more US sales jobs. Outside pharma, Denmark's Matr Foods opened an industrial-scale mycelium fermentation factory for meat alternatives, ACROBiosystems expanded its Suzhou GMP raw-materials plant for cell and gene therapy makers, and Agilent launched a 359-gene DNA and 124-gene RNA sequencing panel for blood-cancer research. Analysts weighed which psilocybin drug could become the first psychedelic blockbuster.",
     "ids": [
      "e3fd88528f27",
      "593e9d1ee843",
-     "87767322f59f",
-     "60a4d70bda80",
-     "7fec61b645fe",
-     "385b6b8d84ab"
+     "385b6b8d84ab",
+     "2026-11-20-agilent-sureselect-pan-heme"
     ]
    },
    {
@@ -27257,12 +27248,6 @@
     }
    }
   },
-  "9410aa3f4440": {
-   "dup": "ded3924cb0a7"
-  },
-  "6e39b218199b": {
-   "dup": "c3a714070ba0"
-  },
   "bf142f2cba4b": {
    "cat": "regulatory",
    "imp": 7,
@@ -27996,156 +27981,6 @@
     }
    }
   },
-  "83578b4124e7": {
-   "drop": true
-  },
-  "4fef4ca2dd25": {
-   "drop": true
-  },
-  "3261cdc51561": {
-   "drop": true
-  },
-  "5339724283ee": {
-   "dup": "9eca729af1ba"
-  },
-  "b7d79c188912": {
-   "dup": "4475a56988b4"
-  },
-  "6e0cf7fdc9e3": {
-   "dup": "622d9c8ee0b1"
-  },
-  "0824280d3925": {
-   "drop": true
-  },
-  "a55dbc0fea09": {
-   "dup": "eeece3668fba"
-  },
-  "a7622de8692b": {
-   "drop": true
-  },
-  "4d61012e4fca": {
-   "drop": true
-  },
-  "028fa0b99cbe": {
-   "drop": true
-  },
-  "05197608e723": {
-   "drop": true
-  },
-  "0f80ac30ee81": {
-   "drop": true
-  },
-  "3ff430487071": {
-   "drop": true
-  },
-  "96045f891974": {
-   "drop": true
-  },
-  "8b22ce2b3f1b": {
-   "drop": true
-  },
-  "99a6cd9c316c": {
-   "drop": true
-  },
-  "24963abd96df": {
-   "drop": true
-  },
-  "6e3c0d64eb8a": {
-   "drop": true
-  },
-  "20374824a364": {
-   "drop": true
-  },
-  "345d76925811": {
-   "drop": true
-  },
-  "087cf2a7e76c": {
-   "drop": true
-  },
-  "55265bb25d24": {
-   "drop": true
-  },
-  "ab017708860a": {
-   "drop": true
-  },
-  "0d564d1c0700": {
-   "drop": true
-  },
-  "15560957ff99": {
-   "drop": true
-  },
-  "4c48887451e1": {
-   "drop": true
-  },
-  "a63af0de9807": {
-   "drop": true
-  },
-  "9ce2170ded38": {
-   "drop": true
-  },
-  "3b4c312c2a5b": {
-   "drop": true
-  },
-  "5e2063c7550e": {
-   "drop": true
-  },
-  "a6de4324d2d1": {
-   "drop": true
-  },
-  "26508ae8c367": {
-   "drop": true
-  },
-  "1f8c0a9153a5": {
-   "drop": true
-  },
-  "04e0fad4ae22": {
-   "drop": true
-  },
-  "ef4229e9b1d9": {
-   "drop": true
-  },
-  "72036ece514d": {
-   "drop": true
-  },
-  "93ab3d7e268b": {
-   "drop": true
-  },
-  "3d94e8dac93e": {
-   "drop": true
-  },
-  "c983dfd0a249": {
-   "drop": true
-  },
-  "98bd31631bd2": {
-   "dup": "5d7950f90599"
-  },
-  "508808d66a0a": {
-   "dup": "5d7950f90599"
-  },
-  "3da6f1aa6366": {
-   "dup": "2026-11-19-nine-biotechs-cut-half-california-workforces"
-  },
-  "c246e5523961": {
-   "dup": "92c4030a1d83"
-  },
-  "589593d3e165": {
-   "dup": "13cada26f502"
-  },
-  "93aa0cf86ec7": {
-   "drop": true
-  },
-  "bb874638bcd3": {
-   "drop": true
-  },
-  "e1d85ba21f9a": {
-   "drop": true
-  },
-  "300cc615e318": {
-   "drop": true
-  },
-  "4e01e0f73fb3": {
-   "drop": true
-  },
   "5d7950f90599": {
    "cat": "deals",
    "imp": 7,
@@ -28817,12 +28652,6 @@
     }
    }
   },
-  "54eca4a3f4f0": {
-   "dup": "433e1288b6db"
-  },
-  "406efb4ccd97": {
-   "drop": true
-  },
   "ee0375235f2a": {
    "cat": "science",
    "imp": 3,
@@ -28833,96 +28662,6 @@
      "why": "Community stability matters for microbial process control."
     }
    }
-  },
-  "84249678ce0e": {
-   "drop": true
-  },
-  "4e9fbadfe2b9": {
-   "drop": true
-  },
-  "b08b68e8b688": {
-   "drop": true
-  },
-  "3390dedce2ff": {
-   "drop": true
-  },
-  "475d1c44a97a": {
-   "drop": true
-  },
-  "771eaf91a119": {
-   "drop": true
-  },
-  "8c55e39b1109": {
-   "drop": true
-  },
-  "fee77f5ecabf": {
-   "drop": true
-  },
-  "06a932d2bc0a": {
-   "drop": true
-  },
-  "2f4b6e77fe42": {
-   "drop": true
-  },
-  "b8fc66102b22": {
-   "drop": true
-  },
-  "71796ea98707": {
-   "drop": true
-  },
-  "f06aadfa3a6c": {
-   "drop": true
-  },
-  "9adf4fbde28a": {
-   "drop": true
-  },
-  "91516abbb895": {
-   "drop": true
-  },
-  "282d8ca3bbeb": {
-   "drop": true
-  },
-  "2b3b97cd4334": {
-   "drop": true
-  },
-  "e8c07a181d8a": {
-   "drop": true
-  },
-  "5be74d411ed6": {
-   "drop": true
-  },
-  "bb8740125de4": {
-   "drop": true
-  },
-  "c504ed362a5e": {
-   "drop": true
-  },
-  "6ce325ef0505": {
-   "drop": true
-  },
-  "07b1900f9624": {
-   "drop": true
-  },
-  "8683dc99633b": {
-   "drop": true
-  },
-  "93aaba899c55": {
-   "drop": true
-  },
-  "5a6b5342ae65": {
-   "drop": true
-  },
-  "5e0b954f3ea3": {
-   "drop": true
-  },
-  "5e92c1353785": {
-   "drop": true
-  },
-  "46ee56345905": {
-   "drop": true
-  },
-  "442a48d3e77c": {
-   "drop": true
   },
   "c94d4dd0751d": {
    "drop": true
@@ -28965,84 +28704,6 @@
   },
   "820c7a3482a0": {
    "drop": true
-  },
-  "db4047643889": {
-   "drop": true
-  },
-  "d9fcc01f88e2": {
-   "drop": true
-  },
-  "f914cf4545b0": {
-   "drop": true
-  },
-  "4a2f770adbd9": {
-   "drop": true
-  },
-  "f9628ec7b9b7": {
-   "drop": true
-  },
-  "a37313a4fdec": {
-   "drop": true
-  },
-  "627197ada8f7": {
-   "drop": true
-  },
-  "b03bfcf8300b": {
-   "drop": true
-  },
-  "5bdf264887ea": {
-   "drop": true
-  },
-  "8a7759b62a9c": {
-   "drop": true
-  },
-  "806068e3dc55": {
-   "drop": true
-  },
-  "966e3b844731": {
-   "drop": true
-  },
-  "4709dbe21e48": {
-   "drop": true
-  },
-  "0c07b7baf24f": {
-   "dup": "2492de432d09"
-  },
-  "bc9ce5c5ca7c": {
-   "dup": "6e5b946321d2"
-  },
-  "378da6876d2b": {
-   "dup": "5eff4a69f044"
-  },
-  "cca74400e9ab": {
-   "dup": "ab80dad1d666"
-  },
-  "e589552eb73d": {
-   "dup": "e056a5a9d8fd"
-  },
-  "55789410e5b9": {
-   "dup": "ce43ad01f3bc"
-  },
-  "82abc3d54bed": {
-   "dup": "b6fcadbe43b5"
-  },
-  "fcc95a0f9456": {
-   "dup": "74659456f8f7"
-  },
-  "1c65c42e3abd": {
-   "dup": "ab80dad1d666"
-  },
-  "5ec49e4d6cdf": {
-   "dup": "8913f3f848e7"
-  },
-  "e441aee98ef7": {
-   "dup": "11f32c2292d2"
-  },
-  "4bdd8e00cac5": {
-   "dup": "d0547303e623"
-  },
-  "ca57f8f9d158": {
-   "dup": "a9e23f582e34"
   },
   "51ec9d7d7bfa": {
    "cat": "science",
@@ -30038,9 +29699,6 @@
     }
    }
   },
-  "8d8fd1cdb044": {
-   "drop": true
-  },
   "39eb5060a225": {
    "dup": "3b2f71ed99fb"
   },
@@ -30128,30 +29786,6 @@
   "9a0408e9696f": {
    "drop": true
   },
-  "aa22478d7aa1": {
-   "drop": true
-  },
-  "84be18700b64": {
-   "drop": true
-  },
-  "5b3cf754352b": {
-   "drop": true
-  },
-  "db5574c92a74": {
-   "drop": true
-  },
-  "dad70e06131a": {
-   "drop": true
-  },
-  "7a75a19a8a1f": {
-   "drop": true
-  },
-  "34a5777202ff": {
-   "drop": true
-  },
-  "dd28de888c59": {
-   "drop": true
-  },
   "6a8bd0c80b00": {
    "dup": "35a63f6bdece"
   },
@@ -30166,18 +29800,6 @@
   },
   "16e13a0893d0": {
    "dup": "87767322f59f"
-  },
-  "8bc065337a86": {
-   "dup": "230e7e657a55"
-  },
-  "1899a4aef379": {
-   "dup": "f17afb070bb8"
-  },
-  "87c9791b7ad4": {
-   "dup": "7ae5ee6fdedb"
-  },
-  "ce43626e7626": {
-   "dup": "68110f7dd02f"
   },
   "26673a2ee900": {
    "cat": "other",
@@ -30592,12 +30214,6 @@
   "d5b0f577f914": {
    "drop": true
   },
-  "a35c83972a75": {
-   "drop": true
-  },
-  "adebfb6a47a5": {
-   "drop": true
-  },
   "991bc0e445ee": {
    "drop": true
   },
@@ -30623,13 +30239,10 @@
    "dup": "7b06d3ef5b9b"
   },
   "79c3129e80a8": {
-   "dup": "07c17088cc0d"
+   "dup": "cce1e8a0867c"
   },
   "f12ec82be811": {
-   "dup": "07c17088cc0d"
-  },
-  "1e732ef2f03b": {
-   "dup": "ded3924cb0a7"
+   "dup": "cce1e8a0867c"
   },
   "bf2f221a8fe7": {
    "dup": "cbf56606dadf"
@@ -30638,23 +30251,7 @@
    "dup": "86663b8ddd09"
   },
   "07c17088cc0d": {
-   "cat": "regulatory",
-   "imp": 7,
-   "summary": "The FDA has issued a complete response letter rejecting Capricor's deramiocel, a cell therapy for Duchenne muscular dystrophy cardiomyopathy, on the resubmitted application. Capricor says the agency found the data insufficient to show substantial evidence of effectiveness and cited other clinical deficiencies, although the company says its HOPE-2 and HOPE-3 trials met their primary endpoints. Capricor had about $198.5M in cash at the end of September, says that covers at least 12 months, and will discuss next steps on a call on 23 November.",
-   "rel": {
-    "cellgene": {
-     "score": 8,
-     "why": "A second FDA rejection for an allogeneic cell therapy in Duchenne sets the evidence bar for the field."
-    },
-    "pharma": {
-     "score": 6,
-     "why": "Rare-disease approval standards at the FDA under the current leadership."
-    },
-    "investment": {
-     "score": 5,
-     "why": "Likely heavy hit to a company whose value rested on this approval."
-    }
-   }
+   "dup": "cce1e8a0867c"
   },
   "7b06d3ef5b9b": {
    "cat": "clinical",
@@ -31071,402 +30668,6 @@
   "3a16edb8157a": {
    "drop": true
   },
-  "62350a95df5d": {
-   "drop": true
-  },
-  "fcc72f4a4df8": {
-   "drop": true
-  },
-  "4e1635a2723d": {
-   "drop": true
-  },
-  "dc5734db95fc": {
-   "drop": true
-  },
-  "57e70ea29526": {
-   "dup": "14e3d2bd0ea3"
-  },
-  "43299e8ea368": {
-   "dup": "ded3924cb0a7"
-  },
-  "def738bbfb60": {
-   "dup": "44d9a66b8250"
-  },
-  "5e7a69dbc6d9": {
-   "dup": "ded3924cb0a7"
-  },
-  "0125d422b80e": {
-   "dup": "ef17373869c7"
-  },
-  "bf86288b5bd7": {
-   "drop": true
-  },
-  "ba13dda78621": {
-   "dup": "35a63f6bdece"
-  },
-  "7f75e5571ae8": {
-   "dup": "f91b2a032d04"
-  },
-  "77ac102a5759": {
-   "dup": "65d8f40ba93a"
-  },
-  "9fb32ca8d6d7": {
-   "drop": true
-  },
-  "4353b5e04973": {
-   "drop": true
-  },
-  "e293f9adf685": {
-   "drop": true
-  },
-  "ad4c25ee9d03": {
-   "drop": true
-  },
-  "5ce38337f869": {
-   "drop": true
-  },
-  "f75660b0eba2": {
-   "drop": true
-  },
-  "bb7b3758714b": {
-   "drop": true
-  },
-  "a23722565c82": {
-   "drop": true
-  },
-  "4fd2cd0b533c": {
-   "drop": true
-  },
-  "73c78aa6eff9": {
-   "drop": true
-  },
-  "6bd6356bd916": {
-   "drop": true
-  },
-  "71dcfb7fdab5": {
-   "drop": true
-  },
-  "9948b07814e2": {
-   "drop": true
-  },
-  "0331ad607814": {
-   "drop": true
-  },
-  "60ca96c60af5": {
-   "drop": true
-  },
-  "5af1b5fd9716": {
-   "drop": true
-  },
-  "21a58a21c872": {
-   "drop": true
-  },
-  "6a80f725e27e": {
-   "drop": true
-  },
-  "e4bf6cde5e7a": {
-   "drop": true
-  },
-  "a1a36cadb31e": {
-   "drop": true
-  },
-  "06295a98e103": {
-   "drop": true
-  },
-  "7a5cd2f12175": {
-   "drop": true
-  },
-  "02a0256fa016": {
-   "dup": "7c181adcb866"
-  },
-  "e1be469f1156": {
-   "drop": true
-  },
-  "b7603e2873d1": {
-   "drop": true
-  },
-  "e976d78ff5fb": {
-   "drop": true
-  },
-  "a3317e48311e": {
-   "drop": true
-  },
-  "d8c229de0c81": {
-   "dup": "0bb010f05d26"
-  },
-  "a3e05ae2188c": {
-   "drop": true
-  },
-  "100a1fa06864": {
-   "dup": "53c1ee613370"
-  },
-  "93ea7bac68c7": {
-   "dup": "53c1ee613370"
-  },
-  "2ac94b7e2b7b": {
-   "drop": true
-  },
-  "bf41f0a6347c": {
-   "drop": true
-  },
-  "3c2e55f07dfe": {
-   "drop": true
-  },
-  "5b40dfca0eea": {
-   "drop": true
-  },
-  "843785d32d84": {
-   "drop": true
-  },
-  "883d272d1a0e": {
-   "drop": true
-  },
-  "a5723dd009f2": {
-   "dup": "84cd714b0375"
-  },
-  "90ae09a68dbe": {
-   "drop": true
-  },
-  "a836c0e24b4b": {
-   "dup": "2d75e27c9a10"
-  },
-  "64639c5eec3a": {
-   "drop": true
-  },
-  "cd10dbf6af32": {
-   "drop": true
-  },
-  "e13a8a540909": {
-   "drop": true
-  },
-  "cf8630d40b0b": {
-   "drop": true
-  },
-  "e1784aa1cbbb": {
-   "drop": true
-  },
-  "9010867c084c": {
-   "drop": true
-  },
-  "1b2183e27892": {
-   "drop": true
-  },
-  "1fb975e5f71e": {
-   "drop": true
-  },
-  "571177f7dce0": {
-   "dup": "8828f64bf323"
-  },
-  "fa0dceed502f": {
-   "drop": true
-  },
-  "e1f5b1232af5": {
-   "dup": "b75922534908"
-  },
-  "8fe599d3b4bd": {
-   "drop": true
-  },
-  "b04bce038039": {
-   "drop": true
-  },
-  "57dc16a04d53": {
-   "drop": true
-  },
-  "cc031e7d82ba": {
-   "drop": true
-  },
-  "7e8ed7480155": {
-   "drop": true
-  },
-  "5d68172d63ea": {
-   "drop": true
-  },
-  "e11cde29ba2c": {
-   "drop": true
-  },
-  "ef6a19346e4b": {
-   "drop": true
-  },
-  "23db4f95cb9a": {
-   "drop": true
-  },
-  "a270600798e7": {
-   "drop": true
-  },
-  "855f248e3fc2": {
-   "drop": true
-  },
-  "1d75dfd2ba00": {
-   "drop": true
-  },
-  "f05a6aebf962": {
-   "drop": true
-  },
-  "13b9ccaeb373": {
-   "drop": true
-  },
-  "71c5a02835e1": {
-   "drop": true
-  },
-  "2d356bb6adee": {
-   "drop": true
-  },
-  "4c8c3576893a": {
-   "dup": "0c7ddf6efb5f"
-  },
-  "5808043873d9": {
-   "dup": "e2cafcde1028"
-  },
-  "063ab147fafa": {
-   "drop": true
-  },
-  "6f227a931927": {
-   "drop": true
-  },
-  "d32ffd5fde3f": {
-   "drop": true
-  },
-  "323b14b6367b": {
-   "drop": true
-  },
-  "265653d7b9bf": {
-   "dup": "e2cafcde1028"
-  },
-  "ca2ed490825b": {
-   "dup": "e2cafcde1028"
-  },
-  "f27f4d48861b": {
-   "drop": true
-  },
-  "04dece2018da": {
-   "dup": "e2cafcde1028"
-  },
-  "ae74d69d83e6": {
-   "dup": "e2cafcde1028"
-  },
-  "892adc2c0cab": {
-   "dup": "2edfbc93beea"
-  },
-  "a1b840745438": {
-   "dup": "e2cafcde1028"
-  },
-  "481fe61974be": {
-   "dup": "e2cafcde1028"
-  },
-  "a0c401d92443": {
-   "dup": "e2cafcde1028"
-  },
-  "c63f3f2ed16c": {
-   "dup": "e2cafcde1028"
-  },
-  "3d501a7292cb": {
-   "dup": "e2cafcde1028"
-  },
-  "aeba9e181d3f": {
-   "dup": "e2cafcde1028"
-  },
-  "2a6023271c12": {
-   "dup": "e2cafcde1028"
-  },
-  "bb8a9917d1ce": {
-   "dup": "e2cafcde1028"
-  },
-  "79afcfd5b9b3": {
-   "dup": "e2cafcde1028"
-  },
-  "29d30ce24704": {
-   "dup": "e2cafcde1028"
-  },
-  "3760e3f0dad9": {
-   "dup": "e2cafcde1028"
-  },
-  "281b3c26a669": {
-   "dup": "e2cafcde1028"
-  },
-  "d262ff8ce531": {
-   "dup": "e2cafcde1028"
-  },
-  "655ef3bea388": {
-   "dup": "e2cafcde1028"
-  },
-  "3b84d42954cc": {
-   "dup": "e2cafcde1028"
-  },
-  "c0f9704d35ce": {
-   "drop": true
-  },
-  "e6232c17dc82": {
-   "dup": "e8dbbd1273e1"
-  },
-  "a06577c073fa": {
-   "drop": true
-  },
-  "6e25d0b137f9": {
-   "drop": true
-  },
-  "bf3d564f779c": {
-   "drop": true
-  },
-  "218a62a465dd": {
-   "drop": true
-  },
-  "b91d9f8a828e": {
-   "dup": "5dd773bf975f"
-  },
-  "91df05e9ec11": {
-   "dup": "e7dd0306130a"
-  },
-  "acfdbc6071d2": {
-   "drop": true
-  },
-  "4a88ca73f8fb": {
-   "drop": true
-  },
-  "dda9e2b12cf0": {
-   "drop": true
-  },
-  "1c259bcff970": {
-   "drop": true
-  },
-  "8fcf391a3c7a": {
-   "drop": true
-  },
-  "88081c32dac2": {
-   "drop": true
-  },
-  "e6f6c10d2f89": {
-   "drop": true
-  },
-  "b12fb7e81341": {
-   "drop": true
-  },
-  "4bc586235e9e": {
-   "drop": true
-  },
-  "fa1c048137e1": {
-   "drop": true
-  },
-  "0ee2253d7d7f": {
-   "drop": true
-  },
-  "066e46572ead": {
-   "drop": true
-  },
-  "f653ed6905d9": {
-   "drop": true
-  },
-  "61164f23e3fb": {
-   "drop": true
-  },
-  "1d5f5f3fb2ec": {
-   "drop": true
-  },
-  "811ee9cb8ec7": {
-   "drop": true
-  },
-  "455e9d24c70a": {
-   "drop": true
-  },
   "c77ea2f2c058": {
    "drop": true
   },
@@ -31479,17 +30680,8 @@
   "900db8730271": {
    "drop": true
   },
-  "84421435e193": {
-   "drop": true
-  },
-  "4f8249bc9cee": {
-   "drop": true
-  },
-  "6713ef2b8d05": {
-   "drop": true
-  },
   "f6d1cb772182": {
-   "dup": "07c17088cc0d"
+   "dup": "cce1e8a0867c"
   },
   "e6208657a6a2": {
    "cat": "science",
@@ -31631,6 +30823,61 @@
     "pharma": {
      "score": 6,
      "why": "Fc engineering shapes the effector function of antibody drugs."
+    }
+   }
+  },
+  "cce1e8a0867c": {
+   "cat": "regulatory",
+   "imp": 8,
+   "summary": "The FDA rejected Capricor's deramiocel, a cell therapy for Duchenne muscular dystrophy, for the second time since 2025. In an unusual separate statement the agency accused Capricor of serious data integrity violations in the key study, including breaches of blinding and after-the-fact changes to the statistical analysis plan. Capricor says the FDA cited clinical deficiencies and insufficient evidence of effectiveness, and its CEO says the company stands behind its trials. The review had been extended to 22 November after Capricor sought a narrower upper-limb indication.",
+   "rel": {
+    "cellgene": {
+     "score": 8,
+     "why": "A second rejection with public data-integrity charges for an allogeneic cell therapy in Duchenne sets the bar for the field."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Shows the FDA publicly calling out trial conduct, not just weak efficacy, in rare-disease reviews."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Removes the near-term approval Capricor's value rested on."
+    }
+   }
+  },
+  "aa9162be8812": {
+   "dup": "cce1e8a0867c"
+  },
+  "0f12ef5b8457": {
+   "drop": true
+  },
+  "f025afeb57c9": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "University of Bath researchers analysed what they call the largest collection of spontaneous mutations assembled to date in E. coli and baker's yeast and found that essential genes mutate no less often than other genes, contradicting a 1972 hypothesis that evolution shields important genes from mutation. Published in PLOS Biology, the study argues earlier work was misled by harmful mutations removed by selection before they could be counted.",
+   "rel": {
+    "synbio": {
+     "score": 4,
+     "why": "Mutation-rate assumptions in E. coli and yeast matter for strain engineering and stability."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Relevant to how mutation-accumulation data are interpreted."
+    }
+   }
+  },
+  "6c107b5d2c92": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "A Columbia-led team reports in Nature that microplastics in water spontaneously generate reactive oxygen species, chiefly hydroxyl radicals, at the plastic-water interface, with the effect growing as particles shrink. UC Berkeley simulations tied it to hydroxide ions concentrating next to water-repelling plastic surfaces. The authors say this could help explain microplastic toxicity but stress it does not show the process causes disease in humans.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Offers a chemical mechanism for how microplastics might damage tissue."
+    },
+    "industrial": {
+     "score": 3,
+     "why": "Relevant to environmental biotech work on plastics and their degradation."
     }
    }
   }
@@ -32610,6 +31857,48 @@
     "healthcare": {
      "score": 3,
      "why": "Bears on medicine supply chains into the EU."
+    }
+   }
+  },
+  {
+   "id": "2026-11-20-korea-public-healthcare-ai-network",
+   "title": "Korea introduces public healthcare AI network to connect regional hospitals",
+   "url": "https://www.biospectrumasia.com/news/30/28711/korea-introduces-public-healthcare-ai-network-to-connect-regional-hospitals.html",
+   "source": "BioSpectrum Asia",
+   "kind": "news",
+   "published": "2026-11-20T09:00:00Z",
+   "cat": "policy",
+   "imp": 5,
+   "summary": "South Korea's health ministry launched a pilot National Public Healthcare AI Network, linking Kangwon National University Hospital and Yeongwol Medical Center in real time with three AI agents covering transfers, surgery, discharge and referral. It is the first on-site step of the government's AI-based healthcare strategy from August. Eight pilot hospitals are due to join by the end of 2026, up to 35 public hospitals from April 2027, and all 72 public hospitals by 2029.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "A national rollout of AI agents across Korea's public hospital system."
+    },
+    "ai": {
+     "score": 6,
+     "why": "Government-run clinical AI agents deployed between hospitals, with a dated expansion plan."
+    }
+   }
+  },
+  {
+   "id": "2026-11-20-agilent-sureselect-pan-heme",
+   "title": "Agilent expands tumour profiling portfolio with SureSelect Cancer Research Pan Heme",
+   "url": "https://www.biospectrumasia.com/news/26/28710/agilent-expands-tumour-profiling-portfolio-with-sureselect-cancer-research-pan-heme.html",
+   "source": "BioSpectrum Asia",
+   "kind": "news",
+   "published": "2026-11-20T09:00:00Z",
+   "cat": "other",
+   "imp": 4,
+   "summary": "Agilent launched SureSelect Cancer Research Pan Heme, a hybrid-capture sequencing panel for research profiling of blood cancers, developed with Roswell Park. It covers 359 DNA genes and 124 RNA genes, detecting mutations, copy-number changes, immunoglobulin translocations and fusions in one workflow, and can be automated on Agilent's Magnis prep system. It joins Agilent's solid-tumour CGP panel.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "New combined DNA/RNA NGS panel for haematologic cancer research."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Research-use profiling that could feed future blood-cancer diagnostics."
     }
    }
   }
