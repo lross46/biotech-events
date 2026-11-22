@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T06:40:17Z",
+ "updated": "2026-11-22T13:40:17Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
   "date": "2026-11-22T06:40:17Z",
@@ -30878,6 +30878,616 @@
     "industrial": {
      "score": 3,
      "why": "Relevant to environmental biotech work on plastics and their degradation."
+    }
+   }
+  },
+  "0824280d3925": {
+   "drop": true
+  },
+  "028fa0b99cbe": {
+   "drop": true
+  },
+  "6e39b218199b": {
+   "dup": "c3a714070ba0"
+  },
+  "9410aa3f4440": {
+   "dup": "ded3924cb0a7"
+  },
+  "84249678ce0e": {
+   "drop": true
+  },
+  "82abc3d54bed": {
+   "dup": "b6fcadbe43b5"
+  },
+  "5ec49e4d6cdf": {
+   "dup": "8913f3f848e7"
+  },
+  "1c65c42e3abd": {
+   "dup": "ab80dad1d666"
+  },
+  "fcc95a0f9456": {
+   "dup": "74659456f8f7"
+  },
+  "508808d66a0a": {
+   "dup": "5d7950f90599"
+  },
+  "a55dbc0fea09": {
+   "dup": "eeece3668fba"
+  },
+  "e589552eb73d": {
+   "dup": "e056a5a9d8fd"
+  },
+  "55789410e5b9": {
+   "dup": "ce43ad01f3bc"
+  },
+  "1899a4aef379": {
+   "dup": "f17afb070bb8"
+  },
+  "8bc065337a86": {
+   "dup": "230e7e657a55"
+  },
+  "aa22478d7aa1": {
+   "drop": true
+  },
+  "84be18700b64": {
+   "drop": true
+  },
+  "5b3cf754352b": {
+   "drop": true
+  },
+  "db5574c92a74": {
+   "drop": true
+  },
+  "dad70e06131a": {
+   "drop": true
+  },
+  "a35c83972a75": {
+   "drop": true
+  },
+  "84421435e193": {
+   "drop": true
+  },
+  "4f8249bc9cee": {
+   "drop": true
+  },
+  "b08b68e8b688": {
+   "drop": true
+  },
+  "0c07b7baf24f": {
+   "dup": "2492de432d09"
+  },
+  "bc9ce5c5ca7c": {
+   "dup": "6e5b946321d2"
+  },
+  "7a75a19a8a1f": {
+   "drop": true
+  },
+  "4709dbe21e48": {
+   "drop": true
+  },
+  "4bdd8e00cac5": {
+   "dup": "d0547303e623"
+  },
+  "ca57f8f9d158": {
+   "dup": "a9e23f582e34"
+  },
+  "378da6876d2b": {
+   "dup": "5eff4a69f044"
+  },
+  "4d61012e4fca": {
+   "drop": true
+  },
+  "406efb4ccd97": {
+   "drop": true
+  },
+  "cca74400e9ab": {
+   "dup": "ab80dad1d666"
+  },
+  "e1d85ba21f9a": {
+   "drop": true
+  },
+  "bb874638bcd3": {
+   "drop": true
+  },
+  "ce43626e7626": {
+   "dup": "68110f7dd02f"
+  },
+  "a63af0de9807": {
+   "drop": true
+  },
+  "9ce2170ded38": {
+   "drop": true
+  },
+  "93aa0cf86ec7": {
+   "drop": true
+  },
+  "a7622de8692b": {
+   "drop": true
+  },
+  "26508ae8c367": {
+   "drop": true
+  },
+  "589593d3e165": {
+   "dup": "13cada26f502"
+  },
+  "dd28de888c59": {
+   "drop": true
+  },
+  "5bdf264887ea": {
+   "drop": true
+  },
+  "8a7759b62a9c": {
+   "drop": true
+  },
+  "e441aee98ef7": {
+   "dup": "11f32c2292d2"
+  },
+  "c983dfd0a249": {
+   "drop": true
+  },
+  "3d94e8dac93e": {
+   "drop": true
+  },
+  "300cc615e318": {
+   "drop": true
+  },
+  "62350a95df5d": {
+   "drop": true
+  },
+  "fcc72f4a4df8": {
+   "drop": true
+  },
+  "57e70ea29526": {
+   "dup": "14e3d2bd0ea3"
+  },
+  "43299e8ea368": {
+   "dup": "ded3924cb0a7"
+  },
+  "def738bbfb60": {
+   "dup": "44d9a66b8250"
+  },
+  "5e7a69dbc6d9": {
+   "dup": "ded3924cb0a7"
+  },
+  "0125d422b80e": {
+   "dup": "ef17373869c7"
+  },
+  "bf86288b5bd7": {
+   "drop": true
+  },
+  "ba13dda78621": {
+   "dup": "35a63f6bdece"
+  },
+  "77ac102a5759": {
+   "dup": "65d8f40ba93a"
+  },
+  "4353b5e04973": {
+   "drop": true
+  },
+  "e293f9adf685": {
+   "drop": true
+  },
+  "ad4c25ee9d03": {
+   "drop": true
+  },
+  "5ce38337f869": {
+   "drop": true
+  },
+  "f75660b0eba2": {
+   "drop": true
+  },
+  "bb7b3758714b": {
+   "drop": true
+  },
+  "a23722565c82": {
+   "drop": true
+  },
+  "4fd2cd0b533c": {
+   "drop": true
+  },
+  "73c78aa6eff9": {
+   "drop": true
+  },
+  "6bd6356bd916": {
+   "drop": true
+  },
+  "71dcfb7fdab5": {
+   "drop": true
+  },
+  "9948b07814e2": {
+   "drop": true
+  },
+  "0331ad607814": {
+   "drop": true
+  },
+  "60ca96c60af5": {
+   "drop": true
+  },
+  "5af1b5fd9716": {
+   "drop": true
+  },
+  "21a58a21c872": {
+   "drop": true
+  },
+  "6a80f725e27e": {
+   "drop": true
+  },
+  "e4bf6cde5e7a": {
+   "drop": true
+  },
+  "a1a36cadb31e": {
+   "drop": true
+  },
+  "06295a98e103": {
+   "drop": true
+  },
+  "7a5cd2f12175": {
+   "drop": true
+  },
+  "02a0256fa016": {
+   "dup": "7c181adcb866"
+  },
+  "e1be469f1156": {
+   "drop": true
+  },
+  "b7603e2873d1": {
+   "drop": true
+  },
+  "e976d78ff5fb": {
+   "drop": true
+  },
+  "a3317e48311e": {
+   "drop": true
+  },
+  "d8c229de0c81": {
+   "dup": "0bb010f05d26"
+  },
+  "a3e05ae2188c": {
+   "drop": true
+  },
+  "100a1fa06864": {
+   "dup": "53c1ee613370"
+  },
+  "93ea7bac68c7": {
+   "dup": "53c1ee613370"
+  },
+  "2ac94b7e2b7b": {
+   "drop": true
+  },
+  "bf41f0a6347c": {
+   "drop": true
+  },
+  "3c2e55f07dfe": {
+   "drop": true
+  },
+  "5b40dfca0eea": {
+   "drop": true
+  },
+  "843785d32d84": {
+   "drop": true
+  },
+  "883d272d1a0e": {
+   "drop": true
+  },
+  "a5723dd009f2": {
+   "dup": "84cd714b0375"
+  },
+  "90ae09a68dbe": {
+   "drop": true
+  },
+  "a836c0e24b4b": {
+   "dup": "2d75e27c9a10"
+  },
+  "64639c5eec3a": {
+   "drop": true
+  },
+  "cd10dbf6af32": {
+   "drop": true
+  },
+  "e13a8a540909": {
+   "drop": true
+  },
+  "cf8630d40b0b": {
+   "drop": true
+  },
+  "e1784aa1cbbb": {
+   "drop": true
+  },
+  "9010867c084c": {
+   "drop": true
+  },
+  "1b2183e27892": {
+   "drop": true
+  },
+  "1fb975e5f71e": {
+   "drop": true
+  },
+  "fa0dceed502f": {
+   "drop": true
+  },
+  "e1f5b1232af5": {
+   "dup": "b75922534908"
+  },
+  "8fe599d3b4bd": {
+   "drop": true
+  },
+  "b04bce038039": {
+   "drop": true
+  },
+  "57dc16a04d53": {
+   "drop": true
+  },
+  "cc031e7d82ba": {
+   "drop": true
+  },
+  "7e8ed7480155": {
+   "drop": true
+  },
+  "5d68172d63ea": {
+   "drop": true
+  },
+  "e11cde29ba2c": {
+   "drop": true
+  },
+  "ef6a19346e4b": {
+   "drop": true
+  },
+  "23db4f95cb9a": {
+   "drop": true
+  },
+  "a270600798e7": {
+   "drop": true
+  },
+  "855f248e3fc2": {
+   "drop": true
+  },
+  "1d75dfd2ba00": {
+   "drop": true
+  },
+  "f05a6aebf962": {
+   "drop": true
+  },
+  "13b9ccaeb373": {
+   "drop": true
+  },
+  "71c5a02835e1": {
+   "drop": true
+  },
+  "2d356bb6adee": {
+   "drop": true
+  },
+  "4c8c3576893a": {
+   "dup": "0c7ddf6efb5f"
+  },
+  "5808043873d9": {
+   "dup": "e2cafcde1028"
+  },
+  "063ab147fafa": {
+   "drop": true
+  },
+  "6f227a931927": {
+   "drop": true
+  },
+  "d32ffd5fde3f": {
+   "drop": true
+  },
+  "323b14b6367b": {
+   "drop": true
+  },
+  "c0f9704d35ce": {
+   "drop": true
+  },
+  "e6232c17dc82": {
+   "dup": "e8dbbd1273e1"
+  },
+  "a06577c073fa": {
+   "drop": true
+  },
+  "265653d7b9bf": {
+   "dup": "e2cafcde1028"
+  },
+  "ca2ed490825b": {
+   "dup": "e2cafcde1028"
+  },
+  "f27f4d48861b": {
+   "drop": true
+  },
+  "04dece2018da": {
+   "dup": "e2cafcde1028"
+  },
+  "ae74d69d83e6": {
+   "dup": "e2cafcde1028"
+  },
+  "892adc2c0cab": {
+   "dup": "2edfbc93beea"
+  },
+  "a1b840745438": {
+   "dup": "e2cafcde1028"
+  },
+  "481fe61974be": {
+   "dup": "e2cafcde1028"
+  },
+  "a0c401d92443": {
+   "dup": "e2cafcde1028"
+  },
+  "c63f3f2ed16c": {
+   "dup": "e2cafcde1028"
+  },
+  "3d501a7292cb": {
+   "dup": "e2cafcde1028"
+  },
+  "aeba9e181d3f": {
+   "dup": "e2cafcde1028"
+  },
+  "2a6023271c12": {
+   "dup": "e2cafcde1028"
+  },
+  "bb8a9917d1ce": {
+   "dup": "e2cafcde1028"
+  },
+  "79afcfd5b9b3": {
+   "dup": "e2cafcde1028"
+  },
+  "29d30ce24704": {
+   "dup": "e2cafcde1028"
+  },
+  "3760e3f0dad9": {
+   "dup": "e2cafcde1028"
+  },
+  "281b3c26a669": {
+   "dup": "e2cafcde1028"
+  },
+  "d262ff8ce531": {
+   "dup": "e2cafcde1028"
+  },
+  "655ef3bea388": {
+   "dup": "e2cafcde1028"
+  },
+  "3b84d42954cc": {
+   "dup": "e2cafcde1028"
+  },
+  "6e25d0b137f9": {
+   "drop": true
+  },
+  "218a62a465dd": {
+   "drop": true
+  },
+  "bf3d564f779c": {
+   "drop": true
+  },
+  "b91d9f8a828e": {
+   "dup": "5dd773bf975f"
+  },
+  "91df05e9ec11": {
+   "dup": "e7dd0306130a"
+  },
+  "acfdbc6071d2": {
+   "drop": true
+  },
+  "4a88ca73f8fb": {
+   "drop": true
+  },
+  "dda9e2b12cf0": {
+   "drop": true
+  },
+  "1c259bcff970": {
+   "drop": true
+  },
+  "8fcf391a3c7a": {
+   "drop": true
+  },
+  "88081c32dac2": {
+   "drop": true
+  },
+  "b12fb7e81341": {
+   "drop": true
+  },
+  "e6f6c10d2f89": {
+   "drop": true
+  },
+  "4bc586235e9e": {
+   "drop": true
+  },
+  "fa1c048137e1": {
+   "drop": true
+  },
+  "0ee2253d7d7f": {
+   "drop": true
+  },
+  "066e46572ead": {
+   "drop": true
+  },
+  "f653ed6905d9": {
+   "drop": true
+  },
+  "61164f23e3fb": {
+   "drop": true
+  },
+  "1d5f5f3fb2ec": {
+   "drop": true
+  },
+  "811ee9cb8ec7": {
+   "drop": true
+  },
+  "37f1050dcbdd": {
+   "dup": "cce1e8a0867c"
+  },
+  "36eecef30aed": {
+   "dup": "87767322f59f"
+  },
+  "794342d38870": {
+   "dup": "84cd714b0375"
+  },
+  "5b169fb5b8f7": {
+   "dup": "3ac199c1bab1"
+  },
+  "6d15b3188f49": {
+   "drop": true
+  },
+  "6133b93283ea": {
+   "drop": true
+  },
+  "b1ef7c26ae0e": {
+   "drop": true
+  },
+  "32ae5ed0e522": {
+   "drop": true
+  },
+  "6a5a93a49d5c": {
+   "drop": true
+  },
+  "ae6bf656707f": {
+   "drop": true
+  },
+  "aeea9de68ef5": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "CARsgen says its in vivo CAR-T CT1182, a CD19/CD20 therapy given as a single infusion without lymphodepleting chemotherapy, produced 3 complete and 2 partial responses in six patients with relapsed or refractory B-cell lymphoma (five DLBCL, one mantle cell), all ongoing at about 3.2 months' median follow-up. Only grade 1 cytokine release syndrome was seen, with no neurotoxicity or dose-limiting toxicities. The company plans more dose testing and a registrational trial filing in the first half of 2027.",
+   "rel": {
+    "cellgene": {
+     "score": 9,
+     "why": "Early human data for an in vivo CAR-T that skips cell manufacturing and lymphodepletion."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Adds to the race in in vivo CAR-T after Pfizer's Starna deal."
+    }
+   }
+  },
+  "871c1258e5b5": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Ladera Medical says full results from its 55-patient FASTEN study of an investigational suture-based closure device for large-bore femoral access after TAVR showed mean time to haemostasis of 0.5 minutes and 94.5% technical success. Freedom from major access-site complications at 30 days was 98.1% (52 of 53). Results were a late-breaker at London Valves 2026; the device is not yet approved and no regulatory timeline was given.",
+   "rel": {
+    "meddevices": {
+     "score": 7,
+     "why": "Pivotal-style data for a vascular closure device used in structural heart procedures."
+    }
+   }
+  },
+  "0f72ebb7fb82": {
+   "cat": "deals",
+   "imp": 5,
+   "summary": "Danaher and Microsoft have formed a strategic partnership to develop smart scientific instruments and an interoperable agentic AI ecosystem aimed at speeding up how lab experiments are run, Fierce Biotech reports. Financial terms were not in the visible text.",
+   "rel": {
+    "tools": {
+     "score": 7,
+     "why": "A leading instrument maker is building AI agents into its lab hardware with Microsoft."
+    },
+    "ai": {
+     "score": 6,
+     "why": "Agentic AI applied to lab execution, not just data analysis."
+    }
+   }
+  },
+  "9aa446ab927b": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "A biotech pioneer has called for a cut to UK capital gains tax to revive stock market listings by British life-science companies, the Financial Times reports. Only the headline was available.",
+   "rel": {
+    "investment": {
+     "score": 5,
+     "why": "Proposal aimed at reopening the UK biotech IPO market."
     }
    }
   }
