@@ -1,70 +1,81 @@
 {
- "updated": "2026-11-22T13:40:17Z",
+ "updated": "2026-11-23T06:42:00Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-22T06:40:17Z",
+  "date": "2026-11-23T06:42:00Z",
   "points": [
    {
     "sec": "results",
-    "text": "Merck and Kelun-Biotech's TROP2 antibody-drug conjugate sac-TMT improved overall survival in a pivotal gastroesophageal cancer trial, its second global phase 3 win after lung cancer and a key piece of Merck's plan for life after Keytruda's patents. The KRAS field got more crowded: Erasca's molecular glue ERAS-0015 reported a 44% response rate in 122 heavily pretreated pancreatic cancer patients, against 32% for Revolution Medicines' newly launched Rasonque (cross-trial caveats apply), while Revolution added early first-line data and Alterome and PAQ showed early results for their own KRAS drugs. Celldex dropped barzolvolimab in eczema and Bausch + Lomb missed in phase 2. In devices, Abbott began a 300-patient trial of its Encantor heart valve, and BioVersys reported early TB data from the EU's UNITE4TB project.",
+    "text": "Merck and Kelun-Biotech's TROP2 antibody-drug conjugate sac-TMT extended overall survival in a pivotal gastroesophageal cancer trial, a second global phase 3 win and a central piece of Merck's plan for life after Keytruda. China's CARsgen gave the first clinical data for an in vivo CAR-T, CT1182, reporting three complete and two partial responses in six lymphoma patients, which would make dosing CAR-T as an off-the-shelf injection look closer. KRAS stayed crowded, with Erasca's molecular glue ERAS-0015 at a 44% response rate in heavily pretreated pancreatic cancer and early data from Alterome and PAQ, while Celldex's barzolvolimab failed in eczema and Bausch + Lomb missed in phase 2. In devices and diagnostics, Ladera reported rapid haemostasis in its FASTEN study, Abbott began a 300-patient trial of its Encantor heart valve, and Circular Genomics presented circular RNA blood-biomarker data in Alzheimer's.",
     "ids": [
      "7b06d3ef5b9b",
+     "aeea9de68ef5",
      "cbf56606dadf",
-     "fd508915f3e8"
+     "fd508915f3e8",
+     "871c1258e5b5"
     ]
    },
    {
     "sec": "science",
-    "text": "A Columbia-led Nature paper found that microplastics in water spontaneously generate hydroxyl radicals at their surface, more so as particles shrink, a possible chemical route to tissue damage that the authors stress is not yet linked to human disease. It lands alongside the discovery of micro- and nanoplastics in post-mortem brains of people with dementia. In evolution, a University of Bath study in PLOS Biology of the largest set of spontaneous mutations yet in E. coli and yeast found essential genes mutate no less often than others, overturning a 1972 idea and relevant to strain engineers. Nature also reported a sleuth finding 'impossible proteins' in hundreds of papers, and The Lancet ran comments on remibrutinib in MS and ADCs in lung cancer.",
+    "text": "A Columbia-led Nature paper found that microplastics in water generate hydroxyl radicals at their surface, more so as particles shrink, a plausible chemical route to tissue damage that the authors stress is not yet tied to human disease; it lands alongside the detection of micro- and nanoplastics in post-mortem brains of people with dementia. A new gene-editing system that records when CRISPR cuts the wrong target gives editing programmes a safety readout. In evolution, a Bath study in PLOS Biology of the largest set of spontaneous mutations yet in E. coli and yeast found essential genes mutate no less often than others, overturning a 1972 assumption and relevant to strain engineers. On the industrial side, a preprint set out a cheap 96-well assay that phenotypes acid-loving chemolithoautotrophs used in metal bioleaching, and UVA researchers showed the Alzheimer's risk gene CASS4 works through microglia rather than neurons.",
     "ids": [
      "6c107b5d2c92",
-     "68e56f66f557",
+     "e6208657a6a2",
      "f025afeb57c9",
-     "e6208657a6a2"
+     "35818797e1a4",
+     "9a698ba55dd5"
     ]
    },
    {
     "sec": "approvals",
-    "text": "The FDA rejected Capricor's deramiocel cell therapy for Duchenne muscular dystrophy for a second time and, unusually, issued a public statement accusing the company of serious data integrity violations, including blinding breaches and after-the-fact changes to its statistical plan; Capricor says it stands behind its trials and will discuss next steps on Monday. CBER is creating a council to oversee the safety of vaccines and cell and gene therapies after approval. Novo Nordisk won approval for weekly Sogroya in children with Turner syndrome, Belite Bio's Stargardt decision slipped to May 2027, and in devices Zimmer Biomet filed its autonomous Monogram orthopaedic robot for clearance.",
+    "text": "The FDA again refused Capricor's deramiocel cell therapy for Duchenne muscular dystrophy, its second rejection in two years, and took the unusual step of publicly accusing the company of serious data-integrity violations including blinding breaches and after-the-fact changes to the statistical plan; Capricor stands behind its trials and says it will set out next steps. CBER is standing up a council to watch the safety of vaccines and cell and gene therapies after approval, a structural change for the field. Elsewhere Novo Nordisk won approval for once-weekly Sogroya in girls with Turner syndrome, Belite Bio's Stargardt decision slipped to May 2027, Annovis agreed a combined safety summary with the agency, and Zimmer Biomet filed its autonomous Monogram orthopaedic robot for clearance.",
     "ids": [
      "cce1e8a0867c",
      "94e8ebc0ac20",
      "2d09f1666cd7",
-     "788cc89b2203"
+     "788cc89b2203",
+     "30656373d70a"
     ]
    },
    {
     "sec": "policy",
-    "text": "US-China biotech ties dominated: more lawmakers from both parties are staking out positions on restricting US investment in Chinese biotech ahead of a Democrat-led Congress, and Novartis's chief executive warned that such curbs risk slowing drug development. South Korea launched a national public-hospital AI network, with AI agents handling transfers and referrals between hospitals, aiming to reach all 72 public hospitals by 2029. HHS also launched the MAHA ELEVATE pilot to test food-is-medicine and lifestyle programmes in Medicare.",
+    "text": "US-China biotech ties still dominate: more lawmakers from both parties are staking out positions on restricting US investment in Chinese biotech ahead of a Democrat-led Congress, and Novartis's chief executive warned the curbs risk slowing drug development. In Europe the theme was capital, with a UK biotech founder calling for a capital gains tax cut to restart listings and a German analysis describing strong science but scarce funding. South Korea launched a national public-hospital AI network, with AI agents handling transfers and referrals and coverage of all 72 public hospitals targeted by 2029, and HHS opened its MAHA ELEVATE pilot to test food-is-medicine and lifestyle programmes in Medicare. The Lancet also ran an Offline column setting out a manifesto for protecting public health.",
     "ids": [
      "9613042f009e",
      "7b865fc78bf5",
-     "2026-11-20-korea-public-healthcare-ai-network"
+     "9aa446ab927b",
+     "2026-11-20-korea-public-healthcare-ai-network",
+     "fb68780367b3"
     ]
    },
    {
     "sec": "money",
-    "text": "A thin stretch for deals and funding. China's Adicon abandoned its planned $204M purchase of preclinical contract researcher Crown Bioscience, HLB made a second attempt to absorb HLB Life Science ahead of a possible cancer drug launch, VitriVax raised an $87M series C for a single-dose Lyme vaccine, and General Proximity won a $9M Texas cancer grant for its induced-proximity platform.",
+    "text": "A thin stretch for deals. Danaher and Microsoft agreed to work together on what Danaher calls experimental execution, bringing AI tooling into its instruments and labs, the week's most consequential tools-sector tie-up. China's Adicon walked away from its planned $204M purchase of preclinical contract researcher Crown Bioscience, leaving Crown independent, and Korea's HLB made a second attempt to absorb HLB Life Science ahead of a possible cancer drug launch. Smaller financings carried the rest: VitriVax's $87M series C for a single-dose Lyme vaccine, and a $9M Texas CPRIT grant to General Proximity for its induced-proximity platform. In agri-food, Austria's REPLOID is in due diligence on a roughly $12M purchase of US insect-protein firm Chapul Farms.",
     "ids": [
-     "4ab01b323cad"
+     "0f72ebb7fb82",
+     "4ab01b323cad",
+     "74b694fd0c61",
+     "66412e1be940"
     ]
    },
    {
     "sec": "companies",
-    "text": "Merck won patent rulings against Halozyme in the US and Germany, clearing the way for subcutaneous Keytruda Qlex as the intravenous drug loses protection. Abivax rejected a short-seller report from Scorpion Capital and reaffirmed plans to file obefazimod by year-end. Novo Nordisk is cutting 215 more US sales jobs. Outside pharma, Denmark's Matr Foods opened an industrial-scale mycelium fermentation factory for meat alternatives, ACROBiosystems expanded its Suzhou GMP raw-materials plant for cell and gene therapy makers, and Agilent launched a 359-gene DNA and 124-gene RNA sequencing panel for blood-cancer research. Analysts weighed which psilocybin drug could become the first psychedelic blockbuster.",
+    "text": "Merck won patent rulings against Halozyme in both the US and Germany, clearing the way for subcutaneous Keytruda Qlex as the intravenous product loses protection. Abivax rejected a Scorpion Capital short report and reaffirmed it will file obefazimod by year-end, and Novo Nordisk added 215 more US sales job cuts. Outside pharma, ACROBiosystems opened phase II of its Suzhou GMP raw-materials plant for cell and gene therapy makers, Sino Biological launched high-throughput wet-lab services for AI-driven discovery, BON set up a joint natural-ingredients and biomanufacturing lab with China Oat Group, and Agilent shipped a 359-gene DNA and 124-gene RNA panel for blood-cancer research. Biopharma's London gathering read the sector as healthy but wary of China, and analysts weighed which psilocybin drug could become the first psychedelic blockbuster.",
     "ids": [
      "e3fd88528f27",
      "593e9d1ee843",
-     "385b6b8d84ab",
-     "2026-11-20-agilent-sureselect-pan-heme"
+     "60a4d70bda80",
+     "2026-11-20-agilent-sureselect-pan-heme",
+     "427af2aabc4e"
     ]
    },
    {
     "sec": "biodef",
-    "text": "Oregon reported its first human H5 avian flu case of 2026, linked to an outbreak on a Morrow County dairy farm; the patient was treated with oseltamivir and not hospitalised. Japan confirmed its first poultry outbreaks of the season as H5N9, and Korea's flu hospitalisations among over-65s have already passed last season's peak, prompting an urgent vaccination appeal. The WHO's outbreak page showed no new notices.",
+    "text": "Quiet on outbreaks. Oregon reported its first human H5 avian flu case of 2026, linked to a Morrow County dairy farm; the patient took oseltamivir and was not hospitalised, and Japan confirmed its first poultry outbreaks of the season as H5N9. Korea's flu hospitalisations among over-65s have passed last season's peak, prompting an urgent vaccination appeal. A preprint mapped how H5 hemagglutinin binds MHC-II, adding detail on how the virus recognises host cells. The WHO outbreak page again showed no new notices.",
     "ids": [
      "49fa38b69001",
-     "26673a2ee900"
+     "26673a2ee900",
+     "75da4572b9c3"
     ]
    }
   ]
@@ -28663,48 +28674,6 @@
     }
    }
   },
-  "c94d4dd0751d": {
-   "drop": true
-  },
-  "400e38d58b08": {
-   "drop": true
-  },
-  "322c07785909": {
-   "drop": true
-  },
-  "adad8a56ea11": {
-   "drop": true
-  },
-  "b9a95c5fdc58": {
-   "drop": true
-  },
-  "f5f4cb46ccf9": {
-   "drop": true
-  },
-  "3bddcf1d4d5f": {
-   "drop": true
-  },
-  "db4d3d2605d9": {
-   "drop": true
-  },
-  "ba59d4a9d848": {
-   "drop": true
-  },
-  "431f56370e8c": {
-   "drop": true
-  },
-  "3c55a466589d": {
-   "drop": true
-  },
-  "2fe6c75c6897": {
-   "drop": true
-  },
-  "80a68db7bc40": {
-   "drop": true
-  },
-  "820c7a3482a0": {
-   "drop": true
-  },
   "51ec9d7d7bfa": {
    "cat": "science",
    "imp": 3,
@@ -29699,108 +29668,6 @@
     }
    }
   },
-  "39eb5060a225": {
-   "dup": "3b2f71ed99fb"
-  },
-  "5ce19e241f1c": {
-   "drop": true
-  },
-  "42ef2db13f72": {
-   "dup": "35a63f6bdece"
-  },
-  "106ba0b9bf52": {
-   "drop": true
-  },
-  "3f4c0b00b077": {
-   "dup": "bd2b816d7892"
-  },
-  "4e13c6ea513e": {
-   "drop": true
-  },
-  "891798a4ff51": {
-   "drop": true
-  },
-  "2f384c736c8e": {
-   "drop": true
-  },
-  "515994686693": {
-   "drop": true
-  },
-  "7af711d0e46f": {
-   "drop": true
-  },
-  "b8646a12ae0a": {
-   "drop": true
-  },
-  "d1e9e97f95e8": {
-   "drop": true
-  },
-  "fbf2ef6bb608": {
-   "drop": true
-  },
-  "181f3e972bf9": {
-   "drop": true
-  },
-  "118f13fb2d37": {
-   "drop": true
-  },
-  "2a72036b0a26": {
-   "drop": true
-  },
-  "417355d7a27b": {
-   "drop": true
-  },
-  "70251bedd588": {
-   "drop": true
-  },
-  "af975a9fa899": {
-   "drop": true
-  },
-  "f86bbfc03474": {
-   "drop": true
-  },
-  "014d637ddbd6": {
-   "drop": true
-  },
-  "a9f672b4d736": {
-   "drop": true
-  },
-  "4fe5da0376db": {
-   "drop": true
-  },
-  "7e1841113022": {
-   "drop": true
-  },
-  "e6b4cba648b7": {
-   "drop": true
-  },
-  "ab332c62e4ee": {
-   "drop": true
-  },
-  "4561c5b354f2": {
-   "drop": true
-  },
-  "9d4d3a1f22a7": {
-   "drop": true
-  },
-  "9a0408e9696f": {
-   "drop": true
-  },
-  "6a8bd0c80b00": {
-   "dup": "35a63f6bdece"
-  },
-  "730f5e8702ed": {
-   "dup": "fd508915f3e8"
-  },
-  "0b9f2a97106a": {
-   "dup": "d96e2a548d73"
-  },
-  "676a4280a0f7": {
-   "dup": "fb67f898dc23"
-  },
-  "16e13a0893d0": {
-   "dup": "87767322f59f"
-  },
   "26673a2ee900": {
    "cat": "other",
    "imp": 5,
@@ -29930,9 +29797,6 @@
      "why": "Early human data for a degrader against a hard cancer target."
     }
    }
-  },
-  "553de215b795": {
-   "dup": "cbf56606dadf"
   },
   "8558314b838a": {
    "cat": "clinical",
@@ -30072,186 +29936,6 @@
      "why": "Bears on how tuberculosis is treated."
     }
    }
-  },
-  "a037d3ea4848": {
-   "drop": true
-  },
-  "8ead15db5dad": {
-   "drop": true
-  },
-  "a7eb9a8342f4": {
-   "drop": true
-  },
-  "1394959756f5": {
-   "drop": true
-  },
-  "6af3cd549888": {
-   "drop": true
-  },
-  "647670c128d0": {
-   "drop": true
-  },
-  "4b1c872ae28c": {
-   "drop": true
-  },
-  "9feade61782f": {
-   "drop": true
-  },
-  "9151fdbbcebb": {
-   "drop": true
-  },
-  "028b6534fef7": {
-   "drop": true
-  },
-  "c874cc9ea81c": {
-   "drop": true
-  },
-  "d439f2bc9912": {
-   "drop": true
-  },
-  "efd6f187e75d": {
-   "drop": true
-  },
-  "21f8d869718b": {
-   "drop": true
-  },
-  "b4faeccc0a3b": {
-   "drop": true
-  },
-  "367074cfdf36": {
-   "drop": true
-  },
-  "451b113140e7": {
-   "drop": true
-  },
-  "47ffe5481cde": {
-   "drop": true
-  },
-  "412e7af5bf4b": {
-   "drop": true
-  },
-  "f9fc3c939789": {
-   "drop": true
-  },
-  "f788bf6ef427": {
-   "drop": true
-  },
-  "d329614f0d3c": {
-   "drop": true
-  },
-  "28d0ac30487a": {
-   "drop": true
-  },
-  "bfb9be46e6cc": {
-   "drop": true
-  },
-  "17d8c6c76f6c": {
-   "drop": true
-  },
-  "149a643983db": {
-   "drop": true
-  },
-  "b5e14d0957e4": {
-   "drop": true
-  },
-  "63eaad21b08a": {
-   "drop": true
-  },
-  "3069ec30a743": {
-   "drop": true
-  },
-  "b3967102cfc4": {
-   "drop": true
-  },
-  "1eb105e40182": {
-   "drop": true
-  },
-  "f3693c3d70e1": {
-   "drop": true
-  },
-  "04a29656f02a": {
-   "drop": true
-  },
-  "afa65a7518cf": {
-   "drop": true
-  },
-  "ecaea8324a03": {
-   "drop": true
-  },
-  "cacef0b72d13": {
-   "drop": true
-  },
-  "b2cf59ebaedb": {
-   "drop": true
-  },
-  "5d2acae2ea86": {
-   "drop": true
-  },
-  "805fc5e79625": {
-   "drop": true
-  },
-  "e9561e487236": {
-   "drop": true
-  },
-  "ec78658407d9": {
-   "drop": true
-  },
-  "ab47a9fd50a6": {
-   "drop": true
-  },
-  "d42c607e42e1": {
-   "drop": true
-  },
-  "9f53accbaf95": {
-   "drop": true
-  },
-  "06eef1c8dcbf": {
-   "drop": true
-  },
-  "a5fa3706ee5e": {
-   "drop": true
-  },
-  "d5b0f577f914": {
-   "drop": true
-  },
-  "991bc0e445ee": {
-   "drop": true
-  },
-  "633d5fe2b2f6": {
-   "drop": true
-  },
-  "f41982ea77a2": {
-   "dup": "385b6b8d84ab"
-  },
-  "47856ea67d71": {
-   "dup": "7fec61b645fe"
-  },
-  "8c6c70eb6b30": {
-   "dup": "bf142f2cba4b"
-  },
-  "c964d517f3bc": {
-   "dup": "788cc89b2203"
-  },
-  "d57bb39710f6": {
-   "dup": "7b06d3ef5b9b"
-  },
-  "f4463ddc71fd": {
-   "dup": "7b06d3ef5b9b"
-  },
-  "79c3129e80a8": {
-   "dup": "cce1e8a0867c"
-  },
-  "f12ec82be811": {
-   "dup": "cce1e8a0867c"
-  },
-  "bf2f221a8fe7": {
-   "dup": "cbf56606dadf"
-  },
-  "4d8d632bd9bf": {
-   "dup": "86663b8ddd09"
-  },
-  "07c17088cc0d": {
-   "dup": "cce1e8a0867c"
   },
   "7b06d3ef5b9b": {
    "cat": "clinical",
@@ -30677,9 +30361,6 @@
   "a3163a208e84": {
    "drop": true
   },
-  "900db8730271": {
-   "drop": true
-  },
   "f6d1cb772182": {
    "dup": "cce1e8a0867c"
   },
@@ -30920,506 +30601,8 @@
   "55789410e5b9": {
    "dup": "ce43ad01f3bc"
   },
-  "1899a4aef379": {
-   "dup": "f17afb070bb8"
-  },
-  "8bc065337a86": {
-   "dup": "230e7e657a55"
-  },
-  "aa22478d7aa1": {
-   "drop": true
-  },
-  "84be18700b64": {
-   "drop": true
-  },
-  "5b3cf754352b": {
-   "drop": true
-  },
-  "db5574c92a74": {
-   "drop": true
-  },
-  "dad70e06131a": {
-   "drop": true
-  },
-  "a35c83972a75": {
-   "drop": true
-  },
-  "84421435e193": {
-   "drop": true
-  },
-  "4f8249bc9cee": {
-   "drop": true
-  },
-  "b08b68e8b688": {
-   "drop": true
-  },
-  "0c07b7baf24f": {
-   "dup": "2492de432d09"
-  },
-  "bc9ce5c5ca7c": {
-   "dup": "6e5b946321d2"
-  },
-  "7a75a19a8a1f": {
-   "drop": true
-  },
-  "4709dbe21e48": {
-   "drop": true
-  },
-  "4bdd8e00cac5": {
-   "dup": "d0547303e623"
-  },
-  "ca57f8f9d158": {
-   "dup": "a9e23f582e34"
-  },
-  "378da6876d2b": {
-   "dup": "5eff4a69f044"
-  },
-  "4d61012e4fca": {
-   "drop": true
-  },
-  "406efb4ccd97": {
-   "drop": true
-  },
-  "cca74400e9ab": {
-   "dup": "ab80dad1d666"
-  },
-  "e1d85ba21f9a": {
-   "drop": true
-  },
-  "bb874638bcd3": {
-   "drop": true
-  },
-  "ce43626e7626": {
-   "dup": "68110f7dd02f"
-  },
-  "a63af0de9807": {
-   "drop": true
-  },
-  "9ce2170ded38": {
-   "drop": true
-  },
-  "93aa0cf86ec7": {
-   "drop": true
-  },
-  "a7622de8692b": {
-   "drop": true
-  },
-  "26508ae8c367": {
-   "drop": true
-  },
-  "589593d3e165": {
-   "dup": "13cada26f502"
-  },
-  "dd28de888c59": {
-   "drop": true
-  },
-  "5bdf264887ea": {
-   "drop": true
-  },
-  "8a7759b62a9c": {
-   "drop": true
-  },
-  "e441aee98ef7": {
-   "dup": "11f32c2292d2"
-  },
-  "c983dfd0a249": {
-   "drop": true
-  },
-  "3d94e8dac93e": {
-   "drop": true
-  },
-  "300cc615e318": {
-   "drop": true
-  },
-  "62350a95df5d": {
-   "drop": true
-  },
-  "fcc72f4a4df8": {
-   "drop": true
-  },
-  "57e70ea29526": {
-   "dup": "14e3d2bd0ea3"
-  },
-  "43299e8ea368": {
-   "dup": "ded3924cb0a7"
-  },
-  "def738bbfb60": {
-   "dup": "44d9a66b8250"
-  },
-  "5e7a69dbc6d9": {
-   "dup": "ded3924cb0a7"
-  },
-  "0125d422b80e": {
-   "dup": "ef17373869c7"
-  },
-  "bf86288b5bd7": {
-   "drop": true
-  },
-  "ba13dda78621": {
-   "dup": "35a63f6bdece"
-  },
-  "77ac102a5759": {
-   "dup": "65d8f40ba93a"
-  },
-  "4353b5e04973": {
-   "drop": true
-  },
-  "e293f9adf685": {
-   "drop": true
-  },
-  "ad4c25ee9d03": {
-   "drop": true
-  },
-  "5ce38337f869": {
-   "drop": true
-  },
-  "f75660b0eba2": {
-   "drop": true
-  },
-  "bb7b3758714b": {
-   "drop": true
-  },
-  "a23722565c82": {
-   "drop": true
-  },
-  "4fd2cd0b533c": {
-   "drop": true
-  },
-  "73c78aa6eff9": {
-   "drop": true
-  },
-  "6bd6356bd916": {
-   "drop": true
-  },
-  "71dcfb7fdab5": {
-   "drop": true
-  },
-  "9948b07814e2": {
-   "drop": true
-  },
-  "0331ad607814": {
-   "drop": true
-  },
-  "60ca96c60af5": {
-   "drop": true
-  },
-  "5af1b5fd9716": {
-   "drop": true
-  },
-  "21a58a21c872": {
-   "drop": true
-  },
-  "6a80f725e27e": {
-   "drop": true
-  },
-  "e4bf6cde5e7a": {
-   "drop": true
-  },
-  "a1a36cadb31e": {
-   "drop": true
-  },
-  "06295a98e103": {
-   "drop": true
-  },
-  "7a5cd2f12175": {
-   "drop": true
-  },
-  "02a0256fa016": {
-   "dup": "7c181adcb866"
-  },
-  "e1be469f1156": {
-   "drop": true
-  },
-  "b7603e2873d1": {
-   "drop": true
-  },
-  "e976d78ff5fb": {
-   "drop": true
-  },
-  "a3317e48311e": {
-   "drop": true
-  },
-  "d8c229de0c81": {
-   "dup": "0bb010f05d26"
-  },
-  "a3e05ae2188c": {
-   "drop": true
-  },
-  "100a1fa06864": {
-   "dup": "53c1ee613370"
-  },
-  "93ea7bac68c7": {
-   "dup": "53c1ee613370"
-  },
-  "2ac94b7e2b7b": {
-   "drop": true
-  },
-  "bf41f0a6347c": {
-   "drop": true
-  },
-  "3c2e55f07dfe": {
-   "drop": true
-  },
-  "5b40dfca0eea": {
-   "drop": true
-  },
-  "843785d32d84": {
-   "drop": true
-  },
-  "883d272d1a0e": {
-   "drop": true
-  },
-  "a5723dd009f2": {
-   "dup": "84cd714b0375"
-  },
-  "90ae09a68dbe": {
-   "drop": true
-  },
-  "a836c0e24b4b": {
-   "dup": "2d75e27c9a10"
-  },
-  "64639c5eec3a": {
-   "drop": true
-  },
-  "cd10dbf6af32": {
-   "drop": true
-  },
-  "e13a8a540909": {
-   "drop": true
-  },
-  "cf8630d40b0b": {
-   "drop": true
-  },
-  "e1784aa1cbbb": {
-   "drop": true
-  },
-  "9010867c084c": {
-   "drop": true
-  },
-  "1b2183e27892": {
-   "drop": true
-  },
-  "1fb975e5f71e": {
-   "drop": true
-  },
-  "fa0dceed502f": {
-   "drop": true
-  },
-  "e1f5b1232af5": {
-   "dup": "b75922534908"
-  },
-  "8fe599d3b4bd": {
-   "drop": true
-  },
-  "b04bce038039": {
-   "drop": true
-  },
-  "57dc16a04d53": {
-   "drop": true
-  },
-  "cc031e7d82ba": {
-   "drop": true
-  },
-  "7e8ed7480155": {
-   "drop": true
-  },
-  "5d68172d63ea": {
-   "drop": true
-  },
-  "e11cde29ba2c": {
-   "drop": true
-  },
-  "ef6a19346e4b": {
-   "drop": true
-  },
-  "23db4f95cb9a": {
-   "drop": true
-  },
-  "a270600798e7": {
-   "drop": true
-  },
-  "855f248e3fc2": {
-   "drop": true
-  },
-  "1d75dfd2ba00": {
-   "drop": true
-  },
-  "f05a6aebf962": {
-   "drop": true
-  },
-  "13b9ccaeb373": {
-   "drop": true
-  },
-  "71c5a02835e1": {
-   "drop": true
-  },
-  "2d356bb6adee": {
-   "drop": true
-  },
-  "4c8c3576893a": {
-   "dup": "0c7ddf6efb5f"
-  },
-  "5808043873d9": {
-   "dup": "e2cafcde1028"
-  },
-  "063ab147fafa": {
-   "drop": true
-  },
-  "6f227a931927": {
-   "drop": true
-  },
-  "d32ffd5fde3f": {
-   "drop": true
-  },
-  "323b14b6367b": {
-   "drop": true
-  },
-  "c0f9704d35ce": {
-   "drop": true
-  },
-  "e6232c17dc82": {
-   "dup": "e8dbbd1273e1"
-  },
-  "a06577c073fa": {
-   "drop": true
-  },
-  "265653d7b9bf": {
-   "dup": "e2cafcde1028"
-  },
-  "ca2ed490825b": {
-   "dup": "e2cafcde1028"
-  },
-  "f27f4d48861b": {
-   "drop": true
-  },
-  "04dece2018da": {
-   "dup": "e2cafcde1028"
-  },
-  "ae74d69d83e6": {
-   "dup": "e2cafcde1028"
-  },
-  "892adc2c0cab": {
-   "dup": "2edfbc93beea"
-  },
-  "a1b840745438": {
-   "dup": "e2cafcde1028"
-  },
-  "481fe61974be": {
-   "dup": "e2cafcde1028"
-  },
-  "a0c401d92443": {
-   "dup": "e2cafcde1028"
-  },
-  "c63f3f2ed16c": {
-   "dup": "e2cafcde1028"
-  },
-  "3d501a7292cb": {
-   "dup": "e2cafcde1028"
-  },
-  "aeba9e181d3f": {
-   "dup": "e2cafcde1028"
-  },
-  "2a6023271c12": {
-   "dup": "e2cafcde1028"
-  },
-  "bb8a9917d1ce": {
-   "dup": "e2cafcde1028"
-  },
-  "79afcfd5b9b3": {
-   "dup": "e2cafcde1028"
-  },
-  "29d30ce24704": {
-   "dup": "e2cafcde1028"
-  },
-  "3760e3f0dad9": {
-   "dup": "e2cafcde1028"
-  },
-  "281b3c26a669": {
-   "dup": "e2cafcde1028"
-  },
-  "d262ff8ce531": {
-   "dup": "e2cafcde1028"
-  },
-  "655ef3bea388": {
-   "dup": "e2cafcde1028"
-  },
-  "3b84d42954cc": {
-   "dup": "e2cafcde1028"
-  },
-  "6e25d0b137f9": {
-   "drop": true
-  },
-  "218a62a465dd": {
-   "drop": true
-  },
-  "bf3d564f779c": {
-   "drop": true
-  },
-  "b91d9f8a828e": {
-   "dup": "5dd773bf975f"
-  },
-  "91df05e9ec11": {
-   "dup": "e7dd0306130a"
-  },
-  "acfdbc6071d2": {
-   "drop": true
-  },
-  "4a88ca73f8fb": {
-   "drop": true
-  },
-  "dda9e2b12cf0": {
-   "drop": true
-  },
-  "1c259bcff970": {
-   "drop": true
-  },
-  "8fcf391a3c7a": {
-   "drop": true
-  },
-  "88081c32dac2": {
-   "drop": true
-  },
-  "b12fb7e81341": {
-   "drop": true
-  },
-  "e6f6c10d2f89": {
-   "drop": true
-  },
-  "4bc586235e9e": {
-   "drop": true
-  },
-  "fa1c048137e1": {
-   "drop": true
-  },
-  "0ee2253d7d7f": {
-   "drop": true
-  },
-  "066e46572ead": {
-   "drop": true
-  },
-  "f653ed6905d9": {
-   "drop": true
-  },
-  "61164f23e3fb": {
-   "drop": true
-  },
-  "1d5f5f3fb2ec": {
-   "drop": true
-  },
-  "811ee9cb8ec7": {
-   "drop": true
-  },
-  "37f1050dcbdd": {
-   "dup": "cce1e8a0867c"
-  },
-  "36eecef30aed": {
-   "dup": "87767322f59f"
-  },
   "794342d38870": {
    "dup": "84cd714b0375"
-  },
-  "5b169fb5b8f7": {
-   "dup": "3ac199c1bab1"
   },
   "6d15b3188f49": {
    "drop": true
@@ -31434,9 +30617,6 @@
    "drop": true
   },
   "6a5a93a49d5c": {
-   "drop": true
-  },
-  "ae6bf656707f": {
    "drop": true
   },
   "aeea9de68ef5": {
@@ -31490,6 +30670,133 @@
      "why": "Proposal aimed at reopening the UK biotech IPO market."
     }
    }
+  },
+  "0a176540270f": {
+   "drop": true
+  },
+  "6c0352943ba2": {
+   "cat": "deals",
+   "imp": 3,
+   "summary": "Singapore-based Specialised Therapeutics and Swiss distributor DKSH signed an exclusive partnership to bring cancer medicines to Vietnam, which the companies say has about 180,000 new cancer cases a year. No products or financial terms were named; Specialised Therapeutics says it expects to launch several oncology drugs there over the next few years, subject to regulatory approval.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Adds a commercial route for oncology drugs into Vietnam, a growing Southeast Asian market."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Aims to widen access to cancer medicines in Vietnam."
+    }
+   }
+  },
+  "b480171ef7fa": {
+   "dup": "b6fcadbe43b5"
+  },
+  "79087b0f8f73": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Scientific American reports that early results from a phase 3 trial suggest an erectile dysfunction drug may hold promise in Alzheimer's disease. The article could not be opened, so the drug, trial size and effect size are not confirmed here.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "A possible repurposing of an approved drug class for Alzheimer's, pending full data."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Would offer a cheap, familiar drug for dementia if the result holds."
+    }
+   }
+  },
+  "4829fda5229d": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A Texas A&M team reports in PNAS that, under UV light mimicking early Earth, thymine channels damage into a more reversible form than uracil, a possible reason DNA adopted thymine. The group also published reference spectra it says could help pathogen detection and monitoring of UV water disinfection.",
+   "rel": {
+    "tools": {
+     "score": 3,
+     "why": "Reference UV spectra of nucleobases could support optical detection methods."
+    }
+   }
+  },
+  "6f1ac1be7637": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A Science Advances study of Jonathan, the 194-year-old Aldabra giant tortoise on St Helena, found 287 distinctive genetic variants in DNA repair, inflammation, insulin signalling and tumour suppression, and an epigenetic profile resembling younger tortoises. The work was led by the US longevity nonprofit Kallel; the authors say translation to humans needs much more research.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Adds candidate longevity pathways of interest to ageing-focused drug developers."
+    }
+   }
+  },
+  "9a698ba55dd5": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "University of Virginia researchers report in the Journal of Experimental Medicine that CASS4, an Alzheimer's risk gene, helps microglia compact amyloid plaques. Mice lacking it built plaques faster, lost neurons and declined cognitively, suggesting the gene acts through the brain's immune cells rather than neurons. The work is in mice only; next steps include testing it in other neurodegenerative diseases.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Points to microglial CASS4 as a possible Alzheimer's drug target."
+    }
+   }
+  },
+  "a0d5a9e524d0": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Preprint reporting that bacterial homologs of the major vault protein protect bacteria against ribosome-targeting proteins released by competing microbes, a previously unknown defence system. Not yet peer-reviewed.",
+   "rel": {
+    "synbio": {
+     "score": 3,
+     "why": "A new bacterial defence module that strain engineers could repurpose."
+    }
+   }
+  },
+  "75da4572b9c3": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Preprint mapping how influenza H5 hemagglutinin binds MHC-II, using deep mutational scanning of both proteins to define the interface. The authors report that diverse H5 proteins can use avian or human MHC-II for cell entry, adding detail to how the virus recognises host cells. Not yet peer-reviewed.",
+   "rel": {
+    "biosecurity": {
+     "score": 5,
+     "why": "Adds basic understanding of avian influenza host recognition relevant to surveillance."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Informs influenza vaccine and antibody design."
+    }
+   }
+  },
+  "35818797e1a4": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Preprint describing a 96-well microplate assay that phenotypes acid-loving chemolithoautotrophic bacteria by tracking metabolic by-products with absorbance indicators, raising throughput for organisms used in bioleaching and other low-pH processes. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 4,
+     "why": "Faster screening of acidophiles used in metal bioleaching and low-pH bioprocesses."
+    },
+    "tools": {
+     "score": 3,
+     "why": "A cheap plate-based phenotyping method for hard-to-culture microbes."
+    }
+   }
+  },
+  "1b4a29bab92c": {
+   "cat": "science",
+   "imp": 2,
+   "summary": "Preprint comparing the fibre composition and architecture of the lamina cribrosa across species, finding differences that may follow from optic nerve head size and mechanical load. Relevant to choosing animal models in glaucoma research. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Bears on which animal models suit glaucoma and optic nerve research."
+    }
+   }
+  },
+  "ac581d0dc72e": {
+   "drop": true
+  },
+  "1e732ef2f03b": {
+   "dup": "ded3924cb0a7"
   }
  },
  "extra": [
