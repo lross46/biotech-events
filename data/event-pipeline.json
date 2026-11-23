@@ -1,156 +1,10 @@
 {
  "about": "Working file for the weekly event update (see UPDATING.md). Not shown in the app.",
- "updated": "2026-11-17T06:49:27Z",
+ "updated": "2026-11-23",
  "lastGapCheck": "2026-11-16",
  "lastOrganiserCheck": null,
- "leads": [
-  {
-   "name": "ObesityWeek 2026",
-   "dates": null,
-   "city": null,
-   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403539/0/en/corxel-us-presents-full-phase-2-results-for-cx11-in-adults-with-overweight-and-obesity-at-obesityweek-2026.html",
-   "source": "GlobeNewswire",
-   "added": "2026-11-17"
-  },
-  {
-   "name": "Society for Neuro-Oncology (SNO) Annual Meeting 2026",
-   "dates": null,
-   "city": null,
-   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403441/0/en/in8bio-reports-updated-glioblastoma-data-at-sno-2026-demonstrating-median-overall-survival-of-20-9-months-and-50-two-year-survival-with-gamma-delta-t-cell-therapy.html",
-   "source": "GlobeNewswire",
-   "added": "2026-11-17"
-  },
-  {
-   "name": "4th Long COVID International Conference 2026",
-   "dates": null,
-   "city": null,
-   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403000/0/en/biovie-presents-new-biomarker-data.html",
-   "source": "GlobeNewswire",
-   "added": "2026-11-17"
-  }
- ],
- "candidates": [
-  {
-   "name": "Alternative Treatment for Kidney Failure Could Replace Dialysis in Older Patients",
-   "start": "2026-11-22",
-   "end": "2026-11-22",
-   "url": "https://www.labroots.com/trending/nocat/31396/alternative-treatment-kidney-failure-replace-dialysis-patients",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-22"
-  },
-  {
-   "name": "Smart POCT Management: AQURE Middleware for Connected Care - (AQURE - Ask the Experts)",
-   "start": "2026-11-23",
-   "end": "2026-11-23",
-   "url": "https://www.labroots.com/webinar/smart-poct-management-aqure-middleware-connected-care-aqure-experts",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-22"
-  },
-  {
-   "name": "18th GenerationAI Conference",
-   "start": "2026-12-01",
-   "end": "2026-12-01",
-   "url": "https://www.eurosciencejobs.com/conferences/2836/18th_generationai_conference",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "EuroScienceJobs conferences",
-   "seen": "2026-11-22"
-  },
-  {
-   "name": "Optimizing Pre-formed Fibril (PFF) Sonication for Robust and Reproducible Neurodegenerative Disease Models",
-   "start": "2026-12-02",
-   "end": "2026-12-02",
-   "url": "https://www.labroots.com/webinar/optimizing-pff-sonication-robust-reproducible-neurodegenerative-disease-models",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-22"
-  },
-  {
-   "name": "Cystatin C in Pediatric Kidney Care: From Measurement to Clinical Practice",
-   "start": "2026-12-02",
-   "end": "2026-12-02",
-   "url": "https://www.labroots.com/webinar/cystatin-pediatric-kidney-care-measurement-clinical-practice",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-22"
-  },
-  {
-   "name": "Design, Analytics and Manufacturing of Multi-Payload Targeted LNPs",
-   "start": "2026-12-08",
-   "end": "2026-12-08",
-   "url": "https://www.labroots.com/webinar/design-analytics-manufacturing-multi-payload-targeted-lnps",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Labroots virtual events",
-   "seen": "2026-11-22"
-  },
-  {
-   "name": "View trainings",
-   "start": "2026-12-31",
-   "end": "2026-12-31",
-   "url": "https://fleming.events/events/",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "Fleming events",
-   "seen": "2026-11-22"
-  },
-  {
-   "name": "17th Edition R&D Controlling and Performance Management",
-   "start": "2027-02-25",
-   "end": "2027-02-25",
-   "url": "https://www.eurosciencejobs.com/conferences/2824/17th_edition_rd_controlling_and_performance_management",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "EuroScienceJobs conferences",
-   "seen": "2026-11-22"
-  },
-  {
-   "name": "Health & Wellbeing @ Work",
-   "start": "2027-03-09",
-   "end": "2027-03-09",
-   "url": "https://www.thenec.co.uk/events/health-and-wellbeing-at-work/",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "NEC Birmingham calendar",
-   "seen": "2026-11-22"
-  },
-  {
-   "name": "RNA Leaders Europe - Shaping the Future of RNA Innovation Through Strategic Partnerships",
-   "start": "2027-06-01",
-   "end": "2027-06-01",
-   "url": "https://www.eurosciencejobs.com/conferences/2835/rna_leaders_europe_shaping_the_future_of_rna_innovation_through_strategic_partnerships",
-   "city": "",
-   "country": "",
-   "online": false,
-   "guessed": true,
-   "source": "EuroScienceJobs conferences",
-   "seen": "2026-11-22"
-  }
- ],
+ "leads": [],
+ "candidates": [],
  "dismissed": [
   {
    "name": "Novel Mechanism of Wound Healing Helps Tumors Evade Immunity",
@@ -287,6 +141,46 @@
   {
    "name": "Beyond Method Transfer: How Opella Is Modernizing and Harmonizing LC Methods",
    "reason": "too small (single sponsored webinar)"
+  },
+  {
+   "name": "Alternative Treatment for Kidney Failure Could Replace Dialysis in Older Patients",
+   "reason": "news article, not an event"
+  },
+  {
+   "name": "Smart POCT Management: AQURE Middleware for Connected Care - (AQURE - Ask the Experts)",
+   "reason": "too small (single sponsored webinar)"
+  },
+  {
+   "name": "18th GenerationAI Conference",
+   "reason": "not biotech (general AI conference)"
+  },
+  {
+   "name": "Optimizing Pre-formed Fibril (PFF) Sonication for Robust and Reproducible Neurodegenerative Disease Models",
+   "reason": "too small (single sponsored webinar)"
+  },
+  {
+   "name": "Cystatin C in Pediatric Kidney Care: From Measurement to Clinical Practice",
+   "reason": "too small (single sponsored webinar)"
+  },
+  {
+   "name": "Design, Analytics and Manufacturing of Multi-Payload Targeted LNPs",
+   "reason": "too small (single sponsored webinar)"
+  },
+  {
+   "name": "View trainings",
+   "reason": "not an event (navigation link)"
+  },
+  {
+   "name": "17th Edition R&D Controlling and Performance Management",
+   "reason": "not biotech (management course)"
+  },
+  {
+   "name": "Health & Wellbeing @ Work",
+   "reason": "not biotech (workplace wellbeing show)"
+  },
+  {
+   "name": "RNA Leaders Europe - Shaping the Future of RNA Innovation Through Strategic Partnerships",
+   "reason": "no official dates readable yet; on watch list"
   }
  ],
  "organisers": [
@@ -361,7 +255,9 @@
   {
    "name": "BioCentury",
    "url": "https://conferences.biocentury.com/",
-   "kind": "investor/partnering"
+   "kind": "investor/partnering",
+   "checked": "2026-11-23",
+   "note": "2 added (Grand Rounds US and Europe); East-West and Bio€quity already listed"
   },
   {
    "name": "EBD Group",
@@ -373,7 +269,9 @@
   {
    "name": "BIO",
    "url": "https://www.bio.org/events",
-   "kind": "partnering"
+   "kind": "partnering",
+   "checked": "2026-11-23",
+   "note": "2 added (BIO-Europe 2027 Stockholm, Investment & Growth Summit)"
   },
   {
    "name": "Demy-Colton (Biotech Showcase)",
@@ -423,17 +321,23 @@
   {
    "name": "Keystone Symposia",
    "url": "https://www.keystonesymposia.org/",
-   "kind": "symposia"
+   "kind": "symposia",
+   "checked": "2026-11-23",
+   "note": "11 added (2027 meetings relevant to industry sectors)"
   },
   {
    "name": "Gordon Research Conferences",
    "url": "https://www.grc.org/",
-   "kind": "symposia"
+   "kind": "symposia",
+   "checked": "2026-11-23",
+   "note": "conferences page could not be fetched; retry next run"
   },
   {
    "name": "Cold Spring Harbor Meetings",
    "url": "https://meetings.cshl.edu/",
-   "kind": "symposia"
+   "kind": "symposia",
+   "checked": "2026-11-23",
+   "note": "page returned HTTP 500; retry next run"
   },
   {
    "name": "EMBL / EMBO events",
@@ -448,7 +352,9 @@
   {
    "name": "SLAS",
    "url": "https://www.slas.org/events/",
-   "kind": "conferences"
+   "kind": "conferences",
+   "checked": "2026-11-23",
+   "note": "1 added (SLAS Europe 2028)"
   },
   {
    "name": "ISCT",
@@ -463,47 +369,65 @@
   {
    "name": "Alliance for Regenerative Medicine",
    "url": "https://alliancerm.org/",
-   "kind": "conferences"
+   "kind": "conferences",
+   "checked": "2026-11-23",
+   "note": "2 added (Meeting on the Med, Meeting on the Mesa)"
   },
   {
    "name": "SynBioBeta",
    "url": "https://synbiobeta.com/",
-   "kind": "conferences"
+   "kind": "conferences",
+   "checked": "2026-11-23",
+   "note": "0 added (SynBioBeta 2027 already listed)"
   },
   {
    "name": "Rethink Events (Future Food-Tech)",
    "url": "https://www.futurefoodtech.com/",
-   "kind": "conferences"
+   "kind": "conferences",
+   "checked": "2026-11-23",
+   "note": "site blocks fetching; covered by search"
   },
   {
    "name": "BIA (UK BioIndustry Association)",
    "url": "https://www.bioindustry.org/",
-   "kind": "partnering"
+   "kind": "partnering",
+   "checked": "2026-11-23",
+   "note": "3 added (Future of Regulation, PULSE, BioSolutions UK)"
   },
   {
    "name": "One Nucleus",
    "url": "https://onenucleus.com/",
-   "kind": "partnering"
+   "kind": "partnering",
+   "checked": "2026-11-23",
+   "note": "1 added (Genesis 2026)"
   },
   {
    "name": "MassBio",
    "url": "https://www.massbio.org/",
-   "kind": "partnering"
+   "kind": "partnering",
+   "checked": "2026-11-23",
+   "note": "1 added (State of Possible)"
   },
   {
    "name": "Biocom California",
    "url": "https://www.biocom.org/",
-   "kind": "partnering"
+   "kind": "partnering",
+   "checked": "2026-11-23",
+   "note": "event list did not load; Global Partnering Conference already listed"
   },
   {
    "name": "Swiss Biotech Association",
    "url": "https://www.swissbiotech.org/",
-   "kind": "partnering"
+   "kind": "partnering",
+   "checked": "2026-11-23",
+   "note": "1 added (ILMAC Basel 2027); Swiss Biotech Day already listed"
   },
   {
    "name": "ABSA International",
    "url": "https://absa.org/",
-   "kind": "biosafety/biosecurity"
+   "kind": "biosafety/biosecurity",
+   "checked": "2026-11-23",
+   "note": "1 added (USDA ARS Biosafety & Biocontainment Symposium)"
   },
   {
    "name": "Jefferies / JPMorgan healthcare (investor weeks)",
@@ -2237,6 +2161,302 @@
    "lastStart": null,
    "lastId": null,
    "url": "https://www.prnewswire.com/news-releases/genprex-to-highlight-dual-delivery-strategy-for-diabetes-gene-therapy-at-future-of-cell-and-gene-therapy-symposium-302935830.html",
+   "nextKnown": false
+  },
+  {
+   "series": "ObesityWeek",
+   "lastYear": 2026,
+   "lastStart": "2026-11-14",
+   "lastId": null,
+   "url": "https://obesityweek.org/",
+   "nextKnown": false
+  },
+  {
+   "series": "Long COVID International Conference",
+   "lastYear": 2026,
+   "lastStart": "2026-11-01",
+   "lastId": null,
+   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403000/0/en/biovie-presents-new-biomarker-data.html",
+   "nextKnown": false
+  },
+  {
+   "series": "Commercializing Industrial Biotechnology (CIB)",
+   "lastYear": 2026,
+   "lastStart": "2026-09-22",
+   "lastId": null,
+   "url": "https://www.aiche.org/sbe/conferences/commercializing-industrial-biotechnology",
+   "nextKnown": false
+  },
+  {
+   "series": "Bioprocessing Summit Europe (CHI)",
+   "lastYear": 2026,
+   "lastStart": null,
+   "lastId": null,
+   "url": "https://www.bioprocessingsummit-europe.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "AGBT General Meeting",
+   "lastYear": 2026,
+   "lastStart": "2026-02-23",
+   "lastId": null,
+   "url": "https://events.agbt.org/events/general-meeting",
+   "nextKnown": false
+  },
+  {
+   "series": "NDIA CBRN Defense Conference",
+   "lastYear": 2025,
+   "lastStart": "2025-06-23",
+   "lastId": null,
+   "url": "https://www.ndia.org/",
+   "nextKnown": false
+  },
+  {
+   "series": "RNA Leaders Europe",
+   "lastYear": 2026,
+   "lastStart": null,
+   "lastId": null,
+   "url": "https://informaconnect.com/rna-leaders-europe/",
+   "nextKnown": false
+  },
+  {
+   "series": "Danish Life Science Summit",
+   "lastYear": 2026,
+   "lastStart": null,
+   "lastId": null,
+   "url": "https://www.danskindustri.dk/",
+   "nextKnown": false
+  },
+  {
+   "series": "SynCell: International Conference on Engineering Synthetic Cells and Organelles",
+   "lastYear": 2027,
+   "lastStart": "2027-06-07",
+   "lastId": "syncell-2027",
+   "url": "https://www.buildacell.org/syncell2027",
+   "nextKnown": false
+  },
+  {
+   "series": "EBRC Global Forum 4.0",
+   "lastYear": 2027,
+   "lastStart": "2027-02-24",
+   "lastId": "ebrc-global-forum-2027",
+   "url": "https://ebrc.org/ebrc-global-forum-4-0-2027/",
+   "nextKnown": false
+  },
+  {
+   "series": "Biotechnology and Resilient Human Systems Workshop",
+   "lastYear": 2027,
+   "lastStart": "2027-06-08",
+   "lastId": "mitll-biotech-resilience-2027",
+   "url": "https://www.ll.mit.edu/conferences-events/2027/06/biotechnology-and-resilient-human-systems-workshop-2027",
+   "nextKnown": false
+  },
+  {
+   "series": "Inhouse Farming Feed & Food Convention",
+   "lastYear": 2027,
+   "lastStart": "2027-04-21",
+   "lastId": "inhouse-farming-2027",
+   "url": "https://www.3tres3.com/en/company_news/inhouse-farming-feed-&-food-convention-2027_22936/",
+   "nextKnown": false
+  },
+  {
+   "series": "2nd International Online Conference on Fermentation (IOCFE2027)",
+   "lastYear": 2027,
+   "lastStart": "2027-07-12",
+   "lastId": "iocfe-2027",
+   "url": "https://sciforum.net/event/IOCFE2027",
+   "nextKnown": false
+  },
+  {
+   "series": "32nd Society for Neuro-Oncology Annual Meeting (SNO",
+   "lastYear": 2027,
+   "lastStart": "2027-11-18",
+   "lastId": "sno-2027",
+   "url": "https://www.soc-neuro-onc.org/meetings-education/sno-conferences",
+   "nextKnown": false
+  },
+  {
+   "series": "Keystone Symposia: Single Cell Biology: Expanding Potential Across Diseases",
+   "lastYear": 2027,
+   "lastStart": "2027-02-15",
+   "lastId": "keystone-single-cell-2027",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/k62027",
+   "nextKnown": false
+  },
+  {
+   "series": "Biologics Festival India",
+   "lastYear": 2027,
+   "lastStart": "2027-03-17",
+   "lastId": "biologics-festival-india-2027",
+   "url": "https://www.imapac.com/events/biologics-festival-india-2027",
+   "nextKnown": false
+  },
+  {
+   "series": "PMWC Silicon Valley (Precision Medicine World Conference)",
+   "lastYear": 2027,
+   "lastStart": "2027-01-27",
+   "lastId": "pmwc-2027",
+   "url": "https://pmwcintl.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "Dx World Summit",
+   "lastYear": 2027,
+   "lastStart": "2027-08-23",
+   "lastId": "dx-world-summit-2027",
+   "url": "https://www.diagnosticsworldnews.com/DxWorld",
+   "nextKnown": false
+  },
+  {
+   "series": "Keystone Symposia: Biosecurity and Infectious Diseases: Pandemic Threats, Frontline Research, and the Path Forward",
+   "lastYear": 2027,
+   "lastStart": "2027-09-20",
+   "lastId": "keystone-biosecurity-hanoi-2027",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/J22028",
+   "nextKnown": false
+  },
+  {
+   "series": "Keystone Symposia: AI and Gene Regulation Across Scales",
+   "lastYear": 2027,
+   "lastStart": "2027-10-04",
+   "lastId": "keystone-ai-gene-regulation-2027",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/F12028",
+   "nextKnown": false
+  },
+  {
+   "series": "Keystone Symposia: Progress in Antibiotic Discovery and Development",
+   "lastYear": 2027,
+   "lastStart": "2027-06-21",
+   "lastId": "keystone-antibiotic-discovery-2027",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/E22027",
+   "nextKnown": false
+  },
+  {
+   "series": "Keystone Symposia: Plant and Microbe Engineering for Sustainability",
+   "lastYear": 2027,
+   "lastStart": "2027-05-02",
+   "lastId": "keystone-plant-microbe-engineering-2027",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/N22027",
+   "nextKnown": false
+  },
+  {
+   "series": "Keystone Symposia: Induced Proximity and Targeted Protein Degradation",
+   "lastYear": 2027,
+   "lastStart": "2027-02-08",
+   "lastId": "keystone-tpd-2027",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/K32027",
+   "nextKnown": false
+  },
+  {
+   "series": "Keystone Symposia: Antibodies as Drugs: Evolving Designs, Formats and Approaches",
+   "lastYear": 2027,
+   "lastStart": "2027-02-22",
+   "lastId": "keystone-antibodies-drugs-2027",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/K72027",
+   "nextKnown": false
+  },
+  {
+   "series": "Keystone Symposia: Vaccinology: Next-Generation Advances in Transforming Immunity",
+   "lastYear": 2027,
+   "lastStart": "2027-05-16",
+   "lastId": "keystone-vaccinology-2027",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/N32027",
+   "nextKnown": false
+  },
+  {
+   "series": "Genesis",
+   "lastYear": 2026,
+   "lastStart": "2026-12-10",
+   "lastId": "genesis-2026",
+   "url": "https://onenucleus.com/civicrm/event/info?reset=1&id=1972",
+   "nextKnown": false
+  },
+  {
+   "series": "Future of Regulation and Access UK",
+   "lastYear": 2026,
+   "lastStart": "2026-12-03",
+   "lastId": "bia-future-regulation-2026",
+   "url": "https://www.bioindustry.org/events/our-events/the-future-of-uk-regulation-conference.html",
+   "nextKnown": false
+  },
+  {
+   "series": "BIA PULSE",
+   "lastYear": 2027,
+   "lastStart": "2027-03-08",
+   "lastId": "bia-pulse-2027",
+   "url": "https://www.bioindustry.org/events/our-events/pulse.html",
+   "nextKnown": false
+  },
+  {
+   "series": "BioSolutions UK",
+   "lastYear": 2027,
+   "lastStart": "2027-04-21",
+   "lastId": "biosolutions-uk-2027",
+   "url": "https://www.bioindustry.org/events/our-events/biosolutions-uk.html",
+   "nextKnown": false
+  },
+  {
+   "series": "MassBio State of Possible Conference",
+   "lastYear": 2027,
+   "lastStart": "2027-04-08",
+   "lastId": "massbio-state-of-possible-2027",
+   "url": "https://www.massbio.org/events/state-of-possible-conference/",
+   "nextKnown": false
+  },
+  {
+   "series": "ILMAC Basel",
+   "lastYear": 2027,
+   "lastStart": "2027-09-21",
+   "lastId": "ilmac-basel-2027",
+   "url": "https://www.ilmac.ch/en/basel/",
+   "nextKnown": false
+  },
+  {
+   "series": "Cell & Gene Meeting on the Med",
+   "lastYear": 2027,
+   "lastStart": "2027-04-27",
+   "lastId": "arm-meeting-on-the-med-2027",
+   "url": "https://meetingonthemed.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "Cell & Gene Meeting on the Mesa",
+   "lastYear": 2027,
+   "lastStart": "2027-10-18",
+   "lastId": "arm-meeting-on-the-mesa-2027",
+   "url": "https://www.meetingonthemesa.com/",
+   "nextKnown": false
+  },
+  {
+   "series": "6th BioCentury Grand Rounds – U.S.",
+   "lastYear": 2027,
+   "lastStart": "2027-04-12",
+   "lastId": "biocentury-grand-rounds-us-2027",
+   "url": "https://conferences.biocentury.com/grand-rounds-us",
+   "nextKnown": false
+  },
+  {
+   "series": "7th BioCentury Grand Rounds – Europe",
+   "lastYear": 2027,
+   "lastStart": "2027-09-27",
+   "lastId": "biocentury-grand-rounds-europe-2027",
+   "url": "https://conferences.biocentury.com/grand-rounds-europe",
+   "nextKnown": false
+  },
+  {
+   "series": "BIO Investment & Growth Summit",
+   "lastYear": 2027,
+   "lastStart": "2027-02-16",
+   "lastId": "bio-investment-growth-2027",
+   "url": "https://www.bio.org/events/bio-investment-growth-summit",
+   "nextKnown": false
+  },
+  {
+   "series": "USDA ARS 9th International Biosafety & Biocontainment Symposium",
+   "lastYear": 2027,
+   "lastStart": "2027-04-19",
+   "lastId": "usda-biosafety-symposium-2027",
+   "url": "https://absa.org/event/usda-ars-9th-international-biosafety-biocontainment-symposium-strengthening-biorisk-management-across-fields-farms-and-frontiers/",
    "nextKnown": false
   }
  ],

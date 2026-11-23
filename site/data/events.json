@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T05:48:51Z",
+ "updated": "2026-11-23T05:48:06Z",
  "horizon": "Events from now to about 18 months ahead",
  "events": [
   {
@@ -1191,7 +1191,7 @@
     }
    },
    "added": "2026-10-25",
-   "checked": "2026-11-09"
+   "checked": "2026-11-23"
   },
   {
    "id": "og-computational-antibody-dec-2026",
@@ -1220,7 +1220,44 @@
     "in silico"
    ],
    "added": "2026-11-09",
-   "checked": "2026-11-09"
+   "checked": "2026-11-23"
+  },
+  {
+   "free": false,
+   "id": "bia-future-regulation-2026",
+   "name": "Future of Regulation and Access UK 2026",
+   "start": "2026-12-03",
+   "end": "2026-12-03",
+   "type": "conference",
+   "format": "inperson",
+   "region": "uk",
+   "city": "London",
+   "country": "UK",
+   "organiser": "BIA (UK BioIndustry Association)",
+   "url": "https://www.bioindustry.org/events/our-events/the-future-of-uk-regulation-conference.html",
+   "summary": "BIA conference on UK medicines regulation and patient access, with MHRA, NICE and industry speakers.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Regulatory and market access for medicines."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "NHS access and NICE appraisal."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Regulation of advanced therapies."
+    }
+   },
+   "keywords": [
+    "MHRA",
+    "NICE",
+    "market access",
+    "BIA"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
   },
   {
    "free": null,
@@ -1245,7 +1282,7 @@
     }
    },
    "added": "2026-11-06",
-   "checked": "2026-11-09"
+   "checked": "2026-11-23"
   },
   {
    "id": "selectbio-poc-dx-kl-2026",
@@ -1281,7 +1318,7 @@
     "rapid tests"
    ],
    "added": "2026-11-09",
-   "checked": "2026-11-09"
+   "checked": "2026-11-23"
   },
   {
    "id": "labroots-precision-oncology-dec-2026",
@@ -1345,7 +1382,7 @@
     }
    },
    "added": "2026-11-06",
-   "checked": "2026-11-09"
+   "checked": "2026-11-23"
   },
   {
    "free": null,
@@ -1380,7 +1417,7 @@
     "machine learning"
    ],
    "added": "2026-11-06",
-   "checked": "2026-11-09"
+   "checked": "2026-11-23"
   },
   {
    "id": "biofit-2026",
@@ -1414,7 +1451,43 @@
     "tech transfer"
    ],
    "added": "2026-10-26",
-   "checked": "2026-11-16"
+   "checked": "2026-11-23"
+  },
+  {
+   "free": false,
+   "id": "genesis-2026",
+   "name": "Genesis 2026",
+   "start": "2026-12-10",
+   "end": "2026-12-10",
+   "type": "conference",
+   "format": "inperson",
+   "region": "uk",
+   "city": "London",
+   "country": "UK",
+   "organiser": "One Nucleus",
+   "url": "https://onenucleus.com/civicrm/event/info?reset=1&id=1972",
+   "summary": "One Nucleus's annual life science sector conference at 1 Wimpole Street, with the One Nucleus Awards. Key opinion leaders, investors and innovators meet to share insight and make deals.",
+   "rel": {
+    "investment": {
+     "score": 7,
+     "why": "Investors and dealmaking are central."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "UK biotech and pharma leadership attend."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Health innovation policy sessions."
+    }
+   },
+   "keywords": [
+    "One Nucleus",
+    "London Bio-innovation Week",
+    "awards"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
   },
   {
    "id": "ash-2026",
@@ -1457,7 +1530,7 @@
     }
    },
    "added": "2026-10-25",
-   "checked": "2026-11-16"
+   "checked": "2026-11-23"
   },
   {
    "id": "arablab-ksa-2026",
@@ -1489,7 +1562,7 @@
     "ARABLAB"
    ],
    "added": "2026-11-09",
-   "checked": "2026-11-16"
+   "checked": "2026-11-23"
   },
   {
    "id": "biotech-showcase-2027",
@@ -1937,6 +2010,50 @@
    "checked": "2026-10-25"
   },
   {
+   "free": false,
+   "id": "pmwc-2027",
+   "name": "PMWC 2027 Silicon Valley (Precision Medicine World Conference)",
+   "start": "2027-01-27",
+   "end": "2027-01-29",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Santa Clara",
+   "country": "USA",
+   "organiser": "PMWC (co-hosted by Stanford, UCSF, Yale)",
+   "url": "https://pmwcintl.com/",
+   "summary": "Large precision medicine and AI meeting at Santa Clara Convention Center with 15 tracks and 400+ speakers. Attended by clinicians, diagnostics and pharma leaders and investors.",
+   "rel": {
+    "diagnostics": {
+     "score": 8,
+     "why": "Genomic, MRD and molecular diagnostics tracks."
+    },
+    "healthcare": {
+     "score": 7,
+     "why": "Clinical implementation of precision medicine."
+    },
+    "ai": {
+     "score": 7,
+     "why": "AI in diagnostics and drug development."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Targeted therapy and biomarker strategy."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Sequencing and omics platforms."
+    }
+   },
+   "keywords": [
+    "precision medicine",
+    "PMWC",
+    "genomics"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
+  },
+  {
    "id": "slas-2027",
    "name": "SLAS2027 International Conference & Exhibition",
    "start": "2027-01-30",
@@ -2040,6 +2157,39 @@
    ],
    "added": "2026-11-02",
    "checked": "2026-11-02"
+  },
+  {
+   "free": false,
+   "id": "keystone-tpd-2027",
+   "name": "Keystone Symposia: Induced Proximity and Targeted Protein Degradation",
+   "start": "2027-02-08",
+   "end": "2027-02-11",
+   "type": "symposium",
+   "format": "hybrid",
+   "region": "namerica",
+   "city": "Banff",
+   "country": "Canada",
+   "organiser": "Keystone Symposia",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/K32027",
+   "summary": "Keystone meeting on degraders, molecular glues and other induced-proximity drugs, with strong pharma participation.",
+   "rel": {
+    "pharma": {
+     "score": 9,
+     "why": "Targeted protein degradation is a major drug modality."
+    },
+    "ai": {
+     "score": 3,
+     "why": "Computational design of degraders."
+    }
+   },
+   "keywords": [
+    "PROTAC",
+    "molecular glue",
+    "TPD",
+    "Keystone"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
   },
   {
    "free": null,
@@ -2218,6 +2368,78 @@
    ],
    "added": "2026-11-09",
    "checked": "2026-11-09"
+  },
+  {
+   "free": false,
+   "id": "keystone-single-cell-2027",
+   "name": "Keystone Symposia: Single Cell Biology: Expanding Potential Across Diseases",
+   "start": "2027-02-15",
+   "end": "2027-02-18",
+   "type": "symposium",
+   "format": "hybrid",
+   "region": "namerica",
+   "city": "Banff",
+   "country": "Canada",
+   "organiser": "Keystone Symposia",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/k62027",
+   "summary": "Keystone meeting on single-cell genomics, spatial biology and perturbation technologies moving toward clinical use. Joint with the Tissue and Spatial Immunology meeting.",
+   "rel": {
+    "tools": {
+     "score": 8,
+     "why": "Single-cell and spatial omics platforms are central."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Translation of single-cell insights to drug targets."
+    },
+    "ai": {
+     "score": 4,
+     "why": "Computational analysis of single-cell data."
+    },
+    "diagnostics": {
+     "score": 3,
+     "why": "Clinical applications of single-cell profiling."
+    }
+   },
+   "keywords": [
+    "single cell",
+    "spatial omics",
+    "Keystone"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
+  },
+  {
+   "free": false,
+   "id": "bio-investment-growth-2027",
+   "name": "BIO Investment & Growth Summit 2027",
+   "start": "2027-02-16",
+   "end": "2027-02-17",
+   "type": "partnering",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Miami",
+   "country": "USA",
+   "organiser": "BIO",
+   "url": "https://www.bio.org/events/bio-investment-growth-summit",
+   "summary": "BIO's investor-focused summit with company presentations and one-to-one meetings between biotech companies and investors.",
+   "rel": {
+    "investment": {
+     "score": 9,
+     "why": "Investor meetings and capital raising are the focus."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Biotech company presentations."
+    }
+   },
+   "keywords": [
+    "BIO",
+    "investor",
+    "capital"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
   },
   {
    "free": null,
@@ -2448,6 +2670,43 @@
    "checked": "2026-11-09"
   },
   {
+   "free": false,
+   "id": "keystone-antibodies-drugs-2027",
+   "name": "Keystone Symposia: Antibodies as Drugs: Evolving Designs, Formats and Approaches",
+   "start": "2027-02-22",
+   "end": "2027-02-25",
+   "type": "symposium",
+   "format": "hybrid",
+   "region": "namerica",
+   "city": "Banff",
+   "country": "Canada",
+   "organiser": "Keystone Symposia",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/K72027",
+   "summary": "Keystone meeting on antibody therapeutics, new formats such as bispecifics and ADCs, and engineering approaches. Joint with Computational Drug Discovery.",
+   "rel": {
+    "pharma": {
+     "score": 9,
+     "why": "Antibody drug design and formats."
+    },
+    "bioprocessing": {
+     "score": 3,
+     "why": "Developability and manufacturability of new formats."
+    },
+    "ai": {
+     "score": 4,
+     "why": "Computational antibody design."
+    }
+   },
+   "keywords": [
+    "bispecific",
+    "ADC",
+    "antibody engineering",
+    "Keystone"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
+  },
+  {
    "free": null,
    "id": "keystone-comp-drug-discovery-2027",
    "name": "Keystone: Computational Drug Discovery – Tools Across the Translational Pipeline",
@@ -2579,6 +2838,46 @@
    ],
    "added": "2026-11-16",
    "checked": "2026-11-16"
+  },
+  {
+   "free": false,
+   "id": "ebrc-global-forum-2027",
+   "name": "EBRC Global Forum 4.0",
+   "start": "2027-02-24",
+   "end": "2027-02-26",
+   "type": "symposium",
+   "format": "inperson",
+   "region": "uk",
+   "city": "Windsor",
+   "country": "UK",
+   "organiser": "Engineering Biology Research Consortium (EBRC)",
+   "url": "https://ebrc.org/ebrc-global-forum-4-0-2027/",
+   "summary": "Invitation-only residential summit at Cumberland Lodge on international collaboration, policy and the bioeconomy in engineering biology. Brings together government, academia, industry and nonprofits.",
+   "rel": {
+    "synbio": {
+     "score": 9,
+     "why": "Engineering biology strategy and roadmaps are the core topic."
+    },
+    "biosecurity": {
+     "score": 5,
+     "why": "Policy and governance of engineering biology."
+    },
+    "industrial": {
+     "score": 5,
+     "why": "Bioeconomy and biomanufacturing policy."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Some industry and funder attendance."
+    }
+   },
+   "keywords": [
+    "engineering biology",
+    "bioeconomy",
+    "EBRC"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
   },
   {
    "id": "grc-chem-bio-defense-2027",
@@ -2714,6 +3013,42 @@
    ],
    "added": "2026-11-09",
    "checked": "2026-11-09"
+  },
+  {
+   "free": false,
+   "id": "bia-pulse-2027",
+   "name": "BIA PULSE 2027",
+   "start": "2027-03-08",
+   "end": "2027-03-10",
+   "type": "conference",
+   "format": "inperson",
+   "region": "uk",
+   "city": "London",
+   "country": "UK",
+   "organiser": "BIA (UK BioIndustry Association)",
+   "url": "https://www.bioindustry.org/events/our-events/pulse.html",
+   "summary": "The UK BioIndustry Association's flagship sector event bringing together UK biotech companies, investors, pharma and government.",
+   "rel": {
+    "investment": {
+     "score": 7,
+     "why": "UK biotech finance and investor meetings."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "UK biotech and pharma leadership."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Life sciences policy and NHS links."
+    }
+   },
+   "keywords": [
+    "BIA",
+    "UK biotech",
+    "PULSE"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
   },
   {
    "id": "world-adc-london-2027",
@@ -3258,6 +3593,44 @@
    ],
    "added": "2026-11-09",
    "checked": "2026-11-09"
+  },
+  {
+   "free": false,
+   "id": "biologics-festival-india-2027",
+   "name": "Biologics Festival India 2027",
+   "start": "2027-03-17",
+   "end": "2027-03-18",
+   "type": "conference",
+   "format": "inperson",
+   "region": "apac",
+   "city": "Hyderabad",
+   "country": "India",
+   "organiser": "IMAPAC",
+   "url": "https://www.imapac.com/events/biologics-festival-india-2027",
+   "summary": "Conference on biologics and vaccine development and manufacturing for emerging markets, co-located with Vaccines World Summit India. For biopharma companies, CDMOs and suppliers.",
+   "rel": {
+    "bioprocessing": {
+     "score": 8,
+     "why": "Biologics manufacturing and CDMOs are central."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Biologics and biosimilars development in India."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Vaccine access for emerging markets."
+    }
+   },
+   "keywords": [
+    "biologics",
+    "biosimilars",
+    "vaccines",
+    "India",
+    "IMAPAC"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
   },
   {
    "id": "labroots-lab-automation-2027",
@@ -3957,6 +4330,42 @@
    "checked": "2026-11-06"
   },
   {
+   "free": false,
+   "id": "massbio-state-of-possible-2027",
+   "name": "MassBio State of Possible Conference 2027",
+   "start": "2027-04-08",
+   "end": "2027-04-08",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Boston",
+   "country": "USA",
+   "organiser": "MassBio",
+   "url": "https://www.massbio.org/events/state-of-possible-conference/",
+   "summary": "MassBio's annual one-day conference at Omni Boston Seaport on the state of the Massachusetts life sciences cluster. For biotech executives, investors and policymakers.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Boston biotech and pharma leadership."
+    },
+    "investment": {
+     "score": 6,
+     "why": "Funding climate and investor panels."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Health policy and access."
+    }
+   },
+   "keywords": [
+    "MassBio",
+    "Boston",
+    "Massachusetts"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
+  },
+  {
    "id": "escmid-global-2027",
    "name": "ESCMID Global 2027",
    "start": "2027-04-09",
@@ -3995,6 +4404,38 @@
     "AMR",
     "infectious disease"
    ]
+  },
+  {
+   "free": false,
+   "id": "biocentury-grand-rounds-us-2027",
+   "name": "6th BioCentury Grand Rounds – U.S.",
+   "start": "2027-04-12",
+   "end": "2027-04-14",
+   "type": "partnering",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Houston",
+   "country": "USA",
+   "organiser": "BioCentury",
+   "url": "https://conferences.biocentury.com/grand-rounds-us",
+   "summary": "BioCentury meeting linking academic medical centres and translational researchers with investors and biopharma partners.",
+   "rel": {
+    "investment": {
+     "score": 7,
+     "why": "Investors and company creation from academic science."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Translational pipeline and partnering."
+    }
+   },
+   "keywords": [
+    "BioCentury",
+    "translational",
+    "academic partnering"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
   },
   {
    "id": "cdx-europe-2027",
@@ -4199,6 +4640,87 @@
    "checked": "2026-10-26"
   },
   {
+   "free": false,
+   "id": "usda-biosafety-symposium-2027",
+   "name": "USDA ARS 9th International Biosafety & Biocontainment Symposium",
+   "start": "2027-04-19",
+   "end": "2027-04-22",
+   "type": "symposium",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Baltimore",
+   "country": "USA",
+   "organiser": "USDA ARS with ABSA International",
+   "url": "https://absa.org/event/usda-ars-9th-international-biosafety-biocontainment-symposium-strengthening-biorisk-management-across-fields-farms-and-frontiers/",
+   "summary": "Symposium on biorisk management and biocontainment across agriculture, animal health and research labs. For biosafety officers, facility managers and regulators.",
+   "rel": {
+    "biosecurity": {
+     "score": 9,
+     "why": "Biosafety and biocontainment are the focus."
+    },
+    "agrifood": {
+     "score": 6,
+     "why": "Agricultural and animal pathogen containment."
+    },
+    "tools": {
+     "score": 3,
+     "why": "High-containment facility design."
+    }
+   },
+   "keywords": [
+    "biosafety",
+    "biocontainment",
+    "BSL-3",
+    "USDA"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
+  },
+  {
+   "free": false,
+   "id": "biosolutions-uk-2027",
+   "name": "BioSolutions UK 2027",
+   "start": "2027-04-21",
+   "end": "2027-04-21",
+   "type": "conference",
+   "format": "inperson",
+   "region": "uk",
+   "city": "London",
+   "country": "UK",
+   "organiser": "BIA (UK BioIndustry Association)",
+   "url": "https://www.bioindustry.org/events/our-events/biosolutions-uk.html",
+   "summary": "BIA conference on biology-based solutions beyond medicine, such as engineering biology for food, materials, chemicals and the environment.",
+   "rel": {
+    "synbio": {
+     "score": 7,
+     "why": "Engineering biology companies and policy."
+    },
+    "industrial": {
+     "score": 7,
+     "why": "Bio-based materials and chemicals."
+    },
+    "agrifood": {
+     "score": 6,
+     "why": "Biosolutions for food and agriculture."
+    },
+    "fermentation": {
+     "score": 4,
+     "why": "Fermentation-based products."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Investor interest in non-health biotech."
+    }
+   },
+   "keywords": [
+    "engineering biology",
+    "biosolutions",
+    "BIA"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
+  },
+  {
    "free": null,
    "id": "cphi-japan-2027",
    "name": "CPHI Japan 2027",
@@ -4228,6 +4750,43 @@
    ],
    "added": "2026-11-06",
    "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "inhouse-farming-2027",
+   "name": "Inhouse Farming Feed & Food Convention 2027",
+   "start": "2027-04-21",
+   "end": "2027-04-22",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Hamburg",
+   "country": "Germany",
+   "organiser": "DLG (German Agricultural Society)",
+   "url": "https://www.3tres3.com/en/company_news/inhouse-farming-feed-&-food-convention-2027_22936/",
+   "summary": "Business conference with exhibition on alternative proteins, controlled-environment farming and new food and feed value chains, at Congress Center Hamburg. For producers, start-ups, investors and policymakers.",
+   "rel": {
+    "agrifood": {
+     "score": 9,
+     "why": "Alternative proteins and indoor farming value chains are the focus."
+    },
+    "fermentation": {
+     "score": 5,
+     "why": "Fermentation-derived proteins for food and feed."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Start-ups and investors attend."
+    }
+   },
+   "keywords": [
+    "alternative protein",
+    "vertical farming",
+    "insect protein",
+    "DLG"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
   },
   {
    "free": null,
@@ -4377,6 +4936,42 @@
    "checked": "2026-10-26"
   },
   {
+   "free": false,
+   "id": "arm-meeting-on-the-med-2027",
+   "name": "Cell & Gene Meeting on the Med 2027",
+   "start": "2027-04-27",
+   "end": "2027-04-29",
+   "type": "partnering",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Rome",
+   "country": "Italy",
+   "organiser": "Alliance for Regenerative Medicine",
+   "url": "https://meetingonthemed.com/",
+   "summary": "ARM's European partnering and investor meeting for the cell and gene therapy sector, with company presentations and one-to-one meetings.",
+   "rel": {
+    "cellgene": {
+     "score": 10,
+     "why": "Cell and gene therapy companies are the whole audience."
+    },
+    "investment": {
+     "score": 7,
+     "why": "Investor presentations and partnering."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Pharma BD teams attend."
+    }
+   },
+   "keywords": [
+    "ARM",
+    "ATMP",
+    "partnering"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
+  },
+  {
    "id": "bpi-europe-2027",
    "name": "BioProcess International Europe 2027",
    "start": "2027-04-27",
@@ -4517,6 +5112,43 @@
    "added": "2026-10-25",
    "checked": "2026-10-25",
    "time": "05:30 PDT"
+  },
+  {
+   "free": false,
+   "id": "keystone-plant-microbe-engineering-2027",
+   "name": "Keystone Symposia: Plant and Microbe Engineering for Sustainability",
+   "start": "2027-05-02",
+   "end": "2027-05-05",
+   "type": "symposium",
+   "format": "hybrid",
+   "region": "namerica",
+   "city": "Vancouver",
+   "country": "Canada",
+   "organiser": "Keystone Symposia",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/N22027",
+   "summary": "Keystone meeting on engineering plants and microbes for sustainable agriculture and production.",
+   "rel": {
+    "synbio": {
+     "score": 8,
+     "why": "Engineering plants and microbes is the core."
+    },
+    "agrifood": {
+     "score": 8,
+     "why": "Crop and soil microbe engineering for agriculture."
+    },
+    "industrial": {
+     "score": 5,
+     "why": "Microbial production for sustainability."
+    }
+   },
+   "keywords": [
+    "plant engineering",
+    "microbiome",
+    "sustainability",
+    "Keystone"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
   },
   {
    "id": "synbiobeta-2027",
@@ -4935,6 +5567,43 @@
    ],
    "added": "2026-11-09",
    "checked": "2026-11-09"
+  },
+  {
+   "free": false,
+   "id": "keystone-vaccinology-2027",
+   "name": "Keystone Symposia: Vaccinology: Next-Generation Advances in Transforming Immunity",
+   "start": "2027-05-16",
+   "end": "2027-05-19",
+   "type": "symposium",
+   "format": "hybrid",
+   "region": "namerica",
+   "city": "Vancouver",
+   "country": "Canada",
+   "organiser": "Keystone Symposia",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/N32027",
+   "summary": "Keystone meeting on next-generation vaccine science, platforms and immunology.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Vaccine development and platforms."
+    },
+    "biosecurity": {
+     "score": 5,
+     "why": "Vaccines for pandemic preparedness."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Public-health immunisation."
+    }
+   },
+   "keywords": [
+    "vaccines",
+    "mRNA",
+    "immunology",
+    "Keystone"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
   },
   {
    "id": "bio-it-world-2027",
@@ -5379,6 +6048,87 @@
    ]
   },
   {
+   "free": false,
+   "id": "seed-synbio-2027",
+   "name": "SEED 2027: Synthetic Biology: Engineering, Evolution & Design",
+   "start": "2027-06-07",
+   "end": "2027-06-10",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "New Orleans",
+   "country": "USA",
+   "organiser": "AIChE / SBE",
+   "url": "https://synbioconference.org/2027",
+   "summary": "AIChE's annual technical synthetic biology conference, covering foundational design tools through to commercial applications. Attended by academic and industry synthetic biologists.",
+   "rel": {
+    "synbio": {
+     "score": 10,
+     "why": "Core meeting for strain, circuit and organism engineering research."
+    },
+    "industrial": {
+     "score": 6,
+     "why": "Sessions on engineered microbes for chemicals and materials."
+    },
+    "fermentation": {
+     "score": 5,
+     "why": "Scale-up of engineered strains is a recurring theme."
+    },
+    "tools": {
+     "score": 5,
+     "why": "Design-build-test tools, automation and DNA synthesis."
+    },
+    "ai": {
+     "score": 4,
+     "why": "Machine learning for biological design."
+    }
+   },
+   "keywords": [
+    "synbio",
+    "SEED",
+    "AIChE",
+    "SBE"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
+  },
+  {
+   "free": null,
+   "id": "syncell-2027",
+   "name": "SynCell 2027: International Conference on Engineering Synthetic Cells and Organelles",
+   "start": "2027-06-07",
+   "end": "2027-06-09",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Minneapolis",
+   "country": "USA",
+   "organiser": "Build-a-Cell",
+   "url": "https://www.buildacell.org/syncell2027",
+   "summary": "Academic conference on building synthetic cells and organelles from the bottom up, including ethics and biosafety. Held at the University of Minnesota.",
+   "rel": {
+    "synbio": {
+     "score": 9,
+     "why": "Bottom-up synthetic cells and cell-free systems are the focus."
+    },
+    "tools": {
+     "score": 4,
+     "why": "New cell-free and compartment technologies."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Includes biosafety and ethics of synthetic life."
+    }
+   },
+   "keywords": [
+    "synthetic cell",
+    "cell-free",
+    "Build-a-Cell"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
+  },
+  {
    "id": "casss-cgtp-2027",
    "name": "CASSS Cell and Gene Therapy Products Symposium 2027",
    "start": "2027-06-08",
@@ -5473,6 +6223,46 @@
    ],
    "added": "2026-11-06",
    "checked": "2026-11-06"
+  },
+  {
+   "free": null,
+   "id": "mitll-biotech-resilience-2027",
+   "name": "Biotechnology and Resilient Human Systems Workshop 2027",
+   "start": "2027-06-08",
+   "end": "2027-06-09",
+   "type": "workshop",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Lexington, MA",
+   "country": "USA",
+   "organiser": "MIT Lincoln Laboratory",
+   "url": "https://www.ll.mit.edu/conferences-events/2027/06/biotechnology-and-resilient-human-systems-workshop-2027",
+   "summary": "National-security biotechnology workshop on biothreats, biosurveillance and AI for medical countermeasures. Most sessions restricted to US government and contractors.",
+   "rel": {
+    "defence": {
+     "score": 9,
+     "why": "Defence biotechnology for warfighter health and resilience."
+    },
+    "biosecurity": {
+     "score": 8,
+     "why": "Biothreat detection and biosurveillance sessions."
+    },
+    "ai": {
+     "score": 5,
+     "why": "AI for medical countermeasure development."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Human performance and medical countermeasures."
+    }
+   },
+   "keywords": [
+    "biodefense",
+    "national security",
+    "MIT LL"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
   },
   {
    "id": "bio-innovations-europe-2027",
@@ -5918,6 +6708,43 @@
    "checked": "2026-11-06"
   },
   {
+   "free": false,
+   "id": "keystone-antibiotic-discovery-2027",
+   "name": "Keystone Symposia: Progress in Antibiotic Discovery and Development",
+   "start": "2027-06-21",
+   "end": "2027-06-24",
+   "type": "symposium",
+   "format": "hybrid",
+   "region": "namerica",
+   "city": "Whistler",
+   "country": "Canada",
+   "organiser": "Keystone Symposia",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/E22027",
+   "summary": "Keystone meeting on new antibiotics and antimicrobial strategies, from discovery science to clinical development.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Antibiotic drug discovery and development."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Antimicrobial resistance as a clinical problem."
+    },
+    "biosecurity": {
+     "score": 4,
+     "why": "AMR as a health-security threat."
+    }
+   },
+   "keywords": [
+    "antimicrobial resistance",
+    "AMR",
+    "antibiotics",
+    "Keystone"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
+  },
+  {
    "id": "asm-microbe-2027",
    "name": "ASM Microbe 2027",
    "start": "2027-06-22",
@@ -6196,6 +7023,40 @@
    "checked": "2026-11-06"
   },
   {
+   "free": null,
+   "id": "iocfe-2027",
+   "name": "2nd International Online Conference on Fermentation (IOCFE2027)",
+   "start": "2027-07-12",
+   "end": "2027-07-14",
+   "type": "conference",
+   "format": "online",
+   "region": "global",
+   "organiser": "MDPI Fermentation (Sciforum)",
+   "url": "https://sciforum.net/event/IOCFE2027",
+   "summary": "Online scientific conference run by the journal Fermentation, covering smart fermentation, precision fermentation, lactic acid bacteria, food safety and upcycling. For researchers and practitioners.",
+   "rel": {
+    "fermentation": {
+     "score": 9,
+     "why": "Fermentation science is the whole programme."
+    },
+    "agrifood": {
+     "score": 6,
+     "why": "Food fermentation and upcycling sessions."
+    },
+    "industrial": {
+     "score": 4,
+     "why": "Bioprocess and by-product valorisation."
+    }
+   },
+   "keywords": [
+    "precision fermentation",
+    "MDPI",
+    "online"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
+  },
+  {
    "id": "whx-kuala-lumpur-2027",
    "name": "WHX Kuala Lumpur and WHX Labs Kuala Lumpur 2027",
    "start": "2027-07-13",
@@ -6343,6 +7204,47 @@
    ],
    "added": "2026-10-26",
    "checked": "2026-10-26"
+  },
+  {
+   "free": false,
+   "id": "dx-world-summit-2027",
+   "name": "Dx World Summit 2027",
+   "start": "2027-08-23",
+   "end": "2027-08-25",
+   "type": "conference",
+   "format": "hybrid",
+   "region": "namerica",
+   "city": "Washington, DC",
+   "country": "USA",
+   "organiser": "Cambridge Healthtech Institute",
+   "url": "https://www.diagnosticsworldnews.com/DxWorld",
+   "summary": "New diagnostics summit merging the Next Generation Dx Summit and Precision Medicine Tri-Con, covering AI, companion diagnostics, early detection and reimbursement. For industry, regulatory and public-health leaders.",
+   "rel": {
+    "diagnostics": {
+     "score": 10,
+     "why": "Diagnostics innovation and commercialisation is the whole focus."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Reimbursement and public-health testing."
+    },
+    "ai": {
+     "score": 5,
+     "why": "AI in diagnostics."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Companion diagnostics with drug developers."
+    }
+   },
+   "keywords": [
+    "Next Generation Dx",
+    "companion diagnostics",
+    "Tri-Con",
+    "CHI"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
   },
   {
    "id": "biocontrol-latam-2027",
@@ -6762,6 +7664,87 @@
    "checked": "2026-11-09"
   },
   {
+   "free": false,
+   "id": "keystone-biosecurity-hanoi-2027",
+   "name": "Keystone Symposia: Biosecurity and Infectious Diseases: Pandemic Threats, Frontline Research, and the Path Forward",
+   "start": "2027-09-20",
+   "end": "2027-09-23",
+   "type": "symposium",
+   "format": "hybrid",
+   "region": "apac",
+   "city": "Hanoi",
+   "country": "Vietnam",
+   "organiser": "Keystone Symposia",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/J22028",
+   "summary": "Keystone meeting on pandemic threats, frontline infectious disease research and preparedness, joint with a meeting on positive-strand RNA viruses. For academic, public-health and industry scientists.",
+   "rel": {
+    "biosecurity": {
+     "score": 9,
+     "why": "Pandemic threats and preparedness are the topic."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Frontline infectious disease research in Asia."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Vaccine and antiviral development."
+    },
+    "defence": {
+     "score": 3,
+     "why": "Relevant to biodefence research priorities."
+    }
+   },
+   "keywords": [
+    "pandemic preparedness",
+    "emerging infections",
+    "Keystone"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
+  },
+  {
+   "free": null,
+   "id": "ilmac-basel-2027",
+   "name": "ILMAC Basel 2027",
+   "start": "2027-09-21",
+   "end": "2027-09-23",
+   "type": "tradeshow",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Basel",
+   "country": "Switzerland",
+   "organiser": "MCH Group (Messe Basel)",
+   "url": "https://www.ilmac.ch/en/basel/",
+   "summary": "Swiss trade fair for process and laboratory technology in chemistry, pharma and biotech, held at Messe Basel.",
+   "rel": {
+    "tools": {
+     "score": 7,
+     "why": "Laboratory equipment and automation exhibitors."
+    },
+    "bioprocessing": {
+     "score": 6,
+     "why": "Process technology for pharma and biotech manufacturing."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Basel pharma visitors."
+    },
+    "industrial": {
+     "score": 4,
+     "why": "Chemical process industry."
+    }
+   },
+   "keywords": [
+    "ILMAC",
+    "lab technology",
+    "process technology",
+    "Basel"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
+  },
+  {
    "free": null,
    "id": "lsx-congress-usa-2027",
    "name": "LSX Congress USA 2027",
@@ -6826,6 +7809,38 @@
    ],
    "added": "2026-11-09",
    "checked": "2026-11-09"
+  },
+  {
+   "free": false,
+   "id": "biocentury-grand-rounds-europe-2027",
+   "name": "7th BioCentury Grand Rounds – Europe",
+   "start": "2027-09-27",
+   "end": "2027-09-29",
+   "type": "partnering",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Lisbon",
+   "country": "Portugal",
+   "organiser": "BioCentury",
+   "url": "https://conferences.biocentury.com/grand-rounds-europe",
+   "summary": "European edition of BioCentury's translational partnering meeting between academic innovators, investors and biopharma.",
+   "rel": {
+    "investment": {
+     "score": 7,
+     "why": "Investors in European academic spinouts."
+    },
+    "pharma": {
+     "score": 7,
+     "why": "Translational partnering with biopharma."
+    }
+   },
+   "keywords": [
+    "BioCentury",
+    "translational",
+    "Europe"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
   },
   {
    "id": "future-foods-congress-2027",
@@ -6998,6 +8013,46 @@
    "keywords": [
     "AdvaMed"
    ]
+  },
+  {
+   "free": false,
+   "id": "keystone-ai-gene-regulation-2027",
+   "name": "Keystone Symposia: AI and Gene Regulation Across Scales",
+   "start": "2027-10-04",
+   "end": "2027-10-07",
+   "type": "symposium",
+   "format": "hybrid",
+   "region": "namerica",
+   "city": "Breckenridge, CO",
+   "country": "USA",
+   "organiser": "Keystone Symposia",
+   "url": "https://www.keystonesymposia.org/conferences/conference-listing/meeting/F12028",
+   "summary": "Keystone meeting on using AI models to understand and predict gene regulation, from sequence to cells and tissues.",
+   "rel": {
+    "ai": {
+     "score": 9,
+     "why": "AI models of gene regulation are the focus."
+    },
+    "tools": {
+     "score": 5,
+     "why": "Genomic and single-cell data generation."
+    },
+    "synbio": {
+     "score": 4,
+     "why": "Predictive design of regulatory DNA."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Target discovery applications."
+    }
+   },
+   "keywords": [
+    "genomic language models",
+    "gene regulation",
+    "Keystone"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
   },
   {
    "id": "whx-johannesburg-2027",
@@ -7295,6 +8350,47 @@
    "checked": "2026-10-25"
   },
   {
+   "free": false,
+   "id": "arm-meeting-on-the-mesa-2027",
+   "name": "Cell & Gene Meeting on the Mesa 2027",
+   "start": "2027-10-18",
+   "end": "2027-10-20",
+   "type": "partnering",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Phoenix",
+   "country": "USA",
+   "organiser": "Alliance for Regenerative Medicine",
+   "url": "https://www.meetingonthemesa.com/",
+   "summary": "ARM's flagship annual partnering meeting for cell and gene therapy companies, investors and pharma.",
+   "rel": {
+    "cellgene": {
+     "score": 10,
+     "why": "Cell and gene therapy industry's main partnering meeting."
+    },
+    "investment": {
+     "score": 7,
+     "why": "Company presentations to investors."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Pharma partnering."
+    },
+    "bioprocessing": {
+     "score": 3,
+     "why": "CGT manufacturing discussions."
+    }
+   },
+   "keywords": [
+    "ARM",
+    "Mesa",
+    "partnering",
+    "cell therapy"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
+  },
+  {
    "id": "elrig-drug-discovery-2027",
    "name": "ELRIG Drug Discovery 2027",
    "start": "2027-10-19",
@@ -7332,6 +8428,47 @@
    ],
    "added": "2026-11-02",
    "checked": "2026-11-02"
+  },
+  {
+   "free": false,
+   "id": "bio-europe-2027",
+   "name": "BIO-Europe 2027",
+   "start": "2027-10-25",
+   "end": "2027-10-27",
+   "type": "partnering",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Stockholm",
+   "country": "Sweden",
+   "organiser": "EBD Group (Informa Connect) with BIO",
+   "url": "https://informaconnect.com/bioeurope/",
+   "summary": "Europe's largest biopharma partnering conference, moving to Stockholmsmässan for 2027. Business development, licensing and investor meetings for biotech and pharma.",
+   "rel": {
+    "pharma": {
+     "score": 9,
+     "why": "Licensing and partnering between biotech and pharma is the core."
+    },
+    "investment": {
+     "score": 8,
+     "why": "Investors and dealmakers attend in large numbers."
+    },
+    "cellgene": {
+     "score": 5,
+     "why": "Advanced therapies track and companies."
+    },
+    "ai": {
+     "score": 4,
+     "why": "AI in drug development sessions."
+    }
+   },
+   "keywords": [
+    "partnering",
+    "EBD Group",
+    "BD",
+    "licensing"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
   },
   {
    "id": "world-biosecurity-europe-2027",
@@ -7707,6 +8844,42 @@
   },
   {
    "free": null,
+   "id": "sno-2027",
+   "name": "32nd Society for Neuro-Oncology Annual Meeting (SNO 2027)",
+   "start": "2027-11-18",
+   "end": "2027-11-21",
+   "type": "conference",
+   "format": "inperson",
+   "region": "namerica",
+   "city": "Phoenix",
+   "country": "USA",
+   "organiser": "Society for Neuro-Oncology",
+   "url": "https://www.soc-neuro-onc.org/meetings-education/sno-conferences",
+   "summary": "The main annual meeting for brain tumour research and care, where companies often present clinical data. Attended by neuro-oncologists, researchers and industry.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Brain tumour drug and trial data are presented."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Multidisciplinary neuro-oncology care."
+    },
+    "cellgene": {
+     "score": 5,
+     "why": "Cell therapy data for glioblastoma appear regularly."
+    }
+   },
+   "keywords": [
+    "SNO",
+    "glioblastoma",
+    "neuro-oncology"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
+  },
+  {
+   "free": null,
    "id": "precision-medicine-europe-2027",
    "name": "Precision Medicine Europe 2027",
    "start": "2027-11-30",
@@ -7808,6 +8981,41 @@
    ],
    "added": "2026-11-06",
    "checked": "2026-11-06"
+  },
+  {
+   "free": false,
+   "id": "slas-europe-2028",
+   "name": "SLAS Europe 2028 Conference and Exhibition",
+   "start": "2028-05-16",
+   "end": "2028-05-18",
+   "type": "conference",
+   "format": "inperson",
+   "region": "europe",
+   "city": "Geneva",
+   "country": "Switzerland",
+   "organiser": "SLAS",
+   "url": "https://www.slas.org/events-calendar/slas-europe-2028/",
+   "summary": "European conference and exhibition on lab automation, screening and life science discovery technology.",
+   "rel": {
+    "tools": {
+     "score": 10,
+     "why": "Lab automation and screening platforms are the focus."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Drug discovery teams attend."
+    },
+    "ai": {
+     "score": 5,
+     "why": "Data and AI in the automated lab."
+    }
+   },
+   "keywords": [
+    "lab automation",
+    "SLAS"
+   ],
+   "added": "2026-11-23",
+   "checked": "2026-11-23"
   }
  ]
 }
