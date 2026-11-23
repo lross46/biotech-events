@@ -1,14 +1,15 @@
 {
- "updated": "2026-11-23T06:42:00Z",
+ "updated": "2026-11-23T13:43:11Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-23T06:42:00Z",
+  "date": "2026-11-23T13:43:11Z",
   "points": [
    {
     "sec": "results",
-    "text": "Merck and Kelun-Biotech's TROP2 antibody-drug conjugate sac-TMT extended overall survival in a pivotal gastroesophageal cancer trial, a second global phase 3 win and a central piece of Merck's plan for life after Keytruda. China's CARsgen gave the first clinical data for an in vivo CAR-T, CT1182, reporting three complete and two partial responses in six lymphoma patients, which would make dosing CAR-T as an off-the-shelf injection look closer. KRAS stayed crowded, with Erasca's molecular glue ERAS-0015 at a 44% response rate in heavily pretreated pancreatic cancer and early data from Alterome and PAQ, while Celldex's barzolvolimab failed in eczema and Bausch + Lomb missed in phase 2. In devices and diagnostics, Ladera reported rapid haemostasis in its FASTEN study, Abbott began a 300-patient trial of its Encantor heart valve, and Circular Genomics presented circular RNA blood-biomarker data in Alzheimer's.",
+    "text": "Merck and Kelun-Biotech's TROP2 antibody-drug conjugate sac-TMT extended overall survival in a pivotal gastroesophageal cancer trial, a second global phase 3 win and a central piece of Merck's plan for life after Keytruda. Kymera's oral STAT6 degrader KT-621 met all endpoints in the BROADEN2 phase 2b eczema trial and heads to phase 3 next year as a pill rival to Dupixent, while Invivyd reported 70% to 90% protection against symptomatic Covid for its antibody VYD2311 and plans an accelerated filing. China's CARsgen gave the first clinical data for an in vivo CAR-T, CT1182, reporting three complete and two partial responses in six lymphoma patients, which would make dosing CAR-T as an off-the-shelf injection look closer. KRAS stayed crowded, with Erasca's molecular glue ERAS-0015 at a 44% response rate in heavily pretreated pancreatic cancer and early data from Alterome and PAQ, while Celldex's barzolvolimab failed in eczema and Bausch + Lomb missed in phase 2. In devices and diagnostics, Ladera reported rapid haemostasis in its FASTEN study, Abbott began a 300-patient trial of its Encantor heart valve, and Circular Genomics presented circular RNA blood-biomarker data in Alzheimer's.",
     "ids": [
      "7b06d3ef5b9b",
+     "bc823937dab7",
      "aeea9de68ef5",
      "cbf56606dadf",
      "fd508915f3e8",
@@ -50,8 +51,9 @@
    },
    {
     "sec": "money",
-    "text": "A thin stretch for deals. Danaher and Microsoft agreed to work together on what Danaher calls experimental execution, bringing AI tooling into its instruments and labs, the week's most consequential tools-sector tie-up. China's Adicon walked away from its planned $204M purchase of preclinical contract researcher Crown Bioscience, leaving Crown independent, and Korea's HLB made a second attempt to absorb HLB Life Science ahead of a possible cancer drug launch. Smaller financings carried the rest: VitriVax's $87M series C for a single-dose Lyme vaccine, and a $9M Texas CPRIT grant to General Proximity for its induced-proximity platform. In agri-food, Austria's REPLOID is in due diligence on a roughly $12M purchase of US insect-protein firm Chapul Farms.",
+    "text": "A thin stretch for deals, led by Eli Lilly buying UK preclinical Huntington's biotech LoQus23 for up to $725M, another step in its 2026 acquisition run. Danaher and Microsoft agreed to work together on what Danaher calls experimental execution, bringing AI tooling into its instruments and labs, the week's most consequential tools-sector tie-up. China's Adicon walked away from its planned $204M purchase of preclinical contract researcher Crown Bioscience, leaving Crown independent, and Korea's HLB made a second attempt to absorb HLB Life Science ahead of a possible cancer drug launch. Smaller financings carried the rest: VitriVax's $87M series C for a single-dose Lyme vaccine, and a $9M Texas CPRIT grant to General Proximity for its induced-proximity platform. In agri-food, Austria's REPLOID is in due diligence on a roughly $12M purchase of US insect-protein firm Chapul Farms.",
     "ids": [
+     "ab5869ce7dde",
      "0f72ebb7fb82",
      "4ab01b323cad",
      "74b694fd0c61",
@@ -30797,6 +30799,1382 @@
   },
   "1e732ef2f03b": {
    "dup": "ded3924cb0a7"
+  },
+  "f41982ea77a2": {
+   "dup": "385b6b8d84ab"
+  },
+  "633d5fe2b2f6": {
+   "drop": true
+  },
+  "8c6c70eb6b30": {
+   "dup": "bf142f2cba4b"
+  },
+  "676a4280a0f7": {
+   "dup": "fb67f898dc23"
+  },
+  "efd6f187e75d": {
+   "drop": true
+  },
+  "c964d517f3bc": {
+   "dup": "788cc89b2203"
+  },
+  "79c3129e80a8": {
+   "dup": "cce1e8a0867c"
+  },
+  "c94d4dd0751d": {
+   "drop": true
+  },
+  "400e38d58b08": {
+   "drop": true
+  },
+  "322c07785909": {
+   "drop": true
+  },
+  "adad8a56ea11": {
+   "drop": true
+  },
+  "b9a95c5fdc58": {
+   "drop": true
+  },
+  "f5f4cb46ccf9": {
+   "drop": true
+  },
+  "3bddcf1d4d5f": {
+   "drop": true
+  },
+  "db4d3d2605d9": {
+   "drop": true
+  },
+  "ba59d4a9d848": {
+   "drop": true
+  },
+  "431f56370e8c": {
+   "drop": true
+  },
+  "3c55a466589d": {
+   "drop": true
+  },
+  "2fe6c75c6897": {
+   "drop": true
+  },
+  "80a68db7bc40": {
+   "drop": true
+  },
+  "820c7a3482a0": {
+   "drop": true
+  },
+  "07c17088cc0d": {
+   "dup": "cce1e8a0867c"
+  },
+  "a7eb9a8342f4": {
+   "drop": true
+  },
+  "1394959756f5": {
+   "drop": true
+  },
+  "6af3cd549888": {
+   "drop": true
+  },
+  "4b1c872ae28c": {
+   "drop": true
+  },
+  "9151fdbbcebb": {
+   "drop": true
+  },
+  "028b6534fef7": {
+   "drop": true
+  },
+  "b4faeccc0a3b": {
+   "drop": true
+  },
+  "451b113140e7": {
+   "drop": true
+  },
+  "47ffe5481cde": {
+   "drop": true
+  },
+  "47856ea67d71": {
+   "dup": "7fec61b645fe"
+  },
+  "f788bf6ef427": {
+   "drop": true
+  },
+  "d329614f0d3c": {
+   "drop": true
+  },
+  "28d0ac30487a": {
+   "drop": true
+  },
+  "bfb9be46e6cc": {
+   "drop": true
+  },
+  "17d8c6c76f6c": {
+   "drop": true
+  },
+  "149a643983db": {
+   "drop": true
+  },
+  "b5e14d0957e4": {
+   "drop": true
+  },
+  "63eaad21b08a": {
+   "drop": true
+  },
+  "3069ec30a743": {
+   "drop": true
+  },
+  "bf2f221a8fe7": {
+   "dup": "cbf56606dadf"
+  },
+  "b3967102cfc4": {
+   "drop": true
+  },
+  "1eb105e40182": {
+   "drop": true
+  },
+  "f3693c3d70e1": {
+   "drop": true
+  },
+  "04a29656f02a": {
+   "drop": true
+  },
+  "afa65a7518cf": {
+   "drop": true
+  },
+  "ecaea8324a03": {
+   "drop": true
+  },
+  "cacef0b72d13": {
+   "drop": true
+  },
+  "4e13c6ea513e": {
+   "drop": true
+  },
+  "891798a4ff51": {
+   "drop": true
+  },
+  "ec78658407d9": {
+   "drop": true
+  },
+  "2f384c736c8e": {
+   "drop": true
+  },
+  "d57bb39710f6": {
+   "dup": "7b06d3ef5b9b"
+  },
+  "6a8bd0c80b00": {
+   "dup": "35a63f6bdece"
+  },
+  "9f53accbaf95": {
+   "drop": true
+  },
+  "06eef1c8dcbf": {
+   "drop": true
+  },
+  "d5b0f577f914": {
+   "drop": true
+  },
+  "515994686693": {
+   "drop": true
+  },
+  "7af711d0e46f": {
+   "drop": true
+  },
+  "b8646a12ae0a": {
+   "drop": true
+  },
+  "d1e9e97f95e8": {
+   "drop": true
+  },
+  "730f5e8702ed": {
+   "dup": "fd508915f3e8"
+  },
+  "2a72036b0a26": {
+   "drop": true
+  },
+  "0b9f2a97106a": {
+   "dup": "d96e2a548d73"
+  },
+  "417355d7a27b": {
+   "drop": true
+  },
+  "553de215b795": {
+   "dup": "cbf56606dadf"
+  },
+  "af975a9fa899": {
+   "drop": true
+  },
+  "f86bbfc03474": {
+   "drop": true
+  },
+  "900db8730271": {
+   "drop": true
+  },
+  "a9f672b4d736": {
+   "drop": true
+  },
+  "7e1841113022": {
+   "drop": true
+  },
+  "e6b4cba648b7": {
+   "drop": true
+  },
+  "ab332c62e4ee": {
+   "drop": true
+  },
+  "36eecef30aed": {
+   "dup": "87767322f59f"
+  },
+  "9d4d3a1f22a7": {
+   "drop": true
+  },
+  "4561c5b354f2": {
+   "drop": true
+  },
+  "1899a4aef379": {
+   "dup": "f17afb070bb8"
+  },
+  "8bc065337a86": {
+   "dup": "230e7e657a55"
+  },
+  "aa22478d7aa1": {
+   "drop": true
+  },
+  "0c07b7baf24f": {
+   "dup": "2492de432d09"
+  },
+  "bc9ce5c5ca7c": {
+   "dup": "6e5b946321d2"
+  },
+  "7a75a19a8a1f": {
+   "drop": true
+  },
+  "4709dbe21e48": {
+   "drop": true
+  },
+  "4bdd8e00cac5": {
+   "dup": "d0547303e623"
+  },
+  "ca57f8f9d158": {
+   "dup": "a9e23f582e34"
+  },
+  "378da6876d2b": {
+   "dup": "5eff4a69f044"
+  },
+  "4d61012e4fca": {
+   "drop": true
+  },
+  "406efb4ccd97": {
+   "drop": true
+  },
+  "cca74400e9ab": {
+   "dup": "ab80dad1d666"
+  },
+  "e1d85ba21f9a": {
+   "drop": true
+  },
+  "bb874638bcd3": {
+   "drop": true
+  },
+  "ce43626e7626": {
+   "dup": "68110f7dd02f"
+  },
+  "a63af0de9807": {
+   "drop": true
+  },
+  "9ce2170ded38": {
+   "drop": true
+  },
+  "93aa0cf86ec7": {
+   "drop": true
+  },
+  "a7622de8692b": {
+   "drop": true
+  },
+  "26508ae8c367": {
+   "drop": true
+  },
+  "589593d3e165": {
+   "dup": "13cada26f502"
+  },
+  "dd28de888c59": {
+   "drop": true
+  },
+  "5bdf264887ea": {
+   "drop": true
+  },
+  "8a7759b62a9c": {
+   "drop": true
+  },
+  "e441aee98ef7": {
+   "dup": "11f32c2292d2"
+  },
+  "c983dfd0a249": {
+   "drop": true
+  },
+  "300cc615e318": {
+   "drop": true
+  },
+  "3d94e8dac93e": {
+   "drop": true
+  },
+  "62350a95df5d": {
+   "drop": true
+  },
+  "fcc72f4a4df8": {
+   "drop": true
+  },
+  "57e70ea29526": {
+   "dup": "14e3d2bd0ea3"
+  },
+  "43299e8ea368": {
+   "dup": "ded3924cb0a7"
+  },
+  "def738bbfb60": {
+   "dup": "44d9a66b8250"
+  },
+  "5e7a69dbc6d9": {
+   "dup": "ded3924cb0a7"
+  },
+  "0125d422b80e": {
+   "dup": "ef17373869c7"
+  },
+  "bf86288b5bd7": {
+   "drop": true
+  },
+  "ba13dda78621": {
+   "dup": "35a63f6bdece"
+  },
+  "77ac102a5759": {
+   "dup": "65d8f40ba93a"
+  },
+  "4353b5e04973": {
+   "drop": true
+  },
+  "e293f9adf685": {
+   "drop": true
+  },
+  "ad4c25ee9d03": {
+   "drop": true
+  },
+  "5ce38337f869": {
+   "drop": true
+  },
+  "f75660b0eba2": {
+   "drop": true
+  },
+  "4fd2cd0b533c": {
+   "drop": true
+  },
+  "73c78aa6eff9": {
+   "drop": true
+  },
+  "9948b07814e2": {
+   "drop": true
+  },
+  "0331ad607814": {
+   "drop": true
+  },
+  "60ca96c60af5": {
+   "drop": true
+  },
+  "5af1b5fd9716": {
+   "drop": true
+  },
+  "21a58a21c872": {
+   "drop": true
+  },
+  "6a80f725e27e": {
+   "drop": true
+  },
+  "e4bf6cde5e7a": {
+   "drop": true
+  },
+  "a1a36cadb31e": {
+   "drop": true
+  },
+  "06295a98e103": {
+   "drop": true
+  },
+  "7a5cd2f12175": {
+   "drop": true
+  },
+  "02a0256fa016": {
+   "dup": "7c181adcb866"
+  },
+  "e1be469f1156": {
+   "drop": true
+  },
+  "b7603e2873d1": {
+   "drop": true
+  },
+  "e976d78ff5fb": {
+   "drop": true
+  },
+  "a3317e48311e": {
+   "drop": true
+  },
+  "d8c229de0c81": {
+   "dup": "0bb010f05d26"
+  },
+  "a3e05ae2188c": {
+   "drop": true
+  },
+  "100a1fa06864": {
+   "dup": "53c1ee613370"
+  },
+  "93ea7bac68c7": {
+   "dup": "53c1ee613370"
+  },
+  "2ac94b7e2b7b": {
+   "drop": true
+  },
+  "bf41f0a6347c": {
+   "drop": true
+  },
+  "3c2e55f07dfe": {
+   "drop": true
+  },
+  "843785d32d84": {
+   "drop": true
+  },
+  "883d272d1a0e": {
+   "drop": true
+  },
+  "a5723dd009f2": {
+   "dup": "84cd714b0375"
+  },
+  "90ae09a68dbe": {
+   "drop": true
+  },
+  "a836c0e24b4b": {
+   "dup": "2d75e27c9a10"
+  },
+  "64639c5eec3a": {
+   "drop": true
+  },
+  "cd10dbf6af32": {
+   "drop": true
+  },
+  "e13a8a540909": {
+   "drop": true
+  },
+  "cf8630d40b0b": {
+   "drop": true
+  },
+  "e1784aa1cbbb": {
+   "drop": true
+  },
+  "9010867c084c": {
+   "drop": true
+  },
+  "1b2183e27892": {
+   "drop": true
+  },
+  "1fb975e5f71e": {
+   "drop": true
+  },
+  "fa0dceed502f": {
+   "drop": true
+  },
+  "e1f5b1232af5": {
+   "dup": "b75922534908"
+  },
+  "8fe599d3b4bd": {
+   "drop": true
+  },
+  "b04bce038039": {
+   "drop": true
+  },
+  "cc031e7d82ba": {
+   "drop": true
+  },
+  "7e8ed7480155": {
+   "drop": true
+  },
+  "5d68172d63ea": {
+   "drop": true
+  },
+  "e11cde29ba2c": {
+   "drop": true
+  },
+  "ef6a19346e4b": {
+   "drop": true
+  },
+  "23db4f95cb9a": {
+   "drop": true
+  },
+  "a270600798e7": {
+   "drop": true
+  },
+  "855f248e3fc2": {
+   "drop": true
+  },
+  "1d75dfd2ba00": {
+   "drop": true
+  },
+  "f05a6aebf962": {
+   "drop": true
+  },
+  "13b9ccaeb373": {
+   "drop": true
+  },
+  "71c5a02835e1": {
+   "drop": true
+  },
+  "2d356bb6adee": {
+   "drop": true
+  },
+  "4c8c3576893a": {
+   "dup": "0c7ddf6efb5f"
+  },
+  "5808043873d9": {
+   "dup": "e2cafcde1028"
+  },
+  "063ab147fafa": {
+   "drop": true
+  },
+  "6f227a931927": {
+   "drop": true
+  },
+  "d32ffd5fde3f": {
+   "drop": true
+  },
+  "323b14b6367b": {
+   "drop": true
+  },
+  "c0f9704d35ce": {
+   "drop": true
+  },
+  "e6232c17dc82": {
+   "dup": "e8dbbd1273e1"
+  },
+  "a06577c073fa": {
+   "drop": true
+  },
+  "265653d7b9bf": {
+   "dup": "e2cafcde1028"
+  },
+  "ca2ed490825b": {
+   "dup": "e2cafcde1028"
+  },
+  "f27f4d48861b": {
+   "drop": true
+  },
+  "04dece2018da": {
+   "dup": "e2cafcde1028"
+  },
+  "ae74d69d83e6": {
+   "dup": "e2cafcde1028"
+  },
+  "892adc2c0cab": {
+   "dup": "2edfbc93beea"
+  },
+  "a1b840745438": {
+   "dup": "e2cafcde1028"
+  },
+  "481fe61974be": {
+   "dup": "e2cafcde1028"
+  },
+  "a0c401d92443": {
+   "dup": "e2cafcde1028"
+  },
+  "c63f3f2ed16c": {
+   "dup": "e2cafcde1028"
+  },
+  "3d501a7292cb": {
+   "dup": "e2cafcde1028"
+  },
+  "aeba9e181d3f": {
+   "dup": "e2cafcde1028"
+  },
+  "2a6023271c12": {
+   "dup": "e2cafcde1028"
+  },
+  "bb8a9917d1ce": {
+   "dup": "e2cafcde1028"
+  },
+  "79afcfd5b9b3": {
+   "dup": "e2cafcde1028"
+  },
+  "29d30ce24704": {
+   "dup": "e2cafcde1028"
+  },
+  "3760e3f0dad9": {
+   "dup": "e2cafcde1028"
+  },
+  "281b3c26a669": {
+   "dup": "e2cafcde1028"
+  },
+  "d262ff8ce531": {
+   "dup": "e2cafcde1028"
+  },
+  "655ef3bea388": {
+   "dup": "e2cafcde1028"
+  },
+  "3b84d42954cc": {
+   "dup": "e2cafcde1028"
+  },
+  "6e25d0b137f9": {
+   "drop": true
+  },
+  "bf3d564f779c": {
+   "drop": true
+  },
+  "218a62a465dd": {
+   "drop": true
+  },
+  "b91d9f8a828e": {
+   "dup": "5dd773bf975f"
+  },
+  "91df05e9ec11": {
+   "dup": "e7dd0306130a"
+  },
+  "acfdbc6071d2": {
+   "drop": true
+  },
+  "4a88ca73f8fb": {
+   "drop": true
+  },
+  "dda9e2b12cf0": {
+   "drop": true
+  },
+  "1c259bcff970": {
+   "drop": true
+  },
+  "8fcf391a3c7a": {
+   "drop": true
+  },
+  "88081c32dac2": {
+   "drop": true
+  },
+  "b12fb7e81341": {
+   "drop": true
+  },
+  "e6f6c10d2f89": {
+   "drop": true
+  },
+  "4bc586235e9e": {
+   "drop": true
+  },
+  "fa1c048137e1": {
+   "drop": true
+  },
+  "0ee2253d7d7f": {
+   "drop": true
+  },
+  "975e81055654": {
+   "drop": true
+  },
+  "9ee8c191e9a9": {
+   "drop": true
+  },
+  "ab4e4710c5e7": {
+   "drop": true
+  },
+  "ae2c2f2af8f1": {
+   "drop": true
+  },
+  "10cc8e38a166": {
+   "drop": true
+  },
+  "cbc74462d094": {
+   "drop": true
+  },
+  "76d2f9d3281f": {
+   "drop": true
+  },
+  "02338c64c595": {
+   "drop": true
+  },
+  "03497d06d949": {
+   "drop": true
+  },
+  "19c304f50c61": {
+   "drop": true
+  },
+  "59b1710db311": {
+   "drop": true
+  },
+  "728cac323bc8": {
+   "drop": true
+  },
+  "5c36f4f6ef3c": {
+   "drop": true
+  },
+  "aab7de4ae0ac": {
+   "drop": true
+  },
+  "28d6dc936ce1": {
+   "drop": true
+  },
+  "730a412bc130": {
+   "drop": true
+  },
+  "22e65d5c4a34": {
+   "drop": true
+  },
+  "08c42cb7b3e0": {
+   "drop": true
+  },
+  "f9beac3028db": {
+   "drop": true
+  },
+  "75cb9d9a364b": {
+   "drop": true
+  },
+  "274a261a3d23": {
+   "drop": true
+  },
+  "129604509231": {
+   "drop": true
+  },
+  "43c81e8e705c": {
+   "drop": true
+  },
+  "eb9b0f814bde": {
+   "drop": true
+  },
+  "097fac44d380": {
+   "drop": true
+  },
+  "f1f2f053c718": {
+   "drop": true
+  },
+  "b4f21fd6dc49": {
+   "drop": true
+  },
+  "5f3929891c28": {
+   "drop": true
+  },
+  "2b8d8f4fd9de": {
+   "drop": true
+  },
+  "1463f88caef0": {
+   "drop": true
+  },
+  "44f2cdc23206": {
+   "drop": true
+  },
+  "34f71079d18d": {
+   "drop": true
+  },
+  "9a2dd950b995": {
+   "drop": true
+  },
+  "cdb255d6d3bd": {
+   "drop": true
+  },
+  "ee9a3f4f246c": {
+   "drop": true
+  },
+  "d40846590af1": {
+   "drop": true
+  },
+  "ae7e875ed3f5": {
+   "drop": true
+  },
+  "48ae6d54cf32": {
+   "drop": true
+  },
+  "39d646e1f805": {
+   "drop": true
+  },
+  "3c0424375e5d": {
+   "drop": true
+  },
+  "97139d895214": {
+   "drop": true
+  },
+  "749c70038cd3": {
+   "dup": "cce1e8a0867c"
+  },
+  "2a867e9caa3f": {
+   "dup": "cce1e8a0867c"
+  },
+  "67d02b8c080f": {
+   "dup": "bc823937dab7"
+  },
+  "3d62ebd2ab46": {
+   "dup": "bc823937dab7"
+  },
+  "17889d68391c": {
+   "dup": "ab5869ce7dde"
+  },
+  "1b588cf436c9": {
+   "dup": "17c35107ce69"
+  },
+  "bc823937dab7": {
+   "cat": "clinical",
+   "imp": 7,
+   "summary": "Kymera Therapeutics' oral STAT6 degrader KT-621 met the primary and all secondary endpoints of the BROADEN2 Phase 2b trial in moderate-to-severe atopic dermatitis, with statistically significant improvements over placebo at week 16 at every dose, the company says. Endpoints reports the result cleared Wall Street's bar for success. Kymera plans to start Phase 3 next year, positioning the pill as an oral rival to Sanofi and Regeneron's injected Dupixent.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "First mid-stage proof that an oral STAT6 degrader can work in eczema, a market dominated by injected biologics."
+    },
+    "investment": {
+     "score": 6,
+     "why": "A closely watched binary readout that sets up a Phase 3 programme and Dupixent competition."
+    }
+   }
+  },
+  "ab5869ce7dde": {
+   "cat": "deals",
+   "imp": 6,
+   "summary": "Eli Lilly is buying UK-based LoQus23 Therapeutics, a preclinical Huntington's disease biotech, for up to $725 million including milestones. The deal extends Lilly's run of 2026 acquisitions and gives it a programme aimed at a genetic target in Huntington's, a disease with no disease-modifying treatment.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Big pharma paying up to $725M for a preclinical Huntington's asset signals renewed appetite in neurodegeneration."
+    },
+    "investment": {
+     "score": 6,
+     "why": "Sizeable buyout of a private UK biotech at preclinical stage."
+    }
+   }
+  },
+  "40868eb33b33": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "Invivyd says its monoclonal antibody VYD2311 gave 70% to 90% protection against symptomatic Covid-19 in the 2,359-volunteer DECLARATION trial, which tested a single 250 mg dose and monthly dosing against placebo. STAT notes Covid vaccines cut symptomatic infection by about 30%. Invivyd plans to seek accelerated approval for prevention, though STAT questions how big the market is; results so far come from a press release.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Strong efficacy for an antibody alternative to vaccination in Covid prevention."
+    },
+    "biosecurity": {
+     "score": 4,
+     "why": "Adds a potential passive-immunity tool for a pandemic pathogen."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Could offer protection for people who respond poorly to vaccines."
+    }
+   }
+  },
+  "04291cd45243": {
+   "cat": "funding",
+   "imp": 5,
+   "summary": "Sharon Mates, who built Intra-Cellular Therapies and sold it for about $14 billion, has launched Ritzey Therapeutics with $112.5 million to develop neurological and metabolic drugs. The startup is her attempt to repeat that success with a new pipeline.",
+   "rel": {
+    "investment": {
+     "score": 6,
+     "why": "A $112.5M launch backing a founder with a $14B exit."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "New neuro and metabolic drug developer."
+    }
+   }
+  },
+  "17c35107ce69": {
+   "cat": "funding",
+   "imp": 4,
+   "summary": "STAT reports a new biotech developing a next-generation CAR-T for multiple myeloma that adds a second target so tumours cannot escape by losing one, aiming to reduce the relapses common after current CAR-T. Further details are behind the STAT+ paywall.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Multi-target CAR-T design to tackle antigen escape in myeloma."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "New entrant in a crowded myeloma cell-therapy field."
+    }
+   }
+  },
+  "d337710eb82b": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "STAT profiles Genmab after three of its drugs succeeded in pivotal trials in three different cancers within a month, which an analyst called a hat trick. CEO Jan van de Winkel said everything now comes down to execution: getting the drugs approved and launched, and for two of them commercialising without a bigger partner.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "A mid-size biotech moving into independent commercialisation of several oncology drugs."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Sets up Genmab's next growth phase."
+    }
+   }
+  },
+  "5bff4b5ef193": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "BioArctic says its alpha-synuclein antibody exidavnemab was well tolerated in the completed Phase 2a EXIST study of 38 people with Parkinson's disease or multiple system atrophy, with no treatment-related serious adverse events, a serum half-life of about 32 days and a CSF-to-serum ratio of 0.4%. No efficacy data were given. Two Phase 2b trials, in Parkinson's or Lewy body cognitive impairment and in MSA, are planned to start in the first half of 2027.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Advances one of the few alpha-synuclein antibodies still in development, after Novartis exited the collaboration."
+    }
+   }
+  },
+  "5a0e567c76ce": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Stoke Therapeutics and Biogen will present long-term data on zorevunersen, an antisense medicine for Dravet syndrome, at the American Epilepsy Society meeting, including Phase 1/2a results and a four-year open-label extension. The companies say the data support its potential to modify the disease rather than only control seizures.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Long-term evidence for a potential first disease-modifying Dravet therapy."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Antisense oligonucleotide that upregulates a gene, a genetic-medicine approach."
+    }
+   }
+  },
+  "02ede13a2aa3": {
+   "cat": "deals",
+   "imp": 5,
+   "summary": "Clywedog Therapeutics completed its combination with Barinthus Bio, creating Clywedog Therapeutics Holdings (Nasdaq: CLYD) with about $34.9 million in cash; former Clywedog holders own about 66%. Its lead drug balomenib, an oral menin inhibitor, cut HbA1c by 0.77% versus placebo at week 12 after 28 days of dosing in a 60-patient Phase 1b in type 2 diabetes, the company says. A 12-week Phase 2a is due to start in early 2027.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Reverse merger takes a possible disease-modifying diabetes pill public."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Barinthus Bio exits its vaccine business via a reverse merger."
+    }
+   }
+  },
+  "efc1543f02d9": {
+   "dup": "593e9d1ee843"
+  },
+  "8fc6b733311f": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "BioSpace profiles Praxis Precision Medicines, which faces two upcoming FDA decisions that could turn the neurology company into a commercial business.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Two pending FDA decisions for a CNS biotech."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Binary regulatory catalysts ahead."
+    }
+   }
+  },
+  "39edfb49e2a9": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "AriBio says 78-week open-label extension data show patients who switched from placebo to its oral Alzheimer's drug AR1001 declined more slowly, with a projected 0.6-point CDR-SB benefit (about 7 months' delay) against an external ADNI comparison and no ARIA. In Phase 3 POLARIS-AD only the 604-patient monotherapy group met the primary endpoint; the overall population missed. AriBio expects FDA feedback around Dec. 20 and targets an NDA in the second half of 2027.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Oral Alzheimer's candidate seeking a path to filing despite a mixed Phase 3."
+    }
+   }
+  },
+  "aba575ee6233": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "Curocell shares rose almost 30% after Korea's national health insurance agreed to cover its CAR-T therapy Rimqarto from Dec. 1, at a ceiling of 280 million won ($208,707) per infusion. Rimqarto is Korea's first domestically developed CAR-T, for relapsed or refractory DLBCL. Curocell plans a second-line Phase 3 starting in the first half of 2027.",
+   "rel": {
+    "cellgene": {
+     "score": 7,
+     "why": "Reimbursement for the first home-grown CAR-T in Korea."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Sets the price and access for CAR-T in Korea's insurance system."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Big share move on reimbursement."
+    }
+   }
+  },
+  "9367c360328d": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "The UK and EU have agreed to exempt novel foods from their new sanitary and phytosanitary agreement until October 2029, so Britain's Food Standards Agency keeps the power to approve novel foods such as cultivated meat. The SPS deal takes effect on April 1, 2028; after the carve-out, only EFSA-cleared foods could be sold in Great Britain. The FSA is reviewing applications from Gourmey, Vital Meat, Ivy Farm, Aleph Farms, Mosa Meat and BeneMeat.",
+   "rel": {
+    "agrifood": {
+     "score": 8,
+     "why": "Keeps the UK's faster regulatory route for cultivated meat open for several years."
+    },
+    "fermentation": {
+     "score": 5,
+     "why": "Novel-food rules also cover precision-fermentation ingredients."
+    },
+    "synbio": {
+     "score": 3,
+     "why": "Affects approval of engineered food ingredients."
+    }
+   }
+  },
+  "c696b4134841": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "US startup Plantible Foods is launching Rubi Protein, an 82%-protein Rubisco ingredient from lemna, into nutrition and wellness products such as Mujo and Landish powders. Its Texas plant can make about 100 tonnes a year; a $35 million USDA-backed loan and equity raise in August aims to reach 1,000 tonnes with up to 50 new greenhouses. The CEO calls scale the top challenge for 2027.",
+   "rel": {
+    "agrifood": {
+     "score": 7,
+     "why": "Scale-up of a novel plant-derived functional protein."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "Protein extraction and purification at commercial scale."
+    }
+   }
+  },
+  "b2925c179b6c": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "WuXi Biologics says its MFG18 drug-substance site in Cranbury, New Jersey, completed a commercial process performance qualification campaign for a transferred bispecific antibody, marking its entry into US commercial manufacturing. The site is expected to reach 13,300 L capacity by 2027, and WuXi raised planned capacity at its Worcester, Massachusetts site to 36,000 L.",
+   "rel": {
+    "bioprocessing": {
+     "score": 7,
+     "why": "New US commercial biologics capacity from a major Chinese CDMO amid onshoring pressure."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Adds US-based supply options for antibody makers."
+    }
+   }
+  },
+  "26b06d7c90af": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Hua Medicine says its once-daily glucokinase activator HMS1005 had no serious adverse events or severe hypoglycaemia in a 48-patient US Phase 1b in type 2 diabetes, with doses of 123 to 492 mg and a maximum tolerated dose of 369 mg. It reports glucose management indicator falls of up to 1.48% and will use the data in FDA talks while seeking partners outside China.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Early US data for a Chinese diabetes drug class."
+    }
+   }
+  },
+  "d4ac1f453db1": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "The US Preventive Services Task Force met for the first time since March 2025, with 16 members, many newly appointed by Health Secretary RFK Jr. It discussed cervical cancer screening, perinatal depression and unhealthy alcohol use in a livestream but voted in private, on recommendations pending for over a year. Members also debated an HHS policy removing DEI language from recommendations.",
+   "rel": {
+    "healthcare": {
+     "score": 7,
+     "why": "The panel's recommendations decide which preventive services US insurers must cover."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Screening recommendations shape demand for tests such as cervical cancer screening."
+    }
+   }
+  },
+  "a2f9e6dae47d": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "The World Health Organization urged countries to keep investing in infectious disease surveillance and response systems despite shrinking health budgets, warning against scaling back pandemic preparedness.",
+   "rel": {
+    "biosecurity": {
+     "score": 6,
+     "why": "WHO warning that budget cuts are eroding outbreak surveillance and response."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Public health systems funding."
+    }
+   }
+  },
+  "7cc21c4f6ca3": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "A Korean lawmaker proposed a bill to create a reporting centre for clinical trial violations and reward whistleblowers, after Genencell's founder was convicted of submitting falsified preclinical data to win approval for a 2021 Covid-19 trial in which 93 patients were treated. Korea's drug regulator approved the trial without spotting the fraud and only learned of it from the court ruling in January 2025.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Tighter oversight of clinical trial integrity in Korea."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Patient safety in trials."
+    }
+   }
+  },
+  "be503a1d9c67": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Nature Biotechnology paper from Nancy Zhang's group at the University of Pennsylvania introduces spotGLM, a statistical framework for cell-type-resolved differential testing in spatial omics, and SPARROW, a subsampling method that keeps statistical power while scaling to large datasets. It was applied to Visium HD colorectal cancer, mouse kidney, spatial long-read RNA and spatial ATAC data, and agreed well with Xenium measurements.",
+   "rel": {
+    "tools": {
+     "score": 7,
+     "why": "General analysis method across spatial omics platforms."
+    },
+    "ai": {
+     "score": 3,
+     "why": "Computational method for large biological datasets."
+    }
+   }
+  },
+  "9ed86a5e1b14": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Princeton researchers led by José Avalos describe a modular way to build synthetic membraneless organelles in cells from oligomerised disordered protein regions plus interaction domains that recruit chosen proteins, in Nature Chemical Biology. A binding model predicts how expression levels and affinities set what gets recruited, and the condensates were used to tune metabolic flux.",
+   "rel": {
+    "synbio": {
+     "score": 8,
+     "why": "Programmable compartments for controlling engineered pathways inside cells."
+    },
+    "industrial": {
+     "score": 5,
+     "why": "Tool to steer metabolic flux in production strains."
+    },
+    "fermentation": {
+     "score": 4,
+     "why": "Could raise yields in microbial production."
+    }
+   }
+  },
+  "adb79f3b8cee": {
+   "cat": "funding",
+   "imp": 4,
+   "summary": "Copenhagen's Neumirna Therapeutics was selected for up to EUR12.5 million from the EIC Accelerator (a EUR2.5 million grant plus up to EUR10 million equity), one of 35 companies chosen from 453 applications. The money funds a Phase 1/2 study of NMT.001, an antisense drug that inhibits miR-134, in drug-resistant focal epilepsy, starting in 2027.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Takes a microRNA-targeting epilepsy drug into the clinic."
+    },
+    "investment": {
+     "score": 4,
+     "why": "EU public equity funding for a biotech."
+    }
+   }
+  },
+  "275a7ac08fd6": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Latigo Biotherapeutics started a roughly 480-patient Phase 3 bunionectomy trial of onzotrigine, an oral NaV1.8 inhibitor for acute pain, against placebo and oxycodone/acetaminophen, with pain intensity over 48 hours as the primary endpoint. Topline results are expected in the second half of 2027.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Another non-opioid NaV1.8 painkiller reaches Phase 3 after Vertex's Journavx."
+    }
+   }
+  },
+  "3c130186798e": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Humacyte presented interim V012 data showing its acellular tissue-engineered vessel gave women on haemodialysis 220 catheter-free days in 12 months versus 129 with a fistula (p<0.001), with fewer access infections (5.1% vs 15%). The company says it submitted a supplemental BLA that week for dialysis access as a second indication, backed by pooled 12-month data on 323 patients.",
+   "rel": {
+    "meddevices": {
+     "score": 6,
+     "why": "Bioengineered vessel moving toward a second approved use."
+    },
+    "bioprocessing": {
+     "score": 3,
+     "why": "Manufactured human tissue product."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Better vascular access for dialysis patients."
+    }
+   }
+  },
+  "cda6fd9127da": {
+   "cat": "deals",
+   "imp": 3,
+   "summary": "China's Fapon Biopharma licensed a nanobody from its T-cell engager platform to MediLink Therapeutics for global development in set fields, for an undisclosed upfront and milestones, with an option on a second antibody.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Small China antibody licensing deal."
+    }
+   }
+  },
+  "3d84f8f36717": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "University of Miami researchers report previously unknown viruses with small genomes that share features with both viruses and encapsulins, bacterial protein compartments, found by searching billions of sequences with AI tools including AlphaFold. Published in Nature Communications, the work suggests viruses and encapsulins may have evolved from each other repeatedly.",
+   "rel": {
+    "synbio": {
+     "score": 4,
+     "why": "Encapsulins and capsids are building blocks for engineered protein compartments."
+    },
+    "ai": {
+     "score": 3,
+     "why": "Structure prediction used for discovery at database scale."
+    }
+   }
+  },
+  "c6e7b7a7b6a3": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "Cambridge and UCL researchers report in Nature that acute myeloid leukaemia can start developing more than 50 years before diagnosis: in two-thirds of 47 women with AML, the first driver mutation arose before age 20. Using serial UKCTOCS blood samples, they found each new driver mutation roughly doubled or tripled clone growth, and that clone 'sweeps' linked to higher AML risk in UK Biobank. Trials are needed to see if slowing these clones prevents leukaemia.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Opens a long window for AML interception therapies."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "Suggests blood clone monitoring could flag AML risk decades early."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Points to cancer prevention by screening."
+    }
+   }
+  },
+  "f796e1f14def": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "The UK MHRA published guidance on the safe and effective use of GLP-1 medicines for weight loss and diabetes.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Regulator guidance on widely used weight-loss drugs."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Concerns GLP-1 drug use."
+    }
+   }
+  },
+  "b6c93e3cca8b": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Researchers crossed cultivated cranberries with a wild relative and identified genetic traits that help the crop survive sudden cold snaps, The Scientist reports, giving breeders a route to more freeze-tolerant varieties.",
+   "rel": {
+    "agrifood": {
+     "score": 6,
+     "why": "Climate-resilience genetics for a fruit crop."
+    }
+   }
+  },
+  "74e3f02bbdc4": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "The Scientist looks at how biobanks protect genetic data from automated bot attacks, using encryption and AI-powered threat detection while still allowing research access.",
+   "rel": {
+    "tools": {
+     "score": 4,
+     "why": "Data security for genomic research infrastructure."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Privacy of patient genetic data."
+    },
+    "ai": {
+     "score": 3,
+     "why": "AI used for threat detection."
+    }
+   }
+  },
+  "95654906fb45": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "Research cited by Green Queen argues plant-based lunches could cut heart disease risk and grocery costs in Australia, as the government is urged to back alternative proteins and vegetables in its upcoming dietary guidelines.",
+   "rel": {
+    "agrifood": {
+     "score": 5,
+     "why": "Advocacy for alternative proteins in national dietary guidelines."
+    }
+   }
+  },
+  "c9fd8a00c954": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Researchers in Japan developed a gum disease treatment combining egg-yolk antibodies with near-infrared light to kill harmful oral bacteria while sparing beneficial ones, ScienceDaily reports.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Targeted antibacterial approach."
+    },
+    "agrifood": {
+     "score": 3,
+     "why": "Uses egg-yolk (IgY) antibodies as the targeting agent."
+    }
+   }
+  },
+  "ede320a7b9ea": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A study reported by Korea Biomedical Review finds that repeated physical pressure on acral melanoma tumours, common on the soles of the feet, may promote spread and immunotherapy resistance by altering the tumour microenvironment.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Mechanism for immunotherapy resistance in a melanoma subtype common in Asia."
+    }
+   }
+  },
+  "33ec37effd44": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "Korean haematologists warn that at least eight low-cost blood cancer drugs faced shortages or supply disruptions in Korea this year, delaying treatment and raising costs.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Supply gaps for essential cancer drugs."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Pricing pressure undermining supply of old generics."
+    }
+   }
+  },
+  "c6f3b78e1504": {
+   "cat": "funding",
+   "imp": 3,
+   "summary": "CHA Biotech secured Korean government funding to advance CHAB-201, an early-stage drug candidate for lupus nephritis.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Small state grant for an early programme."
+    }
+   }
+  },
+  "d4c65e8f710a": {
+   "cat": "funding",
+   "imp": 3,
+   "summary": "EyeGene's dual-target retinal gene therapy for macular degeneration and diabetic retinopathy was selected for funding by the Korea Drug Development Fund.",
+   "rel": {
+    "cellgene": {
+     "score": 4,
+     "why": "State support for a retinal gene therapy."
+    }
+   }
+  },
+  "61728af21c1f": {
+   "cat": "funding",
+   "imp": 3,
+   "summary": "GC Cell secured a second round of Korea Drug Development Fund financing to advance clinical development of its CAR-NK cell therapy GCC2005.",
+   "rel": {
+    "cellgene": {
+     "score": 4,
+     "why": "Funds a Korean CAR-NK programme."
+    }
+   }
+  },
+  "b3d6cbf7ed7c": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "Korean medical AI company Lunit partnered with Abu Dhabi's M42 to scan existing chest X-rays with AI to identify potential lung cancer cases in the UAE.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "AI applied retrospectively to imaging archives for cancer finding."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "Opportunistic lung cancer detection."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Population screening in the UAE."
+    }
+   }
+  },
+  "284909681a87": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Graviton BioScience says its drug GV101 increased frataxin mRNA and protein in several Friedreich's ataxia patient-derived cell models, in data presented at ICAR 2026. The results are preclinical.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Early preclinical data for a Friedreich's ataxia candidate."
+    }
+   }
   }
  },
  "extra": [

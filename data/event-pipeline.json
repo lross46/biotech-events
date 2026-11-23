@@ -3,7 +3,24 @@
  "updated": "2026-11-23",
  "lastGapCheck": "2026-11-16",
  "lastOrganiserCheck": null,
- "leads": [],
+ "leads": [
+  {
+   "name": "American Epilepsy Society Annual Meeting 2026",
+   "dates": "Dec. 4-8, 2026",
+   "city": "Denver",
+   "url": "https://www.koreabiomed.com/news/articleView.html?idxno=33947",
+   "source": "Korea Biomedical Review",
+   "added": "2026-11-23"
+  },
+  {
+   "name": "AD/PD 2027 (International Conference on Alzheimer's and Parkinson's Diseases)",
+   "dates": "March 16-20, 2027",
+   "city": "Barcelona",
+   "url": "https://www.koreabiomed.com/news/articleView.html?idxno=33955",
+   "source": "Korea Biomedical Review",
+   "added": "2026-11-23"
+  }
+ ],
  "candidates": [],
  "dismissed": [
   {
