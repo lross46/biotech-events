@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-24T06:43:25Z",
+ "updated": "2026-11-24T13:40:41Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-24T06:43:25Z",
+  "date": "2026-11-24T13:40:41Z",
   "points": [
    {
     "sec": "results",
@@ -51,14 +51,14 @@
    },
    {
     "sec": "money",
-    "text": "Kymera launched a $1.5 billion stock offering a day after its eczema data, one of the year's biggest biotech follow-ons. Eli Lilly bought Huntington's start-up LoQus23 for up to $725 million, its 15th acquisition of 2026, and Intra-Cellular's founder returned with Ritzey Therapeutics and $112 million for DYRK1A inhibitors. China in-licensing pioneer Avenzo began trading on Nasdaq after a reverse merger. Beyond drugs, Danaher and Microsoft teamed up on agentic AI for lab work, and Madison Dearborn agreed to buy cold-chain packager Peli BioThermal, a bet on logistics for biologics and cell therapies.",
+    "text": "Sanofi agreed to buy Insmed for $175 a share, about $41 billion in cash and a 46% premium, gaining the bronchiectasis pill Brinsupri, the inhaled antibiotic Arikayce and phase 3 inhaled TPIP; it is one of 2026's largest biopharma takeovers and should close in the first half of 2027. Kymera upsized its stock sale to about $1.75 billion a day after its eczema data, one of the year's biggest follow-ons. Eli Lilly bought Huntington's start-up LoQus23 for up to $725 million, its 15th acquisition of 2026, and Intra-Cellular's founder returned with Ritzey Therapeutics and $112 million. Beyond drugs, Danaher and Microsoft teamed up on agentic AI for lab work, Melt&Marble signed distributors on four continents for its precision-fermented cosmetic fat, and Madison Dearborn agreed to buy cold-chain packager Peli BioThermal.",
     "ids": [
+     "e686b4e44a33",
      "3f4fba47b43f",
      "ab5869ce7dde",
      "04291cd45243",
-     "730616b06614",
      "0f72ebb7fb82",
-     "94c7665456bf"
+     "bdd8dc89c46a"
     ]
    },
    {
@@ -31777,8 +31777,8 @@
   },
   "3f4fba47b43f": {
    "cat": "funding",
-   "imp": 6,
-   "summary": "Kymera Therapeutics launched a $1.5 billion underwritten public offering of common stock, with a 30-day option for $225 million more, a day after its oral STAT6 degrader KT-621 hit its phase 2b eczema goal. Proceeds go to its degrader pipeline. Morgan Stanley, J.P. Morgan, Jefferies, TD Cowen and Goldman Sachs are among the bookrunners. It is one of the largest follow-on raises by a clinical-stage biotech this year.",
+   "imp": 7,
+   "summary": "Kymera priced an upsized offering of 11.6 million shares at $150.37 a day after its phase 2b eczema win for the oral STAT6 degrader KT-621, raising about $1.75 billion gross, up from the $1.5 billion first proposed. Underwriters have a 30-day option for about 1.75 million more shares; the money will fund its degrader pipeline. It is one of the year's largest biotech follow-on offerings.",
    "rel": {
     "investment": {
      "score": 8,
@@ -32217,6 +32217,726 @@
     "fermentation": {
      "score": 4,
      "why": "Titers in tens of g/L point to commercial fermentation."
+    }
+   }
+  },
+  "90ae09a68dbe": {
+   "drop": true
+  },
+  "6133b93283ea": {
+   "drop": true
+  },
+  "b1ef7c26ae0e": {
+   "drop": true
+  },
+  "32ae5ed0e522": {
+   "drop": true
+  },
+  "6a5a93a49d5c": {
+   "drop": true
+  },
+  "c77ea2f2c058": {
+   "drop": true
+  },
+  "09bb9ca12b02": {
+   "drop": true
+  },
+  "f6d1cb772182": {
+   "dup": "cce1e8a0867c"
+  },
+  "c94d4dd0751d": {
+   "drop": true
+  },
+  "400e38d58b08": {
+   "drop": true
+  },
+  "322c07785909": {
+   "drop": true
+  },
+  "adad8a56ea11": {
+   "drop": true
+  },
+  "b9a95c5fdc58": {
+   "drop": true
+  },
+  "f5f4cb46ccf9": {
+   "drop": true
+  },
+  "3bddcf1d4d5f": {
+   "drop": true
+  },
+  "db4d3d2605d9": {
+   "drop": true
+  },
+  "ba59d4a9d848": {
+   "drop": true
+  },
+  "431f56370e8c": {
+   "drop": true
+  },
+  "3c55a466589d": {
+   "drop": true
+  },
+  "2fe6c75c6897": {
+   "drop": true
+  },
+  "80a68db7bc40": {
+   "drop": true
+  },
+  "07c17088cc0d": {
+   "dup": "cce1e8a0867c"
+  },
+  "b4faeccc0a3b": {
+   "drop": true
+  },
+  "ac581d0dc72e": {
+   "drop": true
+  },
+  "47856ea67d71": {
+   "dup": "7fec61b645fe"
+  },
+  "bf2f221a8fe7": {
+   "dup": "cbf56606dadf"
+  },
+  "4e13c6ea513e": {
+   "drop": true
+  },
+  "891798a4ff51": {
+   "drop": true
+  },
+  "ec78658407d9": {
+   "drop": true
+  },
+  "2f384c736c8e": {
+   "drop": true
+  },
+  "d57bb39710f6": {
+   "dup": "7b06d3ef5b9b"
+  },
+  "6a8bd0c80b00": {
+   "dup": "35a63f6bdece"
+  },
+  "d5b0f577f914": {
+   "drop": true
+  },
+  "515994686693": {
+   "drop": true
+  },
+  "7af711d0e46f": {
+   "drop": true
+  },
+  "b8646a12ae0a": {
+   "drop": true
+  },
+  "d1e9e97f95e8": {
+   "drop": true
+  },
+  "730f5e8702ed": {
+   "dup": "fd508915f3e8"
+  },
+  "2a72036b0a26": {
+   "drop": true
+  },
+  "0b9f2a97106a": {
+   "dup": "d96e2a548d73"
+  },
+  "417355d7a27b": {
+   "drop": true
+  },
+  "900db8730271": {
+   "drop": true
+  },
+  "a9f672b4d736": {
+   "drop": true
+  },
+  "7e1841113022": {
+   "drop": true
+  },
+  "e6b4cba648b7": {
+   "drop": true
+  },
+  "36eecef30aed": {
+   "dup": "87767322f59f"
+  },
+  "9d4d3a1f22a7": {
+   "drop": true
+  },
+  "4561c5b354f2": {
+   "drop": true
+  },
+  "1899a4aef379": {
+   "dup": "f17afb070bb8"
+  },
+  "8bc065337a86": {
+   "dup": "230e7e657a55"
+  },
+  "aa22478d7aa1": {
+   "drop": true
+  },
+  "0c07b7baf24f": {
+   "dup": "2492de432d09"
+  },
+  "bc9ce5c5ca7c": {
+   "dup": "6e5b946321d2"
+  },
+  "7a75a19a8a1f": {
+   "drop": true
+  },
+  "4709dbe21e48": {
+   "drop": true
+  },
+  "4d61012e4fca": {
+   "drop": true
+  },
+  "406efb4ccd97": {
+   "drop": true
+  },
+  "ce43626e7626": {
+   "dup": "68110f7dd02f"
+  },
+  "9ce2170ded38": {
+   "drop": true
+  },
+  "93aa0cf86ec7": {
+   "drop": true
+  },
+  "26508ae8c367": {
+   "drop": true
+  },
+  "589593d3e165": {
+   "dup": "13cada26f502"
+  },
+  "dd28de888c59": {
+   "drop": true
+  },
+  "5bdf264887ea": {
+   "drop": true
+  },
+  "8a7759b62a9c": {
+   "drop": true
+  },
+  "e441aee98ef7": {
+   "dup": "11f32c2292d2"
+  },
+  "c983dfd0a249": {
+   "drop": true
+  },
+  "300cc615e318": {
+   "drop": true
+  },
+  "3d94e8dac93e": {
+   "drop": true
+  },
+  "62350a95df5d": {
+   "drop": true
+  },
+  "fcc72f4a4df8": {
+   "drop": true
+  },
+  "57e70ea29526": {
+   "dup": "14e3d2bd0ea3"
+  },
+  "1e732ef2f03b": {
+   "dup": "ded3924cb0a7"
+  },
+  "bf86288b5bd7": {
+   "drop": true
+  },
+  "77ac102a5759": {
+   "dup": "65d8f40ba93a"
+  },
+  "f75660b0eba2": {
+   "drop": true
+  },
+  "4fd2cd0b533c": {
+   "drop": true
+  },
+  "73c78aa6eff9": {
+   "drop": true
+  },
+  "9948b07814e2": {
+   "drop": true
+  },
+  "0331ad607814": {
+   "drop": true
+  },
+  "60ca96c60af5": {
+   "drop": true
+  },
+  "5af1b5fd9716": {
+   "drop": true
+  },
+  "21a58a21c872": {
+   "drop": true
+  },
+  "6a80f725e27e": {
+   "drop": true
+  },
+  "e4bf6cde5e7a": {
+   "drop": true
+  },
+  "a1a36cadb31e": {
+   "drop": true
+  },
+  "06295a98e103": {
+   "drop": true
+  },
+  "7a5cd2f12175": {
+   "drop": true
+  },
+  "02a0256fa016": {
+   "dup": "7c181adcb866"
+  },
+  "e1be469f1156": {
+   "drop": true
+  },
+  "b7603e2873d1": {
+   "drop": true
+  },
+  "e976d78ff5fb": {
+   "drop": true
+  },
+  "a3317e48311e": {
+   "drop": true
+  },
+  "d8c229de0c81": {
+   "dup": "0bb010f05d26"
+  },
+  "a3e05ae2188c": {
+   "drop": true
+  },
+  "100a1fa06864": {
+   "dup": "53c1ee613370"
+  },
+  "93ea7bac68c7": {
+   "dup": "53c1ee613370"
+  },
+  "2ac94b7e2b7b": {
+   "drop": true
+  },
+  "bf41f0a6347c": {
+   "drop": true
+  },
+  "3c2e55f07dfe": {
+   "drop": true
+  },
+  "843785d32d84": {
+   "drop": true
+  },
+  "883d272d1a0e": {
+   "drop": true
+  },
+  "a5723dd009f2": {
+   "dup": "84cd714b0375"
+  },
+  "a836c0e24b4b": {
+   "dup": "2d75e27c9a10"
+  },
+  "64639c5eec3a": {
+   "drop": true
+  },
+  "cd10dbf6af32": {
+   "drop": true
+  },
+  "e13a8a540909": {
+   "drop": true
+  },
+  "cf8630d40b0b": {
+   "drop": true
+  },
+  "e1784aa1cbbb": {
+   "drop": true
+  },
+  "9010867c084c": {
+   "drop": true
+  },
+  "1b2183e27892": {
+   "drop": true
+  },
+  "1fb975e5f71e": {
+   "drop": true
+  },
+  "fa0dceed502f": {
+   "drop": true
+  },
+  "8fe599d3b4bd": {
+   "drop": true
+  },
+  "b04bce038039": {
+   "drop": true
+  },
+  "cc031e7d82ba": {
+   "drop": true
+  },
+  "7e8ed7480155": {
+   "drop": true
+  },
+  "5d68172d63ea": {
+   "drop": true
+  },
+  "e11cde29ba2c": {
+   "drop": true
+  },
+  "ef6a19346e4b": {
+   "drop": true
+  },
+  "23db4f95cb9a": {
+   "drop": true
+  },
+  "a270600798e7": {
+   "drop": true
+  },
+  "f05a6aebf962": {
+   "drop": true
+  },
+  "13b9ccaeb373": {
+   "drop": true
+  },
+  "71c5a02835e1": {
+   "drop": true
+  },
+  "2d356bb6adee": {
+   "drop": true
+  },
+  "4c8c3576893a": {
+   "dup": "0c7ddf6efb5f"
+  },
+  "5808043873d9": {
+   "dup": "e2cafcde1028"
+  },
+  "6f227a931927": {
+   "drop": true
+  },
+  "323b14b6367b": {
+   "drop": true
+  },
+  "c0f9704d35ce": {
+   "drop": true
+  },
+  "e6232c17dc82": {
+   "dup": "e8dbbd1273e1"
+  },
+  "a06577c073fa": {
+   "drop": true
+  },
+  "265653d7b9bf": {
+   "dup": "e2cafcde1028"
+  },
+  "ca2ed490825b": {
+   "dup": "e2cafcde1028"
+  },
+  "f27f4d48861b": {
+   "drop": true
+  },
+  "04dece2018da": {
+   "dup": "e2cafcde1028"
+  },
+  "ae74d69d83e6": {
+   "dup": "e2cafcde1028"
+  },
+  "892adc2c0cab": {
+   "dup": "2edfbc93beea"
+  },
+  "a1b840745438": {
+   "dup": "e2cafcde1028"
+  },
+  "481fe61974be": {
+   "dup": "e2cafcde1028"
+  },
+  "a0c401d92443": {
+   "dup": "e2cafcde1028"
+  },
+  "c63f3f2ed16c": {
+   "dup": "e2cafcde1028"
+  },
+  "3d501a7292cb": {
+   "dup": "e2cafcde1028"
+  },
+  "aeba9e181d3f": {
+   "dup": "e2cafcde1028"
+  },
+  "2a6023271c12": {
+   "dup": "e2cafcde1028"
+  },
+  "bb8a9917d1ce": {
+   "dup": "e2cafcde1028"
+  },
+  "79afcfd5b9b3": {
+   "dup": "e2cafcde1028"
+  },
+  "29d30ce24704": {
+   "dup": "e2cafcde1028"
+  },
+  "3760e3f0dad9": {
+   "dup": "e2cafcde1028"
+  },
+  "281b3c26a669": {
+   "dup": "e2cafcde1028"
+  },
+  "d262ff8ce531": {
+   "dup": "e2cafcde1028"
+  },
+  "655ef3bea388": {
+   "dup": "e2cafcde1028"
+  },
+  "3b84d42954cc": {
+   "dup": "e2cafcde1028"
+  },
+  "6e25d0b137f9": {
+   "drop": true
+  },
+  "bf3d564f779c": {
+   "drop": true
+  },
+  "218a62a465dd": {
+   "drop": true
+  },
+  "acfdbc6071d2": {
+   "drop": true
+  },
+  "4a88ca73f8fb": {
+   "drop": true
+  },
+  "dda9e2b12cf0": {
+   "drop": true
+  },
+  "1c259bcff970": {
+   "drop": true
+  },
+  "88081c32dac2": {
+   "drop": true
+  },
+  "8fcf391a3c7a": {
+   "drop": true
+  },
+  "26c7008d9ac4": {
+   "drop": true
+  },
+  "ac56fb1fdb81": {
+   "drop": true
+  },
+  "4760e2394346": {
+   "drop": true
+  },
+  "1e514c0a4d68": {
+   "drop": true
+  },
+  "032da4bcd98e": {
+   "drop": true
+  },
+  "74b250b92676": {
+   "drop": true
+  },
+  "34fce8a8a1ef": {
+   "dup": "1d227e306c74"
+  },
+  "c2eb458a930c": {
+   "dup": "3f4fba47b43f"
+  },
+  "0829a24b127f": {
+   "drop": true
+  },
+  "989d72bbe556": {
+   "drop": true
+  },
+  "a939eceb272e": {
+   "drop": true
+  },
+  "544886242ac3": {
+   "drop": true
+  },
+  "5850a1036268": {
+   "drop": true
+  },
+  "7d688120f3ff": {
+   "drop": true
+  },
+  "c50d7193d33c": {
+   "drop": true
+  },
+  "957ef2bdc2e0": {
+   "drop": true
+  },
+  "e915d5655d17": {
+   "drop": true
+  },
+  "a8ce090f1f75": {
+   "drop": true
+  },
+  "03807802ad0c": {
+   "drop": true
+  },
+  "3ba4e873191a": {
+   "drop": true
+  },
+  "1fb4ddbbaedc": {
+   "drop": true
+  },
+  "a60c0b89bb1a": {
+   "drop": true
+  },
+  "92dcdb7f48ab": {
+   "drop": true
+  },
+  "69d37ed6fa6d": {
+   "drop": true
+  },
+  "411d9bb64474": {
+   "drop": true
+  },
+  "88315916dcbf": {
+   "drop": true
+  },
+  "ab4857cda25f": {
+   "drop": true
+  },
+  "329a6f12107d": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "Korea will cut the national health insurance copayment for about 1.36 million patients with rare or severe intractable diseases from 10% to 7% from December 1, Korea Biomedical Review reports, citing the health ministry.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "Lowers out-of-pocket costs for rare-disease patients in Korea's public insurance system."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Cheaper access may lift use of rare-disease medicines in Korea."
+    }
+   }
+  },
+  "fe9946649ef0": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Amgen Korea and the Korea Health Industry Development Institute named Ubix Therapeutics and InnoCure Therapeutics winners of the 2026 Golden Ticket programme. Both develop targeted protein degraders: Ubix degrader-antibody conjugates, InnoCure cereblon and other E3-ligase ligand platforms. Winners get a year of research-facility access, mentoring from Amgen R&D experts and advice on US regulation, GMP and clinical development; no cash award was mentioned.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Big Pharma incubator support for Korean protein-degradation start-ups."
+    }
+   }
+  },
+  "051af997081d": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Samjin Pharmaceutical and Ontact Health launched an AI-assisted echocardiography service in Korea that combines automated echo analysis with specialist-reviewed reports, aiming to cut clinician workload and variability between examiners.",
+   "rel": {
+    "meddevices": {
+     "score": 4,
+     "why": "AI analysis service for cardiac ultrasound."
+    },
+    "ai": {
+     "score": 4,
+     "why": "Commercial clinical AI for echocardiogram reading."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Targets cardiology workload in Korean hospitals."
+    }
+   }
+  },
+  "3473203a506a": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "SK Plasma and AimedBio said they are preparing the first human trial of AMB303, their jointly developed ROR1-targeting antibody-drug conjugate, in patients with solid tumours or lymphoma.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "First-in-human start for a Korean ROR1 ADC, a crowded but active target class."
+    }
+   }
+  },
+  "2c9abe8a7151": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Bristol Myers Squibb CFO David Elkins is leaving after about seven years to become finance chief at Coca-Cola, and BMS is promoting an internal successor, Fierce Pharma reports.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Finance-chief change at a top-20 pharma during a cost-cutting push."
+    },
+    "investment": {
+     "score": 3,
+     "why": "CFO turnover at a large-cap drugmaker."
+    }
+   }
+  },
+  "afedc696f4c9": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Researchers delivered mRNA therapeutics to the brain through nose drops, restoring cognition in mouse models of ageing and Alzheimer's disease, The Scientist reports. Intranasal delivery could offer a non-invasive way past the blood-brain barrier, though the work is so far only in mice.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Non-invasive brain delivery route for mRNA medicines."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "Possible CNS delivery approach for neurodegeneration drugs."
+    }
+   }
+  },
+  "bdd8dc89c46a": {
+   "cat": "deals",
+   "imp": 5,
+   "summary": "Swedish start-up Melt&Marble signed distribution deals for Marble7, its precision-fermented, sebum-like fat for skincare, makeup and haircare, with Eigenmann & Veronelli (Italy, Spain, Poland, Turkey), Bionord (Scandinavia), Cornelius (UK and Ireland), Lavollée (France), Seil (South Korea) and Ingredients Plus (Australia, New Zealand). The yeast-made lipid, rich in omega-7, is pitched as a replacement for animal, palm and petrochemical fats; the company has raised over $17 million. No production scale was given.",
+   "rel": {
+    "fermentation": {
+     "score": 8,
+     "why": "Commercial roll-out of a precision-fermented lipid ingredient."
+    },
+    "industrial": {
+     "score": 6,
+     "why": "Bio-based replacement for palm and petrochemical cosmetic fats."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "Engineered yeast directed to make fat instead of ethanol."
+    }
+   }
+  },
+  "d00fed474023": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "A Washington Post Intelligence council report addresses how the US should respond to China's biotech boom. Only the headline was available; details of its recommendations were not visible.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Adds to US policy debate on competition from Chinese biotech."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Shapes sentiment on China-sourced pipelines."
+    }
+   }
+  },
+  "8e5f7f572191": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "A Labiotech.eu feature surveys the ulcerative colitis pipeline as Abivax prepares to file obefazimod for approval before the end of 2026, alongside several other drugs in clinical trials.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Overview of competition in a large immunology market."
+    }
+   }
+  },
+  "e686b4e44a33": {
+   "cat": "deals",
+   "imp": 9,
+   "summary": "Sanofi agreed to buy Insmed for $175 a share in cash, an equity value of about $41 billion and a roughly 46% premium to Insmed's price before deal reports surfaced on November 19, Sanofi says. It gains Brinsupri (brensocatib), the oral DPP1 inhibitor for non-CF bronchiectasis that has brought in $1.09 billion since its August 2025 US launch, the inhaled antibiotic Arikayce, and phase 3 inhaled treprostinil palmitil (TPIP) for PAH and lung fibrosis. Funded by debt and cash, the deal is expected to close in the first half of 2027 and add to earnings by end-2028.",
+   "rel": {
+    "pharma": {
+     "score": 9,
+     "why": "One of the largest biopharma acquisitions of 2026, reshaping Sanofi's respiratory and rare-disease portfolio."
+    },
+    "investment": {
+     "score": 8,
+     "why": "A $41 billion cash takeover at a 46% premium, a major signal for biotech M&A."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Consolidates first-in-disease bronchiectasis and MAC lung disease treatments under Big Pharma."
     }
    }
   }
