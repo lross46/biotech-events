@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T06:45:16Z",
+ "updated": "2026-11-24T06:43:45Z",
  "note": "Feeds read by scripts/fetch-news.mjs 4 times a day. kind sets the evidence badge. filter=true keeps only items that mention biotech terms (for broad feeds). status 'trial' = added by Claude, reviewed when trialEnds passes. See NEWS-UPDATING.md.",
  "sources": [
   {
@@ -243,9 +243,8 @@
     "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed"
    ],
    "kind": "official",
-   "status": "trial",
+   "status": "core",
    "added": "2026-11-10",
-   "trialEnds": "2026-11-24",
    "why": "EU outbreak threat reports, risk assessments and epidemiological updates; until now only reached through scouting."
   },
   {
@@ -256,9 +255,8 @@
     "https://tools.cdc.gov/api/v2/resources/media/132608.rss"
    ],
    "kind": "official",
-   "status": "trial",
+   "status": "core",
    "added": "2026-11-10",
-   "trialEnds": "2026-11-24",
    "filter": true,
    "why": "US outbreak statements and public-health alerts from the CDC newsroom; until now only reached through Google News."
   },
@@ -325,9 +323,8 @@
     "https://www.nature.com/nchembio.rss"
    ],
    "kind": "journal",
-   "status": "trial",
+   "status": "core",
    "added": "2026-11-10",
-   "trialEnds": "2026-11-24",
    "why": "Enzyme, metabolic-pathway and synthetic-biology papers that rarely arrive through the other journals."
   },
   {
@@ -608,6 +605,18 @@
   {
    "date": "2026-11-13",
    "text": "Kept Korea Biomedical Review (trial ended): 75 of 87 stories kept, mostly Korean approvals, reimbursement and licensing deals no other source carries."
+  },
+  {
+   "date": "2026-11-24",
+   "text": "Kept Nature Chemical Biology (trial ended): 14 of 20 papers kept, mostly synthetic-biology and enzyme work no other feed brings, e.g. complete paclitaxel biosynthesis in a plant host."
+  },
+  {
+   "date": "2026-11-24",
+   "text": "Kept ECDC (trial ended): 6 of 7 items kept, including its Ebola multi-country outbreak and antibiotic-resistance updates."
+  },
+  {
+   "date": "2026-11-24",
+   "text": "Kept the CDC newsroom (trial ended): low volume (1 item in two weeks) but it was the official statement on the US losing measles elimination status, scored 8."
   }
  ]
 }
