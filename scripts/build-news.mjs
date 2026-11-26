@@ -19,6 +19,11 @@ for (const it of news.items || []) {
 }
 for (const x of ai.extra || []) if (!byId.has(x.id)) byId.set(x.id, { ...x, reviewed: true, scouted: true });
 
+// A dup can point at a story that is itself a dup (A -> B -> C). B gets pruned after a couple of days,
+// so follow the chain to the story that is kept, otherwise A would reappear as a separate story.
+const root = (id) => { const seen = new Set(); while (ai.items?.[id]?.dup && !seen.has(id)) { seen.add(id); id = ai.items[id].dup; } return id; };
+for (const it of byId.values()) if (it.dup) it.dup = root(it.dup);
+
 for (const it of byId.values()) {
   const p = it.dup && byId.get(it.dup);
   if (p && !p.dup) (p.also ||= []).push({ source: it.source, url: it.url });
