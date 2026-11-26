@@ -1,86 +1,86 @@
 {
- "updated": "2026-11-25T06:48:58Z",
+ "updated": "2026-11-26T06:46:19Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-25T07:40:00Z",
+  "date": "2026-11-26T07:30:00Z",
   "points": [
    {
     "sec": "results",
-    "text": "Arcus stopped its phase 3 PRISM-1 trial of the CD73 inhibitor quemliclustat in pancreatic cancer for likely futility, another setback for the adenosine pathway, while Novartis released an early look at phase 3 cardiovascular outcome data meant to underpin its $5 billion sales forecast for Leqvio. DiaMedica reported that most women in its small phase 2 in severe early-onset fetal growth restriction stayed pregnant longer than expected, an early signal in a condition with no approved drug. Abstracts for the San Antonio Breast Cancer Symposium went live, including assets Novartis and Johnson and Johnson bought in recent takeovers and new Lilly data across its breast cancer portfolio. In Korea, Daewoong won clearance to start a phase 1 of a selective TEAD1/2 inhibitor designed to spare the kidney, and AC Immune picked ACI-6758, a gene-delivered intrabody that cut pathological TDP-43 by up to 75% in ALS mice.",
+    "text": "Bristol Myers Squibb's oral TYK2 inhibitor Sotyktu met the primary endpoint in one of two phase 3 lupus trials and missed in the other, muddying a key growth bet. GSK's twice-yearly Exdensur matched monthly Nucala on remission in EGPA vasculitis and is heading for filings as a possible first ultra-long-acting option. Arcus stopped its phase 3 PRISM-1 trial of the CD73 inhibitor quemliclustat in pancreatic cancer after an interim look showed no survival gain. In Brazil, a large trial found releasing Wolbachia-infected mosquitoes sharply cut dengue in children, and phase 3 STEP Young showed semaglutide cut weight in children aged 6 to under 12, with over a third dropping below the obesity threshold. Smaller wins: Desentum's short-course birch pollen immunotherapy hit its phase 2 endpoint, and Spark Biomedical's ear neurostimulation made opioid patients 6.9 times more likely to stay in treatment.",
     "ids": [
-     "80b54054d2b5",
-     "d9919279a595",
-     "31b534dc33d1",
-     "e8166dbc388a",
-     "f4776141c76d",
-     "34079902d5cc"
+     "3827df8fdb2e",
+     "ecd5a9460578",
+     "97000879829f",
+     "088fac6ff95c",
+     "825e070bb2f8",
+     "3f14121a0a13"
     ]
    },
    {
     "sec": "science",
-    "text": "Two Nature journal papers added tools for writing and delivering DNA: an engineered integrase called ePai that inserts large DNA fragments precisely into mammalian genomes across cell types, and modular mRNA-encoded helper proteins that improve non-viral DNA delivery, both aimed at bottlenecks in genetic medicine. Nature also reported that general language models from Anthropic and OpenAI can now design proteins and predict their structures, work previously confined to specialised tools such as AlphaFold. On the industrial side, SynBioBeta described FutureBio using modular polyketide synthases to make polymer monomers at tens of grams per litre, more than ten times an earlier benchmark, with bio-based electronics adhesives first in line for 2028. A preprint showed physics-informed generative models producing more active, heat-stable designed ribozymes, and University of Sydney researchers restored memory in old mice with mRNA nose drops encoding BDNF.",
+    "text": "Nature led with an extremophile fungal gene that raised both drought resilience and yield in wheat, rice and maize, breaking a trade-off that has dogged climate-resilient breeding, and with an enzymatic 'living polymerisation' route to polysaccharides of defined length, a controllable way to make biopolymers outside natural biosynthesis. Two papers mapped how type I CRISPR-associated transposases integrate DNA, including a redesigned TnsA, moving large-insert genome editing closer to a usable tool. An AI platform, ORIDTP, designed dual-target peptides with efficacy in animals for obesity, diabetes and cancer, and a single-cell multi-omic map linked coronary artery disease variants to cell types and genes. Exome data from 1.4 million people implicated 207 height genes, some shifting height up to 17 cm, and Cell reported genome writing recreating X-linked dystonia-parkinsonism in mice.",
     "ids": [
-     "03c89f1c2f6c",
-     "9088e5c5cb44",
-     "8261263c492c",
-     "8a83f358dd5b",
-     "d79e36417375",
-     "082cb587f7e8"
+     "51281c52efc4",
+     "63f8b3d9dd19",
+     "0c09f7c32e12",
+     "b0649eec392a",
+     "5482b601006c",
+     "18f1a130502b"
     ]
    },
    {
     "sec": "approvals",
-    "text": "The FDA cleared Cogent Biosciences' bezuclastinib, sold as Ekitna, with sunitinib for previously treated gastrointestinal stromal tumours, the company's first product, after the PEAK trial nearly doubled median progression-free survival to 16.5 months. It also approved PolyPid's BACFENSSI, the first locally applied extended-release antibiotic for colorectal surgery, which cut surgical site infections to 3.8% from 9.5% in a 798-patient trial, and granted de novo authorisation to Siemens Healthineers' blood test for multiple sclerosis disease activity, the first in the US. Separately the agency said accelerated approvals must now be flagged on patient labelling, so patients can see when benefit rests on a surrogate measure. Heraeus told customers to stop using certain vascular guidewires after an FDA early alert over coating that can clump and block vessels, and Marksans Pharma drew six inspection observations.",
+    "text": "Cogent Biosciences won FDA approval for Ekitna (bezuclastinib) with Pfizer's Sutent in previously treated gastrointestinal stromal tumours, the first new second-line option there in two decades and Cogent's first commercial product. Thermo Fisher gained expanded FDA clearance for its EXENT mass-spectrometry analyser to help monitor two blood cancers. Amgen settled with Bristol Myers and Ono to launch a US Opdivo biosimilar on 1 October 2028, with an FDA decision on its application expected by year-end, while Belite Bio's tinlarebant review slipped three months to 12 May. In the UK, the MHRA recalled a batch of bexarotene capsules over visible particles and published updated pharmacovigilance guidance.",
     "ids": [
      "f55eacedcd3f",
-     "35b553b1195e",
-     "25d2b8c53330",
-     "45ab5ca509a5",
-     "de329d6fc953"
+     "539c64969e95",
+     "088fac6ff95c",
+     "95cd35e07ede"
     ]
    },
    {
     "sec": "policy",
-    "text": "Brussels pulled its second Biotech Act forward to land before France's presidential election, with a biomanufacturing-focused proposal now expected late in the first quarter of 2027, while more than 3,000 amendments pile up on the first act. The UK and EU agreed a novel-food carve-out in their new trade deal that keeps cultivated meat and precision-fermentation approvals with the Food Standards Agency until October 2029, after which only EFSA-cleared products could be sold in Great Britain. Chinese drugmaker shares fell as US lawmakers threatened curbs on biotech collaboration, days after a congressional report on China's rise. The MHRA set out a run of changes from London Life Sciences Week, including amended gene therapy rules and a women's health programme prompted by finding pregnant women in only 1.1% of UK trial applications, and the FDA cited two sponsors for not reporting trial results, its first such letters in over a year.",
+    "text": "Bayer is pulling its heart and kidney blockbuster Kerendia out of Germany after a reimbursement dispute, an unusually sharp signal in the widening fight between drugmakers and European payers over prices. CMS confirmed 2028 Medicare prices for 13 drugs in the third negotiation round, the first to include Part B products, which it says would have cut spending on them by $9.2 billion at 2025 prices. The House Select Committee on China issued its final report warning that US inefficiency plus Chinese capability is hollowing out domestic drug innovation, and a STAT op-ed argued both Washington's and Beijing's new investment curbs are the wrong tool, with Treasury comments due 7 December. US data also showed international graduate enrolment down 15% and biomedical PhD starts down about 30% since 2024, and Korean diabetologists said reimbursement rules block guideline-based care.",
     "ids": [
-     "36d80ade9307",
-     "9367c360328d",
-     "3e422c230842",
-     "995b566c3bb1",
-     "eed11edeb1f2"
+     "a6087b284607",
+     "2026-11-23-cms-negotiated-prices-2028",
+     "54b1007c94a9",
+     "47e774ac6a2e",
+     "7229a8683f8e"
     ]
    },
    {
     "sec": "money",
-    "text": "Sanofi's $41 billion cash agreement for Insmed, at $175 a share, still dominates the period as the largest biopharma takeover since 2023, with Kymera's upsized $1.75 billion follow-on behind it. Remix closed its reverse merger with Passage Bio alongside a roughly $100 million placement led by Decheng Capital, funding its MYB-lowering oral candidate into 2028, and Amgen settled with Bristol Myers Squibb to launch an Opdivo biosimilar on 1 October 2028, setting the date competition begins for a multibillion-dollar immunotherapy. Madison Dearborn agreed to buy cold-chain packager Peli BioThermal. Outside drugs, Plantible raised its lemna-protein capacity target to 1,000 tonnes a year with $35 million of USDA-backed funding, and Melt&Marble signed distributors on four continents for its precision-fermented cosmetic fat.",
+    "text": "Bayer became the latest Big Pharma to buy into Hansoh's pipeline, paying $150 million upfront in a deal worth up to about $3.3 billion for a phase 1 antibody-drug conjugate, as China out-licensing continues regardless of policy noise. BioNTech's cofounders are reported to be raising about $1 billion, led by Plural, for a new mRNA cancer company, which would be among the largest start-up rounds the sector has seen. Kymera closed its upsized $1.75 billion offering after its STAT6 degrader's eczema win. Smaller rounds spread wider: Shanghai's CirCode Biomed closed a Series A+ for circular RNA drugs, Schrödinger signed a €22 million biologics collaboration with sequencing-automation firm Enpicom, UK enzyme start-up Zya raised £11.5 million to turn food sugar into fibre, and March Biosciences took up to $5.4 million in Texas and NCI grants for a liver cancer CAR-T.",
     "ids": [
-     "e686b4e44a33",
-     "9cdb6982c59f",
-     "5df454670022",
-     "c696b4134841",
-     "bdd8dc89c46a",
-     "3f4fba47b43f"
+     "abdefc56b7d6",
+     "3ef489a07a8d",
+     "3f4fba47b43f",
+     "ea686be6dd4c",
+     "9c8577dde76d",
+     "2209a9da4089"
     ]
    },
    {
     "sec": "companies",
-    "text": "Device makers set the tone with quarterly results: Medtronic grew sales 4.5% to $9.36 billion with cardiac ablation up 58% on its pulsed-field catheter, though analysts called the ablation number a miss, while newly separate MiniMed posted $822 million in sales and said its first insulin patch pump arrives next spring. Orca Bio cut jobs only months after launching its approved cell therapy Tregzi, a reminder of how costly these launches are, and Bristol Myers Squibb lost its finance chief to Coca-Cola. In Korea, AbTis won patent rulings against Ajinomoto in both Korea and the US over its antibody conjugation platform, and JW Pharmaceutical took state funding for an oral STAT6 programme. Eppendorf began building its first South East Asian instrument plant in Penang, and Theradaptive expanded cGMP manufacturing in Maryland.",
+    "text": "The fallout from Sanofi's $41 billion Insmed deal dominated, with Bristol Myers also losing its CFO weeks after an R&D overhaul. Pharming paused production of Ruconest for hereditary angioedema attacks after problems at a third-party manufacturer and warned the FDA of possible supply interruption. In fermentation, ENOUGH Food is weighing a sale, partnership or change of use for its Dutch mycoprotein plant after three years in which it never reached design capacity despite over $120 million raised, while PFerrinX set out plans for 100 tonnes a year of fermentation-made lactoferrin in Brazil from late 2027. Alternative-protein patent filings fell for a third year, down 22% for plant-based and 13% for cultivated meat. Medtech third-quarter results showed a surgery slowdown hitting J&J, Stryker, Boston Scientific and Intuitive, and ten23 added sterile fill-finish capacity.",
     "ids": [
-     "9a8581a6cf18",
-     "43248f82a0b1",
-     "cc7801c5dadd",
-     "8e6b49486cc0",
-     "2026-11-24-eppendorf-penang-plant",
-     "c71d2f3f284d"
+     "e686b4e44a33",
+     "2026-11-25-enough-food-mycoprotein-plant",
+     "29f16bd2c465",
+     "5256835785dd",
+     "03c01e5c7e23",
+     "2026-11-24-pferrinx-brazil-lactoferrin"
     ]
    },
    {
     "sec": "biodef",
-    "text": "A quiet period for outbreaks. CIDRAP noted advance access arrangements for Ebola vaccine, a shortage of the chlorhexidine cloths hospitals use for infection prevention, and a November spike in New World screwworm detections in Texas, a livestock parasite whose northward spread already restricts cattle trade. In the US, the share of newborns given the hepatitis B birth dose is falling sharply after federal advice changed, and CDC influenza vaccination data have moved from weekly to monthly publication as flu season builds, both narrowing the picture clinicians work from. The WHO outbreak news page again returned no new notices.",
+    "text": "H5N1 pressure keeps building in North America: 26 dairy-herd detections in 30 days, 17 of them in Washington's Yakima Valley, three human cases among dairy workers there and one death, described as the first reported globally after exposure to infected cattle, plus 4.02 million birds affected in 32 US poultry flocks and a Mexican zoo closed after infections in a tigrillo and a spider monkey. Korea's KDCA set out its round-the-clock Ebola testing and referral system as the DRC outbreak continues, reporting three suspected haemorrhagic fever cases that all tested negative. Nature reported recorded dengue cases have risen 34-fold in 34 years, and a preprint found a glycosylation mutation that let Oropouche virus spread in Anopheles mosquitoes, hinting at vector expansion beyond midges.",
     "ids": [
-     "c6f5bebd48a1",
-     "d5b36528ad95",
-     "b11ac0c4e5c9"
+     "e822d43acd9c",
+     "6ecb9d938e5a",
+     "ad464458a62e",
+     "09c1ae6befee"
     ]
    }
   ]
@@ -30695,162 +30695,6 @@
     }
    }
   },
-  "f41982ea77a2": {
-   "dup": "385b6b8d84ab"
-  },
-  "633d5fe2b2f6": {
-   "drop": true
-  },
-  "8c6c70eb6b30": {
-   "dup": "bf142f2cba4b"
-  },
-  "676a4280a0f7": {
-   "dup": "fb67f898dc23"
-  },
-  "efd6f187e75d": {
-   "drop": true
-  },
-  "c964d517f3bc": {
-   "dup": "788cc89b2203"
-  },
-  "975e81055654": {
-   "drop": true
-  },
-  "9ee8c191e9a9": {
-   "drop": true
-  },
-  "ab4e4710c5e7": {
-   "drop": true
-  },
-  "ae2c2f2af8f1": {
-   "drop": true
-  },
-  "10cc8e38a166": {
-   "drop": true
-  },
-  "cbc74462d094": {
-   "drop": true
-  },
-  "76d2f9d3281f": {
-   "drop": true
-  },
-  "02338c64c595": {
-   "drop": true
-  },
-  "03497d06d949": {
-   "drop": true
-  },
-  "19c304f50c61": {
-   "drop": true
-  },
-  "59b1710db311": {
-   "drop": true
-  },
-  "728cac323bc8": {
-   "drop": true
-  },
-  "5c36f4f6ef3c": {
-   "drop": true
-  },
-  "aab7de4ae0ac": {
-   "drop": true
-  },
-  "28d6dc936ce1": {
-   "drop": true
-  },
-  "730a412bc130": {
-   "drop": true
-  },
-  "22e65d5c4a34": {
-   "drop": true
-  },
-  "08c42cb7b3e0": {
-   "drop": true
-  },
-  "f9beac3028db": {
-   "drop": true
-  },
-  "75cb9d9a364b": {
-   "drop": true
-  },
-  "274a261a3d23": {
-   "drop": true
-  },
-  "129604509231": {
-   "drop": true
-  },
-  "43c81e8e705c": {
-   "drop": true
-  },
-  "eb9b0f814bde": {
-   "drop": true
-  },
-  "097fac44d380": {
-   "drop": true
-  },
-  "f1f2f053c718": {
-   "drop": true
-  },
-  "b4f21fd6dc49": {
-   "drop": true
-  },
-  "5f3929891c28": {
-   "drop": true
-  },
-  "2b8d8f4fd9de": {
-   "drop": true
-  },
-  "1463f88caef0": {
-   "drop": true
-  },
-  "44f2cdc23206": {
-   "drop": true
-  },
-  "34f71079d18d": {
-   "drop": true
-  },
-  "9a2dd950b995": {
-   "drop": true
-  },
-  "cdb255d6d3bd": {
-   "drop": true
-  },
-  "ee9a3f4f246c": {
-   "drop": true
-  },
-  "d40846590af1": {
-   "drop": true
-  },
-  "ae7e875ed3f5": {
-   "drop": true
-  },
-  "39d646e1f805": {
-   "drop": true
-  },
-  "3c0424375e5d": {
-   "drop": true
-  },
-  "97139d895214": {
-   "drop": true
-  },
-  "749c70038cd3": {
-   "dup": "cce1e8a0867c"
-  },
-  "2a867e9caa3f": {
-   "dup": "cce1e8a0867c"
-  },
-  "67d02b8c080f": {
-   "dup": "bc823937dab7"
-  },
-  "3d62ebd2ab46": {
-   "dup": "bc823937dab7"
-  },
-  "17889d68391c": {
-   "dup": "ab5869ce7dde"
-  },
-  "1b588cf436c9": {
-   "dup": "17c35107ce69"
-  },
   "bc823937dab7": {
    "cat": "clinical",
    "imp": 7,
@@ -30985,9 +30829,6 @@
      "why": "Barinthus Bio exits its vaccine business via a reverse merger."
     }
    }
-  },
-  "efc1543f02d9": {
-   "dup": "593e9d1ee843"
   },
   "8fc6b733311f": {
    "cat": "other",
@@ -31423,216 +31264,6 @@
     }
    }
   },
-  "263a3f3caf04": {
-   "drop": true
-  },
-  "5054295fd008": {
-   "drop": true
-  },
-  "3de81068d722": {
-   "drop": true
-  },
-  "8c84c1701ddd": {
-   "drop": true
-  },
-  "209e3e4e0cd4": {
-   "drop": true
-  },
-  "624768a79449": {
-   "drop": true
-  },
-  "45cb45fc52dc": {
-   "drop": true
-  },
-  "d297907ff1e9": {
-   "drop": true
-  },
-  "3412675edb31": {
-   "drop": true
-  },
-  "0231655e8ae7": {
-   "drop": true
-  },
-  "5e295b8f0123": {
-   "drop": true
-  },
-  "80c372bf8974": {
-   "drop": true
-  },
-  "7d6ff31dae07": {
-   "drop": true
-  },
-  "259d2f0d533b": {
-   "drop": true
-  },
-  "fede00c62989": {
-   "drop": true
-  },
-  "c5508f383381": {
-   "drop": true
-  },
-  "3a44f24677f9": {
-   "drop": true
-  },
-  "39df4bb3fd35": {
-   "drop": true
-  },
-  "b2e719ab88a9": {
-   "drop": true
-  },
-  "752635d1551f": {
-   "drop": true
-  },
-  "f9a108e88025": {
-   "drop": true
-  },
-  "b4b5c5a2f915": {
-   "drop": true
-  },
-  "8156977ce882": {
-   "drop": true
-  },
-  "0d137280b19c": {
-   "drop": true
-  },
-  "7778348abc87": {
-   "drop": true
-  },
-  "17e14ea66c36": {
-   "drop": true
-  },
-  "ff095635931b": {
-   "drop": true
-  },
-  "7300e36fcb05": {
-   "drop": true
-  },
-  "639def8f03fe": {
-   "drop": true
-  },
-  "c3dcf024a493": {
-   "drop": true
-  },
-  "1dbbd692fd8e": {
-   "drop": true
-  },
-  "46e254b6ee97": {
-   "drop": true
-  },
-  "8cf40029cf31": {
-   "drop": true
-  },
-  "7da8998c77f0": {
-   "drop": true
-  },
-  "6b8e0890fb5d": {
-   "drop": true
-  },
-  "50b1803e7e14": {
-   "drop": true
-  },
-  "edf81925e4c2": {
-   "drop": true
-  },
-  "ac49b32282f5": {
-   "drop": true
-  },
-  "29cadeef19df": {
-   "drop": true
-  },
-  "383632ee8b82": {
-   "drop": true
-  },
-  "f94d366bea9f": {
-   "drop": true
-  },
-  "484e21fd44d0": {
-   "drop": true
-  },
-  "e4fab76efec7": {
-   "drop": true
-  },
-  "d586880449d3": {
-   "drop": true
-  },
-  "db84ef08f4a4": {
-   "drop": true
-  },
-  "a907b028d65b": {
-   "drop": true
-  },
-  "6164fb45f15a": {
-   "drop": true
-  },
-  "1069271711d2": {
-   "drop": true
-  },
-  "165efc29f78c": {
-   "drop": true
-  },
-  "253c27ae36f3": {
-   "drop": true
-  },
-  "ec3f3e7b28f1": {
-   "drop": true
-  },
-  "902645308a9e": {
-   "dup": "bc823937dab7"
-  },
-  "0714e07ec9b8": {
-   "dup": "bc823937dab7"
-  },
-  "add17bc296cf": {
-   "dup": "bc823937dab7"
-  },
-  "0d0fe8cb2dee": {
-   "dup": "40868eb33b33"
-  },
-  "b19956dceea5": {
-   "dup": "40868eb33b33"
-  },
-  "4029a0a9a6b3": {
-   "dup": "40868eb33b33"
-  },
-  "c38f0a67d86a": {
-   "dup": "04291cd45243"
-  },
-  "976e6e475b99": {
-   "dup": "ab5869ce7dde"
-  },
-  "d955e170eb15": {
-   "dup": "0f72ebb7fb82"
-  },
-  "546c674276ae": {
-   "dup": "95654906fb45"
-  },
-  "0f9035cf2d68": {
-   "dup": "40ba8f4c80f0"
-  },
-  "267662145bbc": {
-   "dup": "80b54054d2b5"
-  },
-  "7b7087c423e0": {
-   "dup": "1d227e306c74"
-  },
-  "8e40e2a90449": {
-   "dup": "1d227e306c74"
-  },
-  "56355854f5d0": {
-   "dup": "979f2cdfe213"
-  },
-  "f71f279d1909": {
-   "dup": "979f2cdfe213"
-  },
-  "cc9a3e48b4de": {
-   "dup": "54b1007c94a9"
-  },
-  "9b8bb6fca945": {
-   "dup": "7033247a9022"
-  },
-  "5a0afa354959": {
-   "drop": true
-  },
   "1d227e306c74": {
    "cat": "regulatory",
    "imp": 8,
@@ -31662,9 +31293,6 @@
      "why": "New standard-of-care option for the most common breast cancer subtype."
     }
    }
-  },
-  "eeed20c10520": {
-   "dup": "6ceec65539e9"
   },
   "63de656fb487": {
    "cat": "regulatory",
@@ -31812,12 +31440,6 @@
     }
    }
   },
-  "5f898b161db3": {
-   "dup": "2026-11-23-cms-negotiated-prices-2028"
-  },
-  "6ac387559368": {
-   "dup": "2026-11-23-cms-negotiated-prices-2028"
-  },
   "730616b06614": {
    "cat": "funding",
    "imp": 5,
@@ -31870,12 +31492,6 @@
      "why": "AI support for radiology reads."
     }
    }
-  },
-  "3ef2fb6d6174": {
-   "drop": true
-  },
-  "910ec7264bf8": {
-   "drop": true
   },
   "e36a879e1a55": {
    "cat": "other",
@@ -32156,13 +31772,7 @@
     }
    }
   },
-  "90ae09a68dbe": {
-   "drop": true
-  },
   "26c7008d9ac4": {
-   "drop": true
-  },
-  "ac56fb1fdb81": {
    "drop": true
   },
   "4760e2394346": {
@@ -32350,9 +31960,6 @@
      "why": "Consolidates first-in-disease bronchiectasis and MAC lung disease treatments under Big Pharma."
     }
    }
-  },
-  "820c7a3482a0": {
-   "drop": true
   },
   "f55eacedcd3f": {
    "cat": "regulatory",
@@ -32993,24 +32600,6 @@
   "ee778fe7aaff": {
    "drop": true
   },
-  "3817c6142272": {
-   "drop": true
-  },
-  "b5fb667ef16d": {
-   "drop": true
-  },
-  "4782d7c4fb9b": {
-   "drop": true
-  },
-  "9298da5d93ae": {
-   "drop": true
-  },
-  "a5f7a5156145": {
-   "drop": true
-  },
-  "a87c5bcaebde": {
-   "drop": true
-  },
   "004056a2ddeb": {
    "dup": "2026-11-23-cms-negotiated-prices-2028"
   },
@@ -33398,9 +32987,6 @@
     }
    }
   },
-  "8a1a1c2fbf81": {
-   "dup": "6f0b69c863c4"
-  },
   "af0af4b0e875": {
    "cat": "science",
    "imp": 5,
@@ -33639,6 +33225,1522 @@
     "healthcare": {
      "score": 3,
      "why": "Relevant to future treatment approaches in dementia."
+    }
+   }
+  },
+  "0824280d3925": {
+   "drop": true
+  },
+  "a55dbc0fea09": {
+   "dup": "eeece3668fba"
+  },
+  "b480171ef7fa": {
+   "dup": "b6fcadbe43b5"
+  },
+  "794342d38870": {
+   "dup": "84cd714b0375"
+  },
+  "6133b93283ea": {
+   "drop": true
+  },
+  "b1ef7c26ae0e": {
+   "drop": true
+  },
+  "32ae5ed0e522": {
+   "drop": true
+  },
+  "6a5a93a49d5c": {
+   "drop": true
+  },
+  "c94d4dd0751d": {
+   "drop": true
+  },
+  "400e38d58b08": {
+   "drop": true
+  },
+  "322c07785909": {
+   "drop": true
+  },
+  "adad8a56ea11": {
+   "drop": true
+  },
+  "b9a95c5fdc58": {
+   "drop": true
+  },
+  "f5f4cb46ccf9": {
+   "drop": true
+  },
+  "3bddcf1d4d5f": {
+   "drop": true
+  },
+  "db4d3d2605d9": {
+   "drop": true
+  },
+  "ba59d4a9d848": {
+   "drop": true
+  },
+  "431f56370e8c": {
+   "drop": true
+  },
+  "3c55a466589d": {
+   "drop": true
+  },
+  "2fe6c75c6897": {
+   "drop": true
+  },
+  "80a68db7bc40": {
+   "drop": true
+  },
+  "715b74dfb958": {
+   "drop": true
+  },
+  "b4faeccc0a3b": {
+   "drop": true
+  },
+  "ac581d0dc72e": {
+   "drop": true
+  },
+  "4e13c6ea513e": {
+   "drop": true
+  },
+  "891798a4ff51": {
+   "drop": true
+  },
+  "a9f672b4d736": {
+   "drop": true
+  },
+  "900db8730271": {
+   "drop": true
+  },
+  "7e1841113022": {
+   "drop": true
+  },
+  "e6b4cba648b7": {
+   "drop": true
+  },
+  "36eecef30aed": {
+   "dup": "87767322f59f"
+  },
+  "9d4d3a1f22a7": {
+   "drop": true
+  },
+  "4561c5b354f2": {
+   "drop": true
+  },
+  "1899a4aef379": {
+   "dup": "f17afb070bb8"
+  },
+  "7a75a19a8a1f": {
+   "drop": true
+  },
+  "4709dbe21e48": {
+   "drop": true
+  },
+  "406efb4ccd97": {
+   "drop": true
+  },
+  "ce43626e7626": {
+   "dup": "68110f7dd02f"
+  },
+  "9ce2170ded38": {
+   "drop": true
+  },
+  "93aa0cf86ec7": {
+   "drop": true
+  },
+  "26508ae8c367": {
+   "drop": true
+  },
+  "589593d3e165": {
+   "dup": "13cada26f502"
+  },
+  "dd28de888c59": {
+   "drop": true
+  },
+  "5bdf264887ea": {
+   "drop": true
+  },
+  "8a7759b62a9c": {
+   "drop": true
+  },
+  "e441aee98ef7": {
+   "dup": "11f32c2292d2"
+  },
+  "c983dfd0a249": {
+   "drop": true
+  },
+  "300cc615e318": {
+   "drop": true
+  },
+  "3d94e8dac93e": {
+   "drop": true
+  },
+  "62350a95df5d": {
+   "drop": true
+  },
+  "bf86288b5bd7": {
+   "drop": true
+  },
+  "77ac102a5759": {
+   "dup": "65d8f40ba93a"
+  },
+  "f75660b0eba2": {
+   "drop": true
+  },
+  "73c78aa6eff9": {
+   "drop": true
+  },
+  "0331ad607814": {
+   "drop": true
+  },
+  "60ca96c60af5": {
+   "drop": true
+  },
+  "5af1b5fd9716": {
+   "drop": true
+  },
+  "21a58a21c872": {
+   "drop": true
+  },
+  "6a80f725e27e": {
+   "drop": true
+  },
+  "e4bf6cde5e7a": {
+   "drop": true
+  },
+  "a1a36cadb31e": {
+   "drop": true
+  },
+  "06295a98e103": {
+   "drop": true
+  },
+  "7a5cd2f12175": {
+   "drop": true
+  },
+  "e1be469f1156": {
+   "drop": true
+  },
+  "b7603e2873d1": {
+   "drop": true
+  },
+  "e976d78ff5fb": {
+   "drop": true
+  },
+  "bf41f0a6347c": {
+   "drop": true
+  },
+  "3c2e55f07dfe": {
+   "drop": true
+  },
+  "843785d32d84": {
+   "drop": true
+  },
+  "a836c0e24b4b": {
+   "dup": "2d75e27c9a10"
+  },
+  "64639c5eec3a": {
+   "drop": true
+  },
+  "cf8630d40b0b": {
+   "drop": true
+  },
+  "e1784aa1cbbb": {
+   "drop": true
+  },
+  "9010867c084c": {
+   "drop": true
+  },
+  "1b2183e27892": {
+   "drop": true
+  },
+  "1fb975e5f71e": {
+   "drop": true
+  },
+  "fa0dceed502f": {
+   "drop": true
+  },
+  "8fe599d3b4bd": {
+   "drop": true
+  },
+  "b04bce038039": {
+   "drop": true
+  },
+  "7e8ed7480155": {
+   "drop": true
+  },
+  "5d68172d63ea": {
+   "drop": true
+  },
+  "e11cde29ba2c": {
+   "drop": true
+  },
+  "ef6a19346e4b": {
+   "drop": true
+  },
+  "23db4f95cb9a": {
+   "drop": true
+  },
+  "a270600798e7": {
+   "drop": true
+  },
+  "13b9ccaeb373": {
+   "drop": true
+  },
+  "71c5a02835e1": {
+   "drop": true
+  },
+  "2d356bb6adee": {
+   "drop": true
+  },
+  "4c8c3576893a": {
+   "dup": "0c7ddf6efb5f"
+  },
+  "5808043873d9": {
+   "dup": "e2cafcde1028"
+  },
+  "6f227a931927": {
+   "drop": true
+  },
+  "323b14b6367b": {
+   "drop": true
+  },
+  "8ac628a7c95f": {
+   "drop": true
+  },
+  "717f80e7fb0a": {
+   "drop": true
+  },
+  "c6f053ba39cd": {
+   "drop": true
+  },
+  "b6bcaec118c6": {
+   "drop": true
+  },
+  "efa0fca7582a": {
+   "drop": true
+  },
+  "f4aded391d08": {
+   "drop": true
+  },
+  "62d3628730b8": {
+   "drop": true
+  },
+  "5d46b468b1e1": {
+   "drop": true
+  },
+  "c39f0d728f63": {
+   "drop": true
+  },
+  "4865ee51444c": {
+   "drop": true
+  },
+  "b531e3cf00a5": {
+   "drop": true
+  },
+  "0e7dae407c9a": {
+   "drop": true
+  },
+  "5edef8180aa2": {
+   "drop": true
+  },
+  "fab05d54dfa6": {
+   "drop": true
+  },
+  "4eb1e8fe4b2c": {
+   "drop": true
+  },
+  "8bc4d489a29d": {
+   "drop": true
+  },
+  "1ef55bb5c05c": {
+   "drop": true
+  },
+  "53763fb44bc0": {
+   "drop": true
+  },
+  "75c0073129e5": {
+   "drop": true
+  },
+  "21a4c4f04202": {
+   "drop": true
+  },
+  "31050e45635a": {
+   "drop": true
+  },
+  "06b9a2b5ee1f": {
+   "drop": true
+  },
+  "b4ed62a01e8d": {
+   "drop": true
+  },
+  "52c7f6cd1ccd": {
+   "drop": true
+  },
+  "d68d879d8fca": {
+   "drop": true
+  },
+  "5818b1d977a6": {
+   "drop": true
+  },
+  "d4582136da26": {
+   "drop": true
+  },
+  "a9f0bc9359ed": {
+   "drop": true
+  },
+  "253ddc097bde": {
+   "drop": true
+  },
+  "dd6a1d275c4e": {
+   "drop": true
+  },
+  "dfac1f7f0dae": {
+   "drop": true
+  },
+  "bcf4072b5f13": {
+   "drop": true
+  },
+  "97fea7c1af3c": {
+   "drop": true
+  },
+  "d8ab10e8d450": {
+   "drop": true
+  },
+  "87f0a5faa270": {
+   "drop": true
+  },
+  "143055ec8f02": {
+   "drop": true
+  },
+  "9dd9d9b723ad": {
+   "drop": true
+  },
+  "32634d131dc9": {
+   "drop": true
+  },
+  "703683c0e322": {
+   "drop": true
+  },
+  "63c3491348cf": {
+   "drop": true
+  },
+  "8572c61efef1": {
+   "drop": true
+  },
+  "8ee5e6eba6f5": {
+   "drop": true
+  },
+  "a1441bf3e65c": {
+   "drop": true
+  },
+  "80c4c93e6b57": {
+   "drop": true
+  },
+  "b556e3d8baf2": {
+   "drop": true
+  },
+  "aa5d1ab7aa2f": {
+   "drop": true
+  },
+  "65fac7c198e5": {
+   "drop": true
+  },
+  "3e99ca189776": {
+   "drop": true
+  },
+  "f0d12dba6473": {
+   "drop": true
+  },
+  "3bc547f2bc40": {
+   "drop": true
+  },
+  "6595cc199d99": {
+   "drop": true
+  },
+  "881a7b2eb8bf": {
+   "drop": true
+  },
+  "8ef80a22de35": {
+   "drop": true
+  },
+  "a9d1e324ac71": {
+   "drop": true
+  },
+  "855dff56c632": {
+   "drop": true
+  },
+  "08f9b2a04447": {
+   "drop": true
+  },
+  "dfcd96ac42f4": {
+   "drop": true
+  },
+  "a3c20fdeacf7": {
+   "drop": true
+  },
+  "59f4b67f55b9": {
+   "drop": true
+  },
+  "1c4f0af210af": {
+   "drop": true
+  },
+  "66c0cc1ec34c": {
+   "drop": true
+  },
+  "d52cd763acb7": {
+   "drop": true
+  },
+  "c782c1cf3985": {
+   "drop": true
+  },
+  "c63bd544825d": {
+   "drop": true
+  },
+  "048cd61935f0": {
+   "drop": true
+  },
+  "d16be1bacaeb": {
+   "drop": true
+  },
+  "a36e7cf41d98": {
+   "drop": true
+  },
+  "531f72bee2a2": {
+   "drop": true
+  },
+  "4c79422f8ae6": {
+   "drop": true
+  },
+  "bc097550e2c2": {
+   "drop": true
+  },
+  "6eb5dc587fb3": {
+   "drop": true
+  },
+  "ce33162dc67e": {
+   "drop": true
+  },
+  "ec064b182e6e": {
+   "drop": true
+  },
+  "b253d6a91048": {
+   "drop": true
+  },
+  "e4a1c73ad003": {
+   "drop": true
+  },
+  "9e0f16506d13": {
+   "dup": "2026-11-23-cms-negotiated-prices-2028"
+  },
+  "b2e4427251b8": {
+   "dup": "f55eacedcd3f"
+  },
+  "fd65494ef9c5": {
+   "dup": "f55eacedcd3f"
+  },
+  "ac2e3ffe384e": {
+   "dup": "f55eacedcd3f"
+  },
+  "0c70a4d6402d": {
+   "dup": "f55eacedcd3f"
+  },
+  "3e311d228d03": {
+   "dup": "54b1007c94a9"
+  },
+  "36a304ba2db1": {
+   "dup": "abdefc56b7d6"
+  },
+  "a8090533df1f": {
+   "dup": "a6087b284607"
+  },
+  "555c9937b736": {
+   "dup": "3827df8fdb2e"
+  },
+  "3e2c535c318e": {
+   "dup": "ecd5a9460578"
+  },
+  "d804b83312aa": {
+   "dup": "e686b4e44a33"
+  },
+  "b038fe50f359": {
+   "dup": "eed11edeb1f2"
+  },
+  "3ab755483ccf": {
+   "dup": "eed11edeb1f2"
+  },
+  "20300bbaef89": {
+   "dup": "efd7eef444b5"
+  },
+  "f7e843aa4f17": {
+   "dup": "3f4fba47b43f"
+  },
+  "e8a8cbfab5b9": {
+   "dup": "0f0310b9aa87"
+  },
+  "3863df2dad4f": {
+   "dup": "1b69813af09c"
+  },
+  "e6759e6d095a": {
+   "dup": "63f8b3d9dd19"
+  },
+  "f7a0ca6f672e": {
+   "dup": "5482b601006c"
+  },
+  "e7bf66dd53a3": {
+   "dup": "3ef489a07a8d"
+  },
+  "f26d05e87db0": {
+   "dup": "47e774ac6a2e"
+  },
+  "48744a5f5eb7": {
+   "dup": "979f2cdfe213"
+  },
+  "90a0e1dd1022": {
+   "dup": "1d227e306c74"
+  },
+  "088fac6ff95c": {
+   "cat": "other",
+   "imp": 6,
+   "summary": "Amgen can launch a biosimilar of Bristol Myers Squibb's Opdivo in the US on October 1, 2028 under a confidential settlement with BMS and Ono, with an FDA response on the application expected by year-end. Arcus stopped its phase 3 PRISM-1 trial of the CD73 inhibitor quemliclustat in metastatic pancreatic cancer after an interim analysis showed no survival benefit over chemotherapy alone. The roundup also notes BMS's CFO departure and a three-month FDA review extension for Belite Bio's tinlarebant, now due by May 12.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Sets the US biosimilar entry date for one of the biggest cancer immunotherapies and records a phase 3 failure."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Opdivo erosion from 2028 shapes BMS's revenue outlook."
+    }
+   }
+  },
+  "3827df8fdb2e": {
+   "cat": "clinical",
+   "imp": 7,
+   "summary": "Bristol Myers Squibb said its oral TYK2 inhibitor Sotyktu (deucravacitinib) met the primary endpoint in one of two phase 3 trials in systemic lupus erythematosus but missed it in the other. The mixed topline result complicates BMS's plan to expand Sotyktu, currently approved for psoriasis, into lupus, a key growth bet for the drug; full data will be presented later.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Mixed phase 3 readout for a Big Pharma growth drug in a large autoimmune indication."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Weighs on BMS's lupus expansion and Sotyktu sales expectations."
+    }
+   }
+  },
+  "a6087b284607": {
+   "cat": "policy",
+   "imp": 7,
+   "summary": "Bayer is withdrawing its heart and kidney disease drug Kerendia (finerenone) from Germany, its home market, after a reimbursement dispute with German health authorities over the drug's price. The move highlights growing tension between drugmakers and European governments over paying for innovative medicines, as companies weigh US most-favoured-nation pricing pressure against lower European prices.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "A major drugmaker pulling a blockbuster from its home market over pricing."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "German patients lose access to a guideline-recommended kidney and heart failure drug."
+    }
+   }
+  },
+  "abdefc56b7d6": {
+   "cat": "deals",
+   "imp": 7,
+   "summary": "Bayer licensed a phase 1 antibody-drug conjugate from China's Hansoh Pharma in a deal worth up to about $3.3 billion, including $150 million upfront, according to Fierce and Endpoints. Bayer becomes the latest Big Pharma to tap Hansoh's ADC pipeline after GSK and others, part of a continuing wave of Western companies in-licensing Chinese-discovered drugs despite growing US scrutiny of such deals.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "Large Big Pharma licensing deal for a Chinese-developed ADC."
+    },
+    "investment": {
+     "score": 6,
+     "why": "Adds to the run of high-value China out-licensing deals."
+    }
+   }
+  },
+  "ecd5a9460578": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "GSK's twice-yearly asthma biologic Exdensur (depemokimab) was non-inferior to monthly Nucala (mepolizumab) on remission rates in a phase 3 trial in eosinophilic granulomatosis with polyangiitis (EGPA), a rare vasculitis, with similar side-effect rates. GSK plans regulatory filings and says the drug could become the first ultra-long-acting EGPA treatment, almost a year after its first FDA approval in severe asthma.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "Phase 3 win expanding a new long-acting biologic into a second indication."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Twice-yearly dosing could reduce treatment burden for EGPA patients."
+    }
+   }
+  },
+  "3ef489a07a8d": {
+   "cat": "funding",
+   "imp": 7,
+   "summary": "BioNTech cofounders Uğur Şahin and Özlem Türeci are in talks to raise about $1 billion, led by Plural, for a new mRNA cancer company called Arife, the Financial Times reports (as summarised by STAT). A round that size would be among the largest ever for a newly formed biotech.",
+   "rel": {
+    "investment": {
+     "score": 8,
+     "why": "Potential $1 billion launch round, among the biggest biotech start-up financings."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "New oncology company from the founders of a leading mRNA drugmaker."
+    },
+    "cellgene": {
+     "score": 6,
+     "why": "Built on mRNA cancer medicines."
+    }
+   }
+  },
+  "e822d43acd9c": {
+   "cat": "other",
+   "imp": 6,
+   "summary": "H5N1 activity keeps rising across North America: USDA recorded 26 dairy-herd detections in 30 days, 17 in Washington's Yakima Valley, with new herds this week in Texas and Washington. WHO reported three human cases among Yakima Valley dairy workers since October, with no person-to-person spread; one died, the first death reported globally after exposure to infected cattle. In poultry, 4.02 million birds in 32 US flocks were affected in 30 days, and Mexico closed León Zoo after H5N1 was found in two animals.",
+   "rel": {
+    "biosecurity": {
+     "score": 7,
+     "why": "Growing H5N1 spread in cattle with a human death from cattle exposure."
+    },
+    "agrifood": {
+     "score": 6,
+     "why": "Dairy herd and poultry flock losses."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Human cases among farm workers."
+    }
+   }
+  },
+  "9c8577dde76d": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "Computational drug discovery company Schrödinger signed an all-cash biologics collaboration worth €22 million with Enpicom, which automates antibody sequencing data analysis, Fierce reports. The deal pairs Schrödinger's physics-based and AI modelling with Enpicom's repertoire analysis software for antibody discovery.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "Combines computational modelling with automated sequencing analysis for biologics design."
+    },
+    "tools": {
+     "score": 5,
+     "why": "Sequencing-data automation platform deal."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Aimed at antibody drug discovery."
+    }
+   }
+  },
+  "3f14121a0a13": {
+   "cat": "clinical",
+   "imp": 5,
+   "summary": "Finnish biotech Desentum said its short-course birch pollen allergen immunotherapy met the primary endpoint of a phase 2 trial, giving durable symptom relief, Fierce reports. The company plans further studies of the treatment, which aims to give a lasting effect with fewer injections than standard allergy shots.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Positive phase 2 for a short-course allergy immunotherapy."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Birch pollen allergy is common in northern Europe."
+    }
+   }
+  },
+  "9a5d9f66a2d4": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "BetterLife Pharma reports that its non-hallucinogenic LSD analogue promoted neuroplasticity in mice similar to the psychedelic, without hallucination-linked behaviour, Fierce reports. It is one of several efforts to keep the neuroplastic benefits of psychedelics for psychiatric and neurological disorders while removing the trip; the work is preclinical.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Preclinical psychedelic-derived drug candidate for brain disorders."
+    }
+   }
+  },
+  "29f16bd2c465": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Pharming paused production of Ruconest, its marketed treatment for acute hereditary angioedema attacks, because of issues at an unnamed third-party manufacturer, and warned of a possible supply interruption. The company has notified the FDA. The pause comes as Pharming searches for a new CEO and awaits a leniolisib readout.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Supply risk for a marketed rare-disease drug."
+    },
+    "bioprocessing": {
+     "score": 5,
+     "why": "Contract manufacturing problem halting a recombinant protein product."
+    }
+   }
+  },
+  "4fe90b59e72e": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "Tim Hunt, CEO of the Alliance for Regenerative Medicine, which represents over 400 cell and gene therapy companies, describes a 'wild 12 months' of pushing back on the FDA's shifting stance on gene therapies. He had been optimistic a year ago that the sector was high on the government's agenda.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Trade group view on US regulatory direction for cell and gene therapy."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Regulatory climate for advanced therapies."
+    }
+   }
+  },
+  "539c64969e95": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Thermo Fisher Scientific received FDA clearance to expand the intended use of its EXENT Analyser with the EXENT GAM assay, a mass-spectrometry system for detecting and monitoring monoclonal proteins, to help monitor two blood cancers.",
+   "rel": {
+    "diagnostics": {
+     "score": 6,
+     "why": "Expanded clearance for a mass-spec blood cancer monitoring test."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Mass spectrometry analyser platform."
+    }
+   }
+  },
+  "df9504e4a893": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "A GEN feature argues that Asia's fast-growing cell and gene therapy pipeline needs manufacturing processes standardised enough to be reproducible yet flexible enough for the region's fragmented regulation, manufacturing and supply chains.",
+   "rel": {
+    "bioprocessing": {
+     "score": 5,
+     "why": "CGT manufacturing standardisation across Asia."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Manufacturing constraints on Asian CGT pipelines."
+    }
+   }
+  },
+  "a03b9dc87946": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Researchers developed medical gloves with microscopic fluid-repelling surface textures that cut bacterial attachment and transmission by up to 99% in tests, GEN reports. The design could help reduce hospital-acquired infections spread by glove contact.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "New surface engineering for medical gloves."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Could reduce hospital-acquired infections."
+    }
+   }
+  },
+  "5c1125a74dca": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Swiss contract developer ten23 health expanded its sterile fill-finish capacity for injectable drugs, Contract Pharma reports, as demand grows for more complex injectable formats.",
+   "rel": {
+    "bioprocessing": {
+     "score": 5,
+     "why": "Added sterile fill-finish capacity at a CDMO."
+    }
+   }
+  },
+  "4dedd5d06688": {
+   "cat": "funding",
+   "imp": 3,
+   "summary": "March Biosciences won up to $5.4 million, a $2.8 million CPRIT seed award and an NCI fast-track SBIR of up to $2.6 million, for preclinical work on a CAR-T therapy for liver cancer using its synapse-stabilising receptor platform, the company says. Its lead MB-105, a CD5 CAR-T for T-cell lymphoma, is in phase 2.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "Grant funding for a solid-tumour CAR-T platform."
+    }
+   }
+  },
+  "03c01e5c7e23": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Priority patent filings for plant-based meat fell about 22% to 187 in 2024, the third straight annual decline, and cultivated meat filings fell about 13% to 104, according to Appleyard Lees' sixth Inside Green Innovation report. South Korea (25) overtook the US (20, down from 30) in cultivated meat filings, with Europe at 27 and Japan 18. Both segments remain above 2015-19 levels; the report blames commercial pressures rather than abandonment of the field.",
+   "rel": {
+    "agrifood": {
+     "score": 7,
+     "why": "Tracks innovation activity in alternative proteins."
+    },
+    "fermentation": {
+     "score": 4,
+     "why": "Cultivated meat and alt-protein IP trends."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Reflects funding pressure on the sector."
+    }
+   }
+  },
+  "2209a9da4089": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Green Queen's weekly round-up: UK start-up Zya raised £11.5 million ($15 million) in Series A for Convero, an enzyme that converts up to a third of the sugar in food into fibre, targeting launch by end of next year. Oatly opened a fibre-drink lab in Stockholm, and NielsenIQ data show US plant-based milk sales down 1.8% in a year while non-dairy yogurt rose 19.7%.",
+   "rel": {
+    "agrifood": {
+     "score": 5,
+     "why": "Alt-dairy sales trends and a sugar-to-fibre enzyme start-up."
+    },
+    "industrial": {
+     "score": 3,
+     "why": "Enzyme-based food ingredient."
+    }
+   }
+  },
+  "caa9d910b560": {
+   "cat": "funding",
+   "imp": 4,
+   "summary": "Korean biotech AriBio, developer of the oral Alzheimer's drug AR1001 (mirodenafil), is pursuing a direct Kospi listing after ending a two-year plan to merge with Kosdaq-listed affiliate AriBio Holdings in September. Its global phase 3 POLARIS-AD trial enrolled 1,535 patients in 13 countries and met its primary endpoint in the 604-patient monotherapy group, the company says. No listing date was given.",
+   "rel": {
+    "investment": {
+     "score": 5,
+     "why": "Planned main-board listing for a late-stage Korean biotech."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Oral Alzheimer's drug with phase 3 data."
+    }
+   }
+  },
+  "00e28bb70786": {
+   "cat": "deals",
+   "imp": 3,
+   "summary": "Boehringer Ingelheim Korea will hold an oncology partnering day with the Korea Health Industry Development Institute in February to find first-in-class drug candidates from Korean biotechs, and is weighing early equity investments via its venture fund. About half of BI's R&D pipeline is externally sourced; its main Korean deal is a licence for AimedBio's ADC BI 4060107, now in phase 1.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Big Pharma scouting Korean biotech assets."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Possible venture investments in Korean start-ups."
+    }
+   }
+  },
+  "436e46ab2315": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "Korean diabetologists say national reimbursement criteria from HIRA prevent doctors from prescribing type 2 diabetes drug combinations recommended by the Korean Diabetes Association's guidelines.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Reimbursement limits on guideline-based diabetes care in Korea."
+    }
+   }
+  },
+  "6ecb9d938e5a": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Korea's disease agency KDCA runs a round-the-clock system to test suspected Ebola cases in its BSL-4 lab; three suspected viral haemorrhagic fever cases it investigated were all negative. If local transmission occurred, some testing would move to regional BSL-3+ labs, and confirmed patients would go to the National Medical Center; a joint drill was held in November.",
+   "rel": {
+    "biosecurity": {
+     "score": 6,
+     "why": "National preparedness plan for imported Ebola amid the record DRC outbreak."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Hospital and lab readiness for high-consequence infections."
+    }
+   }
+  },
+  "8a57bfa8fce0": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Korean biotech Pinetree Therapeutics, which develops antibody-based protein degraders on its AbReptor platform, is preparing for a Kosdaq listing, its leadership says in an interview.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Early-stage antibody degrader platform."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Planned Kosdaq IPO."
+    }
+   }
+  },
+  "746a9a109aba": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Bukwang Pharmaceutical is launching an RNA therapeutics subsidiary that will license Threepoint Therapeutics' RNA platform (spun out of its Danish unit Contera) to fund its own R&D. TPT has six preclinical programmes, two with Lundbeck, led by TT-102, an antisense drug for Canavan disease.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Korean drugmaker shifting to RNA drug R&D."
+    },
+    "cellgene": {
+     "score": 3,
+     "why": "Antisense oligonucleotide platform."
+    }
+   }
+  },
+  "9ba5c5ace202": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "Korea's Ministry of Food and Drug Safety expanded Pfizer's Ibrance (palbociclib) approval on November 3 to HR-positive, HER2-positive advanced breast cancer, for use after taxane-based therapy in combination regimens.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Label expansion for a major cancer drug in Korea."
+    }
+   }
+  },
+  "b9afd0fee0ff": {
+   "cat": "contracts",
+   "imp": 3,
+   "summary": "Xcell Therapeutics signed a nonbinding letter of intent with China's Bloomage Biotech for 6 billion won ($4.46 million) of T-cell and NK-cell culture media over three years, about 3.6 times its first one-year export contract. A definitive deal is targeted for the first half of 2027, when Xcell also plans an FDA drug master file for its T-cell medium.",
+   "rel": {
+    "bioprocessing": {
+     "score": 5,
+     "why": "Cell culture media supply for cell therapy manufacturing."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Media for T-cell and NK-cell therapies."
+    }
+   }
+  },
+  "5256835785dd": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Lower surgical volumes weighed on third-quarter results at J&J, Boston Scientific, Intuitive and Stryker, while Edwards Lifesciences and Zimmer Biomet raised 2026 sales forecasts and Medtronic's cardiovascular unit grew double digits on cardiac ablation, MedTech Dive's earnings round-up shows. Stryker and Boston Scientific had cut guidance in October.",
+   "rel": {
+    "meddevices": {
+     "score": 7,
+     "why": "Sector-wide view of medtech demand and guidance."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Earnings trends for large device makers."
+    }
+   }
+  },
+  "3c6a718718bf": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Insulin pump maker Insulet named Todd Trapp CFO, replacing Flavia Pease 14 months after she took the role.",
+   "rel": {
+    "meddevices": {
+     "score": 3,
+     "why": "Leadership change at a major diabetes device company."
+    }
+   }
+  },
+  "8728b44791ca": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "MedTech Dive explains how oversight of digital health tools is split between federal agencies such as the FDA, FTC and HHS, with states adding their own rules, and how providers can navigate both.",
+   "rel": {
+    "meddevices": {
+     "score": 4,
+     "why": "Regulatory landscape for digital health tools."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Compliance for providers using digital health."
+    }
+   }
+  },
+  "47e774ac6a2e": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "In a STAT opinion piece, Michael Kinch of Stony Brook argues that Beijing's proposed limits on foreign purchases of Chinese cell and gene platforms and the US Treasury's proposed curbs on investing in Chinese biotech are the wrong approach. He notes Chinese experimental drugs rose from about 30 in 2013 to over 400 a decade later and foreign deals for Chinese assets hit $120 billion through August 2026, and urges targeted comments to Treasury (due December 7) and investment where the US leads.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "US-China policy affecting drug licensing and investment."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Treasury rules on investing in Chinese biotech."
+    }
+   }
+  },
+  "7229a8683f8e": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "International enrolment in US universities fell 9% this year and 15% among new graduate students, an IIE survey of over 800 institutions found, and an AAMC poll shows international starts in biomedical PhD programmes down about 30% since 2024. Courts have blocked some Trump restrictions on foreign students, but STAT reports a chilling effect on a key part of the US biomedical workforce; DHS disputes the figures.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Shrinking pipeline of biomedical researchers in the US."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Talent supply for US biotech R&D."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Academic research capacity."
+    }
+   }
+  },
+  "51281c52efc4": {
+   "cat": "science",
+   "imp": 8,
+   "summary": "A Nature paper reports that a gene from an extremophile fungus, expressed as a transgene in wheat, rice and maize, boosted drought resilience while also increasing yields, breaking the usual trade-off in which drought-tolerant crops yield less. Results span three of the world's main cereals, making it a candidate trait for climate-resilient crop breeding.",
+   "rel": {
+    "agrifood": {
+     "score": 9,
+     "why": "Transgenic trait improving both drought tolerance and yield in major cereals."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "Cross-kingdom gene transfer from an extremophile into crops."
+    }
+   }
+  },
+  "63f8b3d9dd19": {
+   "cat": "science",
+   "imp": 7,
+   "summary": "Researchers in Nature present an enzymatic 'living polymerization' method that makes high-molecular-weight polysaccharides of precise chain length, borrowing control strategies from synthetic polymer chemistry rather than relying on natural biosynthesis. By tuning how sugar-chaining enzymes bind reaction initiators, they produce defined sugar chains for biological studies and potentially for materials.",
+   "rel": {
+    "industrial": {
+     "score": 7,
+     "why": "Controlled enzymatic synthesis of polysaccharides for materials and chemicals."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "Engineered enzymatic route to defined biopolymers."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Defined glycans for glycobiology research."
+    }
+   }
+  },
+  "0c09f7c32e12": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "Structural analyses in Nature reveal how type I CRISPR-associated transposases (CASTs) carry out RNA-guided DNA integration, providing a framework for developing them into site-specific genome-editing tools that insert large DNA sequences without double-strand breaks.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Mechanism for a next-generation gene insertion tool."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "Programmable DNA integration for genome engineering."
+    },
+    "tools": {
+     "score": 5,
+     "why": "Basis for new genome-editing reagents."
+    }
+   }
+  },
+  "511519735bfa": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "A second Nature paper on type I-F3 CRISPR-associated transposases shows that a redesigned TnsA protein and a holo complex with coordinated conformational 'licensing' enhance RNA-guided DNA integration, revealing a conserved mechanism that could guide engineering of CASTs for efficient large-DNA insertion.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Improves a candidate tool for inserting large genes."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "Engineering of programmable transposases."
+    },
+    "tools": {
+     "score": 5,
+     "why": "Genome-editing reagent development."
+    }
+   }
+  },
+  "b0649eec392a": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "Researchers report in Nature an AI platform, ORIDTP, that designs dual-target therapeutic peptides from scratch, producing potent candidate anti-obesity, antidiabetic and anticancer peptides with strong efficacy in animals.",
+   "rel": {
+    "ai": {
+     "score": 7,
+     "why": "Generative AI design of multi-target peptide drugs."
+    },
+    "pharma": {
+     "score": 6,
+     "why": "Candidates in obesity, diabetes and cancer."
+    }
+   }
+  },
+  "efd7eef444b5": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A single-cell multi-omic map of human coronary artery tissue in Nature links disease-associated genetic variants to the cell types, enhancers and target genes through which they act, giving a framework for finding drug targets in heart disease.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "Single-cell multi-omics applied to variant-to-gene mapping."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Points to new cardiovascular drug targets."
+    }
+   }
+  },
+  "5482b601006c": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "An exome analysis of more than 1.4 million people in Nature implicates 207 genes in human height, including rare coding variants that can change height by up to 17 cm, showing how very large sequencing cohorts improve trait prediction and variant interpretation.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "Shows the power of population-scale sequencing."
+    },
+    "diagnostics": {
+     "score": 3,
+     "why": "Better interpretation of rare variants."
+    }
+   }
+  },
+  "6713cea0c530": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A study of more than 10,000 people, highlighted in Nature, found specific mutations in gut bacteria that arise as humans age, but few mutations associated with disease, suggesting the microbiome adapts to the ageing host.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Microbiome changes with ageing."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Large-scale metagenomic analysis."
+    }
+   }
+  },
+  "39fc564e85ea": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Nature news feature reports that potent immune responses against diverse HIV strains, driven by broadly neutralising 'super antibodies', have put a powerful HIV vaccine within reach, though major hurdles remain before one is proven in people.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Progress toward an HIV vaccine."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Potential major advance in HIV prevention."
+    }
+   }
+  },
+  "dc8d4658f9a2": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "A Nature editorial argues that with generic versions of an effective long-acting HIV prevention drug approved and an HIV vaccine on the horizon, funders must not cut support now, calling it a golden chance to improve HIV prevention.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "Global health funding for HIV prevention."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Generic access to long-acting HIV prevention."
+    }
+   }
+  },
+  "23280d2005b7": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Chromosome-scale genomes from across the barley genus Hordeum, described in Nature, reveal large structural variation, ancient genetic exchange and divergent regulatory sequences, a resource for breeding the crop.",
+   "rel": {
+    "agrifood": {
+     "score": 6,
+     "why": "Genomic resource for barley breeding."
+    }
+   }
+  },
+  "0f0310b9aa87": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature study shows that the cancer-linked PIK3CA H1047R mutation disrupts arterial development in endothelial precursors, pushing them toward venous features, which explains why such mutations cause malformations in some vessels but not mature arteries.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Mechanism relevant to vascular malformation treatment."
+    }
+   }
+  },
+  "1b69813af09c": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature study of the clustered protocadherin locus finds that genes can be transcribed from megabase-scale heterochromatin, generating the neural 'barcodes' that let neurons distinguish self from non-self.",
+   "rel": {
+    "tools": {
+     "score": 3,
+     "why": "Basic gene-regulation mechanism."
+    }
+   }
+  },
+  "b560f74cac1b": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Nature paper finds that architectural interfaces in colorectal tumours drive diversification of cell states by mechanochemically reprogramming stem cells, and that this heterogeneity co-evolves with tissue architecture to shape patient outcome.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Tumour biology relevant to colon cancer prognosis."
+    }
+   }
+  },
+  "ad464458a62e": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Recorded dengue cases worldwide rose 34-fold over 34 years, Nature reports from a new analysis, showing how fast the mosquito-borne disease has spread globally.",
+   "rel": {
+    "biosecurity": {
+     "score": 5,
+     "why": "Rapid global spread of a mosquito-borne virus."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Growing dengue burden on health systems."
+    }
+   }
+  },
+  "03d0e64b6457": {
+   "dup": "825e070bb2f8"
+  },
+  "8069aa7df4bf": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "An analysis of about 219,000 people followed for up to 30 years in Nature Medicine shows later-born generations start old age with greater cognitive capacity that declines more slowly, consistent with decades of falling dementia risk.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Population trends in dementia risk."
+    }
+   }
+  },
+  "647dcbfa2b46": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Cell preview highlights work by Qiang and colleagues on a pancreatic cancer combination that pairs a KRAS inhibitor, which hits the tumour cells, with an AI-designed interleukin-21 mimetic that amplifies an anti-tumour response led by effector CD4 T cells.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "New combination strategy for pancreatic cancer."
+    },
+    "ai": {
+     "score": 5,
+     "why": "AI-designed cytokine mimetic."
+    }
+   }
+  },
+  "98d4327eec34": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Cell commentary covers Maman and colleagues' discovery of natural phosphorothioate modifications in archaeal RNA, nearly two decades after they were found in bacterial DNA, including the enzymes that write them and a role in stabilising tRNA.",
+   "rel": {
+    "synbio": {
+     "score": 4,
+     "why": "Expands the natural chemical alphabet usable in nucleic acid engineering."
+    },
+    "tools": {
+     "score": 3,
+     "why": "New RNA modification and writer enzymes."
+    }
+   }
+  },
+  "6543d2449833": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Cell preview highlights work by Zhou and colleagues defining the brain plasma proteome and showing that protein transport across the blood-brain barrier is selective, a map relevant to designing drugs and biologics that must reach the brain.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Informs brain delivery of biologic drugs."
+    },
+    "diagnostics": {
+     "score": 3,
+     "why": "Blood-brain protein exchange relevant to biomarkers."
+    }
+   }
+  },
+  "18f1a130502b": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Researchers in Cell 'wrote' a patient-derived TAF1 allele into the mouse genome, recreating X-linked dystonia-parkinsonism; transcription of an intronic SVA retrotransposon impaired TAF1 expression and drove striatal degeneration, and CRISPR activation of Taf1 pointed to a possible therapy.",
+   "rel": {
+    "synbio": {
+     "score": 5,
+     "why": "Large-scale genome writing to humanise a disease locus."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "CRISPRa suggested as a therapeutic route."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Rare movement disorder mechanism."
+    }
+   }
+  },
+  "2372ea3c141c": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A humanised mouse model of X-linked dystonia-parkinsonism in Cell reveals widespread loss of myelin-forming oligodendrocytes, a pathology also seen in patient brains, pointing to a contributor to the movement disorder.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "New disease mechanism for a rare neurodegenerative disorder."
+    }
+   }
+  },
+  "97000879829f": {
+   "cat": "clinical",
+   "imp": 7,
+   "summary": "A large trial in Brazil found that releasing mosquitoes infected with Wolbachia bacteria, which block virus transmission, sharply cut dengue in children, Science reports. The result confirms Wolbachia's ability to thwart several mosquito-borne viruses at scale, as dengue cases climb worldwide.",
+   "rel": {
+    "biosecurity": {
+     "score": 5,
+     "why": "Biological control of mosquito-borne viral disease."
+    },
+    "healthcare": {
+     "score": 8,
+     "why": "Large trial showing reduced dengue in children."
+    },
+    "synbio": {
+     "score": 3,
+     "why": "Microbe-modified insects as public-health tools."
+    }
+   }
+  },
+  "ea686be6dd4c": {
+   "cat": "funding",
+   "imp": 4,
+   "summary": "Shanghai's CirCode Biomed closed a Series A+ round of 'tens of millions of dollars' led by Fosun Health Capital, it says, to advance circular RNA drugs: HM2002 (VEGF-A) in phase 1 for ischaemic heart disease, HM2003 (HGF) for limb ischaemia, and in vivo CAR-T and CAR-M programmes. HM2002 has FDA fast track and was the first circular RNA medicine dosed in patients.",
+   "rel": {
+    "cellgene": {
+     "score": 6,
+     "why": "Circular RNA therapeutics and in vivo CAR-T."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Chinese RNA biotech financing."
+    }
+   }
+  },
+  "d8b92ff10afa": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Spark Biomedical says the NIDA-funded RESTORE trial found adding its non-invasive ear neurostimulation therapy to standard opioid use disorder care made patients 6.9 times more likely to stay in treatment 21 days or longer. Findings are submitted for peer review and will be presented on November 30.",
+   "rel": {
+    "meddevices": {
+     "score": 6,
+     "why": "Neurostimulation device for addiction treatment."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Improves retention in opioid treatment."
+    }
+   }
+  },
+  "5e024339c66b": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint identifies EveD, a protein carried in rhizobial extracellular vesicles that shapes how competitively the bacteria form root nodules and how different host plant genotypes respond. Not yet peer-reviewed.",
+   "rel": {
+    "agrifood": {
+     "score": 4,
+     "why": "Nitrogen-fixing symbiosis relevant to biofertilisers."
+    }
+   }
+  },
+  "16b2ab8b0e12": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Relocating a specialised metabolite gene cluster from the chromosome ends to the central region of Streptomyces ambofaciens raised its expression and product output, a preprint reports, suggesting chromosome position as a lever for strain engineering. Not yet peer-reviewed.",
+   "rel": {
+    "synbio": {
+     "score": 5,
+     "why": "Genome repositioning as a strain-engineering strategy."
+    },
+    "fermentation": {
+     "score": 4,
+     "why": "Higher product titres from an engineered production host."
+    }
+   }
+  },
+  "6f663b9ed59b": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint describes a protocol for cutting live 300-micrometre sections from human lung and cerebral organoids that stay viable at least seven days, preserving 3D architecture for virus infection studies. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "New organoid sectioning method for infection models."
+    }
+   }
+  },
+  "09c1ae6befee": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A preprint reports that a glycosylation-site mutation in the Oropouche virus Gc protein was associated with transmissible infection in Anopheles mosquitoes, suggesting the South American outbreak virus could acquire new vectors beyond biting midges. Not yet peer-reviewed.",
+   "rel": {
+    "biosecurity": {
+     "score": 5,
+     "why": "Possible vector expansion for an outbreak virus."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Oropouche transmission risk."
+    }
+   }
+  },
+  "c6fc4ed94076": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Using 15,074 directional growth measurements from 20 soil bacteria co-cultured under 39 carbon conditions, a preprint reports that role-aware line-graph neural networks predict pairwise microbial interactions and give interpretable features. Not yet peer-reviewed.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "Graph neural networks predicting microbial interactions."
+    },
+    "industrial": {
+     "score": 3,
+     "why": "Relevant to designing microbial consortia."
+    }
+   }
+  },
+  "c3ca8f25d08c": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint identifies three transporters in the apicoplast, an essential organelle of malaria parasites, with crucial roles across the life cycle, adding to the twelve previously known and pointing to possible drug targets. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Potential antimalarial targets."
+    }
+   }
+  },
+  "a518df68e3f4": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A preprint tests whether restoring wild-type gut microbiomes to captive bumble bees improves their health, a question relevant to pollinator rearing for agriculture. Not yet peer-reviewed.",
+   "rel": {
+    "agrifood": {
+     "score": 4,
+     "why": "Pollinator health in commercial rearing."
+    }
+   }
+  },
+  "95cd35e07ede": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "The MHRA issued a Class 3 medicines recall for one batch of Mercury Pharmaceuticals' Bexarotene 75 mg soft capsules (batch 5GJ0551) as a precaution, after black or blue spots were seen on several capsules during additional quality-limit testing at the pre-wholesaler's site.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Batch recall of a marketed oncology capsule in the UK."
+    }
+   }
+  },
+  "edec098ca8d8": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "The MHRA published updated guidance summarising its approach to pharmacovigilance procedures for companies holding UK marketing authorisations.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Sets out UK safety-monitoring obligations for drugmakers."
     }
    }
   }
@@ -34748,6 +35850,60 @@
     "bioprocessing": {
      "score": 6,
      "why": "Builds viral vector contract manufacturing capacity in Australia."
+    }
+   }
+  },
+  {
+   "id": "2026-11-25-enough-food-mycoprotein-plant",
+   "title": "ENOUGH Food weighs future of mycoprotein plant as production challenges force rethink",
+   "url": "https://agfundernews.com/exclusive-enough-food-weighs-future-of-mycoprotein-plant-as-production-challenges-force-rethink",
+   "source": "AgFunderNews",
+   "kind": "news",
+   "published": "2026-11-25T09:00:00Z",
+   "cat": "other",
+   "imp": 7,
+   "summary": "Mycoprotein producer ENOUGH Food is exploring strategic options for its fermentation plant in Sas van Gent, the Netherlands, including a sale, a partnership or another use, after three years of operational problems. Cofounder Jim Laird told AgFunderNews the plant never reached design capacity, mainly because it could not sustain the target number of days of continuous operation. The company has raised more than $120 million in grant and equity funding. It is one of Europe's largest fermentation-derived protein plants, so its fate is a test of whether precision and biomass fermentation can scale economically.",
+   "rel": {
+    "fermentation": {
+     "score": 9,
+     "why": "A flagship European biomass fermentation plant failing to reach design capacity."
+    },
+    "agrifood": {
+     "score": 8,
+     "why": "Mycoprotein supply for alternative protein brands is at stake."
+    },
+    "industrial": {
+     "score": 6,
+     "why": "Shows the scale-up economics of industrial fermentation."
+    },
+    "investment": {
+     "score": 5,
+     "why": "More than $120 million of grant and equity funding is exposed."
+    }
+   }
+  },
+  {
+   "id": "2026-11-24-pferrinx-brazil-lactoferrin",
+   "title": "PFerrinX plans Brazil lactoferrin production launch in Q4 2027, targets 100 tons at scale",
+   "url": "https://agfundernews.com/exclusive-pferrinx-plans-brazil-lactoferrin-production-launch-in-q4-2027-targets-100-tons-at-scale",
+   "source": "AgFunderNews",
+   "kind": "news",
+   "published": "2026-11-24T09:00:00Z",
+   "cat": "other",
+   "imp": 6,
+   "summary": "PFerrinX, a US precision-fermentation company co-owned by De Novo Foodlabs and Earth First Food Ventures, plans to make bovine lactoferrin in Brazil under the Ferrina Biotech brand, with production going live in the fourth quarter of 2027 and 100 metric tons a year at full capacity. It is targeting 300 tons over the next decade across Brazil and Asia. Lactoferrin from dairy costs about $300 a kilo, which is the gap fermentation-made protein aims to close for infant formula and supplements.",
+   "rel": {
+    "fermentation": {
+     "score": 8,
+     "why": "Commercial-scale precision fermentation of a high-value milk protein."
+    },
+    "agrifood": {
+     "score": 7,
+     "why": "Lactoferrin supply for infant formula and nutrition markets."
+    },
+    "industrial": {
+     "score": 5,
+     "why": "New biomanufacturing capacity in Brazil."
     }
    }
   }
