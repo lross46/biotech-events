@@ -26,10 +26,12 @@ for (const s of src.sources || []) {
 }
 
 const ids = new Set((news.items || []).map((i) => i.id));
+// Follow dup chains (A -> B -> C): B may be pruned while A is still in the feed; what matters is that C exists.
+const root = (id) => { const seen = new Set(); while (ai.items?.[id]?.dup && !seen.has(id)) { seen.add(id); id = ai.items[id].dup; } return id; };
 function checkReview(where, a) {
   if (a.drop) return;
   // Only check a dup while its own story is still in the feed: once that story is pruned, its original may be gone too.
-  if (a.dup) { if (where.startsWith("review ") && !ids.has(where.slice(7))) return; if (!ids.has(a.dup) && !(ai.extra || []).some((x) => x.id === a.dup)) err(where, `dup points to unknown story ${a.dup}`); return; }
+  if (a.dup) { if (where.startsWith("review ") && !ids.has(where.slice(7))) return; const t = root(a.dup); if (!ids.has(t) && !(ai.extra || []).some((x) => x.id === t)) err(where, `dup points to unknown story ${a.dup}`); return; }
   if (!a.summary) err(where, "missing summary");
   if (!CATS.includes(a.cat)) err(where, `cat must be one of ${CATS.join(", ")}`);
   if (!Number.isInteger(a.imp) || a.imp < 0 || a.imp > 10) err(where, "imp must be a whole number 0-10");
