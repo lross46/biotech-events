@@ -1,86 +1,79 @@
 {
- "updated": "2026-11-26T06:46:19Z",
+ "updated": "2026-11-27T06:45:35Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-26T07:30:00Z",
+  "date": "2026-11-27T06:45:35Z",
   "points": [
    {
     "sec": "results",
-    "text": "Bristol Myers Squibb's oral TYK2 inhibitor Sotyktu met the primary endpoint in one of two phase 3 lupus trials and missed in the other, muddying a key growth bet. GSK's twice-yearly Exdensur matched monthly Nucala on remission in EGPA vasculitis and is heading for filings as a possible first ultra-long-acting option. Arcus stopped its phase 3 PRISM-1 trial of the CD73 inhibitor quemliclustat in pancreatic cancer after an interim look showed no survival gain. In Brazil, a large trial found releasing Wolbachia-infected mosquitoes sharply cut dengue in children, and phase 3 STEP Young showed semaglutide cut weight in children aged 6 to under 12, with over a third dropping below the obesity threshold. Smaller wins: Desentum's short-course birch pollen immunotherapy hit its phase 2 endpoint, and Spark Biomedical's ear neurostimulation made opioid patients 6.9 times more likely to stay in treatment.",
+    "text": "A quiet, US-holiday day for trial news, led by NEJM's full publication of Roche's phase 3 lidERA trial: the oral SERD giredestrant improved invasive disease-free survival over standard endocrine therapy as adjuvant treatment for ER-positive, HER2-negative early breast cancer, and an editorial asks whether SERDs now open a new era in early disease. NEJM also published an analysis of blood-pressure lowering across the whole range of cardiovascular risk. In Korea, Handok's teneligliptin cut HbA1c about 0.7 points more than placebo when added to metformin and empagliflozin. Smaller items: Gabather dosed its first schizophrenia patient in a phase 2 study, and a small trial found omega-3 plus aspirin matched antibiotics in severe gum disease.",
     "ids": [
-     "3827df8fdb2e",
-     "ecd5a9460578",
-     "97000879829f",
-     "088fac6ff95c",
-     "825e070bb2f8",
-     "3f14121a0a13"
+     "f4d0b5b79193",
+     "ee8e9551fe14",
+     "78223c85a844",
+     "6a8a3f4d1f36"
     ]
    },
    {
     "sec": "science",
-    "text": "Nature led with an extremophile fungal gene that raised both drought resilience and yield in wheat, rice and maize, breaking a trade-off that has dogged climate-resilient breeding, and with an enzymatic 'living polymerisation' route to polysaccharides of defined length, a controllable way to make biopolymers outside natural biosynthesis. Two papers mapped how type I CRISPR-associated transposases integrate DNA, including a redesigned TnsA, moving large-insert genome editing closer to a usable tool. An AI platform, ORIDTP, designed dual-target peptides with efficacy in animals for obesity, diabetes and cancer, and a single-cell multi-omic map linked coronary artery disease variants to cell types and genes. Exome data from 1.4 million people implicated 207 height genes, some shifting height up to 17 cm, and Cell reported genome writing recreating X-linked dystonia-parkinsonism in mice.",
+    "text": "Science published RFdiffusion3, the next version of the leading AI protein-design model, which designs proteins around functional sites specified atom by atom, a step towards made-to-order enzymes and binders. Also in Science, Max Planck researchers engineered a protein 'glue', TALhesin, that restored chromosome cohesion in eggs from older mice (47% to 74% of eggs normal), with human-egg work now starting. On the industrial side, Nature reported binuclear copper enzymes that halogenate molecules selectively, a greener route to many drug and agrochemical building blocks, and Nature Chemical Biology showed Cas12m, thought to only silence genes, can also cut DNA. Nature Medicine reported 20-year durability data for implanted brain-computer interface arrays. Synthetic biology preprints described RNA strand-exchange circuits running in living cells. Research integrity: former NIA neuroscientist Eliezer Masliah has reached 32 retractions.",
     "ids": [
-     "51281c52efc4",
-     "63f8b3d9dd19",
-     "0c09f7c32e12",
-     "b0649eec392a",
-     "5482b601006c",
-     "18f1a130502b"
+     "e259ab308608",
+     "e48173f5a40d",
+     "ffc5f1a041f3",
+     "c05110c41ad2",
+     "f06045383a9c",
+     "199ee60bdf92"
     ]
    },
    {
     "sec": "approvals",
-    "text": "Cogent Biosciences won FDA approval for Ekitna (bezuclastinib) with Pfizer's Sutent in previously treated gastrointestinal stromal tumours, the first new second-line option there in two decades and Cogent's first commercial product. Thermo Fisher gained expanded FDA clearance for its EXENT mass-spectrometry analyser to help monitor two blood cancers. Amgen settled with Bristol Myers and Ono to launch a US Opdivo biosimilar on 1 October 2028, with an FDA decision on its application expected by year-end, while Belite Bio's tinlarebant review slipped three months to 12 May. In the UK, the MHRA recalled a batch of bexarotene capsules over visible particles and published updated pharmacovigilance guidance.",
+    "text": "The UK MHRA approved Menarini's obicetrapib (Ubeslo), an oral CETP inhibitor that cut LDL cholesterol by 33–36% in two year-long trials, plus a combination tablet with ezetimibe. Its monthly safety roundup set heart and electrolyte monitoring for the Duchenne drug givinostat after deaths abroad. Korea's MFDS told patients to stop GLP-1 drugs before pregnancy, warned of a possible optic-nerve risk across the class and tightened obesity-use criteria. In diagnostics, Singapore registered Gene Solutions' SPOT-MAS 10 as what the company calls the country's first blood-based multi-cancer screening IVD. The FDA also issued a warning letter to Indian generics maker Alkem over tablet quality failures, and Korea cleared early-stage trials for Daewoong's TEAD inhibitor.",
     "ids": [
-     "f55eacedcd3f",
-     "539c64969e95",
-     "088fac6ff95c",
-     "95cd35e07ede"
+     "fe769e0b20e3",
+     "02792dc17001",
+     "8a07065edee1",
+     "6166d3eaaad1",
+     "2026-11-25-alkem-fda-warning-letter"
     ]
    },
    {
     "sec": "policy",
-    "text": "Bayer is pulling its heart and kidney blockbuster Kerendia out of Germany after a reimbursement dispute, an unusually sharp signal in the widening fight between drugmakers and European payers over prices. CMS confirmed 2028 Medicare prices for 13 drugs in the third negotiation round, the first to include Part B products, which it says would have cut spending on them by $9.2 billion at 2025 prices. The House Select Committee on China issued its final report warning that US inefficiency plus Chinese capability is hollowing out domestic drug innovation, and a STAT op-ed argued both Washington's and Beijing's new investment curbs are the wrong tool, with Treasury comments due 7 December. US data also showed international graduate enrolment down 15% and biomedical PhD starts down about 30% since 2024, and Korean diabetologists said reimbursement rules block guideline-based care.",
+    "text": "A GFI Europe analysis found Europe still leads public funding for alternative-protein research (€1.27bn in 2020–2025, 30% of researchers), but China's output grew 92% in two years and it has led in patents since 2023. Korean oncologists said new cancer drugs take 46 months on average to reach reimbursement there and proposed conditional coverage. The Lancet reported on the race to lead WHO, where trust in the agency dominated the first candidates' forum, and two NEJM perspectives attacked the US HHS review of pediatric gender-dysphoria care.",
     "ids": [
-     "a6087b284607",
-     "2026-11-23-cms-negotiated-prices-2028",
-     "54b1007c94a9",
-     "47e774ac6a2e",
-     "7229a8683f8e"
+     "f4948bea89af",
+     "b6915ef5409f",
+     "4d52acdf5852",
+     "b25ad6cc1f05"
     ]
    },
    {
     "sec": "money",
-    "text": "Bayer became the latest Big Pharma to buy into Hansoh's pipeline, paying $150 million upfront in a deal worth up to about $3.3 billion for a phase 1 antibody-drug conjugate, as China out-licensing continues regardless of policy noise. BioNTech's cofounders are reported to be raising about $1 billion, led by Plural, for a new mRNA cancer company, which would be among the largest start-up rounds the sector has seen. Kymera closed its upsized $1.75 billion offering after its STAT6 degrader's eczema win. Smaller rounds spread wider: Shanghai's CirCode Biomed closed a Series A+ for circular RNA drugs, Schrödinger signed a €22 million biologics collaboration with sequencing-automation firm Enpicom, UK enzyme start-up Zya raised £11.5 million to turn food sugar into fibre, and March Biosciences took up to $5.4 million in Texas and NCI grants for a liver cancer CAR-T.",
+    "text": "Deal flow was thin over the US holiday, with this week still defined by Sanofi's $41bn Insmed acquisition. New items were small: TVM Capital invested in the CRO HiRO to grow its Southeast Asian trial platform, Japan's IntegriCulture and Korea's SeaWith agreed to cross-sell cell-cultured cosmetic ingredients, and the UK's alternative-protein centre NAPIC is funding Cranfield University and HyphaPro to make an egg protein by precision fermentation in fungi.",
     "ids": [
-     "abdefc56b7d6",
-     "3ef489a07a8d",
-     "3f4fba47b43f",
-     "ea686be6dd4c",
-     "9c8577dde76d",
-     "2209a9da4089"
+     "e7594ed6464b",
+     "918b0931506e",
+     "0d9ed074d3c1"
     ]
    },
    {
     "sec": "companies",
-    "text": "The fallout from Sanofi's $41 billion Insmed deal dominated, with Bristol Myers also losing its CFO weeks after an R&D overhaul. Pharming paused production of Ruconest for hereditary angioedema attacks after problems at a third-party manufacturer and warned the FDA of possible supply interruption. In fermentation, ENOUGH Food is weighing a sale, partnership or change of use for its Dutch mycoprotein plant after three years in which it never reached design capacity despite over $120 million raised, while PFerrinX set out plans for 100 tonnes a year of fermentation-made lactoferrin in Brazil from late 2027. Alternative-protein patent filings fell for a third year, down 22% for plant-based and 13% for cultivated meat. Medtech third-quarter results showed a surgery slowdown hitting J&J, Stryker, Boston Scientific and Intuitive, and ten23 added sterile fill-finish capacity.",
+    "text": "Carbios ended its partnership with China's Wankai, losing its Asian exclusivity deal, but said banks have approved full senior debt for its enzymatic PET recycling plant at Longlaville, conditional on pre-selling 70% of capacity, while it still seeks equity. A US court blocked Alvotech's golimumab biosimilar AVT05 with a preliminary injunction over a manufacturing patent; Alvotech will appeal. Cytiva launched an automated filtration system made in India for Asian biomanufacturers, Pfizer launched its maternal RSV vaccine Abrysvo in Korea, and families in the ByHeart infant-formula botulism litigation moved to sue the company's founders personally.",
     "ids": [
-     "e686b4e44a33",
-     "2026-11-25-enough-food-mycoprotein-plant",
-     "29f16bd2c465",
-     "5256835785dd",
-     "03c01e5c7e23",
-     "2026-11-24-pferrinx-brazil-lactoferrin"
+     "305fb221eee7",
+     "3e32d5b6b483",
+     "2026-11-26-cytiva-india-made-tff",
+     "95be66cac47c",
+     "81488a6b2d1a"
     ]
    },
    {
     "sec": "biodef",
-    "text": "H5N1 pressure keeps building in North America: 26 dairy-herd detections in 30 days, 17 of them in Washington's Yakima Valley, three human cases among dairy workers there and one death, described as the first reported globally after exposure to infected cattle, plus 4.02 million birds affected in 32 US poultry flocks and a Mexican zoo closed after infections in a tigrillo and a spider monkey. Korea's KDCA set out its round-the-clock Ebola testing and referral system as the DRC outbreak continues, reporting three suspected haemorrhagic fever cases that all tested negative. Nature reported recorded dengue cases have risen 34-fold in 34 years, and a preprint found a glycosylation mutation that let Oropouche virus spread in Anopheles mosquitoes, hinting at vector expansion beyond midges.",
+    "text": "In Australia, the red imported fire ant outbreak in Sydney is being described as a disaster, partly blamed on biosecurity recommendations that were not acted on. China said it broke up a cross-border ring smuggling blood samples, citing biosecurity concerns, as it tightens control over human biological samples. Nature Medicine's measles wastewater study also showed how environmental genomics can catch hidden transmission.",
     "ids": [
-     "e822d43acd9c",
-     "6ecb9d938e5a",
-     "ad464458a62e",
-     "09c1ae6befee"
+     "9675719e1947",
+     "80c23f9c05fb",
+     "6106d689463a"
     ]
    }
   ]
@@ -31772,45 +31765,6 @@
     }
    }
   },
-  "26c7008d9ac4": {
-   "drop": true
-  },
-  "4760e2394346": {
-   "drop": true
-  },
-  "1e514c0a4d68": {
-   "drop": true
-  },
-  "032da4bcd98e": {
-   "drop": true
-  },
-  "74b250b92676": {
-   "drop": true
-  },
-  "34fce8a8a1ef": {
-   "dup": "1d227e306c74"
-  },
-  "c2eb458a930c": {
-   "dup": "3f4fba47b43f"
-  },
-  "a60c0b89bb1a": {
-   "drop": true
-  },
-  "92dcdb7f48ab": {
-   "drop": true
-  },
-  "69d37ed6fa6d": {
-   "drop": true
-  },
-  "411d9bb64474": {
-   "drop": true
-  },
-  "88315916dcbf": {
-   "drop": true
-  },
-  "ab4857cda25f": {
-   "drop": true
-  },
   "329a6f12107d": {
    "cat": "policy",
    "imp": 4,
@@ -32390,254 +32344,8 @@
   "5519930aba67": {
    "drop": true
   },
-  "9dd1d70d170a": {
-   "drop": true
-  },
-  "22d55770cc9b": {
-   "drop": true
-  },
-  "fbed8385e554": {
-   "drop": true
-  },
-  "4b372236f6ca": {
-   "drop": true
-  },
-  "34bd02eb4189": {
-   "drop": true
-  },
-  "b239b808a5f1": {
-   "drop": true
-  },
-  "f3e692b76328": {
-   "drop": true
-  },
-  "d8d2f9492842": {
-   "drop": true
-  },
-  "62eac6f2fb48": {
-   "drop": true
-  },
-  "97dd8973a055": {
-   "drop": true
-  },
-  "6383362b2e18": {
-   "drop": true
-  },
-  "67fdf1ac0ec5": {
-   "drop": true
-  },
-  "616599f2a1de": {
-   "drop": true
-  },
-  "fe3121501f19": {
-   "drop": true
-  },
-  "ce953855d70e": {
-   "drop": true
-  },
-  "58c63590cabf": {
-   "drop": true
-  },
-  "2ce6cf59a503": {
-   "drop": true
-  },
-  "063432e61894": {
-   "drop": true
-  },
-  "d9466dc0b95b": {
-   "drop": true
-  },
-  "f3621625bf8c": {
-   "drop": true
-  },
-  "03c2de154358": {
-   "drop": true
-  },
-  "f88bb343cc41": {
-   "drop": true
-  },
-  "e93506014115": {
-   "drop": true
-  },
-  "b835a840d3e4": {
-   "drop": true
-  },
-  "0634083d92e8": {
-   "drop": true
-  },
-  "222a70da7741": {
-   "drop": true
-  },
-  "3824cacba138": {
-   "drop": true
-  },
-  "c7b0dada5197": {
-   "drop": true
-  },
-  "c4bb12da4322": {
-   "drop": true
-  },
-  "e3dd870ab1c1": {
-   "drop": true
-  },
-  "5c49744d66ab": {
-   "drop": true
-  },
-  "10f2730bcb4c": {
-   "drop": true
-  },
-  "38d388d358a6": {
-   "drop": true
-  },
-  "4cc0f4240e41": {
-   "drop": true
-  },
-  "7ec29d807dbe": {
-   "drop": true
-  },
-  "3ab122ee82dc": {
-   "drop": true
-  },
-  "a6526fc73c56": {
-   "drop": true
-  },
-  "cae7900b7b4c": {
-   "drop": true
-  },
-  "d41f8e6a4063": {
-   "drop": true
-  },
-  "2b6c04f6efff": {
-   "drop": true
-  },
-  "c4e90e4f9376": {
-   "drop": true
-  },
-  "a0f5bc9dc56f": {
-   "drop": true
-  },
-  "02f353ff22b1": {
-   "drop": true
-  },
-  "2f29a2c32579": {
-   "drop": true
-  },
-  "d36e811e6732": {
-   "drop": true
-  },
-  "4eca55be271f": {
-   "drop": true
-  },
-  "ff86ac5e2b0b": {
-   "drop": true
-  },
-  "3fbcab4c5e0c": {
-   "drop": true
-  },
-  "2e67318f5db8": {
-   "drop": true
-  },
-  "e14d61d760d7": {
-   "drop": true
-  },
-  "dac2a8196bfb": {
-   "drop": true
-  },
-  "ebc94fda6110": {
-   "drop": true
-  },
-  "ea0e7bb8fc3b": {
-   "drop": true
-  },
-  "6708b8a7c692": {
-   "drop": true
-  },
-  "ed0add9ef12c": {
-   "drop": true
-  },
-  "9630e640f37f": {
-   "drop": true
-  },
-  "5bf098e4ffbb": {
-   "drop": true
-  },
-  "0b314056b25f": {
-   "drop": true
-  },
-  "22915c63249e": {
-   "drop": true
-  },
-  "709473d66a78": {
-   "drop": true
-  },
-  "fdeb34e1c98e": {
-   "drop": true
-  },
-  "30bfdd5c7191": {
-   "drop": true
-  },
-  "2445fc4b6c5e": {
-   "drop": true
-  },
-  "1652dfddefee": {
-   "drop": true
-  },
-  "a850128fc4bd": {
-   "drop": true
-  },
-  "f62d6907e819": {
-   "drop": true
-  },
-  "78f156d9536f": {
-   "drop": true
-  },
-  "96b35ce65b74": {
-   "drop": true
-  },
-  "caa88a34c27d": {
-   "drop": true
-  },
-  "ee778fe7aaff": {
-   "drop": true
-  },
   "004056a2ddeb": {
    "dup": "2026-11-23-cms-negotiated-prices-2028"
-  },
-  "666e986c74ad": {
-   "dup": "e686b4e44a33"
-  },
-  "c2819c04d7e3": {
-   "dup": "c71d2f3f284d"
-  },
-  "64a5544f102d": {
-   "dup": "e686b4e44a33"
-  },
-  "4b9f7391ad67": {
-   "dup": "e686b4e44a33"
-  },
-  "2c9478fe9756": {
-   "dup": "e686b4e44a33"
-  },
-  "491caa6d13b4": {
-   "dup": "1d227e306c74"
-  },
-  "427db492e630": {
-   "dup": "3f4fba47b43f"
-  },
-  "052ee66449c5": {
-   "dup": "40868eb33b33"
-  },
-  "6bc292900158": {
-   "dup": "979f2cdfe213"
-  },
-  "41105c51cda1": {
-   "dup": "979f2cdfe213"
-  },
-  "6a9f70dd6e77": {
-   "dup": "e686b4e44a33"
-  },
-  "f245f31fc18a": {
-   "dup": "e686b4e44a33"
   },
   "e9b931ccc21e": {
    "cat": "other",
@@ -32744,9 +32452,6 @@
     }
    }
   },
-  "94e901923161": {
-   "dup": "e686b4e44a33"
-  },
   "c6f5bebd48a1": {
    "cat": "other",
    "imp": 5,
@@ -32840,9 +32545,6 @@
      "why": "Cost discipline at a recently commercial cell therapy company."
     }
    }
-  },
-  "1b6efd08ad0f": {
-   "drop": true
   },
   "d9ec58493318": {
    "cat": "other",
@@ -33234,288 +32936,6 @@
   "a55dbc0fea09": {
    "dup": "eeece3668fba"
   },
-  "b480171ef7fa": {
-   "dup": "b6fcadbe43b5"
-  },
-  "794342d38870": {
-   "dup": "84cd714b0375"
-  },
-  "6133b93283ea": {
-   "drop": true
-  },
-  "b1ef7c26ae0e": {
-   "drop": true
-  },
-  "32ae5ed0e522": {
-   "drop": true
-  },
-  "6a5a93a49d5c": {
-   "drop": true
-  },
-  "c94d4dd0751d": {
-   "drop": true
-  },
-  "400e38d58b08": {
-   "drop": true
-  },
-  "322c07785909": {
-   "drop": true
-  },
-  "adad8a56ea11": {
-   "drop": true
-  },
-  "b9a95c5fdc58": {
-   "drop": true
-  },
-  "f5f4cb46ccf9": {
-   "drop": true
-  },
-  "3bddcf1d4d5f": {
-   "drop": true
-  },
-  "db4d3d2605d9": {
-   "drop": true
-  },
-  "ba59d4a9d848": {
-   "drop": true
-  },
-  "431f56370e8c": {
-   "drop": true
-  },
-  "3c55a466589d": {
-   "drop": true
-  },
-  "2fe6c75c6897": {
-   "drop": true
-  },
-  "80a68db7bc40": {
-   "drop": true
-  },
-  "715b74dfb958": {
-   "drop": true
-  },
-  "b4faeccc0a3b": {
-   "drop": true
-  },
-  "ac581d0dc72e": {
-   "drop": true
-  },
-  "4e13c6ea513e": {
-   "drop": true
-  },
-  "891798a4ff51": {
-   "drop": true
-  },
-  "a9f672b4d736": {
-   "drop": true
-  },
-  "900db8730271": {
-   "drop": true
-  },
-  "7e1841113022": {
-   "drop": true
-  },
-  "e6b4cba648b7": {
-   "drop": true
-  },
-  "36eecef30aed": {
-   "dup": "87767322f59f"
-  },
-  "9d4d3a1f22a7": {
-   "drop": true
-  },
-  "4561c5b354f2": {
-   "drop": true
-  },
-  "1899a4aef379": {
-   "dup": "f17afb070bb8"
-  },
-  "7a75a19a8a1f": {
-   "drop": true
-  },
-  "4709dbe21e48": {
-   "drop": true
-  },
-  "406efb4ccd97": {
-   "drop": true
-  },
-  "ce43626e7626": {
-   "dup": "68110f7dd02f"
-  },
-  "9ce2170ded38": {
-   "drop": true
-  },
-  "93aa0cf86ec7": {
-   "drop": true
-  },
-  "26508ae8c367": {
-   "drop": true
-  },
-  "589593d3e165": {
-   "dup": "13cada26f502"
-  },
-  "dd28de888c59": {
-   "drop": true
-  },
-  "5bdf264887ea": {
-   "drop": true
-  },
-  "8a7759b62a9c": {
-   "drop": true
-  },
-  "e441aee98ef7": {
-   "dup": "11f32c2292d2"
-  },
-  "c983dfd0a249": {
-   "drop": true
-  },
-  "300cc615e318": {
-   "drop": true
-  },
-  "3d94e8dac93e": {
-   "drop": true
-  },
-  "62350a95df5d": {
-   "drop": true
-  },
-  "bf86288b5bd7": {
-   "drop": true
-  },
-  "77ac102a5759": {
-   "dup": "65d8f40ba93a"
-  },
-  "f75660b0eba2": {
-   "drop": true
-  },
-  "73c78aa6eff9": {
-   "drop": true
-  },
-  "0331ad607814": {
-   "drop": true
-  },
-  "60ca96c60af5": {
-   "drop": true
-  },
-  "5af1b5fd9716": {
-   "drop": true
-  },
-  "21a58a21c872": {
-   "drop": true
-  },
-  "6a80f725e27e": {
-   "drop": true
-  },
-  "e4bf6cde5e7a": {
-   "drop": true
-  },
-  "a1a36cadb31e": {
-   "drop": true
-  },
-  "06295a98e103": {
-   "drop": true
-  },
-  "7a5cd2f12175": {
-   "drop": true
-  },
-  "e1be469f1156": {
-   "drop": true
-  },
-  "b7603e2873d1": {
-   "drop": true
-  },
-  "e976d78ff5fb": {
-   "drop": true
-  },
-  "bf41f0a6347c": {
-   "drop": true
-  },
-  "3c2e55f07dfe": {
-   "drop": true
-  },
-  "843785d32d84": {
-   "drop": true
-  },
-  "a836c0e24b4b": {
-   "dup": "2d75e27c9a10"
-  },
-  "64639c5eec3a": {
-   "drop": true
-  },
-  "cf8630d40b0b": {
-   "drop": true
-  },
-  "e1784aa1cbbb": {
-   "drop": true
-  },
-  "9010867c084c": {
-   "drop": true
-  },
-  "1b2183e27892": {
-   "drop": true
-  },
-  "1fb975e5f71e": {
-   "drop": true
-  },
-  "fa0dceed502f": {
-   "drop": true
-  },
-  "8fe599d3b4bd": {
-   "drop": true
-  },
-  "b04bce038039": {
-   "drop": true
-  },
-  "7e8ed7480155": {
-   "drop": true
-  },
-  "5d68172d63ea": {
-   "drop": true
-  },
-  "e11cde29ba2c": {
-   "drop": true
-  },
-  "ef6a19346e4b": {
-   "drop": true
-  },
-  "23db4f95cb9a": {
-   "drop": true
-  },
-  "a270600798e7": {
-   "drop": true
-  },
-  "13b9ccaeb373": {
-   "drop": true
-  },
-  "71c5a02835e1": {
-   "drop": true
-  },
-  "2d356bb6adee": {
-   "drop": true
-  },
-  "4c8c3576893a": {
-   "dup": "0c7ddf6efb5f"
-  },
-  "5808043873d9": {
-   "dup": "e2cafcde1028"
-  },
-  "6f227a931927": {
-   "drop": true
-  },
-  "323b14b6367b": {
-   "drop": true
-  },
-  "8ac628a7c95f": {
-   "drop": true
-  },
-  "717f80e7fb0a": {
-   "drop": true
-  },
-  "c6f053ba39cd": {
-   "drop": true
-  },
-  "b6bcaec118c6": {
-   "drop": true
-  },
   "efa0fca7582a": {
    "drop": true
   },
@@ -33651,21 +33071,6 @@
   "f0d12dba6473": {
    "drop": true
   },
-  "3bc547f2bc40": {
-   "drop": true
-  },
-  "6595cc199d99": {
-   "drop": true
-  },
-  "881a7b2eb8bf": {
-   "drop": true
-  },
-  "8ef80a22de35": {
-   "drop": true
-  },
-  "a9d1e324ac71": {
-   "drop": true
-  },
   "855dff56c632": {
    "drop": true
   },
@@ -33705,9 +33110,6 @@
   "a36e7cf41d98": {
    "drop": true
   },
-  "531f72bee2a2": {
-   "drop": true
-  },
   "4c79422f8ae6": {
    "drop": true
   },
@@ -33718,9 +33120,6 @@
    "drop": true
   },
   "ce33162dc67e": {
-   "drop": true
-  },
-  "ec064b182e6e": {
    "drop": true
   },
   "b253d6a91048": {
@@ -33765,38 +33164,17 @@
   "b038fe50f359": {
    "dup": "eed11edeb1f2"
   },
-  "3ab755483ccf": {
-   "dup": "eed11edeb1f2"
-  },
   "20300bbaef89": {
    "dup": "efd7eef444b5"
   },
   "f7e843aa4f17": {
    "dup": "3f4fba47b43f"
   },
-  "e8a8cbfab5b9": {
-   "dup": "0f0310b9aa87"
-  },
-  "3863df2dad4f": {
-   "dup": "1b69813af09c"
-  },
-  "e6759e6d095a": {
-   "dup": "63f8b3d9dd19"
-  },
-  "f7a0ca6f672e": {
-   "dup": "5482b601006c"
-  },
   "e7bf66dd53a3": {
    "dup": "3ef489a07a8d"
   },
   "f26d05e87db0": {
    "dup": "47e774ac6a2e"
-  },
-  "48744a5f5eb7": {
-   "dup": "979f2cdfe213"
-  },
-  "90a0e1dd1022": {
-   "dup": "1d227e306c74"
   },
   "088fac6ff95c": {
    "cat": "other",
@@ -34495,9 +33873,6 @@
     }
    }
   },
-  "03d0e64b6457": {
-   "dup": "825e070bb2f8"
-  },
   "8069aa7df4bf": {
    "cat": "science",
    "imp": 4,
@@ -34741,6 +34116,962 @@
     "pharma": {
      "score": 4,
      "why": "Sets out UK safety-monitoring obligations for drugmakers."
+    }
+   }
+  },
+  "f41982ea77a2": {
+   "dup": "385b6b8d84ab"
+  },
+  "975e81055654": {
+   "drop": true
+  },
+  "9ee8c191e9a9": {
+   "drop": true
+  },
+  "ae2c2f2af8f1": {
+   "drop": true
+  },
+  "9a2dd950b995": {
+   "drop": true
+  },
+  "39d646e1f805": {
+   "drop": true
+  },
+  "97139d895214": {
+   "drop": true
+  },
+  "2a867e9caa3f": {
+   "dup": "cce1e8a0867c"
+  },
+  "17889d68391c": {
+   "dup": "ab5869ce7dde"
+  },
+  "263a3f3caf04": {
+   "drop": true
+  },
+  "5054295fd008": {
+   "drop": true
+  },
+  "902645308a9e": {
+   "dup": "bc823937dab7"
+  },
+  "0714e07ec9b8": {
+   "dup": "bc823937dab7"
+  },
+  "0d0fe8cb2dee": {
+   "dup": "40868eb33b33"
+  },
+  "c38f0a67d86a": {
+   "dup": "04291cd45243"
+  },
+  "976e6e475b99": {
+   "dup": "ab5869ce7dde"
+  },
+  "d955e170eb15": {
+   "dup": "0f72ebb7fb82"
+  },
+  "267662145bbc": {
+   "dup": "80b54054d2b5"
+  },
+  "7b7087c423e0": {
+   "dup": "1d227e306c74"
+  },
+  "8e40e2a90449": {
+   "dup": "1d227e306c74"
+  },
+  "56355854f5d0": {
+   "dup": "979f2cdfe213"
+  },
+  "f71f279d1909": {
+   "dup": "979f2cdfe213"
+  },
+  "cc9a3e48b4de": {
+   "dup": "54b1007c94a9"
+  },
+  "9b8bb6fca945": {
+   "dup": "7033247a9022"
+  },
+  "5f898b161db3": {
+   "dup": "2026-11-23-cms-negotiated-prices-2028"
+  },
+  "6ac387559368": {
+   "dup": "2026-11-23-cms-negotiated-prices-2028"
+  },
+  "90ae09a68dbe": {
+   "drop": true
+  },
+  "820c7a3482a0": {
+   "drop": true
+  },
+  "3817c6142272": {
+   "drop": true
+  },
+  "9298da5d93ae": {
+   "drop": true
+  },
+  "8a1a1c2fbf81": {
+   "dup": "6f0b69c863c4"
+  },
+  "e76cde0fccb3": {
+   "drop": true
+  },
+  "627c2f8070d6": {
+   "drop": true
+  },
+  "07f21725217d": {
+   "drop": true
+  },
+  "b261d9381863": {
+   "drop": true
+  },
+  "33447ee16cb5": {
+   "drop": true
+  },
+  "ccc14dfa7ecf": {
+   "drop": true
+  },
+  "bb9d8b8ec19c": {
+   "drop": true
+  },
+  "4e43af49351c": {
+   "drop": true
+  },
+  "6895caf56282": {
+   "drop": true
+  },
+  "d23d45ec2d3a": {
+   "drop": true
+  },
+  "d9ca5d3cfcdd": {
+   "drop": true
+  },
+  "20521c33baf8": {
+   "drop": true
+  },
+  "ed59cac9cb20": {
+   "drop": true
+  },
+  "177b5a82f954": {
+   "drop": true
+  },
+  "924cc232c6fd": {
+   "drop": true
+  },
+  "28d116671d65": {
+   "drop": true
+  },
+  "c4abcfcedc30": {
+   "drop": true
+  },
+  "c9f2ae0be47f": {
+   "drop": true
+  },
+  "117aae1623ca": {
+   "drop": true
+  },
+  "9aa3c52daa02": {
+   "drop": true
+  },
+  "71fdc5e86e0b": {
+   "drop": true
+  },
+  "3410a3a32c4f": {
+   "drop": true
+  },
+  "95fd5590299f": {
+   "drop": true
+  },
+  "853f91393b8c": {
+   "drop": true
+  },
+  "5f7954c5c2aa": {
+   "drop": true
+  },
+  "37d89b69cd66": {
+   "drop": true
+  },
+  "f0b1ac535edc": {
+   "drop": true
+  },
+  "2b4ffd35a9f8": {
+   "drop": true
+  },
+  "a6d3cd997921": {
+   "drop": true
+  },
+  "5055da58bc2b": {
+   "drop": true
+  },
+  "8a44324cbc09": {
+   "drop": true
+  },
+  "0f41725d515d": {
+   "drop": true
+  },
+  "2eefd8082bbc": {
+   "drop": true
+  },
+  "b907d9f6333a": {
+   "drop": true
+  },
+  "378ea7820b7b": {
+   "drop": true
+  },
+  "8c222f2b2b61": {
+   "drop": true
+  },
+  "62c9ab5851a4": {
+   "drop": true
+  },
+  "d4336bac1ec2": {
+   "drop": true
+  },
+  "3c025f8beabc": {
+   "drop": true
+  },
+  "9a105d43596d": {
+   "drop": true
+  },
+  "a2e38dc6d493": {
+   "drop": true
+  },
+  "e366a93242ec": {
+   "drop": true
+  },
+  "3290ad6b9377": {
+   "drop": true
+  },
+  "1a3931999cdc": {
+   "drop": true
+  },
+  "1504754b868b": {
+   "drop": true
+  },
+  "5df484c06490": {
+   "drop": true
+  },
+  "25b3db394835": {
+   "drop": true
+  },
+  "c3452eb9e69e": {
+   "drop": true
+  },
+  "63393d4f2933": {
+   "drop": true
+  },
+  "4c1cb0f8234c": {
+   "drop": true
+  },
+  "e94ada18eee9": {
+   "drop": true
+  },
+  "d6a2c747b77e": {
+   "drop": true
+  },
+  "83e5d862125d": {
+   "drop": true
+  },
+  "0364c1efb93d": {
+   "drop": true
+  },
+  "4c14094a6994": {
+   "drop": true
+  },
+  "568f47576a0f": {
+   "drop": true
+  },
+  "5adc85d60cd7": {
+   "drop": true
+  },
+  "6f5810efe492": {
+   "drop": true
+  },
+  "1bd4dba7ea88": {
+   "drop": true
+  },
+  "78dfcbf926f2": {
+   "drop": true
+  },
+  "ae55f18103d9": {
+   "drop": true
+  },
+  "0ab7f70e16c8": {
+   "drop": true
+  },
+  "6eabb660cadf": {
+   "drop": true
+  },
+  "9f611e5c35d5": {
+   "dup": "84cd714b0375"
+  },
+  "b19e0202ed57": {
+   "dup": "fe769e0b20e3"
+  },
+  "fe552efb5eb4": {
+   "dup": "b6758698640b"
+  },
+  "508d70c7c34e": {
+   "dup": "b25ad6cc1f05"
+  },
+  "764f5abc985e": {
+   "dup": "f4d0b5b79193"
+  },
+  "fe769e0b20e3": {
+   "cat": "regulatory",
+   "imp": 7,
+   "summary": "The UK MHRA approved Menarini's obicetrapib (Ubeslo), a once-daily CETP-inhibitor tablet, to lower LDL cholesterol in adults with primary hypercholesterolaemia or mixed dyslipidaemia, alone or with other lipid-lowering drugs. Two 52-week placebo-controlled studies showed LDL reductions of 36% and 33%, with the full effect reached by week four. The same day the MHRA also authorised a fixed-dose obicetrapib plus ezetimibe tablet (Evlarco) for patients not at goal on a statin and ezetimibe.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "New oral LDL-lowering drug class approved in the UK, a large cardiovascular market."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Adds an oral option for patients not reaching LDL targets on statins."
+    }
+   }
+  },
+  "f4d0b5b79193": {
+   "cat": "clinical",
+   "imp": 8,
+   "summary": "NEJM published the phase 3 lidERA trial of Roche's oral SERD giredestrant as adjuvant therapy in ER-positive, HER2-negative early breast cancer. The trial, first presented in December 2025, found giredestrant improved invasive disease-free survival compared with standard endocrine therapy. An accompanying editorial asks whether SERDs open a new era for early-stage disease.",
+   "rel": {
+    "pharma": {
+     "score": 9,
+     "why": "First adjuvant win for an oral SERD, a class many companies are developing."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Could change standard endocrine therapy for the most common breast cancer type."
+    }
+   }
+  },
+  "e48173f5a40d": {
+   "cat": "science",
+   "imp": 7,
+   "summary": "Max Planck researchers led by Melina Schuh engineered a protein system, TALhesin, that restores chromosome cohesion in eggs from older mice, raising properly connected chromatids from 47% to 74%, similar to young mice (Science). A built-in switch releases the chromosomes at fertilisation. The lab is adapting it for human eggs but has not tested it there yet; Ovo Labs has licensed the technology, and rival U-Ploid reported early human egg data at ASRM 2026.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "Targets the chromosome errors behind age-related IVF failure."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "An engineered protein tool designed to repair a cellular structure."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Licensed to fertility startup Ovo Labs."
+    }
+   }
+  },
+  "305fb221eee7": {
+   "cat": "other",
+   "imp": 7,
+   "summary": "Carbios ended its partnership with China's Wankai, including Asian exclusivity, because Wankai is refocusing on virgin PET; no technology had been transferred and Carbios is talking to other Asian recyclers about licences. For its Longlaville enzymatic PET recycling plant in France, partner banks approved the full senior debt, conditional on pre-sales covering 70% of capacity, and Bpifrance confirmed its guarantee. Equity investors are still being sought; a strategy webcast follows in Q1 2027.",
+   "rel": {
+    "industrial": {
+     "score": 9,
+     "why": "The flagship enzymatic plastic-recycling plant's financing and Asia strategy."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "Engineered-enzyme recycling is a leading synbio industrial case."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Plant still needs equity and offtake pre-sales."
+    }
+   }
+  },
+  "f4948bea89af": {
+   "cat": "policy",
+   "imp": 6,
+   "summary": "A GFI Europe analysis finds Europe committed €1.27bn of public money to alternative-protein research in 2020–2025 and has 30% of the world's researchers in the field, against 25% in China and 7% in the US. China is catching up fast: its research output rose 92% in 2023–2025 versus 60% in Europe, and it has led in patent families since 2023 (2,147 vs 1,451). GFI urges Europe to fund more technical research and tie science closer to industry.",
+   "rel": {
+    "agrifood": {
+     "score": 8,
+     "why": "Maps public funding and patents in alternative proteins by region."
+    },
+    "fermentation": {
+     "score": 6,
+     "why": "Precision and biomass fermentation are a large share of this research."
+    },
+    "investment": {
+     "score": 4,
+     "why": "Signals where public R&D money is going."
+    }
+   }
+  },
+  "6166d3eaaad1": {
+   "cat": "regulatory",
+   "imp": 6,
+   "summary": "Gene Solutions says Singapore's HSA registered its SPOT-MAS 10 blood test as a Class C diagnostic, which it calls the first blood-based multi-cancer screening kit registered as an IVD in Singapore. It is an adjunct screen for asymptomatic adults aged 40 or more at raised risk, and was studied in a prospective trial of 9,024 adults at 75 Vietnamese hospitals. The test has FDA breakthrough designation, not approval.",
+   "rel": {
+    "diagnostics": {
+     "score": 8,
+     "why": "Regulatory first for multi-cancer early detection in Asia."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Adds a screening option for higher-risk adults in Singapore."
+    }
+   }
+  },
+  "e259ab308608": {
+   "cat": "science",
+   "imp": 8,
+   "summary": "Science published RFdiffusion3, the latest version of the RFdiffusion generative protein-design model, which scaffolds functional sites at the level of individual atoms in biopolymers. Atom-level design lets researchers build enzymes and binders around a precise active site rather than just a backbone. Details beyond the title are behind the paywall.",
+   "rel": {
+    "ai": {
+     "score": 9,
+     "why": "Next generation of the most widely used AI protein-design model."
+    },
+    "synbio": {
+     "score": 7,
+     "why": "Designing enzymes and binders from atomic specifications."
+    },
+    "tools": {
+     "score": 6,
+     "why": "A core open design tool for research labs."
+    },
+    "industrial": {
+     "score": 4,
+     "why": "Enzyme design underpins biocatalysis."
+    }
+   }
+  },
+  "9675719e1947": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "The Guardian reports that the red imported fire ant outbreak in Sydney is being called a disaster, and that it is partly blamed on biosecurity recommendations that were not acted on. The ants were found in inner-west Sydney in October, prompting movement restrictions around a freight hub.",
+   "rel": {
+    "biosecurity": {
+     "score": 7,
+     "why": "An invasive-species incursion and the failure to act on biosecurity advice."
+    },
+    "agrifood": {
+     "score": 5,
+     "why": "Fire ants threaten farming and livestock if they spread."
+    }
+   }
+  },
+  "80c23f9c05fb": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "The South China Morning Post reports that Chinese authorities have broken up a cross-border ring smuggling blood samples, citing biosecurity concerns. China has been tightening enforcement on the export of human biological samples this year.",
+   "rel": {
+    "biosecurity": {
+     "score": 6,
+     "why": "Enforcement against illegal cross-border movement of human samples."
+    },
+    "diagnostics": {
+     "score": 3,
+     "why": "Smuggled samples are typically sent for testing abroad."
+    }
+   }
+  },
+  "02792dc17001": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "The MHRA's November safety roundup leads with interim heart-monitoring advice for Duvyzat (givinostat) in Duchenne muscular dystrophy after patient deaths outside the UK: ECGs before starting, at 2–4 weeks and every 6 months, plus regular electrolyte checks, pending an independent review. It also lists recalls including Brintellix 5 mg packs mislabelled as 10 mg, and notes the licensing of orforglipron and the withdrawal of voxelotor's UK licence.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "New safety monitoring for a Duchenne drug after deaths abroad."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Monitoring rules clinicians must follow now."
+    }
+   }
+  },
+  "8a07065edee1": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "Korea's MFDS told patients planning a pregnancy to stop GLP-1 drugs before conception, and warned of a possible risk of NAION, a sudden optic nerve condition, with tirzepatide, semaglutide, liraglutide and efpeglenatide. It also set BMI criteria for weight-loss use, limited adolescent Wegovy and Saxenda use, and set up a task force on illegal sales of obesity drugs.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "New label-type warnings and use limits for the GLP-1 class in Korea."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Changes how obesity drugs are prescribed."
+    }
+   }
+  },
+  "95be66cac47c": {
+   "cat": "other",
+   "imp": 4,
+   "summary": "Pfizer launched Abrysvo in Korea, the country's first RSV vaccine approved for use in pregnancy (weeks 28–36) to protect infants for six months, also approved for older and at-risk adults. It competes with infant antibody shots that parents pay 400,000–700,000 won for; maternal use is expected from early 2027, and RSV products are under review for the national immunisation programme.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Vaccine versus antibody competition in Korea's RSV market."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Possible inclusion in the national immunisation programme."
+    }
+   }
+  },
+  "b6915ef5409f": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "The Korean Society of Medical Oncology said new cancer drugs take an average of 46 months from first overseas approval to Korean reimbursement, and proposed conditional reimbursement, value-based pricing and post-listing reassessment with real-world data. All 90 oncologists surveyed said coverage or cost had stopped them prescribing an appropriate drug.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Pressure to speed reimbursement of new oncology drugs in Korea."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "Patient access delays and financial toxicity."
+    }
+   }
+  },
+  "3e32d5b6b483": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "A US district court in Virginia granted Janssen a preliminary injunction against Alvotech's AVT05, a proposed biosimilar to Simponi (golimumab), over a single filtration manufacturing-process patent. Alvotech says it does not infringe and the patent is invalid, and will seek an expedited Federal Circuit appeal; Janssen must post a bond.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Patent litigation delaying a US biosimilar launch."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "The disputed patent covers a manufacturing filtration step."
+    }
+   }
+  },
+  "81488a6b2d1a": {
+   "cat": "other",
+   "imp": 5,
+   "summary": "Law firm Marler Clark says parents of six infants who got botulism from ByHeart formula asked a New York federal court to add co-founders Ron Belldegrun and Mia Funt as personal defendants. The 2025 outbreak sickened 48 infants in 17 states; the complaints allege skipped botulism testing and ignored FDA warnings. The claims are unproven.",
+   "rel": {
+    "agrifood": {
+     "score": 6,
+     "why": "Food-safety liability in infant formula manufacturing."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Follows a multistate infant botulism outbreak."
+    }
+   }
+  },
+  "ffc5f1a041f3": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Nature paper reports binuclear copper enzymes that carry out selective radical halogenation and pseudohalogenation. Enzymes that add halogens selectively are sought for greener synthesis of drugs and agrochemicals. Details beyond the title are behind the paywall.",
+   "rel": {
+    "industrial": {
+     "score": 6,
+     "why": "New biocatalytic route to halogenated chemicals."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "Enzyme chemistry usable in engineered pathways."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Halogenation is common in drug synthesis."
+    }
+   }
+  },
+  "b6758698640b": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Science paper profiles mitochondria across liver cancers and links tumour genotype to distinct metabolic and immune vulnerabilities; an accompanying Perspective argues genetic differences shape tumours' metabolic fates. The work points to genotype-matched metabolic treatments.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Suggests genotype-guided targets in liver cancer."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Mitochondrial profiling approach."
+    }
+   }
+  },
+  "a42d586fe1c6": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Science reports three trials in low-resource settings testing how maternal nutritional interventions change the composition of human milk.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Evidence for maternal nutrition programmes."
+    },
+    "agrifood": {
+     "score": 3,
+     "why": "Nutrition interventions."
+    }
+   }
+  },
+  "423c7eb9eef5": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "A Science policy piece argues genomic data sharing needs a stronger equity framework.",
+   "rel": {
+    "tools": {
+     "score": 4,
+     "why": "Rules for genomic data use."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Equity in genomic medicine."
+    }
+   }
+  },
+  "0d9ed074d3c1": {
+   "cat": "funding",
+   "imp": 4,
+   "summary": "Cranfield University and UK startup HyphaPro are running a NAPIC-funded proof-of-concept to make ovotransferrin, an iron-binding egg-white protein, by precision fermentation in engineered filamentous fungi. Next the strains will be grown in controlled tanks to test production.",
+   "rel": {
+    "fermentation": {
+     "score": 7,
+     "why": "Precision fermentation of an egg protein in fungi."
+    },
+    "agrifood": {
+     "score": 6,
+     "why": "Animal-free egg ingredients."
+    },
+    "synbio": {
+     "score": 4,
+     "why": "Engineered fungal strains."
+    }
+   }
+  },
+  "918b0931506e": {
+   "cat": "deals",
+   "imp": 3,
+   "summary": "Japan's IntegriCulture and Korea's SeaWith agreed to sell each other's cell-cultured cosmetic ingredients, bringing SeaWith's Miok brand to Japan and IntegriCulture's Cellament to Korea. SeaWith is building a $15m industrial plant due in 2027.",
+   "rel": {
+    "agrifood": {
+     "score": 4,
+     "why": "Cellular-agriculture firms finding revenue in cosmetics."
+    },
+    "industrial": {
+     "score": 4,
+     "why": "Cell-culture ingredients for consumer products."
+    }
+   }
+  },
+  "199ee60bdf92": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Former NIA neuroscience director Eliezer Masliah now has 32 retractions, 15 this year, as journals review more than 130 of his papers for suspected image and data manipulation. A 2024 NIH investigation found misconduct; more retractions are expected.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "His work underpinned Alzheimer's and Parkinson's research."
+    },
+    "healthcare": {
+     "score": 3,
+     "why": "Research integrity in neuroscience."
+    }
+   }
+  },
+  "e5af98e61e9e": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A Lancet editorial argues COPD should be treated as a life-course disorder, noting it is projected to affect about 600 million people by 2050, 23% more than in 2020.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Framing for COPD prevention and care."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Large respiratory market."
+    }
+   }
+  },
+  "20be2748974f": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A Lancet comment questions how innovative izalontamab brengitecan, a bispecific antibody-drug conjugate, really is in HR-positive, HER2-negative metastatic breast cancer, where chemotherapy follows endocrine therapy.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Critique of a closely watched bispecific ADC."
+    }
+   }
+  },
+  "4d52acdf5852": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "The Lancet reports from the WHO Candidates' Forum, where member states got their first direct look at the nominees to lead WHO, with trust in the organisation the central theme.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "Leadership of the global health agency."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "WHO leads outbreak response."
+    }
+   }
+  },
+  "6a8a3f4d1f36": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "Gabather dosed the first patient in its phase 2 TOTEMS study of GT-002 in schizophrenia-spectrum conditions, a single-dose crossover trial against oxazepam and placebo in 20 patients and 30 healthy volunteers in Denmark.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Early CNS programme from a small biotech."
+    }
+   }
+  },
+  "12e99b9c3ee4": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "Medytox affiliate Numeco won Colombian approval for its botulinum toxin Newlux, adding to the group's Latin American presence after Brazil and Mexico.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Korean toxin makers expanding abroad."
+    }
+   }
+  },
+  "78223c85a844": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Handok's phase 3 TERA304 trial in 235 Korean adults with type 2 diabetes found adding teneligliptin to metformin and empagliflozin cut HbA1c about 0.7 points more than placebo at 24 weeks, with 59.5% reaching HbA1c below 7%.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Triple-combination data for a DPP-4 inhibitor in Korea."
+    }
+   }
+  },
+  "eaa9e3ffbf4b": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "Dongwoon Anatech received Korea's digital medical device GMP certification for D-SaLife, a saliva-based glucose monitor still in development. It targets Korean approval in 2027 and FDA registration by 2029.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "Needle-free glucose monitoring moving toward trials."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Saliva-based testing."
+    }
+   }
+  },
+  "76894380723b": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "Daewoong received Korean approval to start a phase 1 trial of DWP216262, an in-house TEAD1/2 inhibitor for advanced solid tumours, in 40–50 patients. The company says preclinical data suggest less kidney toxicity than pan-TEAD inhibitors.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "New entrant in the Hippo-pathway oncology class."
+    }
+   }
+  },
+  "a9c09dec821c": {
+   "cat": "clinical",
+   "imp": 3,
+   "summary": "A one-year trial of 109 patients with severe gum disease found omega-3 plus low-dose aspirin alongside standard treatment worked about as well as antibiotics (58% vs 58% reaching target, 23% with placebo). The authors say it is too early to change practice.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Possible antibiotic-sparing option in dentistry."
+    }
+   }
+  },
+  "e206cf2f9bf0": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A mouse study in Scientific Reports found the kidney protein TMEM174 limits phosphate reabsorption; lacking it caused vascular calcification and shorter lifespans, worse on a high-phosphate diet.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Potential target for vascular ageing."
+    }
+   }
+  },
+  "e7594ed6464b": {
+   "cat": "funding",
+   "imp": 3,
+   "summary": "TVM Capital Healthcare's Southeast Asia fund invested an undisclosed sum in HiRO, a CRO with 550 staff in 23 countries, to expand its Southeast Asian trial platform.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Trial capacity in Southeast Asia."
+    },
+    "investment": {
+     "score": 3,
+     "why": "Growth investment in a CRO."
+    }
+   }
+  },
+  "d9a254844d95": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "Laekna submitted a US IND for LAE123, an ActRIIA/IIB dual-antagonist antibody aimed at diseases including heart failure.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Activin-receptor antibodies are a busy cardiometabolic area."
+    }
+   }
+  },
+  "8324abcfd03b": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Nature Chemical Biology: µMap proximity labelling of the HER2 interactome in breast cancer identified PTPRF as a growth regulator and pointed to resistance mechanisms.",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "Shows a high-resolution proximity-labelling method."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "New HER2 resistance biology."
+    }
+   }
+  },
+  "c05110c41ad2": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Nature Chemical Biology: cryo-EM structures show Cas12m effectors, thought to be only transcriptional silencers, can cut DNA when a two-part DNA kink activates an intact RuvC site.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "Expands the compact CRISPR toolbox."
+    },
+    "synbio": {
+     "score": 5,
+     "why": "New nuclease behaviour for genome engineering."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Gene-editing reagents."
+    }
+   }
+  },
+  "6106d689463a": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Nature Medicine: whole-genome sequencing of wastewater and clinical samples during South Africa's 2024–2025 measles outbreak revealed previously undetected transmission, showing wastewater genomics can track measles evolution.",
+   "rel": {
+    "biosecurity": {
+     "score": 5,
+     "why": "Wastewater genomics for outbreak surveillance."
+    },
+    "diagnostics": {
+     "score": 4,
+     "why": "Sequencing-based surveillance."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Measles is resurging globally."
+    }
+   }
+  },
+  "f06045383a9c": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "Nature Medicine: a 20-year analysis of Utah intracortical arrays in people with brain-computer interfaces found stable spiking for up to 7.3 years, modest average decline and sustained movement decoding in most arrays.",
+   "rel": {
+    "meddevices": {
+     "score": 8,
+     "why": "Long-term durability data key to implanted BCIs."
+    },
+    "ai": {
+     "score": 3,
+     "why": "Neural decoding."
+    }
+   }
+  },
+  "c1097a7e85be": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A bioRxiv preprint shows fatty-acid media make engineered heart tissues from stem-cell cardiomyocytes more adult-like, using omics and functional profiling. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 4,
+     "why": "Better in vitro heart models for drug testing."
+    }
+   }
+  },
+  "ee8e9551fe14": {
+   "cat": "clinical",
+   "imp": 6,
+   "summary": "NEJM published an analysis of blood-pressure-lowering treatment across the spectrum of cardiovascular risk, addressing whether lower-risk patients also benefit. Details beyond the title are paywalled.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "Could shape who gets antihypertensive treatment."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Large antihypertensive market."
+    }
+   }
+  },
+  "b25ad6cc1f05": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "Two NEJM perspectives criticise the US HHS review of pediatric gender dysphoria care, calling for a course correction and arguing politics has displaced science.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Federal guidance on youth care contested by clinicians."
+    }
+   }
+  },
+  "ce5ff4e58295": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A bioRxiv preprint links bacterial gene circuits in separate locations via internet-connected optogenetics, so a signal in one culture switches genes in another. Not yet peer-reviewed.",
+   "rel": {
+    "synbio": {
+     "score": 5,
+     "why": "Networking engineered cells across distance."
+    }
+   }
+  },
+  "1843bab0b598": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A bioRxiv preprint presents PFLISA, a plasmonic-fluor multiplex immunoassay sensitive enough to profile low-level cytokine networks in small sepsis samples. Not yet peer-reviewed.",
+   "rel": {
+    "diagnostics": {
+     "score": 5,
+     "why": "Ultrasensitive multiplex protein measurement."
+    },
+    "tools": {
+     "score": 4,
+     "why": "Assay platform."
+    }
+   }
+  },
+  "ca0e654e1cb7": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A bioRxiv preprint finds that losing the s2U tRNA modification makes bacteria tolerant to antibiotics, linked to shifts in ribosomal protein expression. Not yet peer-reviewed.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Mechanism of antibiotic treatment failure."
+    }
+   }
+  },
+  "bd624fe57fa3": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A bioRxiv preprint reports genetically encoded RNA strand-exchange circuits that run continuously inside living cells to program protein expression and process information. Not yet peer-reviewed.",
+   "rel": {
+    "synbio": {
+     "score": 7,
+     "why": "Brings DNA-computing-style circuits into living cells."
     }
    }
   }
@@ -35904,6 +36235,48 @@
     "industrial": {
      "score": 5,
      "why": "New biomanufacturing capacity in Brazil."
+    }
+   }
+  },
+  {
+   "id": "2026-11-26-cytiva-india-made-tff",
+   "title": "Cytiva introduces India-made filtration system for biopharma scale-up in Asia Pacific",
+   "url": "https://www.biospectrumasia.com/news/26/28732/cytiva-introduces-india-made-filtration-system-for-biopharma-scale-up-in-asia-pacific.html",
+   "source": "BioSpectrum Asia",
+   "kind": "news",
+   "published": "2026-11-26T06:00:00Z",
+   "cat": "other",
+   "imp": 5,
+   "summary": "Cytiva launched a next-generation automated tangential flow filtration system, built on its UNICORN software and designed and manufactured at its Custom Engineering site in Pune, India. It is aimed at emerging biotechs, vaccine and biosimilar makers, plasma producers and CDMOs, with 50 to 500 litre tank options, and launches first across Asia-Pacific. No price or shipping date was given.",
+   "rel": {
+    "bioprocessing": {
+     "score": 8,
+     "why": "Locally made downstream processing equipment for Asian biomanufacturers."
+    },
+    "tools": {
+     "score": 4,
+     "why": "New bioprocess instrument from a major supplier."
+    }
+   }
+  },
+  {
+   "id": "2026-11-25-alkem-fda-warning-letter",
+   "title": "Alkem draws FDA warning letter over dissolution, complaint-handling lapses",
+   "url": "https://www.biospace.com/drug-delivery/alkem-draws-fda-warning-letter-over-dissolution-complaint-handling-lapses",
+   "source": "BioSpace",
+   "kind": "news",
+   "published": "2026-11-25T12:00:00Z",
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "The FDA sent Indian generics maker Alkem a warning letter dated 18 November after inspecting its western India tablet plant, finding weak investigation of dissolution failures, about 38 complaints of broken or wet tablets since September 2025 and maintenance gaps. The FDA concluded the process is not in a state of control. The inspection followed a recall of more than 141,000 bottles of Alkem-made atorvastatin; FDA may withhold approvals naming the plant until it is fixed.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Quality enforcement against a major generics supplier to the US."
+    },
+    "bioprocessing": {
+     "score": 3,
+     "why": "Manufacturing quality controls."
     }
    }
   }
