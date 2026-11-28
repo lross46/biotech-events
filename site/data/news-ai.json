@@ -1,79 +1,87 @@
 {
- "updated": "2026-11-27T06:45:35Z",
+ "updated": "2026-11-28T06:45:50Z",
  "note": "Written by the daily Claude review (NEWS-UPDATING.md). items: per-story summary, category, importance and sector scores, keyed by the story id in news.json. extra: stories Claude found itself. brief: today's key points.",
  "brief": {
-  "date": "2026-11-27T06:45:35Z",
+  "date": "2026-11-28T06:45:50Z",
   "points": [
    {
     "sec": "results",
-    "text": "A quiet, US-holiday day for trial news, led by NEJM's full publication of Roche's phase 3 lidERA trial: the oral SERD giredestrant improved invasive disease-free survival over standard endocrine therapy as adjuvant treatment for ER-positive, HER2-negative early breast cancer, and an editorial asks whether SERDs now open a new era in early disease. NEJM also published an analysis of blood-pressure lowering across the whole range of cardiovascular risk. In Korea, Handok's teneligliptin cut HbA1c about 0.7 points more than placebo when added to metformin and empagliflozin. Smaller items: Gabather dosed its first schizophrenia patient in a phase 2 study, and a small trial found omega-3 plus aspirin matched antibiotics in severe gum disease.",
+    "text": "A Wolbachia field trial dominated the day's results: releasing mosquitoes carrying the virus-blocking bacterium cut dengue in children sharply, the strongest evidence yet for a biological control strategy now scaling across Asia and Latin America. In the clinic, Celltrion said 60 Japanese Crohn's patients switched from intravenous infliximab to subcutaneous Remsima SC held remission over 44 weeks with no discontinuations, supporting a 2027 Japanese launch into a market where its IV biosimilar already holds 48% of prescriptions. Handok reported a phase 3 win for Tenelia as add-on diabetes therapy in Korea, and Hanmi showed animal data for its triple agonist zantrutide cutting body weight 39.9% against 25.3% for tirzepatide, plus 10.6% weight loss at 64 weeks with efpeglenatide. Smaller items included first dosing in Gabather's phase 2 psychiatric study and a Korean finding that cholesterol can climb within four weeks of starting upadacitinib.",
     "ids": [
-     "f4d0b5b79193",
-     "ee8e9551fe14",
+     "97000879829f",
+     "0f0ecb3d1fe1",
+     "80e2898d1111",
      "78223c85a844",
-     "6a8a3f4d1f36"
+     "126cf33c89ac"
     ]
    },
    {
     "sec": "science",
-    "text": "Science published RFdiffusion3, the next version of the leading AI protein-design model, which designs proteins around functional sites specified atom by atom, a step towards made-to-order enzymes and binders. Also in Science, Max Planck researchers engineered a protein 'glue', TALhesin, that restored chromosome cohesion in eggs from older mice (47% to 74% of eggs normal), with human-egg work now starting. On the industrial side, Nature reported binuclear copper enzymes that halogenate molecules selectively, a greener route to many drug and agrochemical building blocks, and Nature Chemical Biology showed Cas12m, thought to only silence genes, can also cut DNA. Nature Medicine reported 20-year durability data for implanted brain-computer interface arrays. Synthetic biology preprints described RNA strand-exchange circuits running in living cells. Research integrity: former NIA neuroscientist Eliezer Masliah has reached 32 retractions.",
+    "text": "Protein design led the science: RFdiffusion3 was shown to scaffold atomic functional sites in biopolymers, and a preprint mapping more than 1,300 binder selections against 96 targets, about a trillion interactions, derived interpretable rules for why some proteins yield binders and others resist. On the industrial side, work on binuclear copper enzymes for selective radical halogenation and a preprint making acid-tolerant yeasts genetically tractable both point at cheaper biocatalytic and organic-acid production, while another preprint modelled coupled microbial electrolysis cells to turn methane into chemicals. In medicine, Nature Medicine reviewed a TB platform trial that picked two regimens built on ganfeborole and BTZ-043 for further development, Gladstone reported that lowering inhaled oxygen tripled lifespan in mice with a mitochondrial brain disorder, and an engineered molecular glue stabilised chromosomes in ageing eggs. Methods news included REVEAL, a native mass-spectrometry approach that reads which lipids bind brain GPCRs.",
     "ids": [
      "e259ab308608",
-     "e48173f5a40d",
+     "074b9fe09a06",
+     "7f3a718f1531",
+     "9afb13b81f38",
      "ffc5f1a041f3",
-     "c05110c41ad2",
-     "f06045383a9c",
-     "199ee60bdf92"
+     "b72bf8e079d1"
     ]
    },
    {
     "sec": "approvals",
-    "text": "The UK MHRA approved Menarini's obicetrapib (Ubeslo), an oral CETP inhibitor that cut LDL cholesterol by 33–36% in two year-long trials, plus a combination tablet with ezetimibe. Its monthly safety roundup set heart and electrolyte monitoring for the Duchenne drug givinostat after deaths abroad. Korea's MFDS told patients to stop GLP-1 drugs before pregnancy, warned of a possible optic-nerve risk across the class and tightened obesity-use criteria. In diagnostics, Singapore registered Gene Solutions' SPOT-MAS 10 as what the company calls the country's first blood-based multi-cancer screening IVD. The FDA also issued a warning letter to Indian generics maker Alkem over tablet quality failures, and Korea cleared early-stage trials for Daewoong's TEAD inhibitor.",
+    "text": "The MHRA had a busy week, approving obicetrapib for lowering LDL cholesterol, extending Jazz's zanidatamab to HER2-positive gastroesophageal cancer on the strength of a 914-patient study showing about seven months longer survival, and clearing Regeneron's bispecific linvoseltamab for late-line myeloma, where 71% of 117 patients responded. The main setback was the FDA extending its review of Vertex's IgA nephropathy drug povetacicept by three months amid safety questions, a delay on one of the company's most valuable late-stage assets. In devices and diagnostics, Mediwhale won a first FDA 510(k) for AI that estimates ten-year cardiovascular risk from retinal photographs, Singapore's HSA registered Gene Solutions' SPOT-MAS 10 multi-cancer blood test, and Korea cleared a saliva-based glucose monitor. EMA's PRAC meeting opened no new referrals, leaving intravenous iron as its one ongoing case.",
     "ids": [
      "fe769e0b20e3",
-     "02792dc17001",
-     "8a07065edee1",
-     "6166d3eaaad1",
-     "2026-11-25-alkem-fda-warning-letter"
+     "2f5e52dda755",
+     "a4526d2ad36b",
+     "35089857be09",
+     "948490a91323",
+     "6166d3eaaad1"
     ]
    },
    {
     "sec": "policy",
-    "text": "A GFI Europe analysis found Europe still leads public funding for alternative-protein research (€1.27bn in 2020–2025, 30% of researchers), but China's output grew 92% in two years and it has led in patents since 2023. Korean oncologists said new cancer drugs take 46 months on average to reach reimbursement there and proposed conditional coverage. The Lancet reported on the race to lead WHO, where trust in the agency dominated the first candidates' forum, and two NEJM perspectives attacked the US HHS review of pediatric gender-dysphoria care.",
+    "text": "Access and pricing dominated. EMA's DARWIN EU study of more than 1.6 million people in ten countries found obesity has been the most common reason for starting a GLP-1 medicine in several European populations since 2022, with fewer than 14% of new users lacking a diabetes or obesity diagnosis, and Korea separately told patients to stop GLP-1 drugs before pregnancy over possible vision risks. Korean clinicians said the country's practice of benchmarking new drugs against discounted older ones has left Skyrizi's Crohn's indication waiting three years for reimbursement and pushed Lilly to abandon Omvoh's launch, while oncologists pressed for conditional coverage of new cancer drugs. Outside medicines, a GFI Europe analysis showed Europe committed EUR 1.27 billion of public money to alternative-protein research from 2020 to 2025 and hosts 30% of the world's researchers in the field, but China's output grew 92% in two years against 60% in Europe. The Lancet also reported that the race to lead the WHO is turning on trust in the agency.",
     "ids": [
+     "a70e493e24bc",
+     "62846c7f065d",
      "f4948bea89af",
-     "b6915ef5409f",
-     "4d52acdf5852",
-     "b25ad6cc1f05"
+     "8a07065edee1",
+     "b6915ef5409f"
     ]
    },
    {
     "sec": "money",
-    "text": "Deal flow was thin over the US holiday, with this week still defined by Sanofi's $41bn Insmed acquisition. New items were small: TVM Capital invested in the CRO HiRO to grow its Southeast Asian trial platform, Japan's IntegriCulture and Korea's SeaWith agreed to cross-sell cell-cultured cosmetic ingredients, and the UK's alternative-protein centre NAPIC is funding Cranfield University and HyphaPro to make an egg protein by precision fermentation in fungi.",
+    "text": "Deal flow was quiet after Sanofi's $41 billion agreement to buy Insmed earlier in the week, which remains the year's largest biopharma acquisition. EQT Healthcare Growth agreed to take a majority stake in UK specialty pharma Kelso Pharma, which sells about 14 endocrine, gastrointestinal and CNS medicines in more than 30 countries, with closing expected in the first quarter of 2027 and no price disclosed. Asian partnering carried the rest: Ferring will test Peptron's SmartDepot long-acting injectable platform on its candidates, Samsung Bioepis picked Shenzhen protein-degradation startup InnoTar for its China open-innovation programme, and TVM Capital Healthcare invested in cross-border CRO HiRO. In food and fermentation, Cranfield University and HyphaPro began work on an iron-binding animal-free egg protein, and Korea's AriBio switched to a direct Kospi listing after scrapping a Kosdaq merger.",
     "ids": [
+     "64be6463f92d",
+     "6ea80041510a",
+     "2a0da9f9039a",
      "e7594ed6464b",
-     "918b0931506e",
-     "0d9ed074d3c1"
+     "0d9ed074d3c1",
+     "caa9d910b560"
     ]
    },
    {
     "sec": "companies",
-    "text": "Carbios ended its partnership with China's Wankai, losing its Asian exclusivity deal, but said banks have approved full senior debt for its enzymatic PET recycling plant at Longlaville, conditional on pre-selling 70% of capacity, while it still seeks equity. A US court blocked Alvotech's golimumab biosimilar AVT05 with a preliminary injunction over a manufacturing patent; Alvotech will appeal. Cytiva launched an automated filtration system made in India for Asian biomanufacturers, Pfizer launched its maternal RSV vaccine Abrysvo in Korea, and families in the ByHeart infant-formula botulism litigation moved to sue the company's founders personally.",
+    "text": "Industrial biotech supplied the biggest corporate news: Carbios updated investors on its enzymatic PET recycling projects, the clearest signal yet of where its plant and licensing plans stand after a difficult year. In biosimilars, Alvotech said it will appeal a US preliminary injunction over AVT05, its Simponi copy, which puts a launch at risk. Korean firms rounded out the day, with GC Cell reporting 100,000 cumulative packs of its 2007-approved autologous cell therapy Immuncell-LC, CG MedTech launching the first product from its human tissue CDMO deal with Kolon Pharma, Pfizer bringing the first maternal RSV vaccine to Korea at a list price well below antibody shots, and Yuhan elevating its research and manufacturing chiefs to co-deputy CEOs at its centennial.",
     "ids": [
      "305fb221eee7",
      "3e32d5b6b483",
-     "2026-11-26-cytiva-india-made-tff",
+     "2f0512c3e110",
      "95be66cac47c",
-     "81488a6b2d1a"
+     "485346ad3feb"
     ]
    },
    {
     "sec": "biodef",
-    "text": "In Australia, the red imported fire ant outbreak in Sydney is being described as a disaster, partly blamed on biosecurity recommendations that were not acted on. China said it broke up a cross-border ring smuggling blood samples, citing biosecurity concerns, as it tightens control over human biological samples. Nature Medicine's measles wastewater study also showed how environmental genomics can catch hidden transmission.",
+    "text": "Surveillance and containment ran through the biosecurity stories. Nature Medicine reported that combining wastewater and clinical sequencing tracked the spread and evolution of measles during South Africa's 2024-25 outbreaks at high resolution, a method now relevant as cases climb in Europe and North America. UKHSA warned that only about a third of people in England with long-term conditions have had this season's flu vaccine, and the South China Morning Post reported that China broke up a cross-border blood smuggling ring over biosecurity concerns. Australia's fire ant incursion in Sydney was blamed partly on ignored biosecurity advice, and in the US, families of infants sickened in the ByHeart infant formula botulism outbreak moved to sue the company's founders.",
     "ids": [
-     "9675719e1947",
+     "6106d689463a",
+     "9fc277a47503",
      "80c23f9c05fb",
-     "6106d689463a"
+     "9675719e1947",
+     "81488a6b2d1a"
     ]
    }
   ]
@@ -32341,12 +32349,6 @@
     }
    }
   },
-  "5519930aba67": {
-   "drop": true
-  },
-  "004056a2ddeb": {
-   "dup": "2026-11-23-cms-negotiated-prices-2028"
-  },
   "e9b931ccc21e": {
    "cat": "other",
    "imp": 4,
@@ -32929,252 +32931,6 @@
      "why": "Relevant to future treatment approaches in dementia."
     }
    }
-  },
-  "0824280d3925": {
-   "drop": true
-  },
-  "a55dbc0fea09": {
-   "dup": "eeece3668fba"
-  },
-  "efa0fca7582a": {
-   "drop": true
-  },
-  "f4aded391d08": {
-   "drop": true
-  },
-  "62d3628730b8": {
-   "drop": true
-  },
-  "5d46b468b1e1": {
-   "drop": true
-  },
-  "c39f0d728f63": {
-   "drop": true
-  },
-  "4865ee51444c": {
-   "drop": true
-  },
-  "b531e3cf00a5": {
-   "drop": true
-  },
-  "0e7dae407c9a": {
-   "drop": true
-  },
-  "5edef8180aa2": {
-   "drop": true
-  },
-  "fab05d54dfa6": {
-   "drop": true
-  },
-  "4eb1e8fe4b2c": {
-   "drop": true
-  },
-  "8bc4d489a29d": {
-   "drop": true
-  },
-  "1ef55bb5c05c": {
-   "drop": true
-  },
-  "53763fb44bc0": {
-   "drop": true
-  },
-  "75c0073129e5": {
-   "drop": true
-  },
-  "21a4c4f04202": {
-   "drop": true
-  },
-  "31050e45635a": {
-   "drop": true
-  },
-  "06b9a2b5ee1f": {
-   "drop": true
-  },
-  "b4ed62a01e8d": {
-   "drop": true
-  },
-  "52c7f6cd1ccd": {
-   "drop": true
-  },
-  "d68d879d8fca": {
-   "drop": true
-  },
-  "5818b1d977a6": {
-   "drop": true
-  },
-  "d4582136da26": {
-   "drop": true
-  },
-  "a9f0bc9359ed": {
-   "drop": true
-  },
-  "253ddc097bde": {
-   "drop": true
-  },
-  "dd6a1d275c4e": {
-   "drop": true
-  },
-  "dfac1f7f0dae": {
-   "drop": true
-  },
-  "bcf4072b5f13": {
-   "drop": true
-  },
-  "97fea7c1af3c": {
-   "drop": true
-  },
-  "d8ab10e8d450": {
-   "drop": true
-  },
-  "87f0a5faa270": {
-   "drop": true
-  },
-  "143055ec8f02": {
-   "drop": true
-  },
-  "9dd9d9b723ad": {
-   "drop": true
-  },
-  "32634d131dc9": {
-   "drop": true
-  },
-  "703683c0e322": {
-   "drop": true
-  },
-  "63c3491348cf": {
-   "drop": true
-  },
-  "8572c61efef1": {
-   "drop": true
-  },
-  "8ee5e6eba6f5": {
-   "drop": true
-  },
-  "a1441bf3e65c": {
-   "drop": true
-  },
-  "80c4c93e6b57": {
-   "drop": true
-  },
-  "b556e3d8baf2": {
-   "drop": true
-  },
-  "aa5d1ab7aa2f": {
-   "drop": true
-  },
-  "65fac7c198e5": {
-   "drop": true
-  },
-  "3e99ca189776": {
-   "drop": true
-  },
-  "f0d12dba6473": {
-   "drop": true
-  },
-  "855dff56c632": {
-   "drop": true
-  },
-  "08f9b2a04447": {
-   "drop": true
-  },
-  "dfcd96ac42f4": {
-   "drop": true
-  },
-  "a3c20fdeacf7": {
-   "drop": true
-  },
-  "59f4b67f55b9": {
-   "drop": true
-  },
-  "1c4f0af210af": {
-   "drop": true
-  },
-  "66c0cc1ec34c": {
-   "drop": true
-  },
-  "d52cd763acb7": {
-   "drop": true
-  },
-  "c782c1cf3985": {
-   "drop": true
-  },
-  "c63bd544825d": {
-   "drop": true
-  },
-  "048cd61935f0": {
-   "drop": true
-  },
-  "d16be1bacaeb": {
-   "drop": true
-  },
-  "a36e7cf41d98": {
-   "drop": true
-  },
-  "4c79422f8ae6": {
-   "drop": true
-  },
-  "bc097550e2c2": {
-   "drop": true
-  },
-  "6eb5dc587fb3": {
-   "drop": true
-  },
-  "ce33162dc67e": {
-   "drop": true
-  },
-  "b253d6a91048": {
-   "drop": true
-  },
-  "e4a1c73ad003": {
-   "drop": true
-  },
-  "9e0f16506d13": {
-   "dup": "2026-11-23-cms-negotiated-prices-2028"
-  },
-  "b2e4427251b8": {
-   "dup": "f55eacedcd3f"
-  },
-  "fd65494ef9c5": {
-   "dup": "f55eacedcd3f"
-  },
-  "ac2e3ffe384e": {
-   "dup": "f55eacedcd3f"
-  },
-  "0c70a4d6402d": {
-   "dup": "f55eacedcd3f"
-  },
-  "3e311d228d03": {
-   "dup": "54b1007c94a9"
-  },
-  "36a304ba2db1": {
-   "dup": "abdefc56b7d6"
-  },
-  "a8090533df1f": {
-   "dup": "a6087b284607"
-  },
-  "555c9937b736": {
-   "dup": "3827df8fdb2e"
-  },
-  "3e2c535c318e": {
-   "dup": "ecd5a9460578"
-  },
-  "d804b83312aa": {
-   "dup": "e686b4e44a33"
-  },
-  "b038fe50f359": {
-   "dup": "eed11edeb1f2"
-  },
-  "20300bbaef89": {
-   "dup": "efd7eef444b5"
-  },
-  "f7e843aa4f17": {
-   "dup": "3f4fba47b43f"
-  },
-  "e7bf66dd53a3": {
-   "dup": "3ef489a07a8d"
-  },
-  "f26d05e87db0": {
-   "dup": "47e774ac6a2e"
   },
   "088fac6ff95c": {
    "cat": "other",
@@ -34122,22 +33878,7 @@
   "f41982ea77a2": {
    "dup": "385b6b8d84ab"
   },
-  "975e81055654": {
-   "drop": true
-  },
-  "9ee8c191e9a9": {
-   "drop": true
-  },
   "ae2c2f2af8f1": {
-   "drop": true
-  },
-  "9a2dd950b995": {
-   "drop": true
-  },
-  "39d646e1f805": {
-   "drop": true
-  },
-  "97139d895214": {
    "drop": true
   },
   "2a867e9caa3f": {
@@ -34146,16 +33887,10 @@
   "17889d68391c": {
    "dup": "ab5869ce7dde"
   },
-  "263a3f3caf04": {
-   "drop": true
-  },
   "5054295fd008": {
    "drop": true
   },
   "902645308a9e": {
-   "dup": "bc823937dab7"
-  },
-  "0714e07ec9b8": {
    "dup": "bc823937dab7"
   },
   "0d0fe8cb2dee": {
@@ -34164,25 +33899,7 @@
   "c38f0a67d86a": {
    "dup": "04291cd45243"
   },
-  "976e6e475b99": {
-   "dup": "ab5869ce7dde"
-  },
-  "d955e170eb15": {
-   "dup": "0f72ebb7fb82"
-  },
-  "267662145bbc": {
-   "dup": "80b54054d2b5"
-  },
-  "7b7087c423e0": {
-   "dup": "1d227e306c74"
-  },
-  "8e40e2a90449": {
-   "dup": "1d227e306c74"
-  },
   "56355854f5d0": {
-   "dup": "979f2cdfe213"
-  },
-  "f71f279d1909": {
    "dup": "979f2cdfe213"
   },
   "cc9a3e48b4de": {
@@ -34190,27 +33907,6 @@
   },
   "9b8bb6fca945": {
    "dup": "7033247a9022"
-  },
-  "5f898b161db3": {
-   "dup": "2026-11-23-cms-negotiated-prices-2028"
-  },
-  "6ac387559368": {
-   "dup": "2026-11-23-cms-negotiated-prices-2028"
-  },
-  "90ae09a68dbe": {
-   "drop": true
-  },
-  "820c7a3482a0": {
-   "drop": true
-  },
-  "3817c6142272": {
-   "drop": true
-  },
-  "9298da5d93ae": {
-   "drop": true
-  },
-  "8a1a1c2fbf81": {
-   "dup": "6f0b69c863c4"
   },
   "e76cde0fccb3": {
    "drop": true
@@ -34359,48 +34055,6 @@
   "63393d4f2933": {
    "drop": true
   },
-  "4c1cb0f8234c": {
-   "drop": true
-  },
-  "e94ada18eee9": {
-   "drop": true
-  },
-  "d6a2c747b77e": {
-   "drop": true
-  },
-  "83e5d862125d": {
-   "drop": true
-  },
-  "0364c1efb93d": {
-   "drop": true
-  },
-  "4c14094a6994": {
-   "drop": true
-  },
-  "568f47576a0f": {
-   "drop": true
-  },
-  "5adc85d60cd7": {
-   "drop": true
-  },
-  "6f5810efe492": {
-   "drop": true
-  },
-  "1bd4dba7ea88": {
-   "drop": true
-  },
-  "78dfcbf926f2": {
-   "drop": true
-  },
-  "ae55f18103d9": {
-   "drop": true
-  },
-  "0ab7f70e16c8": {
-   "drop": true
-  },
-  "6eabb660cadf": {
-   "drop": true
-  },
   "9f611e5c35d5": {
    "dup": "84cd714b0375"
   },
@@ -34409,12 +34063,6 @@
   },
   "fe552efb5eb4": {
    "dup": "b6758698640b"
-  },
-  "508d70c7c34e": {
-   "dup": "b25ad6cc1f05"
-  },
-  "764f5abc985e": {
-   "dup": "f4d0b5b79193"
   },
   "fe769e0b20e3": {
    "cat": "regulatory",
@@ -35072,6 +34720,960 @@
     "synbio": {
      "score": 7,
      "why": "Brings DNA-computing-style circuits into living cells."
+    }
+   }
+  },
+  "032da4bcd98e": {
+   "drop": true
+  },
+  "34fce8a8a1ef": {
+   "dup": "1d227e306c74"
+  },
+  "a60c0b89bb1a": {
+   "drop": true
+  },
+  "92dcdb7f48ab": {
+   "drop": true
+  },
+  "69d37ed6fa6d": {
+   "drop": true
+  },
+  "411d9bb64474": {
+   "drop": true
+  },
+  "ab4857cda25f": {
+   "drop": true
+  },
+  "2ce6cf59a503": {
+   "drop": true
+  },
+  "063432e61894": {
+   "drop": true
+  },
+  "e14d61d760d7": {
+   "drop": true
+  },
+  "dac2a8196bfb": {
+   "drop": true
+  },
+  "ebc94fda6110": {
+   "drop": true
+  },
+  "9630e640f37f": {
+   "drop": true
+  },
+  "caa88a34c27d": {
+   "drop": true
+  },
+  "ee778fe7aaff": {
+   "drop": true
+  },
+  "666e986c74ad": {
+   "dup": "94e901923161"
+  },
+  "64a5544f102d": {
+   "dup": "94e901923161"
+  },
+  "4b9f7391ad67": {
+   "dup": "94e901923161"
+  },
+  "491caa6d13b4": {
+   "dup": "1d227e306c74"
+  },
+  "427db492e630": {
+   "dup": "3f4fba47b43f"
+  },
+  "6bc292900158": {
+   "dup": "979f2cdfe213"
+  },
+  "41105c51cda1": {
+   "dup": "979f2cdfe213"
+  },
+  "6a9f70dd6e77": {
+   "dup": "94e901923161"
+  },
+  "94e901923161": {
+   "dup": "e686b4e44a33"
+  },
+  "794342d38870": {
+   "dup": "84cd714b0375"
+  },
+  "6133b93283ea": {
+   "drop": true
+  },
+  "b1ef7c26ae0e": {
+   "drop": true
+  },
+  "32ae5ed0e522": {
+   "drop": true
+  },
+  "6a5a93a49d5c": {
+   "drop": true
+  },
+  "ac581d0dc72e": {
+   "drop": true
+  },
+  "b4faeccc0a3b": {
+   "drop": true
+  },
+  "900db8730271": {
+   "drop": true
+  },
+  "a9f672b4d736": {
+   "drop": true
+  },
+  "7e1841113022": {
+   "drop": true
+  },
+  "e6b4cba648b7": {
+   "drop": true
+  },
+  "36eecef30aed": {
+   "dup": "87767322f59f"
+  },
+  "9d4d3a1f22a7": {
+   "drop": true
+  },
+  "4561c5b354f2": {
+   "drop": true
+  },
+  "7a75a19a8a1f": {
+   "drop": true
+  },
+  "4709dbe21e48": {
+   "drop": true
+  },
+  "ce43626e7626": {
+   "dup": "68110f7dd02f"
+  },
+  "93aa0cf86ec7": {
+   "drop": true
+  },
+  "dd28de888c59": {
+   "drop": true
+  },
+  "300cc615e318": {
+   "drop": true
+  },
+  "3d94e8dac93e": {
+   "drop": true
+  },
+  "bf86288b5bd7": {
+   "drop": true
+  },
+  "f75660b0eba2": {
+   "drop": true
+  },
+  "73c78aa6eff9": {
+   "drop": true
+  },
+  "e1be469f1156": {
+   "drop": true
+  },
+  "b7603e2873d1": {
+   "drop": true
+  },
+  "e976d78ff5fb": {
+   "drop": true
+  },
+  "bf41f0a6347c": {
+   "drop": true
+  },
+  "3c2e55f07dfe": {
+   "drop": true
+  },
+  "843785d32d84": {
+   "drop": true
+  },
+  "a836c0e24b4b": {
+   "dup": "2d75e27c9a10"
+  },
+  "64639c5eec3a": {
+   "drop": true
+  },
+  "cf8630d40b0b": {
+   "drop": true
+  },
+  "e1784aa1cbbb": {
+   "drop": true
+  },
+  "9010867c084c": {
+   "drop": true
+  },
+  "1b2183e27892": {
+   "drop": true
+  },
+  "fa0dceed502f": {
+   "drop": true
+  },
+  "8fe599d3b4bd": {
+   "drop": true
+  },
+  "b04bce038039": {
+   "drop": true
+  },
+  "3bc547f2bc40": {
+   "drop": true
+  },
+  "6595cc199d99": {
+   "drop": true
+  },
+  "881a7b2eb8bf": {
+   "drop": true
+  },
+  "8ef80a22de35": {
+   "drop": true
+  },
+  "a9d1e324ac71": {
+   "drop": true
+  },
+  "ec064b182e6e": {
+   "drop": true
+  },
+  "e8a8cbfab5b9": {
+   "dup": "0f0310b9aa87"
+  },
+  "3863df2dad4f": {
+   "dup": "1b69813af09c"
+  },
+  "e6759e6d095a": {
+   "dup": "63f8b3d9dd19"
+  },
+  "f7a0ca6f672e": {
+   "dup": "5482b601006c"
+  },
+  "03d0e64b6457": {
+   "dup": "825e070bb2f8"
+  },
+  "3cbdafd91fcd": {
+   "drop": true
+  },
+  "62a4043cd133": {
+   "drop": true
+  },
+  "8eb0d0638506": {
+   "drop": true
+  },
+  "4ba5df44eca7": {
+   "drop": true
+  },
+  "c8a27a2a4da4": {
+   "drop": true
+  },
+  "9d83f278139f": {
+   "drop": true
+  },
+  "748118afcbed": {
+   "drop": true
+  },
+  "55541fbe83fb": {
+   "drop": true
+  },
+  "2497758c090a": {
+   "drop": true
+  },
+  "67199b17fbdb": {
+   "drop": true
+  },
+  "fa25739fd8c9": {
+   "drop": true
+  },
+  "8f9b985859bc": {
+   "drop": true
+  },
+  "4657e7b51e3e": {
+   "drop": true
+  },
+  "bc21a0e64180": {
+   "drop": true
+  },
+  "7f5448cd88b8": {
+   "drop": true
+  },
+  "3bb126e05867": {
+   "drop": true
+  },
+  "a02f92b56269": {
+   "drop": true
+  },
+  "880374658d54": {
+   "drop": true
+  },
+  "8f6feb3cc85d": {
+   "drop": true
+  },
+  "ba4e7a11a33c": {
+   "drop": true
+  },
+  "dbcefded7e8b": {
+   "drop": true
+  },
+  "64aaf7217c07": {
+   "drop": true
+  },
+  "bf3469414575": {
+   "drop": true
+  },
+  "cb11144a4d8b": {
+   "drop": true
+  },
+  "9a843abe46ff": {
+   "drop": true
+  },
+  "5233fa933a71": {
+   "drop": true
+  },
+  "eb044f5467b7": {
+   "drop": true
+  },
+  "5495d99b6e05": {
+   "drop": true
+  },
+  "28554c4e7055": {
+   "drop": true
+  },
+  "3d3ea815955b": {
+   "drop": true
+  },
+  "d5c04bc9db37": {
+   "drop": true
+  },
+  "c77fb9a85045": {
+   "drop": true
+  },
+  "400f043d0868": {
+   "drop": true
+  },
+  "cb0dd4a3327d": {
+   "drop": true
+  },
+  "5db71f2770ee": {
+   "drop": true
+  },
+  "f125678af450": {
+   "drop": true
+  },
+  "419c8609ccf1": {
+   "drop": true
+  },
+  "fc96063e2980": {
+   "drop": true
+  },
+  "8ebbfe45f993": {
+   "drop": true
+  },
+  "e27513e6c3ba": {
+   "drop": true
+  },
+  "f673ea1c4408": {
+   "drop": true
+  },
+  "c4a3cc0b25d6": {
+   "drop": true
+  },
+  "dcd0a9398372": {
+   "drop": true
+  },
+  "8a350686e0c6": {
+   "dup": "35089857be09"
+  },
+  "d2c9e4df78a1": {
+   "dup": "e686b4e44a33"
+  },
+  "7a7057420a13": {
+   "dup": "57d2f91438dc"
+  },
+  "441a2146f94d": {
+   "dup": "6106d689463a"
+  },
+  "1565972466be": {
+   "dup": "45ad23b987b3"
+  },
+  "3684ffb14ec9": {
+   "dup": "7a394850a89e"
+  },
+  "35089857be09": {
+   "cat": "regulatory",
+   "imp": 7,
+   "summary": "The FDA has extended its review of Vertex's investigational IgA nephropathy drug povetacicept by three months, according to STAT, as the company faces questions about possible safety concerns. Povetacicept, a dual BAFF/APRIL inhibitor, had reported a positive interim phase 3 analysis earlier this autumn. The rest of the article is paywalled.",
+   "rel": {
+    "pharma": {
+     "score": 8,
+     "why": "A delayed decision on one of Vertex's key late-stage kidney assets."
+    },
+    "investment": {
+     "score": 5,
+     "why": "Review extensions and safety questions move Vertex's valuation."
+    }
+   }
+  },
+  "2f5e52dda755": {
+   "cat": "regulatory",
+   "imp": 6,
+   "summary": "The MHRA approved Jazz's zanidatamab (Ziihera) for adults with unresectable or metastatic HER2-positive gastroesophageal cancer, adding to its bile duct cancer licence. It is given with chemotherapy, with or without tislelizumab depending on HER2 level. In a 914-patient study, the zanidatamab, chemotherapy and tislelizumab arm lived about seven months longer and went about four months longer without progression.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "A UK label expansion for a HER2 bispecific in a large cancer indication."
+    },
+    "healthcare": {
+     "score": 5,
+     "why": "A new first-line option for UK gastroesophageal cancer patients."
+    }
+   }
+  },
+  "a4526d2ad36b": {
+   "cat": "regulatory",
+   "imp": 5,
+   "summary": "The MHRA approved Regeneron's BCMAxCD3 bispecific linvoseltamab (Lynozyfic) for relapsed or refractory multiple myeloma after at least three prior lines of therapy. In the main 117-patient study, about 71% responded, about half had a complete response, and responses lasted an average of 29 months. The approval came through the International Recognition Procedure.",
+   "rel": {
+    "pharma": {
+     "score": 7,
+     "why": "UK approval for another BCMA bispecific in late-line myeloma."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Widens UK treatment options for heavily pretreated myeloma."
+    }
+   }
+  },
+  "a70e493e24bc": {
+   "cat": "policy",
+   "imp": 5,
+   "summary": "An EMA-run DARWIN EU real-world study of more than 1.6 million people starting GLP-1 medicines in ten European countries between 2015 and 2025 found that obesity has been the most common reason for starting treatment in several populations since 2022, driven by semaglutide and tirzepatide. Semaglutide was the most used drug, and fewer than 14% of new users had no recorded diabetes or obesity diagnosis. Further studies will examine sex differences in side effects.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Hard data on how GLP-1 use has shifted across Europe."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Informs regulators and payers on off-label and obesity use."
+    }
+   }
+  },
+  "4bf4e09f6863": {
+   "cat": "regulatory",
+   "imp": 3,
+   "summary": "EMA's safety committee PRAC met on 23–26 November and started or concluded no referral procedures. It handled 11 safety signals, 71 periodic safety reports and 40 risk management plans; the one ongoing referral concerns intravenous iron products.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Routine EU safety oversight with no new referrals."
+    }
+   }
+  },
+  "948490a91323": {
+   "cat": "regulatory",
+   "imp": 4,
+   "summary": "Korean AI company Mediwhale says it received its first FDA 510(k) clearance, for software that estimates a person's 10-year risk of a first atherosclerotic cardiovascular event from retinal photos plus age and sex. The release gives no performance data; the company plans to target US primary care through retinal-camera networks.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "An FDA-cleared AI tool that reads heart risk from the eye."
+    },
+    "meddevices": {
+     "score": 5,
+     "why": "Software-as-a-device clearance for a Korean firm."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "A non-invasive cardiovascular risk test."
+    }
+   }
+  },
+  "e13f83e2b011": {
+   "cat": "regulatory",
+   "imp": 2,
+   "summary": "Lupin says it won FDA approval for and launched generic sitagliptin tablets in the US. Sitagliptin is the active ingredient of Merck's diabetes drug Januvia.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "A routine generic launch."
+    }
+   }
+  },
+  "64be6463f92d": {
+   "cat": "deals",
+   "imp": 4,
+   "summary": "EQT Healthcare Growth agreed to buy a majority stake in UK-based Kelso Pharma from Apposite Capital; no price was disclosed. Kelso, founded in 2021, has about 14 medicines mainly in endocrine, gastrointestinal and CNS conditions and exports to more than 30 countries. Closing is expected in Q1 2027, and EQT plans launches, acquisitions and licensing.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Private-equity consolidation in European specialty pharma."
+    },
+    "investment": {
+     "score": 5,
+     "why": "A growth-equity buyout by a major fund."
+    }
+   }
+  },
+  "0f0ecb3d1fe1": {
+   "cat": "clinical",
+   "imp": 4,
+   "summary": "Celltrion presented a phase 3 study in 60 Japanese Crohn's patients who switched from IV infliximab to its subcutaneous Remsima SC: remission held over 44 weeks with no discontinuations or dose increases. Its IV biosimilar already holds 48% of Japan's infliximab prescriptions (IQVIA, July 2026), and Celltrion plans a Japanese launch of the SC version in 2027.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "Supports a biosimilar's expansion in Japan."
+    }
+   }
+  },
+  "62846c7f065d": {
+   "cat": "policy",
+   "imp": 4,
+   "summary": "Korea's reimbursement rules, which benchmark new drugs against discounted older ones, are delaying newer Crohn's and ulcerative colitis treatments, clinicians say. Skyrizi's Crohn's indication has waited three years for coverage, Lilly abandoned Omvoh's Korean launch in 2025 after a pricing dispute, and biosimilars pushed Stelara's ceiling price down further.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Shows how pricing rules limit access to new IBD drugs in Korea."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Market-access hurdle for immunology launches in Korea."
+    }
+   }
+  },
+  "126cf33c89ac": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A study from Seoul's Asan Medical Center found that cholesterol levels can rise within four weeks of starting the JAK inhibitor upadacitinib, supporting early lipid monitoring in patients with chronic inflammatory disease.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Practical safety monitoring advice for a widely used drug."
+    },
+    "pharma": {
+     "score": 3,
+     "why": "Real-world safety data on AbbVie's Rinvoq."
+    }
+   }
+  },
+  "2f0512c3e110": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "GC Cell says it has sold 100,000 packs of its autologous immune-cell cancer therapy Immuncell-LC since its 2007 Korean approval, a record for a cell therapy in Korea. The company plans to focus on manufacturing, logistics and access.",
+   "rel": {
+    "cellgene": {
+     "score": 5,
+     "why": "A commercial milestone for a long-marketed Korean cell therapy."
+    }
+   }
+  },
+  "80e2898d1111": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Hanmi presented animal data at ObesityWeek showing its triple agonist zantrutide cut body weight 39.9% and fat mass 66.5% in obese mice versus 25.3% and 38.1% for tirzepatide. It also plans a 2027 phase 1 for its once-weekly myostatin inhibitor to preserve muscle during weight loss, and reported 10.6% weight loss at 64 weeks for efpeglenatide in Korean patients.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "A Korean contender in next-generation obesity drugs."
+    }
+   }
+  },
+  "2a0da9f9039a": {
+   "cat": "deals",
+   "imp": 3,
+   "summary": "Samsung Bioepis picked Shenzhen-based InnoTar Therapeutics, a targeted protein degradation startup spun out of Shenzhen Bay Laboratory, for its open innovation programme run with China's ATLATL Innovation Center. InnoTar gets mentoring and lab support; no financial terms were given.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "A Korean biologics firm scouting Chinese degrader technology."
+    }
+   }
+  },
+  "485346ad3feb": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "CG MedTech launched Raycia, a human acellular dermal matrix, in Korea as the first product of its human tissue CDMO deal with Kolon Pharma signed in June. It is made at the company's Seongnam facility, which passed an FDA inspection in September.",
+   "rel": {
+    "meddevices": {
+     "score": 4,
+     "why": "A new tissue-graft product and CDMO line."
+    },
+    "bioprocessing": {
+     "score": 3,
+     "why": "Contract manufacturing of human tissue products."
+    }
+   }
+  },
+  "6ea80041510a": {
+   "cat": "deals",
+   "imp": 3,
+   "summary": "Ferring Pharmaceuticals will test whether Peptron's SmartDepot microsphere platform can turn its drug candidates into long-acting injectables; terms and candidates were not disclosed. SmartDepot is already used in Peptron's once-monthly leuprorelin, Leupon.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "A drug-delivery evaluation deal with a Swiss drugmaker."
+    }
+   }
+  },
+  "bfa3d5958250": {
+   "cat": "other",
+   "imp": 3,
+   "summary": "Yuhan is promoting its research and manufacturing chiefs to co-deputy CEOs as it marks its centennial, which Korea Biomedical Review reads as a shift in succession strategy that puts drug development and contract manufacturing at the centre.",
+   "rel": {
+    "pharma": {
+     "score": 4,
+     "why": "Leadership change at a major Korean drugmaker."
+    }
+   }
+  },
+  "9fc277a47503": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "UKHSA says only about a third of people with long-term health conditions in England have had this season's flu vaccine and is urging those at high risk to get vaccinated as soon as possible.",
+   "rel": {
+    "healthcare": {
+     "score": 5,
+     "why": "Low flu vaccine uptake among at-risk groups this winter."
+    }
+   }
+  },
+  "2a4338794597": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "An Aston University study in PLOS ONE made a bee-free honey from Plant Based Artisan more antimicrobial by adding invertase and glucose oxidase to generate hydrogen peroxide, plus a precursor of methylglyoxal, the compound behind mānuka honey's effect. The best formulations combined both and were tested against Mycobacterium abscessus in the lab only.",
+   "rel": {
+    "agrifood": {
+     "score": 5,
+     "why": "Enzyme engineering of an alternative-food product."
+    },
+    "industrial": {
+     "score": 3,
+     "why": "Enzyme-based functional ingredients."
+    }
+   }
+  },
+  "31ca27f6d56c": {
+   "cat": "clinical",
+   "imp": 2,
+   "summary": "Daewoong says a population PK/PD model built from phase 1 data will guide dosing of its oral autoimmune candidate plodicitinib, with the phase 1 trial due to finish in Q1 2027.",
+   "rel": {
+    "pharma": {
+     "score": 3,
+     "why": "Early-stage dosing work on a Korean autoimmune drug."
+    }
+   }
+  },
+  "e5af6916ffb9": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Scientific American reviews research on alpha-gal syndrome, the tick-bite-triggered allergy to red meat. Diagnoses are rising, but how the tick bite causes the allergy and why only some people develop it remain unclear.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "A growing, under-recognised allergy."
+    }
+   }
+  },
+  "fa7c9c2224b6": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "The South China Morning Post reports that Tencent has published an AI drug-discovery paper in Nature, which it presents as a breakthrough for the Chinese tech giant. The article itself could not be opened, so the method and results are not confirmed here.",
+   "rel": {
+    "ai": {
+     "score": 7,
+     "why": "A Chinese tech giant's AI drug-design work reaching Nature."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Adds to China's AI drug-discovery push."
+    }
+   }
+  },
+  "8a34fd5465c9": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Labiotech's podcast talks to PerturbAI about its work with OpenAI on AI reasoning agents that turn large CRISPR perturbation datasets into candidate drug targets.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "AI agents applied to functional-genomics data."
+    },
+    "tools": {
+     "score": 3,
+     "why": "CRISPR screening data as a discovery platform."
+    }
+   }
+  },
+  "3c23a997e74a": {
+   "cat": "policy",
+   "imp": 3,
+   "summary": "The Scientist examines what happens to the patents of AI drug-discovery companies if funding dries up and they fold, warning that patented compounds could become hard to assess or develop further.",
+   "rel": {
+    "ai": {
+     "score": 5,
+     "why": "IP risk in the AI biotech funding cycle."
+    },
+    "investment": {
+     "score": 4,
+     "why": "What investors hold when AI biotechs fail."
+    }
+   }
+  },
+  "b72bf8e079d1": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Gladstone Institutes researchers report in Nature Metabolism that defects in the mitochondrial proteins HTRA2 and CLPB let oxygen build up to toxic levels in tissue. HTRA2-deficient mice breathing lower-oxygen air lived three times longer and had less brain inflammation, and the team listed 75 disease genes that may respond to hypoxia therapy. It is developing a drug, HypoxyStat, to mimic the effect. Mouse data only.",
+   "rel": {
+    "pharma": {
+     "score": 5,
+     "why": "A new therapeutic angle for mitochondrial brain disease."
+    },
+    "healthcare": {
+     "score": 4,
+     "why": "Points to hypoxia therapy for rare neurological disorders."
+    }
+   }
+  },
+  "7f3a718f1531": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "Nature Medicine highlights a phase 2 platform trial that tested many tuberculosis regimens built around the new agents ganfeborole and BTZ-043 and picked two combinations for further development. New TB regimens are needed because drug-resistant strains keep spreading.",
+   "rel": {
+    "pharma": {
+     "score": 6,
+     "why": "Moves new anti-TB agents towards phase 3."
+    },
+    "healthcare": {
+     "score": 6,
+     "why": "Potential shorter or better TB treatments."
+    },
+    "biosecurity": {
+     "score": 3,
+     "why": "Relevant to drug-resistant infection."
+    }
+   }
+  },
+  "45ad23b987b3": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "A Nature Chemical Biology paper introduces REVEAL, a native mass spectrometry method that identifies which lipids bind brain G-protein-coupled receptors. It shows receptor activation reshapes the bound lipids, with oxidation-sensitive lipids among them, adding a layer to how GPCR drugs work.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "A new mass-spec method for membrane-protein biology."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "GPCRs are the largest drug-target family."
+    }
+   }
+  },
+  "7a394850a89e": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Structural work in Nature Chemical Biology shows the protein MAP9 wraps around microtubules as a long helix, stabilising them by stapling adjacent protofilaments while also regulating kinesin motors that carry cargo in neurons.",
+   "rel": {
+    "tools": {
+     "score": 3,
+     "why": "Basic cell-biology structure with method interest."
+    }
+   }
+  },
+  "b23a2d7d84bc": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Researchers combined covalent fragment phenotypic screening in human iPS cells with chemoproteomics to find drug targets in a stem cell differentiation model, identifying an FGF receptor inhibitor among the hits (Nature Chemical Biology).",
+   "rel": {
+    "tools": {
+     "score": 5,
+     "why": "A target-discovery workflow pairing phenotypic screens and chemoproteomics."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Covalent fragments as a discovery route."
+    }
+   }
+  },
+  "5bf8dd6349d5": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Nature reports a mouse study of a system that mimics a chromosome-cohesion protein that declines with age, stabilising chromosomes in ageing eggs. It could eventually help improve fertility treatments, though it is far from clinical use.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Early work on age-related egg quality."
+    }
+   }
+  },
+  "74927143a752": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A modelling study proposes coupling aerobic and anaerobic microbial electrolysis cells to convert methane into value-added chemicals more efficiently than aerobic processes alone, aiming to make anaerobic methanotrophs practical. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 5,
+     "why": "Bioconversion of methane into chemicals."
+    },
+    "fermentation": {
+     "score": 4,
+     "why": "Gas-fermentation process design."
+    }
+   }
+  },
+  "074b9fe09a06": {
+   "cat": "science",
+   "imp": 6,
+   "summary": "Researchers ran more than 1,300 binder selections against 96 protein targets, covering about a trillion interactions, to learn why some targets readily yield binders while others resist. They derive interpretable rules for target 'binder-ability' that could guide design. Not yet peer-reviewed.",
+   "rel": {
+    "tools": {
+     "score": 6,
+     "why": "Large-scale data on protein binder discovery."
+    },
+    "ai": {
+     "score": 5,
+     "why": "Training data and rules for binder design models."
+    },
+    "pharma": {
+     "score": 4,
+     "why": "Informs which targets suit biologics."
+    }
+   }
+  },
+  "94df1a47f0f5": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "In a lab colon model, adding virus-enriched fractions from faeces increased bacterial biofilm biomass and changed bacterial responses differently in biofilm and free-floating communities. Not yet peer-reviewed.",
+   "rel": {
+    "healthcare": {
+     "score": 3,
+     "why": "Basic gut virome research."
+    }
+   }
+  },
+  "287729ecdb47": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "A one-year animal study of a braided, biodegradable pure-molybdenum stent for intracranial aneurysms found good biocompatibility but flagged vascular biomechanics as the key remaining challenge. Not yet peer-reviewed.",
+   "rel": {
+    "meddevices": {
+     "score": 5,
+     "why": "A new bioresorbable stent material."
+    }
+   }
+  },
+  "03a24d5b409c": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "The retron Eco9 protects bacteria from phage by modifying translation release factors, stalling protein synthesis in infected cells, the authors report. Retrons are also used as genome-editing tools. Not yet peer-reviewed.",
+   "rel": {
+    "synbio": {
+     "score": 4,
+     "why": "Mechanism of a bacterial defence system used in genetic tools."
+    }
+   }
+  },
+  "c4b4649fdc9e": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "A gut bacterial toxin linked to colorectal cancer is shown to trigger the cGAS-STING immune pathway, with the response amplified by mitochondrial DNA release. The work connects the toxin's effects on DNA to inflammation and cell ageing responses. Not yet peer-reviewed.",
+   "rel": {
+    "healthcare": {
+     "score": 4,
+     "why": "Mechanism linking the gut microbiome to bowel cancer."
+    }
+   }
+  },
+  "b1ce5608d073": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "The nuclear pore protein NUP62 acts as an activation-dependent switch controlling steps of HIV-1 replication after nuclear entry in primary CD4 T cells, the authors report. Not yet peer-reviewed.",
+   "rel": {
+    "healthcare": {
+     "score": 3,
+     "why": "Basic virology of HIV latency and replication."
+    }
+   }
+  },
+  "2af56d0e65d0": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Simulation-based inference of a multiscale reversible-electroporation model suggests how variation between patients shapes success in restoring normal heart rhythm, pointing to electroporation as a gentler alternative to electric shock. Not yet peer-reviewed.",
+   "rel": {
+    "meddevices": {
+     "score": 4,
+     "why": "Modelling for a new cardiac rhythm therapy."
+    }
+   }
+  },
+  "ca6cc326fce1": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "pCASPR is a single-plasmid platform for scarless bacterial genome editing, aiming to simplify guide retargeting, plasmid curing and host transfer compared with existing workflows. Not yet peer-reviewed.",
+   "rel": {
+    "synbio": {
+     "score": 6,
+     "why": "A simpler bacterial genome-editing toolkit for strain engineering."
+    },
+    "tools": {
+     "score": 4,
+     "why": "A laboratory method for bacterial genetics."
+    }
+   }
+  },
+  "100e0258ef8f": {
+   "cat": "science",
+   "imp": 4,
+   "summary": "Tailored coarse-grained models are used to explain how cell-free protein synthesis reactions behave, aiming to make yields more predictable for synthetic biology applications. Not yet peer-reviewed.",
+   "rel": {
+    "synbio": {
+     "score": 6,
+     "why": "Cell-free systems are a core synthetic biology platform."
+    },
+    "bioprocessing": {
+     "score": 4,
+     "why": "Predicting yields in cell-free production."
+    }
+   }
+  },
+  "0610f5c6ab50": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Researchers engineered intracellular microbes to act as synthetic organelles that exchange signals with host mammalian cells, using a bioluminescent system for programmable two-way communication. The approach could give control over mammalian cell behaviour. Not yet peer-reviewed.",
+   "rel": {
+    "synbio": {
+     "score": 7,
+     "why": "Engineering microbes as programmable organelles inside cells."
+    },
+    "cellgene": {
+     "score": 4,
+     "why": "Possible route to controlling engineered cells."
+    }
+   }
+  },
+  "9afb13b81f38": {
+   "cat": "science",
+   "imp": 5,
+   "summary": "Acid-tolerant non-conventional yeasts were made genetically tractable with an optimised transformation protocol, positioning them as low-pH hosts for organic acid production where conventional hosts struggle. Not yet peer-reviewed.",
+   "rel": {
+    "industrial": {
+     "score": 7,
+     "why": "Low-pH yeast hosts cut neutralisation costs in organic acid production."
+    },
+    "fermentation": {
+     "score": 7,
+     "why": "New production strains for industrial fermentation."
+    },
+    "synbio": {
+     "score": 6,
+     "why": "Engineering tools for new microbial chassis."
+    }
+   }
+  },
+  "24f2cb6d22ff": {
+   "cat": "science",
+   "imp": 3,
+   "summary": "Polyamines are tested as organic counterions for assembling multi-crossover DNA nanostructures, which normally need positive ions to shield strand repulsion. Not yet peer-reviewed.",
+   "rel": {
+    "synbio": {
+     "score": 4,
+     "why": "DNA nanostructure assembly chemistry."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Materials for DNA nanotechnology."
     }
    }
   }
@@ -36277,6 +36879,77 @@
     "bioprocessing": {
      "score": 3,
      "why": "Manufacturing quality controls."
+    }
+   }
+  },
+  {
+   "id": "2026-11-27-neurophet-subtle-pet",
+   "title": "Korea's Neurophet partners with Subtle Medical to combine PET imaging with quantitative analysis",
+   "url": "https://www.biospectrumasia.com/news/27/28727/koreas-neurophet-partners-with-subtle-medical-to-combine-pet-imaging-with-advanced-quantitative-analysis.html",
+   "source": "BioSpectrum Asia",
+   "kind": "news",
+   "published": "2026-11-26T00:00:00Z",
+   "cat": "deals",
+   "imp": 4,
+   "summary": "Korean brain-imaging company Neurophet signed an integration deal to put its software, including SCALE PET, which quantifies amyloid build-up on the Centiloid scale, into Subtle Medical's US platform. Subtle's SubtleHD(PET) is claimed to speed PET scans by up to 75% and is deployed on more than 1,500 imaging scanners worldwide. Neurophet plans to use Subtle's network to widen US distribution. Financial terms were not disclosed.",
+   "rel": {
+    "ai": {
+     "score": 6,
+     "why": "AI image reconstruction paired with quantitative brain-imaging software."
+    },
+    "diagnostics": {
+     "score": 5,
+     "why": "Amyloid PET quantification supports Alzheimer's diagnosis."
+    },
+    "meddevices": {
+     "score": 4,
+     "why": "Imaging software distributed across installed scanner networks."
+    }
+   }
+  },
+  {
+   "id": "2026-11-27-polyu-bioresorbable-implant",
+   "title": "Hong Kong team develops externally readable, battery-free bioresorbable implant",
+   "url": "https://www.biospectrumasia.com/news/27/28745/hong-kong-develops-externally-readable-battery-free-bioresorbable-implant.html",
+   "source": "BioSpectrum Asia",
+   "kind": "news",
+   "published": "2026-11-27T00:00:00Z",
+   "cat": "science",
+   "imp": 5,
+   "summary": "Researchers at The Hong Kong Polytechnic University, with colleagues at Yonsei University, built a bioresorbable implant that needs no battery: it harvests power from ultrasound through triboelectric energy harvesting. Nanoscale iridium(III) phosphors in the biodegradable polymer glow under a handheld UV lamp, letting a clinician see the implant's outline through the skin and spot damage or degradation, and they also raise its electrical output. Because the device dissolves and carries no battery, it avoids a second operation to remove one. No performance figures or journal were given in the report.",
+   "rel": {
+    "meddevices": {
+     "score": 7,
+     "why": "A battery-free, dissolving implant that can be checked without imaging equipment."
+    },
+    "tools": {
+     "score": 3,
+     "why": "Novel luminescent materials for implantable electronics."
+    }
+   }
+  },
+  {
+   "id": "2026-11-27-clostridium-immunis-visceral-fat",
+   "title": "A sugar made by a gut bacterium helps burn visceral fat in mice",
+   "url": "https://www.biospectrumasia.com/news/25/28746/a-sugar-made-by-a-gut-bacterium-may-help-the-body-burn-visceral-fat.html",
+   "source": "BioSpectrum Asia",
+   "kind": "news",
+   "published": "2026-11-27T00:00:00Z",
+   "cat": "science",
+   "imp": 5,
+   "summary": "Duke-NUS and Duke University researchers report in Cell Host & Microbe that an exopolysaccharide made by the gut bacterium Clostridium immunis raises energy use in visceral fat and curbs weight gain in animals, but only when it carries a phosphocholine group. The modified sugar lowered interleukin-22 and increased cells containing UCP1, the protein that lets fat cells release energy as heat. A metagenomic analysis of 4,145 people found fewer copies of the gene that adds phosphocholine in people with a BMI of 25 or above, an association only. The team has filed a patent and plans US trials.",
+   "rel": {
+    "healthcare": {
+     "score": 6,
+     "why": "A microbiome route to treating obesity alongside GLP-1 drugs."
+    },
+    "pharma": {
+     "score": 5,
+     "why": "A new drug class candidate for metabolic disease."
+    },
+    "synbio": {
+     "score": 3,
+     "why": "Engineered bacterial polysaccharides as therapeutics."
     }
    }
   }
